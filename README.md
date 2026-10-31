@@ -21,7 +21,7 @@ FullCalendar Standard 适合标准月／周历，vis-timeline 适合分组时间
 
 ## GitHub Pages（尚未发布）
 
-项目使用相对路径，可放在独立仓库根目录。已准备 `.github/workflows/pages.yml`，供未来授权后使用：将本目录内容提交到选定仓库，仓库 Settings → Pages 的 Build and deployment 选择 GitHub Actions；明确授权发布后再手动触发 workflow；推送本身不会自动部署。提交、推送和部署是独立步骤。部署前须审阅整个数据文件和公开范围；GitHub Pages 是公开网站，不适合放置不愿公开的求职状态或个人信息。不要提交整个就职目录、凭证、私人邮件原文或带 token 链接。用户尚未选定仓库或授权推送、公开发布。
+项目使用相对路径，可放在独立仓库根目录。已准备 `.github/workflows/pages.yml`，供未来授权后使用：将本目录内容提交到选定仓库，仓库 Settings → Pages 的 Build and deployment 选择 GitHub Actions；明确授权发布后再手动触发 workflow；推送本身不会自动部署。提交、推送和部署是独立步骤。部署前须审阅整个数据文件和公开范围；GitHub Pages 是公开网站，不适合放置不愿公开的求职状态或个人信息。不要提交整个就职目录、凭证、私人邮件原文或带 token 链接。已授权上传到私有仓库；尚未授权公开发布。
 
 ## 视觉与信息层级
 
