@@ -16,7 +16,7 @@
 
 - 最初整合10/30机会总表71条中的69条；后按下述设计范围调整，明确跳过的CA游戏企划和游戏开发活动未列入。保留已落选记录但不把其原场次当成实际占用。
 - 增补10/31已核实的设计方向正式选考批次；17家公司尚未确认的正式设计入口已按范围调整移出展示。
-- CA、CONCENT、Persol、JustSystems、Members、DENSO、I-STUDIO及CafeGroup采用10/31操作状态；ENSAPIA参加确认仍待核；Mercari Camp只作为待结果候选，分三段展示。ゼミ展为旧计划保留期间，具体值班及最新安排待核。
+- CA、CONCENT、Persol、JustSystems、Members、DENSO、I-STUDIO及CafeGroup采用10/31操作状态；ENSAPIA参加确认仍待完成；Mercari Camp已按设计范围移出日历。ゼミ展为旧计划保留期间，具体值班及最新安排待核。
 - Accenture两种测试截止均保留，MyPage待核；Suzuki官网正文与平台页头截止存在差异；MIXI个人MyPage期限待核。日期只精确到月或具体场次未定的项目留在说明中，不塞进某一天。
 - 仍需后续逐项核对私人MyPage、课程及新邮件；旧计划中的11/12学校提交事项是否已完成也未验证，因此不伪装成求职日历的确定待办。来源文字不等于本次实时重新登录。
 
