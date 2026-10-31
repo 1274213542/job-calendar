@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f4f8">
+  <title>求职日历 · 2028</title>
+  <link rel="stylesheet" href="./style.css?v=20261031b">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="masthead">
+      <a class="brand" href="#top" aria-label="求职日历首页"><span class="brand-mark">日</span><span><b>求职日历</b><small>DESIGN CAREER</small></span></a>
+      <div class="header-right"><span class="tz">东京时间 <i>JST</i></span><span class="live-dot"></span><span id="today-label"></span></div>
+    </header>
+    <main id="top">
+      <section class="intro">
+        <div><p class="eyebrow">2028 届 · 设计求职</p><h1>我的求职日程</h1><p class="intro-copy">查看申请截止、活动时间和每个项目的进度</p></div>
+        <div class="intro-aside"><strong id="hero-count">—</strong><p>项近期行动<br><span>截止、已约与待确认</span></p></div>
+      </section>
+      <section class="filters" aria-label="筛选机会">
+        <div class="category-filter" id="category-filter">
+          <button class="chip active" data-category="all">全部 <span id="total-count"></span></button>
+          <button class="chip" data-category="activity"><i class="dot activity"></i>说明会／反馈</button>
+          <button class="chip" data-category="internship"><i class="dot internship"></i>实习</button>
+          <button class="chip" data-category="selection"><i class="dot selection"></i>本选考</button>
+          <button class="chip" data-category="personal"><i class="dot personal"></i>已约个人安排</button>
+        </div>
+        <div class="filter-controls"><label><span>公司</span><input id="company-filter" type="search" placeholder="搜索公司或项目"></label><label><span>状态</span><select id="status-filter"><option value="all">全部状态</option></select></label><label><span>进度</span><select id="progress-filter"><option value="all">全部进度</option><option value="confirmed">已预约／确认</option><option value="planned">候选／计划</option><option value="submitted">已提交／待结果</option></select></label><button class="reset" id="reset-filters">重置</button></div>
+      </section>
+      <div class="content-grid">
+        <section class="main-column">
+          <section class="panel calendar-panel" aria-labelledby="calendar-title">
+            <div class="panel-heading"><div><h2 id="calendar-title">日历</h2><p class="panel-desc">查看活动与各项截止时间</p></div><div class="view-toggle" role="group" aria-label="日历视图"><button class="active" data-view="month">月</button><button data-view="week">周</button></div></div>
+            <div class="calendar-toolbar"><div class="date-nav"><button id="prev" aria-label="上一个时间段">←</button><strong id="calendar-period"></strong><button id="next" aria-label="下一个时间段">→</button><button id="today">今天</button></div><div class="legend" aria-label="日历标记说明"><span class="legend-badge mark-confirmed">已确认</span><span class="legend-badge mark-deadline">截止</span><span class="legend-badge mark-pending">待确认</span><span class="legend-badge mark-open">开放</span><span class="legend-badge mark-completed">已办</span></div></div>
+            <div id="calendar" class="calendar" aria-live="polite"></div>
+          </section>
+          <section class="panel timeline-panel" aria-labelledby="timeline-title">
+            <div class="panel-heading"><div><h2 id="timeline-title">项目时间轴</h2><p class="panel-desc">按项目查看报名窗口、截止节点与活动时间</p></div><div class="timeline-controls"><button id="timeline-back" aria-label="时间轴向前">←</button><button id="timeline-forward" aria-label="时间轴向后">→</button><select id="timeline-zoom" aria-label="时间轴范围"><option value="30">30 天</option><option value="60" selected>60 天</option><option value="90">90 天</option><option value="180">180 天</option></select></div></div>
+            <div class="timeline-key"><span><i class="key-window"></i> 报名窗口</span><span><i class="key-event"></i> 活动期间</span><span class="legend-badge mark-confirmed">已确认</span><span class="legend-badge mark-deadline">截止</span><span class="legend-badge mark-open">开放</span><span>其他状态见项目名称下方</span></div>
+            <div id="timeline" class="timeline"></div><p class="timeline-hint">左右滑动查看日期，点击节点或项目查看详情。</p>
+          </section>
+          <section class="panel unknown-panel" aria-labelledby="unknown-title"><div class="panel-heading"><div><h2 id="unknown-title">待核对</h2><p class="panel-desc">尚未确定日期、期限或状态的信息</p></div><span class="count-badge" id="unknown-count">0</span></div><div id="unknown-list"></div></section>
+        </section>
+        <aside class="side-column">
+          <section class="panel actions-panel"><div class="panel-heading"><div><h2>近期行动</h2><p class="panel-desc">14 天内截止 · 全部未来已确认安排</p></div></div><div id="actions"></div></section>
+          <section class="panel conflicts-panel"><div class="panel-heading"><div><h2>时间重叠</h2><p class="panel-desc">具体时间与日期范围分别比较</p></div></div><div id="conflicts"></div></section>
+          <div class="footnote"><span>◎</span><p>信息以各项目来源及个人 MyPage 为准。<br>点击项目可查看记录和下一步。</p></div>
+        </aside>
+      </div>
+    </main>
+    <footer><span>JOB SEARCH PLANNER <b> / </b> 2028</span><span id="updated-label">本地数据</span></footer>
+  </div>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button class="close-dialog" aria-label="关闭">×</button><div id="detail-content"></div></div></dialog>
+  <script type="module" src="./app.js?v=20261031b"></script>
+</body>
+</html>
