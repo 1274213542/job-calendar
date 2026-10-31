@@ -1,0 +1,2182 @@
+{
+  "updatedAt": "2026-10-31",
+  "timezone": "Asia/Tokyo",
+  "opportunities": [
+    {
+      "id": "opp-55915b0015",
+      "company": "Goodpatch",
+      "title": "UX设计1Day",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "正式已提交待结果",
+      "statusDetail": "10/31 14:45 HRMOS邮件确认正式申请提交成功；尚无录取结果。",
+      "description": "UI/UX、服务设计、品牌与产品开发支援；东京涩谷线下；参加免费；无交通补贴；未公布实习报酬；履历书PDF必需、作品集PDF可选；书类→线上面试1次→SPI性格检查→参加；约20名；截止后约1周告知书类结果",
+      "nextAction": "等待书类结果；12/5为候选时间，尚未确定参加。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/jobs/2316102706524372992"
+        },
+        {
+          "label": "10/31 HRMOS正式申请完成回执（私人邮件，正文未收录）"
+        }
+      ],
+      "notes": "原资料：报名开始 2026-10-15；截止 2026-11-01 23:59；举办 2026-12-05 10:00–18:00；1天。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-15",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-01T23:59",
+          "label": "报名截止",
+          "completed": true
+        },
+        {
+          "type": "event",
+          "date": "2026-12-05T10:00",
+          "label": "候选举办日（待选考结果）",
+          "endDate": "2026-12-05T18:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-ec071bd0e8",
+      "company": "ENSAPIA",
+      "title": "秋季UIUX／平面1Day",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "已入选待确认",
+      "statusDetail": "10/30邮件确认通过；10/31已邮件表达参加意愿并请求开放表单权限，参加确认表仍未核到提交。",
+      "description": "数字社交、虚拟形象与游戏；Tokyo办公室；录取邮件提到谢礼手续；金额以本人参加说明为准；已通过选考；需填写参加确认表，办理参加及谢礼手续",
+      "nextAction": "等待公司回复表单权限并完成参加确认；截止11/5 23:59。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "10/30 ENSAPIA录取邮件及参加确认表；私人邮件正文未收录"
+        },
+        {
+          "label": "10/31本人已发送的表单权限咨询邮件（私人邮件，正文未收录）"
+        }
+      ],
+      "notes": "原资料：报名开始 原申请已结束；截止 参加确认：2026-11-05 23:59；举办 2026-11-20 09:30–18:30；1天。 参加确认截止以10/30录取邮件为依据；私人邮件正文未收录。",
+      "milestones": [
+        {
+          "type": "confirmation_deadline",
+          "date": "2026-11-05T23:59",
+          "label": "参加确认截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-20T09:30",
+          "label": "实际举办",
+          "endDate": "2026-11-20T18:30"
+        }
+      ]
+    },
+    {
+      "id": "opp-01066a81d5",
+      "company": "Drecom",
+      "title": "UI/UX设计1Day工作坊",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／计划申请",
+      "statusDetail": "该RD页仍为応募する；未核到本人提交",
+      "description": "游戏、出版及IP内容；线上；最新版Photoshop；未公布报酬；28卒、作品集；应募者均安排个别casual面谈；各场约10人，人多可能抽签；制作、发表与讲评",
+      "nextAction": "优先考虑11/14；12/5与Goodpatch同天。各场前1周截止，不擅自补23:59。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/Jf5a5878810a6c9e73c0c3fe185f9674b"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 11/14场：11/07；12/05场：11/28（均未写钟点）；举办 2026-11-14或12-05 10:00–18:00；1天。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-07",
+          "label": "11/14场申请截止"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-28",
+          "label": "12/5场申请截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-14T10:00",
+          "label": "11/14场",
+          "endDate": "2026-11-14T18:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-05T10:00",
+          "label": "12/5场",
+          "endDate": "2026-12-05T18:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-2b726e222a",
+      "company": "NEZOT／WDB",
+      "title": "设计师体验1DAY",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／计划申请",
+      "statusDetail": "你此前已参加过NEZOT；本轮未新预约",
+      "description": "WDB集团Web平台策划、设计、开发和运营；大阪或神户现场；5,000日元＋交通上限10,000日元；2028届；官方未列作品集选考；需申请具体场次",
+      "nextAction": "有薪且短；同课程重复参加资格与收益不应默认，若想再去先核实。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.wdbhd.co.jp/recruit/graduate/event/grade-third/internship.html"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间；先到先得；举办 2026-11-12大阪／11-27神户，均09:30–17:00。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-12T09:30",
+          "label": "大阪场",
+          "endDate": "2026-11-12T17:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-27T09:30",
+          "label": "神户场",
+          "endDate": "2026-11-27T17:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-156343f8d1",
+      "company": "Panasonic",
+      "title": "CREATIVE OJT 广告创意（照明／住宅设备）",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／计划申请",
+      "statusDetail": "未核到正式材料提交",
+      "description": "家电、照明、住宅设备与数字体验；大阪门真线下；无报酬；交通住宿按公司规定；Challenge Sheet＋自我介绍／作品集；书类审查；这两广告课程未列面试",
+      "nextAction": "图形、编辑、传播方向适配；与UIUX课程分开。官网星期有笔误，数字日期为12/1。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://recruit.jpn.panasonic.com/internship/courses/creative/index.html"
+        }
+      ],
+      "notes": "原资料：报名开始 2026-10-19；截止 2026-12-01 15:00；举办 2027-02-01–02-05；5天；另有1月导入。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-19",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-01T15:00",
+          "label": "报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-01",
+          "label": "实际举办",
+          "endDate": "2027-02-05"
+        }
+      ]
+    },
+    {
+      "id": "opp-81f3a6ed1a",
+      "company": "LIFULL",
+      "title": "社会课题设计实习2027",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "预Entry",
+      "statusDetail": "RD实习预Entry显示応募済み；11/12说明会已预约，实习尚未录取。",
+      "description": "HOME’S居住服务、社会课题相关服务与品牌设计；东京／线上混合，按日不同；交通旅费按规定；报酬未公布；先参加Top Seminar→选考，需作品集；实习未通过仍可报本选考",
+      "nextAction": "先参加11/12 17–18说明会，再决定实习选考。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/J2a7523491900a3b6e1f570d96369633b"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 RD募集：2026-12-21 17:00；举办 2027年2月；4天，具体日未公布。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-21T17:00",
+          "label": "ReDesigner募集截止"
+        }
+      ]
+    },
+    {
+      "id": "opp-d8ddeecb77",
+      "company": "CafeGroup",
+      "title": "2D设计短期实习",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／计划申请",
+      "statusDetail": "表单草稿未提交，作品集未上传；大学院资格待核。",
+      "description": "2D设计短期实习，具体课题未公布；开发事业部的其他学生活动有Figma界面设计案例，但不能据此保证本次是UIUX。线上／东京线下；线下无交通补贴；作品集必需。",
+      "nextAction": "核对M1资格、准备作品集；当前仅为草稿。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://cafegroup.co.jp/news/3157"
+        }
+      ],
+      "notes": "2026-11-06截止（时刻未公布）。当前意向：第一志愿2027/1/18–22现场，第二志愿2026/12/21–25线上；各窗口内3天，个人日期未定。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-09",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-06",
+          "label": "报名截止"
+        }
+      ]
+    },
+    {
+      "id": "opp-1b5366df96",
+      "company": "SmartHR",
+      "title": "学生产品设计实习",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "status": "候选／计划申请",
+      "statusDetail": "新发现；未申请",
+      "description": "人事劳动管理SaaS与企业产品；东京；远程规则未写；2,000日元/小时；Figma＋作品集＋履历书＋约800字作文；书类→面试2次；看重信息架构、AI实际制作、可运行产品与协作",
+      "nextAction": "长期里优先考虑，与你设计系统和AI流程较贴合，但需用真实制作证据说明。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/J6401f5eb977573f77f4a2ea416c9a5ba"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 至少每周2日、10小时；总期间未公布。",
+      "milestones": []
+    },
+    {
+      "id": "opp-3fd3a4b3aa",
+      "company": "Mercari",
+      "title": "UI/UX Designer Internship",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "status": "候选／计划申请",
+      "statusDetail": "RD接洽过；未核到此岗位正式申请成功",
+      "description": "二手交易及相关金融／电商服务；日本境内远程／六本木；职位报酬依条件；本次不引用其他Camp报酬；官方Workable完整申请表仍开放；作品集等按表单；与Camp分开",
+      "nextAction": "官方截止12/31；RD倒计时10/31不是企业正式截止，不能混写。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://apply.workable.com/mercari/j/DBA3561ADB/"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-12-31 23:59 JST；举办 约2–3个月；每周≥20小时；申请距入职至少2个月，入职每月1或16日。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-31T23:59",
+          "label": "报名截止"
+        }
+      ]
+    },
+    {
+      "id": "opp-eb11a81103",
+      "company": "Panasonic",
+      "title": "CREATIVE OJT UI/UX①②",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "status": "预Entry",
+      "statusDetail": "RD预Entry；正式材料未核到提交。",
+      "description": "设备与服务界面、用户体验；京都／大阪门真；无报酬；交通住宿支持；Challenge Sheet＋作品集等；书类＋面试（12/14或15予定）；未公开SPI或监考要求",
+      "nextAction": "高度匹配；超过一周，不能放进1周内。面试日与Mercari Camp候选日期冲突。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://recruit.jpn.panasonic.com/internship/courses/creative/index.html"
+        }
+      ],
+      "notes": "原资料：报名开始 2026-10-19；截止 2026-12-01 15:00；举办 2027-01-27–02-04；7工作日／9自然日；1/13 18:30–19:30导入。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-19",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-01T15:00",
+          "label": "报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-13T18:30",
+          "label": "导入",
+          "endDate": "2027-01-13T19:30"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-27",
+          "label": "候选：实习",
+          "endDate": "2027-02-04"
+        }
+      ]
+    },
+    {
+      "id": "opp-b2d8f5ac76",
+      "company": "ENSAPIA",
+      "title": "Zero Lab Design",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "status": "候选／计划申请",
+      "statusDetail": "未申请",
+      "description": "数字社交产品与AI实验；东京世田谷；远程天数面试讨论；2,000日元/小时；团队使用真实数据探索UX、AI原型并向经营层提案",
+      "nextAction": "与AI设计能力相关，工作时间需和修士课程协调。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://herp.careers/v1/ensapia/nQUincgIc03x"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 3个月起；每周2天起；平日10–19点内每日4小时起。",
+      "milestones": []
+    },
+    {
+      "id": "opp-b3b9be1d2d",
+      "company": "SWIPEDRAMA",
+      "title": "UIUX设计实习",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "status": "候选／计划申请",
+      "statusDetail": "未申请",
+      "description": "竖屏短剧与娱乐应用；可全远程；1,500日元/小时（含税）；也可月固定契约；作品集；约30分钟casual面谈→2次面谈→录用；需要自主推进和团队合作",
+      "nextAction": "线上便利，但不能据此判轻松；正文可周末工作与休日土日休有矛盾，工时需核。10/31只是说明视频到期。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/J0d3d655af02dcbab0096e8ba9f2fc0b4"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 每周3–5天；无核心时段；总期间未写。",
+      "milestones": []
+    },
+    {
+      "id": "opp-bd307ddfdc",
+      "company": "Yappli",
+      "title": "无代码应用UIUX实习",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "status": "候选／计划申请",
+      "statusDetail": "未申请",
+      "description": "企业无代码应用平台；六本木；每周至少2日到岗；时薪制，金额依技能；PS/AI与作品集；履历书/作品→多次面试；应用企划、视觉与CMS",
+      "nextAction": "项目匹配，工时不轻；3/4日及3–6小时条款不一致，申请前需公司说明。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/Jc28c036c8c03250dd171f688e6001898"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 约2周；正文每周≥3日/24小时，条款栏写每周4日起。",
+      "milestones": []
+    },
+    {
+      "id": "opp-f5ead15ef1",
+      "company": "Game Freak",
+      "title": "冬季2D Art Internship",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "status": "候选／计划申请",
+      "statusDetail": "未申请",
+      "description": "Pokémon等游戏开发；以公司当期安排为准；无报酬；带照PDF履历、原创人物/非人物彩画及素描；作品集推荐；任务→适性检查→面试1次；最终发表2/24与2/25有冲突",
+      "nextAction": "不是短期UIUX；可优先了解同公司作品建议会。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.vivivit.com/job-postings/13669"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-23 23:59；举办 2027-01-19–02-25；每周≥16小时。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-23T23:59",
+          "label": "报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-19",
+          "label": "实际举办",
+          "endDate": "2027-02-25"
+        }
+      ]
+    },
+    {
+      "id": "opp-bc35483533",
+      "company": "Suzuki",
+      "title": "四轮设计实习（含GUI）",
+      "category": "internship",
+      "subtype": "即将开放",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未开放",
+      "description": "汽车、车载HMI与工业设计；静冈浜松线下；报酬未公布；ES＋Web测试＋PF<10MB（建议<20页）＋成绩单；外籍JLPT N3或JPT430；四轮二轮不能兼报",
+      "nextAction": "车载UI方向高匹配；比一周长；与Panasonic UIUX重叠。RD页头23:59应以正文/官网23:50为准。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.design-recruit.suzuki.co.jp/event/info/2027design-practice-car.html"
+        },
+        {
+          "label": "ReDesigner页头23:59、正文23:50",
+          "url": "https://student.redesigner.jp/recruitments/J19ce206e70192a2e6bdbacefaf4ac09e"
+        }
+      ],
+      "notes": "原资料：报名开始 2026-11-09 10:00；截止 2026-11-23 23:50；举办 2027-01-28–02-05；通过实习审查者另2/18或19。官网正文截止23:50，RD页头为23:59；采用官网正文并保留差异。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-09T10:00",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-23T23:50",
+          "label": "报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-28",
+          "label": "实际举办",
+          "endDate": "2027-02-05"
+        }
+      ]
+    },
+    {
+      "id": "opp-dc8aff302e",
+      "company": "Suzuki",
+      "title": "二轮设计实习",
+      "category": "internship",
+      "subtype": "即将开放",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未开放",
+      "description": "摩托车工业设计；静冈浜松线下；报酬未公布；同四轮材料/测试；造型、CMFG、模型方向；不能与四轮兼报",
+      "nextAction": "周期短，但与作品方向相比四轮GUI更匹配。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.design-recruit.suzuki.co.jp/event/info/2027design-practice-motorcycle.html"
+        },
+        {
+          "label": "ReDesigner页头23:59、正文23:50",
+          "url": "https://student.redesigner.jp/recruitments/J0d890f835e0bb90173a96e392425d05a"
+        }
+      ],
+      "notes": "原资料：报名开始 2026-11-09 10:00；截止 2026-11-23 23:50；举办 2027-01-25–01-29；5天。官网正文截止23:50，RD页头为23:59；采用官网正文并保留差异。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-09T10:00",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-23T23:50",
+          "label": "报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-25",
+          "label": "实际举办",
+          "endDate": "2027-01-29"
+        }
+      ]
+    },
+    {
+      "id": "opp-0643215788",
+      "company": "Yamaha",
+      "title": "冬期设计实习",
+      "category": "internship",
+      "subtype": "即将开放",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未开放",
+      "description": "乐器、音响与数字设备；Yamaha本社；日当1,000日元＋餐费；交通住宿支持；学习产品设计者；提交指定课题；申请时不交PF、参加时携带",
+      "nextAction": "11/9看题目；产品设计方向条件需与自己的专攻作品对应。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/designer/"
+        }
+      ],
+      "notes": "原资料：报名开始 2026-11-09；截止 2027-01-05 12:00；举办 2027-02-01–02-05；5天。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-09",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-01-05T12:00",
+          "label": "报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-01",
+          "label": "实际举办",
+          "endDate": "2027-02-05"
+        }
+      ]
+    },
+    {
+      "id": "opp-1eb5743c61",
+      "company": "ほぼ日",
+      "title": "旅のなかまに 招聘实习",
+      "category": "internship",
+      "subtype": "即将开放",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未开放",
+      "description": "含网站／应用 UI、包装、活动视觉和空间等设计方向；东京；部分工作可能远程；1,400日元/小时；书类→约2次面试→实习；兼任条件需核。",
+      "nextAction": "偏编辑、生活方式与产品设计；工作兼任条件需核。11月上旬先看线上说明会公告。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.1101.com/intern/tabinonakama_2026/index.html"
+        }
+      ],
+      "notes": "原资料：报名开始 2026-11-25 11:00；截止 2026-12-09 11:00；举办 约2个月；流程2–3月、概要1–3月有差异；约每周3天、每天5小时。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-25T11:00",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-09T11:00",
+          "label": "报名截止"
+        }
+      ]
+    },
+    {
+      "id": "opp-8bb33b8b33",
+      "company": "Honda",
+      "title": "下一轮设计Workshop／Spring",
+      "category": "internship",
+      "subtype": "即将开放",
+      "status": "候选／计划申请",
+      "statusDetail": "待发布",
+      "description": "Honda 设计方向，包含 UI/UX；当期完整条件待公布，不沿用旧募集条件。",
+      "nextAction": "关注新募集要项与设计主题。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://global.honda/jp/jobs/design/"
+        }
+      ],
+      "notes": "预计2026年11月公告；暂无截止时间；2027年2–3月，具体日期待公布。",
+      "milestones": []
+    },
+    {
+      "id": "opp-fe2baefbd3",
+      "company": "CyberAgent",
+      "title": "设计师作品集Guidance",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "报名已提交待结果",
+      "statusDetail": "10/31 MyPage受理，人数多时抽选，席位未确定。",
+      "description": "互联网广告、ABEMA媒体与游戏；Zoom webinar；麦克风/摄像头可关；免费；无报酬；问卷申请；人多抽签；讲PF评价标准。参加后1个月内投PF可获一次再次提交机会",
+      "nextAction": "等待抽选／参加结果和活动指引；报名已受理。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.cyberagent.co.jp/careers/students/career_event/detail/id=33776"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-04 10:00；举办 2026-11-05 12:00–13:00。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-04T10:00",
+          "label": "报名截止",
+          "completed": true
+        },
+        {
+          "type": "event",
+          "date": "2026-11-05T12:00",
+          "label": "实际举办",
+          "endDate": "2026-11-05T13:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-7dd531df43",
+      "company": "WeddingPark",
+      "title": "UX/UI设计少人数说明会",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "已预约／确认参加",
+      "statusDetail": "已预约，收到公司Zoom。",
+      "description": "婚礼信息与婚礼场地选择服务；Zoom，链接已收；未公布费用；公司/职种/选考介绍",
+      "nextAction": "参加即可；11/5后接CA12–13。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "10/19 ReDesigner公司消息与10/21本人回复，预约已确认"
+        }
+      ],
+      "notes": "原资料：报名开始 已预约；截止 无需再次报名；举办 2026-11-05 11:00–12:00。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-05T11:00",
+          "label": "实际举办",
+          "endDate": "2026-11-05T12:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-83bc5b305c",
+      "company": "LIFULL",
+      "title": "Designer Top Seminar",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "已预约／确认参加",
+      "statusDetail": "本人已确认预约。",
+      "description": "居住信息、社会课题与品牌服务；线上，LINE预约；未公布费用；实习前必听；无需PF；听后再决定是否选考",
+      "nextAction": "参加；不要与Leverages11/12同约。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/J0403464a2f6b77aa70fe5a047e73e328"
+        }
+      ],
+      "notes": "原资料：报名开始 已预约；截止 无需再次报名；举办 2026-11-12 17:00–18:00。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-12T17:00",
+          "label": "实际举办",
+          "endDate": "2026-11-12T18:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-d698b0e5c5",
+      "company": "I-STUDIO",
+      "title": "创意职公司说明会",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "登录未通过，说明会尚未预约。",
+      "description": "博报堂系数字创意与Web体验制作；现场；未公布费用；MyPage约场；与本选考材料提交分开",
+      "nextAction": "由本人处理登录后核对场次及截止，当前尚未预约。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://i-studio-career.snar.jp/login.aspx"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-05 12:00；举办 2026-11-06 14:30–16:00。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-05T12:00",
+          "label": "报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-06T14:30",
+          "label": "实际举办",
+          "endDate": "2026-11-06T16:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-6286d81e29",
+      "company": "I-STUDIO",
+      "title": "作品集咨询会",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "需本人登录、审阅作品集；尚未申请。",
+      "description": "数字广告与交互体验；现场／Web择场；未公布费用；MyPage申请；参加者有选考；需准备PF",
+      "nextAction": "本人登录后核时段与要求；上传前审阅作品集。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://i-studio-career.snar.jp/login.aspx"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-16 12:00；举办 11/24现场14:30–18:30分场；11/25线上11:00–17:30分场；每人约25分钟。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-16T12:00",
+          "label": "报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-24T14:30",
+          "label": "现场分场范围，约25分钟／人",
+          "endDate": "2026-11-24T18:30"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-25T11:00",
+          "label": "线上分场范围，约25分钟／人",
+          "endDate": "2026-11-25T17:30"
+        }
+      ]
+    },
+    {
+      "id": "opp-55300098fc",
+      "company": "Sony",
+      "title": "Creative Center企业Seminar",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "新发现；未确认预约",
+      "description": "电子、娱乐及跨领域设计；Teams线上；未公布费用；企业/项目介绍与设计师交流；须Sony外部表单逐场申请，RD按钮不算正式报名",
+      "nextAction": "优先11/5，避开11/17 CA。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.sony.com/ja/SonyInfo/design/career/seminar_privacypolicy/"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无各场截止时间；先到先得；11/20标签不可套用早期场；举办 11/05、11/17 各18:00–19:30。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-05T18:00",
+          "label": "实际举办",
+          "endDate": "2026-11-05T19:30"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-17T18:00",
+          "label": "实际举办",
+          "endDate": "2026-11-17T19:30"
+        }
+      ]
+    },
+    {
+      "id": "opp-37ec3f204b",
+      "company": "Sony",
+      "title": "作品集制作Advice",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "未预约",
+      "description": "Creative Center；Teams线上；未公布费用；员工学生时期PF案例讲解，不是每人点评",
+      "nextAction": "与ENSAPIA11/20实习重叠30分钟，不建议同时承诺完整参加。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/J0d8e2e4e340330aebd0d0171469f43b6"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 RD总标签：2026-11-20 16:00；满额可早关；举办 2026-11-20 18:00–19:00。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-20T16:00",
+          "label": "RD总标签"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-20T18:00",
+          "label": "实际举办",
+          "endDate": "2026-11-20T19:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-a55f0cdeed",
+      "company": "Nintendo",
+      "title": "产品设计线上Seminar",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "未确认预约",
+      "description": "游戏硬件与互动体验；线上；全程摄像头/麦克风关闭；未公布费用；学生不限学年；MyPage预Entry后约场；先到先得",
+      "nextAction": "低交流负担，了解实体产品设计工作；参加不影响选考。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/J0f6a6a7b2d9928101360a9b7d30a0865"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 11/11场→11/06 12:00；11/17场→11/12 12:00；11/26场→11/20 12:00；举办 11/11、17、26 各16:30–17:15。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-06T12:00",
+          "label": "11/11场截止"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-12T12:00",
+          "label": "11/17场截止"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-20T12:00",
+          "label": "11/26场截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-11T16:30",
+          "label": "实际举办",
+          "endDate": "2026-11-11T17:15"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-17T16:30",
+          "label": "实际举办",
+          "endDate": "2026-11-17T17:15"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-26T16:30",
+          "label": "实际举办",
+          "endDate": "2026-11-26T17:15"
+        }
+      ]
+    },
+    {
+      "id": "opp-f0ac29e0e1",
+      "company": "Nintendo",
+      "title": "产品设计PF咨询／员工交流",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "未申请",
+      "description": "产品设计；京都总部开发栋；远方交通按规定；2028/4入社；ES＋数件产品设计作品；约10人/天；12/11前结果；与Artwork PF会不能兼报",
+      "nextAction": "产品设计作品充分时再选；以图形为主可能更适合以后Artwork场。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/Jfddab89be2f23f3cc47a035d45669f24"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-30 12:00；举办 2026-12-21或22 12:30–16:00；最终参加一天。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-30T12:00",
+          "label": "报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-21T12:30",
+          "label": "候选场",
+          "endDate": "2026-12-21T16:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-22T12:30",
+          "label": "候选场",
+          "endDate": "2026-12-22T16:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-ad61947242",
+      "company": "JustSystems",
+      "title": "11月UIUX公司说明会",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "预Entry",
+      "statusDetail": "RD活动页已応募済み；MyPage资料注册仍在推进，11/19场尚未预约。",
+      "description": "スマイルゼミ、ATOK及企业软件；线上；未公布费用；无需事前ES；MyPage注册约场，听后再决定选考",
+      "nextAction": "完成MyPage资料注册后核对11/19场次并预约。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/Jbbb6c0c886b8854b575cbe2eb3c4aece"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 更新RD页：2026-11-10 09:00；举办 11/11 09:30–10:30；11/19 13–14；11/24 19–20。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-10T09:00",
+          "label": "RD平台统一结束标签"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-19T13:00",
+          "label": "意向场，未预约",
+          "endDate": "2026-11-19T14:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-1c4d34fa39",
+      "company": "CONCENT",
+      "title": "设计公司工作研究",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "报名已提交待指引",
+      "statusDetail": "10/31 RD応募済み，等待公司指引，不代表座席已确认。",
+      "description": "服务设计、编辑与品牌、数字产品；Zoom／东京现场；未公布费用；公司、两位员工案例与答疑；线下有额外座谈20名",
+      "nextAction": "等待公司发送当日参加指引。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/J1b6435e391135dc7f2856796363c1177"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 线上：2026-11-11 15:00；线下另页/满额提前关；举办 2026-11-11 18:30–19:30线上；线下到约20:00。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-11T15:00",
+          "label": "报名截止",
+          "completed": true
+        },
+        {
+          "type": "event",
+          "date": "2026-11-11T18:30",
+          "label": "实际举办",
+          "endDate": "2026-11-11T19:30"
+        }
+      ]
+    },
+    {
+      "id": "opp-80ccdd1cc4",
+      "company": "Persol Career",
+      "title": "11月作品集反馈会",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "报名已提交待指引",
+      "statusDetail": "10/31 RD応募済み；未选择或保证个别反馈席位。",
+      "description": "doda等人才与职业服务；线上；未公布费用；28卒；PF选考讲解、个别反馈及座谈；反馈人数多时抽签，可旁听",
+      "nextAction": "等待公司指引；如希望个别反馈，准备作品集和反馈问题。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/J9fac44132da6f58465f7c0c50e2b5e30"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-13 18:00；举办 2026-11-19 16:00–17:45。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-13T18:00",
+          "label": "报名截止",
+          "completed": true
+        },
+        {
+          "type": "event",
+          "date": "2026-11-19T16:00",
+          "label": "实际举办",
+          "endDate": "2026-11-19T17:45"
+        }
+      ]
+    },
+    {
+      "id": "opp-1bcefcc2c8",
+      "company": "DENSO",
+      "title": "Graphic中心设计说明会",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "Zoom草稿待本人完成人机验证，尚未提交。",
+      "description": "汽车技术、产品及品牌传播；Zoom webinar；未公布费用；设计部＋公关部、图形/编辑/Web/UI与实习介绍；正文指示当天打开Zoom注册页",
+      "nextAction": "由本人完成reCAPTCHA并提交注册；随后确认邮件。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/J12436a9bac4334dcc408e5c726c07f8b"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无单场报名截止；RD11/19 19:00是末场结束标签；举办 2026-11-17或19 18:00–19:00。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-19T18:00",
+          "label": "意向场，未提交",
+          "endDate": "2026-11-19T19:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-0efa90e468",
+      "company": "Sun Asterisk",
+      "title": "Creative说明会＋前辈座谈",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "未报名",
+      "description": "数字产品、创新业务与设计开发支援；线上；未公布费用；28卒；RD申请后公司给具体约场方式",
+      "nextAction": "UIUX/服务设计高相关，11/9场避免后续日程拥挤。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/Ja482a3da24d09db23e2b33c0d60760fe"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 11/09、11/17 各17:00–18:15；11/30 16:00–17:15。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-09T17:00",
+          "label": "实际举办",
+          "endDate": "2026-11-09T18:15"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-17T17:00",
+          "label": "实际举办",
+          "endDate": "2026-11-17T18:15"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-30T16:00",
+          "label": "实际举办",
+          "endDate": "2026-11-30T17:15"
+        }
+      ]
+    },
+    {
+      "id": "opp-a1702d3007",
+      "company": "ENSAPIA",
+      "title": "12月作品集反馈会",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "新轮次；旧草稿不等于此场已申请",
+      "description": "UIUX与图形设计；线上；需摄像头/麦克风；未公布费用；28卒以后；PDF≤30MB，超容量可文件链接，Web作品集不可；参加有选考；每人约20分钟整体构成咨询",
+      "nextAction": "Mercari Camp入选则冲突；11/20实习也已有反馈价值。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://herp.careers/v1/ensapia/UlafHfCtigwR"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-25 23:59；举办 2026-12-09 16:00–18:00。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-25T23:59",
+          "label": "报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-09T16:00",
+          "label": "实际举办",
+          "endDate": "2026-12-09T18:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-cbc5bd2b6e",
+      "company": "Game Freak／ViViViT",
+      "title": "3DCG幕后＋内定者作品集解说",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "未确认预约",
+      "description": "Pokémon等游戏开发；Zoom webinar；未公布费用；面向游戏创作者；独立预约后收到观看链接",
+      "nextAction": "3D方向拓展；与Sony11/5冲突，按UIUX优先可选Sony。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.vivivit.com/events/gamefreak/3dcg-2026"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 2026-11-05 18:30起约90分钟。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-05T18:30",
+          "label": "约90分钟",
+          "endDate": "2026-11-05T20:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-0165f6d3d4",
+      "company": "ViViViT",
+      "title": "しごとマップ展前线上企业介绍",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "未确认预约",
+      "description": "学生设计职业平台；Zoom webinar；可中途进出；未公布费用；全学年；每公司20分钟；预约和现场展会入场预约分开",
+      "nextAction": "设计优先11/10 ENSAPIA等、11/13 CA/Infobahn/GK京都/SevenDex、11/26 Sansan/たき/GMO等。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.vivivit.com/events/shigoto-map"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 11/09–13、11/26–27，每日18:30–最多20:30。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-09T18:30",
+          "endDate": "2026-11-09T20:30",
+          "label": "每日线上介绍；最多至20:30"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-10T18:30",
+          "endDate": "2026-11-10T20:30",
+          "label": "每日线上介绍；最多至20:30"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-11T18:30",
+          "endDate": "2026-11-11T20:30",
+          "label": "每日线上介绍；最多至20:30"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-12T18:30",
+          "endDate": "2026-11-12T20:30",
+          "label": "每日线上介绍；最多至20:30"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-13T18:30",
+          "endDate": "2026-11-13T20:30",
+          "label": "每日线上介绍；最多至20:30"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-26T18:30",
+          "endDate": "2026-11-26T20:30",
+          "label": "每日线上介绍；最多至20:30"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-27T18:30",
+          "endDate": "2026-11-27T20:30",
+          "label": "每日线上介绍；最多至20:30"
+        }
+      ]
+    },
+    {
+      "id": "opp-e99bcc3d35",
+      "company": "ViViViT",
+      "title": "创意工作展2026 东京",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "未确认来场预约；DentsuDigital已匹配不等于来场预约",
+      "description": "招聘展与作品集反馈；TODA HALL东京京桥；费用以预约页为准；现场企业展示、PF展、非选考1对1反馈；需已登录VV作品集；与企业匹配可提前锁定面谈",
+      "nextAction": "11/28设计日优先。现场总官网时间优先于早期企业私信13–18旧时段。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.vivivit.com/events/shigoto-ten"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无总截止时间；10/30仅早约特典期限；举办 2026-11-28–29 12:30–17:30；12:00开场，16:30最后入场。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-28T12:30",
+          "label": "实际举办",
+          "endDate": "2026-11-28T17:30"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-29T12:30",
+          "label": "实际举办",
+          "endDate": "2026-11-29T17:30"
+        }
+      ]
+    },
+    {
+      "id": "opp-033995763b",
+      "company": "たき／ABeam／ViViViT",
+      "title": "设计师共创与团队协作讲座",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "未预约",
+      "description": "品牌设计与咨询；Zoom；免费；无作品集提交；如何让团队参与设计",
+      "nextAction": "ENSAPIA实习18:30结束后仅30分钟，考虑通勤与精力；可选而非必排。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.vivivit.com/events/dezanare/2026-vol10"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 2026-11-20 19:00–20:00。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-20T19:00",
+          "label": "实际举办",
+          "endDate": "2026-11-20T20:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-99bfd5be09",
+      "company": "武藏野美术大学",
+      "title": "校内作品集Lab咨询",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "可现场参加",
+      "description": "校内职业支持；9号馆1楼ゼロスペース；校内活动；每枠20分钟、一次最多2枠；11/5 16:20–19有たき、Bank of Innovation、MIXI",
+      "nextAction": "11/5中午CA与12:45排队冲突，可改11/6。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://st.uc.career-tasu.jp/guidlist/?id=699b4240f39bf9e2a172cdcbd451dc9b"
+        }
+      ],
+      "notes": "原资料：报名开始 无需事前预约；截止 当天名额满为止；举办 2026-11-05、06 各13:00–19:00；12:45受付。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-05T13:00",
+          "label": "12:45开始受付",
+          "endDate": "2026-11-05T19:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-06T13:00",
+          "label": "12:45开始受付",
+          "endDate": "2026-11-06T19:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-2314fcc00f",
+      "company": "武藏野美术大学",
+      "title": "UIUX／服务设计合同企业说明会",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "未确认预约",
+      "description": "校内联合企业活动；线上；校内活动；CONCENT/Goodpatch/Sun*/MIXI/Persol；邮件对象学部1–3年，M1资格尚待校内系统确认",
+      "nextAction": "有合适企业；先核M1可参加。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://st.uc.career-tasu.jp/guidlist/?id=699b4240f39bf9e2a172cdcbd451dc9b"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 2026-11-13 16:00–18:30。 邮件对象为学部1–3年，修士1年是否可参加需向校内系统核对。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-13T16:00",
+          "label": "实际举办",
+          "endDate": "2026-11-13T18:30"
+        }
+      ]
+    },
+    {
+      "id": "opp-1d0bbe6bb6",
+      "company": "NEZOT／WDB",
+      "title": "IT系统Growth说明会",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "未新预约",
+      "description": "平台策划设计开发；Zoom；未公布费用；设计/前端/Web/企划介绍；听完可决定是否继续选考",
+      "nextAction": "如已参加实习，对后续职位有兴趣再听。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.wdbhd.co.jp/recruit/graduate/event/grade-third/company-orientation.html"
+        }
+      ],
+      "notes": "原资料：报名开始 10/27更新；截止 暂无截止时间（来源未公布）；举办 11/02 14–15；11/11 16–17；11/16 13–14；11/19 11–12；11/24 10–11；12月更多场。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-02T14:00",
+          "label": "实际举办",
+          "endDate": "2026-11-02T15:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-11T16:00",
+          "label": "实际举办",
+          "endDate": "2026-11-11T17:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-16T13:00",
+          "label": "实际举办",
+          "endDate": "2026-11-16T14:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-19T11:00",
+          "label": "实际举办",
+          "endDate": "2026-11-19T12:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-24T10:00",
+          "label": "实际举办",
+          "endDate": "2026-11-24T11:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-a6ecf24894",
+      "company": "ReDesigner",
+      "title": "Designer Career Jam 2027 Winter",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "新公开；未报名",
+      "description": "学生设计招聘活动；线上／室町三井Hall；费用以活动页为准；多企业活动；Day1截止晚于开场是原通知",
+      "nextAction": "提前保留机会，不是本周紧急。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/events/designer-career-jam-2027-winter"
+        }
+      ],
+      "notes": "原资料：报名开始 2026-10-30；截止 Day1 2027-01-12 18:00；Day2 01-15 17:00；举办 Day1 2027-01-12 17:00–20:50；Day2 01-16 10:30–17:00。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-30",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-01-12T18:00",
+          "label": "Day1截止（原通知晚于开场）"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-01-15T17:00",
+          "label": "Day2截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-12T17:00",
+          "label": "Day1",
+          "endDate": "2027-01-12T20:50"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-16T10:30",
+          "label": "Day2",
+          "endDate": "2027-01-16T17:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-eabe457c20",
+      "company": "BASE",
+      "title": "PAY ID UIUX casual面谈",
+      "category": "activity",
+      "subtype": "已接洽但需约场",
+      "status": "Scout已匹配",
+      "statusDetail": "10/30回复期限已过；回复草稿未发送，面谈未约。",
+      "description": "商家电商工具与PAY ID购物应用；线上；无报酬；公司明确可先了解、不进入选考；需提供几个候选时间",
+      "nextAction": "若仍想聊，尽快简短回复询问能否继续安排；本轮未代发。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "10/27 ReDesigner公司消息；10/30候选时间回复期限已过"
+        }
+      ],
+      "notes": "原资料：报名开始 10/27公司同意；截止 2026-10-30 18:00（已过）；举办 工作日10–19点开场，约60分钟。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-10-30T18:00",
+          "label": "候选时间回复期限，已过"
+        }
+      ]
+    },
+    {
+      "id": "opp-0128a691cd",
+      "company": "Leverages",
+      "title": "设计师Online Meetup",
+      "category": "activity",
+      "subtype": "已接洽但需约场",
+      "status": "候选／计划申请",
+      "statusDetail": "你回复考虑中，公司10/27等待日期；未预约",
+      "description": "人力与数字服务、自有产品；线上；必须开摄像头及麦克风；未公布费用；约8人；Figma作为提问板；员工与学生双向交流",
+      "nextAction": "想练交流选11/26；11/12与LIFULL冲突。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "10/27 ReDesigner公司消息；日期尚未预约"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 2026-11-12或26 17:00–19:00。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-12T17:00",
+          "label": "实际举办",
+          "endDate": "2026-11-12T19:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-26T17:00",
+          "label": "实际举办",
+          "endDate": "2026-11-26T19:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-e2aa99cbc3",
+      "company": "Sansan",
+      "title": "Creators Talk／PF咨询",
+      "category": "activity",
+      "subtype": "已接洽但需约场",
+      "status": "预Entry",
+      "statusDetail": "RD応募済み，具体场次未预约。",
+      "description": "B2B SaaS、品牌与传播设计；计划Zoom；未公布费用；需公司MyPage选场；公开Creator活动目录当前无招募",
+      "nextAction": "保留为待约场，不声称本轮发现可立即参加的具体日程。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://student.redesigner.jp/recruitments/Je93a2a965b58ebb671eeb8158db00390"
+        }
+      ],
+      "notes": "原资料：报名开始 RD预Entry已完成；截止 暂无具体场次截止；RD2027/5/31仅总标签；举办 说明约1小时；PF约1.5小时；具体日期未公开。",
+      "milestones": []
+    },
+    {
+      "id": "opp-1c8cdb18e2",
+      "company": "三洋",
+      "title": "EC／Web设计casual面谈",
+      "category": "activity",
+      "subtype": "已接洽但需约场",
+      "status": "Scout已匹配",
+      "statusDetail": "收到Scout，未回复约场。",
+      "description": "自营EC与Web运营设计；Zoom；无报酬；明确非选考，可先了解EC/Web工作",
+      "nextAction": "若想低承诺了解公司，可回信息阶段意向。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "10/29 ReDesigner Scout消息；尚未回复约场"
+        }
+      ],
+      "notes": "原资料：报名开始 10/29新Scout；截止 暂无截止时间（来源未公布）；举办 个别安排，未定。",
+      "milestones": []
+    },
+    {
+      "id": "opp-ff4fd524f5",
+      "company": "CONCENT",
+      "title": "新卒casual面谈",
+      "category": "activity",
+      "subtype": "已接洽但需约场",
+      "status": "候选／计划申请",
+      "statusDetail": "未新预约",
+      "description": "服务、品牌、编辑与UIUX设计；Zoom或恵比寿；无报酬；新卒专用常设入口；可问工作和职业，不保证逐页PF点评",
+      "nextAction": "比正式选考轻；可在11/11说明会后决定。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://hrmos.co/pages/concent/jobs/0000136"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 个别安排30–60分钟。",
+      "milestones": []
+    },
+    {
+      "id": "opp-c9579f86bd",
+      "company": "GMO Media",
+      "title": "设计职公司说明会",
+      "category": "activity",
+      "subtype": "已接洽但需约场",
+      "status": "已预约／确认参加",
+      "statusDetail": "公司10/28确认改期至12/24；旧10/29不再作为未来参加。",
+      "description": "コエテコ、ポイントタウン等互联网服务；Zoom，链接已收到；未公布费用；从10/29改至12/24",
+      "nextAction": "更新日历，删除旧10/29待参加状态。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "10/28 ReDesigner公司消息确认改期至12/24"
+        }
+      ],
+      "notes": "原资料：报名开始 改期已确认；截止 无需重复报名；举办 2026-12-24 18:00–19:00。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-24T18:00",
+          "label": "实际举办",
+          "endDate": "2026-12-24T19:00"
+        }
+      ]
+    },
+    {
+      "id": "opp-b70896a890",
+      "company": "I-STUDIO",
+      "title": "28卒Creative早期选考",
+      "category": "selection",
+      "subtype": "本选考单独记录",
+      "status": "候选／计划申请",
+      "statusDetail": "收到开放通知；未提交",
+      "description": "公司MyPage；正式薪资不作为实习报酬；ES＋照片＋PF；实物PF12/4邮戳有效",
+      "nextAction": "按你目前方针先听说明会，不自动报本选考。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://i-studio-career.snar.jp/login.aspx"
+        }
+      ],
+      "notes": "原资料：报名开始 2026-10-29；截止 2026-12-04 12:00；举办 正式招聘。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-29",
+          "label": "报名开放"
+        },
+        {
+          "type": "es_deadline",
+          "date": "2026-12-04T12:00",
+          "label": "ES／照片／PF截止"
+        },
+        {
+          "type": "portfolio_deadline",
+          "date": "2026-12-04T12:00",
+          "label": "作品集截止；实物PF为12/4邮戳"
+        }
+      ]
+    },
+    {
+      "id": "opp-12092225f7",
+      "company": "Dentsu Digital",
+      "title": "早期选考",
+      "category": "selection",
+      "subtype": "本选考单独记录",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未开放；未提交",
+      "description": "MyPage；正式岗位；与CareerEXPO分开；正常选考预计2027年1月起",
+      "nextAction": "仅记录。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://dentsudigital.snar.jp/"
+        }
+      ],
+      "notes": "原资料：报名开始 2026-11-12 10:00；截止 2026-11-24 23:59；举办 正式招聘。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-12T10:00",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-24T23:59",
+          "label": "报名截止"
+        }
+      ]
+    },
+    {
+      "id": "opp-06123c2f49",
+      "company": "CONCENT",
+      "title": "2028新卒秋冬term",
+      "category": "selection",
+      "subtype": "本选考单独记录",
+      "status": "候选／计划申请",
+      "statusDetail": "未提交",
+      "description": "官方Entry；正式岗位；履历书、课题、适性检查等",
+      "nextAction": "个人首投目标11/24–27，秋冬官网截止11/30（时刻未公布）；尚未提交。若未通过，春term仍募集时可改进材料后复投。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.concentinc.jp/recruit/newgraduates/entry/index.html"
+        }
+      ],
+      "notes": "原资料：报名开始 2026-10-26；截止 官网2026-11-30；RD导流11/27，时刻均需相应入口确认；举办 正式招聘。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-26",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-27",
+          "label": "RD导流截止，时刻待核"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-30",
+          "label": "官网秋冬term截止，时刻未公布"
+        }
+      ]
+    },
+    {
+      "id": "opp-bc7e730330",
+      "company": "Hakuhodo DY ONE",
+      "title": "2028 Creative Course",
+      "category": "selection",
+      "subtype": "本选考单独记录",
+      "status": "候选／计划申请",
+      "statusDetail": "10/19旧冬季实习未通过；新本选考未提交",
+      "description": "数字广告与创意传播；MyPage线上说明会；正式岗位；当前官网Creative是正社員选考；旧winter申请不是这条",
+      "nextAction": "只听说明会可再安排；不要把账号注册页服务期当实习期。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://axol.jp/zw/s/dac_28/mypage/login"
+        }
+      ],
+      "notes": "具体课程收件情况与期限见MyPage，待核对；暂无公开具体截止时间。旧实习落选不等于本选考落选。",
+      "milestones": []
+    },
+    {
+      "id": "opp-5993d91654",
+      "company": "KEYENCE",
+      "title": "设计实习",
+      "category": "internship",
+      "subtype": "结果与排除",
+      "status": "未入选",
+      "statusDetail": "本次实习未通过；不占用12/11。",
+      "description": "MyPage；不适用；10/28通知结果、10/30重新登录实际读取",
+      "nextAction": "移除12/11确定占用；不据此推断永久不能再应聘。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://mypage.3010.i-webs.jp/keyence-design2028/"
+        }
+      ],
+      "notes": "原资料：报名开始 已结束；截止 已结束；举办 原12月现场不再作确定安排。",
+      "milestones": []
+    },
+    {
+      "id": "opp-2a164f8193",
+      "company": "CyberAgent",
+      "title": "11/9作品集Advice抽选",
+      "category": "activity",
+      "subtype": "结果与排除",
+      "status": "未入选",
+      "statusDetail": "作品集Advice抽选未中，不是本选考落选。",
+      "description": "Zoom；不适用；10/30结果邮件",
+      "nextAction": "该场抽选未中；可关注其他作品集活动。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.cyberagent.co.jp/careers/students/career_event/detail/id=33853"
+        }
+      ],
+      "notes": "原资料：报名开始 已结束；截止 2026-10-28 10:00（已过）；举办 2026-11-09 17:00–19:00。",
+      "milestones": []
+    },
+    {
+      "id": "opp-ffc550f4cc",
+      "company": "COLOPL",
+      "title": "就业型设计实习",
+      "category": "internship",
+      "subtype": "结果与排除",
+      "status": "候选／计划申请",
+      "statusDetail": "未申请",
+      "description": "按公司安排；1,250日元/小时；交通/远方住宿规定支持；岗位含游戏设计；页面截止与举办期矛盾",
+      "nextAction": "不能无条件标作明天截止且能参加；需公司确认下一期，暂不列优先。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://colopl.co.jp/recruit/internship2026/designer/job/"
+        }
+      ],
+      "notes": "原资料：报名开始 页面仍有入口；截止 2026-10-31；举办期却写至2026年10月；举办 2周–2个月；未来安排未确定。截止与举办期相互矛盾，日期待确认，未作为待办日期。",
+      "milestones": []
+    },
+    {
+      "id": "opp-137a9fd36f",
+      "company": "Game Freak",
+      "title": "12月作品建议会",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "未申请",
+      "description": "游戏开发与游戏界面；线上；无报酬；交通住宿费无；Art／UI／角色模型／动作／背景／特效方向；书类选考约5人以下；Mynavi登记仅是募集通知，不是最终参加申请",
+      "nextAction": "比约5周插画实习更轻；UI方向可看后续正式申请指引。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=100216&optNo=EGNuD"
+        }
+      ],
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-23（未列钟点）；举办 2026年12月线上1天；具体分领域日期未公开。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-23",
+          "label": "报名截止"
+        }
+      ]
+    },
+    {
+      "id": "opp-963aa9e943",
+      "company": "Nintendo",
+      "title": "Artwork作品集咨询活动",
+      "category": "activity",
+      "subtype": "即将开放",
+      "status": "候选／计划申请",
+      "statusDetail": "待开放",
+      "description": "游戏美术方向；产品PF与Artwork PF的特定互斥条件需遵守。",
+      "nextAction": "图形/视觉作品较多时，先比较Artwork路线再选产品PF。",
+      "checkedAt": "2026-10-30",
+      "sources": [
+        {
+          "label": "原始来源",
+          "url": "https://www.nintendo.co.jp/jobs/recruit/event/index.html"
+        }
+      ],
+      "notes": "2027年2月Artwork PF活动，细日待公布；12月1日为报名开放日期，不是举办日期。暂无截止时间。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-12-01",
+          "label": "2月Artwork PF活动开放"
+        }
+      ]
+    },
+    {
+      "id": "selection-smarthr-6",
+      "company": "SmartHR",
+      "title": "28卒产品设计第6批",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未核到正式提交。",
+      "description": "履历书、PF、约800字作文；第7批尚未公布。",
+      "nextAction": "若材料不足可等待，但下一批未保证。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://open.talentio.com/r/1/c/smarthr/pages/125677"
+        }
+      ],
+      "notes": "",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-16",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-10-31",
+          "label": "第6批截止（钟点未公布）"
+        }
+      ]
+    },
+    {
+      "id": "selection-goodpatch-term2",
+      "company": "Goodpatch",
+      "title": "28卒UIUX／服务设计 第2 term",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未核到正式提交。",
+      "description": "UIUX需履历书及PF；服务设计需指定个人work。职位仍募集时可再申请。",
+      "nextAction": "根据准备程度选择term，留意招满。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://goodpatch.com/ja/news/202609_newgraduates2028"
+        }
+      ],
+      "notes": "",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-26",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-29",
+          "label": "报名截止"
+        }
+      ]
+    },
+    {
+      "id": "selection-goodpatch-term3",
+      "company": "Goodpatch",
+      "title": "28卒UIUX／服务设计 第3 term",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未核到正式提交。",
+      "description": "UIUX需履历书及PF；服务设计需指定个人work。职位仍募集时可再申请。",
+      "nextAction": "根据准备程度选择term，留意招满。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://goodpatch.com/ja/news/202609_newgraduates2028"
+        }
+      ],
+      "notes": "",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-30",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-01-11",
+          "label": "报名截止"
+        }
+      ]
+    },
+    {
+      "id": "selection-concent-spring",
+      "company": "CONCENT",
+      "title": "28卒 春term",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未核到正式提交。",
+      "description": "计划中的后续term；官方说明仍募集时可再投。",
+      "nextAction": "临近时复核是否变更。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://hrmos.co/pages/concent/jobs/2301529019589464066"
+        }
+      ],
+      "notes": "日期为予定。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2027-03-01",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-04-12",
+          "label": "报名截止"
+        }
+      ]
+    },
+    {
+      "id": "selection-concent-summer",
+      "company": "CONCENT",
+      "title": "28卒 夏term",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未核到正式提交。",
+      "description": "计划中的后续term；官方说明仍募集时可再投。",
+      "nextAction": "临近时复核是否变更。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://hrmos.co/pages/concent/jobs/2301529019589464066"
+        }
+      ],
+      "notes": "日期为予定。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2027-06-02",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-07-05",
+          "label": "报名截止"
+        }
+      ]
+    },
+    {
+      "id": "selection-accenture-creative",
+      "company": "Accenture",
+      "title": "28卒 Creative 第2回",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未核到正式提交。",
+      "description": "ES、适性检查及PF；同一年度一次。",
+      "nextAction": "先按12/8准备测试，最终以本人MyPage核对。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://www.vivivit.com/job-postings/14127"
+        },
+        {
+          "label": "一般5岗招聘帖：测试12/8（与Creative岗位页不同）",
+          "url": "https://gaishishukatsu.com/recruiting_info/view/15143"
+        }
+      ],
+      "notes": "测试截止在一般招聘帖和Creative岗位页存在差异，MyPage尚未核实；不将较早时间认作最终官方期限。",
+      "milestones": [
+        {
+          "type": "es_deadline",
+          "date": "2026-12-01T10:00",
+          "label": "ES截止"
+        },
+        {
+          "type": "test_deadline",
+          "date": "2026-12-08T23:59",
+          "label": "测试截止：一般招聘帖"
+        },
+        {
+          "type": "test_deadline",
+          "date": "2026-12-10T23:59",
+          "label": "测试截止：Creative岗位页"
+        }
+      ]
+    },
+    {
+      "id": "selection-cyberagent",
+      "company": "CyberAgent",
+      "title": "28卒 Designer综合职",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未核到正式提交。",
+      "description": "通年；同毕业年度正式落选通常不可重来。",
+      "nextAction": "先参加作品集指导并决定首投时间。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://creators.cyberagent.co.jp/faq/"
+        }
+      ],
+      "notes": "暂无统一截止时间；招满可能结束。",
+      "milestones": []
+    },
+    {
+      "id": "selection-base",
+      "company": "BASE",
+      "title": "28卒 PAY ID UIUX",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未核到正式提交。",
+      "description": "履历书PDF与体现UX过程的PF；普通入口不自动继承Scout特典。",
+      "nextAction": "先核复投规则及个人条件。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://open.talentio.com/r/1/c/binc/pages/128919"
+        }
+      ],
+      "notes": "暂无截止时间。Scout面谈另列。",
+      "milestones": []
+    },
+    {
+      "id": "selection-sansan",
+      "company": "Sansan",
+      "title": "28卒 Creator",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未核到正式提交。",
+      "description": "品牌、传播、Web与平面方向；Entry只选1岗。",
+      "nextAction": "核个人PF期限与计次规则。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://jp.corp-sansan.com/recruit/newgrads/jobs/creator-2028/"
+        }
+      ],
+      "notes": "暂无公开截止时间。",
+      "milestones": []
+    },
+    {
+      "id": "selection-mixi",
+      "company": "MIXI",
+      "title": "28卒 Product Designer",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未核到正式提交。",
+      "description": "ES＋PF；需说明AI使用过程及本人判断。",
+      "nextAction": "核本人MyPage材料期限。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/14537/"
+        }
+      ],
+      "notes": "期限见MyPage，待核对；下一批与同届复投未公开。",
+      "milestones": []
+    },
+    {
+      "id": "selection-dena",
+      "company": "DeNA",
+      "title": "28卒 AI Generalist Creative",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "尚未核到正式提交。",
+      "description": "PF、面试、个人JOB设计课题。",
+      "nextAction": "核个人材料期限。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://student.dena.com/aigeneralist/description/"
+        }
+      ],
+      "notes": "暂无公开截止时间；个人材料期限待核对。",
+      "milestones": []
+    },
+    {
+      "id": "selection-nintendo-hardware",
+      "company": "Nintendo",
+      "title": "28卒 硬件设计",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "官网预Entry入口可用；未核到本人正式提交。",
+      "description": "本年度只选1职种；ES后不可改，落选不能换term／职种重报。",
+      "nextAction": "在正式提交前比较方向。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://www.nintendo.co.jp/jobs/recruit/process/index.html"
+        }
+      ],
+      "notes": "",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-12-18T12:00",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-01-29T12:00",
+          "label": "报名截止"
+        }
+      ]
+    },
+    {
+      "id": "selection-nintendo-artwork",
+      "company": "Nintendo",
+      "title": "28卒 Artwork平面",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "官网预Entry入口可用；未核到本人正式提交。",
+      "description": "本年度只选1职种；ES后不可改，落选不能换term／职种重报。",
+      "nextAction": "在正式提交前比较方向。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "官方或岗位来源",
+          "url": "https://www.nintendo.co.jp/jobs/recruit/process/index.html"
+        }
+      ],
+      "notes": "",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2027-02-01T12:00",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-03-12T12:00",
+          "label": "报名截止"
+        }
+      ]
+    },
+    {
+      "id": "opp-8f09e0090b",
+      "company": "Members",
+      "title": "职业设计讲座（已预约个人安排）",
+      "category": "personal",
+      "subtype": "非设计主题 · 个人时间占用",
+      "status": "已预约／确认参加",
+      "statusDetail": "10/31 MyPage显示预约完成，邮件回执确认11/25 18:00线上场。",
+      "description": "综合求职讲座；按用户要求单独列作已预约的个人安排，用于时间管理。",
+      "nextAction": "按预约邮件及MyPage参加，活动约70分钟。",
+      "checkedAt": "2026-10-31",
+      "sources": [
+        {
+          "label": "10/31 MyPage预约完成页面与预约确认邮件；私人会议链接未收录"
+        }
+      ],
+      "notes": "开始时间以预约回执为准；约19:10结束按70分钟活动时长推算。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-25T18:00",
+          "endDate": "2026-11-25T19:10",
+          "label": "已预约活动（约70分钟）",
+          "note": "结束时刻按活动时长推算，约19:10。",
+          "endApproximate": true
+        }
+      ]
+    }
+  ]
+}
