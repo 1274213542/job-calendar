@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -222,18 +222,18 @@
       "title": "2D设计短期实习",
       "category": "internship",
       "subtype": "短期实习与工作坊",
-      "status": "候选／计划申请",
-      "statusDetail": "表单草稿未提交，作品集未上传；大学院资格待核。",
+      "status": "报名已提交待结果",
+      "statusDetail": "2026-11-03用户确认报名表已提交；公司回执未独立核验，作品集邮件是否另发尚未确认。",
       "description": "2D设计短期实习，具体课题未公布；开发事业部的其他学生活动有Figma界面设计案例，但不能据此保证本次是UIUX。线上／东京线下；线下无交通补贴；作品集必需。",
-      "nextAction": "核对M1资格、准备作品集；当前仅为草稿。",
-      "checkedAt": "2026-10-31",
+      "nextAction": "留意选考通知；确认是否需要另发作品集链接邮件。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://cafegroup.co.jp/news/3157"
         }
       ],
-      "notes": "2026-11-06截止（时刻未公布）。当前意向：第一志愿2027/1/18–22现场，第二志愿2026/12/21–25线上；各窗口内3天，个人日期未定。",
+      "notes": "2026-11-06截止（时刻未公布）。提交前表单所填：第一希望2026/12/21–25线上，第二希望2027/1/11–15线上；各窗口内3天，个人日期未定。用户确认已提交；大学院资格和邮件要求未获公司单独确认。",
       "milestones": [
         {
           "type": "open",
@@ -697,10 +697,10 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "候选／计划申请",
-      "statusDetail": "登录未通过，说明会尚未预约。",
+      "statusDetail": "用户已要求预约11/6场；11/3仍停在官方登录页，未预约。",
       "description": "博报堂系数字创意与Web体验制作；现场；未公布费用；MyPage约场；与本选考材料提交分开",
-      "nextAction": "由本人处理登录后核对场次及截止，当前尚未预约。",
-      "checkedAt": "2026-10-31",
+      "nextAction": "本人完成登录／初始密码设置后，预约11/6 14:30–16:00；11/5中午截止。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
@@ -832,10 +832,10 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "候选／计划申请",
-      "statusDetail": "未确认预约",
+      "statusDetail": "11/3官网场次及MyPage入口已核；尚未登录／预约。",
       "description": "游戏硬件与互动体验；线上；全程摄像头/麦克风关闭；未公布费用；学生不限学年；MyPage预Entry后约场；先到先得",
-      "nextAction": "低交流负担，了解实体产品设计工作；参加不影响选考。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "优先11/17 16:30–17:15场，截止11/12 12:00；先完成招聘MyPage登录／预Entry。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
@@ -924,10 +924,10 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "预Entry",
-      "statusDetail": "RD活动页已応募済み；MyPage资料注册仍在推进，11/19场尚未预约。",
+      "statusDetail": "11/2公司回复已核；ReDesigner申请成立，官方MyPage仍需注册，11/19 13:00场未预约。",
       "description": "スマイルゼミ、ATOK及企业软件；线上；未公布费用；无需事前ES；MyPage注册约场，听后再决定选考",
-      "nextAction": "完成MyPage资料注册后核对11/19场次并预约。",
-      "checkedAt": "2026-10-31",
+      "nextAction": "本人完成MyPage条款和账号设置后预约11/19 13:00–14:00。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
@@ -956,10 +956,10 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "报名已提交待指引",
-      "statusDetail": "10/31 RD応募済み，等待公司指引，不代表座席已确认。",
+      "statusDetail": "公司11/2已回复受理11/11线上活动申请，称前一天发送Zoom链接；等待参加链接。",
       "description": "服务设计、编辑与品牌、数字产品；Zoom／东京现场；未公布费用；公司、两位员工案例与答疑；线下有额外座谈20名",
-      "nextAction": "等待公司发送当日参加指引。",
-      "checkedAt": "2026-10-31",
+      "nextAction": "11/10查看公司发送的参加链接；无需重复申请。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
@@ -1048,15 +1048,22 @@
       "title": "Creative说明会＋前辈座谈",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "候选／计划申请",
-      "statusDetail": "未报名",
+      "status": "预Entry",
+      "statusDetail": "11/3已在ReDesigner提交说明会申请并匹配；公司要求创建官方MyPage后另约具体场次，目前尚未完成预约。",
       "description": "数字产品、创新业务与设计开发支援；线上；未公布费用；28卒；RD申请后公司给具体约场方式",
-      "nextAction": "UIUX/服务设计高相关，11/9场避免后续日程拥挤。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "意向11/9 17:00–18:15；完成官方MyPage账号设置与条款确认后预约。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
-          "label": "原始来源",
+          "label": "公司发布的说明会页面",
           "url": "https://student.redesigner.jp/recruitments/Ja482a3da24d09db23e2b33c0d60760fe"
+        },
+        {
+          "label": "11/3本人申请操作：页面応募済み、公司自动回复已核；私人对话不公开"
+        },
+        {
+          "label": "官方招聘入口",
+          "url": "https://sunasterisk-recruit.snar.jp/index.aspx"
         }
       ],
       "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 11/09、11/17 各17:00–18:15；11/30 16:00–17:15。",
@@ -1143,14 +1150,14 @@
     {
       "id": "opp-0165f6d3d4",
       "company": "ViViViT",
-      "title": "しごとマップ展前线上企业介绍",
+      "title": "しごとマップ其他候选场次",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "候选／计划申请",
-      "statusDetail": "未确认预约",
+      "statusDetail": "11/10和11/13已预约，分别拆为已确认日程；本条其余场次未预约。",
       "description": "学生设计职业平台；Zoom webinar；可中途进出；未公布费用；全学年；每公司20分钟；预约和现场展会入场预约分开",
-      "nextAction": "设计优先11/10 ENSAPIA等、11/13 CA/Infobahn/GK京都/SevenDex、11/26 Sansan/たき/GMO等。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
@@ -1167,12 +1174,6 @@
         },
         {
           "type": "event",
-          "date": "2026-11-10T18:30",
-          "endDate": "2026-11-10T20:30",
-          "label": "每日线上介绍；最多至20:30"
-        },
-        {
-          "type": "event",
           "date": "2026-11-11T18:30",
           "endDate": "2026-11-11T20:30",
           "label": "每日线上介绍；最多至20:30"
@@ -1181,12 +1182,6 @@
           "type": "event",
           "date": "2026-11-12T18:30",
           "endDate": "2026-11-12T20:30",
-          "label": "每日线上介绍；最多至20:30"
-        },
-        {
-          "type": "event",
-          "date": "2026-11-13T18:30",
-          "endDate": "2026-11-13T20:30",
           "label": "每日线上介绍；最多至20:30"
         },
         {
@@ -1330,17 +1325,17 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "候选／计划申请",
-      "statusDetail": "未新预约",
+      "statusDetail": "11/3已准备11/16 13:00–14:00官方表格；尚未提交，等私人资料填写确认。",
       "description": "平台策划设计开发；Zoom；未公布费用；设计/前端/Web/企划介绍；听完可决定是否继续选考",
-      "nextAction": "如已参加实习，对后续职位有兴趣再听。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "确认官方表格所需资料后提交11/16场；最迟举办前2个营业日9:00。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://www.wdbhd.co.jp/recruit/graduate/event/grade-third/company-orientation.html"
         }
       ],
-      "notes": "原资料：报名开始 10/27更新；截止 暂无截止时间（来源未公布）；举办 11/02 14–15；11/11 16–17；11/16 13–14；11/19 11–12；11/24 10–11；12月更多场。",
+      "notes": "11/3官网及表格核实：设计相关IT系统Growth，说明会后可决定是否继续选考。报名需生日、邮箱、手机及现住址。",
       "milestones": [
         {
           "type": "event",
@@ -1429,25 +1424,43 @@
       "category": "activity",
       "subtype": "已接洽但需约场",
       "status": "Scout已匹配",
-      "statusDetail": "10/31已发送致歉及11月重新约谈请求；截至11/1本轮查看，未见公司后续回复，面谈时间未确认。",
+      "statusDetail": "11/2阿部回复可安排11月面谈，等待我方候选时间；11/3已拟回复但按本人要求未发送。",
       "description": "商家电商工具与PAY ID购物应用；线上；无报酬；公司明确可先了解、不进入选考；需提供几个候选时间",
-      "nextAction": "等待公司回复能否安排11月casual面谈；如无可约场次，再按公司指引参加说明会和选考。",
-      "checkedAt": "2026-11-01",
+      "nextAction": "审阅11/9 14–15、11/10 14–15、11/16 10–11三个备选时段与草稿后再发送；最终仅约一场。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
-          "label": "10/27 ReDesigner公司消息；10/30候选时间回复期限已过"
+          "label": "11/3核对公司11/2 ReDesigner回复；私人对话与链接不公开"
         },
         {
-          "label": "11/1核对ReDesigner本人10/31已发送消息；私人对话及链接未收录"
+          "label": "11/3用户要求草稿先不发送；当前仅预留候选时间"
         }
       ],
-      "notes": "原资料：报名开始 10/27公司同意；截止 2026-10-30 18:00（已过）；举办 工作日10–19点开场，约60分钟。 10/31已逾期回复并询问11月安排；未提出或确认具体场次。",
+      "notes": "线上、约60分钟、非选考。原10/30回复期限已过，10/31已致歉；公司11/2回复愿意重新安排。三个候选时间仅临时预留，尚未向公司提出，不代表三场面谈。",
       "milestones": [
         {
           "type": "deadline",
           "date": "2026-10-30T18:00",
           "label": "原回复期限（10/31已逾期回复）",
           "completed": true
+        },
+        {
+          "type": "event",
+          "date": "2026-11-09T14:00",
+          "endDate": "2026-11-09T15:00",
+          "label": "备选临时预留／未发送，非已约"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-10T14:00",
+          "endDate": "2026-11-10T15:00",
+          "label": "备选临时预留／未发送，非已约"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-16T10:00",
+          "endDate": "2026-11-16T11:00",
+          "label": "备选临时预留／未发送，非已约"
         }
       ]
     },
@@ -2434,7 +2447,159 @@
       ],
       "notes": "长期募集，未公开固定截止、入职日期、每周最低工时或最低月数。报酬面议；职位所列工作地为东京西麻布，具体出勤安排待确认。11/1未从列表识别到设计岗位，11/2核实详情后补入，不代表今天刚发布。",
       "milestones": []
+    },
+    {
+      "id": "opp-0165f6d3d4-booked-20261110",
+      "company": "ViViViT",
+      "title": "ENSAPIA／giftee 等设计专场",
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "status": "已预约／确认参加",
+      "statusDetail": "11/3通过ViViViT登录账号提交；成功页显示本场次“申込みが完了しました”。",
+      "description": "ENSAPIA、クイック、フリースタイルエンターテイメント、giftee。 Zoom webinar；线上；可中途进出。",
+      "nextAction": "从预约完成邮件查看视听链接；按时参加。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "官方活动页",
+          "url": "https://www.vivivit.com/events/shigoto-map"
+        },
+        {
+          "label": "11/3实际预约完成页已核；私人邮箱与视听链接不公开"
+        }
+      ],
+      "notes": "同系列各场分开记录，仅本场确认。官网标明最多至20:30；成功页日历时段18:30–20:30。 日历预留至官方上限20:30，实际可能提前结束。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-10T18:30",
+          "endDate": "2026-11-10T20:30",
+          "label": "已预约／线上设计专场（最多至20:30）"
+        }
+      ]
+    },
+    {
+      "id": "opp-0165f6d3d4-booked-20261113",
+      "company": "ViViViT",
+      "title": "CyberAgent／INFOBAHN／GK京都 等设计专场",
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "status": "已预约／确认参加",
+      "statusDetail": "11/3通过ViViViT登录账号提交；成功页显示本场次“申込みが完了しました”。",
+      "description": "CyberAgent、INFOBAHN、GK京都；活动正文另列SevenDex，但预约表未列，登坛名单可能调整。 Zoom webinar；线上；可中途进出。",
+      "nextAction": "从预约完成邮件查看视听链接；按时参加。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "官方活动页",
+          "url": "https://www.vivivit.com/events/shigoto-map"
+        },
+        {
+          "label": "11/3实际预约完成页已核；私人邮箱与视听链接不公开"
+        }
+      ],
+      "notes": "同系列各场分开记录，仅本场确认。官网标明最多至20:30；成功页日历时段18:30–20:30。 日历预留至官方上限20:30，实际可能提前结束。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-13T18:30",
+          "endDate": "2026-11-13T20:30",
+          "label": "已预约／线上设计专场（最多至20:30）"
+        }
+      ]
+    },
+    {
+      "id": "activity-goodpatch-uiux-20261119",
+      "company": "Goodpatch",
+      "title": "【必听】UI/UX设计师说明会",
+      "status": "候选／计划申请",
+      "statusDetail": "用户明确一定要听；11/3已准备HRMOS表格，尚未提交，等待私人联系方式填写确认。",
+      "description": "面向2028卒，线上UI/UX设计师专场；与UX 1Day实习申请分开。",
+      "nextAction": "完成11/19 18:00–19:00预约。与DENSO同日同时间冲突；本人明确Goodpatch优先。",
+      "sources": [
+        {
+          "label": "官方HRMOS说明会",
+          "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/events/2301591493399715840"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-19T18:00",
+          "endDate": "2026-11-19T19:00",
+          "label": "必听意向／待预约"
+        }
+      ],
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "checkedAt": "2026-11-03",
+      "notes": "预约待完成；不得标为已确认。"
+    },
+    {
+      "id": "activity-hakuhodo-designer-202612",
+      "company": "博報堂",
+      "title": "28卒设计师专场说明会",
+      "status": "候选／计划申请",
+      "statusDetail": "用户已要求预约；11/3停在博报堂本体MyPage登录，尚未预约。",
+      "description": "在线；12/1或12/2 18:00–19:45，同内容不同登坛者，最终只约一场。",
+      "nextAction": "完成本体MyPage登录及条款确认，优先预约12/1；若满员核对12/2。",
+      "sources": [
+        {
+          "label": "博报堂本体官方设计师活动",
+          "url": "https://hakusuku.jp/recruit/information/designer-entry/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-24T12:00",
+          "label": "说明会预约截止／满额提前关闭"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-01T18:00",
+          "endDate": "2026-12-01T19:45",
+          "label": "优先候选／未预约"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-02T18:00",
+          "endDate": "2026-12-02T19:45",
+          "label": "备选／与12/1只选一场"
+        }
+      ],
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "checkedAt": "2026-11-03",
+      "notes": "预约待完成；不得标为已确认。"
+    },
+    {
+      "id": "activity-visional-product-20261111",
+      "company": "Visional／ビズリーチ",
+      "title": "28卒产品职公司说明会",
+      "status": "候选／计划申请",
+      "statusDetail": "11/3官方表格已准备；尚未提交，等待生日及联系方式填写确认。",
+      "description": "面向工程师与设计师的产品职专场，线上；2028/3前毕业、2028/4入社。",
+      "nextAction": "完成11/11 11:00–11:45预约；不重复申请其他等效场次。",
+      "sources": [
+        {
+          "label": "官方HRMOS活动",
+          "url": "https://public.n-ats.hrmos.co/rookie/events/2316051816225210368"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-11T11:00",
+          "endDate": "2026-11-11T11:45",
+          "label": "意向场／待预约"
+        }
+      ],
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "checkedAt": "2026-11-03",
+      "notes": "预约待完成；不得标为已确认。"
     }
   ],
-  "lastVerifiedAt": "2026-11-02T11:25:03+09:00"
+  "lastVerifiedAt": "2026-11-03T03:20:58+09:00"
 }
