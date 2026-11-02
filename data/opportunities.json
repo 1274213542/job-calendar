@@ -273,15 +273,18 @@
       "title": "UI/UX Designer Internship",
       "category": "internship",
       "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "RD接洽过；未核到此岗位正式申请成功",
+      "status": "预Entry",
+      "statusDetail": "11/2完整读取RD对话：10/26企业明确UI/UX岗位处于仮応募；尚未核到Workable正式提交。",
       "description": "二手交易及相关金融／电商服务；日本境内远程／六本木；职位报酬依条件；本次不引用其他Camp报酬；官方Workable完整申请表仍开放；作品集等按表单；与Camp分开",
-      "nextAction": "官方截止12/31；RD倒计时10/31不是企业正式截止，不能混写。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "如继续申请，需完成官方Workable正式报名；12/31 23:59截止。与已截止的Design Camp分开，不把预报名视作正式提交。",
+      "checkedAt": "2026-11-02",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://apply.workable.com/mercari/j/DBA3561ADB/"
+        },
+        {
+          "label": "11/2核对ReDesigner本人对话：企业10/26说明（私人正文与对话链接不公开）"
         }
       ],
       "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-12-31 23:59 JST；举办 约2–3个月；每周≥20小时；申请距入职至少2个月，入职每月1或16日。",
@@ -2301,7 +2304,126 @@
           "label": "候选校内说明会（未预约）"
         }
       ]
+    },
+    {
+      "id": "internship-epson-design-winter-2028",
+      "company": "Epson／セイコーエプソン",
+      "title": "28卒 冬季UI/UX设计职场实习（5天）",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／计划申请",
+      "statusDetail": "11/2官方页面确认28卒冬季设计课程正在募集；未申请、未入选，两个日期窗口均为候选。",
+      "description": "线下与设计师共同参与实际工作，课题示例为打印机本体及应用程序UI/UX；每人有前辈指导与反馈。资格：28卒且接受过设计相关教育。",
+      "nextAction": "11/18上午截止，具体钟点未公布。通过官网28卒MyPage查看当期课题、具体事业所及所需材料；流程为Entry、WEB测试、WEB面试、参加者决定。",
+      "checkedAt": "2026-11-02",
+      "sources": [
+        {
+          "label": "官方28卒冬季设计实习要项",
+          "url": "https://www.recruit.epson.jp/newgraduate/internship.html"
+        },
+        {
+          "label": "官方Entry／MyPage入口",
+          "url": "https://www.recruit.epson.jp/entry/"
+        }
+      ],
+      "notes": "2026/10/26开放；2027/1/18–1/22或1/25–1/29，各5天，日内时间未公布。无报酬；交通与住宿按公司标准补助。主页面所链主题表仍是2026夏季，不套用旧课程编号、地点或旧作品集格式。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-26",
+          "label": "报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-18",
+          "label": "上午截止（具体钟点未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-18",
+          "endDate": "2027-01-22",
+          "label": "候选第1期（5天，未确认参加）"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-25",
+          "endDate": "2027-01-29",
+          "label": "候选第2期（5天，未确认参加）"
+        }
+      ]
+    },
+    {
+      "id": "internship-notes-design-student",
+      "company": "NOTES DESIGN OFFICE",
+      "title": "学生品牌／平面／Web设计实习",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "status": "候选／计划申请",
+      "statusDetail": "11/2官网标示学生实习募集中，官方PDF明确不限学年；未申请。",
+      "description": "品牌、平面、包装、Web及空间设计公司的助理设计师实习；要求专业学习设计，不限学年。东京代官山现场。",
+      "nextAction": "先评估至少1个月的投入与通勤；设计师申请要求履历书及含个人作品在内10件以上作品集，按官方PDF邮寄；本轮未提交。",
+      "checkedAt": "2026-11-02",
+      "sources": [
+        {
+          "label": "官网学生实习募集入口",
+          "url": "https://www.notes-design.co.jp/recruit.html"
+        },
+        {
+          "label": "官方学生实习募集PDF",
+          "url": "https://www.notes-design.co.jp/s/wp-content/uploads/2026/09/2027_Notes_CD_Intern.pdf"
+        }
+      ],
+      "notes": "随时募集，固定截止及入职日期未公布。最低1个月，9:30–18:30，每周出勤安排需确认；薪酬面议，通勤补助按PDF条件。PDF文件名含2027，但学生实习资格正文明确不限学年。",
+      "milestones": []
+    },
+    {
+      "id": "internship-spect-design-student",
+      "company": "SPECT DESIGN／スペクトデザイン",
+      "title": "学生设计助理实习（UI/HMI等）",
+      "category": "internship",
+      "subtype": "学生兼职（非1Day体验）",
+      "status": "候选／计划申请",
+      "statusDetail": "11/2两个官方招聘页面均列学生实习／兼职；未申请，具体项目分配需确认。",
+      "description": "从制作辅助、研究与资料整理进入设计实务；公司涉及UI/UX、HMI、产品、平面及Web。要求设计教育与实务经验合计2年以上，学生可。大阪天王寺办公室。",
+      "nextAction": "先评估大阪现场投入及与UI/HMI项目的匹配；可由官方入口确认期间、频率、具体工作与待遇，作品集按官网要求准备。",
+      "checkedAt": "2026-11-02",
+      "sources": [
+        {
+          "label": "官方当前募集概览",
+          "url": "https://spect.jp/jobs"
+        },
+        {
+          "label": "官方学生实习详细条件",
+          "url": "https://spect.co.jp/jobs"
+        }
+      ],
+      "notes": "官方详细页写每周至少1日／8小时；新版招聘概览写期间与频率可协商，最终安排待企业确认。最低持续月数、截止、具体时薪未公布；薪酬依经验能力。不是已确认的短期体验场次。",
+      "milestones": []
+    },
+    {
+      "id": "internship-cymed-web-design",
+      "company": "CyMed",
+      "title": "学生Web／LP与UI/UX改善长期实习",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "status": "候选／计划申请",
+      "statusDetail": "11/2设计师实习仍列于企业HRMOS当前24条职位中，并读取职位原文；未申请。",
+      "description": "医疗服务Web、LP、广告图与既有网页UI/UX改善，包含调研、设计提案及发布后改进。面向学习设计的学生，实务经验非必需；Figma、Photoshop或Illustrator学习经验可。",
+      "nextAction": "投入前确认每周工时、最低持续期、到岗方式与报酬；该岗位雇用形式标为业务委托，需按实际条件评估。",
+      "checkedAt": "2026-11-02",
+      "sources": [
+        {
+          "label": "企业HRMOS设计实习原文",
+          "url": "https://hrmos.co/pages/cymed/jobs/2306598560053587970"
+        },
+        {
+          "label": "当前企业招聘列表",
+          "url": "https://hrmos.co/pages/cymed/jobs"
+        }
+      ],
+      "notes": "长期募集，未公开固定截止、入职日期、每周最低工时或最低月数。报酬面议；职位所列工作地为东京西麻布，具体出勤安排待确认。11/1未从列表识别到设计岗位，11/2核实详情后补入，不代表今天刚发布。",
+      "milestones": []
     }
   ],
-  "lastVerifiedAt": "2026-11-02T00:08:31Z"
+  "lastVerifiedAt": "2026-11-02T09:27:55+09:00"
 }
