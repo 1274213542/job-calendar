@@ -2315,9 +2315,9 @@
       "category": "internship",
       "subtype": "短期实习与工作坊",
       "status": "候选／计划申请",
-      "statusDetail": "11/2官方页面确认28卒冬季设计课程正在募集；未申请、未入选，两个日期窗口均为候选。",
+      "statusDetail": "2026-11-02本人明确决定报名：待正式提交。两个实习日期窗口仍为候选，尚未选定场次。",
       "description": "线下与设计师共同参与实际工作，课题示例为打印机本体及应用程序UI/UX；每人有前辈指导与反馈。资格：28卒且接受过设计相关教育。",
-      "nextAction": "11/18上午截止，具体钟点未公布。通过官网28卒MyPage查看当期课题、具体事业所及所需材料；流程为Entry、WEB测试、WEB面试、参加者决定。",
+      "nextAction": "已决定报名。先从28卒MyPage核对冬季UI/UX课题、具体事业所及材料要求，再准备并完成报名；11/18上午截止，具体钟点未公布。",
       "checkedAt": "2026-11-02",
       "sources": [
         {
@@ -2327,6 +2327,9 @@
         {
           "label": "官方Entry／MyPage入口",
           "url": "https://www.recruit.epson.jp/entry/"
+        },
+        {
+          "label": "2026-11-02本人确认报名意向：想报名此5天UI/UX实习（尚未提交）"
         }
       ],
       "notes": "2026/10/26开放；2027/1/18–1/22或1/25–1/29，各5天，日内时间未公布。无报酬；交通与住宿按公司标准补助。主页面所链主题表仍是2026夏季，不套用旧课程编号、地点或旧作品集格式。",
@@ -2353,7 +2356,12 @@
           "endDate": "2027-01-29",
           "label": "候选第2期（5天，未确认参加）"
         }
-      ]
+      ],
+      "applicationIntent": {
+        "decision": "apply",
+        "confirmedOn": "2026-11-02",
+        "evidenceType": "user_confirmation"
+      }
     },
     {
       "id": "internship-notes-design-student",
@@ -2428,5 +2436,5 @@
       "milestones": []
     }
   ],
-  "lastVerifiedAt": "2026-11-02T11:14:55+09:00"
+  "lastVerifiedAt": "2026-11-02T11:25:03+09:00"
 }
