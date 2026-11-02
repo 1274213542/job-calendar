@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01",
+  "updatedAt": "2026-11-02",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -2271,7 +2271,37 @@
           "label": "候选校内说明会（未预约）"
         }
       ]
+    },
+    {
+      "id": "activity-denso-musabi-20261102",
+      "company": "DENSO",
+      "title": "设计部平面设计工作校内说明会",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "status": "候选／计划申请",
+      "statusDetail": "11/2校内通知确认今天举办；未核到本人预约。",
+      "description": "DENSO设计部平面设计师介绍从企划到制作的过程，涵盖视觉识别、编辑、Web、影像及空间传播；武藏野美术大学9号馆211教室。",
+      "nextAction": "如考虑参加今天17:00场次，查看11/2校内通知并从武藏美进路导航确认报名；本轮未代为报名。",
+      "checkedAt": "2026-11-02",
+      "sources": [
+        {
+          "label": "11/1及11/2校内就业通知（私人邮件，正文与报名链接未收录）"
+        },
+        {
+          "label": "DENSO设计部官网",
+          "url": "https://design.denso.com/"
+        }
+      ],
+      "notes": "2026-11-02 17:00–18:30，校内现场。未公布具体报名截止。与原日历11/19线上说明会是不同场次，不合并预约状态。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-02T17:00",
+          "endDate": "2026-11-02T18:30",
+          "label": "候选校内说明会（未预约）"
+        }
+      ]
     }
   ],
-  "lastVerifiedAt": "2026-11-01T00:07:08Z"
+  "lastVerifiedAt": "2026-11-02T00:08:31Z"
 }
