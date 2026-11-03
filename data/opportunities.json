@@ -12,7 +12,7 @@
       "statusDetail": "10/31 14:45 HRMOS邮件确认正式申请提交成功；尚无录取结果。",
       "description": "UI/UX、服务设计、品牌与产品开发支援；东京涩谷线下；参加免费；无交通补贴；未公布实习报酬；履历书PDF必需、作品集PDF可选；书类→线上面试1次→SPI性格检查→参加；约20名；截止后约1周告知书类结果",
       "nextAction": "等待书类结果；12/5为候选时间，尚未确定参加。",
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
@@ -20,6 +20,9 @@
         },
         {
           "label": "10/31 HRMOS正式申请完成回执（私人邮件，正文未收录）"
+        },
+        {
+          "label": "11/2 Goodpatch申请受理邮件已核；无新选考结果，私人正文未收录"
         }
       ],
       "notes": "原资料：报名开始 2026-10-15；截止 2026-11-01 23:59；举办 2026-12-05 10:00–18:00；1天。",
@@ -88,7 +91,7 @@
       "category": "internship",
       "subtype": "短期实习与工作坊",
       "status": "预Entry",
-      "statusDetail": "11/2 ReDesigner报名回执及11/3该职位“応募済み”已核；尚未核到个别面谈安排、具体参加场次或入选确认。",
+      "statusDetail": "11/2 ReDesigner报名回执及11/3职位“応募済み”已核；本人对话仍是系统报名记录，尚无企业匹配、个别面谈或具体场次确认。",
       "description": "游戏、出版及IP内容；线上；最新版Photoshop；未公布报酬；28卒、作品集；应募者均安排个别casual面谈；各场约10人，人多可能抽签；制作、发表与讲评",
       "nextAction": "等待Drecom匹配／面谈与后续正式流程；优先11/14，12/5与Goodpatch候选日同日，两场均未确认参加。",
       "checkedAt": "2026-11-03",
@@ -703,8 +706,8 @@
       "title": "创意职公司说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "候选／计划申请",
-      "statusDetail": "用户已要求预约11/6场；11/3仍停在官方登录页，未预约。",
+      "status": "预Entry",
+      "statusDetail": "11/3核到ReDesigner报名后的10/19企业自动回复；仅预Entry，仍需官方MyPage预约11/6具体场次。当前未核到预约成功。",
       "description": "博报堂系数字创意与Web体验制作；现场；未公布费用；MyPage约场；与本选考材料提交分开",
       "nextAction": "本人完成登录／初始密码设置后，预约11/6 14:30–16:00；11/5中午截止。",
       "checkedAt": "2026-11-03",
@@ -712,6 +715,9 @@
         {
           "label": "原始来源",
           "url": "https://i-studio-career.snar.jp/login.aspx"
+        },
+        {
+          "label": "11/3读取本人ReDesigner对话；私人正文及对话链接不公开"
         }
       ],
       "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-05 12:00；举办 2026-11-06 14:30–16:00。",
@@ -724,7 +730,7 @@
         {
           "type": "event",
           "date": "2026-11-06T14:30",
-          "label": "实际举办",
+          "label": "候选：11/6场（尚未预约）",
           "endDate": "2026-11-06T16:00"
         }
       ]
@@ -735,15 +741,18 @@
       "title": "作品集咨询会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "候选／计划申请",
-      "statusDetail": "需本人登录、审阅作品集；尚未申请。",
+      "status": "预Entry",
+      "statusDetail": "11/2已在ReDesigner预Entry，11/3核到企业自动回复要求转官方MyPage申请；未核到正式材料提交、入选或个人时段。",
       "description": "数字广告与交互体验；现场／Web择场；未公布费用；MyPage申请；参加者有选考；需准备PF",
-      "nextAction": "本人登录后核时段与要求；上传前审阅作品集。",
-      "checkedAt": "2026-10-31",
+      "nextAction": "本人登录官方MyPage后核对材料并正式申请；11/24、11/25只是分场范围，个人约25分钟的时段未定。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://i-studio-career.snar.jp/login.aspx"
+        },
+        {
+          "label": "11/3读取本人ReDesigner对话；私人正文及对话链接不公开"
         }
       ],
       "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-16 12:00；举办 11/24现场14:30–18:30分场；11/25线上11:00–17:30分场；每人约25分钟。",
@@ -2337,8 +2346,8 @@
       "status": "候选／计划申请",
       "statusDetail": "2026-11-02本人明确决定报名：待正式提交。两个实习日期窗口仍为候选，尚未选定场次。",
       "description": "线下与设计师共同参与实际工作，课题示例为打印机本体及应用程序UI/UX；每人有前辈指导与反馈。资格：28卒且接受过设计相关教育。",
-      "nextAction": "已决定报名。先从28卒MyPage核对冬季UI/UX课题、具体事业所及材料要求，再准备并完成报名；11/18上午截止，具体钟点未公布。",
-      "checkedAt": "2026-11-02",
+      "nextAction": "本人已决定报名；11/3官网冬季日期与截止未变，主题链接仍指夏季；28卒MyPage停在登录页，冬季课题、事业所与材料要求待登录后核实。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "官方28卒冬季设计实习要项",
@@ -2642,7 +2651,143 @@
           "label": "校内设计说明会（未预约）"
         }
       ]
+    },
+    {
+      "id": "workshop-fujifilm-bi-ux-2027",
+      "company": "FUJIFILM Business Innovation",
+      "title": "UX设计研究会2027／5天工作坊",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／计划申请",
+      "statusDetail": "11/3核到当前官方募集；未申请、未预约。",
+      "description": "面向2028年3月毕业、在读UI/UX或信息设计课程的大学／大学院／专门学校学生；横滨港未来现场体验UX流程并提案，约6–7人。无日当，交通实报、远方住宿支持。",
+      "nextAction": "可先听11/19说明会；11/26前登记参加希望，再于12/6前提交指定ES和作品集。1/25–29与Epson第二期、Panasonic部分候选日重叠，未代选。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "官方设计研究会2027要项",
+          "url": "https://www.fujifilm.com/fb/ja/about/initiatives/technical/design/jobs"
+        }
+      ],
+      "notes": "官方名称为设计研究会。2027/1/25–29共5天，钟点未公布；Forms与ES/PF是两个期限，截止钟点均未公布。ES用指定PDF；PF为PDF、100MB以内，团队作品标明个人贡献。结果12/23前通知。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-26",
+          "label": "参加希望登记截止（时刻未公布）"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-06",
+          "label": "ES／作品集提交截止（时刻未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-25",
+          "endDate": "2027-01-29",
+          "label": "候选：5天UX研究会（待选考）"
+        }
+      ]
+    },
+    {
+      "id": "activity-fujifilm-bi-design-20261119",
+      "company": "FUJIFILM Business Innovation",
+      "title": "设计研究会公司说明会",
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "status": "候选／计划申请",
+      "statusDetail": "11/3核到当前官方募集；未申请、未预约。",
+      "description": "设计中心官方远程说明会，与5天UX设计研究会分开记录；公开日历只保留官网入口，不收录会议口令。",
+      "nextAction": "11/19 17–18点与Persol作品集反馈会候选安排16–17:45重叠45分钟，18点又衔接必听Goodpatch；需本人取舍，未改约。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "官方说明会时间",
+          "url": "https://www.fujifilm.com/fb/ja/about/initiatives/technical/design/jobs"
+        }
+      ],
+      "notes": "2026/11/19 17:00–18:00；官网未另列说明会预约截止。未核到本人预约／参加确认。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-19T17:00",
+          "endDate": "2026-11-19T18:00",
+          "label": "候选：线上说明会（与Persol重叠）"
+        }
+      ]
+    },
+    {
+      "id": "selection-layerx-product-design-2028",
+      "company": "LayerX",
+      "title": "28卒产品设计本选考／长期实习路线",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "11/3核到当前官方募集；未申请、未预约。",
+      "description": "Bakuraku产品UI/UX、客户研究与部分视觉设计；官方27／28卒岗位。要求产品设计经验、接近母语的日语沟通能力；实习期须有日本合法工作资格。",
+      "nextAction": "先评估研究学业与长期实习投入，再了解设计岗位；本选考与同一ATS的实习路线合并记录，未重复申请。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "官方新卒招聘入口",
+          "url": "https://jobs.layerx.co.jp/newgrads/"
+        },
+        {
+          "label": "官方链接Talentio岗位（浏览器原文已读）",
+          "url": "https://open.talentio.com/r/1/c/layerx/pages/92499"
+        }
+      ],
+      "notes": "通常实习3个月以上，短期可商谈；也接受只参加实习。前5天到岗导入（交通住宿支持），之后可远程；每周工时及截止未公布，报酬按公司规定。实习后双方合意再进入新卒入社路线。",
+      "milestones": []
+    },
+    {
+      "id": "selection-litalico-designer-2028",
+      "company": "LITALICO",
+      "title": "28卒设计师本选考",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "11/3核到当前官方募集；未申请、未预约。",
+      "description": "福祉、教育与社会服务；UI/UX、用户研究、可用性测试、设计系统与视觉沟通。官方新卒设计岗位接受2028年4月入社，作品集必需；东京中目黑正社员岗位。",
+      "nextAction": "先了解设计团队和选考要求；本轮未核到明确设计说明会，不能用儿童支援／综合职活动替代。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "官方新卒招聘",
+          "url": "https://litalico.co.jp/recruit/recruit_student/"
+        },
+        {
+          "label": "官方HERP设计师岗位",
+          "url": "https://herp.careers/v1/litalico/NYhHcBGI8U_q"
+        }
+      ],
+      "notes": "官网新卒在招列表与HERP岗位交叉核实；申请截止和下一轮时间未公布，不推断可以等下一轮。",
+      "milestones": []
+    },
+    {
+      "id": "internship-cyberwave-uiux",
+      "company": "Cyberwave／サイバーウェーブ",
+      "title": "UI/UX长期实习",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "status": "候选／计划申请",
+      "statusDetail": "11/3核到当前官方募集；未申请、未预约。",
+      "description": "VALUE KIT及客户系统的UI/UX、Figma原型与开发协作；需愿意学习HTML/CSS/JavaScript，面向学生且不限定毕业届。东京江户川桥／神乐坂，当前浏览器原文时薪1,250–2,000日元。",
+      "nextAction": "先评估每周至少3个工作日、12小时的投入；每日至少2小时，远程最多3小时／周，无法当作短期体验。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "官方实习在招列表",
+          "url": "https://cyberwave.jp/recruit/job"
+        },
+        {
+          "label": "官方UIUX实习详情（11/3浏览器现场核验）",
+          "url": "https://cyberwave.jp/recruit/job/uiux_intern/"
+        }
+      ],
+      "notes": "11/3当前官方在招列表及详情页已核；试用期3个月。总最低期间、入职日与截止未公布。",
+      "milestones": []
     }
   ],
-  "lastVerifiedAt": "2026-11-03T09:08:10+09:00"
+  "lastVerifiedAt": "2026-11-03T09:20:23+09:00"
 }
