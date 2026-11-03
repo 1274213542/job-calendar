@@ -55,7 +55,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "10/30已通过选考；11/2本人已发送参加表提交完成邮件，11/3核到表单回答成功页；等待公司发送参加详情。",
       "description": "数字社交、虚拟形象与游戏；Tokyo办公室；已通过选考并完成参加确认。谢礼手续及集合详情以公司后续通知为准。",
-      "nextAction": "保留11/20 09:30–18:30安排；等待并阅读公司后续参加详情，无需重复提交确认表。",
+      "nextAction": "保留11/20 09:30–18:30安排；等待并阅读公司后续参加详情，无需重复提交确认表。 本人11/3表示当天兼职可调开；仍需确认实际调班完成。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -82,7 +82,13 @@
           "label": "已确认参加／1Day实习",
           "endDate": "2026-11-20T18:30"
         }
-      ]
+      ],
+      "workAdjustment": {
+        "status": "can_adjust",
+        "confirmedOn": "2026-11-03",
+        "evidenceType": "user_confirmation",
+        "note": "本人表示可调开兼职；未确认已完成调班"
+      }
     },
     {
       "id": "opp-01066a81d5",
@@ -677,7 +683,8 @@
         "attendanceStatus": "unknown",
         "selectionIds": [],
         "intent": "听完后准备本选考"
-      }
+      },
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "opp-83bc5b305c",
@@ -710,7 +717,8 @@
         "attendanceStatus": "unknown",
         "selectionIds": [],
         "intent": "听完后准备本选考"
-      }
+      },
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "opp-d698b0e5c5",
@@ -718,10 +726,10 @@
       "title": "【线下】创意职公司说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "已预约／确认参加",
-      "statusDetail": "11/3官方MyPage显示预约完成，16:08企业预约确认邮件已核验：11/6 14:30–16:00本社现场说明会。",
+      "status": "已预约／出席待定",
+      "statusDetail": "11/6 14:30–16:00本社现场名额预约成功；本人11/3明确只是保留名额，尚未决定是否实际到场。",
       "description": "博报堂系数字创意与Web体验制作；本社现场；公司说明、问答及选考介绍；穿便服；与本选考材料提交分开。",
-      "nextAction": "本人11/3决定先保留11/6（周五）14:30–16:00线下说明会；取消期限11/5 12:00。目前无未来同内容线上场可改。出发前确认交通及其他安排。",
+      "nextAction": "本人尚未决定是否去；先保留名额。若到场须先确认周五兼职调班与通勤，取消期限11/5 12:00。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -738,7 +746,7 @@
           "label": "11/3本人明确要求保留现有线下预约"
         }
       ],
-      "notes": "11/3重新核验仍预约11/6 14:30–16:00东京本社线下。本人询问能否改线上；MyPage全部日程仅这一场，尚未取消或改约。11/25线上作品集咨询需筛选，与说明会不是同一活动。 本人11/3已明确决定保留现有线下预约；后续其他线下场仍须逐场事先告知并确认。",
+      "notes": "11/3重新核验仍预约11/6 14:30–16:00东京本社线下。本人询问能否改线上；MyPage全部日程仅这一场，尚未取消或改约。11/25线上作品集咨询需筛选，与说明会不是同一活动。 本人11/3已明确决定保留现有线下预约；后续其他线下场仍须逐场事先告知并确认。 11/3最新澄清：保留名额不等于已决定出席。",
       "milestones": [
         {
           "type": "deadline",
@@ -749,7 +757,7 @@
         {
           "type": "event",
           "date": "2026-11-06T14:30",
-          "label": "已预约：创意职公司说明会（本社现场）",
+          "label": "线下名额已预约／是否到场待本人决定",
           "endDate": "2026-11-06T16:00"
         }
       ],
@@ -761,7 +769,9 @@
         ],
         "intent": "听完后准备本选考"
       },
-      "attendanceMode": "in_person"
+      "attendanceMode": "in_person",
+      "bookingConfirmed": true,
+      "attendanceIntent": "undecided"
     },
     {
       "id": "opp-6286d81e29",
@@ -835,7 +845,8 @@
           "label": "实际举办",
           "endDate": "2026-11-17T19:30"
         }
-      ]
+      ],
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "opp-37ec3f204b",
@@ -921,7 +932,8 @@
           "label": "实际举办",
           "endDate": "2026-11-26T17:15"
         }
-      ]
+      ],
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "opp-f0ac29e0e1",
@@ -970,7 +982,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3官方MyPage预约完成页及企业确认邮件均已核验：11/19 13:00线上设计职场。",
       "description": "UX设计师与传播设计师线上说明会；公司说明及问答约60分钟；会后休息，再有适性测试与问卷约60分钟。",
-      "nextAction": "Google Meet参会显示名已登记；11/18 18:00后查Google Meet链接。13:00听会约60分钟，会后测试与问卷另约60分钟及休息。履历可在听会后3日内提交（带照片、不需志望动机，上传后不可更换），尚未上传；11/20 09:00提醒处理。",
+      "nextAction": "先确认周四兼职能否为会后测试留出专心时段；Google Meet参会显示名已登记；11/18 18:00后查Google Meet链接。13:00听会约60分钟，会后测试与问卷另约60分钟及休息。履历可在听会后3日内提交（带照片、不需志望动机，上传后不可更换），尚未上传；11/20 09:00提醒处理。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -1009,7 +1021,9 @@
         "attendanceStatus": "unknown",
         "selectionIds": [],
         "intent": "听完说明会后准备和决定本选考"
-      }
+      },
+      "workCompatibility": "requires_confirmation",
+      "scheduleNotice": "说明会后另有约60分钟测试与问卷及休息，最终结束时间未公布；不能按14点已空闲安排。"
     },
     {
       "id": "opp-1c4d34fa39",
@@ -1051,7 +1065,8 @@
         ],
         "intent": "听完后准备本选考"
       },
-      "availabilityStatus": "按本人最新时间安排可参加"
+      "availabilityStatus": "按本人最新时间安排可参加",
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "opp-80ccdd1cc4",
@@ -1062,7 +1077,7 @@
       "status": "报名已提交待指引",
       "statusDetail": "10/31 RD応募済み；未选择或保证个别反馈席位。",
       "description": "doda等人才与职业服务；线上；未公布费用；28卒；PF选考讲解、个别反馈及座谈；反馈人数多时抽签，可旁听",
-      "nextAction": "等待公司指引；如希望个别反馈，准备作品集和反馈问题。",
+      "nextAction": "作品集反馈需要互动，先与本人确认是否调开周四兼职；等待公司指引；如希望个别反馈，准备作品集和反馈问题。",
       "checkedAt": "2026-10-31",
       "sources": [
         {
@@ -1084,7 +1099,8 @@
           "label": "实际举办",
           "endDate": "2026-11-19T17:45"
         }
-      ]
+      ],
+      "workCompatibility": "requires_confirmation"
     },
     {
       "id": "opp-1bcefcc2c8",
@@ -1156,7 +1172,8 @@
         "selectionIds": [],
         "intent": "听完说明会后准备和决定本选考"
       },
-      "availabilityStatus": "按本人最新时间安排可参加"
+      "availabilityStatus": "按本人最新时间安排可参加",
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "opp-a1702d3007",
@@ -1215,7 +1232,8 @@
           "label": "约90分钟",
           "endDate": "2026-11-05T20:00"
         }
-      ]
+      ],
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "opp-0165f6d3d4",
@@ -1266,7 +1284,8 @@
           "endDate": "2026-11-27T20:30",
           "label": "每日线上介绍；最多至20:30"
         }
-      ]
+      ],
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "opp-e99bcc3d35",
@@ -1575,7 +1594,8 @@
           "selection-sansan"
         ],
         "intent": "听完说明会后准备和决定本选考"
-      }
+      },
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "opp-1c8cdb18e2",
@@ -2557,7 +2577,8 @@
           "selection-giftee-communication-2028"
         ],
         "intent": "听完后准备本选考"
-      }
+      },
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "opp-0165f6d3d4-booked-20261113",
@@ -2598,7 +2619,8 @@
           "selection-cyberagent"
         ],
         "intent": "听完后准备本选考"
-      }
+      },
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "activity-goodpatch-uiux-20261119",
@@ -2637,7 +2659,8 @@
           "selection-goodpatch-term3"
         ],
         "intent": "听完后准备本选考"
-      }
+      },
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "activity-hakuhodo-designer-202612",
@@ -2646,7 +2669,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3博报堂本体MyPage预约受理页及确认邮件已核验：12/1 18:00–19:45 Zoom场。",
       "description": "博报堂本体设计师招聘说明会；Zoom线上；与12/2同内容，仅预约12/1一场。",
-      "nextAction": "11/26起查看邮件并完成Zoom事前登记以取得参加链接；12/1 17:50前进入等候室。12/2 09:00提醒确认听会情况并准备本选考。",
+      "nextAction": "11/26起查看邮件并完成Zoom事前登记以取得参加链接；12/1 17:50前进入等候室。12/2 09:00提醒确认听会情况并准备本选考。 若Mercari Camp录取，12/1 18:00结束后立即开会，无通勤缓冲，需提前安排参会地点。",
       "sources": [
         {
           "label": "博报堂本体官方设计师活动",
@@ -2680,7 +2703,8 @@
         "attendanceStatus": "unknown",
         "selectionIds": [],
         "intent": "听完说明会后准备和决定本选考"
-      }
+      },
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "activity-visional-product-20261111",
@@ -2689,7 +2713,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3官方HRMOS提交完成；企业预约确认邮件及场次回执均已核验：11/11 11:00–11:45线上。",
       "description": "面向工程师与设计师的产品职专场，线上；2028/3前毕业、2028/4入社。",
-      "nextAction": "现有11/11 11:00场与个人安排存在冲突风险；待本人选择11/5 13:00线上（紧接前项活动，无缓冲）或其他处理。未取消、未重复预约，改期须先邮件联系，草稿待确认。",
+      "nextAction": "保留11/11 11:00–11:45线上原场；按最新明确的个人安排无时间重叠。11/10约15:00查参会链接；11/12 09:00确认听会情况后跟进本选考。",
       "sources": [
         {
           "label": "官方HRMOS活动",
@@ -2710,14 +2734,18 @@
       "category": "activity",
       "subtype": "公司设计说明会",
       "checkedAt": "2026-11-03",
-      "notes": "只确认11/11这一场；未预约其他替代日期。参会链接由企业前一日约15:00发送。 11/3新增个人时间限制，是否能全程参加尚待本人确认；不据此自动取消或改约。 11/3官网现有线上备选为11/5 13:00–13:45、11/19 15:00–15:45、11/25 14:00–14:45。11/19可能碰JustSystems会后测试，11/25仍存在个人时间冲突。官方要求取消必须提前邮件联系；每人限一个场次。HRMOS自动回执另显示11/10 12:00取消截止，不替代公司邮件联系要求。",
+      "notes": "只确认11/11这一场；未预约其他替代日期。参会链接由企业前一日约15:00发送。 11/3新增个人时间限制，是否能全程参加尚待本人确认；不据此自动取消或改约。 11/3官网现有线上备选为11/5 13:00–13:45、11/19 15:00–15:45、11/25 14:00–14:45。11/19可能碰JustSystems会后测试，11/25仍存在个人时间冲突。官方要求取消必须提前邮件联系；每人限一个场次。HRMOS自动回执另显示11/10 12:00取消截止，不替代公司邮件联系要求。 11/3本人明确决定保留11/11线上原场，不改约、不取消。",
       "postBriefingFollowUp": {
         "remindAt": "2026-11-12T09:00:00+09:00",
         "attendanceStatus": "unknown",
         "selectionIds": [],
         "intent": "听完后准备本选考"
       },
-      "availabilityStatus": "时间冲突风险，改期待本人决定"
+      "availabilityStatus": "本人保留；与当前上课通勤时间不重叠",
+      "availabilityDecision": "keep",
+      "bookingConfirmed": true,
+      "attendanceMode": "online",
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "activity-panasonic-musabi-20261110",
@@ -2811,7 +2839,8 @@
           "endDate": "2026-11-19T18:00",
           "label": "候选：线上说明会（与Persol重叠）"
         }
-      ]
+      ],
+      "workCompatibility": "online_briefing"
     },
     {
       "id": "selection-layerx-product-design-2028",
@@ -3030,7 +3059,7 @@
       "attendanceMode": "online",
       "statusDetail": "11/3官方MyPage预约完成页及企业确认邮件已核验：11/11 14:30 Zoom场。",
       "description": "Zoom线上；包含Creative等六条课程业务说明、员工问答与选考介绍；与正式选考分开。",
-      "nextAction": "现有11/11 14:30线上场与个人安排冲突，待本人决定；官方仅另有11/13 09:30–12:00汐留线下场，未改约。线下必须本人明确同意。",
+      "nextAction": "本人决定保留11/11 14:30线上原场；仍与固定个人安排重叠，需落实参加方式。11/10查参会链接，保守预留至18:00；不改为11/13线下。",
       "sources": [
         {
           "label": "官方招聘MyPage",
@@ -3040,7 +3069,7 @@
           "label": "11/3官方预约完成页、公司邀请与确认邮件已核验；私人链接和邮件原文不公开"
         }
       ],
-      "notes": "系统场次为14:30–18:00；企业邀请邮件写14:30–17:30，结束时刻存在差异，暂按18:00预留。仅约11/11线上，未约11/13线下。确认邮件称改约／取消可至11/10 17:00；初始邀请另称预约截止各场2个营业日前12:00，不混作同一期限。 11/3新增个人时间限制，是否能全程参加尚待本人确认；不据此自动取消或改约。 11/3完整MyPage仅列11/11线上和11/13线下，两场已逐一读取。线下在東京都港区東新橋1-8-1電通本社ビル，交通费自理；当前尚未取消或改约。",
+      "notes": "系统场次为14:30–18:00；企业邀请邮件写14:30–17:30，结束时刻存在差异，暂按18:00预留。仅约11/11线上，未约11/13线下。确认邮件称改约／取消可至11/10 17:00；初始邀请另称预约截止各场2个营业日前12:00，不混作同一期限。 11/3新增个人时间限制，是否能全程参加尚待本人确认；不据此自动取消或改约。 11/3完整MyPage仅列11/11线上和11/13线下，两场已逐一读取。线下在東京都港区東新橋1-8-1電通本社ビル，交通费自理；当前尚未取消或改约。 11/3本人明确决定保留11/11线上原场，不改约、不取消。",
       "milestones": [
         {
           "type": "event",
@@ -3057,8 +3086,195 @@
         ],
         "intent": "听完说明会后准备和决定本选考"
       },
-      "availabilityStatus": "时间冲突，改期待本人决定"
+      "availabilityStatus": "本人保留；与其他固定安排重叠待协调",
+      "availabilityDecision": "keep",
+      "bookingConfirmed": true,
+      "workCompatibility": "online_briefing"
+    },
+    {
+      "id": "opp-c5b83dedd8",
+      "company": "Mercari",
+      "title": "Product Camp 2026（合格后个人占用）",
+      "category": "personal",
+      "subtype": "已正式申请／待录取 · 非设计专属",
+      "status": "正式已提交待结果",
+      "statusDetail": "10/28 22:38 JST Workable正式申请成功邮件已于11/3重新读取；尚未核到录取通知。",
+      "description": "11天产品与事业构想营，六本木全程线下；须参加全部11天。作为本人已申请项目的潜在时间占用，不作为新增设计机会推荐。",
+      "conditionalAttendance": true,
+      "attendanceMode": "in_person",
+      "checkedAt": "2026-11-03",
+      "nextAction": "等待选考结果；若合格，12/1–15内11个工作日10:00–18:00需协调学校与兼职。12/1结束后紧接18:00博报堂线上说明会，参加地点和缓冲需确认；12/8不能预先承诺空闲。",
+      "notes": "原先因非设计专属被排除，11/3本人要求同时考虑录取后的占用，按原稳定ID恢复为个人潜在安排。日期已与正式申请回执逐日核对；企业ReDesigner正文与勤務時間栏写每天10:00–18:00，页面结构化时间显示1:00–9:00存在时区偏差，采用正文日本当地时间。Workable当前入口跳回职位列表，不据此改变已提交事实。与Mercari长期UI/UX Internship是两个不同项目。",
+      "sources": [
+        {
+          "label": "11/3重读10/28正式申请成功回执；私人正文及账号不公开"
+        },
+        {
+          "label": "企业发布的Camp日程与勤務時間",
+          "url": "https://student.redesigner.jp/recruitments/Jd47fd2a17feb9d93561311152b453234"
+        },
+        {
+          "label": "原正式申请入口（当前已无法读取岗位正文）",
+          "url": "https://apply.workable.com/mercari/j/DBBC080F29/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-01T10:00",
+          "endDate": "2026-12-01T18:00",
+          "label": "合格后需参加／六本木现场（尚未录取）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-02T10:00",
+          "endDate": "2026-12-02T18:00",
+          "label": "合格后需参加／六本木现场（尚未录取）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-03T10:00",
+          "endDate": "2026-12-03T18:00",
+          "label": "合格后需参加／六本木现场（尚未录取）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-04T10:00",
+          "endDate": "2026-12-04T18:00",
+          "label": "合格后需参加／六本木现场（尚未录取）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-07T10:00",
+          "endDate": "2026-12-07T18:00",
+          "label": "合格后需参加／六本木现场（尚未录取）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-08T10:00",
+          "endDate": "2026-12-08T18:00",
+          "label": "合格后需参加／六本木现场（尚未录取）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-09T10:00",
+          "endDate": "2026-12-09T18:00",
+          "label": "合格后需参加／六本木现场（尚未录取）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-10T10:00",
+          "endDate": "2026-12-10T18:00",
+          "label": "合格后需参加／六本木现场（尚未录取）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-11T10:00",
+          "endDate": "2026-12-11T18:00",
+          "label": "合格后需参加／六本木现场（尚未录取）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-14T10:00",
+          "endDate": "2026-12-14T18:00",
+          "label": "合格后需参加／六本木现场（尚未录取）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-15T10:00",
+          "endDate": "2026-12-15T18:00",
+          "label": "合格后需参加／六本木现场（尚未录取）"
+        }
+      ]
     }
   ],
-  "lastVerifiedAt": "2026-11-03T18:00:42+09:00"
+  "lastVerifiedAt": "2026-11-03T18:41:01+09:00",
+  "weeklySchedule": [
+    {
+      "id": "weekly-school-monday",
+      "company": "学校",
+      "title": "上课 13:20–14:50",
+      "category": "school",
+      "scheduleKind": "school",
+      "status": "每周固定安排",
+      "weekdayLabel": "每周一",
+      "summary": "12:20出发，课后留1小时通勤；通常16点多到家",
+      "description": "上课 13:20–14:50；前后各预留1小时通勤。12:20出发，课后留1小时通勤；通常16点多到家",
+      "nextAction": "上课和通勤期间的活动需先确认。线上不等于能在上课时参加；不要自动新增重叠预约。",
+      "notes": "按本人通常每周安排显示；假期、停课和临时调课另核。到家时间是本人估计，不据此承诺精确到家时刻。",
+      "checkedAt": "2026-11-03",
+      "classStart": "13:20",
+      "classEnd": "14:50",
+      "commuteBeforeMinutes": 60,
+      "commuteAfterMinutes": 60,
+      "recurrence": {
+        "weekdays": [
+          1
+        ],
+        "start": "12:20",
+        "end": "15:50",
+        "allDay": false,
+        "effectiveFrom": "2026-11-03",
+        "effectiveUntil": null,
+        "exceptions": [],
+        "label": "上课 13:20–14:50＋通勤"
+      }
+    },
+    {
+      "id": "weekly-school-wednesday",
+      "company": "学校",
+      "title": "上课 13:20–16:30",
+      "category": "school",
+      "scheduleKind": "school",
+      "status": "每周固定安排",
+      "weekdayLabel": "每周三",
+      "summary": "12:20出发，课后通勤预留至17:30；约18点安顿",
+      "description": "上课 13:20–16:30；前后各预留1小时通勤。12:20出发，课后通勤预留至17:30；约18点安顿",
+      "nextAction": "上课和通勤期间的活动需先确认。线上不等于能在上课时参加；不要自动新增重叠预约。",
+      "notes": "按本人通常每周安排显示；假期、停课和临时调课另核。到家时间是本人估计，不据此承诺精确到家时刻。",
+      "checkedAt": "2026-11-03",
+      "classStart": "13:20",
+      "classEnd": "16:30",
+      "commuteBeforeMinutes": 60,
+      "commuteAfterMinutes": 60,
+      "recurrence": {
+        "weekdays": [
+          3
+        ],
+        "start": "12:20",
+        "end": "17:30",
+        "allDay": false,
+        "effectiveFrom": "2026-11-03",
+        "effectiveUntil": null,
+        "exceptions": [],
+        "label": "上课 13:20–16:30＋通勤"
+      }
+    },
+    {
+      "id": "weekly-part-time-work",
+      "company": "兼职",
+      "title": "全天兼职 · 可听线上说明会",
+      "category": "work",
+      "scheduleKind": "work",
+      "status": "固定兼职／可协调",
+      "weekdayLabel": "每周二／四／五",
+      "summary": "线上说明会可兼顾；笔试、面试、实习先确认调班",
+      "description": "周二、周四、周五通常全天兼职；具体上下班钟点未提供。本人表示可一边工作一边看或录屏线上说明会。",
+      "nextAction": "笔试、面试、实习、作品集互动反馈或线下活动，先与本人详细确认，再由本人协调兼职时间；不能擅自认定已调班。",
+      "notes": "全天表示通常工作日占用，并非声称00:00–24:00连续工作。线上说明会允许兼顾，不代表学校上课或通勤时也能参加。",
+      "checkedAt": "2026-11-03",
+      "recurrence": {
+        "weekdays": [
+          2,
+          4,
+          5
+        ],
+        "allDay": true,
+        "effectiveFrom": "2026-11-03",
+        "effectiveUntil": null,
+        "exceptions": [],
+        "label": "全天兼职 · 线上说明会可兼顾"
+      }
+    }
+  ]
 }

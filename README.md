@@ -28,3 +28,13 @@ FullCalendar Standard 适合标准月／周历，vis-timeline 适合分组时间
 本地改版参考了 Linear 的横向时间轴、Notion Calendar 的日程色块和 Amie 对截止与安排时间的区分。站内蓝色代表说明会／反馈、橙色代表实习、紫色代表本选考、青绿色代表已约个人安排；日期标记直接显示“已确认”“截止”“待确认”“开放”或“已办”；时间轴的横条表示报名或活动期间。类别颜色与状态文字共同辅助识别。近期行动置顶全部未来已确认安排，其次列出14天内未完成的明确截止，待结果和指引单独显示。月历每格优先显示已确认安排及未完成截止，点击日期可查看全部节点。
 
 参考：[Linear Timeline](https://linear.app/changelog/2024-02-29-milestones-on-the-timeline)、[Notion Calendar](https://www.notion.com/product/calendar)、[Amie Tasks](https://amie.so/documentation/features/tasks)。
+
+## 学校、兼职与录取后占用（2026-11-03）
+
+`weeklySchedule`保存本人提供的通常周规律，按正在查看的日期动态展开；学校节点包含课前课后各1小时通勤，兼职为全天但不虚构上下班钟点。周规律可在日历显示开关中隐藏，冲突检查仍保留这些约束。未提供学期结束日或假期，不补造；临时例外可写入recurrence.exceptions。
+
+仅明确标记workCompatibility=online_briefing的线上说明会可兼顾兼职；笔试/面试、互动反馈、线下活动和实习显示调班确认。can_adjust只表示能调，不等于已调。attendanceIntent=undecided保留已预约名额并提示待决定出席。conditionalAttendance表示已申请待结果的可能占用，不能显示成已录取；Mercari Product Camp按11个实际工作日展示，与长期UIUX岗位分开。
+
+未来45天的冲突包含学校、通勤、兼职、待录取项目和15分钟以内衔接；同一项目与同一周规律的多日提醒合并显示，详情保留逐日日期。本人已明确授权把本轮周作息公开同步到当前站点与GitHub。
+
+验证：`node --test ../outputs/briefing-bookings-20261103/schedule.test.mjs`，并做电脑及390px手机页面检查。
