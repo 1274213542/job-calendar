@@ -715,13 +715,13 @@
     {
       "id": "opp-d698b0e5c5",
       "company": "I-STUDIO",
-      "title": "创意职公司说明会",
+      "title": "【线下】创意职公司说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "已预约／确认参加",
       "statusDetail": "11/3官方MyPage显示预约完成，16:08企业预约确认邮件已核验：11/6 14:30–16:00本社现场说明会。",
       "description": "博报堂系数字创意与Web体验制作；本社现场；公司说明、问答及选考介绍；穿便服；与本选考材料提交分开。",
-      "nextAction": "11/5预约截止后查看公司发送的参加详情；11/6 14:30到本社参加说明会，提前安排往返交通；11/07 09:00提醒确认是否听完，再整理本选考要求与材料。",
+      "nextAction": "本人11/3决定先保留11/6（周五）14:30–16:00线下说明会；取消期限11/5 12:00。目前无未来同内容线上场可改。出发前确认交通及其他安排。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -733,9 +733,12 @@
         },
         {
           "label": "11/3本人官方MyPage预约完成页与企业确认邮件已核验；私人账号、联系方式及改约链接不公开"
+        },
+        {
+          "label": "11/3本人明确要求保留现有线下预约"
         }
       ],
-      "notes": "11/6 14:30–16:00场已预约。11/5 12:00为原预约截止，报名任务已完成；活动细节由企业截止后另行通知。作品集咨询会及正式选考仍为独立事项。",
+      "notes": "11/3重新核验仍预约11/6 14:30–16:00东京本社线下。本人询问能否改线上；MyPage全部日程仅这一场，尚未取消或改约。11/25线上作品集咨询需筛选，与说明会不是同一活动。 本人11/3已明确决定保留现有线下预约；后续其他线下场仍须逐场事先告知并确认。",
       "milestones": [
         {
           "type": "deadline",
@@ -757,7 +760,8 @@
           "opp-b70896a890"
         ],
         "intent": "听完后准备本选考"
-      }
+      },
+      "attendanceMode": "in_person"
     },
     {
       "id": "opp-6286d81e29",
@@ -960,34 +964,52 @@
     {
       "id": "opp-ad61947242",
       "company": "JustSystems",
-      "title": "11月UIUX公司说明会",
+      "title": "UX／传播设计师线上说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "预Entry",
-      "statusDetail": "11/2公司回复已核；ReDesigner申请成立，官方MyPage仍需注册，11/19 13:00场未预约。",
-      "description": "スマイルゼミ、ATOK及企业软件；线上；未公布费用；无需事前ES；MyPage注册约场，听后再决定选考",
-      "nextAction": "本人完成MyPage条款和账号设置后预约11/19 13:00–14:00。",
+      "status": "已预约／确认参加",
+      "statusDetail": "11/3官方MyPage预约完成页及企业确认邮件均已核验：11/19 13:00线上设计职场。",
+      "description": "UX设计师与传播设计师线上说明会；公司说明及问答约60分钟；会后休息，再有适性测试与问卷约60分钟。",
+      "nextAction": "Google Meet参会显示名已登记；11/18 18:00后查Google Meet链接。13:00听会约60分钟，会后测试与问卷另约60分钟及休息。履历可在听会后3日内提交（带照片、不需志望动机，上传后不可更换），尚未上传；11/20 09:00提醒处理。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://student.redesigner.jp/recruitments/Jbbb6c0c886b8854b575cbe2eb3c4aece"
+        },
+        {
+          "label": "11/3官方MyPage具体场次预约完成已核验；私人账号、联系方式和参加链接不公开"
+        },
+        {
+          "label": "11/3预约邮件与MyPage提交期限规则已核验；私人正文不公开"
+        },
+        {
+          "label": "11/3 Google参会显示名登记完成页已核验；账号姓名不公开"
         }
       ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 更新RD页：2026-11-10 09:00；举办 11/11 09:30–10:30；11/19 13–14；11/24 19–20。",
+      "notes": "13:00–约14:00为说明会；会后测试及问卷另约60分钟，休息长度及最终结束时间未公布。RD11/10 09:00为平台统一标签，不是官方场次截止。预约邮件要求履历，具体MyPage规则明确允许说明会后3日内提交，也可提前；履历PDF带照片、不需志望动机，上传后不能更换。先听后投的意向可保留。Google账号显示名登记截止为说明会开始前1小时。履历、作品集及测试均未提交。 11/3已核对当前Google账号实际显示名并完成登记，官方页面显示「登録いたしました」。",
       "milestones": [
-        {
-          "type": "deadline",
-          "date": "2026-11-10T09:00",
-          "label": "RD平台统一结束标签"
-        },
         {
           "type": "event",
           "date": "2026-11-19T13:00",
-          "label": "意向场，未预约",
-          "endDate": "2026-11-19T14:00"
+          "endDate": "2026-11-19T14:00",
+          "endApproximate": true,
+          "label": "已预约／线上设计职说明会；会后另约60分钟测试与问卷"
+        },
+        {
+          "type": "action",
+          "date": "2026-11-19T12:00",
+          "label": "会前Google账号显示名已登记",
+          "completed": true
         }
-      ]
+      ],
+      "attendanceMode": "online",
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-20T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [],
+        "intent": "听完说明会后准备和决定本选考"
+      }
     },
     {
       "id": "opp-1c4d34fa39",
@@ -998,7 +1020,7 @@
       "status": "报名已提交待指引",
       "statusDetail": "公司11/2已回复受理11/11线上活动申请，称前一天发送Zoom链接；等待参加链接。",
       "description": "服务设计、编辑与品牌、数字产品；Zoom／东京现场；未公布费用；公司、两位员工案例与答疑；线下有额外座谈20名",
-      "nextAction": "11/10查看公司发送的参加链接；无需重复申请；11/12 09:00提醒确认是否听完，再整理本选考要求与材料。",
+      "nextAction": "先核实本人当日可参加时段，现有预约保留；11/10查看公司发送的参加链接；无需重复申请；11/12 09:00提醒确认是否听完，再整理本选考要求与材料。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -1006,7 +1028,7 @@
           "url": "https://student.redesigner.jp/recruitments/J1b6435e391135dc7f2856796363c1177"
         }
       ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 线上：2026-11-11 15:00；线下另页/满额提前关；举办 2026-11-11 18:30–19:30线上；线下到约20:00。",
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 线上：2026-11-11 15:00；线下另页/满额提前关；举办 2026-11-11 18:30–19:30线上；线下到约20:00。 11/3新增个人时间限制，是否能全程参加尚待本人确认；不据此自动取消或改约。",
       "milestones": [
         {
           "type": "deadline",
@@ -1028,7 +1050,8 @@
           "opp-06123c2f49"
         ],
         "intent": "听完后准备本选考"
-      }
+      },
+      "availabilityStatus": "待本人确认可参加时段"
     },
     {
       "id": "opp-80ccdd1cc4",
@@ -1093,13 +1116,13 @@
     {
       "id": "opp-0efa90e468",
       "company": "Sun Asterisk",
-      "title": "Creative说明会＋前辈座谈",
+      "title": "Creative线上说明会＋前辈座谈",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "预Entry",
-      "statusDetail": "11/3已在ReDesigner提交说明会申请并匹配；公司要求创建官方MyPage后另约具体场次，目前尚未完成预约。",
-      "description": "数字产品、创新业务与设计开发支援；线上；未公布费用；28卒；RD申请后公司给具体约场方式",
-      "nextAction": "意向11/9 17:00–18:15；完成官方MyPage账号设置与条款确认后预约。",
+      "status": "已预约／确认参加",
+      "statusDetail": "11/3官方预约完成页及企业确认邮件已核验：11/9 17:00 Zoom场已预约。",
+      "description": "数字产品与设计开发支援；Creative设计师专场；Zoom线上；说明会与前辈座谈。",
+      "nextAction": "先核实本人当日可参加时段，现有预约保留；11/9 17:00通过MyPage进入Zoom，使用完整姓名；实际约75分钟，日历按系统场次预留至18:30。11/10 09:00提醒确认听会情况，再整理本选考。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -1112,29 +1135,28 @@
         {
           "label": "官方招聘入口",
           "url": "https://sunasterisk-recruit.snar.jp/index.aspx"
+        },
+        {
+          "label": "11/3官方MyPage具体场次预约完成已核验；私人账号、联系方式和参加链接不公开"
         }
       ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 11/09、11/17 各17:00–18:15；11/30 16:00–17:15。",
+      "notes": "官方系统17:00–18:30；页面说明及确认邮件称实际约75分钟，预计18:15结束。只预约11/9，不再将11/17、11/30同内容备选列作本人待办。 11/3新增个人时间限制，是否能全程参加尚待本人确认；不据此自动取消或改约。",
       "milestones": [
         {
           "type": "event",
           "date": "2026-11-09T17:00",
-          "label": "实际举办",
-          "endDate": "2026-11-09T18:15"
-        },
-        {
-          "type": "event",
-          "date": "2026-11-17T17:00",
-          "label": "实际举办",
-          "endDate": "2026-11-17T18:15"
-        },
-        {
-          "type": "event",
-          "date": "2026-11-30T16:00",
-          "label": "实际举办",
-          "endDate": "2026-11-30T17:15"
+          "endDate": "2026-11-09T18:30",
+          "label": "已预约／Zoom线上；实际约75分钟，系统预留90分钟"
         }
-      ]
+      ],
+      "attendanceMode": "online",
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-10T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [],
+        "intent": "听完说明会后准备和决定本选考"
+      },
+      "availabilityStatus": "待本人确认可参加时段"
     },
     {
       "id": "opp-a1702d3007",
@@ -1519,22 +1541,41 @@
     {
       "id": "opp-e2aa99cbc3",
       "company": "Sansan",
-      "title": "Creators Talk／PF咨询",
+      "title": "Creators Talk 线上公司说明会",
       "category": "activity",
-      "subtype": "已接洽但需约场",
-      "status": "预Entry",
-      "statusDetail": "RD応募済み，具体场次未预约。",
-      "description": "B2B SaaS、品牌与传播设计；计划Zoom；未公布费用；需公司MyPage选场；公开Creator活动目录当前无招募",
-      "nextAction": "保留为待约场，不声称本轮发现可立即参加的具体日程。",
-      "checkedAt": "2026-10-30",
+      "subtype": "公司设计说明会",
+      "status": "已预约／确认参加",
+      "statusDetail": "11/3官方MyPage预约完成页及企业确认邮件已核验：11/17 15:00–16:00 Zoom场。",
+      "description": "B2B SaaS品牌、传播、Web与平面设计；约1小时线上说明会与Q&A，最后介绍本选考。此场不含作品集咨询。",
+      "nextAction": "11/17 14:55左右进入Zoom，尽可能开摄像头；11/18 09:00提醒确认听会情况，再核Creator本选考与作品集要求。",
+      "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://student.redesigner.jp/recruitments/Je93a2a965b58ebb671eeb8158db00390"
+        },
+        {
+          "label": "11/3官方MyPage具体场次预约完成已核验；私人账号、联系方式和参加链接不公开"
         }
       ],
-      "notes": "原资料：报名开始 RD预Entry已完成；截止 暂无具体场次截止；RD2027/5/31仅总标签；举办 说明约1小时；PF约1.5小时；具体日期未公开。",
-      "milestones": []
+      "notes": "选择11/17避开11/6线下活动后接续及11/11电通EXPO冲突。只预约线上说明会，未报名或上传作品集咨询材料。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-17T15:00",
+          "endDate": "2026-11-17T16:00",
+          "label": "已预约／Zoom线上公司说明会"
+        }
+      ],
+      "attendanceMode": "online",
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-18T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [
+          "selection-sansan"
+        ],
+        "intent": "听完说明会后准备和决定本选考"
+      }
     },
     {
       "id": "opp-1c8cdb18e2",
@@ -1652,7 +1693,7 @@
       "status": "候选／计划申请",
       "statusDetail": "尚未开放；未提交",
       "description": "MyPage；正式岗位；与CareerEXPO分开；正常选考预计2027年1月起",
-      "nextAction": "仅记录。",
+      "nextAction": "先听11/11 Career EXPO线上说明会；11/12 09:00提醒确认听完后，再核Creative早期选考要求及11/24截止。",
       "checkedAt": "2026-10-30",
       "sources": [
         {
@@ -2086,7 +2127,7 @@
       "status": "候选／计划申请",
       "statusDetail": "尚未核到正式提交。",
       "description": "品牌、传播、Web与平面方向；Entry只选1岗。",
-      "nextAction": "核个人PF期限与计次规则。",
+      "nextAction": "先听11/17 15:00线上Creators Talk；11/18 09:00提醒核实Creator岗位、作品集期限与提交要求。",
       "checkedAt": "2026-10-31",
       "sources": [
         {
@@ -2208,14 +2249,14 @@
       "status": "已预约／确认参加",
       "statusDetail": "10/31 MyPage显示预约完成，邮件回执确认11/25 18:00线上场。",
       "description": "综合求职讲座；按用户要求单独列作已预约的个人安排，用于时间管理。",
-      "nextAction": "按预约邮件及MyPage参加，活动约70分钟。",
+      "nextAction": "先核实本人当日可参加时段，现有预约保留；按预约邮件及MyPage参加，活动约70分钟。",
       "checkedAt": "2026-10-31",
       "sources": [
         {
           "label": "10/31 MyPage预约完成页面与预约确认邮件；私人会议链接未收录"
         }
       ],
-      "notes": "开始时间以预约回执为准；约19:10结束按70分钟活动时长推算。",
+      "notes": "开始时间以预约回执为准；约19:10结束按70分钟活动时长推算。 11/3新增个人时间限制，是否能全程参加尚待本人确认；不据此自动取消或改约。",
       "milestones": [
         {
           "type": "event",
@@ -2225,7 +2266,8 @@
           "note": "结束时刻按活动时长推算，约19:10。",
           "endApproximate": true
         }
-      ]
+      ],
+      "availabilityStatus": "待本人确认可参加时段"
     },
     {
       "id": "internship-herp-designer",
@@ -2600,40 +2642,45 @@
     {
       "id": "activity-hakuhodo-designer-202612",
       "company": "博報堂",
-      "title": "28卒设计师专场说明会",
-      "status": "候选／计划申请",
-      "statusDetail": "用户已要求预约；11/3停在博报堂本体MyPage登录，尚未预约。",
-      "description": "在线；12/1或12/2 18:00–19:45，同内容不同登坛者，最终只约一场。",
-      "nextAction": "完成本体MyPage登录及条款确认，优先预约12/1；若满员核对12/2。",
+      "title": "28卒设计师线上专场说明会",
+      "status": "已预约／确认参加",
+      "statusDetail": "11/3博报堂本体MyPage预约受理页及确认邮件已核验：12/1 18:00–19:45 Zoom场。",
+      "description": "博报堂本体设计师招聘说明会；Zoom线上；与12/2同内容，仅预约12/1一场。",
+      "nextAction": "11/26起查看邮件并完成Zoom事前登记以取得参加链接；12/1 17:50前进入等候室。12/2 09:00提醒确认听会情况并准备本选考。",
       "sources": [
         {
           "label": "博报堂本体官方设计师活动",
           "url": "https://hakusuku.jp/recruit/information/designer-entry/"
+        },
+        {
+          "label": "11/3官方MyPage具体场次预约完成已核验；私人账号、联系方式和参加链接不公开"
         }
       ],
       "milestones": [
         {
           "type": "deadline",
           "date": "2026-11-24T12:00",
-          "label": "说明会预约截止／满额提前关闭"
+          "label": "原预约截止／预约已完成",
+          "completed": true
         },
         {
           "type": "event",
           "date": "2026-12-01T18:00",
           "endDate": "2026-12-01T19:45",
-          "label": "优先候选／未预约"
-        },
-        {
-          "type": "event",
-          "date": "2026-12-02T18:00",
-          "endDate": "2026-12-02T19:45",
-          "label": "备选／与12/1只选一场"
+          "label": "已预约／Zoom线上设计师专场"
         }
       ],
       "category": "activity",
       "subtype": "公司设计说明会",
       "checkedAt": "2026-11-03",
-      "notes": "预约待完成；不得标为已确认。"
+      "notes": "预约已完成；改约／取消期限11/24 12:00。参加链接还需按11/26起邮件完成Zoom事前登记。12/2备选已撤下，避免重复占用。",
+      "attendanceMode": "online",
+      "postBriefingFollowUp": {
+        "remindAt": "2026-12-02T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [],
+        "intent": "听完说明会后准备和决定本选考"
+      }
     },
     {
       "id": "activity-visional-product-20261111",
@@ -2642,7 +2689,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3官方HRMOS提交完成；企业预约确认邮件及场次回执均已核验：11/11 11:00–11:45线上。",
       "description": "面向工程师与设计师的产品职专场，线上；2028/3前毕业、2028/4入社。",
-      "nextAction": "11/10约15:00查收企业发送的参会链接；11/11 11:00参加线上产品职说明会；11/12 09:00提醒确认是否听完，再整理本选考要求与材料。",
+      "nextAction": "先核实本人当日可参加时段，现有预约保留；11/10约15:00查收企业发送的参会链接；11/11 11:00参加线上产品职说明会；11/12 09:00提醒确认是否听完，再整理本选考要求与材料。",
       "sources": [
         {
           "label": "官方HRMOS活动",
@@ -2663,13 +2710,14 @@
       "category": "activity",
       "subtype": "公司设计说明会",
       "checkedAt": "2026-11-03",
-      "notes": "只确认11/11这一场；未预约其他替代日期。参会链接由企业前一日约15:00发送。",
+      "notes": "只确认11/11这一场；未预约其他替代日期。参会链接由企业前一日约15:00发送。 11/3新增个人时间限制，是否能全程参加尚待本人确认；不据此自动取消或改约。",
       "postBriefingFollowUp": {
         "remindAt": "2026-11-12T09:00:00+09:00",
         "attendanceStatus": "unknown",
         "selectionIds": [],
         "intent": "听完后准备本选考"
-      }
+      },
+      "availabilityStatus": "待本人确认可参加时段"
     },
     {
       "id": "activity-panasonic-musabi-20261110",
@@ -2970,7 +3018,47 @@
           "label": "线上说明会候选B（含设计岗位）"
         }
       ]
+    },
+    {
+      "id": "activity-dentsudigital-expo-20261111",
+      "company": "Dentsu Digital",
+      "title": "Career EXPO线上说明会（含Creative）",
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "status": "已预约／确认参加",
+      "checkedAt": "2026-11-03",
+      "attendanceMode": "online",
+      "statusDetail": "11/3官方MyPage预约完成页及企业确认邮件已核验：11/11 14:30 Zoom场。",
+      "description": "Zoom线上；包含Creative等六条课程业务说明、员工问答与选考介绍；与正式选考分开。",
+      "nextAction": "先核实本人当日可参加时段，现有预约保留；11/10查看邮件中的参加URL；11/11 14:30参加，预留至18:00。11/12 09:00提醒确认听会情况并核实Creative早期选考要求与截止。",
+      "sources": [
+        {
+          "label": "官方招聘MyPage",
+          "url": "https://dentsudigital.snar.jp/"
+        },
+        {
+          "label": "11/3官方预约完成页、公司邀请与确认邮件已核验；私人链接和邮件原文不公开"
+        }
+      ],
+      "notes": "系统场次为14:30–18:00；企业邀请邮件写14:30–17:30，结束时刻存在差异，暂按18:00预留。仅约11/11线上，未约11/13线下。确认邮件称改约／取消可至11/10 17:00；初始邀请另称预约截止各场2个营业日前12:00，不混作同一期限。 11/3新增个人时间限制，是否能全程参加尚待本人确认；不据此自动取消或改约。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-11T14:30",
+          "endDate": "2026-11-11T18:00",
+          "label": "已预约／Zoom线上；结束时间来源差异见详情"
+        }
+      ],
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-12T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [
+          "opp-12092225f7"
+        ],
+        "intent": "听完说明会后准备和决定本选考"
+      },
+      "availabilityStatus": "待本人确认可参加时段"
     }
   ],
-  "lastVerifiedAt": "2026-11-03T17:08:27+09:00"
+  "lastVerifiedAt": "2026-11-03T17:55:49+09:00"
 }
