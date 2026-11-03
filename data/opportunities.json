@@ -2787,7 +2787,138 @@
       ],
       "notes": "11/3当前官方在招列表及详情页已核；试用期3个月。总最低期间、入职日与截止未公布。",
       "milestones": []
+    },
+    {
+      "id": "selection-giftee-communication-2028",
+      "company": "giftee／株式会社ギフティ",
+      "title": "28卒传播设计师早期选考",
+      "category": "selection",
+      "subtype": "设计师早期选考",
+      "status": "候选／计划申请",
+      "statusDetail": "11/3补漏核实当前募集；未申请、未预约。",
+      "description": "负责宣传册、banner、礼品卡、展会等视觉传播设计；不是产品UI/UX岗位。2028年4月可入社，需Photoshop／Illustrator使用经验、设计学习经历及作品集。",
+      "nextAction": "按先听后投的偏好，11/10已约联合专场了解团队、作品集要求及选考截止；未公布截止，不能保证可等下一轮。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "官方28卒设计早期选考",
+          "url": "https://herp.careers/v1/gifteegroup/J6M3UNeozyFf"
+        },
+        {
+          "label": "新卒官网",
+          "url": "https://careers.giftee.co.jp/newgrads/"
+        }
+      ],
+      "notes": "实际雇主为株式会社ギフティ，招聘入口属集团。截止及下一轮未公布；新卒概览未列设计，不代表ATS没有在招岗位。",
+      "milestones": []
+    },
+    {
+      "id": "selection-quick-graphic-2028",
+      "company": "クイック／株式会社クイック",
+      "title": "28卒平面设计师／服务设计早期选考",
+      "category": "selection",
+      "subtype": "设计师早期选考",
+      "status": "候选／计划申请",
+      "statusDetail": "11/3补漏核实当前募集；未申请、未预约。",
+      "description": "Web事业企划开发本部；LP、广告与图像、书籍等设计，涉及用户测试与访谈。需PS／AI设计经验，欢迎Figma服务设计；作品集必需。",
+      "nextAction": "先听11/10已约联合专场，或按独立视频说明会入口了解公司后再投；截止和后续批次未公布。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "企业直接发布的28卒募集",
+          "url": "https://www.wantedly.com/projects/2613985"
+        },
+        {
+          "label": "官网Web专业职新卒入口",
+          "url": "https://919.jp/recruit/new-market/"
+        }
+      ],
+      "notes": "10/28企业直发职位可读，申请入口可见；官网专业职职责交叉核对，但官网该页未明确同一28卒批次。与金融信息公司QUICK不是同一法人。",
+      "milestones": []
+    },
+    {
+      "id": "briefing-quick-design-video-2028",
+      "company": "クイック／株式会社クイック",
+      "title": "28卒设计师视频说明会（随时观看）",
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "status": "候选／计划申请",
+      "statusDetail": "11/3补漏核实当前募集；未申请、未预约。",
+      "description": "企业提供点播视频，介绍业务、设计团队、工作环境及早期选考流程；需先通过Wantedly入口申请获取视频。",
+      "nextAction": "可先参加11/10已约专场；若需要点播，再单独申请视频。本条尚未申请、未收到链接。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "企业官方Wantedly公告",
+          "url": "https://www.wantedly.com/projects/2613985"
+        }
+      ],
+      "notes": "无固定举办时间，不虚构日历日期；公告称申请后3个工作日内联系，观看后介绍早期选考。该视频与联合专场是不同入口。",
+      "milestones": []
+    },
+    {
+      "id": "selection-freestyle-design-2028",
+      "company": "フリースタイルエンターテイメント",
+      "title": "28卒平面／Web／插画设计师本选考",
+      "category": "selection",
+      "subtype": "设计师本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "11/3补漏核实当前募集；未申请、未预约。",
+      "description": "2028年4月可入社；明确招平面、Web设计师及插画师。需先参加该公司指定说明会并完成出席登记，再决定是否进入选考。",
+      "nextAction": "先听11/10联合专场了解公司；如想申请，再选12/16或12/17独立说明会。不能假定联合专场能替代指定前置说明会。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "10/26公司官方28卒本选考公告",
+          "url": "https://www.freestyle-entertainment.co.jp/blog/recruit2027_pre-3/"
+        }
+      ],
+      "notes": "最终1day／2days属于选考环节，不能记作独立公开短期实习。过去夏季落选者可申请，本选考只可参加一次；后续正式提交截止未公布。",
+      "milestones": []
+    },
+    {
+      "id": "briefing-freestyle-design-2028-dec",
+      "company": "フリースタイルエンターテイメント",
+      "title": "28卒公司说明会／含设计职（12月两场可选）",
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "status": "候选／计划申请",
+      "statusDetail": "11/3补漏核实当前募集；未申请、未预约。",
+      "description": "Zoom线上，包含设计岗位介绍与选考流程；12/16 18:00–20:00或12/17 10:00–12:00。可只听说明会，本选考前必须参加并登记出席。",
+      "nextAction": "两场为候选选项；选一场后再预约。各场预约截止为当天09:00。",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "label": "公司官方说明会与报名公告",
+          "url": "https://www.freestyle-entertainment.co.jp/blog/recruit2027_pre-3/"
+        }
+      ],
+      "notes": "未预约任何场次。将来若只预约一场须拆分确认，不能将两场一并标为已确认。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-16T09:00",
+          "label": "12/16说明会预约截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-16T18:00",
+          "endDate": "2026-12-16T20:00",
+          "label": "线上说明会候选A（含设计岗位）"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-17T09:00",
+          "label": "12/17说明会预约截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-17T10:00",
+          "endDate": "2026-12-17T12:00",
+          "label": "线上说明会候选B（含设计岗位）"
+        }
+      ]
     }
   ],
-  "lastVerifiedAt": "2026-11-03T09:20:23+09:00"
+  "lastVerifiedAt": "2026-11-03T10:21:38+09:00"
 }
