@@ -1372,50 +1372,22 @@
       "title": "IT系统Growth说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "候选／计划申请",
-      "statusDetail": "11/3已准备11/16 13:00–14:00官方表格；尚未提交，等私人资料填写确认。",
+      "status": "已参加",
+      "statusDetail": "11/3本人明确确认此前已预约并听完该公司说明会；参加日期待补核，不重复预约。",
       "description": "平台策划设计开发；Zoom；未公布费用；设计/前端/Web/企划介绍；听完可决定是否继续选考",
-      "nextAction": "确认官方表格所需资料后提交11/16场；最迟举办前2个营业日9:00。",
+      "nextAction": "说明会已听完；整理已听内容与本选考下一步，不重复预约同一说明会。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://www.wdbhd.co.jp/recruit/graduate/event/grade-third/company-orientation.html"
+        },
+        {
+          "label": "11/3本人明确确认已预约并已听完；不再重复预约"
         }
       ],
-      "notes": "11/3官网及表格核实：设计相关IT系统Growth，说明会后可决定是否继续选考。报名需生日、邮箱、手机及现住址。",
-      "milestones": [
-        {
-          "type": "event",
-          "date": "2026-11-02T14:00",
-          "label": "实际举办",
-          "endDate": "2026-11-02T15:00"
-        },
-        {
-          "type": "event",
-          "date": "2026-11-11T16:00",
-          "label": "实际举办",
-          "endDate": "2026-11-11T17:00"
-        },
-        {
-          "type": "event",
-          "date": "2026-11-16T13:00",
-          "label": "实际举办",
-          "endDate": "2026-11-16T14:00"
-        },
-        {
-          "type": "event",
-          "date": "2026-11-19T11:00",
-          "label": "实际举办",
-          "endDate": "2026-11-19T12:00"
-        },
-        {
-          "type": "event",
-          "date": "2026-11-24T10:00",
-          "label": "实际举办",
-          "endDate": "2026-11-24T11:00"
-        }
-      ]
+      "notes": "11/3撤下误列的未来候选场次，尤其11/16不是本人已预约安排。此前准备的表单未提交；本人确认已听完，具体历史参加日期不补造。",
+      "milestones": []
     },
     {
       "id": "opp-a6ecf24894",
@@ -3000,5 +2972,5 @@
       ]
     }
   ],
-  "lastVerifiedAt": "2026-11-03T16:47:59+09:00"
+  "lastVerifiedAt": "2026-11-03T17:08:27+09:00"
 }
