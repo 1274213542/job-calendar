@@ -707,9 +707,9 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "预Entry",
-      "statusDetail": "11/3核到ReDesigner报名后的10/19企业自动回复；仅预Entry，仍需官方MyPage预约11/6具体场次。当前未核到预约成功。",
+      "statusDetail": "11/3已登录官方MyPage，仍需完成首次登记及11/6具体场次预约；当前尚未预约成功。",
       "description": "博报堂系数字创意与Web体验制作；现场；未公布费用；MyPage约场；与本选考材料提交分开",
-      "nextAction": "本人完成登录／初始密码设置后，预约11/6 14:30–16:00；11/5中午截止。",
+      "nextAction": "完成官方MyPage首次登记后预约11/6 14:30–16:00；11/5中午截止。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -2599,14 +2599,17 @@
       "id": "activity-visional-product-20261111",
       "company": "Visional／ビズリーチ",
       "title": "28卒产品职公司说明会",
-      "status": "候选／计划申请",
-      "statusDetail": "11/3官方表格已准备；尚未提交，等待生日及联系方式填写确认。",
+      "status": "已预约／确认参加",
+      "statusDetail": "11/3官方HRMOS提交完成；企业预约确认邮件及场次回执均已核验：11/11 11:00–11:45线上。",
       "description": "面向工程师与设计师的产品职专场，线上；2028/3前毕业、2028/4入社。",
-      "nextAction": "完成11/11 11:00–11:45预约；不重复申请其他等效场次。",
+      "nextAction": "11/10约15:00查收企业发送的参会链接；11/11 11:00参加线上产品职说明会。",
       "sources": [
         {
           "label": "官方HRMOS活动",
           "url": "https://public.n-ats.hrmos.co/rookie/events/2316051816225210368"
+        },
+        {
+          "label": "11/3本人HRMOS完成页及企业预约确认邮件已核验；私人邮件、联系方式及取消链接不公开"
         }
       ],
       "milestones": [
@@ -2614,13 +2617,13 @@
           "type": "event",
           "date": "2026-11-11T11:00",
           "endDate": "2026-11-11T11:45",
-          "label": "意向场／待预约"
+          "label": "已预约：产品职公司说明会"
         }
       ],
       "category": "activity",
       "subtype": "公司设计说明会",
       "checkedAt": "2026-11-03",
-      "notes": "预约待完成；不得标为已确认。"
+      "notes": "只确认11/11这一场；未预约其他替代日期。参会链接由企业前一日约15:00发送。"
     },
     {
       "id": "activity-panasonic-musabi-20261110",
@@ -2923,5 +2926,5 @@
       ]
     }
   ],
-  "lastVerifiedAt": "2026-11-03T10:35:48+09:00"
+  "lastVerifiedAt": "2026-11-03T15:08:49+09:00"
 }
