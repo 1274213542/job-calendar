@@ -656,7 +656,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "已预约，收到公司Zoom。",
       "description": "婚礼信息与婚礼场地选择服务；Zoom，链接已收；未公布费用；公司/职种/选考介绍",
-      "nextAction": "参加即可；11/5后接CA12–13。",
+      "nextAction": "参加即可；11/5后接CA12–13；11/06 09:00提醒确认是否听完，再整理本选考要求与材料。",
       "checkedAt": "2026-10-30",
       "sources": [
         {
@@ -671,7 +671,13 @@
           "label": "实际举办",
           "endDate": "2026-11-05T12:00"
         }
-      ]
+      ],
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-06T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [],
+        "intent": "听完后准备本选考"
+      }
     },
     {
       "id": "opp-83bc5b305c",
@@ -682,7 +688,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "本人已确认预约。",
       "description": "居住信息、社会课题与品牌服务；线上，LINE预约；未公布费用；实习前必听；无需PF；听后再决定是否选考",
-      "nextAction": "参加；不要与Leverages11/12同约。",
+      "nextAction": "参加；不要与Leverages11/12同约；11/13 09:00提醒确认是否听完，再整理本选考要求与材料。",
       "checkedAt": "2026-10-30",
       "sources": [
         {
@@ -698,7 +704,13 @@
           "label": "实际举办",
           "endDate": "2026-11-12T18:00"
         }
-      ]
+      ],
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-13T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [],
+        "intent": "听完后准备本选考"
+      }
     },
     {
       "id": "opp-d698b0e5c5",
@@ -709,7 +721,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3官方MyPage显示预约完成，16:08企业预约确认邮件已核验：11/6 14:30–16:00本社现场说明会。",
       "description": "博报堂系数字创意与Web体验制作；本社现场；公司说明、问答及选考介绍；穿便服；与本选考材料提交分开。",
-      "nextAction": "11/5预约截止后查看公司发送的参加详情；11/6 14:30到本社参加说明会，提前安排往返交通。",
+      "nextAction": "11/5预约截止后查看公司发送的参加详情；11/6 14:30到本社参加说明会，提前安排往返交通；11/07 09:00提醒确认是否听完，再整理本选考要求与材料。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -737,7 +749,15 @@
           "label": "已预约：创意职公司说明会（本社现场）",
           "endDate": "2026-11-06T16:00"
         }
-      ]
+      ],
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-07T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [
+          "opp-b70896a890"
+        ],
+        "intent": "听完后准备本选考"
+      }
     },
     {
       "id": "opp-6286d81e29",
@@ -978,7 +998,7 @@
       "status": "报名已提交待指引",
       "statusDetail": "公司11/2已回复受理11/11线上活动申请，称前一天发送Zoom链接；等待参加链接。",
       "description": "服务设计、编辑与品牌、数字产品；Zoom／东京现场；未公布费用；公司、两位员工案例与答疑；线下有额外座谈20名",
-      "nextAction": "11/10查看公司发送的参加链接；无需重复申请。",
+      "nextAction": "11/10查看公司发送的参加链接；无需重复申请；11/12 09:00提醒确认是否听完，再整理本选考要求与材料。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -1000,7 +1020,15 @@
           "label": "实际举办",
           "endDate": "2026-11-11T19:30"
         }
-      ]
+      ],
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-12T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [
+          "opp-06123c2f49"
+        ],
+        "intent": "听完后准备本选考"
+      }
     },
     {
       "id": "opp-80ccdd1cc4",
@@ -1584,7 +1612,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "公司10/28确认改期至12/24；旧10/29不再作为未来参加。",
       "description": "コエテコ、ポイントタウン等互联网服务；Zoom，链接已收到；未公布费用；从10/29改至12/24",
-      "nextAction": "更新日历，删除旧10/29待参加状态。",
+      "nextAction": "更新日历，删除旧10/29待参加状态；12/25 09:00提醒确认是否听完，再整理本选考要求与材料。",
       "checkedAt": "2026-10-30",
       "sources": [
         {
@@ -1599,7 +1627,13 @@
           "label": "实际举办",
           "endDate": "2026-12-24T19:00"
         }
-      ]
+      ],
+      "postBriefingFollowUp": {
+        "remindAt": "2026-12-25T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [],
+        "intent": "听完后准备本选考"
+      }
     },
     {
       "id": "opp-b70896a890",
@@ -1610,7 +1644,7 @@
       "status": "候选／计划申请",
       "statusDetail": "收到开放通知；未提交",
       "description": "公司MyPage；正式薪资不作为实习报酬；ES＋照片＋PF；实物PF12/4邮戳有效",
-      "nextAction": "按你目前方针先听说明会，不自动报本选考。",
+      "nextAction": "先听11/6 14:30–16:00公司说明会；11/7 09:00提醒整理创意职要求并准备ES、作品集，复核本选考截止。",
       "checkedAt": "2026-10-30",
       "sources": [
         {
@@ -1876,7 +1910,7 @@
       "status": "候选／计划申请",
       "statusDetail": "尚未核到正式提交。",
       "description": "UIUX需履历书及PF；服务设计需指定个人work。职位仍募集时可再申请。",
-      "nextAction": "根据准备程度选择term，留意招满。",
+      "nextAction": "先听11/19 18:00–19:00 UI/UX专场；11/20 09:00提醒整理岗位要求、履历书和作品集，再决定适合的term并提交。",
       "checkedAt": "2026-10-31",
       "sources": [
         {
@@ -1907,7 +1941,7 @@
       "status": "候选／计划申请",
       "statusDetail": "尚未核到正式提交。",
       "description": "UIUX需履历书及PF；服务设计需指定个人work。职位仍募集时可再申请。",
-      "nextAction": "根据准备程度选择term，留意招满。",
+      "nextAction": "先听11/19 18:00–19:00 UI/UX专场；11/20 09:00提醒整理岗位要求、履历书和作品集，再决定适合的term并提交。",
       "checkedAt": "2026-10-31",
       "sources": [
         {
@@ -2477,7 +2511,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3通过ViViViT登录账号提交；成功页显示本场次“申込みが完了しました”。",
       "description": "ENSAPIA、クイック、フリースタイルエンターテイメント、giftee。 Zoom webinar；线上；可中途进出。",
-      "nextAction": "从预约完成邮件查看视听链接；按时参加。",
+      "nextAction": "从预约完成邮件查看视听链接；按时参加；11/11 09:00提醒确认是否听完，再整理本选考要求与材料。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -2499,7 +2533,17 @@
           "endDate": "2026-11-10T20:30",
           "label": "已预约／线上设计专场（最多至20:30）"
         }
-      ]
+      ],
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-11T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [
+          "selection-quick-graphic-2028",
+          "selection-freestyle-design-2028",
+          "selection-giftee-communication-2028"
+        ],
+        "intent": "听完后准备本选考"
+      }
     },
     {
       "id": "opp-0165f6d3d4-booked-20261113",
@@ -2510,7 +2554,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3通过ViViViT登录账号提交；成功页显示本场次“申込みが完了しました”。",
       "description": "CyberAgent、INFOBAHN、GK京都；活动正文另列SevenDex，但预约表未列，登坛名单可能调整。 Zoom webinar；线上；可中途进出。",
-      "nextAction": "从预约完成邮件查看视听链接；按时参加。",
+      "nextAction": "从预约完成邮件查看视听链接；按时参加；11/14 09:00提醒确认是否听完，再整理本选考要求与材料。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -2532,20 +2576,31 @@
           "endDate": "2026-11-13T20:30",
           "label": "已预约／线上设计专场（最多至20:30）"
         }
-      ]
+      ],
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-14T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [
+          "selection-cyberagent"
+        ],
+        "intent": "听完后准备本选考"
+      }
     },
     {
       "id": "activity-goodpatch-uiux-20261119",
       "company": "Goodpatch",
       "title": "【必听】UI/UX设计师说明会",
-      "status": "候选／计划申请",
-      "statusDetail": "用户明确一定要听；11/3已准备HRMOS表格，尚未提交，等待私人联系方式填写确认。",
+      "status": "已预约／确认参加",
+      "statusDetail": "11/3 16:44 HRMOS报名完成页、场次回执及企业确认邮件均已核验：11/19 18:00–19:00 UI/UX设计师线上专场。",
       "description": "面向2028卒，线上UI/UX设计师专场；与UX 1Day实习申请分开。",
-      "nextAction": "完成11/19 18:00–19:00预约。与DENSO同日同时间冲突；本人明确Goodpatch优先。",
+      "nextAction": "11/18前查收Google Meet链接；11/19 18:00参加必听专场。11/20 09:00提醒确认听会情况，再准备本选考履历书与作品集。",
       "sources": [
         {
           "label": "官方HRMOS说明会",
           "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/events/2301591493399715840"
+        },
+        {
+          "label": "11/3本人HRMOS完成页、场次回执及企业确认邮件已核验；私人邮件、联系方式、取消链接不公开"
         }
       ],
       "milestones": [
@@ -2553,13 +2608,22 @@
           "type": "event",
           "date": "2026-11-19T18:00",
           "endDate": "2026-11-19T19:00",
-          "label": "必听意向／待预约"
+          "label": "已预约／必听：UI/UX设计师专场"
         }
       ],
       "category": "activity",
       "subtype": "公司设计说明会",
       "checkedAt": "2026-11-03",
-      "notes": "预约待完成；不得标为已确认。"
+      "notes": "仅本场已确认；DENSO同时间候选按本人明确意向让位于Goodpatch。UX 1Day实习已提交与本选考为独立事项。",
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-20T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [
+          "selection-goodpatch-term2",
+          "selection-goodpatch-term3"
+        ],
+        "intent": "听完后准备本选考"
+      }
     },
     {
       "id": "activity-hakuhodo-designer-202612",
@@ -2606,7 +2670,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3官方HRMOS提交完成；企业预约确认邮件及场次回执均已核验：11/11 11:00–11:45线上。",
       "description": "面向工程师与设计师的产品职专场，线上；2028/3前毕业、2028/4入社。",
-      "nextAction": "11/10约15:00查收企业发送的参会链接；11/11 11:00参加线上产品职说明会。",
+      "nextAction": "11/10约15:00查收企业发送的参会链接；11/11 11:00参加线上产品职说明会；11/12 09:00提醒确认是否听完，再整理本选考要求与材料。",
       "sources": [
         {
           "label": "官方HRMOS活动",
@@ -2627,7 +2691,13 @@
       "category": "activity",
       "subtype": "公司设计说明会",
       "checkedAt": "2026-11-03",
-      "notes": "只确认11/11这一场；未预约其他替代日期。参会链接由企业前一日约15:00发送。"
+      "notes": "只确认11/11这一场；未预约其他替代日期。参会链接由企业前一日约15:00发送。",
+      "postBriefingFollowUp": {
+        "remindAt": "2026-11-12T09:00:00+09:00",
+        "attendanceStatus": "unknown",
+        "selectionIds": [],
+        "intent": "听完后准备本选考"
+      }
     },
     {
       "id": "activity-panasonic-musabi-20261110",
@@ -2930,5 +3000,5 @@
       ]
     }
   ],
-  "lastVerifiedAt": "2026-11-03T16:09:02+09:00"
+  "lastVerifiedAt": "2026-11-03T16:47:59+09:00"
 }
