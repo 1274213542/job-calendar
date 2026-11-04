@@ -614,22 +614,43 @@
     {
       "id": "opp-8bb33b8b33",
       "company": "Honda",
-      "title": "下一轮设计Workshop／Spring",
+      "title": "Spring 车载显示器UI/UX设计实习",
       "category": "internship",
-      "subtype": "即将开放",
+      "subtype": "春季设计实习（超过1周的日期跨度）",
       "status": "候选／计划申请",
-      "statusDetail": "待发布",
-      "description": "Honda 设计方向，包含 UI/UX；当期完整条件待公布，不沿用旧募集条件。",
-      "nextAction": "关注新募集要项与设计主题。",
-      "checkedAt": "2026-10-30",
+      "statusDetail": "已发布要项；11/4尚未开放此课程",
+      "description": "2028届（含修士一年级）可，须举办时在国内/国外教育机构在籍，专业不限，以日语指导。本田技術研究所デザインセンター（埼玉県和光市或朝霞市）",
+      "nextAction": "12/3 13:00开放UI/UX路线，准备作品PDF后再申请。",
+      "checkedAt": "2026-11-04",
       "sources": [
         {
-          "label": "原始来源",
+          "label": "Honda春季设计实习各课程要项",
+          "url": "https://global.honda/jp/jobs/design/internship/"
+        },
+        {
+          "label": "设计招聘年度时间表",
           "url": "https://global.honda/jp/jobs/design/"
         }
       ],
-      "notes": "预计2026年11月公告；暂无截止时间；2027年2–3月，具体日期待公布。",
-      "milestones": []
+      "notes": "一个小于10MB的PDF，含图形设计数字作品、附想法/过程的数字作品、自介与优势；可附一个小于100MB的MP4。注明生成AI使用与团队分工。 连续日历区间；未公布每日时间或明确出席天数，不作1–5日项目。 NEXT代学生的sketch工作坊是独立项目。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-12-03T13:00",
+          "label": "UI/UX课程报名开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-02-02T11:00",
+          "label": "UI/UX课程报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-03-10",
+          "endDate": "2027-03-18",
+          "label": "车载显示器UI/UX实习区间／未申请"
+        }
+      ]
     },
     {
       "id": "opp-fe2baefbd3",
@@ -1853,18 +1874,22 @@
       "title": "就业型设计实习",
       "category": "internship",
       "subtype": "结果与排除",
-      "status": "候选／计划申请",
-      "statusDetail": "未申请",
+      "status": "当期募集已结束",
+      "statusDetail": "11/4核到28卒设计实习原始ATS，书面申请截止为2026/10/31。本期未申请。",
       "description": "按公司安排；1,250日元/小时；交通/远方住宿规定支持；岗位含游戏设计；页面截止与举办期矛盾",
-      "nextAction": "不能无条件标作明天截止且能参加；需公司确认下一期，暂不列优先。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "若公司发布新的UI或设计实习批次，再按新期限核实。",
+      "checkedAt": "2026-11-04",
       "sources": [
         {
-          "label": "原始来源",
+          "label": "28卒就业型设计实习原始ATS",
+          "url": "https://colopl-recruit.snar.jp/jobboard/detail.aspx?id=v8XNLN0DHoE"
+        },
+        {
+          "label": "企业实习项目页",
           "url": "https://colopl.co.jp/recruit/internship2026/designer/job/"
         }
       ],
-      "notes": "原资料：报名开始 页面仍有入口；截止 2026-10-31；举办期却写至2026年10月；举办 2周–2个月；未来安排未确定。截止与举办期相互矛盾，日期待确认，未作为待办日期。",
+      "notes": "本期岗位写至2026年10月举办，官网ATS列10月31日申请截止。下期未公布。",
       "milestones": []
     },
     {
@@ -2183,15 +2208,19 @@
       "status": "候选／计划申请",
       "statusDetail": "尚未核到正式提交。",
       "description": "ES＋PF；需说明AI使用过程及本人判断。",
-      "nextAction": "核本人MyPage材料期限。",
-      "checkedAt": "2026-10-31",
+      "nextAction": "先核本人MyPage提交期限。ES须写使用的AI工具及其使用环节；作品集至少1项展示AI流程及自己的判断、修改，或依官网提交AI制作的自我介绍网页课题。",
+      "checkedAt": "2026-11-04",
       "sources": [
         {
           "label": "官方或岗位来源",
           "url": "https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/14537/"
+        },
+        {
+          "label": "11/4复核28卒产品设计岗位与AI材料要求",
+          "url": "https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/14537/"
         }
       ],
-      "notes": "期限见MyPage，待核对；下一批与同届复投未公开。",
+      "notes": "期限见MyPage，待核对；下一批与同届复投未公开。 官网当前28卒条款明确2027年10月或2028年4月入社。游戏数字娱乐岗位另招；本条是产品设计师。",
       "milestones": []
     },
     {
@@ -3202,9 +3231,680 @@
           "label": "合格后需参加／六本木现场（尚未录取）"
         }
       ]
+    },
+    {
+      "id": "selection-cybozu-product-design-2028",
+      "company": "サイボウズ（Cybozu）",
+      "title": "28卒 产品设计师",
+      "category": "selection",
+      "subtype": "本选考",
+      "description": "BtoB SaaS的需求梳理、信息架构、原型、可用性及设计系统。要求Figma等工具经验、团队协作和商务日语。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "公司28卒岗位及说明视频",
+          "url": "https://cybozu.co.jp/recruit/entry/newgrad/product-designer2028.html"
+        },
+        {
+          "label": "公司报名入口",
+          "url": "https://b6692ea5.form.kintoneapp.com/public/cy-newgrad2028-engineer-designer"
+        }
+      ],
+      "milestones": [],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "全年受理，额满会关闭。2028年4月入社且申请时就业务历未满1年。东京等日本国内据点或在宅依岗位协商。 11/4实际表单注明日语N1相当、过去一年内未申请过；就业务历不含实习和打工，产品设计可选为第一志愿。"
+    },
+    {
+      "id": "selection-herp-product-design-2028",
+      "company": "株式会社HERP",
+      "title": "28卒 产品设计师（ジョブミル等）",
+      "category": "selection",
+      "subtype": "本选考",
+      "description": "BtoB SaaS产品原型及UI/UX，兼顾LP、宣传资料。要求数字产品设计实务经验（实习可）和Figma等工具经验。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "28卒设计师正式岗位",
+          "url": "https://herp.careers/v1/herpinc/rOCQ7t221beA"
+        },
+        {
+          "label": "企业学生招聘分类",
+          "url": "https://herp.careers/v1/herpinc/requisition-groups/1825a9bc-a0d0-42ed-ada8-2abd983efc87"
+        }
+      ],
+      "milestones": [],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "未公布固定申请截止。书类及面试后选考含至少1个月的实习。"
+    },
+    {
+      "id": "internship-teamlab-uiux-two-weeks",
+      "company": "チームラボ（teamLab）",
+      "title": "Solutions UI/UX设计实习（两个工作周）",
+      "category": "internship",
+      "subtype": "超过一周的定期设计实习",
+      "description": "东京本社等地，按意向安排两周工作日，每日10:00–19:00，时薪1,300日元。大学院在读可申请，不限毕业届。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业实习要项与日程",
+          "url": "https://www.team-lab.com/recruit/internship/"
+        },
+        {
+          "label": "企业指定UI/UX实习入口",
+          "url": "https://open.talentio.com/r/1/c/teamlab/pages/50733"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2027-02-01T10:00",
+          "label": "实习申请截止"
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "具体参加时段待选考后确定。此项目独立于新卒正式选考。 UI/UX实习表可读取，按美术院校在学创作或数字UI设计经验二选一，同次限一个岗位。"
+    },
+    {
+      "id": "selection-teamlab-uiux-year-round",
+      "company": "チームラボ（teamLab）",
+      "title": "UI/UX设计师 通年新卒选考",
+      "category": "selection",
+      "subtype": "本选考",
+      "description": "Web、移动产品及数字体验设计。新卒通年渠道不限毕业年度与专攻。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业通年招聘与职种入口",
+          "url": "https://www.team-lab.com/recruit/tsunen/"
+        },
+        {
+          "label": "UI/UX设计师岗位",
+          "url": "https://open.talentio.com/r/1/c/teamlab/pages/50821"
+        }
+      ],
+      "milestones": [],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "通年采用，官网列无统一截止。28卒可进入通年渠道，实际入社期需与公司确认。 申请表要求高中起学历的履历及可访问的作品集URL；作品使用AI时须说明用途及范围。"
+    },
+    {
+      "id": "selection-fromsoftware-game-ui-2028",
+      "company": "フロム・ソフトウェア（FromSoftware）",
+      "title": "28卒 游戏UI Artist",
+      "category": "selection",
+      "subtype": "本选考",
+      "description": "负责游戏内UI视觉，是Graphic职下的UI Artist方向。东京本社。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业28卒专用招聘系统",
+          "url": "https://fromsoftware-careers.snar.jp/jobboard/detail.aspx?id=r6feZU24V8w"
+        },
+        {
+          "label": "企业新卒招聘与职种说明",
+          "url": "https://careers.fromsoftware.jp/jp/newgraduates.html"
+        }
+      ],
+      "milestones": [],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "2027年4月至2028年3月毕业或修了的大学、大学院等学生可报，日本国内在读留学生可用该入口。官网概览仍混列旧届截止，本届时刻待核。"
+    },
+    {
+      "id": "selection-fromsoftware-graphic-web-2028",
+      "company": "フロム・ソフトウェア（FromSoftware）",
+      "title": "28卒 广告／Web平面设计师",
+      "category": "selection",
+      "subtype": "本选考",
+      "description": "游戏宣传包装、广告和网站等的设计制作。东京本社。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业28卒专用招聘系统",
+          "url": "https://fromsoftware-careers.snar.jp/jobboard/detail.aspx?id=r6feZU24V8w"
+        },
+        {
+          "label": "企业新卒招聘与职种说明",
+          "url": "https://careers.fromsoftware.jp/jp/newgraduates.html"
+        }
+      ],
+      "milestones": [],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "2027年4月至2028年3月毕业或修了的大学、大学院等学生可报，日本国内在读留学生可用该入口。官网概览仍混列旧届截止，本届时刻待核。"
+    },
+    {
+      "id": "selection-kurihaku-portfolio-dec2026",
+      "company": "クリ博／デジタルスケープ",
+      "title": "28卒 12月线上作品集联合选考",
+      "category": "selection",
+      "subtype": "作品集联合选考",
+      "description": "多个游戏/视觉企业共同看作品集，通过者从12月下旬起由各企业分别联络。Drecom、Sega集团、Game Freak、Bank of Innovation等在主办方参展名单中。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "主办方当批募集说明",
+          "url": "https://www.kurihaku.jp/direct/recruit/detail/81017/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "portfolio_deadline",
+          "date": "2026-12-01T23:55",
+          "label": "联合选考作品集截止"
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "2028年3月毕业、志望设计职学生对象。此日是作品提交期限，未公布固定参会时间。"
+    },
+    {
+      "id": "taki-winter28-p1",
+      "company": "たきコーポレーション",
+      "title": "1Day 广告平面制作",
+      "category": "internship",
+      "subtype": "短期工作体验／工作坊",
+      "description": "东京筑地，组队构思、制作并汇报广告；人数超额抽签。公司公告面向28卒；无职历、含大学院生。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://www.taki.co.jp/news/internship-winter-2026/"
+        },
+        {
+          "label": "企业指定报名系统及要项",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=259864&optNo=Sxozn"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-18",
+          "label": "申请截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-20T10:30",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-01-20T18:00"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-25T10:30",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-01-25T18:00"
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "12月18日截止，未公布钟点。"
+    },
+    {
+      "id": "taki-winter28-p2",
+      "company": "たきコーポレーション",
+      "title": "1Day 平面设计制作体验",
+      "category": "internship",
+      "subtype": "短期工作体验／工作坊",
+      "description": "东京 COBO，案例讲解、短制作任务；ES，作品集可选、提交优先，现场可选择作品集讲评。公司公告面向28卒；全学年。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://www.taki.co.jp/news/internship-winter-2026/"
+        },
+        {
+          "label": "企业指定报名系统及要项",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=259864&optNo=0mZyl"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-18",
+          "label": "申请截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-27T11:00",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-01-27T17:00"
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "12月18日截止，未公布钟点。"
+    },
+    {
+      "id": "taki-winter28-p3",
+      "company": "たきコーポレーション",
+      "title": "5日映像制作现场体验",
+      "category": "internship",
+      "subtype": "1–5天设计实习",
+      "description": "ES筛选，作品集可选、提交优先。公司公告面向28卒；无职历、含大学院生、能全程参加、携带电脑等终端。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://www.taki.co.jp/news/internship-winter-2026/"
+        },
+        {
+          "label": "企业指定报名系统及要项",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=259864&optNo=LlWhz"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-18",
+          "label": "申请截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-11T10:30",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-01-15T18:30"
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "12月18日截止，未公布钟点。"
+    },
+    {
+      "id": "taki-winter28-p4",
+      "company": "たきコーポレーション",
+      "title": "1Day 品牌与广告设计实践",
+      "category": "internship",
+      "subtype": "短期工作体验／工作坊",
+      "description": "ES筛选，作品集可选、提交优先。公司公告面向28卒；无职历。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://www.taki.co.jp/news/internship-winter-2026/"
+        },
+        {
+          "label": "企业指定报名系统及要项",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=259864&optNo=Jbczy"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-18",
+          "label": "申请截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-10T10:00",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-02-10T19:00"
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "12月18日截止，未公布钟点。"
+    },
+    {
+      "id": "taki-winter28-p5",
+      "company": "たきコーポレーション",
+      "title": "UXデザイナー・UXプロデューサー工作介绍与座谈",
+      "category": "activity",
+      "subtype": "设计职说明会／座谈",
+      "description": "ES及可选作品集。公司公告面向28卒；无职历、能够使用Zoom。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://www.taki.co.jp/news/internship-winter-2026/"
+        },
+        {
+          "label": "企业指定报名系统及要项",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=259864&optNo=ZIuc2"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-18",
+          "label": "申请截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-28T13:00",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-01-28T14:30",
+          "endApproximate": true
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "12月18日截止，未公布钟点。"
+    },
+    {
+      "id": "boi-28-game-designer",
+      "company": "バンク・オブ・イノベーション",
+      "title": "28卒 デザイナー職（游戏UI／美术）",
+      "category": "selection",
+      "subtype": "本选考",
+      "description": "公司28卒设计师标募集中，独立ATS标题写明28卒，含必填信息与新卒正式选考流程。28卒；毕业院校类别包含大学院，院卒薪资明确。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://boi.jp/recruit/newgraduates/"
+        },
+        {
+          "label": "企业指定报名系统及要项",
+          "url": "https://www.career-cloud.asia/28/form/entryb/index/8c8913210e12e1ae62e5ec8a168887de"
+        }
+      ],
+      "milestones": [],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "方向按能力与意向分配。指定素描2–3件以上、禁止任何用途使用生成AI的作品。最终5日实技＋面试属于本选考。"
+    },
+    {
+      "id": "cygames-28-designer-normal",
+      "company": "Cygames",
+      "title": "28卒 デザイナー職 通常選考（含UI）",
+      "category": "selection",
+      "subtype": "本选考",
+      "description": "28卒募集要项、官方通常选考四轮和各轮时间，所有人可参加。2028年3月底前毕业或修了、2028年4月入社。东京全设计职；大阪含UI。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://fresh.cygames.co.jp/recruit/flow/"
+        },
+        {
+          "label": "企业指定报名系统及要项",
+          "url": "https://cygames.snar.jp/jobboard/detail.aspx?id=_XL5n4tX-SfwdzUwoWd3-A"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-12-01T15:00",
+          "label": "通常选考第1轮开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-18T15:00",
+          "label": "通常选考第1轮截止"
+        },
+        {
+          "type": "open",
+          "date": "2027-02-01T15:00",
+          "label": "通常选考第2轮开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-02-12T15:00",
+          "label": "通常选考第2轮截止"
+        },
+        {
+          "type": "open",
+          "date": "2027-03-01T15:00",
+          "label": "通常选考第3轮开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-03-12T15:00",
+          "label": "通常选考第3轮截止"
+        },
+        {
+          "type": "open",
+          "date": "2027-05-17T15:00",
+          "label": "通常选考第4轮开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-05-28T15:00",
+          "label": "通常选考第4轮截止"
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "四轮只能申请一次，材料齐备后顺次审查，满额可提前结束。"
+    },
+    {
+      "id": "cygames-tokyo-osaka-winter28-ui",
+      "company": "Cygames",
+      "title": "游戏UI等设计冬季实习（3周）",
+      "category": "internship",
+      "subtype": "超过一周的设计实习",
+      "description": "游戏界面的制作与指导。大学・大学院等在读、可于2028年4月以后入社；已在夏季实习后参加28卒特别选考者除外。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://cygames.snar.jp/jobboard/detail.aspx?id=LCzoxgImbDFEDgsPYb89qw"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-27T10:00",
+          "label": "第一轮书类截止"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-24T10:00",
+          "label": "第二轮书类截止（仅3月场）"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-01T10:00",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-02-19T19:00"
+        },
+        {
+          "type": "event",
+          "date": "2027-03-01T10:00",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-03-19T19:00"
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "两期任选，第二轮只能申请3月。ES+作品集（东京/大阪制作管理可以仅ES）。UI、3DCG、2D动画等导师一对一。"
+    },
+    {
+      "id": "cygames-tokyo-osaka-winter28-illustration",
+      "company": "Cygames",
+      "title": "冬季角色／背景／单幅插画实习（5天）",
+      "category": "internship",
+      "subtype": "1–5天设计实习",
+      "description": "大学・大学院等在读、可于2028年4月以后入社；已在夏季实习后参加28卒特别选考者除外。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://cygames.snar.jp/jobboard/detail.aspx?id=LCzoxgImbDFEDgsPYb89qw"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-27T10:00",
+          "label": "第一轮书类截止"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-24T10:00",
+          "label": "第二轮书类截止（仅3月场）"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-01T10:00",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-02-05T19:00"
+        },
+        {
+          "type": "event",
+          "date": "2027-03-01T10:00",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-03-05T19:00"
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "两期任选，第二轮只能申请3月。ES+作品集（东京/大阪制作管理可以仅ES）。仅角色、背景、单幅插画与制作管理是5天。内容插画另为两周。"
+    },
+    {
+      "id": "cygames-saga-winter28-illustration",
+      "company": "Cygames",
+      "title": "佐賀冬季插画实习（5天）",
+      "category": "internship",
+      "subtype": "1–5天设计实习",
+      "description": "大学・大学院等在读、可于2028年4月以后入社；已在夏季实习后参加28卒特别选考者除外。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://cygames.snar.jp/jobboard/detail.aspx?id=fD_hjFskCahTcx4c6_HS0Q"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-27T10:00",
+          "label": "第一轮书类截止"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-24T10:00",
+          "label": "第二轮书类截止（仅3月场）"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-01T09:00",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-02-05T18:00"
+        },
+        {
+          "type": "event",
+          "date": "2027-03-01T09:00",
+          "label": "候选活动期间（未预约）",
+          "endDate": "2027-03-05T18:00"
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "两期任选，第二轮只能申请3月。ES+作品集（东京/大阪制作管理可以仅ES）。佐贺仅招插画，可与东京／大阪併願。每期约3人。"
+    },
+    {
+      "id": "colorfulpalette-rolling-illustrator",
+      "company": "Colorful Palette",
+      "title": "游戏角色插画线上实习（5天）",
+      "category": "internship",
+      "subtype": "1–5天设计实习",
+      "description": "官方现行学生实习目录及岗位，明确申请材料、资格和线上5天安排，选拔后商定起始日。18岁以上，2027-04或以后可入社。须有角色插画经验、熟悉Photoshop等二维绘图工具，并具日语母语或JLPT N1同等以上能力。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://hrmos.co/pages/colorfulpalette/jobs/AA-02-2027"
+        },
+        {
+          "label": "企业指定报名系统及要项",
+          "url": "https://hrmos.co/pages/colorfulpalette/jobs/?jobType=INTN"
+        },
+        {
+          "label": "企业指定报名系统及要项",
+          "url": "https://hrmos.co/pages/colorfulpalette/jobs/AA-02-2027/apply"
+        }
+      ],
+      "milestones": [],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "选拔通过后5日线上，必要时另行商谈1–3周线下。须提交PDF履历书与至少3件作品。 以游戏插画为主；线上无薪。"
+    },
+    {
+      "id": "colorfulpalette-rolling-background",
+      "company": "Colorful Palette",
+      "title": "游戏背景设计线上实习（5天选项）",
+      "category": "internship",
+      "subtype": "1–5天设计实习",
+      "description": "官方现行学生实习目录及岗位，明确申请材料、资格和线上5天安排，选拔后商定起始日。18岁以上，2027年以后毕业。须有背景插画经验且熟悉Photoshop等图形软件。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业公开募集",
+          "url": "https://hrmos.co/pages/colorfulpalette/jobs/AB-02-2027"
+        },
+        {
+          "label": "企业指定报名系统及要项",
+          "url": "https://hrmos.co/pages/colorfulpalette/jobs/?jobType=INTN"
+        },
+        {
+          "label": "企业指定报名系统及要项",
+          "url": "https://hrmos.co/pages/colorfulpalette/jobs/AB-02-2027/apply"
+        }
+      ],
+      "milestones": [],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "线上或线下个别商定；线上5日、线下1–3周。须提交履历书、作品集或至少3件作品。 以游戏插画为主；线上无薪。"
+    },
+    {
+      "id": "selection-sdtech-uiux-2028",
+      "company": "エスディーテック（sdtech）",
+      "title": "28卒 UI/UX设计师（含车载GUI）",
+      "category": "selection",
+      "subtype": "本选考",
+      "description": "车载GUI、Web/手机应用、娱乐设备；体验概念、UI设计与视觉、原型和用户评价。至2028/3预计专门学校/大学毕业或大学院修了；同时须具备UI基础技能，做过数字产品Web/App等的界面。HCD/人因及交互是加分项。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "企业28卒岗位",
+          "url": "https://www.sdtech.co.jp/new-graduate-recruitment/entry-level-designer"
+        },
+        {
+          "label": "正式报名／casual面谈入口",
+          "url": "https://go.sdtech.co.jp/l/994412/2025-06-26/xpds4"
+        }
+      ],
+      "milestones": [],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "未公布统一截止或选考日期，不能写滚动即将截止。 东京品川。修士基本月薪28万日元，远程办公补贴8,000日元，超时工资另计。"
+    },
+    {
+      "id": "selection-hakuhodo-design-2028",
+      "company": "博報堂",
+      "title": "28卒 博报堂本体设计师选考",
+      "category": "selection",
+      "subtype": "本选考（已公布开放日期）",
+      "description": "无就职经验，至2028年3月获修士等学位，国籍不限。要求具体设计表达，UI为可选专长之一。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "博报堂本体设计师正式选考",
+          "url": "https://hakusuku.jp/recruit/information/designer-entry/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-12-07",
+          "label": "正式选考开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-01-07T12:00",
+          "label": "正式申请截止"
+        }
+      ],
+      "status": "公开招聘／活动信息",
+      "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
+      "notes": "12月7日开放，未公布钟点。材料含ES、指定课题、作品集及技术能力材料。"
     }
   ],
-  "lastVerifiedAt": "2026-11-04T21:34:22+09:00",
+  "lastVerifiedAt": "2026-11-04T21:42:07+09:00",
   "weeklySchedule": [
     {
       "id": "weekly-school-monday",
