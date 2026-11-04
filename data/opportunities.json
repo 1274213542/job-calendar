@@ -3902,6 +3902,33 @@
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
       "notes": "12月7日开放，未公布钟点。材料含ES、指定课题、作品集及技术能力材料。"
+    },
+    {
+      "id": "selection-wdb-aptitude-20261112",
+      "company": "WDB",
+      "title": "适应性测试",
+      "category": "selection",
+      "subtype": "适性测试",
+      "status": "已预约／确认参加",
+      "statusDetail": "本人确认已预约11月12日09:30–13:00的适应性测试。",
+      "description": "WDB选考测试，按已预约时段参加。",
+      "nextAction": "按预约指引参加，提前准备所需设备或材料。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        {
+          "label": "本人确认已预约（2026-11-04）"
+        }
+      ],
+      "notes": "测试形式、地点与详细参加要求以预约指引为准。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-12T09:30",
+          "endDate": "2026-11-12T13:00",
+          "label": "已预约／适应性测试"
+        }
+      ],
+      "workCompatibility": "requires_confirmation"
     }
   ],
   "lastVerifiedAt": "2026-11-04T21:42:07+09:00",
