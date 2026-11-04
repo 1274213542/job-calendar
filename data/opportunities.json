@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -8,11 +8,11 @@
       "title": "UX设计1Day",
       "category": "internship",
       "subtype": "短期实习与工作坊",
-      "status": "申请已受理／书类通过，待约面试",
-      "statusDetail": "已通过12月5日UX设计1Day的书类选考，进入线上小组一次面试。11月4日晚，HRMOS仍显示待选择日期，尚无个人预约回执。",
+      "status": "申请已受理／书类通过",
+      "statusDetail": "已通过书类；11月10日的一次面试已另列为已确认场次。12月5日的实习仍待选考。",
       "description": "UI/UX、服务设计、品牌与产品开发支援；东京涩谷线下；参加免费；无交通补贴；未公布实习报酬；履历书PDF必需、作品集PDF可选；书类→线上面试1次→SPI性格检查→参加；约20名；截止后约1周告知书类结果",
-      "nextAction": "尽快在通知邮件中选约60分钟的Google Meet面试。11月9日（周一）10:00–11:00场与已记录安排无冲突，11:00–12:00场也列在预约页。选定后核对预约完成邮件。",
-      "checkedAt": "2026-11-04",
+      "nextAction": "按11月10日预约参加面试，随后等待实习选考结果。",
+      "checkedAt": "2026-11-05",
       "sources": [
         {
           "label": "原始来源",
@@ -28,7 +28,7 @@
           "label": "11/4 企业书类结果及本人 HRMOS 日程选择页"
         }
       ],
-      "notes": "10月31日正式申请。企业给出的面试实施期间为11月4日至13日，11月4日晚可选日期为6、9、10、11、12日。余位可能变化。12月5日10:00–18:00为实习候选安排，仍待选考。",
+      "notes": "12月5日10:00–18:00是实习举办时段，参加资格仍待选考。",
       "milestones": [
         {
           "type": "open",
@@ -44,7 +44,7 @@
         {
           "type": "open",
           "date": "2026-11-04",
-          "label": "进入一次面试，实施期间11/4–13（待选场）"
+          "label": "进入一次面试选考"
         },
         {
           "type": "event",
@@ -3926,6 +3926,32 @@
           "date": "2026-11-12T09:30",
           "endDate": "2026-11-12T13:00",
           "label": "已预约／适应性测试"
+        }
+      ],
+      "workCompatibility": "requires_confirmation"
+    },
+    {
+      "id": "interview-goodpatch-ux1day-20261110",
+      "company": "Goodpatch",
+      "title": "UX设计1Day 实习选考面试",
+      "category": "selection",
+      "subtype": "实习选考面试",
+      "status": "已预约／确认参加",
+      "statusDetail": "11月10日15:00–16:00面试已预约。",
+      "description": "UX设计1Day实习的一次面试。",
+      "nextAction": "按预约时间参加面试。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "企业预约回执已核对"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-10T15:00",
+          "endDate": "2026-11-10T16:00",
+          "label": "已预约／实习一次面试"
         }
       ],
       "workCompatibility": "requires_confirmation"
