@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-04",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -8,11 +8,11 @@
       "title": "UX设计1Day",
       "category": "internship",
       "subtype": "短期实习与工作坊",
-      "status": "正式已提交待结果",
-      "statusDetail": "10/31 14:45 HRMOS邮件确认正式申请提交成功；尚无录取结果。",
+      "status": "申请已受理／书类通过，待约面试",
+      "statusDetail": "已通过12月5日UX设计1Day的书类选考，进入线上小组一次面试。11月4日晚，HRMOS仍显示待选择日期，尚无个人预约回执。",
       "description": "UI/UX、服务设计、品牌与产品开发支援；东京涩谷线下；参加免费；无交通补贴；未公布实习报酬；履历书PDF必需、作品集PDF可选；书类→线上面试1次→SPI性格检查→参加；约20名；截止后约1周告知书类结果",
-      "nextAction": "等待书类结果；12/5为候选时间，尚未确定参加。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "尽快在通知邮件中选约60分钟的Google Meet面试。11月9日（周一）10:00–11:00场与已记录安排无冲突，11:00–12:00场也列在预约页。选定后核对预约完成邮件。",
+      "checkedAt": "2026-11-04",
       "sources": [
         {
           "label": "原始来源",
@@ -23,9 +23,12 @@
         },
         {
           "label": "11/2 Goodpatch申请受理邮件已核；无新选考结果，私人正文未收录"
+        },
+        {
+          "label": "11/4 企业书类结果及本人 HRMOS 日程选择页"
         }
       ],
-      "notes": "原资料：报名开始 2026-10-15；截止 2026-11-01 23:59；举办 2026-12-05 10:00–18:00；1天。",
+      "notes": "10月31日正式申请。企业给出的面试实施期间为11月4日至13日，11月4日晚可选日期为6、9、10、11、12日。余位可能变化。12月5日10:00–18:00为实习候选安排，仍待选考。",
       "milestones": [
         {
           "type": "open",
@@ -37,6 +40,11 @@
           "date": "2026-11-01T23:59",
           "label": "报名截止",
           "completed": true
+        },
+        {
+          "type": "open",
+          "date": "2026-11-04",
+          "label": "进入一次面试，实施期间11/4–13（待选场）"
         },
         {
           "type": "event",
@@ -96,11 +104,11 @@
       "title": "UI/UX设计1Day工作坊",
       "category": "internship",
       "subtype": "短期实习与工作坊",
-      "status": "预Entry",
-      "statusDetail": "11/2 ReDesigner报名回执及11/3职位“応募済み”已核；本人对话仍是系统报名记录，尚无企业匹配、个别面谈或具体场次确认。",
+      "status": "已匹配／待约面谈",
+      "statusDetail": "企业已在ReDesigner与本人匹配，并邀请安排线上casual面谈。平台通知与对话已核，尚未核到面谈确切时间或工作坊席位。",
       "description": "游戏、出版及IP内容；线上；最新版Photoshop；未公布报酬；28卒、作品集；应募者均安排个别casual面谈；各场约10人，人多可能抽签；制作、发表与讲评",
-      "nextAction": "等待Drecom匹配／面谈与后续正式流程；优先11/14，12/5与Goodpatch候选日同日，两场均未确认参加。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "从企业对话中的日程链接选择面谈时间；报名时优先考虑11月14日。12月5日与Goodpatch候选实习同日，等待各自结果。",
+      "checkedAt": "2026-11-04",
       "sources": [
         {
           "label": "原始来源",
@@ -108,6 +116,9 @@
         },
         {
           "label": "11/2 ReDesigner报名回执及11/3职位本人状态；私人邮件不公开"
+        },
+        {
+          "label": "11/4 ReDesigner本人企业对话及该职位的応募済み状态"
         }
       ],
       "notes": "原资料：报名开始 已开放；开始日未公布；截止 11/14场：11/07；12/05场：11/28（均未写钟点）；举办 2026-11-14或12-05 10:00–18:00；1天。",
@@ -626,15 +637,18 @@
       "title": "设计师作品集Guidance",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "报名已提交待结果",
-      "statusDetail": "10/31 MyPage受理，人数多时抽选，席位未确定。",
+      "status": "已预约／确认参加",
+      "statusDetail": "已中签11月5日12:00–13:00设计师综合职作品集指导，企业要求11:50开始入室。",
       "description": "互联网广告、ABEMA媒体与游戏；Zoom webinar；麦克风/摄像头可关；免费；无报酬；问卷申请；人多抽签；讲PF评价标准。参加后1个月内投PF可获一次再次提交机会",
-      "nextAction": "等待抽选／参加结果和活动指引；报名已受理。",
-      "checkedAt": "2026-10-31",
+      "nextAction": "11:50用全名进入Zoom，12:00开始，13:00结束。入室时间与WeddingPark 11:00–12:00的最后10分钟重叠。",
+      "checkedAt": "2026-11-04",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://www.cyberagent.co.jp/careers/students/career_event/detail/id=33776"
+        },
+        {
+          "label": "11/4 企业抽选结果及参加指引"
         }
       ],
       "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-04 10:00；举办 2026-11-05 12:00–13:00。",
@@ -647,11 +661,13 @@
         },
         {
           "type": "event",
-          "date": "2026-11-05T12:00",
-          "label": "实际举办",
+          "date": "2026-11-05T11:50",
+          "label": "11:50入室，12:00–13:00作品集指导",
           "endDate": "2026-11-05T13:00"
         }
-      ]
+      ],
+      "workCompatibility": "online_briefing",
+      "bookingConfirmed": true
     },
     {
       "id": "opp-7dd531df43",
@@ -662,11 +678,14 @@
       "status": "已预约／确认参加",
       "statusDetail": "已预约，收到公司Zoom。",
       "description": "婚礼信息与婚礼场地选择服务；Zoom，链接已收；未公布费用；公司/职种/选考介绍",
-      "nextAction": "参加即可；11/5后接CA12–13；11/06 09:00提醒确认是否听完，再整理本选考要求与材料。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "11月5日11:00–12:00参加。11:50起与CyberAgent入室时间重叠10分钟，预先安排切换。11月6日09:00核对出席情况并整理本选考材料。",
+      "checkedAt": "2026-11-04",
       "sources": [
         {
           "label": "10/19 ReDesigner公司消息与10/21本人回复，预约已确认"
+        },
+        {
+          "label": "11/4 对照CyberAgent已确认入室时间"
         }
       ],
       "notes": "原资料：报名开始 已预约；截止 无需再次报名；举办 2026-11-05 11:00–12:00。",
@@ -726,11 +745,11 @@
       "title": "【线下】创意职公司说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "已预约／出席待定",
-      "statusDetail": "11/6 14:30–16:00本社现场名额预约成功；本人11/3明确只是保留名额，尚未决定是否实际到场。",
+      "status": "已取消",
+      "statusDetail": "11月6日14:30–16:00本社现场说明会预约已取消，11月4日21:09收到企业确认。",
       "description": "博报堂系数字创意与Web体验制作；本社现场；公司说明、问答及选考介绍；穿便服；与本选考材料提交分开。",
-      "nextAction": "本人尚未决定是否去；先保留名额。若到场须先确认周五兼职调班与通勤，取消期限11/5 12:00。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "该场已取消，11月7日的会后提醒已停止。若企业另开线上说明会，再单独核对。",
+      "checkedAt": "2026-11-04",
       "sources": [
         {
           "label": "原始来源",
@@ -744,34 +763,16 @@
         },
         {
           "label": "11/3本人明确要求保留现有线下预约"
-        }
-      ],
-      "notes": "11/3重新核验仍预约11/6 14:30–16:00东京本社线下。本人询问能否改线上；MyPage全部日程仅这一场，尚未取消或改约。11/25线上作品集咨询需筛选，与说明会不是同一活动。 本人11/3已明确决定保留现有线下预约；后续其他线下场仍须逐场事先告知并确认。 11/3最新澄清：保留名额不等于已决定出席。",
-      "milestones": [
-        {
-          "type": "deadline",
-          "date": "2026-11-05T12:00",
-          "label": "报名截止",
-          "completed": true
         },
         {
-          "type": "event",
-          "date": "2026-11-06T14:30",
-          "label": "线下名额已预约／是否到场待本人决定",
-          "endDate": "2026-11-06T16:00"
+          "label": "11/4 本人官方MyPage取消成功页及当晚企业取消回执"
         }
       ],
-      "postBriefingFollowUp": {
-        "remindAt": "2026-11-07T09:00:00+09:00",
-        "attendanceStatus": "unknown",
-        "selectionIds": [
-          "opp-b70896a890"
-        ],
-        "intent": "听完后准备本选考"
-      },
+      "notes": "11月3日曾保留11月6日14:30–16:00现场名额。11月4日取消后，该时段已释放。作品集咨询会与创意职早期选考各有独立记录。",
+      "milestones": [],
       "attendanceMode": "in_person",
-      "bookingConfirmed": true,
-      "attendanceIntent": "undecided"
+      "bookingConfirmed": false,
+      "attendanceIntent": "cancelled"
     },
     {
       "id": "opp-6286d81e29",
@@ -780,10 +781,10 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "预Entry",
-      "statusDetail": "11/2已在ReDesigner预Entry，11/3核到企业自动回复要求转官方MyPage申请；未核到正式材料提交、入选或个人时段。",
+      "statusDetail": "ReDesigner预Entry已有记录。企业要求另填官方表单，未核到正式提交、入选或个人时段。11月4日取消的是11月6日公司说明会。",
       "description": "数字广告与交互体验；现场／Web择场；未公布费用；MyPage申请；参加者有选考；需准备PF",
-      "nextAction": "本人登录官方MyPage后核对材料并正式申请；11/24、11/25只是分场范围，个人约25分钟的时段未定。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "如决定申请，须于11月16日12:00前在MyPage填写咨询会表单。申请后还需等待筛选和个人约25分钟时段。",
+      "checkedAt": "2026-11-04",
       "sources": [
         {
           "label": "原始来源",
@@ -791,6 +792,9 @@
         },
         {
           "label": "11/3读取本人ReDesigner对话；私人正文及对话链接不公开"
+        },
+        {
+          "label": "11/4 复核企业作品集咨询通知及独立申请流程"
         }
       ],
       "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-16 12:00；举办 11/24现场14:30–18:30分场；11/25线上11:00–17:30分场；每人约25分钟。",
@@ -1108,24 +1112,33 @@
       "title": "Graphic中心设计说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "候选／计划申请",
-      "statusDetail": "Zoom草稿待本人完成人机验证，尚未提交。",
+      "status": "平台报名已受理／场次待确认",
+      "statusDetail": "ReDesigner已受理设计部与公关部的线上图形设计说明会报名，个人职位页显示応募済み。企业另有Zoom场次登记，未核到个人场次或Zoom确认邮件。",
       "description": "汽车技术、产品及品牌传播；Zoom webinar；未公布费用；设计部＋公关部、图形/编辑/Web/UI与实习介绍；正文指示当天打开Zoom注册页",
-      "nextAction": "由本人完成reCAPTCHA并提交注册；随后确认邮件。",
-      "checkedAt": "2026-10-31",
+      "nextAction": "核对Zoom登记；两场为11月17日或19日18:00–19:00。11月19日优先保留已预约Goodpatch说明会。",
+      "checkedAt": "2026-11-04",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://student.redesigner.jp/recruitments/J12436a9bac4334dcc408e5c726c07f8b"
+        },
+        {
+          "label": "11/4 ReDesigner报名回执及该图形设计说明会职位页的本人状态"
         }
       ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无单场报名截止；RD11/19 19:00是末场结束标签；举办 2026-11-17或19 18:00–19:00。",
+      "notes": "原先11月19日Zoom登记停在验证码。平台已受理，未据此推定Zoom场次。11月2日武藏美校内场是独立活动，报名状态另计。",
       "milestones": [
         {
           "type": "event",
+          "date": "2026-11-17T18:00",
+          "endDate": "2026-11-17T19:00",
+          "label": "可选线上场，Zoom场次待确认"
+        },
+        {
+          "type": "event",
           "date": "2026-11-19T18:00",
-          "label": "意向场，未提交",
-          "endDate": "2026-11-19T19:00"
+          "endDate": "2026-11-19T19:00",
+          "label": "可选线上场，与Goodpatch重叠，Zoom场次待确认"
         }
       ]
     },
@@ -1675,14 +1688,17 @@
       "category": "selection",
       "subtype": "本选考单独记录",
       "status": "候选／计划申请",
-      "statusDetail": "收到开放通知；未提交",
+      "statusDetail": "创意职早期选考已开放，尚无本人正式提交回执。11月6日线下说明会预约已取消。",
       "description": "公司MyPage；正式薪资不作为实习报酬；ES＋照片＋PF；实物PF12/4邮戳有效",
-      "nextAction": "先听11/6 14:30–16:00公司说明会；11/7 09:00提醒整理创意职要求并准备ES、作品集，复核本选考截止。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "如决定参加早期选考，12月4日12:00前准备并核对ES、照片及作品集。说明会已取消，11月7日不触发会后提醒。",
+      "checkedAt": "2026-11-04",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://i-studio-career.snar.jp/login.aspx"
+        },
+        {
+          "label": "11/4 对照说明会取消回执与既有创意职早期选考材料要求"
         }
       ],
       "notes": "原资料：报名开始 2026-10-29；截止 2026-12-04 12:00；举办 正式招聘。",
@@ -3188,7 +3204,7 @@
       ]
     }
   ],
-  "lastVerifiedAt": "2026-11-03T18:41:01+09:00",
+  "lastVerifiedAt": "2026-11-04T21:34:22+09:00",
   "weeklySchedule": [
     {
       "id": "weekly-school-monday",
