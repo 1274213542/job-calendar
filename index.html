@@ -6,12 +6,13 @@
   <meta name="theme-color" content="#f2f4f8">
   <title>求职日历 · 2028</title>
   <link rel="stylesheet" href="./style.css?v=20261103a">
+  <link rel="stylesheet" href="./compensation.css?v=20261106">
 </head>
 <body>
   <div class="app-shell">
     <header class="masthead">
       <a class="brand" href="#top" aria-label="求职日历首页"><span class="brand-mark">日</span><span><b>求职日历</b><small>DESIGN CAREER</small></span></a>
-      <div class="header-right"><span class="tz">东京时间 <i>JST</i></span><span class="live-dot"></span><span id="today-label"></span></div>
+      <div class="header-right"><a class="pay-shortcut" href="#compensation">薪酬对照</a><span class="tz">东京时间 <i>JST</i></span><span class="live-dot"></span><span id="today-label"></span></div>
     </header>
     <main id="top">
       <section class="intro">
@@ -53,10 +54,33 @@
           <div class="footnote"><span>◎</span><p>信息以各项目来源及个人 MyPage 为准。<br>点击项目可查看记录和下一步。</p></div>
         </aside>
       </div>
+      <section id="compensation" class="panel pay-panel" aria-labelledby="pay-title">
+        <div class="panel-heading">
+          <div><h2 id="pay-title">公司薪酬对照</h2><p class="panel-desc">金额以税前日元计。按月薪折算的年收及往届参考金额均标注口径。</p></div>
+          <span id="pay-date" class="pay-date"></span>
+        </div>
+        <div class="pay-controls" hidden>
+          <div id="pay-mode" role="group" aria-label="薪酬类型">
+            <button type="button" aria-pressed="true" data-mode="employment">入职待遇</button>
+            <button type="button" aria-pressed="false" data-mode="intern">实习报酬</button>
+          </div>
+          <label class="pay-search"><span>搜索</span><input id="pay-search" type="search" placeholder="公司或岗位" autocomplete="off"></label>
+          <label><span>范围</span><select id="pay-filter">
+            <option value="all">全部公司</option>
+            <option value="contact">已报名或已联系</option>
+            <option value="plan">日历候选</option>
+            <option value="reference">活动及其他公司</option>
+            <option value="history">仅历史记录</option>
+          </select></label>
+        </div>
+        <p id="pay-count" class="pay-count" role="status" aria-live="polite">正在读取招聘待遇…</p>
+        <div id="pay-results"></div>
+        <button id="pay-more" class="pay-more" type="button" hidden></button>
+      </section>
     </main>
     <footer><span>JOB SEARCH PLANNER <b> / </b> 2028</span><span id="updated-label">本地数据</span></footer>
   </div>
   <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button class="close-dialog" aria-label="关闭">×</button><div id="detail-content"></div></div></dialog>
-  <script type="module" src="./app.js?v=20261105-school"></script>
+  <script type="module" src="./app.js?v=20261106-pay"></script>
 </body>
 </html>

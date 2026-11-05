@@ -1,0 +1,1955 @@
+{
+  "asOf": "2026-11-06",
+  "companies": [
+    {
+      "name": "Goodpatch",
+      "aliases": [
+        "グッドパッチ",
+        "株式会社グッドパッチ"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX设计师・服务设计师",
+          "scope": "28卒正社员｜两岗位均列同一薪资下限",
+          "monthly": "360,334日元起",
+          "annual": "4,324,008日元起",
+          "bonus": "按业绩发放决算奖金",
+          "overtime": "月薪含40小时预计加班津贴；岗位页未拆分金额。",
+          "benefits": "无核心时段全弹性、每日标准8小时；夏休3天，每满3年有10天特别休假；交通费、托儿券、育儿短时勤務、资格及语言学习补助、员工持股。",
+          "intern": "UX 1Day参加免费，交通自理；未公布参加报酬。",
+          "sources": [
+            {
+              "label": "28卒 UI/UX正式岗位",
+              "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/jobs/2262878075284336640"
+            },
+            {
+              "label": "28卒服务设计师・企业发布",
+              "url": "https://student.redesigner.jp/recruitments/Jc10cc3da0722b4d224f77de6291e3d0e"
+            },
+            {
+              "label": "UX 1Day当期要项",
+              "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/jobs/2316102706524372992"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ENSAPIA",
+      "aliases": [
+        "エンセイピア",
+        "エンセイピア株式会社"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX・平面设计师",
+          "scope": "28卒设计岗位详情待公布；两项实习分别列价",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "集团列员工餐、育儿弹性时段、每满5年特别休假；适用条件因集团法人而异。",
+          "intern": "秋季UI/UX 1Day日薪10,000日元，另付交通和住宿费。Zero Lab设计实习时薪2,000日元，合同3个月起。",
+          "sources": [
+            {
+              "label": "集团新卒岗位与福利",
+              "url": "https://ensapia.com/joinus/new-grads/careers/"
+            },
+            {
+              "label": "秋季1Day・公司HERP",
+              "url": "https://herp.careers/v1/ensapia/UQrxHNP1ZUbU"
+            },
+            {
+              "label": "Zero Lab・公司HERP",
+              "url": "https://herp.careers/v1/ensapia/nQUincgIc03x"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drecom",
+      "aliases": [
+        "ドリコム",
+        "株式会社ドリコム"
+      ],
+      "roles": [
+        {
+          "role": "游戏UI/UX设计",
+          "scope": "28卒1Day工作坊｜正社员设计岗当届薪资待公布",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "公司制度含符合条件的远程和错峰办公、工作方式津贴、按到岗日实报通勤费、经确认可副业、育儿短时勤務、员工持股与企业年金。",
+          "intern": "线上1Day工作坊未列报酬，需自备电脑及最新版Photoshop。",
+          "sources": [
+            {
+              "label": "设计工作坊・企业发布",
+              "url": "https://student.redesigner.jp/recruitments/Jf5a5878810a6c9e73c0c3fe185f9674b"
+            },
+            {
+              "label": "新卒岗位列表",
+              "url": "https://drecom-newgrad.snar.jp/index.aspx"
+            },
+            {
+              "label": "公司福利",
+              "url": "https://recruit.drecom.co.jp/benefit/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NEZOT／WDB",
+      "aliases": [
+        "ネゾット",
+        "ネゾット株式会社",
+        "NEZOT",
+        "WDB",
+        "WDBグループ"
+      ],
+      "roles": [
+        {
+          "role": "IT系统Growth・设计师",
+          "scope": "集团新卒共通要项｜设计师配属ネゾット，按志愿和适性分配",
+          "monthly": "257,670日元（基本245,670＋评价给2,000＋保密津贴10,000）",
+          "annual": null,
+          "bonus": "每年2次，6月、12月；每年1次调薪审查。",
+          "overtime": "无固定加班费；实际加班另付全额。",
+          "benefits": "所列津贴配属培训结束后起付；交通费全额。符合条件的房租补助最高70%，神户每月上限4万；搬家准备金5万及搬运费、资格奖励、退休金、企业年金及员工持股。",
+          "intern": "设计师1Day报酬5,000日元；交通费另付，上限10,000日元。",
+          "sources": [
+            {
+              "label": "IT系统Growth职种与待遇",
+              "url": "https://www.wdbhd.co.jp/recruit/graduate/recruit/job-description/developer.html"
+            },
+            {
+              "label": "公司1Day课程及报酬",
+              "url": "https://www.wdbhd.co.jp/recruit/graduate/event/grade-third/internship.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LIFULL",
+      "aliases": [
+        "ライフル",
+        "株式会社LIFULL"
+      ],
+      "roles": [
+        {
+          "role": "产品／品牌／服务设计师",
+          "scope": "新卒设计职｜2026年4月入职实绩，28卒金额待确认",
+          "monthly": "330,000日元（基本252,000＋固定加班78,000）",
+          "annual": "3,960,000日元（月薪×12，未含奖金）",
+          "bonus": "按业绩每年2次，7月、12月；调薪评估4月、10月。",
+          "overtime": "78,000日元覆盖40小时/月，超出另付。公司整体实际月均20小时（2024年9月期）。",
+          "benefits": "原则每周到岗3天，核心11:00–16:00；交通费每日最高3,500日元。年休123天，另有LIFULL假及公益假各2天、连续休假补助、持股会。",
+          "intern": "社会课题设计实习按规定报销线下旅费和交通费；未公布报酬。",
+          "sources": [
+            {
+              "label": "设计职与新卒募集要项",
+              "url": "https://recruit.lifull.com/recruit/"
+            },
+            {
+              "label": "设计实习・企业发布",
+              "url": "https://student.redesigner.jp/recruitments/J2a7523491900a3b6e1f570d96369633b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CafeGroup",
+      "aliases": [
+        "カフェグループ",
+        "CafeGroup株式会社"
+      ],
+      "roles": [
+        {
+          "role": "设计师（UI/UX・Web・平面）",
+          "scope": "27卒正社员正式要项参考｜28卒金额待公布",
+          "monthly": "300,000–380,000日元",
+          "annual": "3,600,000–4,560,000日元（月薪×12，未含奖金）",
+          "bonus": "正社员按业绩发决算奖金，每年1次；每年1次调薪。",
+          "overtime": "月薪含45小时固定加班费，未列对应金额。",
+          "benefits": "弹性勤務，核心10:30–16:30，标准8小时；年休127天。按岗位从通勤、近距、全远程津贴中择一，另有迁居、语言和讲师津贴、社保。",
+          "intern": "2D设计短期实习共3天；线下交通自理，未公布报酬。",
+          "sources": [
+            {
+              "label": "27卒正式设计师岗位",
+              "url": "https://cafegroup.co.jp/recruit/new-graduate/designer?recruitYear=2027"
+            },
+            {
+              "label": "2D短期实习公告",
+              "url": "https://cafegroup.co.jp/news/3157"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mercari",
+      "aliases": [
+        "メルカリ",
+        "株式会社メルカリ",
+        "Mercari Group"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX设计师",
+          "scope": "28卒实习；正式入职数字为招聘官网示例，实际按经验和能力面议。",
+          "monthly": "示例300,000日元（基本221,965＋固定加班78,035）；个人报价另定。",
+          "annual": null,
+          "bonus": "正社员3月、9月按公司业绩及个人评价发放；每年1次调薪评估。",
+          "overtime": "公司示例含45小时固定加班，超时另付；个人条件见报价。",
+          "benefits": "原则全弹性，标准8小时；按到岗情况补贴通勤费。社保、mercibox、持股会、病假、看护／介护及放松假。",
+          "intern": "28卒UI/UX实习有薪，按经验能力定价，未公布统一时薪。另一项目 Product Camp 2026 为11天合计15万日元。",
+          "sources": [
+            {
+              "label": "正式待遇示例与实习薪酬问答",
+              "url": "https://careers.mercari.com/new-graduates/"
+            },
+            {
+              "label": "28卒UI/UX设计实习",
+              "url": "https://apply.workable.com/mercari/j/DBA3561ADB/"
+            },
+            {
+              "label": "Product Camp・公司新卒招聘公告",
+              "url": "https://note.com/mercari_newgrads/n/n323445a05eb7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CyberAgent",
+      "aliases": [
+        "サイバーエージェント",
+        "株式会社サイバーエージェント"
+      ],
+      "roles": [
+        {
+          "role": "设计师综合职（UI/UX等）",
+          "scope": "新卒通年创作者／设计师招聘",
+          "monthly": "420,000日元起",
+          "annual": "5,040,000日元起（年俸制）",
+          "bonus": "每年2次评估调薪；岗位未列定期奖金。",
+          "overtime": "月给制：固定时间外80小时、深夜46小时/月；第2年起部分岗位裁量制为时间外46小时、深夜46小时/月。超出另付。官网所列月均实际加班31小时。",
+          "benefits": "通勤全额；符合两站内居住等条件可申请3万日元/月房补，入职第5年起适用其他地区5万/月房补。双休、首年有薪假10天、夏休3天、满2年5天刷新假、育儿支持、员工食堂及持股会。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "创作者／设计师新卒条件",
+              "url": "https://creators.cyberagent.co.jp/information/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WeddingPark",
+      "aliases": [
+        "ウエディングパーク",
+        "株式会社ウエディングパーク",
+        "ウェディングパーク"
+      ],
+      "roles": [
+        {
+          "role": "UX/UI设计师",
+          "scope": "28卒设计师招聘｜ウエディングパーク正社员",
+          "monthly": "340,000日元起",
+          "annual": "4,080,000日元起（年俸制）",
+          "bonus": "每半年按目标评价调整年俸；未公布定期奖金。",
+          "overtime": "公司所列平均实际加班20–30小时；固定加班金额及覆盖时数待核。",
+          "benefits": "混合办公，每周至少到岗3天；居家津贴每月4,000日元、交通补贴。勤续满5年房补5万/月，错峰及短时勤務、双休、夏休3天、首年年假10天另有追加、社保。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒设计师・集团招聘系统",
+              "url": "https://hrmos.co/pages/cyberagent-group/jobs/1936019283746394476583312"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "I-STUDIO",
+      "aliases": [
+        "博報堂アイ・スタジオ",
+        "博報堂アイスタジオ",
+        "HAKUHODO I-STUDIO"
+      ],
+      "roles": [
+        {
+          "role": "Creative职・设计师",
+          "scope": "28卒正社员｜博報堂アイ・スタジオ",
+          "monthly": "月均约290,000日元（年俸÷12）",
+          "annual": "3,480,000日元（另有奖金）",
+          "bonus": "每年1次，6月；每年6月调薪评估。",
+          "overtime": "月43小时固定加班津贴72,500日元，超过43小时另付。",
+          "benefits": "通勤全额、近距住房津贴；弹性核心11:00–16:00，年休120天以上，另有每年两次各5天自由休假。健康检查、语言优惠、资格奖励、LIFE HACK补助、持股会。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒Creative・待遇",
+              "url": "https://www.i-studio.co.jp/recruit_new/recruit/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JustSystems",
+      "aliases": [
+        "ジャストシステム",
+        "株式会社ジャストシステム"
+      ],
+      "roles": [
+        {
+          "role": "UX设计师／传播设计师",
+          "scope": "28卒｜公司公布的首年模型，含利润返还和津贴",
+          "monthly": "首年模型400,000日元",
+          "annual": "首年模型6,700,000日元",
+          "bonus": "每年2次奖金＋每月利润返还",
+          "overtime": "时间外津贴另列；未公布固定加班时数与金额。",
+          "benefits": "住房相关津贴最高74,000日元、周年纪念津贴每年60,000日元、通勤津贴。年休128天（2025年度），企业年金、持股会、储蓄、资格补助及健诊。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒两类设计职与首年模型",
+              "url": "https://www.justsystems.com/jp/employ/new-graduates/info/guidelines.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CONCENT",
+      "aliases": [
+        "コンセント",
+        "株式会社コンセント"
+      ],
+      "roles": [
+        {
+          "role": "传播设计／开放职种（含设计）",
+          "scope": "28卒新卒募集｜两职种同额",
+          "monthly": "258,000日元（基本223,134＋固定加班34,866）",
+          "annual": "3,096,000日元（月薪×12，未含奖金）",
+          "bonus": "按业绩每年3月发业绩奖金。",
+          "overtime": "34,866日元覆盖20小时/月，超出另付。",
+          "benefits": "交通全额、远程办公支援、可与上司商议到岗与居家。弹性勤務标准8小时，年休120天以上、勤续第6年特别休假10天。育儿、研修和资格，参加会议、书籍与软件购置可由公司负担。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒传播设计职",
+              "url": "https://hrmos.co/pages/concent/jobs/2301529019589464067"
+            },
+            {
+              "label": "28卒开放职种",
+              "url": "https://hrmos.co/pages/concent/jobs/2301529019589464066"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Persol Career",
+      "aliases": [
+        "パーソルキャリア",
+        "パーソルキャリア株式会社",
+        "PERSOL CAREER"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX设计师",
+          "scope": "27卒企业发布｜薪资栏注明2025年10月实绩，供28卒参考。",
+          "monthly": "325,000日元（年俸下限对应基本月额）",
+          "annual": "3,900,000–5,500,000日元（入社年俸，按技能定价）",
+          "bonus": "年俸制，不另发奖金；半年评估职级。",
+          "overtime": "无固定加班；时间外、深夜和休息日勤務津贴另付。",
+          "benefits": "通勤及远程津贴，弹性勤務，双休、首年有薪假10天；年休122天（2024年度）。长期收入损失保险、企业年金、持股会、财形储蓄、休闲设施折扣、育儿支持。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "设计团队・新卒入口",
+              "url": "https://nution.persol-career.co.jp/careers/"
+            },
+            {
+              "label": "27卒设计职・公司招聘要项",
+              "url": "https://job.mynavi.jp/27/pc/search/corp51951/recruiting_course27019424/recruiting_course.html?site_preference=smartphone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DENSO",
+      "aliases": [
+        "デンソー",
+        "株式会社デンソー",
+        "DENSO CORPORATION"
+      ],
+      "roles": [
+        {
+          "role": "设计部・平面／品牌／数字设计",
+          "scope": "修士｜公司最近初任给实绩，28卒设计部门报价待确认",
+          "monthly": "320,000日元（最近修士初任给实绩）",
+          "annual": "3,840,000日元（月薪×12，未含奖金）",
+          "bonus": "新卒共通每年2次，7月、12月；每年4月调薪。",
+          "overtime": "时间外勤務津贴另列；无设计部门单独的固定时数数据。",
+          "benefits": "通勤、在宅及家庭津贴；公司有租金补助、单身宿舍、企业年金、退休金、持股及自选福利。双休，黄金周、夏季及年末年初各约10天。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "官网所列最近修士初任给实绩",
+              "url": "https://careers.denso.com/career/"
+            },
+            {
+              "label": "新卒共通奖金、津贴与休假",
+              "url": "https://careers.denso.com/graduate/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sun Asterisk",
+      "aliases": [
+        "Sun*",
+        "株式会社Sun Asterisk",
+        "サンアスタリスク"
+      ],
+      "roles": [
+        {
+          "role": "Creative・产品UI和体验设计师",
+          "scope": "28卒 Creative正社员",
+          "monthly": "290,000日元（基本220,600＋固定加班69,400）",
+          "annual": "3,480,000日元（月薪×12，未含奖金）",
+          "bonus": "每年2次，首年按入社月份扣减；每年1次调薪。",
+          "overtime": "69,400日元覆盖40小时/月，超出全付；公司整体实际月均15小时。",
+          "benefits": "无核心时段全弹性，可远程；通勤往返每日最高3,000日元，另有居家津贴、租借社宅、持股、设备与健康支持。年休120天以上，2026年实绩126天。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒Creative・官方岗位",
+              "url": "https://sunasterisk-recruit.snar.jp/jobboard/detail.aspx?id=nSse34S0Ht4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BASE",
+      "aliases": [
+        "BASE株式会社",
+        "ベイス",
+        "PAY ID"
+      ],
+      "roles": [
+        {
+          "role": "PAY ID・UI/UX设计师",
+          "scope": "28卒正社员｜BASE株式会社",
+          "monthly": null,
+          "annual": "预计4,000,000–6,000,000日元",
+          "bonus": "每年6月、12月薪资评价；岗位未公布定期奖金。",
+          "overtime": null,
+          "benefits": "目前预计每周3天到岗。依职级采用弹性（核心12:00–16:00）或裁量劳动制；交通补贴每月最高5万、社保。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒PAY ID UI/UX・官方招聘",
+              "url": "https://open.talentio.com/r/1/c/binc/pages/128919"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sansan",
+      "aliases": [
+        "Sansan株式会社"
+      ],
+      "roles": [
+        {
+          "role": "Creator｜品牌、传播与 Web 设计",
+          "scope": "28卒创作者职",
+          "monthly": "413,000日元（基本薪324,000日元）",
+          "annual": "预计5,864,000日元",
+          "bonus": "1月、7月，每年2次。",
+          "overtime": "月薪内含35小时89,000日元；超出另付。",
+          "benefits": "交通费按规定报销，可申请近邻住房补助；弹性工时，核心10:00–16:00，标准8小时；每年6月评薪，试用6个月同待遇。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒创作者职要项",
+              "url": "https://jp.corp-sansan.com/recruit/newgrads/jobs/creator-2028/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GMO Media",
+      "aliases": [
+        "GMOメディア",
+        "GMOメディア株式会社"
+      ],
+      "roles": [
+        {
+          "role": "自有服务设计师",
+          "scope": "28卒设计岗",
+          "monthly": "年俸的分月方式未列",
+          "annual": "年俸4,500,000日元起",
+          "bonus": null,
+          "overtime": "年俸含每月45小时预付加班费；金额未列。",
+          "benefits": "涩谷，弹性工时，核心12:00–17:00；免费餐饮和午餐、企业年金、内部托儿所、按摩、午休空间、长期服务表彰；试用3个月。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "GMO Media 28卒设计师",
+              "url": "https://herp.careers/v1/gmomedia/OAAr1igZZX43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dentsu Digital",
+      "aliases": [
+        "電通デジタル",
+        "电通Digital"
+      ],
+      "roles": [
+        {
+          "role": "Creative／Art",
+          "scope": "28卒新卒；一般课程",
+          "monthly": "366,225日元（基本薪288,000日元＋预付附加津贴78,225日元）",
+          "annual": "月额×12为4,394,700日元，不含奖金",
+          "bonus": "3月、9月，每年2次。",
+          "overtime": "公司列割増見合手当78,225日元/月、另列时间外津贴；对应加班小时数未列。",
+          "benefits": "交通费单程上限2,000日元、远程办公补贴；9:30–17:30，核心10:00–14:30；每年调薪1次。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒各课程募集条件",
+              "url": "https://www.dentsudigital.co.jp/careers/newgrad/recruiting/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hakuhodo DY ONE",
+      "aliases": [
+        "博報堂DY ONE"
+      ],
+      "roles": [
+        {
+          "role": "综合职 · Creative Course",
+          "scope": "28卒创意课程",
+          "monthly": "317,000日元",
+          "annual": "月额×12为3,804,000日元，不含奖金",
+          "bonus": "6月，每年1次。",
+          "overtime": "月薪含30小时固定加班津贴，金额未列；另列时间外工作津贴。",
+          "benefits": "每天标准7小时，年休120天；通勤交通费，6月及12月评薪，连续与恢复性休假、育儿支持、两种企业年金。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒 Creative 课程要项",
+              "url": "https://recruit.hakuhodody-one.co.jp/recruit/recruitment/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "博報堂",
+      "aliases": [
+        "博报堂",
+        "株式会社博報堂"
+      ],
+      "roles": [
+        {
+          "role": "创意职 · 设计师",
+          "scope": "28卒；博报堂本体",
+          "monthly": "基本薪300,000日元",
+          "annual": "基本年俸3,600,000日元，另加加班费和业绩奖",
+          "bonus": "业绩奖金每年1次，预计下一年度6月底发。",
+          "overtime": "按实际加班全额另付，含培训期；官网示例每月加班30小时另加79,800日元。",
+          "benefits": "9:30–17:30，含休息1小时；首年带薪休假17天，之后按年资20–30天；每年两次连续5个工作日休假，企业年金、育儿及照护制度。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒设计师要项",
+              "url": "https://hakusuku.jp/recruit/information/designer-entry/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Visional／ビズリーチ",
+      "aliases": [
+        "Visional",
+        "ビズリーチ",
+        "株式会社ビズリーチ"
+      ],
+      "roles": [
+        {
+          "role": "产品职 · 设计方向",
+          "scope": "28卒；公司发布的设计岗",
+          "monthly": "333,334日元（基本薪253,968日元＋固定加班79,366日元）",
+          "annual": "5,000,000日元",
+          "bonus": "原则上每年2次（4月、10月），依业绩变动；首年按在职时间。",
+          "overtime": "含40小时，超出另付。",
+          "benefits": "持股计划、健康保险组合福利、人生阶段支持、工作用 MacBook Pro 与双显示器；一般每年两次调薪，入职首年9月不评。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "企业发布的28卒设计岗待遇",
+              "url": "https://student.redesigner.jp/recruitments/J1997f98066c962ddbe50c3c0c64f4b84"
+            },
+            {
+              "label": "Visional 产品职官网",
+              "url": "https://newgrads.visional.inc/jobs/product/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "giftee",
+      "aliases": [
+        "giftee／株式会社ギフティ",
+        "株式会社ギフティ",
+        "ギフティ"
+      ],
+      "roles": [
+        {
+          "role": "传播设计师",
+          "scope": "28卒；株式会社ギフティ",
+          "monthly": "333,000日元起（基本薪258,336日元起）",
+          "annual": "4,329,000日元起",
+          "bonus": "基本为1个月工资；依公司业绩、贡献及出勤可另加。",
+          "overtime": "含40小时固定加班费74,664日元起；超出另付。",
+          "benefits": "通勤费全额、按业绩授予期权、弹性工时（核心11:00–16:00）；年休127天、暑假5天，半年评薪。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒传播设计师要项",
+              "url": "https://herp.careers/v1/gifteegroup/J6M3UNeozyFf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "株式会社クイック",
+      "aliases": [
+        "クイック／株式会社クイック",
+        "クイック"
+      ],
+      "roles": [
+        {
+          "role": "平面／服务设计",
+          "scope": "28卒平面岗未列薪；金额仅参考同本部27卒 UI/UX 岗",
+          "monthly": "27卒参考 375,834–434,334日元（依能力）",
+          "annual": null,
+          "bonus": "27卒新卒共通条件列每年2次，28卒平面岗待核。",
+          "overtime": "27卒 UI/UX 月薪含42小时92,853–107,306日元；超出另付。",
+          "benefits": "27卒同本部：东京，首年9:00–18:00，之后无核心弹性工时；半年年俸每半年评估，交通费最高10万日元/月，家属津贴。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒平面设计师·公司发布",
+              "url": "https://www.wantedly.com/projects/2613985"
+            },
+            {
+              "label": "27卒待遇参考·选 UI/UXデザイナー",
+              "url": "https://saiyo.919.jp/recruitment/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leverages",
+      "aliases": [
+        "レバレジーズ",
+        "レバレジーズ株式会社"
+      ],
+      "roles": [
+        {
+          "role": "产品设计师",
+          "scope": "28卒；公司发布的该设计岗",
+          "monthly": "350,000日元起",
+          "annual": "5,000,000日元起；公司综合要项的模型含常规业绩奖和符合条件的近邻津贴",
+          "bonus": "按目标完成度及对团队、服务的贡献评定。",
+          "overtime": "设计岗当届招聘页写明含45小时；未披露固定金额。",
+          "benefits": "前2年每季度评薪；之后每半年评薪。按规则支持远程，交通费、社保、企业年金、资格考试支持；东京23区两站内近邻津贴20,000日元/月，其他基地2公里内13,000日元/月。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒产品设计师·公司发布",
+              "url": "https://student.redesigner.jp/recruitments/Ja733bb114a7d628f12181a0b01918f87"
+            },
+            {
+              "label": "28卒公司共同要项",
+              "url": "https://recruit.leverages.jp/recruit/graduates/information/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Accenture",
+      "aliases": [
+        "アクセンチュア"
+      ],
+      "roles": [
+        {
+          "role": "Creative｜服务、体验与产品设计",
+          "scope": "28卒；2026年8月所公告的入社预计待遇",
+          "monthly": "基本薪400,000日元",
+          "annual": "基本年薪4,800,000日元；含业绩奖及津贴的理论年收6,630,000日元",
+          "bonus": "理论年收含个人及公司业绩奖金，实际金额未定。",
+          "overtime": "月额基本薪不含津贴。日本公司福利列时间外及深夜工作津贴，岗位未列固定小时数。",
+          "benefits": "住宅、出差及交通费津贴；弹性、在宅和短时工作制度按条件适用；岗位地点为东京或关西。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒「クリエイティブ職」",
+              "url": "https://www.accenture.com/jp-ja/careers/life-at-accenture/entry-level"
+            },
+            {
+              "label": "日本福利与津贴",
+              "url": "https://www.accenture.com/jp-ja/careers/local/benefits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MIXI",
+      "aliases": [
+        "株式会社MIXI"
+      ],
+      "roles": [
+        {
+          "role": "产品设计师",
+          "scope": "28卒；另标27卒服务设计岗参考",
+          "monthly": "28卒未列金额；27卒相近岗参考300,000日元起",
+          "annual": null,
+          "bonus": "28卒每年2次，年收含月薪及奖金。",
+          "overtime": "28卒含40小时固定加班；超时、深夜、假日加班另付。",
+          "benefits": "住房补助、交通费、每年24万日元的福利积分（非现金，年中入职按比例）；无核心弹性，年休123天，含资产形成津贴。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒产品设计师·本届条件",
+              "url": "https://mixi-recruit.snar.jp/jobboard/detail.aspx?id=KpFxLlAEDwVuw1atygdFVA"
+            },
+            {
+              "label": "27卒服务设计岗·金额对照",
+              "url": "https://mixi-recruit.snar.jp/jobboard/detail.aspx?id=qhpxaMGz5sdzVhWlzMQYqQ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DeNA",
+      "aliases": [
+        "ディー・エヌ・エー"
+      ],
+      "roles": [
+        {
+          "role": "AI Generalist · Creative",
+          "scope": "28卒 AI Generalist",
+          "monthly": "465,000日元起（基本薪325,500日元起，含生活规划津贴55,000日元起；职务薪139,500日元起）",
+          "annual": "标准年收6,000,000日元起（12个月月薪＋两次奖金）",
+          "bonus": "6月、12月业绩奖；4月入职的首年6月不发。",
+          "overtime": "职务薪对应45小时加班，超出另付。",
+          "benefits": "每年5月与11月评薪，通勤及远程工作津贴、企业年金、保育与育儿津贴、看护及照护休假、学习支持和副业制度。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "AI Generalist 招聘条款",
+              "url": "https://student.dena.com/aigeneralist/description/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LayerX",
+      "aliases": [
+        "株式会社LayerX"
+      ],
+      "roles": [
+        {
+          "role": "Bakuraku 产品设计师",
+          "scope": "27／28卒；长期实习可衔接新卒",
+          "monthly": "按公司规定，金额未列",
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "无核心弹性，可远程，依团队决定出勤；通勤费实报，经批准可副业，社保、研修费、入职特别休假及育儿照护支持。",
+          "intern": "一般3个月起，薪酬按公司规定，金额待核；前5天到岗，交通住宿由公司承担。",
+          "sources": [
+            {
+              "label": "Bakuraku 产品设计师与长期实习",
+              "url": "https://open.talentio.com/r/1/c/layerx/pages/92499"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LITALICO",
+      "aliases": [
+        "株式会社LITALICO"
+      ],
+      "roles": [
+        {
+          "role": "新卒设计师｜UI/UX 与用户研究",
+          "scope": "可于2028年4月入社",
+          "monthly": "253,400日元起",
+          "annual": "预计3,500,800日元起",
+          "bonus": "每年2次，半年有一次调薪机会。",
+          "overtime": "月薪含20小时固定加班，超出另付；节假日及深夜工作按实另付。",
+          "benefits": "可选裁量或弹性工时，年休120天以上，入职首月即有带薪假；交通费上限5万日元/月、公司租房制度、企业年金、持股、社保、可兼业。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "新卒设计师职位",
+              "url": "https://herp.careers/v1/litalico/NYhHcBGI8U_q"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HERP",
+      "aliases": [
+        "株式会社HERP"
+      ],
+      "roles": [
+        {
+          "role": "产品设计师｜ジョブミル等",
+          "scope": "28卒新卒；另列独立学生实习",
+          "monthly": null,
+          "annual": "4,500,000日元起",
+          "bonus": null,
+          "overtime": "月薪制，含30小时固定加班；超出另付。",
+          "benefits": "全体正社员获股票期权；无核心弹性，可远程；交通费、社保及体检。带薪迎新假3天，病假每年3天可照护本人或家人。",
+          "intern": "学生产品设计实习：时薪2,000日元起，每周工作日合计15小时以上、至少3个月，可远程。",
+          "sources": [
+            {
+              "label": "28卒产品设计师",
+              "url": "https://herp.careers/v1/herpinc/rOCQ7t221beA"
+            },
+            {
+              "label": "学生产品设计实习",
+              "url": "https://herp.careers/v1/herpinc/MKbK-26Piphz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cybozu",
+      "aliases": [
+        "サイボウズ（Cybozu）",
+        "サイボウズ"
+      ],
+      "roles": [
+        {
+          "role": "产品设计师",
+          "scope": "28卒；全职每周5天、标准工时160小时/月",
+          "monthly": "400,000日元起（本给304,750日元＋固定加班95,250日元）",
+          "annual": "预计5,600,000日元起；按月薪外加全年2个月奖金估算",
+          "bonus": "2月、8月依业绩发放，预估并非保证。",
+          "overtime": "基准月薪含40小时固定加班；超出另付，其他工时安排可商谈。",
+          "benefits": "通勤实报最高5万日元/月；标准全职远程补贴5,000日元/月；弹性、员工持股匹配、社保及照护假。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒产品设计师募集条件",
+              "url": "https://cybozu.co.jp/recruit/entry/newgrad/product-designer2028.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SmartHR",
+      "aliases": [
+        "株式会社SmartHR"
+      ],
+      "roles": [
+        {
+          "role": "产品设计师",
+          "scope": "28卒新卒；另列学生实习",
+          "monthly": "400,000–590,000日元（基本薪293,120–432,480日元）",
+          "annual": "含成果奖估算5,600,000–8,260,000日元；不含成果奖4,800,000–7,080,000日元",
+          "bonus": "成果奖金按公司业绩、个人评估与等级决定，金额可变。",
+          "overtime": "月薪含预付加班45小时（103,216–152,114日元）及深夜8小时（3,664–5,406日元）；超出另付。",
+          "benefits": "无核心弹性，每月通勤费最高3万日元；每年可选6万日元福利服务或商品，另有设计师培养制度。",
+          "intern": "学生产品设计实习：时薪2,000日元，可全远程，无指定到岗日数。",
+          "sources": [
+            {
+              "label": "28卒正式职位",
+              "url": "https://open.talentio.com/r/1/c/smarthr/pages/125677"
+            },
+            {
+              "label": "产品设计新卒与实习待遇",
+              "url": "https://recruit.smarthr.co.jp/newgrads/product-designer/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "teamLab",
+      "aliases": [
+        "チームラボ（teamLab）",
+        "チームラボ"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX 设计师｜数字产品与体验",
+          "scope": "通年新卒；另列 Solutions 两周实习",
+          "monthly": "320,000日元起，按能力和技能定薪",
+          "annual": "模型4,840,000日元起（月薪×12＋全年平均1,000,000日元奖金）",
+          "bonus": "半年度结算奖每年2次；集团子公司不在发放范围。",
+          "overtime": null,
+          "benefits": "通勤补贴，育儿、看护、暑假及年末假；任职3、5、10、20、30年，分别有30万、50万、100万、200万、300万日元长期服务奖励。",
+          "intern": "两周实习：时薪1,300日元，工作日10:00–19:00；交通费另付。居住东京以外且单程通勤90分钟以上，加往返东京实费和每晚10,000日元住宿津贴。",
+          "sources": [
+            {
+              "label": "正式新卒 UI/UX 设计师",
+              "url": "https://www.team-lab.com/recruit/fresh/designer/"
+            },
+            {
+              "label": "两周实习报酬与补助",
+              "url": "https://www.team-lab.com/recruit/internship/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FromSoftware",
+      "aliases": [
+        "フロム・ソフトウェア（FromSoftware）",
+        "フロム・ソフトウェア"
+      ],
+      "roles": [
+        {
+          "role": "游戏 UI Artist／广告与 Web 平面设计师",
+          "scope": "28卒全职种共同条件；无单列修士加给",
+          "monthly": "300,000日元（含统一住房补贴30,000日元及定额加班13,000日元）",
+          "annual": "月额×12为3,600,000日元，不含奖金",
+          "bonus": "夏、冬每年2次；按业绩可能另发结算奖。",
+          "overtime": "月薪含定额加班费13,000日元，超过该金额另付；该页未列对应小时。",
+          "benefits": "通勤、近距或在家补贴按规定三选一；试用期无近距或在家补贴。另有退休金、资产储蓄、体检牙检、疫苗及学习支持。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒招聘系统共通待遇",
+              "url": "https://fromsoftware-careers.snar.jp/jobboard/detail.aspx?id=r6feZU24V8w"
+            },
+            {
+              "label": "官网职种说明",
+              "url": "https://careers.fromsoftware.jp/jp/newgraduates.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sdtech",
+      "aliases": [
+        "エスディーテック（sdtech）",
+        "エスディーテック"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX 设计师｜车载 GUI、数字产品",
+          "scope": "28卒；修士",
+          "monthly": "288,000日元（基本薪280,000日元＋远程津贴8,000日元）",
+          "annual": "月额×12为3,456,000日元，不含奖金",
+          "bonus": "每年9月依业绩发放；9月按评估调薪。",
+          "overtime": "加班费另付；官网列全公司平均每月18小时，属于统计值。",
+          "benefits": "远程办公津贴每月8,000日元，已计入上述月额。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒设计师·分学历条件",
+              "url": "https://www.sdtech.co.jp/new-graduate-recruitment/entry-level-designer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "フリースタイルエンターテイメント",
+      "aliases": [
+        "株式会社フリースタイルエンターテイメント",
+        "Freestyle Entertainment"
+      ],
+      "roles": [
+        {
+          "role": "平面／Web 设计师",
+          "scope": "28卒待遇待核；下列为27卒专业职大学院参考",
+          "monthly": "27卒参考238,657日元（基本薪207,200日元＋固定加班31,457日元）",
+          "annual": "27卒月额×12为2,863,884日元，不含其他津贴",
+          "bonus": "27卒制度为每年6月1次、看公司及个人成果；首年无。",
+          "overtime": "27卒院卒含20小时31,457日元；超出另付，高技能者可能适用30或40小时方案。",
+          "benefits": "27卒参考：交通费最高3万日元/月，住房、搬迁、家属、技能资格补贴、退休金；年休121天。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒正式公告",
+              "url": "https://www.freestyle-entertainment.co.jp/blog/recruit2027_pre-3/"
+            },
+            {
+              "label": "公司发布·27卒专业职待遇",
+              "url": "https://job.mynavi.jp/27/pc/corpinfo/displayEmployment/index/?corpId=260731&recruitingCourseId=27028084"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panasonic",
+      "aliases": [
+        "パナソニック",
+        "松下"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX 设计 · パナソニック株式会社",
+          "scope": "27卒要项；修士，2026年实绩。实习配属及入社法人须分别核对。",
+          "monthly": "309,500日元",
+          "annual": "3,714,000日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2次，7月、12月。",
+          "overtime": "有超时工作津贴。",
+          "benefits": "调薪每年1次，通勤津贴、企业年金、持股、单身宿舍或住房补助。年休约126天。",
+          "intern": "CREATIVE OJT 无报酬，交通和住宿依公司标准。",
+          "sources": [
+            {
+              "label": "27卒招聘要项 · 按法人列示",
+              "url": "https://recruit.jpn.panasonic.com/newgrads/job_description/"
+            },
+            {
+              "label": "CREATIVE OJT",
+              "url": "https://recruit.jpn.panasonic.com/internship/courses/creative/index.html"
+            }
+          ]
+        },
+        {
+          "role": "广告／照明与住宅设备 · Electric Works／Housing Solutions",
+          "scope": "27卒要项；两家法人修士均为2026年实绩。",
+          "monthly": "307,500日元",
+          "annual": "3,690,000日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2次，7月、12月。",
+          "overtime": "有超时工作津贴。",
+          "benefits": "通勤津贴、社宅或住房补助、企业年金。两家公司的可用福利依配属规定。",
+          "intern": "广告创意 OJT 无报酬，交通和住宿依公司标准。",
+          "sources": [
+            {
+              "label": "27卒招聘要项 · 按法人列示",
+              "url": "https://recruit.jpn.panasonic.com/newgrads/job_description/"
+            },
+            {
+              "label": "CREATIVE OJT",
+              "url": "https://recruit.jpn.panasonic.com/internship/courses/creative/index.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Suzuki",
+      "aliases": [
+        "スズキ",
+        "铃木"
+      ],
+      "roles": [
+        {
+          "role": "四轮 GUI／二轮设计",
+          "scope": "27卒公司要项；修士，2026年4月实绩。",
+          "monthly": "317,700日元",
+          "annual": "3,812,400日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2次，7月、12月。",
+          "overtime": "另列时间外手当。",
+          "benefits": "通勤、育儿支援津贴；年休121天。",
+          "intern": "四轮设计实习按规定付日本国内往返交通和午餐；通勤困难者提供含早餐住宿。未核到日薪。",
+          "sources": [
+            {
+              "label": "新卒待遇",
+              "url": "https://saiyo.suzuki.co.jp/graduate/recruit/requirements/index.html"
+            },
+            {
+              "label": "四轮设计实习",
+              "url": "https://www.design-recruit.suzuki.co.jp/event/info/2027design-practice-car.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yamaha",
+      "aliases": [
+        "ヤマハ株式会社",
+        "雅马哈"
+      ],
+      "roles": [
+        {
+          "role": "产品／数字设备设计",
+          "scope": "27年度新卒要项；修士，2026年4月基本薪。",
+          "monthly": "302,000日元",
+          "annual": "3,624,000日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2次，6月、12月。",
+          "overtime": "所定外加成30%，休息日45%；时间外及休息日合计超过月60小时，官方规定相应加成50%。深夜加成30%。",
+          "benefits": "首年带薪假19天；符合条件者可用单身社宅及退休金。",
+          "intern": "冬季设计实习日当1,000日元，另有餐费；交通按规定、提供住宿。",
+          "sources": [
+            {
+              "label": "新卒雇用条件",
+              "url": "https://www.yamaha.com/ja/recruitment/about-recruitment/information/"
+            },
+            {
+              "label": "设计实习待遇",
+              "url": "https://www.yamaha.com/ja/recruitment/internship/designer/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Honda",
+      "aliases": [
+        "本田技研工業",
+        "本田技術研究所",
+        "本田"
+      ],
+      "roles": [
+        {
+          "role": "车载显示器 UI/UX 设计",
+          "scope": "27卒联合招聘·技术系修士，2025年度实绩参考。设计专属28卒金额待核。",
+          "monthly": "295,700日元",
+          "annual": "3,548,400日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2次；2025年度实绩6.9个月，个人首年金额待核。",
+          "overtime": "另列时间外工作津贴。",
+          "benefits": "住房、育儿护理、通勤津贴，弹性工时依岗位；年休121天、单身宿舍、退休年金。",
+          "intern": "春季设计实习按规定承担交通和活动时段餐食；日薪待核。",
+          "sources": [
+            {
+              "label": "Honda 联合新卒招聘要项",
+              "url": "https://www.honda-recruit.jp/information/recruiting/index.html"
+            },
+            {
+              "label": "车载 UI/UX 春季实习",
+              "url": "https://global.honda/jp/jobs/design/internship/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sony",
+      "aliases": [
+        "ソニー",
+        "Sony Creative Center",
+        "索尼"
+      ],
+      "roles": [
+        {
+          "role": "Creative Center · 设计",
+          "scope": "27卒集团本社一般新卒要项；修士，2026年度预计额。",
+          "monthly": "363,000日元起",
+          "annual": "4,356,000日元起（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "业绩薪每年1次。",
+          "overtime": null,
+          "benefits": "无核心时段弹性制，通勤另付；首年带薪假17天、2026年度年休126天。另有宿舍、企业年金、退职金及育儿支持。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "索尼集团本社待遇",
+              "url": "https://www.sony.com/ja/SonyInfo/Jobs/sgc-recruit/newgrads/info/"
+            },
+            {
+              "label": "Creative Center 招聘",
+              "url": "https://www.sony.com/ja/SonyInfo/design/career/recruiting_newgrads/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Epson",
+      "aliases": [
+        "Epson／セイコーエプソン",
+        "セイコーエプソン",
+        "爱普生"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX 设计",
+          "scope": "27卒公司要项；修士，2026年4月实绩。",
+          "monthly": "312,000日元",
+          "annual": "3,744,000日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2次，6月、12月。",
+          "overtime": "另列时间外与休日出勤津贴。",
+          "benefits": "通勤和家庭津贴、每年4月调薪。年休127天；首年带薪假12天，以后20天。可用弹性工时。",
+          "intern": "冬季5天 UI/UX 职场实习无报酬，交通及住宿按公司标准支付。",
+          "sources": [
+            {
+              "label": "精工爱普生新卒要项",
+              "url": "https://www.recruit.epson.jp/newgraduate/requirements.html"
+            },
+            {
+              "label": "冬季设计实习细则",
+              "url": "https://www.recruit.epson.jp/newgraduate/internship.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FUJIFILM Business Innovation",
+      "aliases": [
+        "富士フイルムビジネスイノベーション",
+        "富士胶片商业创新"
+      ],
+      "roles": [
+        {
+          "role": "UX 设计 · 设计中心",
+          "scope": "27卒 FB 本体公司要项；修士基本月薪。",
+          "monthly": "340,900日元",
+          "annual": "4,090,800日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2次。",
+          "overtime": "另列时间外津贴。",
+          "benefits": "家庭、住房和通勤津贴；社宅、退休金及年金、育儿护理假。2026年度年休125天，可弹性工作。",
+          "intern": "5天 UX 研究会无日当；交通实报，远方参加者补助住宿费。",
+          "sources": [
+            {
+              "label": "FB 本体新卒要项",
+              "url": "https://www.fujifilm.com/fb/ja/about/careers/graduates/recruit/fb"
+            },
+            {
+              "label": "UX 设计研究会",
+              "url": "https://www.fujifilm.com/fb/ja/about/initiatives/technical/design/jobs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KEYENCE",
+      "aliases": [
+        "キーエンス",
+        "基恩士"
+      ],
+      "roles": [
+        {
+          "role": "Creative · 设计",
+          "scope": "28卒修士；示例限大阪单身，含地域住房补助30,000円。",
+          "monthly": "300,000日元（含住房补助）",
+          "annual": "3,600,000日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "业绩奖每年4次，3、6、9、12月；按营业利润分配。",
+          "overtime": "另有时间外津贴。",
+          "benefits": "通勤津贴、地域住房补助、租赁社宅、调任补助；2026年度年休129天。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒设计职募集要项",
+              "url": "https://www.keyence-jobs.jp/recruit/guideline/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "三菱重工業",
+      "aliases": [
+        "MHI",
+        "三菱重工"
+      ],
+      "roles": [
+        {
+          "role": "先進デザインセンター · 愿景设计",
+          "scope": "本体新卒共通要项；修士，2026年4月实绩。",
+          "monthly": "305,000日元",
+          "annual": "3,660,000日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2次，6月、12月。",
+          "overtime": "另列超时工作津贴。",
+          "benefits": "扶养、通勤津贴；宿舍、社宅、企业确定缴费年金、育儿护理休假。标准8小时，可弹性。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "三菱重工新卒要项",
+              "url": "https://www.mhi.com/jp/recruit/shinsotsu/info/requirements"
+            },
+            {
+              "label": "先进设计中心",
+              "url": "https://www.mhi.com/jp/business/technology/core_technologies/design.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ほぼ日",
+      "aliases": [
+        "株式会社ほぼ日",
+        "Hobonichi"
+      ],
+      "roles": [
+        {
+          "role": "「旅のなかまに」网站／品牌设计",
+          "scope": "学生招聘实习；转正式员工后的待遇未列。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "时薪1,400日元，参考每周3天、每天5小时。通勤原则实报（远方有上限）；员工商品折扣。",
+          "sources": [
+            {
+              "label": "学生招聘实习要项",
+              "url": "https://www.1101.com/intern/tabinonakama_2026/index.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SWIPEDRAMA",
+      "aliases": [
+        "株式会社SWIPEDRAMA"
+      ],
+      "roles": [
+        {
+          "role": "竖屏短剧应用 UI/UX",
+          "scope": "学生设计实习・按项目招募。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "时间单价1,500日元（含税），亦可商议月固定合同。每周3–5天、可远程，无核心时段。附近居住者房补最高30,000日元/月，另有休学学费及午餐补助条件。",
+          "sources": [
+            {
+              "label": "企业发布的 UI/UX 学生募集",
+              "url": "https://student.redesigner.jp/recruitments/J0d3d655af02dcbab0096e8ba9f2fc0b4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yappli",
+      "aliases": [
+        "株式会社ヤプリ",
+        "ヤプリ"
+      ],
+      "roles": [
+        {
+          "role": "应用 UI/UX 设计",
+          "scope": "新卒通年招聘；设计职和学生实习分别列示。",
+          "monthly": "按职责、能力与经验个别定薪",
+          "annual": null,
+          "bonus": "按业绩与评价发放激励。",
+          "overtime": null,
+          "benefits": "远程及出社混合，弹性制核心时段10–16点；入社即有年假、生日假及个人手机购置补助。",
+          "intern": "时薪依技能与经验；每工作日3–6小时、每周4天起。交通补助、社保、提供电脑。",
+          "sources": [
+            {
+              "label": "正式新卒待遇",
+              "url": "https://yappli.co.jp/newgraduate/"
+            },
+            {
+              "label": "企业发布的学生设计实习",
+              "url": "https://student.redesigner.jp/recruitments/Jc28c036c8c03250dd171f688e6001898"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "三洋",
+      "aliases": [
+        "株式会社三洋"
+      ],
+      "roles": [
+        {
+          "role": "自营 EC／Web 与服务设计",
+          "scope": "28卒岗位；公布本科毕业金额，修士待遇待确认。",
+          "monthly": "249,000日元（本科；基本薪234,000日元）",
+          "annual": "2,988,000日元（本科；月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "7月、12月；5月可按公司及部门业绩另发决算奖。",
+          "overtime": "月薪含8小时15,000日元，超出另付。公司披露上年平均加班约8小时/月。",
+          "benefits": "通勤月票；独居者5年内补一半房租（上限50,000日元/月）；有助学贷款还款支援。年休117天，周六依公司日历。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "三洋发布的28卒 EC 岗位",
+              "url": "https://student.redesigner.jp/recruitments/J9dd1762ab06b341b13032aafe74ff56e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ingage",
+      "aliases": [
+        "株式会社インゲージ",
+        "インゲージ"
+      ],
+      "roles": [
+        {
+          "role": "产品 UI/UX · Re:lation",
+          "scope": "28卒正式岗；另列28／29卒长期实习。",
+          "monthly": "280,930日元起（基本薪235,020日元起）",
+          "annual": null,
+          "bonus": "每年2次，依业绩。",
+          "overtime": "一般月薪含25小时45,910日元起；入社首6个月无固定加班费，按实际加班全额支付。",
+          "benefits": "年休125天以上，小时年假；员工持股、企业确定缴费年金和社保。",
+          "intern": "大阪出社，时薪依技能，约每周15–20小时。20万入社贺金排除新卒与实习。",
+          "sources": [
+            {
+              "label": "28卒产品设计岗位",
+              "url": "https://hrmos.co/pages/ingage/jobs/0000064"
+            },
+            {
+              "label": "长期学生实习",
+              "url": "https://hrmos.co/pages/ingage/jobs/0000022"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NOTES DESIGN OFFICE",
+      "aliases": [
+        "株式会社ノーツデザインオフィス"
+      ],
+      "roles": [
+        {
+          "role": "品牌／平面／Web 设计",
+          "scope": "2027年4月设计师招聘表；列「4年制」标准，修士差额未列。",
+          "monthly": "250,000日元（含按条件适用的住房、交通手当）",
+          "annual": "3,000,000日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2次，调薪每年1次。",
+          "overtime": "采用裁量劳动制；固定加班时数及金额未列。",
+          "benefits": "社保，培训及午餐支援、远程制度；育成手当从次年度起适用。",
+          "intern": "学生实习报酬面议；通勤单程1小时以内全额报销，最短1个月。",
+          "sources": [
+            {
+              "label": "27卒设计师招聘表",
+              "url": "https://www.notes-design.co.jp/s/wp-content/uploads/2026/09/2027_Notes_D.pdf"
+            },
+            {
+              "label": "学生实习招聘表",
+              "url": "https://www.notes-design.co.jp/s/wp-content/uploads/2026/09/2027_Notes_CD_Intern.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CyMed",
+      "aliases": [
+        "株式会社CyMed"
+      ],
+      "roles": [
+        {
+          "role": "Web／LP 与 UI/UX 改善",
+          "scope": "学生业务委托实习；28卒设计正社员待遇待核。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "报酬面议。企业未列时薪、最低工时或员工奖金；以业务委托合同约定为准。",
+          "sources": [
+            {
+              "label": "企业岗位详情",
+              "url": "https://hrmos.co/pages/cymed/jobs/2306598560053587970"
+            },
+            {
+              "label": "企业在招岗位",
+              "url": "https://hrmos.co/pages/cymed/jobs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cyberwave",
+      "aliases": [
+        "Cyberwave／サイバーウェーブ",
+        "株式会社サイバーウェーブ"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX 设计",
+          "scope": "长期学生设计实习；新卒正社员同岗待遇待核。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "时薪1,250–2,000日元，3个月试用期同待遇。每周3天、12小时以上；交通全额报销，社保按合同。提供电脑和外接显示器。",
+          "sources": [
+            {
+              "label": "UI/UX 实习要项",
+              "url": "https://cyberwave.jp/recruit/job/uiux_intern/"
+            },
+            {
+              "label": "官方招聘岗位目录",
+              "url": "https://cyberwave.jp/recruit/job"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KiQ",
+      "aliases": [
+        "KiQ（株式会社KiQ）",
+        "株式会社KiQ"
+      ],
+      "roles": [
+        {
+          "role": "Web／UI 与体验设计",
+          "scope": "设计岗位通用条款；学生实习没有单独报价。",
+          "monthly": "依经验及公司规定个别决定",
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "招聘共通条款：可协商远程，弹性工时，周末双休。实习具体适用范围待确认。",
+          "intern": "实习每周3天起；时薪及周期未列。",
+          "sources": [
+            {
+              "label": "岗位与共通条件",
+              "url": "https://kiq.ne.jp/jobs/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Game Freak",
+      "aliases": [
+        "ゲームフリーク",
+        "株式会社ゲームフリーク",
+        "Game Freak／ViViViT"
+      ],
+      "roles": [
+        {
+          "role": "游戏图形设计 · UI",
+          "scope": "企业发布的前年度招聘资料；28卒页面以「前年度」标记。",
+          "monthly": "280,000日元（基本薪）",
+          "annual": "3,360,000日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2次，7月、12月；业绩允许时加发决算奖。",
+          "overtime": "无固定加班，另付时间外及休日工作津贴。",
+          "benefits": "交通全额报销、入社搬家补助、在家办公津贴、退职金；2025年度年休127天，支持小时年假。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "企业上一届图形设计岗位",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayPrevEmployment/index/?corpId=100216&recruitingCourseId=27018616&site_preference=pc"
+            },
+            {
+              "label": "官方新卒招聘",
+              "url": "https://www.gamefreak.co.jp/recruit/new/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "たきコーポレーション",
+      "aliases": [
+        "TAKI",
+        "株式会社たきコーポレーション",
+        "たき"
+      ],
+      "roles": [
+        {
+          "role": "东京 UX 设计师",
+          "scope": "27卒企业要项；前3个月按试用期月薪。",
+          "monthly": "265,400日元（试用期214,000日元）",
+          "annual": "3,030,600日元（按首年3个月试用＋9个月常规推算，不含奖金与另付加班）",
+          "bonus": "每年最多按6、12月发放，随部门业绩；首年从12月起。",
+          "overtime": "试用期按实际另付；转正月薪含30小时40分、51,400日元，超出另付。",
+          "benefits": "基本薪185,000日元＋东京地域津贴29,000日元；通勤上限50,000日元/月，育儿护理补助、退职金，年休120天。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "企业发布的 UX 设计师要项",
+              "url": "https://job.mynavi.jp/27/pc/corpinfo/displayEmployment/index/?corpId=259864&recruitingCourseId=27038814"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GK京都",
+      "aliases": [
+        "GK Kyoto",
+        "株式会社GK京都"
+      ],
+      "roles": [
+        {
+          "role": "产品／传播／UI/UX 设计",
+          "scope": "27卒新卒要项列四年制本科2026预计额，修士金额待核。",
+          "monthly": "225,600日元（四年制本科）",
+          "annual": "2,707,200日元（本科；月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2–3次。",
+          "overtime": "另有时间外工作津贴。",
+          "benefits": "通勤和家族津贴、社保；工作时间9:15–18:00，周末及节假日休。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "GK 京都公司招聘 PDF",
+              "url": "https://www.gk-kyoto.com/hp_works/wp-content/uploads/2026/03/2027_gkkyoto_requirements.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SevenDex",
+      "aliases": [
+        "セブンデックス",
+        "株式会社セブンデックス"
+      ],
+      "roles": [
+        {
+          "role": "UX/UI 与品牌设计",
+          "scope": "28卒新卒设计师。",
+          "monthly": "345,000日元",
+          "annual": "首年模型4,600,000日元起，含每月30,000日元近邻房补及业绩奖。",
+          "bonus": "每年1次，依业绩。",
+          "overtime": "月薪已含60小时固定加班；明细金额未列。",
+          "benefits": "弹性制核心时段11–16点，交通上限20,000日元/月；近邻两站内且为户主者可领房补。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒设计职正式要项",
+              "url": "https://herp.careers/careers/companies/sevendex/jobs/ixum8T5Lm3MA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cygames",
+      "aliases": [
+        "株式会社Cygames"
+      ],
+      "roles": [
+        {
+          "role": "设计师职 · UI（东京／大阪）",
+          "scope": "28卒修士；东京及大阪正式设计职。",
+          "monthly": "335,500日元",
+          "annual": "基本年俸4,026,000日元；含往年激励实绩的参考年收5,050,000–5,400,000日元。",
+          "bonus": "业绩联动激励，设计职往年约月薪3–4个月。",
+          "overtime": "月额内含45小时所定外及20小时深夜加成。",
+          "benefits": "每年2次调薪，交通、两站内房补、搬家与子女津贴；企业确定缴费年金。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒设计师官方待遇",
+              "url": "https://fresh.cygames.co.jp/recruit/guideline/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Members",
+      "aliases": [
+        "メンバーズ",
+        "株式会社メンバーズ"
+      ],
+      "roles": [
+        {
+          "role": "UX 设计师",
+          "scope": "28卒 UX 职已结束受理。金额为集团新卒共通要项，正文对象含28卒。",
+          "monthly": "260,000日元",
+          "annual": "3,120,000日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "每年2次，6月、12月。",
+          "overtime": "另列加班、深夜及假日工作津贴。",
+          "benefits": "通勤补助首都圈上限50,000日元/月，地方30,000日元/月。社保、资格支持、导师制。上年度年休121天，首年带薪假最多10天。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "集团新卒待遇",
+              "url": "https://recruit.members.co.jp/requirements"
+            },
+            {
+              "label": "28卒 UX 岗位",
+              "url": "https://recruit.members.co.jp/freshers/ux-designer/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPECT DESIGN",
+      "aliases": [
+        "SPECT DESIGN／スペクトデザイン",
+        "スペクトデザイン"
+      ],
+      "roles": [
+        {
+          "role": "UI／HMI、产品及 Web 设计",
+          "scope": "官网常设岗位；设计相关教育或实务经验合计4年以上。",
+          "monthly": "基本薪188,000日元起",
+          "annual": "公司示例3,260,000日元，按月薪190,000日元、每月加班37小时及过往年奖金约380,000日元计算。",
+          "bonus": "业绩奖每年1次，发放与金额随评价、业绩。",
+          "overtime": "按实际加班全额另付。",
+          "benefits": "通勤上限19,000日元/月，培训费100,000日元/年及差旅补助。退职金、健康检查、设备出借，弹性核心时段13–15点。",
+          "intern": "学生设计助理按经验与能力议薪，每周至少1天共8小时。通勤、加班另有津贴，每年调薪1次。",
+          "sources": [
+            {
+              "label": "正社员及学生助理要项",
+              "url": "https://spect.co.jp/jobs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "COLOPL",
+      "aliases": [
+        "コロプラ",
+        "株式会社コロプラ"
+      ],
+      "roles": [
+        {
+          "role": "游戏设计师 · UI",
+          "scope": "27卒设计职参考；28卒同岗薪酬待核。",
+          "monthly": "360,000日元（修士）",
+          "annual": "4,320,000日元（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": "业绩允许时可能发放决算奖；每年10月调整薪资。",
+          "overtime": null,
+          "benefits": "通勤上限40,000日元/月，按条件发在宅津贴。弹性核心10:30–15:30，入社起有薪假，企业年金、持股补助。",
+          "intern": "2026年就业型设计实习已结束，当期时薪1,250日元，2周至2个月。交通按规定全额报销，远方可补住宿；其他课程须另核。",
+          "sources": [
+            {
+              "label": "27卒同岗企业要项",
+              "url": "https://colopl-recruit.snar.jp/jobboard/detail.aspx?id=SG9ioFC0L6U"
+            },
+            {
+              "label": "企业联合展官方资料",
+              "url": "https://www2.gakujo.ne.jp/4bidai/2026/kigyoinfo.pdf"
+            },
+            {
+              "label": "2026 就业型设计实习",
+              "url": "https://colopl.co.jp/recruit/internship2026/designer/job/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STUDIO DETAILS",
+      "aliases": [
+        "スタジオディテイルズ",
+        "株式会社スタジオディテイルズ"
+      ],
+      "roles": [
+        {
+          "role": "品牌／Web／平面设计师",
+          "scope": "27卒同岗公开年俸参考；28卒正式待遇待核。",
+          "monthly": "231,250日元（基本薪200,000日元）",
+          "annual": "公司年俸2,775,000日元。",
+          "bonus": "奖金金额待核；每年有2次调薪评估。",
+          "overtime": "含20小时固定加班费31,250日元，超出另付。",
+          "benefits": "通勤上限25,000日元/月，住房和家属津贴，培训补贴50,000日元/年。弹性核心10–15点，2025年度年休126天。",
+          "intern": "学生设计实习时薪1,250日元，每周至少2天、每天至少4小时；涉及品牌、产品、Web及平面。",
+          "sources": [
+            {
+              "label": "27卒正式设计师招聘",
+              "url": "https://herp.careers/v1/details/Eab4xbwmoHuG"
+            },
+            {
+              "label": "学生设计实习",
+              "url": "https://herp.careers/v1/details/8e79Uaucnl_A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "INFOBAHN",
+      "aliases": [
+        "インフォバーン",
+        "株式会社インフォバーン",
+        "IDL"
+      ],
+      "roles": [
+        {
+          "role": "服务设计／UI・UX 设计师",
+          "scope": "IDL 创新设计事业部27卒同岗要项已结束；28卒设计岗金额待核。",
+          "monthly": "304,000日元起（基本薪226,000日元起）",
+          "annual": "3,648,000日元起（月薪×12，仅固定部分估算，未含奖金）",
+          "bonus": null,
+          "overtime": "含45小时固定加班费78,000日元起，超出另付。",
+          "benefits": "东京或京都，弹性工时、四险、年休122天，带薪年假较法定多2天。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "IDL 服务设计及 UI/UX 正式岗",
+              "url": "https://hrmos.co/pages/mediagene/jobs/2027_idl"
+            },
+            {
+              "label": "集团28卒招聘范围",
+              "url": "https://hrmos.co/pages/mediagene/jobs/2028"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ABeam Consulting",
+      "aliases": [
+        "アビームコンサルティング",
+        "ABeam"
+      ],
+      "roles": [
+        {
+          "role": "设计实践共创讲座 · 正式岗待核",
+          "scope": "讲座未指定设计招聘岗位。下列为另一职种 Solution Consultant 的28卒修士参考。",
+          "monthly": "421,000日元（顾问职，2026年4月实绩）",
+          "annual": "顾问职模型6,720,500日元，含2次奖金及每月30小时加班。",
+          "bonus": "顾问岗每年2次。",
+          "overtime": "顾问岗按实际加班另付。",
+          "benefits": "顾问岗有通勤补助、社保、退职金及企业确定缴费年金。设计岗适用条件待核。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "设计活动与讲者",
+              "url": "https://vivivit.co.jp/archives/4387/"
+            },
+            {
+              "label": "28卒顾问岗位模型与构成",
+              "url": "https://www.abeam.com/jp/ja/recruit/newgrad/requirements2028/solution-cs/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SEGA（株式会社セガ）",
+      "aliases": [
+        "セガ",
+        "SEGA",
+        "株式会社セガ",
+        "世嘉"
+      ],
+      "roles": [
+        {
+          "role": "游戏 UI／Web 设计师",
+          "scope": "27卒修士公开待遇参考。28卒12月联合选考已列名，28卒正式录用金额待核。",
+          "monthly": "341,800 日元／月（含预付退职金的 Life Plan 津贴）",
+          "annual": "4,101,600日元／年（月薪×12，未含奖金及另付津贴）",
+          "bonus": "每年 2 次，6 月、12 月。金额待核。",
+          "overtime": "加班、深夜、休息日津贴另付。",
+          "benefits": "东京品川，弹性工作核心时段 10:30–15:30；周末双休，夏季、冬季及工龄休假。通勤、员工持股、企业年金、育儿与照护支持、健康补助、员工积分、休养设施，符合条件可获搬家补助或申请副业。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "SEGA 新卒待遇（27卒）",
+              "url": "https://www.sega.co.jp/recruit/fresh/details/"
+            },
+            {
+              "label": "设计师职种详情",
+              "url": "https://www.sega.co.jp/recruit/jobs/"
+            },
+            {
+              "label": "28卒联合选考参加公司",
+              "url": "https://www.kurihaku.jp/direct/recruit/detail/81017/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SEGA 札幌スタジオ",
+      "aliases": [
+        "セガ札幌スタジオ",
+        "株式会社セガ札幌スタジオ",
+        "SEGA Sapporo Studio"
+      ],
+      "roles": [
+        {
+          "role": "新卒设计师／游戏 UI 方向",
+          "scope": "27卒修士公开待遇参考。28卒12月联合选考已列名，28卒正式录用金额待核。",
+          "monthly": "287,700 日元／月（修士）",
+          "annual": "3,452,400日元／年（月薪×12，未含另付项目）",
+          "bonus": null,
+          "overtime": null,
+          "benefits": "札幌市办公；每年 4 月调薪，通勤费另付。弹性工作核心时段 10:30–15:30；每周双休，夏休 5 天、冬休 2 天。社保、企业年金、持股会、育儿与照护支持、体检、流感疫苗全额补助、员工积分。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "札幌设计师招聘与新卒待遇（27卒）",
+              "url": "https://www.sega.co.jp/recruit/fresh/details/sapporostudio/"
+            },
+            {
+              "label": "28卒联合选考参加公司",
+              "url": "https://www.kurihaku.jp/direct/recruit/detail/81017/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SEGA FAVE（セガ フェイブ）",
+      "aliases": [
+        "セガフェイブ",
+        "株式会社セガ フェイブ",
+        "セガ フェイブ",
+        "SEGA FAVE"
+      ],
+      "roles": [
+        {
+          "role": "开发职／街机屏幕 UI 方向",
+          "scope": "27卒修士公开待遇参考。28卒12月联合选考已列名，28卒正式录用金额待核。 职务涉及街机视觉整体，28卒是否单独招 UI 待核。",
+          "monthly": "316,200 日元／月（大学院卒，含 Life Plan 津贴）",
+          "annual": "3,794,400日元／年（月薪×12，未含奖金及另付津贴）",
+          "bonus": "每年 2 次，6 月、12 月。金额待核。",
+          "overtime": "加班、深夜、休息日津贴另付。",
+          "benefits": "东京品川，标准 8 小时，弹性工作核心时段 10:30–15:30；周末双休，年休日 130 天为 2025 年度实绩。通勤、育儿与照护支持、体检、企业年金、持股会、员工积分、休养设施、符合条件的搬家补助及副业许可。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "SEGA FAVE 新卒待遇（27卒）",
+              "url": "https://www.segafave.co.jp/recruit/details/"
+            },
+            {
+              "label": "街机设计师职责",
+              "url": "https://www.segafave.co.jp/recruit/jobs/"
+            },
+            {
+              "label": "28卒联合选考参加公司",
+              "url": "https://www.kurihaku.jp/direct/recruit/detail/81017/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

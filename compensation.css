@@ -1,0 +1,186 @@
+.pay-shortcut {
+  color: #2348a6;
+  text-decoration: none;
+  border-radius: 7px;
+  background: #e6ecfb;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-inline-end: 4px;
+}
+.pay-shortcut:hover { background: #d9e4ff; }
+.pay-dialog-link {
+  display: block;
+  margin: 9px 0;
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 7px;
+  background: #e8eef9;
+  color: #284d96;
+  font-weight: 700;
+}
+.pay-panel { margin-top: 16px; scroll-margin-top: 12px; }
+.pay-date { color: #65748a; font-size: 12px; white-space: nowrap; }
+.pay-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin: 20px 0 12px;
+}
+.pay-panel [hidden] { display: none !important; }
+#pay-mode {
+  display: inline-flex;
+  gap: 3px;
+  background: #e9eef6;
+  padding: 3px;
+  border-radius: 10px;
+}
+#pay-mode button {
+  background: transparent;
+  border: 0;
+  min-height: 36px;
+  padding: 6px 14px;
+  border-radius: 7px;
+  color: #45576f;
+  font-size: 13px;
+  font-weight: 750;
+}
+#pay-mode button[aria-pressed="true"] {
+  color: white;
+  background: #263f92;
+}
+.pay-controls label {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  color: #4a5a70;
+  font-size: 12px;
+  font-weight: 650;
+}
+.pay-search { margin-inline-start: auto; }
+.pay-controls input, .pay-controls select {
+  min-width: 0;
+  max-width: 100%;
+  min-height: 39px;
+  border: 1px solid #c8d3e2;
+  border-radius: 8px;
+  background: #fff;
+  color: #243650;
+  padding: 6px 9px;
+  font-size: 14px;
+}
+.pay-controls input { width: clamp(155px, 20vw, 260px); }
+.pay-count { color: #536478; font-size: 12px; margin: 0 0 9px; }
+.pay-table { width: 100%; border-spacing: 0; table-layout: fixed; }
+.pay-table thead th {
+  text-align: left;
+  padding: 10px 12px;
+  color: #dce7fa;
+  background: #263851;
+  font-size: 12px;
+  font-weight: 650;
+}
+.pay-table thead th:first-child { width: 23%; border-radius: 8px 0 0 8px; }
+.pay-table thead th:last-child { width: 68px; text-align: center; border-radius: 0 8px 8px 0; }
+.pay-table-intern thead th:first-child { width: 34%; }
+.pay-summary > td, .pay-summary > th {
+  padding: 14px 12px;
+  border-bottom: 1px solid #dbe3ed;
+  text-align: start;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+.pay-summary:hover > td, .pay-summary:hover > th,
+.pay-summary.is-expanded > td, .pay-summary.is-expanded > th { background: #f4f7fc; }
+.pay-identity strong { display: block; font-size: 15px; line-height: 1.45; color: #1d2d44; }
+.pay-role { display: block; margin-top: 4px; font-size: 12px; font-weight: 550; color: #53617a; }
+.pay-scope {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-top: 3px;
+  color: #647287;
+  font-size: 11px;
+  font-weight: 500;
+}
+.pay-value { font-size: 13px; line-height: 1.65; font-variant-numeric: tabular-nums; }
+.pay-summary .pay-value {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.pay-col-intern .pay-value { display: block; }
+.pay-col-monthly .pay-value, .pay-col-annual .pay-value, .pay-col-intern .pay-value {
+  font-size: 14px;
+  font-weight: 660;
+  color: #213754;
+}
+.pay-summary .pay-missing, .pay-missing { color: #68788c; font-weight: 450; }
+.pay-field { display: none; }
+.pay-summary .pay-action { padding: 10px 5px; text-align: center; }
+.pay-expand, .pay-more {
+  min-height: 36px;
+  border: 0;
+  border-radius: 7px;
+  background: #e8eef9;
+  color: #284d96;
+  font-size: 13px;
+  font-weight: 730;
+  padding: 6px 10px;
+}
+.pay-expand:hover, .pay-more:hover { background: #dbe5f8; }
+.pay-expanded > td { padding: 0; border-bottom: 2px solid #ccd7e7; }
+.pay-terms {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 24px;
+  margin: 0;
+  background: #f4f7fc;
+  padding: 16px 20px;
+  border-inline-start: 4px solid #4c6cb7;
+}
+.pay-terms > div { min-width: 0; }
+.pay-terms dt { font-size: 12px; font-weight: 750; color: #455674; }
+.pay-terms dd { margin: 3px 0 0; overflow-wrap: anywhere; color: #24334b; }
+.pay-terms > div:last-child { grid-column: 1 / -1; }
+.pay-sources { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.pay-sources a { color: #214fa7; font-size: 13px; text-underline-offset: 2px; }
+.pay-more { display: block; margin: 14px auto 0; min-height: 39px; padding-inline: 18px; }
+.pay-empty { margin: 0; padding: 23px 16px; background: #f4f7fc; border-radius: 8px; color: #4a5e77; }
+@media (max-width: 760px) {
+  .pay-panel .panel-heading { flex-wrap: wrap; gap: 6px; }
+  .pay-controls { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; margin-top: 15px; }
+  #pay-mode { grid-column: 1 / -1; justify-self: start; margin-bottom: 2px; }
+  .pay-controls label { display: grid; gap: 3px; }
+  .pay-search { margin: 0; }
+  .pay-controls input, .pay-controls select { width: 100%; min-height: 40px; }
+  .pay-table, .pay-table tbody { display: block; }
+  .pay-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .pay-summary {
+    display: grid;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto;
+    border-top: 1px solid #ccd7e6;
+    gap: 8px 10px;
+    padding: 13px 2px;
+  }
+  .pay-summary > th, .pay-summary > td, .pay-summary .pay-action { padding: 0; border: 0; }
+  .pay-summary .pay-identity { grid-column: 1 / 3; }
+  .pay-summary .pay-action { grid-column: 3; grid-row: 1; }
+  .pay-summary .pay-col-intern { grid-column: 1 / -1; }
+  .pay-summary .pay-col-monthly { grid-column: 1; }
+  .pay-summary .pay-col-annual { grid-column: 2 / -1; }
+  .pay-summary .pay-col-bonus, .pay-summary .pay-col-overtime { display: none; }
+  .pay-role { font-size: 12px; margin-top: 2px; }
+  .pay-field { display: block; font-size: 11px; font-weight: 700; color: #52677e; }
+  .pay-summary:hover > td, .pay-summary:hover > th,
+  .pay-summary.is-expanded > td, .pay-summary.is-expanded > th { background: transparent; }
+  .pay-table .pay-expanded, .pay-expanded > td { display: block; }
+  .pay-expanded > td { border: 0; padding-bottom: 12px; }
+  .pay-terms { grid-template-columns: 1fr; padding: 11px; gap: 8px; }
+  .pay-expand { min-height: 38px; }
+}
+@media (max-width: 420px) {
+  .pay-shortcut { font-size: 11px; margin: 0; padding-inline: 6px; }
+}
