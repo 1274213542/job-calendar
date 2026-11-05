@@ -1172,7 +1172,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3官方预约完成页及企业确认邮件已核验：11/9 17:00 Zoom场已预约。",
       "description": "数字产品与设计开发支援；Creative设计师专场；Zoom线上；说明会与前辈座谈。",
-      "nextAction": "11/9 17:00通过MyPage进入Zoom，使用完整姓名；实际约75分钟，日历按系统场次预留至18:30。11/10 09:00提醒确认听会情况，再整理本选考。",
+      "nextAction": "11/9 17:00通过MyPage进入Zoom，使用完整姓名；实际约75分钟，系统预留至18:30。11/10 09:00确认听会情况，再准备Creative本选考；首轮材料截止2027/1/31 23:59。",
       "checkedAt": "2026-11-03",
       "sources": [
         {
@@ -1203,7 +1203,9 @@
       "postBriefingFollowUp": {
         "remindAt": "2026-11-10T09:00:00+09:00",
         "attendanceStatus": "unknown",
-        "selectionIds": [],
+        "selectionIds": [
+          "selection-sunasterisk-creative-2028"
+        ],
         "intent": "听完说明会后准备和决定本选考"
       },
       "availabilityStatus": "按本人最新时间安排可参加",
@@ -1780,13 +1782,25 @@
       "subtype": "本选考单独记录",
       "status": "候选／计划申请",
       "statusDetail": "未提交",
-      "description": "官方Entry；正式岗位；履历书、课题、适性检查等",
-      "nextAction": "个人首投目标11/24–27，秋冬官网截止11/30（时刻未公布）；尚未提交。若未通过，春term仍募集时可改进材料后复投。",
-      "checkedAt": "2026-10-31",
+      "description": "28卒秋冬term：开放职种与传播设计职种分开。均需履历书、申请表及“想用设计解决的课题”材料；传播设计还必交自我PR资料（作品集／论文等），开放职种该项为任意。之后适性检查与三轮面试，二次选考需成绩单。",
+      "nextAction": "先听11/11说明会，再选择开放职种或传播设计职种；个人首投目标11/24–27，官网11/30截止（时刻未公布）。提交后留意适性检查的短期限；未通过且仍募集时可改进材料后复投。",
+      "checkedAt": "2026-11-05",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://www.concentinc.jp/recruit/newgraduates/entry/index.html"
+        },
+        {
+          "label": "官方当前岗位列表",
+          "url": "https://hrmos.co/pages/concent/jobs"
+        },
+        {
+          "label": "官方开放职种详情",
+          "url": "https://hrmos.co/pages/concent/jobs/2301529019589464066"
+        },
+        {
+          "label": "官方传播设计职种详情",
+          "url": "https://hrmos.co/pages/concent/jobs/2301529019589464067"
         }
       ],
       "notes": "原资料：报名开始 2026-10-26；截止 官网2026-11-30；RD导流11/27，时刻均需相应入口确认；举办 正式招聘。",
@@ -1983,16 +1997,20 @@
       "subtype": "本选考",
       "status": "候选／计划申请",
       "statusDetail": "尚未核到正式提交。",
-      "description": "UIUX需履历书及PF；服务设计需指定个人work。职位仍募集时可再申请。",
+      "description": "UI/UX本选考需高校起学历与志望动机履历书、作品集（呈现课题、制作过程与本人负责范围）。书类后有一次／二次／最终面试及性格检查；前两轮线上，最终对面。服务设计为另一个岗位，材料需按该职种确认。",
       "nextAction": "先听11/19 18:00–19:00 UI/UX专场；11/20 09:00提醒整理岗位要求、履历书和作品集，再决定适合的term并提交。",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-05",
       "sources": [
         {
           "label": "官方或岗位来源",
           "url": "https://goodpatch.com/ja/news/202609_newgraduates2028"
+        },
+        {
+          "label": "官方28卒UI/UX岗位详情（11/5直读）",
+          "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/jobs/2262878075284336640"
         }
       ],
-      "notes": "",
+      "notes": "11/5直接读取官方UI/UX岗位：第2term至11/29，第3term11/30–1/11，具体截止钟点未公布。达到定员可能不再实施后续term；此为现行一般条款，未核到已招满的新通知。UX1day实习面试与本选考分开。",
       "milestones": [
         {
           "type": "open",
@@ -2014,16 +2032,20 @@
       "subtype": "本选考",
       "status": "候选／计划申请",
       "statusDetail": "尚未核到正式提交。",
-      "description": "UIUX需履历书及PF；服务设计需指定个人work。职位仍募集时可再申请。",
+      "description": "UI/UX本选考需高校起学历与志望动机履历书、作品集（呈现课题、制作过程与本人负责范围）。书类后有一次／二次／最终面试及性格检查；前两轮线上，最终对面。服务设计为另一个岗位，材料需按该职种确认。",
       "nextAction": "先听11/19 18:00–19:00 UI/UX专场；11/20 09:00提醒整理岗位要求、履历书和作品集，再决定适合的term并提交。",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-05",
       "sources": [
         {
           "label": "官方或岗位来源",
           "url": "https://goodpatch.com/ja/news/202609_newgraduates2028"
+        },
+        {
+          "label": "官方28卒UI/UX岗位详情（11/5直读）",
+          "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/jobs/2262878075284336640"
         }
       ],
-      "notes": "",
+      "notes": "11/5直接读取官方UI/UX岗位：第2term至11/29，第3term11/30–1/11，具体截止钟点未公布。达到定员可能不再实施后续term；此为现行一般条款，未核到已招满的新通知。UX1day实习面试与本选考分开。",
       "milestones": [
         {
           "type": "open",
@@ -3955,9 +3977,63 @@
         }
       ],
       "workCompatibility": "requires_confirmation"
+    },
+    {
+      "id": "internship-kiq-design-student",
+      "company": "KiQ（株式会社KiQ）",
+      "title": "学生设计实习｜Web／UI・体验设计",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "status": "候选／计划申请",
+      "statusDetail": "11/5官方当期招聘列表已核；未申请。",
+      "description": "学生或以设计师为目标者可申请；包含Web/UI、线上线下体验、品牌与设计调研。每周至少3天，曜日可商议；总期间未公布。需平面／Web设计能力、商务日语；实务经验为加分项。",
+      "nextAction": "先判断每周至少3天的投入是否可行，再确认最低持续月数、每日工时和实习专用薪资；材料为履历书／职务经历书与作品集，书类通过后线上面谈。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "官方招聘列表与设计实习详情",
+          "url": "https://kiq.ne.jp/jobs/#job-61"
+        },
+        {
+          "label": "实际法人及公司信息",
+          "url": "https://kiq.ne.jp/about/#company"
+        }
+      ],
+      "notes": "无固定届别、无已公布截止日期。页面共通条件为涩谷办公室或远程（需商议）、薪资按经验决定；未单列实习时薪，不将正式员工共通工时和待遇直接视作实习条件。属于持续型学生岗位，不是1天至1周短期实习。",
+      "milestones": []
+    },
+    {
+      "id": "selection-sunasterisk-creative-2028",
+      "company": "Sun Asterisk",
+      "title": "28卒 Creative／设计师本选考",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "11/5官方Creative募集详情已核；本选考尚未提交，MyPage注册及说明会预约不等于材料提交。",
+      "description": "2028年4月入社；体验设计、产品UI与信息架构、传播／品牌设计。作品集至少包含1个数字产品（Web或应用），需能说明设计意图。",
+      "nextAction": "先听11/9已预约的Creative线上说明会；11/10会后核对是否听完，再准备正式选考书类与作品集。首轮须在2027/1/31 23:59前完成MyPage注册及选考书类提交。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "官方28卒Creative募集详情",
+          "url": "https://sunasterisk-recruit.snar.jp/jobboard/detail.aspx?id=nSse34S0Ht4"
+        },
+        {
+          "label": "官方现行职位列表",
+          "url": "https://sunasterisk-recruit.snar.jp/index.aspx"
+        }
+      ],
+      "notes": "现场说明会或录播说明会→书类→一次面试→作品集选考→人事面谈（非选考）→最终面试，均线上。页面写第一次1/31（日）23:59；依28卒流程与星期对应为2027年。2月以后计划后续募集，可能招满结束，不保证下一轮。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2027-01-31T23:59",
+          "label": "第一轮：注册及选考书类提交截止（日本时间）"
+        }
+      ]
     }
   ],
-  "lastVerifiedAt": "2026-11-04T21:42:07+09:00",
+  "lastVerifiedAt": "2026-11-05T09:21:20+09:00",
   "weeklySchedule": [
     {
       "id": "weekly-school-monday",
