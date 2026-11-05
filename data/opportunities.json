@@ -4031,6 +4031,254 @@
           "label": "第一轮：注册及选考书类提交截止（日本时间）"
         }
       ]
+    },
+    {
+      "id": "school-zemi-2026-materials",
+      "company": "学校 · Zemi展",
+      "title": "展示材料提交期限",
+      "category": "school",
+      "subtype": "ゼミ展",
+      "status": "学校已公布／完成情况待核",
+      "description": "展示形態調査票・備品申請：11/12 15:00提交，11/14 15:00修正截止；caption 11/24截止；展示仕様書11/29截止。后两项未公布钟点。",
+      "nextAction": "先准备展示形式调查票及所需备品申请，再准备caption与展示规格书；不把未核的完成状态标为已提交。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "Zemi展时间表（11/5核对，原始资料仅本地保存）"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-12T15:00",
+          "label": "展示形式调查票／备品申请提交截止"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-14T15:00",
+          "label": "展示形式调查票／备品申请修正截止"
+        },
+        {
+          "type": "open",
+          "date": "2026-11-19",
+          "label": "caption／展示规格书开始收集"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-24",
+          "label": "caption提交截止（钟点未公布）"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-29",
+          "label": "展示规格书提交截止（钟点未公布）"
+        }
+      ],
+      "notes": "时间表可能调整；个人提交完成、值班和讲评时间另核。"
+    },
+    {
+      "id": "school-zemi-2026-shift",
+      "company": "学校 · Zemi展",
+      "title": "看展值班表核对／修正",
+      "category": "school",
+      "subtype": "ゼミ展",
+      "status": "学校已公布／个人值班待核",
+      "description": "各ゼミ监视值班表修正期间为11/16–19。未取得本人值班时段，不能把整个展期视为本人连续在场。",
+      "nextAction": "在修正期间核对本人值班与求职安排；11/19修正截止，钟点未公布。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "Zemi展时间表（11/5核对，原始资料仅本地保存）"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-16",
+          "label": "各ゼミ值班表修正开始"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-19",
+          "label": "各ゼミ值班表修正截止（钟点未公布）"
+        }
+      ],
+      "notes": "时间表可能调整；个人提交完成、值班和讲评时间另核。"
+    },
+    {
+      "id": "school-zemi-2026-final-notice",
+      "company": "学校 · Zemi展",
+      "title": "展示安排最终公布",
+      "category": "school",
+      "subtype": "ゼミ展",
+      "status": "学校已公布／后续详情待核",
+      "description": "11/26公布展示相关最终决定，未公布具体钟点。此节点是查看通知，不代表全天到校。",
+      "nextAction": "核对最终搬入、展览、值班与讲评安排。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "Zemi展时间表（11/5核对，原始资料仅本地保存）"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-26",
+          "label": "查看展示最终安排"
+        }
+      ],
+      "notes": "时间表可能调整；个人提交完成、值班和讲评时间另核。"
+    },
+    {
+      "id": "school-zemi-2026-move-in",
+      "company": "学校 · Zemi展",
+      "title": "全员必到：说明会＋搬入",
+      "category": "school",
+      "subtype": "ゼミ展",
+      "status": "学校已公布／全员必到",
+      "description": "时间表明确标注全员参加：11/30 16:30全体说明会及搬入；12/2 15:00展示检查；12/5 16:30全体撤展。各环节结束钟点未单独公布。",
+      "nextAction": "优先留出这三个到场节点和通勤；12/5若Goodpatch或Drecom实习入选需先协调，不能默认兼顾。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "Zemi展时间表（11/5核对，原始资料仅本地保存）"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-30T16:30",
+          "label": "全员必到：说明会＋全体搬入（结束待核）"
+        }
+      ],
+      "notes": "时间表可能调整；个人提交完成、值班和讲评时间另核。",
+      "schoolMandatory": true
+    },
+    {
+      "id": "school-zemi-2026-check",
+      "company": "学校 · Zemi展",
+      "title": "全员必到：展示检查",
+      "category": "school",
+      "subtype": "ゼミ展",
+      "status": "学校已公布／全员必到",
+      "description": "时间表明确标注全员参加：11/30 16:30全体说明会及搬入；12/2 15:00展示检查；12/5 16:30全体撤展。各环节结束钟点未单独公布。",
+      "nextAction": "优先留出这三个到场节点和通勤；12/5若Goodpatch或Drecom实习入选需先协调，不能默认兼顾。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "Zemi展时间表（11/5核对，原始资料仅本地保存）"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-02T15:00",
+          "label": "全员必到：展示检查（结束待核）"
+        }
+      ],
+      "notes": "时间表可能调整；个人提交完成、值班和讲评时间另核。",
+      "schoolMandatory": true
+    },
+    {
+      "id": "school-zemi-2026-move-out",
+      "company": "学校 · Zemi展",
+      "title": "全员必到：撤展",
+      "category": "school",
+      "subtype": "ゼミ展",
+      "status": "学校已公布／全员必到",
+      "description": "时间表明确标注全员参加：11/30 16:30全体说明会及搬入；12/2 15:00展示检查；12/5 16:30全体撤展。各环节结束钟点未单独公布。",
+      "nextAction": "优先留出这三个到场节点和通勤；12/5若Goodpatch或Drecom实习入选需先协调，不能默认兼顾。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "Zemi展时间表（11/5核对，原始资料仅本地保存）"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-05T16:30",
+          "label": "全员必到：全体撤展（结束待核）"
+        }
+      ],
+      "notes": "时间表可能调整；个人提交完成、值班和讲评时间另核。",
+      "schoolMandatory": true
+    },
+    {
+      "id": "school-zemi-2026-setup",
+      "company": "学校 · Zemi展",
+      "title": "布展准备时段",
+      "category": "school",
+      "subtype": "ゼミ展",
+      "status": "学校已公布／个人布展时段待定",
+      "description": "11/30全体说明会后至20:00各自设置；12/1及12/2各自设置窗口9:00–20:00。使用PC的作品需在12/1检查。时间窗口不等于本人三天全程到场。",
+      "nextAction": "安排自己的布展时段；12/1 18:00–19:45已约博报堂线上说明会，需提前安排安静参会地点。若Mercari Camp合格，12/1–2还需协调。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "Zemi展时间表（11/5核对，原始资料仅本地保存）"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-30T16:30",
+          "label": "搬入／各自设置窗口",
+          "endDate": "2026-11-30T20:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-01T09:00",
+          "label": "各自布展窗口／PC作品检查",
+          "endDate": "2026-12-01T20:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-02T09:00",
+          "label": "各自布展窗口／15:00全员检查另列",
+          "endDate": "2026-12-02T20:00"
+        }
+      ],
+      "notes": "时间表可能调整；个人提交完成、值班和讲评时间另核。",
+      "attendanceIntent": "undecided"
+    },
+    {
+      "id": "school-zemi-2026-exhibition",
+      "company": "学校 · Zemi展",
+      "title": "展期：12月3–5日",
+      "category": "school",
+      "subtype": "ゼミ展",
+      "status": "学校已公布／本人值班与讲评待定",
+      "description": "12/3、12/4为9:00–18:00，12/5为9:00–16:30。每日8:45有开场准备；12/3有展示讲评，各ゼミ时间不同。开场人员、本人值班与讲评时段尚未核实。",
+      "nextAction": "确认本人值班及讲评后再锁定个人占用；Mercari Camp若录取与12/3–4重叠，Goodpatch或Drecom 12/5场若录取与末日展览及撤展重叠。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "Zemi展时间表（11/5核对，原始资料仅本地保存）"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-03T09:00",
+          "label": "展览／各ゼミ讲评时段另核",
+          "endDate": "2026-12-03T18:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-04T09:00",
+          "label": "展览／本人值班另核",
+          "endDate": "2026-12-04T18:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-05T09:00",
+          "label": "展览末日／16:30全员撤展另列",
+          "endDate": "2026-12-05T16:30"
+        }
+      ],
+      "notes": "时间表可能调整；个人提交完成、值班和讲评时间另核。",
+      "attendanceIntent": "undecided"
     }
   ],
   "lastVerifiedAt": "2026-11-05T09:21:20+09:00",
