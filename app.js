@@ -16,7 +16,7 @@ const monday = s => {const d=dateObj(s), offset=(d.getUTCDay()+6)%7;return addDa
 const state={data:null,category:'all',status:'all',progress:'all',search:'',view:'month',anchor:today,timelineStart:addDays(today,-7),timelineDays:60,selectedDay:today,showWeekly:true};
 const valid = m => m && m.date && /^\d{4}-\d\d-\d\d/.test(m.date);
 const activeStatus = s => !/未入选|未通过|取消|放弃|不申请/.test(s||'');
-function progress(o){const s=o.status||''; if(!/未|待确认/.test(s)&&/已预约|确认参加|已参加/.test(s)) return 'confirmed'; if(/已提交|応募済|预Entry|预 Entry|已匹配|待结果|已受理|已入选/.test(s)) return 'submitted';return 'planned';}
+function progress(o){if(o.category==='school'&&o.schoolMandatory===true)return 'confirmed';const s=o.status||''; if(!/未|待确认/.test(s)&&/已预约|确认参加|已参加/.test(s)) return 'confirmed'; if(/已提交|応募済|预Entry|预 Entry|已匹配|待结果|已受理|已入选/.test(s)) return 'submitted';return 'planned';}
 function filtered(){return state.data.opportunities.filter(o=>(state.category==='all'||o.category===state.category)&&(state.status==='all'||o.status===state.status)&&(state.progress==='all'||progress(o)===state.progress)&&(!state.search||`${o.company} ${o.title}`.toLowerCase().includes(state.search.toLowerCase())));}
 function nodes(os=filtered()){return os.flatMap(o=>(o.milestones||[]).filter(valid).map(m=>({o,m})));}
 function catStyle(o){const c=cats[o.category]||cats.activity;return `--color:${c.color};--tint:${c.tint}`;}

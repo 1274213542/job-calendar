@@ -4043,11 +4043,11 @@
       "scheduleKind": "school",
       "status": "每周固定安排",
       "weekdayLabel": "每周一",
-      "summary": "12:20出发，课后留1小时通勤；通常16点多到家",
+      "summary": "12:20出发，课后留1小时通勤；通常16点多到家；暂排至12/15",
       "description": "上课 13:20–14:50；前后各预留1小时通勤。12:20出发，课后留1小时通勤；通常16点多到家",
       "nextAction": "上课和通勤期间的活动需先确认。线上不等于能在上课时参加；不要自动新增重叠预约。",
-      "notes": "按本人通常每周安排显示；假期、停课和临时调课另核。到家时间是本人估计，不据此承诺精确到家时刻。",
-      "checkedAt": "2026-11-03",
+      "notes": "本人11/5预计12/15之后无常规课程，固定上课与通勤暂排至12/15（含）；12/16起不再机械重复，具体结课、补课与考试仍待确认。学校校历12/14–19为补课／考试周；新学期恢复日期未核。展览、值班、讲评及临时安排另列，不因固定课表停止就认定空闲。",
+      "checkedAt": "2026-11-05",
       "classStart": "13:20",
       "classEnd": "14:50",
       "commuteBeforeMinutes": 60,
@@ -4060,10 +4060,11 @@
         "end": "15:50",
         "allDay": false,
         "effectiveFrom": "2026-11-03",
-        "effectiveUntil": null,
+        "effectiveUntil": "2026-12-15",
         "exceptions": [],
         "label": "上课 13:20–14:50＋通勤"
-      }
+      },
+      "termEndStatus": "tentative_user_estimate"
     },
     {
       "id": "weekly-school-wednesday",
@@ -4073,11 +4074,11 @@
       "scheduleKind": "school",
       "status": "每周固定安排",
       "weekdayLabel": "每周三",
-      "summary": "12:20出发，课后通勤预留至17:30；约18点安顿",
+      "summary": "12:20出发，课后通勤预留至17:30；约18点安顿；暂排至12/15",
       "description": "上课 13:20–16:30；前后各预留1小时通勤。12:20出发，课后通勤预留至17:30；约18点安顿",
       "nextAction": "上课和通勤期间的活动需先确认。线上不等于能在上课时参加；不要自动新增重叠预约。",
-      "notes": "按本人通常每周安排显示；假期、停课和临时调课另核。到家时间是本人估计，不据此承诺精确到家时刻。",
-      "checkedAt": "2026-11-03",
+      "notes": "本人11/5预计12/15之后无常规课程，固定上课与通勤暂排至12/15（含）；12/16起不再机械重复，具体结课、补课与考试仍待确认。学校校历12/14–19为补课／考试周；新学期恢复日期未核。展览、值班、讲评及临时安排另列，不因固定课表停止就认定空闲。",
+      "checkedAt": "2026-11-05",
       "classStart": "13:20",
       "classEnd": "16:30",
       "commuteBeforeMinutes": 60,
@@ -4090,10 +4091,11 @@
         "end": "17:30",
         "allDay": false,
         "effectiveFrom": "2026-11-03",
-        "effectiveUntil": null,
+        "effectiveUntil": "2026-12-15",
         "exceptions": [],
         "label": "上课 13:20–16:30＋通勤"
-      }
+      },
+      "termEndStatus": "tentative_user_estimate"
     },
     {
       "id": "weekly-part-time-work",
