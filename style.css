@@ -27,3 +27,53 @@
 /* 学校、兼职和待录取占用均有文字标记，保留求职已约与截止的优先层级。 */
 .weekly-panel{margin-bottom:16px}.weekly-schedule{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:16px}.routine-card{display:grid;gap:5px;text-align:left;border:0;border-left:6px solid var(--color);border-radius:9px;background:var(--tint);padding:13px 15px}.routine-card>span{color:var(--color);font-size:12px;font-weight:800}.routine-card>b{font-size:15px}.routine-card>small{color:#445269;font-size:12px;line-height:1.5}.schedule-toggle{display:flex;align-items:center;gap:6px;white-space:nowrap;font-size:12px;font-weight:650}.schedule-toggle input{accent-color:#315bd8;width:17px;height:17px}.schedule-note{font-size:12px;color:#596779;margin:11px 0 0}.day-routines{border-bottom:1px solid #dce2eb;margin-bottom:5px;padding-bottom:2px}.day-routines:empty{display:none}.mark-school .symbol,.legend-badge.mark-school{background:#993875;color:#fff}.mark-work .symbol,.legend-badge.mark-work{background:#8a5c13;color:#fff}.mark-conditional .symbol,.legend-badge.mark-conditional{background:#a84c14;color:#fff}.mark-decision .symbol{background:#8b4b14;color:#fff}.event-pill.mark-conditional{background:#fff0de}.event-pill.mark-decision{background:#fff0de;box-shadow:none}.conflict-work .conflict-level{color:#85570b}.conflict-school .conflict-level{color:#96366e}.conflict-buffer .conflict-level{color:#80551d}
 @media(max-width:760px){.weekly-schedule{grid-template-columns:1fr}.routine-card{padding:11px 12px;grid-template-columns:70px 1fr;gap:3px 8px}.routine-card>small{grid-column:2}.weekly-panel>.panel-heading{flex-wrap:wrap;gap:9px}.month-grid .day-routines .event-pill .pill-label{display:inline;font-size:9px}.month-grid .day-routines .event-pill{overflow:hidden;gap:2px}.month-grid .day-routines .event-pill .symbol{font-size:8px;padding:3px 2px}.day-routines{min-height:20px}.month-grid .day{min-height:110px}}
+
+/* Shortcuts stay available while long project lists are open. */
+.section-nav{position:sticky;top:0;z-index:12;display:flex;gap:5px;align-items:center;margin:0 -4px 12px;padding:8px 4px;background:#f2f4f8f5;border-bottom:1px solid #dce2eb;backdrop-filter:blur(12px)}
+.section-nav a{display:block;flex:none;text-decoration:none;padding:9px 14px;min-height:40px;border-radius:8px;color:#42536d;font-size:13px;font-weight:750}
+.section-nav a:hover,.section-nav a[aria-current="location"]{background:#dfe8ff;color:#25499f}
+.section-nav .nav-top{margin-left:auto;color:#62748c}
+#top,#actions-section,#calendar-section,#timeline-section,#compensation{scroll-margin-top:76px}
+.section-toggle,.timeline-density button{border:0;min-height:38px;padding:8px 12px;border-radius:8px;background:#e8eef9;color:#284d96;font-size:12px;font-weight:750;white-space:nowrap}
+.section-toggle:hover,.timeline-density button:hover{background:#dbe5f8}
+.timeline-panel [hidden]{display:none!important}
+.timeline-panel>.panel-heading{gap:10px;align-items:flex-start}
+.timeline-preview{display:grid;gap:8px;margin-top:16px}
+.timeline-preview-item{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:11px 12px;border:1px solid #e1e7f0;border-left:4px solid #97a8c1;border-radius:8px;background:#f7f9fc;text-align:left;min-width:0;width:100%}
+.timeline-preview-item.is-confirmed{border-left-color:#087657;background:#edf8f2}
+.timeline-preview-item.is-due{border-left-color:#b63c27;background:#fff6ef}
+.timeline-preview-item>span:first-child{min-width:0}
+.timeline-preview-item b{display:block;color:#253952;font-size:13px}
+.timeline-preview-item small{display:block;color:#65758a;font-size:11px;margin-top:2px}
+.timeline-preview-item>span:first-child small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.timeline-preview-when{flex:none;max-width:45%;text-align:right;font-variant-numeric:tabular-nums;font-size:13px;font-weight:800;color:#364c6b}
+.timeline-preview-when small{font-weight:600}
+.timeline-preview-note{margin:2px 0 0;color:#6b7a8d;font-size:11px}
+.timeline-toolbar{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:16px;flex-wrap:wrap}
+.timeline-density{display:flex;gap:5px}
+.timeline-density button{min-height:34px;padding:6px 9px;font-size:11px}
+.timeline-footer{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.timeline-footer .timeline-hint{margin:0;margin-right:auto}
+.timeline-row .timeline-label{display:flex;align-items:center;gap:5px;padding-right:8px}
+.timeline-row .timeline-label .timeline-project{flex:1;min-width:0;width:auto}
+.timeline-row .timeline-label .timeline-row-toggle{flex:none;display:grid;place-items:center;width:27px;min-height:30px;padding:0;border-radius:6px;background:#e8eef8;color:#35558e;text-align:center;font-size:15px;font-weight:800}
+.timeline-row.is-compact .timeline-label{padding-top:8px;padding-bottom:8px}
+.timeline-row.is-compact .timeline-status{font-size:10px;margin-top:1px}
+.timeline-compact-node{position:absolute;top:20px;max-width:140px;border:0;border-radius:5px;padding:5px 8px;min-height:27px;white-space:nowrap;font-size:11px;font-weight:750;background:#edf1f6;color:#45607e}
+.timeline-compact-node.mark-confirmed{background:#087657;color:white}
+.timeline-compact-node.mark-deadline{background:#b63c27;color:white}
+.timeline-compact-node.mark-open{background:#dce9ff;color:#284d96}
+@media(max-width:760px){
+ .section-nav{gap:2px;margin-inline:-2px;padding-inline:0}
+ .section-nav a{flex:1;text-align:center;font-size:11px;padding:9px 4px;min-height:38px}
+ .section-nav .nav-top{flex:none;font-size:11px;padding-inline:5px}
+ #top,#actions-section,#calendar-section,#timeline-section,#compensation{scroll-margin-top:67px}
+ .timeline-panel>.panel-heading{flex-wrap:nowrap}
+ .timeline-panel .panel-desc{font-size:11px;max-width:200px}
+ .timeline-panel .section-toggle{font-size:11px;padding-inline:9px}
+ .timeline-preview-item{padding:9px 10px;gap:7px}
+ .timeline-preview-when{max-width:42%}
+ .timeline-row .timeline-label{padding-right:6px}
+ .timeline-row .timeline-label .timeline-row-toggle{width:24px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f2f4f8">
   <title>求职日历 · 2028</title>
-  <link rel="stylesheet" href="./style.css?v=20261103a">
-  <link rel="stylesheet" href="./compensation.css?v=20261106">
+  <link rel="stylesheet" href="./style.css?v=20261106b">
+  <link rel="stylesheet" href="./compensation.css?v=20261106b">
 </head>
 <body>
   <div class="app-shell">
@@ -14,6 +14,9 @@
       <a class="brand" href="#top" aria-label="求职日历首页"><span class="brand-mark">日</span><span><b>求职日历</b><small>DESIGN CAREER</small></span></a>
       <div class="header-right"><a class="pay-shortcut" href="#compensation">薪酬对照</a><span class="tz">东京时间 <i>JST</i></span><span class="live-dot"></span><span id="today-label"></span></div>
     </header>
+    <nav class="section-nav" aria-label="页面快捷导航">
+      <a href="#actions-section">近期重点</a><a href="#calendar-section">日历</a><a href="#timeline-section">项目时间轴</a><a href="#compensation">公司待遇</a><a href="#top" class="nav-top" aria-label="回到顶部">↑ 顶部</a>
+    </nav>
     <main id="top">
       <section class="intro">
         <div><p class="eyebrow">2028 届 · 设计求职</p><h1>我的日程</h1><p class="intro-copy">求职、学校与兼职，一起核对时间</p></div>
@@ -36,33 +39,40 @@
       </section>
       <div class="content-grid">
         <section class="main-column">
-          <section class="panel calendar-panel" aria-labelledby="calendar-title">
+          <section id="calendar-section" class="panel calendar-panel" aria-labelledby="calendar-title">
             <div class="panel-heading"><div><h2 id="calendar-title">日历</h2><p class="panel-desc">查看活动与各项截止时间</p></div><div class="view-toggle" role="group" aria-label="日历视图"><button class="active" data-view="month">月</button><button data-view="week">周</button></div></div>
             <div class="calendar-toolbar"><div class="date-nav"><button id="prev" aria-label="上一个时间段">←</button><strong id="calendar-period"></strong><button id="next" aria-label="下一个时间段">→</button><button id="today">今天</button></div><div class="legend" aria-label="日历标记说明"><span class="legend-badge mark-confirmed">已确认</span><span class="legend-badge mark-deadline">截止</span><span class="legend-badge mark-pending">待确认</span><span class="legend-badge mark-conditional">合格后占用</span><span class="legend-badge mark-open">开放</span><span class="legend-badge mark-completed">已办</span></div></div>
             <div id="calendar" class="calendar" aria-live="polite"></div>
           </section>
-          <section class="panel timeline-panel" aria-labelledby="timeline-title">
-            <div class="panel-heading"><div><h2 id="timeline-title">项目时间轴</h2><p class="panel-desc">按项目查看报名窗口、截止节点与活动时间</p></div><div class="timeline-controls"><button id="timeline-back" aria-label="时间轴向前">←</button><button id="timeline-forward" aria-label="时间轴向后">→</button><select id="timeline-zoom" aria-label="时间轴范围"><option value="30">30 天</option><option value="60" selected>60 天</option><option value="90">90 天</option><option value="180">180 天</option></select></div></div>
-            <div class="timeline-key"><span><i class="key-window"></i> 报名窗口</span><span><i class="key-event"></i> 活动期间</span><span class="legend-badge mark-confirmed">已确认</span><span class="legend-badge mark-deadline">截止</span><span class="legend-badge mark-open">开放</span><span>其他状态见项目名称下方</span></div>
-            <div id="timeline" class="timeline"></div><p class="timeline-hint">左右滑动查看日期，点击节点或项目查看详情。</p>
+          <section id="timeline-section" class="panel timeline-panel" aria-labelledby="timeline-title">
+            <div class="panel-heading"><div><h2 id="timeline-title">项目时间轴</h2><p id="timeline-summary" class="panel-desc" aria-live="polite">已确认安排和临近截止优先</p></div><button id="timeline-toggle" class="section-toggle" type="button" aria-expanded="false" aria-controls="timeline-content">展开时间轴</button></div>
+            <div id="timeline-preview" class="timeline-preview"></div>
+            <div id="timeline-content" hidden>
+              <div class="timeline-toolbar"><div class="timeline-controls"><button id="timeline-back" aria-label="时间轴向前">←</button><button id="timeline-forward" aria-label="时间轴向后">→</button><select id="timeline-zoom" aria-label="时间轴范围"><option value="30">30 天</option><option value="60" selected>60 天</option><option value="90">90 天</option><option value="180">180 天</option></select></div><div class="timeline-density"><button id="timeline-expand-all" type="button">展开全部节点</button><button id="timeline-collapse-all" type="button">收起全部节点</button></div></div>
+              <div class="timeline-key"><span><i class="key-window"></i> 报名窗口</span><span><i class="key-event"></i> 活动期间</span><span class="legend-badge mark-confirmed">已确认</span><span class="legend-badge mark-deadline">截止</span><span class="legend-badge mark-open">开放</span></div>
+              <div id="timeline" class="timeline"></div>
+              <div class="timeline-footer"><p id="timeline-visible-count" class="timeline-hint"></p><button id="timeline-more" class="section-toggle" type="button" hidden>再显示 8 项</button><button id="timeline-less" class="section-toggle" type="button" hidden>恢复精简</button></div>
+              <p class="timeline-hint">左右滑动查看日期；展开单个项目看完整节点，点击名称查看详情。</p>
+            </div>
           </section>
           <section class="panel unknown-panel" aria-labelledby="unknown-title"><div class="panel-heading"><div><h2 id="unknown-title">待核对</h2><p class="panel-desc">尚未确定日期、期限或状态的信息</p></div><span class="count-badge" id="unknown-count">0</span></div><div id="unknown-list"></div></section>
         </section>
         <aside class="side-column">
-          <section class="panel actions-panel"><div class="panel-heading"><div><h2>近期行动</h2><p class="panel-desc">14 天内截止 · 全部未来已确认安排</p></div></div><div id="actions"></div></section>
+          <section id="actions-section" class="panel actions-panel"><div class="panel-heading"><div><h2>近期行动</h2><p class="panel-desc">14 天内截止 · 全部未来已确认安排</p></div></div><div id="actions"></div></section>
           <section class="panel conflicts-panel"><div class="panel-heading"><div><h2>时间与调班提醒</h2><p class="panel-desc">未来45天 · 含上课、兼职、待录取实习和缓冲</p></div></div><div id="conflicts"></div></section>
           <div class="footnote"><span>◎</span><p>信息以各项目来源及个人 MyPage 为准。<br>点击项目可查看记录和下一步。</p></div>
         </aside>
       </div>
       <section id="compensation" class="panel pay-panel" aria-labelledby="pay-title">
         <div class="panel-heading">
-          <div><h2 id="pay-title">公司薪酬对照</h2><p class="panel-desc">金额以税前日元计。按月薪折算的年收及往届参考金额均标注口径。</p></div>
+          <div><h2 id="pay-title">公司待遇与评价</h2><p class="panel-desc">官方招聘条件与员工评价分开看。金额为税前日元，年收口径和适用届别见明细。</p></div>
           <span id="pay-date" class="pay-date"></span>
         </div>
         <div class="pay-controls" hidden>
           <div id="pay-mode" role="group" aria-label="薪酬类型">
             <button type="button" aria-pressed="true" data-mode="employment">入职待遇</button>
             <button type="button" aria-pressed="false" data-mode="intern">实习报酬</button>
+            <button type="button" aria-pressed="false" data-mode="reviews">员工评价</button>
           </div>
           <label class="pay-search"><span>搜索</span><input id="pay-search" type="search" placeholder="公司或岗位" autocomplete="off"></label>
           <label><span>范围</span><select id="pay-filter">
@@ -73,6 +83,7 @@
             <option value="history">仅历史记录</option>
           </select></label>
         </div>
+        <p id="pay-mode-note" class="pay-mode-note">官方入职条件：固定加班津贴的覆盖时数，不等于实际每月加班。</p>
         <p id="pay-count" class="pay-count" role="status" aria-live="polite">正在读取招聘待遇…</p>
         <div id="pay-results"></div>
         <button id="pay-more" class="pay-more" type="button" hidden></button>
@@ -81,6 +92,6 @@
     <footer><span>JOB SEARCH PLANNER <b> / </b> 2028</span><span id="updated-label">本地数据</span></footer>
   </div>
   <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button class="close-dialog" aria-label="关闭">×</button><div id="detail-content"></div></div></dialog>
-  <script type="module" src="./app.js?v=20261106-pay"></script>
+  <script type="module" src="./app.js?v=20261106b"></script>
 </body>
 </html>

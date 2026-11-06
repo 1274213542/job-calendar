@@ -184,3 +184,40 @@
 @media (max-width: 420px) {
   .pay-shortcut { font-size: 11px; margin: 0; padding-inline: 6px; }
 }
+
+.pay-panel{scroll-margin-top:76px}
+.pay-mode-note{padding:10px 12px;border-radius:8px;background:#f1f5fa;color:#54677e;font-size:12px;line-height:1.65;margin:0 0 12px}
+.pay-availability{display:inline-block;margin-top:5px;border-radius:5px;padding:2px 6px;background:#edf0f5;color:#5e6d81;font-size:10px;font-weight:650}
+.pay-review-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.pay-review-card{min-width:0;padding:16px;border:1px solid #d6e0ec;border-radius:11px;background:#fff;overflow-wrap:anywhere}
+.pay-review-heading{display:flex;gap:8px;align-items:flex-start;justify-content:space-between}
+.pay-review-heading h3{font-size:16px;line-height:1.4;color:#243955;margin:0 0 4px}
+.pay-review-heading .pay-date{font-size:10px;padding-top:3px}
+.pay-review-status{display:inline-block;color:#61738b;background:#edf2f8;border-radius:5px;font-size:10px;padding:3px 6px;font-weight:650}
+.pay-review-metrics{display:flex;flex-wrap:wrap;gap:9px 20px;padding:11px 0 0;margin-top:3px}
+.pay-review-metrics small{display:block;color:#687a91;font-size:10px}
+.pay-review-metrics b{display:block;color:#2b456b;font-size:19px;font-variant-numeric:tabular-nums;line-height:1.6}
+.pay-review-summary{font-size:13px;line-height:1.7;color:#465b75;margin:12px 0}
+.pay-review-details{border-top:1px solid #e0e7f1;padding-top:9px}
+.pay-review-details>summary{font-size:12px;line-height:1.5;color:#305ab6;font-weight:750;cursor:pointer;min-height:28px}
+.pay-review-details[open]>summary{margin-bottom:10px}
+.pay-review-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 16px}
+.pay-review-points h4{font-size:11px;color:#3e5e79;margin:0 0 5px}
+.pay-review-points ul{padding-left:17px;margin:0;font-size:12px;line-height:1.7;color:#4a5f77}
+.pay-review-points li+li{margin-top:5px}
+.review-concerns h4{color:#8e613b}
+.pay-review-limits{font-size:11px;line-height:1.6;color:#6b798c;margin:10px 0}
+.pay-review-details .pay-sources{margin-top:10px}
+.pay-review-details .pay-sources a{font-size:11px}
+@media(max-width:900px){.pay-review-list{grid-template-columns:1fr}}
+@media(max-width:760px){
+ .pay-panel{scroll-margin-top:67px}
+ #pay-mode{justify-self:stretch;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%}
+ #pay-mode button{font-size:12px;white-space:nowrap;padding-inline:8px}
+ .pay-review-card{padding:13px}
+ .pay-review-metrics{gap:9px 18px}
+ .pay-review-heading h3{font-size:15px}
+ .pay-review-summary{font-size:12px;margin-block:10px}
+ .pay-review-points{grid-template-columns:1fr}
+ .pay-mode-note{font-size:11px;padding:9px 10px}
+}

@@ -73,7 +73,7 @@ function displayValue(value) {
   return el('span', value ? 'pay-value' : 'pay-value pay-missing', value || '待核');
 }
 
-function sourceLinks(sources) {
+function sourceLinks(sources, emptyLabel = '招聘要项待核') {
   const box = el('div', 'pay-sources');
   for (const source of sources || []) {
     let url;
@@ -85,7 +85,7 @@ function sourceLinks(sources) {
     link.rel = 'noopener noreferrer';
     box.append(link);
   }
-  if (!box.childElementCount) box.append(el('span', 'pay-missing', '招聘要项待核'));
+  if (!box.childElementCount) box.append(el('span', 'pay-missing', emptyLabel));
   return box;
 }
 
@@ -105,6 +105,9 @@ function details(job, mode, id, columns) {
     list.append(group);
   }
   if (mode === 'employment' && job.scope) term('适用范围', job.scope);
+  if (job.availabilityLabel) term('信息状态', job.availabilityLabel);
+  if (job.evidenceNote) term('核查说明', job.evidenceNote);
+  if (job.checkedAt) term('核查日期', job.checkedAt);
   const fieldKeys = mode === 'intern' ? ['intern'] : ['monthly', 'annual', 'bonus', 'overtime', 'benefits'];
   for (const field of fieldKeys) term(fields[field], displayValue(job[field]));
   term('招聘要项', sourceLinks(job.sources));
@@ -133,13 +136,14 @@ function makeTable(items, mode) {
     if (mode === 'employment') {
       identity.append(el('span', 'pay-role', job.role || '岗位待遇待核'));
       if (job.scope) identity.append(el('span', 'pay-scope', job.scope));
+      if (job.availabilityLabel) identity.append(el('span', 'pay-availability', job.availabilityLabel));
     }
     row.append(identity);
     for (const col of cols) {
       const cell = el('td', 'pay-col-' + col);
       const label = el('small', 'pay-field', fields[col]);
       label.setAttribute('aria-hidden', 'true');
-      cell.append(label, displayValue(job[col]));
+      cell.append(label, displayValue(job[col] || (job.availabilityLabel ? '未公布，见核查说明' : null)));
       row.append(cell);
     }
     const action = el('td', 'pay-action');
@@ -164,6 +168,60 @@ function makeTable(items, mode) {
   return table;
 }
 
+function reviewCards(items) {
+  const list = el('div', 'pay-review-list');
+  const statusLabels = { public_summary: '可读公开概要', limited: '有限公开资料', not_found: '暂无可靠公开资料' };
+  for (const { company } of items) {
+    const review = company.employeeReviews || {};
+    const card = el('article', 'pay-review-card');
+    const header = el('div', 'pay-review-heading');
+    const identity = el('div');
+    identity.append(el('h3', '', company.name), el('span', 'pay-review-status', statusLabels[review.status] || '评价资料待核'));
+    header.append(identity);
+    if (review.checkedAt) header.append(el('span', 'pay-date', '核查 ' + review.checkedAt.slice(0, 10)));
+    card.append(header);
+    const metrics = el('div', 'pay-review-metrics');
+    function metric(label, value) {
+      const box = el('div');
+      box.append(el('small', '', label), el('b', '', value));
+      metrics.append(box);
+    }
+    const overtime = review.overtime || {};
+    if (Number.isFinite(overtime.hoursPerMonth)) metric('员工自报月均加班', overtime.hoursPerMonth + ' 小时');
+    if (Number.isFinite(review.paidLeaveRate)) metric('员工自报有休消化率', review.paidLeaveRate + '%');
+    if (Number.isFinite(review.rating)) metric('评价平台评分（5分制）', String(review.rating));
+    if (metrics.childElementCount) card.append(metrics);
+    card.append(el('p', 'pay-review-summary', review.summary || '暂未核到可直接阅读、且能确认对应法人的员工评价。'));
+    const details = el('details', 'pay-review-details');
+    details.append(el('summary', '', '评价要点、口径与来源'));
+    const columns = el('div', 'pay-review-points');
+    function points(label, values, style) {
+      if (!Array.isArray(values) || !values.length) return;
+      const box = el('div', style);
+      box.append(el('h4', '', label));
+      const ul = el('ul');
+      values.forEach(value => ul.append(el('li', '', value)));
+      box.append(ul);
+      columns.append(box);
+    }
+    points('评价中提到的优点', review.positives, 'review-positives');
+    points('留意事项与面谈确认', review.concerns, 'review-concerns');
+    if (columns.childElementCount) details.append(columns);
+    const context = [];
+    if (Number.isFinite(overtime.hoursPerMonth)) {
+      context.push(Number.isFinite(overtime.sampleSize) ? '加班统计样本：' + overtime.sampleSize + ' 人' : '该加班统计的样本数未明确');
+      context.push(overtime.period ? '统计期间：' + overtime.period : '统计期间未明确');
+    }
+    if (overtime.note) context.push(overtime.note);
+    if (review.limitations) context.push(review.limitations);
+    if (context.length) details.append(el('p', 'pay-review-limits', context.join('；')));
+    details.append(sourceLinks(review.sources, '暂未核到可引用的员工评价原页'));
+    card.append(details);
+    list.append(card);
+  }
+  return list;
+}
+
 export async function mountCompensation(opportunities) {
   const response = await fetch('./data/compensation.json', { cache: 'no-store' });
   if (!response.ok) throw new Error('Compensation data unavailable');
@@ -177,6 +235,7 @@ export async function mountCompensation(opportunities) {
   const more = document.getElementById('pay-more');
   let mode = 'employment';
   let limit = PAGE_SIZE;
+  const modeNote = document.getElementById('pay-mode-note');
   if (data.asOf) document.getElementById('pay-date').textContent = '资料核对 ' + data.asOf;
   document.querySelector('.pay-controls').hidden = false;
 
@@ -187,7 +246,13 @@ export async function mountCompensation(opportunities) {
     let companies = 0;
     for (const company of employers) {
       if (filter.value !== 'all' && company.group !== filter.value) continue;
-      const roles = company.roles.length ? company.roles : [{}];
+      const roles = company.roles?.length ? company.roles : [{}];
+      if (mode === 'reviews') {
+        if (query && !company.searchNames.some(name => name.includes(query)) && !roles.some(job => key(job.role).includes(query))) continue;
+        companies++;
+        items.push({ company });
+        continue;
+      }
       let matchingRoles = roles;
       if (mode === 'intern') {
         matchingRoles = roles.filter(job => job.intern);
@@ -199,10 +264,11 @@ export async function mountCompensation(opportunities) {
       if (matchingRoles.length) companies++;
       for (const job of matchingRoles) items.push({ company, job });
     }
-    count.textContent = companies + ' 家公司 · ' + items.length + ' 条待遇记录';
+    count.textContent = companies + ' 家公司' + (mode === 'reviews' ? ' · 员工评价与工作强度' : ' · ' + items.length + ' 条待遇记录');
+    modeNote.textContent = mode === 'reviews' ? '员工自述和平台统计仅供比较，可能跨岗位、部门和任职年份；不等于设计岗新卒的实际待遇。固定加班费包含的时数，也不等于实际加班。' : mode === 'intern' ? '仅列对应实习的报酬、补助与适用条件，和入职后的正社员薪资分开。' : '官方入职条件：留意届别、学历、基本薪与固定加班费。月薪×12的换算不包含未公布的奖金。';
     if (filter.value === 'all' && !query && companies) count.textContent += ' · 已报名或已联系优先';
     const visible = items.slice(0, limit);
-    results.replaceChildren(items.length ? makeTable(visible, mode) : el('p', 'pay-empty', '没有符合当前条件的公司或岗位。'));
+    results.replaceChildren(items.length ? (mode === 'reviews' ? reviewCards(visible) : makeTable(visible, mode)) : el('p', 'pay-empty', '没有符合当前条件的公司或岗位。'));
     more.hidden = visible.length === items.length;
     more.textContent = '再显示 ' + Math.min(PAGE_SIZE, items.length - visible.length) + ' 条';
     if (!more.hidden) count.textContent += ' · 已显示 ' + visible.length + ' 条';
