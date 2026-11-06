@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06",
+  "updatedAt": "2026-11-07",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -104,11 +104,11 @@
       "title": "UI/UX设计1Day工作坊",
       "category": "internship",
       "subtype": "短期实习与工作坊",
-      "status": "已匹配／待约面谈",
-      "statusDetail": "企业已在ReDesigner与本人匹配，并邀请安排线上casual面谈。平台通知与对话已核，尚未核到面谈确切时间或工作坊席位。",
+      "status": "申请已受理／参加手续待确认",
+      "statusDetail": "ReDesigner平台申请已受理；11/4获casual面谈邀请，仍未核到11/14具体席位及独立作品集手续。面谈未预约，询问稿未发送。",
       "description": "游戏、出版及IP内容；线上；最新版Photoshop；未公布报酬；28卒、作品集；应募者均安排个别casual面谈；各场约10人，人多可能抽签；制作、发表与讲评",
-      "nextAction": "从企业对话中的日程链接选择面谈时间；报名时优先考虑11月14日。12月5日与Goodpatch候选实习同日，等待各自结果。",
-      "checkedAt": "2026-11-04",
+      "nextAction": "11/14场按一周前规则推得11/7截止，钟点未公布。平台已受理，但具体名额、独立作品集手续及面谈先后仍待企业确认；不重复报名，现有询问稿尚未发送。12/5场与全员撤展冲突。",
+      "checkedAt": "2026-11-07",
       "sources": [
         {
           "label": "原始来源",
@@ -144,6 +144,48 @@
           "date": "2026-12-05T10:00",
           "label": "12/5场",
           "endDate": "2026-12-05T18:00"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "opp-01066a81d5::2026-11-14T10:00",
+          "eventStart": "2026-11-14T10:00",
+          "eventEnd": "2026-11-14T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "ReDesigner応募＋企业确认参加办法",
+          "opensAt": null,
+          "deadline": "2026-11-07",
+          "deadlineLabel": "按举办前一周推得；未公布钟点",
+          "firstComeFirstServed": false,
+          "availabilityState": "selection_pending",
+          "availabilityLabel": "每场约10人，超额可能抽签；本人具体席位未确认",
+          "availabilityCheckedAt": "2026-11-07",
+          "availabilitySource": {
+            "label": "企业ReDesigner募集及本人对话已核",
+            "url": "https://student.redesigner.jp/recruitments/Jf5a5878810a6c9e73c0c3fe185f9674b"
+          },
+          "bookingStage": "平台申请已受理／具体场次未确认",
+          "nextAction": "先核独立作品集手续与具体参加资格，不重复応募。"
+        },
+        {
+          "id": "opp-01066a81d5::2026-12-05T10:00",
+          "eventStart": "2026-12-05T10:00",
+          "eventEnd": "2026-12-05T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "ReDesigner応募＋企业确认参加办法",
+          "opensAt": null,
+          "deadline": "2026-11-28",
+          "deadlineLabel": "按举办前一周推得；未公布钟点",
+          "firstComeFirstServed": false,
+          "availabilityState": "selection_pending",
+          "availabilityLabel": "每场约10人，超额可能抽签；本人具体席位未确认",
+          "availabilityCheckedAt": "2026-11-07",
+          "availabilitySource": {
+            "label": "企业ReDesigner募集及本人对话已核",
+            "url": "https://student.redesigner.jp/recruitments/Jf5a5878810a6c9e73c0c3fe185f9674b"
+          },
+          "bookingStage": "平台申请已受理／具体场次未确认",
+          "nextAction": "先核独立作品集手续与具体参加资格，不重复応募。"
         }
       ]
     },
@@ -758,7 +800,26 @@
         "selectionIds": [],
         "intent": "听完后准备本选考"
       },
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "opp-83bc5b305c::2026-11-12T17:00",
+          "eventStart": "2026-11-12T17:00",
+          "eventEnd": "2026-11-12T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "已预约／以既有回执为据",
+          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+        }
+      ]
     },
     {
       "id": "opp-d698b0e5c5",
@@ -802,10 +863,10 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "预Entry",
-      "statusDetail": "ReDesigner预Entry已有记录。企业要求另填官方表单，未核到正式提交、入选或个人时段。11月4日取消的是11月6日公司说明会。",
+      "statusDetail": "MyPage正式咨询表仍为空白、未提交；预Entry不等于咨询会申请或预约。参加者须经筛选，最终只分配一场约25分钟。",
       "description": "数字广告与交互体验；现场／Web择场；未公布费用；MyPage申请；参加者有选考；需准备PF",
-      "nextAction": "如决定申请，须于11月16日12:00前在MyPage填写咨询会表单。申请后还需等待筛选和个人约25分钟时段。",
-      "checkedAt": "2026-11-04",
+      "nextAction": "11/16 12:00前提交独立咨询表：参加理由300字、学习与制作经历300字、事先分享作品集（URL或邮件）及可参加时段。先确认学校／兼职和线上私密环境，再选场；本轮未填报。",
+      "checkedAt": "2026-11-07",
       "sources": [
         {
           "label": "原始来源",
@@ -818,7 +879,7 @@
           "label": "11/4 复核企业作品集咨询通知及独立申请流程"
         }
       ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-16 12:00；举办 11/24现场14:30–18:30分场；11/25线上11:00–17:30分场；每人约25分钟。",
+      "notes": "11/7实际读取官方未提交表单：两段各最多300字；作品集URL或邮件；PDF栏原文写100MG未满，大小单位表述待确认；不接受文件临时传送服务。5个候选时间段中筛选分配约25分钟，提前5分钟入室。线上原则在家，其他地点须独立房间且第三人听不到，使用耳机。11/25与周三学校及通勤冲突，不能默认在学校可参加。",
       "milestones": [
         {
           "type": "deadline",
@@ -837,6 +898,113 @@
           "label": "线上分场范围，约25分钟／人",
           "endDate": "2026-11-25T17:30"
         }
+      ],
+      "registrationSessions": [
+        {
+          "id": "opp-6286d81e29::2026-11-24T14:30",
+          "eventStart": "2026-11-24T14:30",
+          "eventEnd": "2026-11-24T16:30",
+          "reservationRequired": true,
+          "registrationMethod": "MyPage独立咨询申请表→筛选→个人时段通知",
+          "opensAt": null,
+          "deadline": "2026-11-16T12:00",
+          "deadlineLabel": "官方申请截止",
+          "firstComeFirstServed": false,
+          "availabilityState": "form_available",
+          "availabilityLabel": "申请表可打开；有选考，非先到先得／非名额保证",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "本人MyPage咨询通知及空白申请表已核；私人直达链接不公开",
+            "url": "https://i-studio-career.snar.jp/login.aspx"
+          },
+          "bookingStage": "预Entry／咨询会未提交",
+          "nextAction": "先确认可参加时间，再准备两段回答和作品集，未提交。",
+          "format": "线下"
+        },
+        {
+          "id": "opp-6286d81e29::2026-11-24T16:30",
+          "eventStart": "2026-11-24T16:30",
+          "eventEnd": "2026-11-24T18:30",
+          "reservationRequired": true,
+          "registrationMethod": "MyPage独立咨询申请表→筛选→个人时段通知",
+          "opensAt": null,
+          "deadline": "2026-11-16T12:00",
+          "deadlineLabel": "官方申请截止",
+          "firstComeFirstServed": false,
+          "availabilityState": "form_available",
+          "availabilityLabel": "申请表可打开；有选考，非先到先得／非名额保证",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "本人MyPage咨询通知及空白申请表已核；私人直达链接不公开",
+            "url": "https://i-studio-career.snar.jp/login.aspx"
+          },
+          "bookingStage": "预Entry／咨询会未提交",
+          "nextAction": "先确认可参加时间，再准备两段回答和作品集，未提交。",
+          "format": "线下"
+        },
+        {
+          "id": "opp-6286d81e29::2026-11-25T11:00",
+          "eventStart": "2026-11-25T11:00",
+          "eventEnd": "2026-11-25T13:00",
+          "reservationRequired": true,
+          "registrationMethod": "MyPage独立咨询申请表→筛选→个人时段通知",
+          "opensAt": null,
+          "deadline": "2026-11-16T12:00",
+          "deadlineLabel": "官方申请截止",
+          "firstComeFirstServed": false,
+          "availabilityState": "form_available",
+          "availabilityLabel": "申请表可打开；有选考，非先到先得／非名额保证",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "本人MyPage咨询通知及空白申请表已核；私人直达链接不公开",
+            "url": "https://i-studio-career.snar.jp/login.aspx"
+          },
+          "bookingStage": "预Entry／咨询会未提交",
+          "nextAction": "先确认可参加时间，再准备两段回答和作品集，未提交。",
+          "format": "线上"
+        },
+        {
+          "id": "opp-6286d81e29::2026-11-25T13:00",
+          "eventStart": "2026-11-25T13:00",
+          "eventEnd": "2026-11-25T15:00",
+          "reservationRequired": true,
+          "registrationMethod": "MyPage独立咨询申请表→筛选→个人时段通知",
+          "opensAt": null,
+          "deadline": "2026-11-16T12:00",
+          "deadlineLabel": "官方申请截止",
+          "firstComeFirstServed": false,
+          "availabilityState": "form_available",
+          "availabilityLabel": "申请表可打开；有选考，非先到先得／非名额保证",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "本人MyPage咨询通知及空白申请表已核；私人直达链接不公开",
+            "url": "https://i-studio-career.snar.jp/login.aspx"
+          },
+          "bookingStage": "预Entry／咨询会未提交",
+          "nextAction": "先确认可参加时间，再准备两段回答和作品集，未提交。",
+          "format": "线上"
+        },
+        {
+          "id": "opp-6286d81e29::2026-11-25T15:00",
+          "eventStart": "2026-11-25T15:00",
+          "eventEnd": "2026-11-25T17:30",
+          "reservationRequired": true,
+          "registrationMethod": "MyPage独立咨询申请表→筛选→个人时段通知",
+          "opensAt": null,
+          "deadline": "2026-11-16T12:00",
+          "deadlineLabel": "官方申请截止",
+          "firstComeFirstServed": false,
+          "availabilityState": "form_available",
+          "availabilityLabel": "申请表可打开；有选考，非先到先得／非名额保证",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "本人MyPage咨询通知及空白申请表已核；私人直达链接不公开",
+            "url": "https://i-studio-career.snar.jp/login.aspx"
+          },
+          "bookingStage": "预Entry／咨询会未提交",
+          "nextAction": "先确认可参加时间，再准备两段回答和作品集，未提交。",
+          "format": "线上"
+        }
       ]
     },
     {
@@ -846,10 +1014,10 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "候选／计划申请",
-      "statusDetail": "新发现；未确认预约",
+      "statusDetail": "11/7实际表单仍可选择此场；本人未登记，没有预约回执。",
       "description": "电子、娱乐及跨领域设计；Teams线上；未公布费用；企业/项目介绍与设计师交流；须Sony外部表单逐场申请，RD按钮不算正式报名",
-      "nextAction": "优先11/5，避开11/17 CA。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "11/17 18:00–19:30线上，先到先得；登记表仍列此场，精确截止未公布。与DENSO同日候选重叠，需决定听哪场再预约。",
+      "checkedAt": "2026-11-07",
       "sources": [
         {
           "label": "原始来源",
@@ -860,18 +1028,42 @@
       "milestones": [
         {
           "type": "event",
-          "date": "2026-11-05T18:00",
-          "label": "实际举办",
-          "endDate": "2026-11-05T19:30"
-        },
-        {
-          "type": "event",
           "date": "2026-11-17T18:00",
-          "label": "实际举办",
-          "endDate": "2026-11-17T19:30"
+          "endDate": "2026-11-17T19:30",
+          "label": "候选线上企业说明会（未预约）"
         }
       ],
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "opp-55300098fc::2026-11-17T18:00",
+          "eventStart": "2026-11-17T18:00",
+          "eventEnd": "2026-11-17T19:30",
+          "reservationRequired": true,
+          "registrationMethod": "Sony官方表单逐场登记；须确认隐私政策后提交",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": true,
+          "availabilityState": "form_available",
+          "availabilityLabel": "表单可选择此场，未显示满员；余位数及精确关闭时间未公开",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "Sony官方公开参加登记表",
+            "url": "https://sonygroup.my.salesforce-sites.com/sony/Design_students_registration1"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "先核冲突并决定场次，再完成官方登记；本轮未提交。"
+        }
+      ],
+      "historicalMilestones": [
+        {
+          "type": "event",
+          "date": "2026-11-05T18:00",
+          "endDate": "2026-11-05T19:30",
+          "label": "已过去的同系列场次；出席未知"
+        }
+      ]
     },
     {
       "id": "opp-37ec3f204b",
@@ -880,28 +1072,51 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "候选／计划申请",
-      "statusDetail": "未预约",
+      "statusDetail": "11/7实际表单仍可选择此场；本人未登记，没有预约回执。",
       "description": "Creative Center；Teams线上；未公布费用；员工学生时期PF案例讲解，不是每人点评",
-      "nextAction": "与ENSAPIA11/20实习重叠30分钟，不建议同时承诺完整参加。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "此场与11/20已确认ENSAPIA实习及返程冲突，先保留实习，不自动预约。表单当前仍列场次，先到先得。",
+      "checkedAt": "2026-11-07",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://student.redesigner.jp/recruitments/J0d8e2e4e340330aebd0d0171469f43b6"
         }
       ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 RD总标签：2026-11-20 16:00；满额可早关；举办 2026-11-20 18:00–19:00。",
+      "notes": "11/6重读公司ReDesigner公告：11/20 18:00–19:00 Teams，设计师学生时期作品集实例讲解，非个人逐份点评。禁止截图、录音、录像。RD页面总募集标签11/20 16:00，满额可提前关闭。 11/7更正：11/20 16:00仅ReDesigner总募集标签，不能认定为此场独立登记截止；保留历史标签，不再作明确截止提醒。",
       "milestones": [
-        {
-          "type": "deadline",
-          "date": "2026-11-20T16:00",
-          "label": "RD总标签"
-        },
         {
           "type": "event",
           "date": "2026-11-20T18:00",
-          "label": "实际举办",
-          "endDate": "2026-11-20T19:00"
+          "endDate": "2026-11-20T19:00",
+          "label": "候选作品集讲解，与ENSAPIA冲突"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "opp-37ec3f204b::2026-11-20T18:00",
+          "eventStart": "2026-11-20T18:00",
+          "eventEnd": "2026-11-20T19:00",
+          "reservationRequired": true,
+          "registrationMethod": "Sony官方表单逐场登记；须确认隐私政策后提交",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": true,
+          "availabilityState": "form_available",
+          "availabilityLabel": "表单可选择此场，未显示满员；余位数及精确关闭时间未公开",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "Sony官方公开参加登记表",
+            "url": "https://sonygroup.my.salesforce-sites.com/sony/Design_students_registration1"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "先核冲突并决定场次，再完成官方登记；本轮未提交。"
+        }
+      ],
+      "referenceDeadlines": [
+        {
+          "date": "2026-11-20T16:00",
+          "label": "ReDesigner总标签／未证实为独立场次截止"
         }
       ]
     },
@@ -1048,7 +1263,26 @@
         "intent": "听完说明会后准备和决定本选考"
       },
       "workCompatibility": "requires_confirmation",
-      "scheduleNotice": "说明会后另有约60分钟测试与问卷及休息，最终结束时间未公布；不能按14点已空闲安排。"
+      "scheduleNotice": "说明会后另有约60分钟测试与问卷及休息，最终结束时间未公布；不能按14点已空闲安排。",
+      "registrationSessions": [
+        {
+          "id": "opp-ad61947242::2026-11-19T13:00",
+          "eventStart": "2026-11-19T13:00",
+          "eventEnd": "2026-11-19T14:00",
+          "reservationRequired": true,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "已预约／以既有回执为据",
+          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+        }
+      ]
     },
     {
       "id": "opp-1c4d34fa39",
@@ -1091,7 +1325,26 @@
         "intent": "听完后准备本选考"
       },
       "availabilityStatus": "按本人最新时间安排可参加",
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "opp-1c4d34fa39::2026-11-11T18:30",
+          "eventStart": "2026-11-11T18:30",
+          "eventEnd": "2026-11-11T19:30",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": "2026-11-11T15:00",
+          "deadlineLabel": "报名截止",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "报名已提交待指引",
+          "nextAction": "11/10查看公司发送的参加链接；无需重复申请；11/12 09:00提醒确认是否听完，再整理本选考要求与材料。"
+        }
+      ]
     },
     {
       "id": "opp-80ccdd1cc4",
@@ -1125,7 +1378,26 @@
           "endDate": "2026-11-19T17:45"
         }
       ],
-      "workCompatibility": "requires_confirmation"
+      "workCompatibility": "requires_confirmation",
+      "registrationSessions": [
+        {
+          "id": "opp-80ccdd1cc4::2026-11-19T16:00",
+          "eventStart": "2026-11-19T16:00",
+          "eventEnd": "2026-11-19T17:45",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": "2026-11-13T18:00",
+          "deadlineLabel": "报名截止",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "报名已提交待指引",
+          "nextAction": "作品集反馈需要互动，先与本人确认是否调开周四兼职；等待公司指引；如希望个别反馈，准备作品集和反馈问题。"
+        }
+      ]
     },
     {
       "id": "opp-1bcefcc2c8",
@@ -1134,10 +1406,10 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "平台报名已受理／场次待确认",
-      "statusDetail": "ReDesigner已受理设计部与公关部的线上图形设计说明会报名，个人职位页显示応募済み。企业另有Zoom场次登记，未核到个人场次或Zoom确认邮件。",
+      "statusDetail": "ReDesigner仍显示応募済み；11/7 Zoom登记页有11/17和11/19两场，但未核到本人Zoom回执或选定场。",
       "description": "汽车技术、产品及品牌传播；Zoom webinar；未公布费用；设计部＋公关部、图形/编辑/Web/UI与实习介绍；正文指示当天打开Zoom注册页",
-      "nextAction": "核对Zoom登记；两场为11月17日或19日18:00–19:00。11月19日优先保留已预约Goodpatch说明会。",
-      "checkedAt": "2026-11-04",
+      "nextAction": "需从企业Zoom页选择且只选一场。11/17与Sony候选冲突；11/19与必听Goodpatch冲突，先决定取舍。本轮未登记、未处理验证码。",
+      "checkedAt": "2026-11-07",
       "sources": [
         {
           "label": "原始来源",
@@ -1147,7 +1419,7 @@
           "label": "11/4 ReDesigner报名回执及该图形设计说明会职位页的本人状态"
         }
       ],
-      "notes": "原先11月19日Zoom登记停在验证码。平台已受理，未据此推定Zoom场次。11月2日武藏美校内场是独立活动，报名状态另计。",
+      "notes": "原先11月19日Zoom登记停在验证码。平台已受理，未据此推定Zoom场次。11月2日武藏美校内场是独立活动，报名状态另计。 11/7实际读取：企业正文称当日从Zoom入口进入；Zoom当前已有两场选择与登记表，含验证码。RD 11/19 19:00是总标签且为第二场结束时刻，不作第一场或独立预约截止。",
       "milestones": [
         {
           "type": "event",
@@ -1160,6 +1432,48 @@
           "date": "2026-11-19T18:00",
           "endDate": "2026-11-19T19:00",
           "label": "可选线上场，与Goodpatch重叠，Zoom场次待确认"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "opp-1bcefcc2c8::2026-11-17T18:00",
+          "eventStart": "2026-11-17T18:00",
+          "eventEnd": "2026-11-17T19:00",
+          "reservationRequired": true,
+          "registrationMethod": "独立Zoom注册，选择一场；企业正文说明当日进入",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "两场均列在Zoom选择器；需填写资料及验证码，未核个人预约",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "企业指定公开Zoom登记页",
+            "url": "https://denso.zoom.us/webinar/register/WN_V7YC37M1QPORHdqNghwIFw#/registration"
+          },
+          "bookingStage": "ReDesigner已受理／Zoom场次未确认",
+          "nextAction": "先解决与Sony或Goodpatch的冲突，再登记且核邮件；不重复平台応募。"
+        },
+        {
+          "id": "opp-1bcefcc2c8::2026-11-19T18:00",
+          "eventStart": "2026-11-19T18:00",
+          "eventEnd": "2026-11-19T19:00",
+          "reservationRequired": true,
+          "registrationMethod": "独立Zoom注册，选择一场；企业正文说明当日进入",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "两场均列在Zoom选择器；需填写资料及验证码，未核个人预约",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "企业指定公开Zoom登记页",
+            "url": "https://denso.zoom.us/webinar/register/WN_V7YC37M1QPORHdqNghwIFw#/registration"
+          },
+          "bookingStage": "ReDesigner已受理／Zoom场次未确认",
+          "nextAction": "先解决与Sony或Goodpatch的冲突，再登记且核邮件；不重复平台応募。"
         }
       ]
     },
@@ -1209,7 +1523,26 @@
         "intent": "听完说明会后准备和决定本选考"
       },
       "availabilityStatus": "按本人最新时间安排可参加",
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "opp-0efa90e468::2026-11-09T17:00",
+          "eventStart": "2026-11-09T17:00",
+          "eventEnd": "2026-11-09T18:30",
+          "reservationRequired": true,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "已预约／以既有回执为据",
+          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+        }
+      ]
     },
     {
       "id": "opp-a1702d3007",
@@ -1241,6 +1574,25 @@
           "label": "实际举办",
           "endDate": "2026-12-09T18:00"
         }
+      ],
+      "registrationSessions": [
+        {
+          "id": "opp-a1702d3007::2026-12-09T16:00",
+          "eventStart": "2026-12-09T16:00",
+          "eventEnd": "2026-12-09T18:00",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": "2026-11-25T23:59",
+          "deadlineLabel": "报名截止",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "Mercari Camp入选则冲突；11/20实习也已有反馈价值。"
+        }
       ]
     },
     {
@@ -1249,10 +1601,10 @@
       "title": "3DCG幕后＋内定者作品集解说",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "候选／计划申请",
-      "statusDetail": "未确认预约",
+      "status": "已结束／出席未核",
+      "statusDetail": "场次日期已过去；既有记录未确认本人预约或出席。不推定已参加、已取消或放弃。",
       "description": "Pokémon等游戏开发；Zoom webinar；未公布费用；面向游戏创作者；独立预约后收到观看链接",
-      "nextAction": "3D方向拓展；与Sony11/5冲突，按UIUX优先可选Sony。",
+      "nextAction": "本场停止报名提醒；仅在出现新的独立场次时重新核查。",
       "checkedAt": "2026-10-30",
       "sources": [
         {
@@ -1269,7 +1621,10 @@
           "endDate": "2026-11-05T20:00"
         }
       ],
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "historicalNextAction": "3D方向拓展；与Sony11/5冲突，按UIUX优先可选Sony。",
+      "lifecycleUpdatedAt": "2026-11-07T02:43:16+09:00",
+      "remindersEnabled": false
     },
     {
       "id": "opp-0165f6d3d4",
@@ -1321,7 +1676,94 @@
           "label": "每日线上介绍；最多至20:30"
         }
       ],
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "opp-0165f6d3d4::2026-11-09T18:30",
+          "eventStart": "2026-11-09T18:30",
+          "eventEnd": "2026-11-09T20:30",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。"
+        },
+        {
+          "id": "opp-0165f6d3d4::2026-11-11T18:30",
+          "eventStart": "2026-11-11T18:30",
+          "eventEnd": "2026-11-11T20:30",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。"
+        },
+        {
+          "id": "opp-0165f6d3d4::2026-11-12T18:30",
+          "eventStart": "2026-11-12T18:30",
+          "eventEnd": "2026-11-12T20:30",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。"
+        },
+        {
+          "id": "opp-0165f6d3d4::2026-11-26T18:30",
+          "eventStart": "2026-11-26T18:30",
+          "eventEnd": "2026-11-26T20:30",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。"
+        },
+        {
+          "id": "opp-0165f6d3d4::2026-11-27T18:30",
+          "eventStart": "2026-11-27T18:30",
+          "eventEnd": "2026-11-27T20:30",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。"
+        }
+      ]
     },
     {
       "id": "opp-e99bcc3d35",
@@ -1354,6 +1796,42 @@
           "label": "实际举办",
           "endDate": "2026-11-29T17:30"
         }
+      ],
+      "registrationSessions": [
+        {
+          "id": "opp-e99bcc3d35::2026-11-28T12:30",
+          "eventStart": "2026-11-28T12:30",
+          "eventEnd": "2026-11-28T17:30",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "11/28设计日优先。现场总官网时间优先于早期企业私信13–18旧时段。"
+        },
+        {
+          "id": "opp-e99bcc3d35::2026-11-29T12:30",
+          "eventStart": "2026-11-29T12:30",
+          "eventEnd": "2026-11-29T17:30",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "11/28设计日优先。现场总官网时间优先于早期企业私信13–18旧时段。"
+        }
       ]
     },
     {
@@ -1381,6 +1859,25 @@
           "label": "实际举办",
           "endDate": "2026-11-20T20:00"
         }
+      ],
+      "registrationSessions": [
+        {
+          "id": "opp-033995763b::2026-11-20T19:00",
+          "eventStart": "2026-11-20T19:00",
+          "eventEnd": "2026-11-20T20:00",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "ENSAPIA实习18:30结束后仅30分钟，考虑通勤与精力；可选而非必排。"
+        }
       ]
     },
     {
@@ -1389,10 +1886,10 @@
       "title": "校内作品集Lab咨询",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "候选／计划申请",
-      "statusDetail": "可现场参加",
+      "status": "已结束／出席未核",
+      "statusDetail": "场次日期已过去；既有记录未确认本人预约或出席。不推定已参加、已取消或放弃。",
       "description": "校内职业支持；9号馆1楼ゼロスペース；校内活动；每枠20分钟、一次最多2枠；11/5 16:20–19有たき、Bank of Innovation、MIXI",
-      "nextAction": "11/5中午CA与12:45排队冲突，可改11/6。",
+      "nextAction": "本场停止报名提醒；仅在出现新的独立场次时重新核查。",
       "checkedAt": "2026-10-30",
       "sources": [
         {
@@ -1414,7 +1911,10 @@
           "label": "12:45开始受付",
           "endDate": "2026-11-06T19:00"
         }
-      ]
+      ],
+      "historicalNextAction": "11/5中午CA与12:45排队冲突，可改11/6。",
+      "lifecycleUpdatedAt": "2026-11-07T02:43:16+09:00",
+      "remindersEnabled": false
     },
     {
       "id": "opp-2314fcc00f",
@@ -1425,8 +1925,8 @@
       "status": "候选／计划申请",
       "statusDetail": "未确认预约",
       "description": "校内联合企业活动；线上；校内活动；CONCENT/Goodpatch/Sun*/MIXI/Persol；邮件对象学部1–3年，M1资格尚待校内系统确认",
-      "nextAction": "有合适企业；先核M1可参加。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "11/13 16:00–18:30线上；学校门户需重新登录，M1资格、截止及余位仍待核。18:30与已预约ViViViT零缓冲。",
+      "checkedAt": "2026-11-07",
       "sources": [
         {
           "label": "原始来源",
@@ -1440,6 +1940,27 @@
           "date": "2026-11-13T16:00",
           "label": "实际举办",
           "endDate": "2026-11-13T18:30"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "opp-2314fcc00f::2026-11-13T16:00",
+          "eventStart": "2026-11-13T16:00",
+          "eventEnd": "2026-11-13T18:30",
+          "reservationRequired": true,
+          "registrationMethod": "校内ムサビ進路ナビ预约（对象／余位需登录核实）",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "login_required",
+          "availabilityLabel": "11/7实际入口要求重新登录；未读到截止或余位",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "学校官方预约门户；私人链接不公开"
+          },
+          "bookingStage": "未核到本人预约",
+          "nextAction": "需本人用11/6新设密码重新登录；截止和余位尚待核。"
         }
       ]
     },
@@ -1511,6 +2032,42 @@
           "date": "2027-01-16T10:30",
           "label": "Day2",
           "endDate": "2027-01-16T17:00"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "opp-a6ecf24894::2027-01-12T17:00",
+          "eventStart": "2027-01-12T17:00",
+          "eventEnd": "2027-01-12T20:50",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "提前保留机会，不是本周紧急。"
+        },
+        {
+          "id": "opp-a6ecf24894::2027-01-16T10:30",
+          "eventStart": "2027-01-16T10:30",
+          "eventEnd": "2027-01-16T17:00",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "提前保留机会，不是本周紧急。"
         }
       ]
     },
@@ -1591,6 +2148,42 @@
           "label": "实际举办",
           "endDate": "2026-11-26T19:00"
         }
+      ],
+      "registrationSessions": [
+        {
+          "id": "opp-0128a691cd::2026-11-12T17:00",
+          "eventStart": "2026-11-12T17:00",
+          "eventEnd": "2026-11-12T19:00",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "想练交流选11/26；11/12与LIFULL冲突。"
+        },
+        {
+          "id": "opp-0128a691cd::2026-11-26T17:00",
+          "eventStart": "2026-11-26T17:00",
+          "eventEnd": "2026-11-26T19:00",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "想练交流选11/26；11/12与LIFULL冲突。"
+        }
       ]
     },
     {
@@ -1631,7 +2224,26 @@
         ],
         "intent": "听完说明会后准备和决定本选考"
       },
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "opp-e2aa99cbc3::2026-11-17T15:00",
+          "eventStart": "2026-11-17T15:00",
+          "eventEnd": "2026-11-17T16:00",
+          "reservationRequired": true,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "已预约／以既有回执为据",
+          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+        }
+      ]
     },
     {
       "id": "opp-1c8cdb18e2",
@@ -1702,7 +2314,26 @@
         "attendanceStatus": "unknown",
         "selectionIds": [],
         "intent": "听完后准备本选考"
-      }
+      },
+      "registrationSessions": [
+        {
+          "id": "opp-c9579f86bd::2026-12-24T18:00",
+          "eventStart": "2026-12-24T18:00",
+          "eventEnd": "2026-12-24T19:00",
+          "reservationRequired": true,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "已预约／以既有回执为据",
+          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+        }
+      ]
     },
     {
       "id": "opp-b70896a890",
@@ -1964,10 +2595,10 @@
       "title": "28卒产品设计第6批",
       "category": "selection",
       "subtype": "本选考",
-      "status": "候选／计划申请",
-      "statusDetail": "尚未核到正式提交。",
+      "status": "本批已截止／新批待核",
+      "statusDetail": "既有第6批截止为10/31，本批不再当作开放候选。新批是否募集未核。",
       "description": "履历书、PF、约800字作文；第7批尚未公布。",
-      "nextAction": "若材料不足可等待，但下一批未保证。",
+      "nextAction": "核实新批次后单独建档，不沿用第6批截止与申请窗口。",
       "checkedAt": "2026-10-31",
       "sources": [
         {
@@ -1987,7 +2618,8 @@
           "date": "2026-10-31",
           "label": "第6批截止（钟点未公布）"
         }
-      ]
+      ],
+      "lifecycleUpdatedAt": "2026-11-07T02:43:16+09:00"
     },
     {
       "id": "selection-goodpatch-term2",
@@ -2452,10 +3084,10 @@
       "title": "设计部平面设计工作校内说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "候选／计划申请",
-      "statusDetail": "11/2校内通知确认今天举办；未核到本人预约。",
+      "status": "已结束／出席未核",
+      "statusDetail": "场次日期已过去；既有记录未确认本人预约或出席。不推定已参加、已取消或放弃。",
       "description": "DENSO设计部平面设计师介绍从企划到制作的过程，涵盖视觉识别、编辑、Web、影像及空间传播；武藏野美术大学9号馆211教室。",
-      "nextAction": "如考虑参加今天17:00场次，查看11/2校内通知并从武藏美进路导航确认报名；本轮未代为报名。",
+      "nextAction": "本场停止报名提醒；仅在出现新的独立场次时重新核查。",
       "checkedAt": "2026-11-02",
       "sources": [
         {
@@ -2474,7 +3106,10 @@
           "endDate": "2026-11-02T18:30",
           "label": "候选校内说明会（未预约）"
         }
-      ]
+      ],
+      "historicalNextAction": "如考虑参加今天17:00场次，查看11/2校内通知并从武藏美进路导航确认报名；本轮未代为报名。",
+      "lifecycleUpdatedAt": "2026-11-07T02:43:16+09:00",
+      "remindersEnabled": false
     },
     {
       "id": "internship-epson-design-winter-2028",
@@ -2482,11 +3117,11 @@
       "title": "28卒 冬季UI/UX设计职场实习（5天）",
       "category": "internship",
       "subtype": "短期实习与工作坊",
-      "status": "候选／计划申请",
-      "statusDetail": "2026-11-02本人明确决定报名：待正式提交。两个实习日期窗口仍为候选，尚未选定场次。",
+      "status": "有意申请／提交路线待核",
+      "statusDetail": "已填No.68问卷但未提交，测试未开始。11/6企业通知要求设计希望者不申请通用课程、等待设计另行案内；与官网及No.68问卷存在适用冲突。",
       "description": "线下与设计师共同参与实际工作，课题示例为打印机本体及应用程序UI/UX；每人有前辈指导与反馈。资格：28卒且接受过设计相关教育。",
-      "nextAction": "本人已决定报名；11/3官网冬季日期与截止未变，主题链接仍指夏季；28卒MyPage停在登录页，冬季课题、事业所与材料要求待登录后核实。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "先核设计专用提交路线；保留现有草稿与1/18–22偏好，不提交通用问卷、不开始通用测试。官网11/18上午仅作待核参考，不能视为本人最终路线已确认。",
+      "checkedAt": "2026-11-07",
       "sources": [
         {
           "label": "官方28卒冬季设计实习要项",
@@ -2498,38 +3133,58 @@
         },
         {
           "label": "2026-11-02本人确认报名意向：想报名此5天UI/UX实习（尚未提交）"
-        }
-      ],
-      "notes": "2026/10/26开放；2027/1/18–1/22或1/25–1/29，各5天，日内时间未公布。无报酬；交通与住宿按公司标准补助。主页面所链主题表仍是2026夏季，不套用旧课程编号、地点或旧作品集格式。",
-      "milestones": [
-        {
-          "type": "open",
-          "date": "2026-10-26",
-          "label": "报名开放"
         },
         {
-          "type": "deadline",
+          "label": "11/7核对11/6企业通知、本人学科登记及说明会日期页；私人正文与链接不公开"
+        }
+      ],
+      "notes": "官网仍列10/26开放、11/18上午期限与1/18–22或1/25–29五天UI/UX实习，但11/6新通知要求设计课程另行案内，本人登记已核为设计系。11/9 17:00–18:30理系攻略说明会已显示受付終了，准确关闭时点未知。11/4曾发现活动但未核余位、漏明确提醒；不能断言当时一定可约。另有1Day工作坊筹备预告：日期、资格、是否设计向及预约窗口均未公布，不是已关闭。",
+      "milestones": [
+        {
+          "type": "reference",
+          "date": "2026-10-26",
+          "label": "官网开放日期参考／本人路线待核",
+          "requiresVerification": true
+        },
+        {
+          "type": "reference",
           "date": "2026-11-18",
-          "label": "上午截止（具体钟点未公布）"
+          "label": "官网上午期限参考／本人路线待核，非已确认提交期限",
+          "requiresVerification": true
         },
         {
           "type": "event",
           "date": "2027-01-18",
           "endDate": "2027-01-22",
-          "label": "候选第1期（5天，未确认参加）"
-        },
-        {
-          "type": "event",
-          "date": "2027-01-25",
-          "endDate": "2027-01-29",
-          "label": "候选第2期（5天，未确认参加）"
+          "label": "本人偏好第1期，未提交／未确认参加"
         }
       ],
       "applicationIntent": {
         "decision": "apply",
         "confirmedOn": "2026-11-02",
         "evidenceType": "user_confirmation"
-      }
+      },
+      "registrationSessions": [
+        {
+          "id": "internship-epson-design-winter-2028::2026-11-09T17:00",
+          "eventStart": "2026-11-09T17:00",
+          "eventEnd": "2026-11-09T18:30",
+          "reservationRequired": true,
+          "registrationMethod": "Epson MyPage「職場受入コース攻略セミナー〈理系対象〉」",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "closed",
+          "availabilityLabel": "受付終了；当前没有可预约日程，准确关闭时间未知",
+          "availabilityCheckedAt": "2026-11-07",
+          "availabilitySource": {
+            "label": "本人MyPage日期页已核；私人链接不公开"
+          },
+          "bookingStage": "未预约／窗口已关闭",
+          "nextAction": "停止此场报名提醒；追踪设计专用通知及筹备中的1Day。"
+        }
+      ]
     },
     {
       "id": "internship-notes-design-student",
@@ -2645,7 +3300,26 @@
         ],
         "intent": "听完后准备本选考"
       },
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "opp-0165f6d3d4-booked-20261110::2026-11-10T18:30",
+          "eventStart": "2026-11-10T18:30",
+          "eventEnd": "2026-11-10T20:30",
+          "reservationRequired": true,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "已预约／以既有回执为据",
+          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+        }
+      ]
     },
     {
       "id": "opp-0165f6d3d4-booked-20261113",
@@ -2687,7 +3361,26 @@
         ],
         "intent": "听完后准备本选考"
       },
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "opp-0165f6d3d4-booked-20261113::2026-11-13T18:30",
+          "eventStart": "2026-11-13T18:30",
+          "eventEnd": "2026-11-13T20:30",
+          "reservationRequired": true,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "已预约／以既有回执为据",
+          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+        }
+      ]
     },
     {
       "id": "activity-goodpatch-uiux-20261119",
@@ -2727,7 +3420,26 @@
         ],
         "intent": "听完后准备本选考"
       },
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "activity-goodpatch-uiux-20261119::2026-11-19T18:00",
+          "eventStart": "2026-11-19T18:00",
+          "eventEnd": "2026-11-19T19:00",
+          "reservationRequired": true,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "已预约／以既有回执为据",
+          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+        }
+      ]
     },
     {
       "id": "activity-hakuhodo-designer-202612",
@@ -2771,7 +3483,26 @@
         "selectionIds": [],
         "intent": "听完说明会后准备和决定本选考"
       },
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "activity-hakuhodo-designer-202612::2026-12-01T18:00",
+          "eventStart": "2026-12-01T18:00",
+          "eventEnd": "2026-12-01T19:45",
+          "reservationRequired": true,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": "2026-11-24T12:00",
+          "deadlineLabel": "原预约截止／预约已完成",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "已预约／以既有回执为据",
+          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+        }
+      ]
     },
     {
       "id": "activity-visional-product-20261111",
@@ -2812,7 +3543,26 @@
       "availabilityDecision": "keep",
       "bookingConfirmed": true,
       "attendanceMode": "online",
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "activity-visional-product-20261111::2026-11-11T11:00",
+          "eventStart": "2026-11-11T11:00",
+          "eventEnd": "2026-11-11T11:45",
+          "reservationRequired": true,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "已预约／以既有回执为据",
+          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+        }
+      ]
     },
     {
       "id": "activity-panasonic-musabi-20261110",
@@ -2823,8 +3573,8 @@
       "status": "候选／计划申请",
       "statusDetail": "11/2校内正式通知，11/3读取；需要通过校内进路导航预约，未核到本人预约。",
       "description": "介绍产品、UI/UX与照明规划设计及春季实习内容、课程、申请方式；武藏野美术大学14号馆404教室。提供作品集建议，优先学部3年／修士1年但不限制其他学年；留学生录用方针未定。",
-      "nextAction": "从校内进路导航预约。17:00–18:30，结束时正好衔接已预约18:30 ViViViT线上专场，需预留连接设备与安静场地。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "11/10 17:00–18:30为线下，需本人确认到场及18:30下一场的连接环境。学校门户已退出登录，预约截止／余位未核，不能视为仍可约。",
+      "checkedAt": "2026-11-07",
       "sources": [
         {
           "label": "11/2校内职业中心正式通知；私人正文及报名链接不公开"
@@ -2841,6 +3591,27 @@
           "date": "2026-11-10T17:00",
           "endDate": "2026-11-10T18:30",
           "label": "校内设计说明会（未预约）"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "activity-panasonic-musabi-20261110::2026-11-10T17:00",
+          "eventStart": "2026-11-10T17:00",
+          "eventEnd": "2026-11-10T18:30",
+          "reservationRequired": true,
+          "registrationMethod": "校内ムサビ進路ナビ预约（对象／余位需登录核实）",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "login_required",
+          "availabilityLabel": "11/7实际入口要求重新登录；未读到截止或余位",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "学校官方预约门户；私人链接不公开"
+          },
+          "bookingStage": "未核到本人预约",
+          "nextAction": "需本人用11/6新设密码重新登录；截止和余位尚待核。"
         }
       ]
     },
@@ -2907,7 +3678,26 @@
           "label": "候选：线上说明会（与Persol重叠）"
         }
       ],
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "activity-fujifilm-bi-design-20261119::2026-11-19T17:00",
+          "eventStart": "2026-11-19T17:00",
+          "eventEnd": "2026-11-19T18:00",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "11/19 17–18点与Persol作品集反馈会候选安排16–17:45重叠45分钟，18点又衔接必听Goodpatch；需本人取舍，未改约。"
+        }
+      ]
     },
     {
       "id": "selection-layerx-product-design-2028",
@@ -3113,6 +3903,42 @@
           "endDate": "2026-12-17T12:00",
           "label": "线上说明会候选B（含设计岗位）"
         }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-freestyle-design-2028-dec::2026-12-16T18:00",
+          "eventStart": "2026-12-16T18:00",
+          "eventEnd": "2026-12-16T20:00",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "两场为候选选项；选一场后再预约。各场预约截止为当天09:00。"
+        },
+        {
+          "id": "briefing-freestyle-design-2028-dec::2026-12-17T10:00",
+          "eventStart": "2026-12-17T10:00",
+          "eventEnd": "2026-12-17T12:00",
+          "reservationRequired": null,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "候选／计划申请",
+          "nextAction": "两场为候选选项；选一场后再预约。各场预约截止为当天09:00。"
+        }
       ]
     },
     {
@@ -3156,7 +3982,26 @@
       "availabilityStatus": "本人保留；与其他固定安排重叠待协调",
       "availabilityDecision": "keep",
       "bookingConfirmed": true,
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "activity-dentsudigital-expo-20261111::2026-11-11T14:30",
+          "eventStart": "2026-11-11T14:30",
+          "eventEnd": "2026-11-11T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "待核对",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "unverified",
+          "availabilityLabel": "尚未核到实际余位",
+          "availabilityCheckedAt": null,
+          "availabilitySource": null,
+          "bookingStage": "已预约／以既有回执为据",
+          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+        }
+      ]
     },
     {
       "id": "opp-c5b83dedd8",
@@ -4353,9 +5198,52 @@
           "endDate": "2026-11-26T20:00"
         }
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "status": "公开招聘／活动信息",
-      "statusDetail": "核到公开招聘或活动要项。"
+      "statusDetail": "11/7两场Teams登记表均可打开，未显示截止或满员；本人均未提交。",
+      "registrationSessions": [
+        {
+          "id": "gk-kyoto-design-briefing-nov28::2026-11-17T17:00",
+          "eventStart": "2026-11-17T17:00",
+          "eventEnd": "2026-11-17T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "对应场次Microsoft Teams Webinar表单",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "空白登记表可打开；无公开余位数，未显示满员",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "本场官方Teams登记表",
+            "url": "https://events.teams.microsoft.com/event/3491cd59-33d1-44a7-a0ae-a36494b17a92@b31849ed-a285-4e06-a2dd-fb034931a4da"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "两场同内容，只需选一场；提交登记后再核回执。"
+        },
+        {
+          "id": "gk-kyoto-design-briefing-nov28::2026-11-26T19:00",
+          "eventStart": "2026-11-26T19:00",
+          "eventEnd": "2026-11-26T20:00",
+          "reservationRequired": true,
+          "registrationMethod": "对应场次Microsoft Teams Webinar表单",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "空白登记表可打开；无公开余位数，未显示满员",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "本场官方Teams登记表",
+            "url": "https://events.teams.microsoft.com/event/9ba80168-3a2b-4cf4-9aa2-f4cb58d34bc4@b31849ed-a285-4e06-a2dd-fb034931a4da"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "两场同内容，只需选一场；提交登记后再核回执。"
+        }
+      ],
+      "nextAction": "两场内容相同，择一即可；11/17 17–18与Sony候选18点零缓冲，11/26 19点与Leverages候选结束同刻。先确认选择，再通过该场Teams登记。"
     },
     {
       "id": "toyota-design-internship-spring-2027",
@@ -4448,9 +5336,31 @@
         }
       ],
       "milestones": [],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "status": "公开招聘／活动信息",
-      "statusDetail": "核到公开招聘或活动要项。"
+      "statusDetail": "核到公开招聘或活动要项。",
+      "registrationSessions": [
+        {
+          "id": "mcd3-uiux-designer-2028::undated",
+          "eventStart": null,
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "企业流程：Entry→说明会→作品集选考；具体场次未公开",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "firstComeFirstServed": null,
+          "availabilityState": "entry_required_or_unknown",
+          "availabilityLabel": "当前UI/UX岗位页未展示说明会时段；未执行応募，不能据按钮推定余位",
+          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilitySource": {
+            "label": "当届官方UI/UX岗位",
+            "url": "https://mcd3-recruit.snar.jp/jobboard/detail.aspx?id=iEzyj3eZH3k"
+          },
+          "bookingStage": "有意报名／尚未Entry",
+          "nextAction": "先核仅登记说明会的路径与场次，不用事业开发活动代替设计说明会。"
+        }
+      ]
     },
     {
       "id": "teamlab-engineering-student-uiux-assistant",
@@ -4562,5 +5472,7 @@
         "label": "全天兼职 · 线上说明会可兼顾"
       }
     }
-  ]
+  ],
+  "lastPartialVerificationAt": "2026-11-07T02:43:16+09:00",
+  "lastPartialVerificationScope": "预约窗口与Epson提交路线补核；不代表全量机会重新检索"
 }
