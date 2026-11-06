@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-06",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -585,29 +585,29 @@
       "company": "ほぼ日",
       "title": "旅のなかまに 招聘实习",
       "category": "internship",
-      "subtype": "即将开放",
+      "subtype": "超过一周及长期实习",
       "status": "候选／计划申请",
-      "statusDetail": "尚未开放",
+      "statusDetail": "公司已正式开放报名。",
       "description": "含网站／应用UI、包装、活动视觉和空间等设计方向；东京；部分工作可能远程；1,400日元/小时；书类→约2次面试→实习。大学／大学院等在学生，或2028/4/1时毕业未满3年者；实习期间不能在其他公司工作。",
-      "nextAction": "11/5 11:00开放后查看申请内容；11月上旬留意说明会公告。先核对每周出勤及不得兼任其他公司工作的条件。",
-      "checkedAt": "2026-11-01",
+      "nextAction": "按12/7 11:00前准备。首轮具体题目和作品集要求仅在申请人条款后可查。核对实习期间不得同时在其他公司工作的适用条件。",
+      "checkedAt": "2026-11-06",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://www.1101.com/intern/tabinonakama_2026/index.html"
         }
       ],
-      "notes": "11/1官网核对：报名2026-11-05 11:00至2026-12-09 11:00；原日历误记11/25，已依当前官方更正，不能据此断言企业曾改期。约2个月；流程写2027年2–3月、概要写1–3月，差异待确认；约每周3天、每天5小时。说明会仍预告11月上旬公布，具体日程未公布。",
+      "notes": "11/5公司宣布正式开放。募集要项和选考流程均列12/7 11:00；致辞仍写12/9，方法段残留11/25。日历采用要项和流程一致的12/7。11/24 14:00与12/2 18:00有可选线上问答，场次须以公司回执为准。",
       "milestones": [
         {
           "type": "open",
           "date": "2026-11-05T11:00",
-          "label": "报名开放"
+          "label": "正式开始受理"
         },
         {
           "type": "deadline",
-          "date": "2026-12-09T11:00",
-          "label": "报名截止"
+          "date": "2026-12-07T11:00",
+          "label": "官网募集要项与流程所列截止"
         }
       ]
     },
@@ -4279,9 +4279,200 @@
       ],
       "notes": "时间表可能调整；个人提交完成、值班和讲评时间另核。",
       "attendanceIntent": "undecided"
+    },
+    {
+      "id": "sony-creative-spring-2027-uiux",
+      "company": "Sony",
+      "title": "Creative Center 春季工作坊 · UI/UX／传播设计",
+      "category": "internship",
+      "subtype": "设计工作坊（6个工作日）",
+      "description": "东京品川线下进行UX场景构想、制作和发表。到2027年3月底，具备至少三年大学层级教育经历，含研究生。",
+      "notes": "作品集PDF小于30MB，开头1–2页自我介绍，选3–5件作品。标明团队分工及生成AI使用处。公司按规定补助交通并安排住宿，报酬待核。",
+      "sources": [
+        {
+          "label": "春季设计工作坊与作品集要求",
+          "url": "https://www.sony.com/ja/SonyInfo/design/career/recruiting_newgrads/"
+        },
+        {
+          "label": "本期报名条款",
+          "url": "https://www.sony.com/ja/SonyInfo/design/career/studentworkshop/terms.html"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-05",
+          "label": "公司开始受理"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-30T17:00",
+          "label": "先完成报名"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-02T17:00",
+          "label": "作品集必达"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-28",
+          "label": "东京品川 · 6个工作日，周末除外",
+          "endDate": "2027-02-04"
+        }
+      ],
+      "checkedAt": "2026-11-06",
+      "status": "公开招聘／活动信息",
+      "statusDetail": "核到公开招聘或活动要项。"
+    },
+    {
+      "id": "gk-kyoto-design-briefing-nov28",
+      "company": "GK京都",
+      "title": "28卒设计公司线上说明会（两场同内容）",
+      "category": "activity",
+      "subtype": "讲座说明会与作品集反馈",
+      "description": "Microsoft Teams；28卒，介绍设计业务、2027年2月学生研修和本选考安排。两场任选一场。",
+      "notes": "公司公开了两场独立注册入口，未列统一截止。2月研修的独立募集条件待公布。",
+      "sources": [
+        {
+          "label": "企业公告与两场注册入口",
+          "url": "https://www.gk-kyoto.com/topics/3668"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-17T17:00",
+          "label": "线上候选A",
+          "endDate": "2026-11-17T18:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-26T19:00",
+          "label": "线上候选B",
+          "endDate": "2026-11-26T20:00"
+        }
+      ],
+      "checkedAt": "2026-11-06",
+      "status": "公开招聘／活动信息",
+      "statusDetail": "核到公开招聘或活动要项。"
+    },
+    {
+      "id": "toyota-design-internship-spring-2027",
+      "company": "Toyota",
+      "title": "春季汽车设计实习 · 产品／CMF／UX",
+      "category": "internship",
+      "subtype": "超过一周及长期实习",
+      "description": "爱知县丰田市本社线下，2月1–12日中10个工作日，1月31日先入住。28卒设计相关学生、能用日语参与，跨专业项目。",
+      "notes": "12月1日预定开放；未公布开放钟点。报名问卷加PDF作品集，小于300MB。未公布实习报酬。专属UI组别、配属并无保证。",
+      "sources": [
+        {
+          "label": "丰田设计实习当期公告",
+          "url": "https://recruit.toyota/saiyo/event/design_internship/"
+        },
+        {
+          "label": "公司指定ATS",
+          "url": "https://toyota-saiyo.snar.jp/jobboard/detail.aspx?id=d-KXO38si2hMwEmZ9PSwkg"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-12-01",
+          "label": "预定开放（钟点未公布）"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-14T13:00",
+          "label": "报名及材料截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-31",
+          "label": "如参加，须于当天入住"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-01",
+          "label": "本社实习10个工作日",
+          "endDate": "2027-02-12"
+        }
+      ],
+      "checkedAt": "2026-11-06",
+      "status": "公开招聘／活动信息",
+      "statusDetail": "公司预告／尚未开始受理。"
+    },
+    {
+      "id": "d-zero-student-web-fukuoka",
+      "company": "ディーゼロ",
+      "title": "Web 设计学生兼职 · 福冈",
+      "category": "internship",
+      "subtype": "长期学生兼职",
+      "description": "Creative Design 部，Web设计与制作。大学、专门学校或自学设计者可，需基础设计工具能力。福冈本社工作，工时面议。",
+      "notes": "时薪1,100日元起，交通依规定补贴；没有公开截止。东京不招此岗。公司另有可按希望日期协调的线上业务说明。",
+      "sources": [
+        {
+          "label": "公司学生设计岗位",
+          "url": "https://recruit.d-zero.co.jp/requirements/student"
+        },
+        {
+          "label": "公司线上或现场咨询",
+          "url": "https://recruit.d-zero.co.jp/company_visit/"
+        }
+      ],
+      "milestones": [],
+      "checkedAt": "2026-11-06",
+      "status": "公开招聘／活动信息",
+      "statusDetail": "核到公开招聘或活动要项。"
+    },
+    {
+      "id": "mcd3-uiux-designer-2028",
+      "company": "MCD3",
+      "title": "28卒 UI/UX 设计师本选考",
+      "category": "selection",
+      "subtype": "本选考",
+      "description": "エムシーディースリー株式会社（三菱商事集团）。设计数字产品的用户研究、旅程、线框和设计系统，含品牌相关工作。2028届大学及大学院生可。",
+      "notes": "公司ATS仍列该岗位并开放申请，未公布统一截止。准备履历书与作品集，企业刊登的流程还含面试、集体讨论和适性检查。",
+      "sources": [
+        {
+          "label": "当届UI/UX岗位",
+          "url": "https://mcd3-recruit.snar.jp/jobboard/detail.aspx?id=iEzyj3eZH3k"
+        },
+        {
+          "label": "公司岗位目录",
+          "url": "https://mcd3-recruit.snar.jp/index.aspx"
+        },
+        {
+          "label": "企业发布的28卒职种条件及流程",
+          "url": "https://www.onecareer.jp/companies/98036/recruitment_courses/1548"
+        }
+      ],
+      "milestones": [],
+      "checkedAt": "2026-11-06",
+      "status": "公开招聘／活动信息",
+      "statusDetail": "核到公开招聘或活动要项。"
+    },
+    {
+      "id": "teamlab-engineering-student-uiux-assistant",
+      "company": "teamLab Engineering",
+      "title": "UI/UX 设计助理 · 东京学生兼职",
+      "category": "internship",
+      "subtype": "长期学生兼职",
+      "description": "株式会社チームラボエンジニアリング雇用。东京神田小川町，做Web、手机界面与数字导视。18岁以上、有制作经验，每周至少两天。",
+      "notes": "时薪1,300日元起，通勤补助上限20,000日元。提交履历书、可查看的作品集URL，填写出勤时间及日语沟通情况；使用AI须注明。未列统一截止或总月数。",
+      "sources": [
+        {
+          "label": "UI/UX助理岗位及企业指定报名入口",
+          "url": "https://www.team-lab.com/recruit/arbeit/UIUXDesignAssistant/"
+        }
+      ],
+      "milestones": [],
+      "checkedAt": "2026-11-06",
+      "status": "公开招聘／活动信息",
+      "statusDetail": "核到公开招聘或活动要项。"
     }
   ],
-  "lastVerifiedAt": "2026-11-05T09:21:20+09:00",
+  "lastVerifiedAt": "2026-11-06T09:10:09+09:00",
   "weeklySchedule": [
     {
       "id": "weekly-school-monday",

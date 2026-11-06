@@ -1178,7 +1178,7 @@
           "bonus": "业绩薪每年1次。",
           "overtime": null,
           "benefits": "无核心时段弹性制，通勤另付；首年带薪假17天、2026年度年休126天。另有宿舍、企业年金、退职金及育儿支持。",
-          "intern": null,
+          "intern": "春季Creative Center设计工作坊为品川现场6天；交通按公司规定补助并安排住宿，海外国际机票除外。公开页未列报酬。",
           "sources": [
             {
               "label": "索尼集团本社待遇",
@@ -1946,6 +1946,118 @@
             {
               "label": "28卒联合选考参加公司",
               "url": "https://www.kurihaku.jp/direct/recruit/detail/81017/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toyota",
+      "aliases": [
+        "トヨタ自動車",
+        "丰田"
+      ],
+      "roles": [
+        {
+          "role": "产品／CMF／UX 设计",
+          "scope": "27卒公司技术综合职。修士为2026年实绩；28卒设计专属待遇待核。",
+          "monthly": "300,000日元",
+          "annual": "3,600,000日元（月薪×12，未含奖金）",
+          "bonus": "每年2次，7、12月。",
+          "overtime": "另付超时津贴；公司平均加班20小时/月。",
+          "benefits": "2026年度年休121天。通勤、家属津贴、宿舍、社宅及购房补助，弹性制度依配属。",
+          "intern": "春季本社实习10个工作日，前一日入住；当期公开信息未列报酬。",
+          "sources": [
+            {
+              "label": "企业新卒待遇",
+              "url": "https://recruit.toyota/saiyo/info/"
+            },
+            {
+              "label": "春季设计实习",
+              "url": "https://recruit.toyota/saiyo/event/design_internship/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ディーゼロ",
+      "aliases": [
+        "D-ZERO",
+        "株式会社ディーゼロ"
+      ],
+      "roles": [
+        {
+          "role": "Web 设计师",
+          "scope": "27卒同企业新卒要项参考，28卒同岗金额待核。",
+          "monthly": "253,619日元（基本187,000＋远程津贴3,000＋固定加班63,619）",
+          "annual": "3,043,428日元（月薪×12，未含奖金）",
+          "bonus": "奖金及调薪各年1次，8月。",
+          "overtime": "含45小时固定加班，超过另付。",
+          "benefits": "平日轮班可选、社保。",
+          "intern": "福冈总部Web设计学生兼职，时薪1,100日元起，按经验技能决定，交通依规定另付、时间面议。",
+          "sources": [
+            {
+              "label": "27卒新卒待遇",
+              "url": "https://recruit.d-zero.co.jp/requirements/fresh"
+            },
+            {
+              "label": "学生岗位",
+              "url": "https://recruit.d-zero.co.jp/requirements/student"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MCD3",
+      "aliases": [
+        "エムシーディースリー",
+        "エムシーディースリー株式会社"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX 设计师",
+          "scope": "28卒该岗位。",
+          "monthly": "408,800日元",
+          "annual": "公司年收5,314,400日元",
+          "bonus": "每年1次，6月。",
+          "overtime": "企业ATS列加班津贴；企业在ONE CAREER记载含20小时固定加班、超出另付。月薪内的准确构成待核。",
+          "benefits": "通勤津贴、弹性核心时段10–15点，标准9–18点。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "官方职种与待遇",
+              "url": "https://mcd3-recruit.snar.jp/jobboard/detail.aspx?id=iEzyj3eZH3k"
+            },
+            {
+              "label": "企业刊登的薪资构成",
+              "url": "https://www.onecareer.jp/companies/98036/recruitment_courses/1548"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "teamLab Engineering",
+      "aliases": [
+        "チームラボエンジニアリング",
+        "株式会社チームラボエンジニアリング"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX 设计助理",
+          "scope": "东京学生兼职。雇用公司为teamLab Engineering，正社员同岗待遇未核。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "时薪1,300日元起，东京神田出勤，每周至少2天；通勤补助上限20,000日元。未列总月数。",
+          "sources": [
+            {
+              "label": "UI/UX设计助理正式招聘页",
+              "url": "https://www.team-lab.com/recruit/arbeit/UIUXDesignAssistant/"
             }
           ]
         }
