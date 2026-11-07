@@ -174,3 +174,40 @@
 @media(max-width:600px){.decision-card{padding:14px}.decision-fact{grid-template-columns:1fr;gap:4px}.decision-card-head{display:grid}.decision-current{max-width:none;width:fit-content;text-align:left}.decision-slot strong{font-size:16px}}
 
 .decision-list-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}.decision-list-tabs button{border:0;border-radius:9px;min-height:44px;background:#edf1f6;color:#4d627d;padding:9px 12px;font:inherit;font-size:12px;font-weight:800}.decision-list-tabs button[aria-pressed=true]{background:#284e80;color:#fff}.decision-history-row{display:grid;grid-template-columns:1fr auto;padding:13px 0}.decision-history-row .decision-history-project{grid-column:auto;background:transparent;padding:0;font-size:13px}.decision-history-row>button:last-child{min-height:44px;padding:9px 15px}
+
+/* Keep the decision surface quiet; help and past entries stay in disclosures. */
+#decisions-view .decision-view-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;margin-bottom:8px}
+.decision-view-heading h1{margin:0;flex:none;white-space:nowrap}
+#decisions-view .decision-view-heading .decision-heading-actions{width:auto;gap:8px;flex:none}
+.decision-view-heading #decision-status{font-size:12px;white-space:nowrap;flex:none}
+#decision-retry[hidden]{display:none}
+.decisions-panel{padding-top:8px}
+.decision-list-tabs{margin:8px 0}
+.decision-stage{font-size:11px;font-weight:650;color:#64748b;margin-left:auto;white-space:nowrap}
+.decision-card-meta{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+.decision-card-head h3{margin-top:8px}
+.decision-current{font-size:11px;background:transparent;padding:0;color:#64748b}
+.decision-reapply{background:transparent;color:#344e70;border-top:1px solid #e4e9ef;border-radius:0;padding:14px 0;margin:10px 0 0}
+.decision-reapply>b{font-size:12px;color:#64748b}
+.decision-reapply p{font-size:13px}
+.decision-session{background:#f5f7fa;padding:12px;margin-top:14px}
+.decision-facts{margin:10px 0}
+.decision-fact{grid-template-columns:42px 1fr;gap:10px;padding:4px 0}
+.decision-fact b{font-size:12px;color:#64748b}
+.decision-fact span{font-variant-numeric:tabular-nums}
+.decision-card-feedback:empty{display:none}
+.decision-project-schedule{background:transparent;padding:0}
+.decision-project-schedule>b{font-size:12px;color:#64748b}
+.decision-project-schedule li{border-left:3px solid #dae3ef;padding:6px 0 6px 12px}
+.decision-project-schedule li strong{font-variant-numeric:tabular-nums}
+.decision-workflow{margin-top:20px;color:#6b7a8e}
+.decision-workflow>summary{font-weight:600;font-size:12px}
+.decision-archive{margin-top:18px;border-top:1px solid #e3e8ef;color:#758397;font-size:12px}
+.decision-archive>summary{cursor:pointer;padding:16px 0;font-weight:600;min-height:44px}
+.decision-archive>summary span{margin-left:5px}
+.decision-past-sessions{font-size:12px;color:#758397;margin-top:12px}
+.decision-past-sessions>summary{cursor:pointer;padding:10px 0}
+.decision-past-dates{font-size:12px;color:#758397;border-top:1px solid #e3e8ef;padding-top:10px;margin-top:12px}
+.decision-deck-nav{margin:4px 0}
+.decision-deck-nav button{border:0;background:#f1f4f8;min-width:72px}
+@media(max-width:600px){.decision-view-heading{margin-bottom:12px}.decision-view-heading h1{font-size:28px}.decision-card-head{gap:4px}.decision-fact{grid-template-columns:42px 1fr}.decision-list-tabs{gap:5px}.decision-list-tabs button{padding-inline:10px}.decision-card-meta .decision-company{display:inline}.decision-stage{margin-left:0}}

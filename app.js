@@ -1,5 +1,5 @@
-import {expandWeeklySchedule, findScheduleConflicts} from './schedule.js?v=20261107-clarity';
-import {mountDecisions, appendDecisionDetail, shouldHideCandidateFromPlans} from './decisions.js?v=20261107-clarity';
+import {expandWeeklySchedule, findScheduleConflicts} from './schedule.js?v=20261107-minimal';
+import {mountDecisions, appendDecisionDetail, shouldHideCandidateFromPlans} from './decisions.js?v=20261107-minimal';
 const $ = s => document.querySelector(s);
 let addPayShortcut;
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

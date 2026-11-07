@@ -6,9 +6,9 @@
   <meta name="theme-color" content="#f2f4f8">
   <title>求职日历 · 2028</title>
   <link rel="stylesheet" href="./style.css?v=20261107a">
-  <link rel="stylesheet" href="./compensation.css?v=20261107-clarity">
-  <link rel="stylesheet" href="./decisions.css?v=20261107-clarity">
-  <link rel="stylesheet" href="./navigation.css?v=20261107-clarity">
+  <link rel="stylesheet" href="./compensation.css?v=20261107-minimal">
+  <link rel="stylesheet" href="./decisions.css?v=20261107-minimal">
+  <link rel="stylesheet" href="./navigation.css?v=20261107-minimal">
 </head>
 <body>
   <div class="app-shell">
@@ -44,14 +44,11 @@
         <div class="footnote"><span>◎</span><p>信息以各项目来源及个人 MyPage 为准。<br>点击项目可查看记录和下一步。</p></div>
       </section>
       <section id="decisions-view" class="app-view" data-app-panel="decisions" aria-labelledby="decisions-view-title" hidden inert>
-        <header class="view-heading"><p class="eyebrow">一个项目，一个决定</p><h1 id="decisions-view-title" tabindex="-1">决定</h1><p>先看要决定什么，再看场次与冲突。</p></header>
-        <section id="decisions" class="panel decisions-panel" aria-labelledby="decisions-title">
-        <div class="panel-heading"><div><h2 id="decisions-title">待你决定</h2><p class="panel-desc">只记录参与意向，不会自动报名或改动既有安排</p></div><div class="decision-heading-actions"><span id="decision-status" role="status" aria-live="polite">正在读取选择…</span><button id="decision-retry" type="button">重试</button><button id="decisions-toggle" hidden class="section-toggle" type="button" aria-expanded="false" aria-controls="decisions-content">展开待决定</button></div></div>
+        <header class="view-heading decision-view-heading"><h1 id="decisions-view-title" tabindex="-1">决定</h1><div class="decision-heading-actions"><span id="decision-status" role="status" aria-live="polite">读取中…</span><button id="decision-retry" type="button" hidden>重试</button></div></header>
+        <section id="decisions" class="panel decisions-panel" aria-labelledby="decisions-view-title">
         <div id="decisions-content" class="decisions-content" hidden>
-          <div id="decision-access"></div>
-          <p class="decision-gesture-help">左滑记为不参加，右滑先核对场次。也可点按钮或用键盘方向键。</p>
-          <details class="decision-workflow"><summary>选完以后，怎样继续办理？</summary><ol><li><b>你保存意向。</b>云端保存成功后，才可跨设备读取。</li><li><b>我核查。</b>本机任务在9:00–23:00每两小时的下一个可运行时点读取；电脑未运行时会延后。选完不会即时启动申请。</li><li><b>你确认具体操作。</b>我在本聊天给出场次、冲突、重投限制、邮件或表单内容。你可以先听会、等开放，或另定投递日期。</li><li><b>我办理并核回执。</b>收到明确确认后，才发送或提交。申请受理、待结果、录取和预约分别记录。</li></ol><p>网页目前显示意向及已有申请状态；核查进度和操作确认在本聊天中反馈。</p></details>
           <div id="decision-list" class="decision-list"></div>
+          <details class="decision-workflow"><summary>选完以后，怎样继续办理？</summary><ol><li><b>保存意向。</b>选择同步到账号。</li><li><b>我核查。</b>下次本机检查读取选择，核对报名内容和时间。也可以在聊天里让我立即处理。</li><li><b>你确认。</b>在聊天中确定具体操作和提交日期。</li><li><b>我办理。</b>提交后核对回执，更新申请状态。</li></ol><p>本机检查时段为9:00–23:00，每两小时一次，需要电脑可运行。</p><div id="decision-access"></div></details>
         </div>
       </section>
       </section>
@@ -122,7 +119,7 @@
     <p id="view-announcement" class="sr-only" role="status" aria-live="polite"></p>
   </div>
   <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button class="close-dialog" aria-label="关闭">×</button><div id="detail-content"></div></div></dialog>
-  <script type="module" src="./navigation.js?v=20261107-clarity"></script>
-  <script type="module" src="./app.js?v=20261107-clarity"></script>
+  <script type="module" src="./navigation.js?v=20261107-minimal"></script>
+  <script type="module" src="./app.js?v=20261107-minimal"></script>
 </body>
 </html>
