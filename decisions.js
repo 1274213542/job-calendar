@@ -1,12 +1,15 @@
-import { canDecide, decisionProtection, mayHideCandidate } from './decision-rules.js';
+import { canDecide, mayHideCandidate, sessionChoiceMode } from './decision-rules.js';
+import { decisionSessionContext } from './schedule.js?v=20261107-clarity';
+import { loadDecisionCompanyData, renderDecisionCompany, renderCompanyCompareLink } from './decision-company.js?v=20261107-clarity';
 
 const API = '/api/decisions';
 const MOBILE_URL = 'https://job-calendar-private.rachel7802.chatgpt.site/#decisions';
 const MOBILE_API = 'https://job-calendar-private.rachel7802.chatgpt.site/api/decisions';
-const SIGNIN_URL = 'https://job-calendar-private.rachel7802.chatgpt.site/signin-with-chatgpt?return_to=%2F%23decisions';
+const CLOUD_URL = new URL('/?sync=account#decisions', MOBILE_URL).href;
+const CLOUD_RETURN = encodeURIComponent('/?sync=account#decisions');
+const DEVICE_KEY = 'job-calendar-device-decisions-v1';
 let currentChoices = [];
-let currentCanEdit = false;
-let saveChoiceFn = null;
+let openChoiceCard = null;
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const tokyoToday = () => new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const day = s => String(s || '').slice(0,10);
@@ -18,33 +21,63 @@ const tokyoNowKey = () => {
 const fmt = s => {
   if (!s) return '日期待核';
   const d = day(s).split('-');
-  return `${Number(d[1])}/${Number(d[2])}${String(s).length > 10 ? ` ${String(s).slice(11,16)}` : ''}`;
+  return `${d[0]!==tokyoToday().slice(0,4)?`${d[0]}/`:''}${Number(d[1])}/${Number(d[2])}${String(s).length > 10 ? ` ${String(s).slice(11,16)}` : ''}`;
 };
 
-function dateSessions(op) {
-  const entries = (op.registrationSessions || []).map(s => ({
-    id: s.id || (s.eventStart ? `${op.id}::${s.eventStart}` : null),
-    start: s.eventStart || null, end: s.eventEnd || null,
-    deadline: s.deadline || null, label: s.bookingStage || s.registrationStatus || '', source:s
+export function dateSessions(op) {
+  const mode = sessionChoiceMode(op);
+  const events = (op.milestones || []).filter(m => m.type === 'event');
+  if (mode === 'project_schedule') return [{id:null,start:null,end:null,selectable:true,
+    projectEvents:events,label:op.sessionModel?.note || '同一项目的多个阶段，不能任选其中一天'}];
+  const entries = (op.registrationSessions || []).map(source => ({
+    id:source.id || (source.eventStart ? `${op.id}::${source.eventStart}` : null),
+    start:source.eventStart || null,end:source.eventEnd || null,deadline:source.deadline || null,
+    label:source.bookingStage || source.registrationStatus || '',source
   }));
-  if (!entries.length) for (const m of op.milestones || []) if (m.type === 'event') entries.push({
-    id: m.date ? `${op.id}::${m.date}` : null, start: m.date || null, end: m.endDate || null, deadline: null, label: m.label || '', source:m
+  if (!entries.length) for (const m of events) entries.push({id:m.date ? `${op.id}::${m.date}` : null,
+    start:m.date || null,end:m.endDate || null,deadline:null,label:m.label || '',source:m});
+  if (!entries.length) entries.push({id:null,start:null,end:null,deadline:null,label:'项目意向'});
+  const now=tokyoNowKey(),today=tokyoToday();
+  return entries.map(session => {
+    const source=session.source || {};
+    const state=String(source.availabilityState || source.availabilityStatus || source.registrationStatus || '').toLowerCase();
+    const closed=/closed|unavailable|ended|full|受付終了|満席|締切|開催終了/.test(state);
+    const waitlist=source.waitlistOpen===true || source.waitlist===true || /waitlist|キャンセル待ち|候补/.test(state);
+    const end=session.end || session.start;
+    const ended=end && (String(end).length>10 ? end.slice(0,16)<=now : day(end)<today);
+    const passed=session.deadline && (String(session.deadline).length>10 ? session.deadline.slice(0,16)<=now : day(session.deadline)<today);
+    const future=source.opensAt && (source.opensAt.length>10 ? source.opensAt.slice(0,16)>now : day(source.opensAt)>today);
+    const booked=source.availabilityState==='booked' || /^已预约|^已确认参加/.test(source.bookingStage || '');
+    const availability=ended ? '已结束' : passed || (closed&&!waitlist) ? '报名已关闭' : booked ? '已预约此场' : future ? '尚未开放 · 只可留意向'
+      : waitlist ? '仅候补登记' : /form_available/.test(state) ? '可选意向 · 余位待核' : /open|available/.test(state) ? '已查到受理 · 提交前再核余位' : '可选意向 · 受理情况待核';
+    return {...session,selectable:!(ended || passed || (closed&&!waitlist)),availability};
   });
-  if (!entries.length) entries.push({id:null,start:null,end:null,deadline:null,label:'尚无公布场次'});
-  const now=tokyoNowKey(), today=tokyoToday();
-  const selectable = entries.filter(s=>{
-    const source=s.source||{};
-    const state=String(source.availabilityState||source.availabilityStatus||source.registrationStatus||source.bookingStage||'').toLowerCase();
-    const closed=/closed|unavailable|ended|full|受付終了|満席|締切|開催終了|受付終了/.test(state);
-    const waitlist=source.waitlistOpen===true||source.waitlist===true||/waitlist|キャンセル待ち|候补/.test(state);
-    if(closed&&!waitlist)return false;
-    const end=s.end||s.start;
-    if(end && (String(end).length>10 ? end<=now : day(end)<today))return false;
-    if(s.deadline && (String(s.deadline).length>10 ? s.deadline<=now : day(s.deadline)<today))return false;
-    return true;
-  }).map(s=>({...s,selectable:true}));
-  return selectable.length ? selectable : entries.map(s=>({...s,selectable:false,label:`已关闭、已结束或截止；不可选${s.label?` · ${s.label}`:''}`}));
 }
+
+function sessionContext(op, selected, data) {
+  if (!selected?.projectEvents) return decisionSessionContext(op,selected,data);
+  const contexts=selected.projectEvents.map(m => decisionSessionContext(op,{start:m.date,end:m.endDate,source:m},data));
+  const formats=[...new Set(contexts.map(c=>c.format))];
+  const unique=new Map(contexts.flatMap(c=>c.conflicts).map(c=>[`${c.otherId}|${c.start}|${c.end}|${c.group}|${c.selfStart}`,c]));
+  return {format:formats.length===1?formats[0]:'各阶段形式见日程',conflicts:[...unique.values()],
+    notices:[...new Set(contexts.flatMap(c=>c.notices))]};
+}
+
+function reapplicationPanel(op) {
+  if (op.category!=='selection') return '';
+  const rule=op.reapplication;
+  return `<section class="decision-reapply"><b>落选后还能再投吗？</b><p>${esc(rule?.summary || '尚未核实；有下一轮招聘，不等于落选后可以再投。')}</p>
+    ${rule?.sources?.length ? `<details><summary>规则范围与官方依据</summary><p>${esc(rule.scope || '')}</p>${rule.sources.map(source=>`<a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${esc(source.label)}</a>`).join(' · ')}</details>` : ''}</section>`;
+}
+
+function decisionPrompt(op, openingNote) {
+  if (!canDecide(op,tokyoToday())) return '已有办理记录，先看当前状态；无需重复申请。';
+  if (op.category==='selection') return '现在只确认申请意向；先核重投限制，再决定投哪一轮。';
+  if (openingNote) return '现在只决定是否继续关注；正式开放后，再确认材料与申请。';
+  if (op.category==='internship') return '先决定是否准备申请；通过选考后，才确认实际参加。';
+  return '先选希望参加的场次；核对报名内容后，再确认是否提交。';
+}
+
 function opSortDate(op) {
   const dates=[...(op.registrationSessions||[]).flatMap(s=>[s.deadline,s.eventStart]),...(op.milestones||[]).filter(m=>['deadline','es_deadline','portfolio_deadline','test_deadline','confirmation_deadline','event'].includes(m.type)&&!m.completed).map(m=>m.type==='event'?(m.endDate||m.date):m.date)].filter(Boolean).map(String).sort();
   return dates[0] || '9999-99-99';
@@ -55,8 +88,66 @@ function exactDeadline(op) {
   const all = [...ds,...ms].sort();
   return all.length ? fmt(all[0]) : '未公布／未核实';
 }
-function displayWhen(s) { return s ? `${fmt(s.start)}${s.end ? `–${fmt(s.end)}` : ''}` : '场次待公布'; }
-function choiceLabel(choice) { return ({interested:'想参加',declined:'不参加',later:'再想想'}[choice]||'尚未选择'); }
+function displayWhen(s) {
+  if (!s?.start) return '场次待公布';
+  if (!s.end) return fmt(s.start) + (String(s.start).length > 10 ? '（结束时间待核）' : '');
+  const end = day(s.start) === day(s.end) && String(s.end).length > 10 ? String(s.end).slice(11,16) : fmt(s.end);
+  return `${fmt(s.start)}–${end}`;
+}
+export function opportunityType(op) {
+  const title = op.title || '';
+  const subtype = op.subtype || '';
+  const description = `${subtype} ${title}`;
+  const workshop = /工作坊|ワークショップ|workshop/i;
+  if (op.category === 'selection') {
+    if (/预登记|プレエントリー/.test(description)) return {label:'预登记',tone:'registration'};
+    if (/适(?:性|应性)测试|適性検査/.test(description)) return {label:'适性测试',tone:'selection'};
+    if (/实习选考面试|インターン.*面接/.test(description)) return {label:'实习面试',tone:'internship'};
+    if (/早期选考|早期選考/.test(description)) return {label:'早期选考',tone:'selection'};
+    if (/作品集联合选考/.test(description)) return {label:'作品集选考',tone:'selection'};
+    if (/本选考|本選考|通常選考/.test(description)) return {label:'本选考',tone:'selection'};
+    return {label:'选考',tone:'selection'};
+  }
+  if (op.category === 'internship') {
+    if (workshop.test(title) || (workshop.test(subtype) && !/实习|インターン/.test(subtype))) return {label:'工作坊',tone:'workshop'};
+    if (/体验|体験/.test(title)) return {label:'职场体验',tone:'workshop'};
+    return {label:'实习',tone:'internship'};
+  }
+  if (op.category === 'activity') {
+    if (/说明会|説明会/.test(title)) return {label:'说明会',tone:'briefing'};
+    if (/面谈|面談/.test(title)) return {label:'面谈',tone:'conversation'};
+    if (/咨询|相談/.test(title) && /作品集|ポートフォリオ/.test(title)) return {label:'作品集咨询',tone:'portfolio'};
+    if (/作品集.*(?:反馈|建议|advice)|作品建议|ポートフォリオ.*(?:講評|添削)/i.test(title)) return {label:'作品集反馈',tone:'portfolio'};
+    if (workshop.test(title)) return {label:'工作坊',tone:'workshop'};
+    if (/座谈|座談/.test(title)) return {label:'座谈',tone:'conversation'};
+    if (/讲座|講座|セミナー|seminar/i.test(title)) return {label:'讲座',tone:'briefing'};
+    if (/^(?:公司设计说明会|设计职说明会)$/.test(subtype)) return {label:'说明会',tone:'briefing'};
+    return {label:'招聘活动',tone:'neutral'};
+  }
+  return {label:'其他事项',tone:'neutral'};
+}
+
+function typeTag({label,tone}) {
+  return `<span class="decision-type decision-type-${tone}">${esc(label)}</span>`;
+}
+
+function choiceLabel(choice, op) {
+  if (choice === 'interested') return op?.category === 'selection' ? '申请意向' : '参加意向';
+  return ({declined:op?.category==='selection'?'不申请':'不参加',later:'再想想'}[choice] || '尚未选择');
+}
+
+function internshipOpeningNote(op) {
+  if (op.category !== 'internship') return '';
+  const now = tokyoNowKey();
+  const upcoming = (op.milestones || []).find(m => m.type === 'open' && !m.completed && m.date &&
+    (m.date.length > 10 ? m.date > now : m.date > day(now)));
+  if (upcoming) return `预计 ${fmt(upcoming.date)} 开放（日本时间），以公司正式受理为准。`;
+  if (/即将开放|尚未开放|报名未开放|仅预告/.test([op.subtype,op.status,op.statusDetail].join(' '))) {
+    return '报名开放状态待核，以公司正式受理为准。';
+  }
+  return '';
+}
+
 function formatUpdatedAt(value) {
   if(!value)return '时间未记录';
   const d=new Date(value);
@@ -64,13 +155,48 @@ function formatUpdatedAt(value) {
 }
 function nextStep(op) {
   const text = String(op.nextAction || '').replace(/https?:\/\/\S+/g,'').trim();
-  return text || '确认是否参加；意向不会自动完成预约。';
+  return text || '确认项目内容和报名方式。';
 }
-function conflict(op) {
-  if (op.decisionContext) return String(op.decisionContext);
-  const text = `${op.nextAction || ''} ${op.notes || ''} ${op.statusDetail || ''}`;
-  const sentence = text.split(/[。；]/).find(s => /冲突|重叠|无缓冲|通勤|上课|兼职/.test(s));
-  return sentence || '当前记录未注明明确冲突';
+
+export function conflictPanel({conflicts, notices}, companyData, ownTime) {
+  const groups=[['confirmed','与已确定安排撞时'],['buffer','前后太紧（没有重叠）'],['coordination','需协调学校或兼职'],['conditional','选中或录取后才有的风险'],['unknown','尚不能确定']];
+  const rowHtml=c=>`<li class="decision-conflict-row decision-conflict-${esc(c.tone)}">
+    <div class="decision-conflict-name">${esc([c.company,c.title].filter(Boolean).join(' · '))}</div>
+    <dl class="decision-time-pair"><div><dt>本项目</dt><dd>${esc(c.selfTime || ownTime || '待核')}</dd></div><div><dt>对方</dt><dd>${esc(c.time)}</dd></div></dl>
+    <p class="decision-conflict-result"><b>${esc(c.overlapText || c.risk)}</b></p>
+    ${c.stage ? `<p class="decision-conflict-stage">对方状态：${esc(c.stage)}</p>` : ''}
+    ${c.trigger ? `<p class="decision-conflict-note">${esc(c.trigger)}</p>` : ''}
+    ${c.note ? `<p class="decision-conflict-note">${esc(c.note)}</p>` : ''}
+    ${c.company ? `<span class="decision-conflict-company" data-conflict-company="${esc(c.company)}">${renderCompanyCompareLink(c.company,companyData)}</span>` : ''}</li>`;
+  const content=groups.map(([key,label])=>{
+    const raw=conflicts.filter(c=>(c.group || 'unknown')===key);
+    const merged=new Map();
+    for (const row of raw) {
+      const id=`${row.otherId || row.company || row.title}|${row.stage}`;
+      if (!merged.has(id)) merged.set(id,{...row});
+      else {
+        const existing=merged.get(id);
+        if (!existing.time.includes(row.time)) existing.time+='；'+row.time;
+        if (!existing.overlapText.includes(row.overlapText)) existing.overlapText+='；'+row.overlapText;
+      }
+    }
+    const rows=[...merged.values()];
+    if (!rows.length) return '';
+    return `<details class="decision-conflict-group" ${key==='confirmed'?'open':''}><summary>${esc(label)} <span>${rows.length}</span></summary><ul class="decision-conflict-list">${rows.map(rowHtml).join('')}</ul></details>`;
+  }).join('');
+  const confirmed=conflicts.filter(c=>c.group==='confirmed').length;
+  const lead=confirmed ? `${confirmed} 项已确定安排，需要先选取舍` : conflicts.length ? '先看下方分类：衔接、调班与候选风险分别处理' : notices.length ? '时间或形式有待核项，暂不能确认空闲' : '已记录日程中，未发现重叠或缓冲不足';
+  return `<section class="decision-conflict"><h4>时间能否排开</h4><p class="decision-conflict-lead">${esc(lead)}</p>${content}
+    ${notices.length ? `<details class="decision-conflict-group"><summary>核对范围与未知项</summary>${notices.map(n=>`<p class="decision-conflict-hint">${esc(n)}</p>`).join('')}</details>` : ''}</section>`;
+}
+
+function readDeviceChoices() {
+  try {
+    const records = JSON.parse(localStorage.getItem(DEVICE_KEY) || '[]');
+    return Array.isArray(records) ? records.filter(record => typeof record?.id === 'string' && [null,'interested','declined','later'].includes(record.choice)) : [];
+  } catch (error) {
+    return error instanceof SyntaxError ? [] : null;
+  }
 }
 
 export function shouldHideCandidateFromPlans(opportunity) {
@@ -87,183 +213,465 @@ export async function mountDecisions(data) {
   const access = document.querySelector('#decision-access');
   const toggle = document.querySelector('#decisions-toggle');
   const content = document.querySelector('#decisions-content');
+  const gestureHelp = document.querySelector('.decision-gesture-help');
   if (!root || !data?.opportunities) return;
+
+  const sameOrigin = location.origin === new URL(MOBILE_URL).origin;
+  let accountChoices = [];
+  let deviceChoices = readDeviceChoices();
   let choices = [];
-  let canEdit = false;
+  let cloudCanEdit = false;
   let signedIn = false;
-  let apiReady = false;
-  let loadAttempted = false;
+  let storageMode = new URLSearchParams(location.search).get('sync') === 'account' ? 'account' : 'auto';
   let retrying = false;
+  let firstLoadComplete = false;
+  let cloudReadFailed = false;
   let writing = false;
-  let undoStack = [];
+  let writeRevision = 0;
   let deckIndex = 0;
   let reviewId = null;
+  let listMode = 'interested';
+  let confirmingId = null;
   let isOpen = location.hash === '#decisions';
   let lastLoadedAt = 0;
+  let feedback = null;
+  let pointer = null;
+  let wheelGesture = null;
+  let companyData = null;
+  const undoStack = new Map();
+  const draftSessions = new Map();
   const today = tokyoToday();
-  const candidates = data.opportunities.filter(op => canDecide(op,today)).sort((a,b)=>{
-    const ad=opSortDate(a),bd=opSortDate(b);
-    if(ad!==bd)return ad.localeCompare(bd);
-    const priority=o=>/Brother|MCD3/i.test(o.company||'')&&/有意|希望|预登记|先听/i.test(o.decisionContext||'')?0:1;
-    return priority(a)-priority(b)||String(a.company||'').localeCompare(String(b.company||''));
-  });
-  content.hidden = !isOpen;
-  toggle?.setAttribute('aria-expanded',String(isOpen));
-  if (toggle) toggle.textContent = isOpen ? '收起待决定' : '展开待决定';
+  const priority = op => /Brother|MCD3/i.test(op.company || '') && /有意|希望|预登记|先听/i.test(op.decisionContext || '') ? 0 : 1;
+  const candidates = data.opportunities.filter(op => canDecide(op, today)).sort((a,b) =>
+    opSortDate(a).localeCompare(opSortDate(b)) || priority(a) - priority(b) || String(a.company || '').localeCompare(String(b.company || '')));
 
-  function accessMarkup() {
-    if (!apiReady && !loadAttempted) return '<p class="decision-access-note">正在连接账号，读取已保存的选择…</p>';
-    if (!apiReady) return `<p class="decision-access-note">暂时无法连接选择同步。可重试，或前往<a href="${MOBILE_URL}">手机站管理选择</a>。当前选择未保存在此设备。</p>`;
-    if (canEdit) return '<p class="decision-access-note">选择将保存到账号，可在其他设备继续查看。</p>';
-    if (!signedIn) return `<p class="decision-access-note">登录后可管理选择。<a href="${SIGNIN_URL}">使用 ChatGPT 登录</a> · <a href="${MOBILE_URL}">手机站</a></p>`;
-    return `<p class="decision-access-note">当前账号可查看选择，但没有编辑权限。<a href="${MOBILE_URL}">前往手机站</a></p>`;
+  const savesToAccount = () => storageMode === 'account';
+  const canSave = () => savesToAccount() ? cloudCanEdit : deviceChoices !== null;
+  const saveScope = () => savesToAccount() ? '账号' : '此浏览器';
+
+  function updateChoices() {
+    const merged = new Map(accountChoices.map(choice => [choice.id, choice]));
+    for (const record of savesToAccount() ? [] : deviceChoices || []) {
+      if (record.choice === null) merged.delete(record.id);
+      else merged.set(record.id, record);
+    }
+    choices = [...merged.values()].sort((a,b) => String(b.updatedAt || '').localeCompare(String(a.updatedAt || '')));
+    currentChoices = choices;
+    announceChoicesChanged();
   }
-  function choiceFor(id) { return choices.find(c => c.id === id) || null; }
-  function cardHtml(op,saved) {
-    const sessions=dateSessions(op), selected=sessions.some(s=>s.id===saved?.sessionId)?(saved?.sessionId||''):(sessions.length===1?(sessions[0].id||''):'');
-    const selectable=sessions.some(s=>s.selectable);
-    const sessionPicker=sessions.length>1?`<label class="decision-session-label"><span>选择场次</span><select data-session-for="${esc(op.id)}"><option value="">先选择场次</option>${sessions.map(s=>`<option value="${esc(s.id||'')}" ${selected===(s.id||'')?'selected':''} ${!s.selectable?'disabled':''}>${esc(displayWhen(s))}${s.label?` · ${esc(s.label)}`:''}</option>`).join('')}</select></label>`:`<div class="decision-session"><b>可选场次</b><span>${esc(displayWhen(sessions[0]))}${sessions[0].label ? ` · ${esc(sessions[0].label)}` : ''}</span></div>`;
-    const savedLabel=saved?({interested:'想参加 · 已记录为意向',declined:'不参加 · 已记录',later:'再想想 · 已记录'}[saved.choice]||''):'尚未选择';
-    const platformOnly=/DENSO/i.test(op.company||'')&&/受理|応募済/.test(String(op.status||''));
-    return `<article class="decision-card" tabindex="0" data-decision-card="${esc(op.id)}" aria-label="${esc(op.company)} ${esc(op.title)}，左右方向键或左右滑动可快速选择">
-      <div class="decision-card-head"><div><span class="decision-company">${esc(op.company)}</span><h3>${esc(op.title)}</h3></div><span class="decision-current">${esc(savedLabel)}</span></div>
-      <div class="decision-facts">${sessionPicker}<div class="decision-fact"><b>报名截止</b><span>${esc(exactDeadline(op))}</span></div><div class="decision-fact"><b>当前状态</b><span>${esc(op.status||'状态待核')}</span></div><div class="decision-fact"><b>冲突／说明</b><span>${esc(conflict(op))}</span></div><div class="decision-fact"><b>下一步</b><span>${esc(platformOnly&&saved?.choice==='declined'?'DENSO平台申请已受理；选择不参加只记录意向，后续手续仍需确认。':nextStep(op))}</span></div></div>
-      ${!selectable?'<p class="decision-protection">没有仍开放的可选场次；保留记录供查看，不可选择想参加。</p>':''}
-      <div class="decision-actions"><button type="button" data-choice="declined" data-id="${esc(op.id)}" ${!canEdit||writing?'disabled':''}>不参加</button><button type="button" data-choice="later" data-id="${esc(op.id)}" ${!canEdit||writing?'disabled':''}>再想想</button><button type="button" data-choice="interested" data-id="${esc(op.id)}" ${!canEdit||writing||!selectable?'disabled':''}>想参加</button></div>
-      ${saved&&canEdit?`<button class="decision-undo" data-undo="${esc(op.id)}" type="button">撤销此选择</button>`:''}</article>`;
+
+  function setOpen(open) {
+    isOpen = open;
+    content.hidden = !open;
+    toggle?.setAttribute('aria-expanded', String(open));
+    if (toggle) toggle.textContent = open ? '收起待决定' : '展开待决定';
   }
-  function render() {
-    access.innerHTML = accessMarkup();
-    const decided = new Map(choices.map(c => [c.id,c]));
-    const pending=candidates.filter(op=>!decided.has(op.id));
-    const selected=reviewId?candidates.find(o=>o.id===reviewId):pending[Math.min(deckIndex,Math.max(0,pending.length-1))];
-    const pos=selected&&!reviewId?pending.findIndex(o=>o.id===selected.id)+1:0;
-    let html='';
-    if(selected){
-      html+=reviewId?`<div class="decision-deck-nav"><button type="button" data-review-close>返回待决定</button><span>查看已保存选择</span></div>`:`<div class="decision-deck-nav"><button type="button" data-deck-nav="prev" ${pos<=1?'disabled':''}>上一项</button><span>第 ${pos} / ${pending.length} 项</span><button type="button" data-deck-nav="next" ${pos>=pending.length?'disabled':''}>下一项</button></div>`;
-      html+=cardHtml(selected,decided.get(selected.id));
-    } else html+='<p class="decision-empty">待决定项目已处理完。</p>';
-    const history=choices.filter(c=>candidates.some(o=>o.id===c.id));
-    if(history.length)html+=`<details class="decision-history"><summary>已选择／历史恢复（${history.length}）</summary>${history.map(c=>{const op=candidates.find(o=>o.id===c.id);return `<div class="decision-history-row"><button class="decision-history-project" type="button" data-id="${esc(c.id)}">${esc(op?`${op.company} · ${op.title}`:c.id)} · ${esc(choiceLabel(c.choice))} · ${esc(formatUpdatedAt(c.updatedAt))}</button>${canEdit?`<button type="button" data-review="${esc(c.id)}">查看／修改</button><button type="button" data-restore="${esc(c.id)}">恢复到待决定</button>`:''}</div>`;}).join('')}</details>`;
-    root.innerHTML=html;
+
+  function choiceFor(id) { return choices.find(choice => choice.id === id) || null; }
+
+  function selectedSession(op, sessions, saved) {
+    if (sessions.length === 1) return sessions[0];
+    const id = draftSessions.get(op.id) ?? saved?.sessionId;
+    return sessions.find(session => session.id === id);
   }
-  async function load() {
-    if (writing) return;
-    retrying = true; status.textContent = '正在读取账号选择…';
-    try {
-      const sameOrigin = location.origin === new URL(MOBILE_URL).origin;
-      let r = await fetch(sameOrigin ? API : MOBILE_API,{headers:{Accept:'application/json'},credentials:sameOrigin?'same-origin':'omit',cache:'no-store',signal:AbortSignal.timeout(15000)});
-      if (!sameOrigin && !r.ok) throw new Error(`手机站读取 HTTP ${r.status}`);
-      if (sameOrigin && !r.ok && r.status !== 401 && r.status !== 403 && r.status !== 404) throw new Error(`HTTP ${r.status}`);
-      if (sameOrigin && r.status === 404) r = await fetch(MOBILE_API,{headers:{Accept:'application/json'},credentials:'omit',cache:'no-store',signal:AbortSignal.timeout(15000)});
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      const payload = await r.json();
-      choices = Array.isArray(payload.choices) ? payload.choices : [];
-      currentChoices = choices;
-      canEdit = sameOrigin && payload.canEdit === true; signedIn = sameOrigin && payload.signedIn === true; apiReady = true;
-      currentCanEdit = canEdit;
-      lastLoadedAt = Date.now();
-      announceChoicesChanged();
-      status.textContent = canEdit ? `已同步 ${choices.length} 项选择` : '选择只读';
-    } catch (error) {
-      apiReady = false; canEdit = false;
-      status.textContent = `无法同步选择（${error.message}）。可重试；不会在本地伪保存。`;
-    } finally { loadAttempted = true; retrying = false; render(); }
-  }
-  async function save(id, choice) {
-    if (!canEdit || writing || retrying) return false;
-    const op = candidates.find(o => o.id === id); if (!op) return;
-    const sessionSelect = root.querySelector(`[data-session-for="${CSS.escape(id)}"]`);
+
+  function cardHtml(op, saved) {
     const sessions = dateSessions(op);
-    const sessionId = sessionSelect ? sessionSelect.value || null : (sessions.length === 1 && sessions[0].selectable ? sessions[0].id : null);
-    if (choice === 'interested' && sessions.length > 1 && !sessionId) { status.textContent = '想参加前，请先选择一个具体场次。'; sessionSelect?.focus(); return false; }
-    const previous = choiceFor(id);
-    writing = true;
-    status.textContent = '正在保存…';
-    root.querySelectorAll('[data-choice],[data-undo],[data-restore]').forEach(b=>b.disabled=true);
+    const selected = selectedSession(op, sessions, saved);
+    const selectable = sessions.some(session => session.selectable);
+    const context = sessionContext(op, selected, {
+      ...data, opportunities:data.opportunities.filter(item => !shouldHideCandidateFromPlans(item))
+    });
+    const conflicts = !selected && sessions.length > 1
+      ? {conflicts:[], notices:['请选择场次，再核对时间冲突。']}
+      : context;
+    const confirmation = confirmingId === op.id;
+    const disabled = !canSave() || writing ? 'disabled' : '';
+    const openingNote = internshipOpeningNote(op);
+    const openingFollowup = savesToAccount()
+      ? '云端保存意向后，核实正式开放时提醒你。'
+      : '连接云端并保存意向后，可在核实正式开放时收到提醒。';
+    const confirmationNote = openingNote ? openingFollowup : '报名方式和提交内容另行确认。';
+    const sessionPicker = selected?.projectEvents
+      ? `<div class="decision-project-schedule"><b>项目日程 · 不是任选日期</b><p>${esc(selected.label)}</p><ul>${selected.projectEvents.map(m=>`<li><strong>${esc(displayWhen({start:m.date,end:m.endDate}))}</strong><span>${esc(m.label)}</span></li>`).join('')}</ul></div>`
+      : sessions.length>1
+      ? `<fieldset class="decision-slot-options"><legend>${esc(op.sessionModel?.note || '选择希望参加的场次（只记录意向）')}</legend>${sessions.map(session=>{
+        const c=sessionContext(op,session,{...data,opportunities:data.opportunities.filter(item=>!shouldHideCandidateFromPlans(item))});
+        const fixed=c.conflicts.filter(x=>x.group==='confirmed').length;
+        const tight=c.conflicts.filter(x=>x.group==='buffer').length;
+        const conditional=c.conflicts.filter(x=>x.group==='conditional').length;
+        const coordination=c.conflicts.some(x=>x.group==='coordination');
+        const short=[fixed?`${fixed}项已约撞时`:'未查到已约撞时',conditional?`${conditional}项候选风险`:'',tight?`${tight}项衔接需看`:'',coordination?'需协调学校／兼职':''].filter(Boolean).join('；');
+        return `<label class="decision-slot ${selected===session?'is-selected':''}"><input type="radio" name="slot-${esc(op.id)}" data-session-for="${esc(op.id)}" value="${esc(session.id || '')}" ${selected===session?'checked':''} ${session.selectable?'':'disabled'}><span><strong>${esc(displayWhen(session))}</strong><span>${esc(c.format)} · ${esc(session.availability)}</span><small>${esc(short)}</small></span></label>`;
+      }).join('')}</fieldset>`
+      : selected?.start ? `<div class="decision-session"><b>${op.category==='internship'?'实习期间':'活动时间'} · 日本时间</b><strong>${esc(displayWhen(selected))}</strong><span>${esc(context.format)}${selected.source?.availabilityState ? ` · ${esc(selected.availability)}` : ''}</span></div>`
+      : `<div class="decision-session"><b>${op.category==='selection'?'本选考申请':'场次'}</b><span>${op.category==='selection'?'投递日期另行确认；面试时间不在此处任选。':'具体场次未公布，当前只能记录关注意向。'}</span></div>`;
+    const deadlines=(op.milestones || []).filter(m=>['deadline','es_deadline','portfolio_deadline','test_deadline','confirmation_deadline'].includes(m.type)&&!m.completed&&m.date);
+    const deadlineText=selected?.deadline ? fmt(selected.deadline) : deadlines.length ? deadlines.map(m=>`${fmt(m.date)} · ${m.label || '截止'}`).join('；') : '未公布／未核实';
+    const sessionFacts=`<div class="decision-fact"><b>你的手续状态</b><span>${esc(op.statusDetail || op.status || '待核')}</span></div>
+      ${canDecide(op,today)?`<div class="decision-fact"><b>报名截止（不是活动时间）</b><span>${esc(deadlineText)}</span></div>`:''}
+      ${openingNote?`<div class="decision-fact decision-opening"><b>报名尚未开放</b><span>${esc(openingNote)}</span></div>`:''}`;
+    const type = opportunityType(op);
+    const savedLabel = saved ? `${choiceLabel(saved.choice, op)} · 已保存` : '尚未选择';
+    const instructions = canSave() ? '，向左滑不参加，向右滑核对参加信息' : '';
+    return `<article class="decision-card" tabindex="0" data-decision-card="${esc(op.id)}" aria-label="${esc(type.label)} ${esc(op.company)} ${esc(op.title)}${instructions}">
+      <div class="decision-card-head"><div><div class="decision-card-meta">${typeTag(type)}<span class="decision-company">${esc(op.company)}</span></div><h3>${esc(op.title)}</h3></div><span class="decision-current">${esc(savedLabel)}</span></div>
+      <div class="decision-task"><b>这一步决定什么</b><p>${esc(decisionPrompt(op,openingNote))}</p></div>
+      ${reapplicationPanel(op)}
+      ${sessionPicker}<div class="decision-facts">${sessionFacts}</div>
+      ${op.category==='selection'&&!selected?.start&&!selected?.projectEvents?'<section class="decision-conflict"><h4>面试尚未排期</h4><p class="decision-conflict-lead">报名截止不是参加时间。面试时间确定后，再核对是否撞车。</p></section>':conflictPanel(conflicts,companyData,displayWhen(selected))}
+      <details class="decision-reference"><summary>待遇、评价与选考材料</summary><section class="decision-company-context" aria-label="待遇与选考" data-company-context="${esc(op.id)}">${companyData
+        ? renderDecisionCompany(op,companyData)
+        : '<p class="decision-company-scope">正在读取待遇与选考资料…</p>'}</section></details>
+      <p class="decision-card-feedback" role="status" aria-live="polite">${feedback?.id === op.id ? esc(feedback.text) : ''}</p>
+      <span class="decision-swipe-preview" aria-hidden="true"></span>
+      ${!canDecide(op,today) ? '<p class="decision-protection">已有申请或预约记录；这里不会重复办理，也不会取消。</p>' : confirmation
+        ? `<div class="decision-confirmation"><p>核对上方项目、举办形式和时间后，可保存${choiceLabel('interested', op)}。${esc(confirmationNote)}</p><div class="decision-actions"><button type="button" data-cancel-interest>返回</button><button type="button" data-confirm-interest="${esc(op.id)}" data-confirm-session="${esc(selected?.id || '')}" ${disabled || (!selected?.selectable ? 'disabled' : '')}>确认保存意向</button></div></div>`
+        : `<div class="decision-actions"><button type="button" data-choice="declined" data-id="${esc(op.id)}" ${disabled}>不参加</button><button type="button" data-choice="later" data-id="${esc(op.id)}" ${disabled}>再想想</button><button type="button" data-choice="interested" data-id="${esc(op.id)}" ${disabled || (!selectable ? 'disabled' : '')}>${op.category==='selection'?'有意申请':openingNote?'关注开放':'有意参加'}</button></div>`}
+      ${saved && canSave() ? `<button class="decision-undo" data-undo="${esc(op.id)}" type="button" ${disabled}>撤销意向（不取消预约）</button>` : ''}
+      <details class="decision-next"><summary>报名方式与下一步</summary><p>${esc(nextStep(op))}</p></details>
+    </article>`;
+  }
+
+  function render() {
+    const cloudLink = !sameOrigin ? `<a href="${CLOUD_URL}" target="_top">打开云端版</a>`
+      : cloudCanEdit ? '<button type="button" data-storage-mode="account">切换到云端</button>'
+      : signedIn ? `<a href="/signout-with-chatgpt?return_to=${CLOUD_RETURN}" target="_top">切换为日历所有者账号</a>`
+      : `<a href="/signin-with-chatgpt?return_to=${CLOUD_RETURN}" target="_top">连接云端</a>`;
+    const note = savesToAccount()
+      ? cloudCanEdit ? '已连接云端。选择保存到账号，其他设备和自动提醒可读取。'
+        : signedIn ? '当前账号缺少这份日历的编辑权限。' : '连接日历所有者账号后，可跨设备同步选择。'
+      : deviceChoices !== null ? '本浏览器保存。需要跨设备或自动提醒时，请连接云端。'
+        : '当前浏览器的本地存储不可用。';
+    const deviceLink = savesToAccount() && deviceChoices !== null
+      ? `<button type="button" data-storage-mode="device">${deviceChoices.length ? '查看本浏览器记录' : '使用本浏览器保存'}</button>` : '';
+    access.innerHTML = `<p class="decision-access-note">${esc(note)}</p><div class="decision-access-actions">${savesToAccount() && cloudCanEdit ? '' : cloudLink}${deviceLink}</div>`;
+    if (gestureHelp) gestureHelp.hidden = !canSave();
+    const pending = candidates.filter(op => !choiceFor(op.id));
+    const op = reviewId ? data.opportunities.find(candidate => candidate.id === reviewId) : listMode==='pending' ? pending[Math.min(deckIndex, Math.max(0, pending.length - 1))] : null;
+    const pos = pending.indexOf(op) + 1;
+    let html = op ? (reviewId ? '<div class="decision-deck-nav"><button type="button" data-review-close>返回列表</button><span>查看项目</span></div>'
+      : `<div class="decision-deck-nav"><button type="button" data-deck-nav="prev" ${pos <= 1 ? 'disabled' : ''}>上一项</button><span>第 ${pos} / ${pending.length} 项</span><button type="button" data-deck-nav="next" ${pos >= pending.length ? 'disabled' : ''}>下一项</button></div>`) + cardHtml(op, choiceFor(op.id))
+      : listMode==='pending' ? '<p class="decision-empty">待决定项目已处理完。</p>' : '';
+    const history = choices.filter(choice => data.opportunities.some(item => item.id === choice.id) && (listMode==='interested' ? choice.choice==='interested' : choice.choice!=='interested'));
+    const counts={pending:pending.length,interested:choices.filter(c=>c.choice==='interested').length,other:choices.filter(c=>c.choice!=='interested').length};
+    const tabs=`<div class="decision-list-tabs" role="group" aria-label="决定列表">${[['interested','我的意向'],['pending','待决定'],['other','暂缓／不参加']].map(([key,label])=>`<button type="button" data-list-mode="${key}" aria-pressed="${listMode===key}">${label} ${counts[key]}</button>`).join('')}</div>`;
+    if (!reviewId && listMode!=='pending' && history.length) html += `<div class="decision-history">${history.map(choice => {
+      const item = data.opportunities.find(candidate => candidate.id === choice.id);
+      return `<div class="decision-history-row"><button class="decision-history-project" type="button" data-id="${esc(choice.id)}">${typeTag(opportunityType(item))} <span>${esc(item.company)} · ${esc(item.title)} · ${esc(choiceLabel(choice.choice, item))}<small>${esc(item.status || '状态待核')} · ${esc(formatUpdatedAt(choice.updatedAt))}</small></span></button><button type="button" data-review="${esc(choice.id)}">查看</button></div>`;
+    }).join('')}</div>`;
+    if (!html) html=`<p class="decision-empty">${!firstLoadComplete?'正在读取云端意向…':cloudReadFailed?'云端意向暂未读到，请点「重试」。':'这个列表暂时没有记录。'}</p>`;
+    root.innerHTML = tabs + html;
+  }
+
+  function showFeedback(id, text) {
+    feedback = {id, text};
+    status.textContent = text;
+    const line = root.querySelector(`[data-decision-card="${CSS.escape(id)}"] .decision-card-feedback`);
+    if (line) line.textContent = text;
+  }
+
+  async function load() {
+    if (retrying || writing) return;
+    retrying = true;
+    const revision = writeRevision;
     try {
-      const r = await fetch(API,{method:'PUT',credentials:'same-origin',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({id,choice,sessionId})});
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      const payload = await r.json();
-      if (!Array.isArray(payload.choices)) throw new Error('服务器未返回完整选择列表');
-      undoStack.push({id,previous}); choices = payload.choices; currentChoices = choices;
-      canEdit = payload.canEdit === true; signedIn = payload.signedIn === true; apiReady = true;
-      currentCanEdit = canEdit;
-      status.textContent = '已保存到账号；未更改预约状态。';
-      if(reviewId===id)reviewId=null;
-      writing = false; render();
-      announceChoicesChanged();
-      return true;
-    } catch (error) {
-      status.textContent = `保存失败（${error.message}）。选择没有更新，请重试。`;
-      writing = false; render();
-      return false;
+      const response = await fetch(sameOrigin ? API : MOBILE_API, {
+        headers: {Accept:'application/json'},
+        credentials: sameOrigin ? 'same-origin' : 'omit',
+        cache:'no-store',
+        signal:AbortSignal.timeout(10000)
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const payload = await response.json();
+      if (!Array.isArray(payload.choices)) throw new Error('选择记录格式有误');
+      if (revision !== writeRevision) return;
+      accountChoices = payload.choices;
+      cloudReadFailed = false;
+      cloudCanEdit = sameOrigin && payload.canEdit === true;
+      signedIn = sameOrigin && payload.signedIn === true;
+      if (cloudCanEdit && storageMode === 'auto') {
+        storageMode = 'account';
+        confirmingId = null;
+        undoStack.clear();
+      }
+      lastLoadedAt = Date.now();
+      if (!feedback && !writing) status.textContent = canSave() ? `选择保存到${saveScope()}` : '等待连接云端';
+    } catch {
+      if (revision !== writeRevision) return;
+      cloudReadFailed = true;
+      cloudCanEdit = false;
+      if (!feedback && !writing) status.textContent = savesToAccount() ? '云端连接暂不可用，可重试' : '选择保存到此浏览器';
+    } finally {
+      firstLoadComplete = true;
+      retrying = false;
+      updateChoices();
+      if (!pointer && !writing && !confirmingId) render();
     }
   }
-  async function undo(id) {
-    if (!canEdit||writing||retrying) return;
-    const op = candidates.find(o=>o.id===id); const prev=undoStack.slice().reverse().find(x=>x.id===id)?.previous || null;
-    if (!op) return;
-    writing=true; root.querySelectorAll('[data-choice],[data-undo],[data-restore]').forEach(b=>b.disabled=true);
-    const sessionId = prev?.sessionId || null;
+
+  async function writeChoice(id, choice, sessionId, remember = true) {
+    if (writing) return;
+    if (!canSave()) {
+      showFeedback(id, savesToAccount() ? '请先连接云端，再保存选择。' : '此浏览器无法保存选择。');
+      return;
+    }
+    const op = candidates.find(candidate => candidate.id === id);
+    const previous = choiceFor(id);
+    const destination = saveScope();
+    writing = true;
+    writeRevision++;
+    root.querySelectorAll('[data-choice],[data-confirm-interest],[data-undo],[data-restore]').forEach(button => { button.disabled = true; });
+    status.textContent = '正在保存…';
     try {
-      const r=await fetch(API,{method:'PUT',credentials:'same-origin',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({id,choice:prev?.choice||null,sessionId})});
-      if(!r.ok)throw new Error(`HTTP ${r.status}`); const payload=await r.json(); if(!Array.isArray(payload.choices))throw new Error('服务器未返回完整选择列表');
-      choices=payload.choices; currentChoices=choices; undoStack=undoStack.filter(x=>x.id!==id); if(!prev)reviewId=null; status.textContent='已撤销并同步。'; writing=false; render(); announceChoicesChanged();
-    }catch(error){status.textContent=`撤销失败（${error.message}）。选择没有更新，请重试。`;writing=false;render();}
+      if (savesToAccount()) {
+        const response = await fetch(API, {
+          method:'PUT', credentials:'same-origin',
+          headers:{'Content-Type':'application/json',Accept:'application/json'},
+          body:JSON.stringify({id,choice,sessionId}), signal:AbortSignal.timeout(12000)
+        });
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok) {
+          if (response.status === 401 || response.status === 403) {
+            cloudCanEdit = false;
+            signedIn = response.status === 403;
+          }
+          throw new Error(payload.error || `HTTP ${response.status}`);
+        }
+        if (!Array.isArray(payload.choices)) throw new Error('服务器未返回完整记录');
+        accountChoices = payload.choices;
+      } else {
+        const records = (readDeviceChoices() || deviceChoices).filter(record => record.id !== id);
+        if (choice !== null || accountChoices.some(record => record.id === id)) {
+          records.push({id,choice,sessionId,updatedAt:new Date().toISOString()});
+        }
+        localStorage.setItem(DEVICE_KEY, JSON.stringify(records));
+        deviceChoices = records;
+      }
+      if (remember) undoStack.set(id, previous);
+      else undoStack.delete(id);
+      draftSessions.delete(id);
+      confirmingId = null;
+      reviewId = null;
+      feedback = null;
+      status.textContent = choice ? `${choiceLabel(choice, op)} · 已保存到${destination}` : `已恢复到待决定 · ${destination}`;
+      updateChoices();
+    } catch (error) {
+      showFeedback(id, `保存失败（${error.message}）。请重试。`);
+    } finally {
+      writing = false;
+      render();
+    }
   }
-  async function restore(id) {
-    if (!canEdit||writing||retrying) return;
-    writing=true; root.querySelectorAll('[data-choice],[data-undo],[data-restore]').forEach(b=>b.disabled=true);
-    try {
-      const r=await fetch(API,{method:'PUT',credentials:'same-origin',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({id,choice:null,sessionId:null})});
-      if(!r.ok)throw new Error(`HTTP ${r.status}`); const payload=await r.json(); if(!Array.isArray(payload.choices))throw new Error('服务器未返回完整选择列表');
-      choices=payload.choices; currentChoices=choices; reviewId=null; status.textContent='已恢复到待决定，并同步到账号。'; writing=false; render(); announceChoicesChanged();
-    }catch(error){status.textContent=`恢复失败（${error.message}）。选择没有更新，请重试。`;writing=false;render();}
+
+  function choose(id, choice, confirmedSession = null) {
+    const op = candidates.find(candidate => candidate.id === id);
+    if (!op || writing) return;
+    if (!canSave()) {
+      showFeedback(id, savesToAccount() ? '请先连接云端，再保存选择。' : '此浏览器无法保存选择。');
+      return;
+    }
+    const sessions = dateSessions(op);
+    const selected = selectedSession(op, sessions, choiceFor(id));
+    if (choice === 'interested') {
+      if (!sessions.some(session => session.selectable)) {
+        showFeedback(id, '当前场次已截止或结束，请查看最新安排。');
+        return;
+      }
+      if (!selected?.selectable) {
+        showFeedback(id, '请先选择场次，再核对举办形式和时间。');
+        root.querySelector(`[data-session-for="${CSS.escape(id)}"]`)?.focus();
+        return;
+      }
+      if (confirmedSession !== null && confirmedSession !== (selected.id || '')) {
+        confirmingId = null;
+        showFeedback(id, '场次已变化，请重新核对。');
+        render();
+        return;
+      }
+      if (confirmedSession === null) {
+        confirmingId = id;
+        feedback = null;
+        render();
+        const button = root.querySelector('[data-confirm-interest]');
+        button?.focus({preventScroll:true});
+        button?.scrollIntoView({block:'nearest'});
+        return;
+      }
+    }
+    void writeChoice(id, choice, selected?.selectable ? selected.id : null);
   }
-  root.addEventListener('click',e=>{
-    const b=e.target.closest('[data-choice]'); if(b){e.stopPropagation();save(b.dataset.id,b.dataset.choice);return;}
-    const u=e.target.closest('[data-undo]'); if(u){e.stopPropagation();undo(u.dataset.undo);return;}
-    const r=e.target.closest('[data-restore]'); if(r){e.stopPropagation();restore(r.dataset.restore);}
-    const rv=e.target.closest('[data-review]'); if(rv){e.stopPropagation();reviewId=rv.dataset.review;render();return;}
-    if(e.target.closest('[data-review-close]')){e.stopPropagation();reviewId=null;render();return;}
-    const nav=e.target.closest('[data-deck-nav]'); if(nav){e.stopPropagation();const decided=new Set(choices.map(c=>c.id)),pending=candidates.filter(o=>!decided.has(o.id));deckIndex=Math.max(0,Math.min(pending.length-1,deckIndex+(nav.dataset.deckNav==='next'?1:-1)));render();}
+
+  function showProject(id) {
+    if (!data.opportunities.some(op => op.id === id)) return;
+    reviewId = id;
+    confirmingId = null;
+    feedback = null;
+    setOpen(true);
+    render();
+  }
+
+  root.addEventListener('change', event => {
+    const select = event.target.closest('[data-session-for]');
+    if (!select) return;
+    draftSessions.set(select.dataset.sessionFor, select.value);
+    confirmingId = null;
+    feedback = null;
+    render();
   });
-  root.addEventListener('keydown',e=>{
-    const card=e.target.closest('[data-decision-card]');
-    if (!card || e.target.closest('button,select')) return;
-    if (e.key==='ArrowLeft'){e.preventDefault();save(card.dataset.decisionCard,'declined');}
-    if (e.key==='ArrowRight'){e.preventDefault();save(card.dataset.decisionCard,'interested');}
+  root.addEventListener('click', event => {
+    const button = event.target.closest('button');
+    if (!button) return;
+    event.stopPropagation();
+    const {choice,id,undo,restore,review,deckNav,confirmInterest} = button.dataset;
+    if (button.dataset.listMode) {listMode=button.dataset.listMode;reviewId=null;confirmingId=null;feedback=null;render();}
+    else if (button.matches('.decision-history-project')) showProject(id);
+    else if (choice) choose(id, choice);
+    else if (confirmInterest) choose(confirmInterest, 'interested', button.dataset.confirmSession);
+    else if (button.hasAttribute('data-cancel-interest')) {
+      confirmingId = null;
+      feedback = null;
+      render();
+    } else if (undo) {
+      const previous = undoStack.get(undo);
+      void writeChoice(undo, previous?.choice || null, previous?.sessionId || null, false);
+    } else if (restore) void writeChoice(restore, null, null, false);
+    else if (review) showProject(review);
+    else if (button.hasAttribute('data-review-close') || deckNav) {
+      reviewId = null;
+      confirmingId = null;
+      feedback = null;
+      if (deckNav) {
+        const count = candidates.filter(candidate => !choiceFor(candidate.id)).length;
+        deckIndex = Math.max(0, Math.min(count - 1, deckIndex + (deckNav === 'next' ? 1 : -1)));
+      }
+      render();
+    }
   });
-  let pointer=null;
-  root.addEventListener('pointerdown',e=>{const card=e.target.closest('[data-decision-card]');if(!card||e.target.closest('button,select'))return;pointer={card,x:e.clientX,y:e.clientY,dx:0,locked:false,canceled:false,pointerId:e.pointerId};try{card.setPointerCapture(e.pointerId);}catch{}});
-  root.addEventListener('pointermove',e=>{if(!pointer||e.pointerId!==pointer.pointerId)return;const dx=e.clientX-pointer.x,dy=e.clientY-pointer.y;if(Math.max(Math.abs(dx),Math.abs(dy))>12&&!pointer.locked){if(Math.abs(dx)>Math.abs(dy))pointer.locked=true;else pointer.canceled=true;}if(pointer.locked&&!pointer.canceled){e.preventDefault();pointer.dx=dx;pointer.card.style.setProperty('--swipe-x',`${dx}px`);}});
-  const endSwipe=e=>{if(!pointer||e.pointerId!==pointer.pointerId)return;const p=pointer;pointer=null;p.card.style.removeProperty('--swipe-x');if(!p.canceled&&p.locked&&Math.abs(p.dx)>=80)save(p.card.dataset.decisionCard,p.dx>0?'interested':'declined');};
-  root.addEventListener('pointerup',endSwipe);root.addEventListener('pointercancel',e=>{if(pointer&&e.pointerId===pointer.pointerId){pointer.card.style.removeProperty('--swipe-x');pointer=null;}});
-  saveChoiceFn = save;
-  document.querySelector('#decision-retry')?.addEventListener('click',()=>{if(!retrying)load();});
-  const refreshIfStale=()=>{if(!retrying&&Date.now()-lastLoadedAt>3000)load();};
-  window.addEventListener('focus',refreshIfStale);
-  document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')refreshIfStale();});
-  toggle?.addEventListener('click',()=>{isOpen=!isOpen;content.hidden=!isOpen;toggle.setAttribute('aria-expanded',String(isOpen));toggle.textContent=isOpen?'收起待决定':'展开待决定';});
-  document.querySelectorAll('a[href="#decisions"]').forEach(link=>link.addEventListener('click',()=>{isOpen=true;content.hidden=false;toggle?.setAttribute('aria-expanded','true');if(toggle)toggle.textContent='收起待决定';}));
-  window.addEventListener('hashchange',()=>{if(location.hash==='#decisions'){isOpen=true;content.hidden=false;toggle?.setAttribute('aria-expanded','true');if(toggle)toggle.textContent='收起待决定';}});
+
+  const interactive = 'a,button,select,input,label,summary,details[open]';
+  const swipeChoice = dx => dx < 0 ? 'declined' : 'interested';
+  root.addEventListener('keydown', event => {
+    const card = event.target.closest('[data-decision-card]');
+    if (!card || event.target.closest(interactive) || confirmingId || !['ArrowLeft','ArrowRight'].includes(event.key)) return;
+    event.preventDefault();
+    choose(card.dataset.decisionCard, event.key === 'ArrowLeft' ? 'declined' : 'interested');
+  });
+
+  root.addEventListener('pointerdown', event => {
+    const card = event.target.closest('[data-decision-card]');
+    if (!card || event.target.closest(interactive) || !event.isPrimary || event.button !== 0 || writing || confirmingId) return;
+    pointer = {card, id:event.pointerId, x:event.clientX, y:event.clientY, horizontal:false};
+  });
+  function clearPointer() {
+    const active = pointer;
+    pointer = null;
+    active?.card.classList.remove('is-dragging');
+    active?.card.style.removeProperty('--swipe-x');
+    if (active?.card.hasPointerCapture(active.id)) active.card.releasePointerCapture(active.id);
+    return active;
+  }
+  root.addEventListener('pointermove', event => {
+    if (!pointer || pointer.id !== event.pointerId) return;
+    const dx = event.clientX - pointer.x;
+    const dy = event.clientY - pointer.y;
+    if (!pointer.horizontal) {
+      if (Math.max(Math.abs(dx), Math.abs(dy)) < 10) return;
+      if (Math.abs(dy) >= Math.abs(dx)) {
+        clearPointer();
+        return;
+      }
+      pointer.horizontal = true;
+      try { pointer.card.setPointerCapture(event.pointerId); } catch { /* The pointer may already have ended. */ }
+    }
+    event.preventDefault();
+    pointer.card.classList.add('is-dragging');
+    pointer.card.style.setProperty('--swipe-x', `${Math.max(-100, Math.min(100, dx))}px`);
+    pointer.card.querySelector('.decision-swipe-preview').textContent = dx < 0 ? '← 不参加' : '→ 核对场次';
+  });
+  root.addEventListener('pointerup', event => {
+    if (!pointer || pointer.id !== event.pointerId) return;
+    const active = clearPointer();
+    const dx = event.clientX - active.x;
+    const dy = event.clientY - active.y;
+    if (Math.abs(dx) >= 65 && Math.abs(dx) > Math.abs(dy)) choose(active.card.dataset.decisionCard, swipeChoice(dx));
+  });
+  for (const type of ['pointercancel','lostpointercapture']) root.addEventListener(type, event => {
+    if (pointer?.id === event.pointerId) clearPointer();
+  });
+
+  // Keep trackpad momentum from selecting the next card after one swipe.
+  root.addEventListener('wheel', event => {
+    const card = event.target.closest('[data-decision-card]');
+    if (!card || event.target.closest(interactive) || event.ctrlKey || Math.abs(event.deltaX) <= Math.abs(event.deltaY)) return;
+    event.preventDefault();
+    const now = Date.now();
+    if (!wheelGesture || now - wheelGesture.at > 260) wheelGesture = {at:now, dx:0, used:false};
+    wheelGesture.at = now;
+    if (wheelGesture.used || writing || confirmingId) return;
+    wheelGesture.dx -= event.deltaX * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? card.clientWidth : 1);
+    if (Math.abs(wheelGesture.dx) < 85) return;
+    wheelGesture.used = true;
+    choose(card.dataset.decisionCard, swipeChoice(wheelGesture.dx));
+  }, {passive:false});
+
+  openChoiceCard = showProject;
+  access.addEventListener('click', event => {
+    const button = event.target.closest('[data-storage-mode]');
+    if (!button || writing) return;
+    storageMode = button.dataset.storageMode;
+    confirmingId = null;
+    feedback = null;
+    undoStack.clear();
+    status.textContent = `选择保存到${saveScope()}`;
+    updateChoices();
+    render();
+  });
+  document.querySelector('#decision-retry')?.addEventListener('click', load);
+  const refresh = () => {
+    if (!pointer && !confirmingId && Date.now() - lastLoadedAt > 30000) void load();
+  };
+  window.addEventListener('focus', refresh);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') refresh(); });
+  window.addEventListener('storage', event => {
+    if (event.key !== DEVICE_KEY && event.key !== null) return;
+    deviceChoices = readDeviceChoices();
+    updateChoices();
+    if (!pointer && !writing) render();
+  });
+  toggle?.addEventListener('click', () => setOpen(!isOpen));
+  document.querySelectorAll('a[href="#decisions"]').forEach(link => link.addEventListener('click', () => setOpen(true)));
+  window.addEventListener('hashchange', () => { if (location.hash === '#decisions') setOpen(true); });
+  setOpen(isOpen);
+  status.textContent = canSave() ? `选择保存到${saveScope()}` : '正在核对云端权限…';
+  updateChoices();
   render();
+  void loadDecisionCompanyData().then(details => {
+    companyData = details;
+    // Only hydrate the new read-only panel and links. Keep current inputs,
+    // confirmation, and any active swipe on the existing card untouched.
+    const panel = root.querySelector('[data-company-context]');
+    const op = data.opportunities.find(candidate => candidate.id === panel?.dataset.companyContext);
+    if (op) panel.innerHTML = renderDecisionCompany(op,companyData);
+    root.querySelectorAll('[data-conflict-company]').forEach(link => {
+      link.innerHTML = renderCompanyCompareLink(link.dataset.conflictCompany,companyData);
+    });
+  });
   await load();
 }
 
 export function appendDecisionDetail(op, container) {
-  if (op.decisionEligible === false) return;
-  const protection = decisionProtection(op,tokyoToday());
-  const saved = currentChoices.find(c=>c.id===op.id);
+  if (!canDecide(op, tokyoToday())) return;
+  const saved = currentChoices.find(choice => choice.id === op.id);
   const box = document.createElement('section');
   box.className = 'detail-section decision-detail';
-  box.innerHTML = `<h3>参与意向</h3>${protection.protected
-    ? `<p class="decision-protection">此项目受保护：${esc(protection.reason)}。状态不会被参与意向覆盖。</p>`
-    : `<p class="decision-detail-current">${esc(saved ? ({interested:'想参加（已记录为意向）',declined:'不参加（已记录）',later:'再想想（已记录）'}[saved.choice] || '尚未选择') : '尚未选择')}</p>
-       <p class="decision-detail-tip">选择只记录意向，不改变报名状态。未提交候选选择“不参加”后会从计划视图隐藏；已提交、已受理或已预约安排会保留。</p>
-       <p><a href="#decisions" data-go-decisions>前往待你决定卡片选择场次</a></p>
-       <div class="decision-actions"><button type="button" data-detail-choice="declined" ${!currentCanEdit?'disabled':''}>不参加</button><button type="button" data-detail-choice="later" ${!currentCanEdit?'disabled':''}>再想想</button><button type="button" data-detail-choice="interested" ${!currentCanEdit?'disabled':''}>想参加</button></div>`}`;
-  box.addEventListener('click',e=>{const link=e.target.closest('[data-go-decisions]');if(link){e.preventDefault();container.closest('dialog')?.close();const content=document.querySelector('#decisions-content'),toggle=document.querySelector('#decisions-toggle');if(content)content.hidden=false;if(toggle){toggle.setAttribute('aria-expanded','true');toggle.textContent='收起待决定';}location.hash='#decisions';requestAnimationFrame(()=>document.querySelector('#decisions')?.scrollIntoView({behavior:'smooth'}));return;}const b=e.target.closest('[data-detail-choice]');if(b&&saveChoiceFn){e.stopPropagation();saveChoiceFn(op.id,b.dataset.detailChoice).then(ok=>{if(ok){const line=box.querySelector('.decision-detail-current');if(line){const choice=currentChoices.find(c=>c.id===op.id);line.textContent=choice?({interested:'想参加（已记录为意向）',declined:'不参加（已记录）',later:'再想想（已记录）'}[choice.choice]||'尚未选择'):'尚未选择';}}});}});
+  box.innerHTML = `<h3>我的选择</h3><p>${typeTag(opportunityType(op))} ${esc(choiceLabel(saved?.choice, op))}${saved ? ' · 已保存' : ''}</p><p><a href="#decisions">查看场次、时间冲突并选择</a></p>`;
+  box.querySelector('a').addEventListener('click', event => {
+    event.preventDefault();
+    container.closest('dialog')?.close();
+    openChoiceCard?.(op.id);
+    location.hash = '#decisions';
+    document.querySelector('#decisions')?.scrollIntoView({block:'start'});
+  });
   container.append(box);
 }

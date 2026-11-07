@@ -2,28 +2,63 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f2f4f8">
   <title>求职日历 · 2028</title>
   <link rel="stylesheet" href="./style.css?v=20261107a">
-  <link rel="stylesheet" href="./compensation.css?v=20261106b">
-  <link rel="stylesheet" href="./decisions.css?v=20261107c">
+  <link rel="stylesheet" href="./compensation.css?v=20261107-clarity">
+  <link rel="stylesheet" href="./decisions.css?v=20261107-clarity">
+  <link rel="stylesheet" href="./navigation.css?v=20261107-clarity">
 </head>
 <body>
   <div class="app-shell">
+    <a class="skip-link" href="#schedule-view-title">跳到当前内容</a>
     <header class="masthead">
       <a class="brand" href="#top" aria-label="求职日历首页"><span class="brand-mark">日</span><span><b>求职日历</b><small>DESIGN CAREER</small></span></a>
       <div class="header-right"><a class="pay-shortcut" href="#compensation">薪酬对照</a><span class="tz">东京时间 <i>JST</i></span><span class="live-dot"></span><span id="today-label"></span></div>
     </header>
-    <nav class="section-nav" aria-label="页面快捷导航">
-      <a href="#decisions">待你决定</a><a href="#actions-section">近期重点</a><a href="#calendar-section">日历</a><a href="#timeline-section">项目时间轴</a><a href="#compensation">公司待遇</a><a href="#top" class="nav-top" aria-label="回到顶部">↑ 顶部</a>
-    </nav>
     <main id="top">
-      <section class="intro">
-        <div><p class="eyebrow">2028 届 · 设计求职</p><h1>我的日程</h1><p class="intro-copy">求职、学校与兼职，一起核对时间</p></div>
+      <section id="schedule" class="app-view" data-app-panel="schedule" aria-labelledby="schedule-view-title">
+        <section class="intro">
+        <div><p class="eyebrow">2028 届 · 设计求职</p><h1 id="schedule-view-title" tabindex="-1">日程</h1><p class="intro-copy">求职、学校与兼职，一起核对时间</p></div>
         <div class="intro-aside"><strong id="hero-count">—</strong><p>项近期行动<br><span>截止、已约与待确认</span></p></div>
       </section>
-      <section class="filters" aria-label="筛选机会">
+        <div class="view-shortcuts" aria-label="日程快捷入口"><a href="#actions-section">近期重点</a><a href="#calendar-section">查看日历</a><a href="#weekly-section">学校与兼职</a><a href="#conflicts-section">时间提醒</a></div>
+        <div id="schedule-filter-notice" class="schedule-filter-notice" hidden><span id="schedule-filter-label">已按项目筛选显示日程</span><a href="#projects">修改筛选</a><button type="button" data-clear-project-filters>清除筛选</button></div>
+        <div class="schedule-layout">
+          <section id="calendar-section" class="panel calendar-panel" aria-labelledby="calendar-title">
+            <div class="panel-heading"><div><h2 id="calendar-title">日历</h2><p class="panel-desc">查看活动与各项截止时间</p></div><div class="view-toggle" role="group" aria-label="日历视图"><button class="active" data-view="month">月</button><button data-view="week">周</button></div></div>
+            <div class="calendar-toolbar"><div class="date-nav"><button id="prev" aria-label="上一个时间段">←</button><strong id="calendar-period"></strong><button id="next" aria-label="下一个时间段">→</button><button id="today">今天</button></div><div class="legend" aria-label="日历标记说明"><span class="legend-badge mark-confirmed">已确认</span><span class="legend-badge mark-deadline">截止</span><span class="legend-badge mark-pending">待确认</span><span class="legend-badge mark-conditional">合格后占用</span><span class="legend-badge mark-open">开放</span><span class="legend-badge mark-completed">已办</span></div></div>
+            <div id="calendar" class="calendar" aria-live="polite"></div>
+          </section>
+          <section id="actions-section" class="panel actions-panel"><div class="panel-heading"><div><h2>近期行动</h2><p class="panel-desc">14 天内截止 · 全部未来已确认安排</p></div></div><div id="actions"></div></section>
+        </div>
+        <div class="schedule-support">
+          <section id="weekly-section" class="panel weekly-panel" aria-labelledby="weekly-title">
+        <div class="panel-heading"><div><h2 id="weekly-title">学校与兼职</h2><p class="panel-desc">上课前后各留1小时通勤；兼职可兼顾线上说明会</p></div><label class="schedule-toggle"><input type="checkbox" id="schedule-toggle" checked> 显示在日历</label></div>
+        <div id="weekly-schedule" class="weekly-schedule"></div>
+        <p class="schedule-note">笔试、面试、实习及需要到场的活动：先确认能否调班。固定安排按通常每周显示，假期或临时变化另行调整。</p>
+      </section>
+          <section id="conflicts-section" class="panel conflicts-panel"><div class="panel-heading"><div><h2>时间与调班提醒</h2><p class="panel-desc">未来45天 · 含上课、兼职、待录取实习和缓冲</p></div></div><div id="conflicts"></div></section>
+        </div>
+        <div class="footnote"><span>◎</span><p>信息以各项目来源及个人 MyPage 为准。<br>点击项目可查看记录和下一步。</p></div>
+      </section>
+      <section id="decisions-view" class="app-view" data-app-panel="decisions" aria-labelledby="decisions-view-title" hidden inert>
+        <header class="view-heading"><p class="eyebrow">一个项目，一个决定</p><h1 id="decisions-view-title" tabindex="-1">决定</h1><p>先看要决定什么，再看场次与冲突。</p></header>
+        <section id="decisions" class="panel decisions-panel" aria-labelledby="decisions-title">
+        <div class="panel-heading"><div><h2 id="decisions-title">待你决定</h2><p class="panel-desc">只记录参与意向，不会自动报名或改动既有安排</p></div><div class="decision-heading-actions"><span id="decision-status" role="status" aria-live="polite">正在读取选择…</span><button id="decision-retry" type="button">重试</button><button id="decisions-toggle" hidden class="section-toggle" type="button" aria-expanded="false" aria-controls="decisions-content">展开待决定</button></div></div>
+        <div id="decisions-content" class="decisions-content" hidden>
+          <div id="decision-access"></div>
+          <p class="decision-gesture-help">左滑记为不参加，右滑先核对场次。也可点按钮或用键盘方向键。</p>
+          <details class="decision-workflow"><summary>选完以后，怎样继续办理？</summary><ol><li><b>你保存意向。</b>云端保存成功后，才可跨设备读取。</li><li><b>我核查。</b>本机任务在9:00–23:00每两小时的下一个可运行时点读取；电脑未运行时会延后。选完不会即时启动申请。</li><li><b>你确认具体操作。</b>我在本聊天给出场次、冲突、重投限制、邮件或表单内容。你可以先听会、等开放，或另定投递日期。</li><li><b>我办理并核回执。</b>收到明确确认后，才发送或提交。申请受理、待结果、录取和预约分别记录。</li></ol><p>网页目前显示意向及已有申请状态；核查进度和操作确认在本聊天中反馈。</p></details>
+          <div id="decision-list" class="decision-list"></div>
+        </div>
+      </section>
+      </section>
+      <section id="projects" class="app-view" data-app-panel="projects" aria-labelledby="projects-view-title" hidden inert>
+        <header class="view-heading"><p class="eyebrow">申请进度与时间节点</p><h1 id="projects-view-title" tabindex="-1">项目</h1><p>按公司、类别和进度筛选，查看完整时间轴。</p></header>
+        <p class="filter-scope-note">这里的筛选也会应用到日程。<a href="#schedule">返回日程查看</a></p>
+        <section id="project-filters" class="filters" aria-label="筛选机会">
         <div class="category-filter" id="category-filter">
           <button class="chip active" data-category="all">全部 <span id="total-count"></span></button>
           <button class="chip" data-category="activity"><i class="dot activity"></i>说明会／反馈</button>
@@ -33,26 +68,7 @@
         </div>
         <div class="filter-controls"><label><span>公司</span><input id="company-filter" type="search" placeholder="搜索公司或项目"></label><label><span>状态</span><select id="status-filter"><option value="all">全部状态</option></select></label><label><span>进度</span><select id="progress-filter"><option value="all">全部进度</option><option value="confirmed">已预约／确认</option><option value="planned">候选／计划</option><option value="submitted">已提交／待结果</option></select></label><button class="reset" id="reset-filters">重置</button></div>
       </section>
-      <section id="decisions" class="panel decisions-panel" aria-labelledby="decisions-title">
-        <div class="panel-heading"><div><h2 id="decisions-title">待你决定</h2><p class="panel-desc">只记录参与意向，不会自动报名或改动既有安排</p></div><div class="decision-heading-actions"><span id="decision-status" role="status" aria-live="polite">正在读取选择…</span><button id="decision-retry" type="button">重试</button><button id="decisions-toggle" class="section-toggle" type="button" aria-expanded="false" aria-controls="decisions-content">展开待决定</button></div></div>
-        <div id="decisions-content" class="decisions-content" hidden>
-          <div id="decision-access"></div>
-          <p class="decision-gesture-help">桌面：← 不参加 / → 想参加；手机：向左滑不参加、向右滑想参加。页面仍可上下滚动，也可使用按钮或键盘方向键。每张卡片可选具体场次。</p>
-          <div id="decision-list" class="decision-list"></div>
-        </div>
-      </section>
-      <section class="panel weekly-panel" aria-labelledby="weekly-title">
-        <div class="panel-heading"><div><h2 id="weekly-title">学校与兼职</h2><p class="panel-desc">上课前后各留1小时通勤；兼职可兼顾线上说明会</p></div><label class="schedule-toggle"><input type="checkbox" id="schedule-toggle" checked> 显示在日历</label></div>
-        <div id="weekly-schedule" class="weekly-schedule"></div>
-        <p class="schedule-note">笔试、面试、实习及需要到场的活动：先确认能否调班。固定安排按通常每周显示，假期或临时变化另行调整。</p>
-      </section>
-      <div class="content-grid">
-        <section class="main-column">
-          <section id="calendar-section" class="panel calendar-panel" aria-labelledby="calendar-title">
-            <div class="panel-heading"><div><h2 id="calendar-title">日历</h2><p class="panel-desc">查看活动与各项截止时间</p></div><div class="view-toggle" role="group" aria-label="日历视图"><button class="active" data-view="month">月</button><button data-view="week">周</button></div></div>
-            <div class="calendar-toolbar"><div class="date-nav"><button id="prev" aria-label="上一个时间段">←</button><strong id="calendar-period"></strong><button id="next" aria-label="下一个时间段">→</button><button id="today">今天</button></div><div class="legend" aria-label="日历标记说明"><span class="legend-badge mark-confirmed">已确认</span><span class="legend-badge mark-deadline">截止</span><span class="legend-badge mark-pending">待确认</span><span class="legend-badge mark-conditional">合格后占用</span><span class="legend-badge mark-open">开放</span><span class="legend-badge mark-completed">已办</span></div></div>
-            <div id="calendar" class="calendar" aria-live="polite"></div>
-          </section>
+        <div class="projects-layout">
           <section id="timeline-section" class="panel timeline-panel" aria-labelledby="timeline-title">
             <div class="panel-heading"><div><h2 id="timeline-title">项目时间轴</h2><p id="timeline-summary" class="panel-desc" aria-live="polite">已确认安排和临近截止优先</p></div><button id="timeline-toggle" class="section-toggle" type="button" aria-expanded="false" aria-controls="timeline-content">展开时间轴</button></div>
             <div id="timeline-preview" class="timeline-preview"></div>
@@ -64,15 +80,12 @@
               <p class="timeline-hint">左右滑动查看日期；展开单个项目看完整节点，点击名称查看详情。</p>
             </div>
           </section>
-          <section class="panel unknown-panel" aria-labelledby="unknown-title"><div class="panel-heading"><div><h2 id="unknown-title">待核对</h2><p class="panel-desc">尚未确定日期、期限或状态的信息</p></div><span class="count-badge" id="unknown-count">0</span></div><div id="unknown-list"></div></section>
-        </section>
-        <aside class="side-column">
-          <section id="actions-section" class="panel actions-panel"><div class="panel-heading"><div><h2>近期行动</h2><p class="panel-desc">14 天内截止 · 全部未来已确认安排</p></div></div><div id="actions"></div></section>
-          <section class="panel conflicts-panel"><div class="panel-heading"><div><h2>时间与调班提醒</h2><p class="panel-desc">未来45天 · 含上课、兼职、待录取实习和缓冲</p></div></div><div id="conflicts"></div></section>
-          <div class="footnote"><span>◎</span><p>信息以各项目来源及个人 MyPage 为准。<br>点击项目可查看记录和下一步。</p></div>
-        </aside>
-      </div>
-      <section id="compensation" class="panel pay-panel" aria-labelledby="pay-title">
+          <section id="unknown-section" class="panel unknown-panel" aria-labelledby="unknown-title"><div class="panel-heading"><div><h2 id="unknown-title">待核对</h2><p class="panel-desc">尚未确定日期、期限或状态的信息</p></div><span class="count-badge" id="unknown-count">0</span></div><div id="unknown-list"></div></section>
+        </div>
+      </section>
+      <section id="companies" class="app-view" data-app-panel="companies" aria-labelledby="companies-view-title" hidden inert>
+        <header class="view-heading"><p class="eyebrow">待遇与工作方式</p><h1 id="companies-view-title" tabindex="-1">公司</h1><p>对照入职待遇、实习报酬与员工评价。</p></header>
+        <section id="compensation" class="panel pay-panel" aria-labelledby="pay-title">
         <div class="panel-heading">
           <div><h2 id="pay-title">公司待遇与评价</h2><p class="panel-desc">官方招聘条件与员工评价分开看。金额为税前日元，年收口径和适用届别见明细。</p></div>
           <span id="pay-date" class="pay-date"></span>
@@ -97,10 +110,19 @@
         <div id="pay-results"></div>
         <button id="pay-more" class="pay-more" type="button" hidden></button>
       </section>
+      </section>
     </main>
     <footer><span>JOB SEARCH PLANNER <b> / </b> 2028</span><span id="updated-label">本地数据</span></footer>
+    <nav class="section-nav app-navigation" aria-label="主要导航">
+      <a href="#schedule" data-app-view="schedule" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 3v4M17 3v4M3 10h18M7 14h3M14 14h3M7 18h3"/></svg><span>日程</span></a>
+      <a href="#decisions" data-app-view="decisions"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="16" height="18" rx="3"/><path d="M2 7v11a3 3 0 0 0 3 3M9 12l3 3 5-6"/></svg><span>决定</span></a>
+      <a href="#projects" data-app-view="projects"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M3 9h18M8 4v17M12 13h5M12 17h3"/></svg><span>项目</span></a>
+      <a href="#compensation" data-app-view="companies"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v15M16 10h3a2 2 0 0 1 2 2v9M2 21h20M8 8h4M8 12h4M8 16h4"/></svg><span>公司</span></a>
+    </nav>
+    <p id="view-announcement" class="sr-only" role="status" aria-live="polite"></p>
   </div>
   <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button class="close-dialog" aria-label="关闭">×</button><div id="detail-content"></div></div></dialog>
-  <script type="module" src="./app.js?v=20261107c"></script>
+  <script type="module" src="./navigation.js?v=20261107-clarity"></script>
+  <script type="module" src="./app.js?v=20261107-clarity"></script>
 </body>
 </html>

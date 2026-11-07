@@ -1,4 +1,12 @@
 // Pure rules shared by the browser UI and the Sites Worker.
+export function sessionChoiceMode(opportunity) {
+  if (opportunity?.sessionModel?.mode) return opportunity.sessionModel.mode;
+  if ((opportunity?.registrationSessions || []).length > 1) return 'choose_one';
+  const events = (opportunity?.milestones || []).filter(m => m.type === 'event');
+  // A project timeline is not a set of alternative appointments.
+  return events.length > 1 ? 'project_schedule' : 'single';
+}
+
 export function decisionProtection(opportunity, today = new Date().toISOString().slice(0, 10)) {
   const sessions = Array.isArray(opportunity?.registrationSessions) ? opportunity.registrationSessions : [];
   const status = [opportunity?.status,opportunity?.statusDetail,...sessions.map(s=>`${s.bookingStage||''} ${s.registrationStatus||''}`)].join(' ');

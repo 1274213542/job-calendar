@@ -1,0 +1,166 @@
+{
+  "asOf": "2026-11-07",
+  "note": "项目报酬、选考流程与公司入职待遇分开。倍率仅采用相同届别、岗位、批次的可靠统计；计划名额不是实际录取人数。",
+  "projects": [
+    {
+      "id": "opp-bc35483533",
+      "internPay": "未核到日薪／时薪。按公司规定支付日本国内往返交通；通勤困难者提供含早餐住宿，并提供实习午餐。",
+      "internPayScope": "本课程公开要项；未公布工资不等于无薪。",
+      "selectionProcess": "ES＋WEB测试＋作品集＋成绩单 → 书类结果最晚2026-12-18 → 参加实习并接受实习内评审 → 通过评审者于2027-02-18或02-19到浜松面试",
+      "selectionRate": null,
+      "selectionRateNote": "当期官方页未公开对应申请人数与实际录取人数，不能计算倍率。",
+      "requirementsNote": "作品集PDF＜10MB、建议＜20页；成绩证明＜10MB，无法取得时可用成绩通知表等。 公开流程未列参加前面试；不能保证不会另行通知。",
+      "fitNote": "方向判断：四轮GUI直接涉及车载界面；需适应汽车交互场景，不把其他工业造型分支视作同一课程。",
+      "checkedAt": "2026-11-07",
+      "sources": [
+        {
+          "label": "四轮设计实习当期原始要项",
+          "url": "https://www.design-recruit.suzuki.co.jp/event/info/2027design-practice-car.html"
+        },
+        {
+          "label": "设计招聘FAQ",
+          "url": "https://www.design-recruit.suzuki.co.jp/faq/"
+        }
+      ]
+    },
+    {
+      "id": "opp-8bb33b8b33",
+      "internPay": "未核到日薪／时薪。按规定承担交通和活动时段餐食；通勤困难者提供住宿及餐费补助。",
+      "internPayScope": "本课程公开要项；未公布工资不等于无薪。",
+      "selectionProcess": "MyPage＋选择UI/UX课程＋提交课程作品集 → 応募者多时按提交课题书类筛选 → 2027-02-15前邮件告知参加可否 → 参加确定后需适性检查、作文及事前课题",
+      "selectionRate": null,
+      "selectionRateNote": "当期官方页未公开对应申请人数与实际录取人数，不能计算倍率。",
+      "requirementsNote": "含数字视觉作品、附思考过程的数字作品、个人介绍的单个PDF＜10MB；视频非必交。 公开流程未列面试；未证明绝不会面试。",
+      "fitNote": "方向判断：车载UI/UX课程，作品需表现数字视觉与设计思考过程。",
+      "checkedAt": "2026-11-07",
+      "sources": [
+        {
+          "label": "Honda春季设计实习当期要项",
+          "url": "https://global.honda/jp/jobs/design/internship/"
+        }
+      ]
+    },
+    {
+      "id": "sony-creative-spring-2027-uiux",
+      "internPay": "公开当期要项未列工资。按规定补助交通并安排住宿，海外往返机票不在补助内。",
+      "internPayScope": "本课程公开要项；未公布工资不等于无薪。",
+      "selectionProcess": "申请登记 → 另交作品集，收到规定资料才算完成申请 → 2027-01-08前通知选考结果",
+      "selectionRate": null,
+      "selectionRateNote": "公开约10个计划名额，但没有UI/UX独立名额、申请总数或实际录取人数，无法计算该方向倍率。",
+      "requirementsNote": "PDF＜30MB；自我介绍1–2页＋3–5件作品；标明团队分工和AI使用。 当期公开页未写面试环节；不以一般正社员多轮面试代替工作坊流程。",
+      "fitNote": "方向判断：UI/UX与传播设计可分别比较；约10人是三个方向合计，工业设计不自动纳入个人方向。",
+      "checkedAt": "2026-11-07",
+      "sources": [
+        {
+          "label": "Spring2027工作坊完整要项",
+          "url": "https://www.sony.com/ja/SonyInfo/design/career/recruiting_newgrads/"
+        },
+        {
+          "label": "工作坊当期条款",
+          "url": "https://www.sony.com/ja/SonyInfo/design/career/studentworkshop/terms.html"
+        }
+      ]
+    },
+    {
+      "id": "opp-55915b0015",
+      "internPay": "参加免费，前往会场费用本人承担；未公布参加报酬。免费参加不等于公司支付工资。",
+      "internPayScope": "本课程公开要项；未公布工资不等于无薪。",
+      "selectionProcess": "本轮只重新核实活动概要与约20人计划名额。此前归档的履历筛选、线上面试、SPI流程尚未在本轮重读ATS；具体手续请以当期通知为准。",
+      "selectionRate": null,
+      "selectionRateNote": "公司发布页列约20名计划名额；Wantedly显示的6人Entry只是该平台局部数，不能作总申请分母。",
+      "requirementsNote": "公司活动页确认12/5场次。原ATS正文此次读取受限；不将一般正社员选考流程套入本次1Day。",
+      "fitNote": "方向判断：短期UX课题实践，与11/19说明会及正式本选考分别判断。",
+      "checkedAt": "2026-11-07",
+      "sources": [
+        {
+          "label": "Goodpatch官方新卒活动索引",
+          "url": "https://careers.goodpatch.com/newgraduate/"
+        },
+        {
+          "label": "公司发布UX1Day概要",
+          "url": "https://www.wantedly.com/projects/2596345"
+        }
+      ]
+    },
+    {
+      "id": "selection-goodpatch-term2",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "UI/UX：履历＋作品集，可能追加课题 → 服务设计师：履历＋个人work（现有app/web的UX/UI改善提案） → 一次及二次面试线上 → 最终面试原则到场，含作品/个人work说明 → offer面谈",
+      "selectionRate": null,
+      "selectionRateNote": "当期官方页未公开对应申请人数与实际录取人数，不能计算倍率。",
+      "requirementsNote": "官方流程2026-02-26更新，当前28卒网站链接；个别候选的顺序和次数可能调整。 不适用：本选考需要面试，不是投简历即可。",
+      "fitNote": "方向判断：UI/UX偏作品集，服务设计偏问题研究与改善提案；按申请分支准备。",
+      "checkedAt": "2026-11-07",
+      "sources": [
+        {
+          "label": "官方按职种选考流程",
+          "url": "https://careers.goodpatch.com/newgraduate/process/process/"
+        }
+      ]
+    },
+    {
+      "id": "opp-06123c2f49",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "Entry材料 → Web适性检查 → 书类筛选 → 一次、二次、最终面试 → 内定面谈",
+      "selectionRate": null,
+      "selectionRateNote": "当期官方页未公开对应申请人数与实际录取人数，不能计算倍率。",
+      "requirementsNote": "两职种均交履历＋设计解决问题课题；传播设计必交自我PR资料（如作品集），开放职种该项选交；二次选考另要成绩证明。",
+      "fitNote": "方向判断：传播设计可包含Web和数字产品，开放职种的初始配属另行商议，不能保证UI/UX。",
+      "checkedAt": "2026-11-07",
+      "sources": [
+        {
+          "label": "28卒传播设计职位",
+          "url": "https://hrmos.co/pages/concent/jobs/2301529019589464067"
+        },
+        {
+          "label": "28卒开放职种",
+          "url": "https://hrmos.co/pages/concent/jobs/2301529019589464066"
+        }
+      ]
+    },
+    {
+      "id": "mcd3-uiux-designer-2028",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "Entry → 公司说明会（预约时选择课程） → 书类/作品集筛选 → 线上一次、二次面试 → groupwork → 线下最终面试＋适性检查 → 内定",
+      "selectionRate": null,
+      "selectionRateNote": "只公开若干名，没有准确计划数、有效申请数或实际录取数。",
+      "requirementsNote": "公司认证ONE CAREER当届UI/UX课程，预计两个月内；最终面试远方交通实费支给，住宿不支给。 不适用：正社员选考明确多轮面试。",
+      "fitNote": "方向判断：B2B／B2B2C产品、用户研究、交互与界面设计；先确认UI/UX专属说明会。",
+      "checkedAt": "2026-11-07",
+      "sources": [
+        {
+          "label": "官方ATS现行职位目录",
+          "url": "https://mcd3-recruit.snar.jp/index.aspx"
+        },
+        {
+          "label": "公司认证28卒UI/UX募集课程",
+          "url": "https://www.onecareer.jp/companies/98036/recruitment_courses/1548"
+        }
+      ]
+    },
+    {
+      "id": "brother-design-2028-preregistration",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "目前是预登记；28卒设计正式流程及材料待公布后核实。",
+      "selectionRate": null,
+      "selectionRateNote": "当期官方页未公开对应申请人数与实际录取人数，不能计算倍率。",
+      "requirementsNote": "当前28卒设计专用正式要项／当期材料待公布或进一步核实。",
+      "fitNote": "方向判断：设计部包含UI/UX、服务、图形和品牌；具体配属与28卒正式募集条件待公布。",
+      "checkedAt": "2026-11-07",
+      "sources": [
+        {
+          "label": "Brother设计招聘页",
+          "url": "https://www.brother.co.jp/corporate/design/recruit/index.aspx"
+        },
+        {
+          "label": "一般新卒要项及历史入社数",
+          "url": "https://www.brother.co.jp/corporate/bil/recruit/portal/gradu/information/index.aspx"
+        }
+      ]
+    }
+  ]
+}

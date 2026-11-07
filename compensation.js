@@ -285,6 +285,15 @@ export async function mountCompensation(opportunities) {
     if (!button || button.dataset.mode === mode) return;
     setMode(button.dataset.mode);
   });
+  document.addEventListener('click', event => {
+    const link = event.target.closest('[data-compare-company]');
+    if (!link) return;
+    const employer = employers.find(item => item.name === link.dataset.compareCompany);
+    if (!employer) return;
+    filter.value = 'all';
+    search.value = employer.name;
+    setMode('employment');
+  });
   more.addEventListener('click', () => {
     limit += PAGE_SIZE;
     render(false);

@@ -220,7 +220,11 @@
           "label": "神户场",
           "endDate": "2026-11-27T17:00"
         }
-      ]
+      ],
+      "sessionModel": {
+        "mode": "choose_one",
+        "note": "不同地点的候选场；需另核报名与到场条件"
+      }
     },
     {
       "id": "opp-156343f8d1",
@@ -389,7 +393,11 @@
           "label": "候选：实习",
           "endDate": "2027-02-04"
         }
-      ]
+      ],
+      "sessionModel": {
+        "mode": "project_schedule",
+        "note": "1/13导入＋1/27–2/4实习是同一项目的两个阶段，不是二选一。"
+      }
     },
     {
       "id": "opp-bd307ddfdc",
@@ -2334,7 +2342,23 @@
           "date": "2026-11-30",
           "label": "官网秋冬term截止，时刻未公布"
         }
-      ]
+      ],
+      "reapplication": {
+        "status": "allowed_while_recruiting",
+        "summary": "可以再次応募。28卒官方说明：全term不限次数，仍有募集就可以再投。",
+        "scope": "适用于28卒开放职种与传播设计职种；未列书类或面试落选例外。下一轮是否继续开放仍看公司募集，不保证一直有名额。",
+        "sources": [
+          {
+            "label": "28卒开放职种",
+            "url": "https://hrmos.co/pages/concent/jobs/2301529019589464066"
+          },
+          {
+            "label": "28卒传播设计",
+            "url": "https://hrmos.co/pages/concent/jobs/2301529019589464067"
+          }
+        ],
+        "checkedAt": "2026-11-07"
+      }
     },
     {
       "id": "opp-bc7e730330",
@@ -2538,7 +2562,23 @@
           "date": "2026-11-29",
           "label": "报名截止"
         }
-      ]
+      ],
+      "reapplication": {
+        "status": "conditional_scope_pending",
+        "summary": "书类落选可以再投；面试落选可能限制同年度、同岗位重投，28卒适用情况需确认。",
+        "scope": "官方FAQ按落选阶段区分：书类可重投，面试落选同年度同course请勿再投。FAQ更新2026/2/26且页尾残留27卒；28卒公告泛称各term可重复，未明确覆盖面试落选。投递前先确认；实习落选是否影响本选考也未明示。",
+        "sources": [
+          {
+            "label": "官方再応募FAQ",
+            "url": "https://careers.goodpatch.com/newgraduate/process/faq/"
+          },
+          {
+            "label": "28卒募集公告",
+            "url": "https://goodpatch.com/ja/news/202609_newgraduates2028"
+          }
+        ],
+        "checkedAt": "2026-11-07"
+      }
     },
     {
       "id": "selection-goodpatch-term3",
@@ -4936,7 +4976,11 @@
           "nextAction": "两场同内容，只需选一场；提交登记后再核回执。"
         }
       ],
-      "nextAction": "两场内容相同，择一即可；11/17 17–18与Sony候选18点零缓冲，11/26 19点与Leverages候选结束同刻。先确认选择，再通过该场Teams登记。"
+      "nextAction": "两场内容相同，择一即可；11/17 17–18与Sony候选18点零缓冲，11/26 19点与Leverages候选结束同刻。先确认选择，再通过该场Teams登记。",
+      "sessionModel": {
+        "mode": "choose_one",
+        "note": "两场内容相同，只需选一场"
+      }
     },
     {
       "id": "toyota-design-internship-spring-2027",
@@ -4981,7 +5025,11 @@
       ],
       "checkedAt": "2026-11-06",
       "status": "公开招聘／活动信息",
-      "statusDetail": "公司预告／尚未开始受理。"
+      "statusDetail": "公司预告／尚未开始受理。",
+      "sessionModel": {
+        "mode": "project_schedule",
+        "note": "1/31入住＋2/1–12实习是连续安排，不是两个任选场次。"
+      }
     },
     {
       "id": "mcd3-uiux-designer-2028",
@@ -5031,7 +5079,19 @@
           "nextAction": "先核仅登记说明会的路径与场次，不用事业开发活动代替设计说明会。"
         }
       ],
-      "decisionContext": "希望先听28卒UI/UX说明会；具体设计场次尚未核到，不能以事业开发活动替代。"
+      "decisionContext": "希望先听28卒UI/UX说明会；具体设计场次尚未核到，不能以事业开发活动替代。",
+      "reapplication": {
+        "status": "unknown",
+        "summary": "尚未核到重投规则。正式投递前，需确认同届落选后能否再投及有无等待期。",
+        "scope": "当前28卒UI/UX官方岗位未公布落选后的再応募、次数、冷却期。Entry或听说明会是否占用机会也未确认。",
+        "sources": [
+          {
+            "label": "28卒官方UI/UX岗位",
+            "url": "https://mcd3-recruit.snar.jp/jobboard/detail.aspx?id=iEzyj3eZH3k"
+          }
+        ],
+        "checkedAt": "2026-11-07"
+      }
     },
     {
       "id": "brother-design-2028-preregistration",
