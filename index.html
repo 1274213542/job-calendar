@@ -7,6 +7,7 @@
   <title>求职日历 · 2028</title>
   <link rel="stylesheet" href="./style.css?v=20261107a">
   <link rel="stylesheet" href="./compensation.css?v=20261106b">
+  <link rel="stylesheet" href="./decisions.css?v=20261107c">
 </head>
 <body>
   <div class="app-shell">
@@ -15,7 +16,7 @@
       <div class="header-right"><a class="pay-shortcut" href="#compensation">薪酬对照</a><span class="tz">东京时间 <i>JST</i></span><span class="live-dot"></span><span id="today-label"></span></div>
     </header>
     <nav class="section-nav" aria-label="页面快捷导航">
-      <a href="#actions-section">近期重点</a><a href="#calendar-section">日历</a><a href="#timeline-section">项目时间轴</a><a href="#compensation">公司待遇</a><a href="#top" class="nav-top" aria-label="回到顶部">↑ 顶部</a>
+      <a href="#decisions">待你决定</a><a href="#actions-section">近期重点</a><a href="#calendar-section">日历</a><a href="#timeline-section">项目时间轴</a><a href="#compensation">公司待遇</a><a href="#top" class="nav-top" aria-label="回到顶部">↑ 顶部</a>
     </nav>
     <main id="top">
       <section class="intro">
@@ -31,6 +32,14 @@
           <button class="chip" data-category="personal"><i class="dot personal"></i>个人安排／待结果</button>
         </div>
         <div class="filter-controls"><label><span>公司</span><input id="company-filter" type="search" placeholder="搜索公司或项目"></label><label><span>状态</span><select id="status-filter"><option value="all">全部状态</option></select></label><label><span>进度</span><select id="progress-filter"><option value="all">全部进度</option><option value="confirmed">已预约／确认</option><option value="planned">候选／计划</option><option value="submitted">已提交／待结果</option></select></label><button class="reset" id="reset-filters">重置</button></div>
+      </section>
+      <section id="decisions" class="panel decisions-panel" aria-labelledby="decisions-title">
+        <div class="panel-heading"><div><h2 id="decisions-title">待你决定</h2><p class="panel-desc">只记录参与意向，不会自动报名或改动既有安排</p></div><div class="decision-heading-actions"><span id="decision-status" role="status" aria-live="polite">正在读取选择…</span><button id="decision-retry" type="button">重试</button><button id="decisions-toggle" class="section-toggle" type="button" aria-expanded="false" aria-controls="decisions-content">展开待决定</button></div></div>
+        <div id="decisions-content" class="decisions-content" hidden>
+          <div id="decision-access"></div>
+          <p class="decision-gesture-help">桌面：← 不参加 / → 想参加；手机：向左滑不参加、向右滑想参加。页面仍可上下滚动，也可使用按钮或键盘方向键。每张卡片可选具体场次。</p>
+          <div id="decision-list" class="decision-list"></div>
+        </div>
       </section>
       <section class="panel weekly-panel" aria-labelledby="weekly-title">
         <div class="panel-heading"><div><h2 id="weekly-title">学校与兼职</h2><p class="panel-desc">上课前后各留1小时通勤；兼职可兼顾线上说明会</p></div><label class="schedule-toggle"><input type="checkbox" id="schedule-toggle" checked> 显示在日历</label></div>
@@ -92,6 +101,6 @@
     <footer><span>JOB SEARCH PLANNER <b> / </b> 2028</span><span id="updated-label">本地数据</span></footer>
   </div>
   <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button class="close-dialog" aria-label="关闭">×</button><div id="detail-content"></div></div></dialog>
-  <script type="module" src="./app.js?v=20261107a"></script>
+  <script type="module" src="./app.js?v=20261107c"></script>
 </body>
 </html>

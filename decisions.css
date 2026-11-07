@@ -1,0 +1,56 @@
+#decisions{scroll-margin-top:76px}
+.decision-heading-actions{display:flex;align-items:center;justify-content:flex-end;gap:7px;flex-wrap:wrap}
+#decision-status{font-size:11px;color:#586b83;max-width:280px}
+#decision-retry{border:0;border-radius:7px;background:#edf1f7;padding:8px 10px;color:#344b6b;font-size:11px;font-weight:750}
+.decisions-content[hidden]{display:none!important}
+.decision-access-note,.decision-gesture-help{margin:12px 0;color:#5f6f84;font-size:12px;line-height:1.55}
+.decision-access-note a{color:#2853a2;font-weight:750}
+.decision-gesture-help{padding:9px 11px;background:#f3f6fb;border-radius:8px}
+.decision-list{display:grid;gap:12px}
+.decision-deck-nav{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:12px 0}
+.decision-deck-nav button{min-height:44px;min-width:88px;border:1px solid #d4dce8;border-radius:8px;background:#f4f6f9;color:#354760;padding:7px 11px;font-size:12px;font-weight:800}
+.decision-deck-nav button:disabled{opacity:.45}
+.decision-deck-nav span{color:#51647e;font-size:12px;font-weight:750;text-align:center}
+.decision-card{--swipe-x:0px;position:relative;overflow:hidden;border:1px solid #dbe2ec;border-left:5px solid #6f83a4;border-radius:11px;background:#fff;padding:14px 15px;transform:translateX(var(--swipe-x));transition:transform .16s ease;touch-action:pan-y;outline:none}
+.decision-card:focus-visible{box-shadow:0 0 0 3px #8ba8e8}
+.decision-card-head{display:flex;gap:10px;justify-content:space-between;align-items:flex-start}
+.decision-company{color:#516784;font-size:12px;font-weight:800}
+.decision-card h3{font-size:16px;line-height:1.4;margin:3px 0 0;color:#233751}
+.decision-current{flex:none;padding:5px 8px;border-radius:6px;background:#eef2f7;color:#52657e;font-size:11px;font-weight:750}
+.decision-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px;margin-top:12px}
+.decision-fact,.decision-session{display:grid;gap:3px;min-width:0;font-size:12px;line-height:1.45}
+.decision-fact b,.decision-session b,.decision-session-label>span{color:#66778e;font-size:10px;font-weight:800}
+.decision-fact span,.decision-session span{color:#33465f;overflow-wrap:anywhere}
+.decision-session-label{grid-column:1/-1;display:grid;gap:4px}
+.decision-session-label select{width:100%;min-height:38px;border:1px solid #cdd7e5;border-radius:7px;background:white;padding:7px 9px;color:#253a55;font-size:12px}
+.decision-session{grid-column:1/-1;padding:9px 10px;border-radius:7px;background:#f5f7fa}
+.decision-actions{display:flex;gap:8px;margin-top:13px}
+.decision-actions button{min-height:44px;flex:1;border:1px solid #d4dce8;border-radius:8px;background:#f4f6f9;color:#354760;font-size:13px;font-weight:800}
+.decision-actions button[data-choice=declined],.decision-actions button[data-detail-choice=declined]{color:#85473f}
+.decision-actions button[data-choice=interested],.decision-actions button[data-detail-choice=interested]{background:#e3f3e9;border-color:#b5ddc3;color:#176641}
+.decision-actions button:disabled{opacity:.48}
+.decision-undo{margin-top:9px;border:0;background:transparent;color:#3057a0;text-decoration:underline;padding:5px 0;font-size:11px;font-weight:750}
+.decision-empty{margin:0;padding:12px;border-radius:8px;background:#f7f9fc;color:#66778e;font-size:13px}
+.decision-history{font-size:12px;color:#63748c}
+.decision-history summary{cursor:pointer;padding:9px 0}
+.decision-history p{overflow-wrap:anywhere}
+.decision-history-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:8px 0;border-top:1px solid #e5eaf0}
+.decision-history-row span{overflow-wrap:anywhere}
+.decision-history-project{flex:1;min-width:0;text-align:left;border:0;background:transparent;color:#405875;padding:7px 0;overflow-wrap:anywhere;font-size:12px}
+.decision-history-row button{flex:none;border:0;border-radius:6px;background:#edf2fb;color:#3057a0;padding:7px 9px;font-size:11px;font-weight:750}
+.decision-detail-tip,.decision-protection{font-size:12px;line-height:1.55;color:#64748a}
+.decision-protection{padding:9px 11px;background:#f3f5f8;border-radius:7px}
+@media(max-width:760px){
+ #decisions{scroll-margin-top:67px}
+ .decision-heading-actions{justify-content:flex-start;width:100%}
+ #decision-status{flex:1 1 100%;max-width:none}
+ .decision-card{padding:12px;overflow-wrap:anywhere}
+ .decision-company{display:block;max-width:100%;overflow-wrap:anywhere}
+ .decision-current{white-space:normal;text-align:right;max-width:38%}
+ .decision-card-head h3{overflow-wrap:anywhere}
+ .decision-facts{grid-template-columns:1fr;gap:9px}
+ .decision-session-label,.decision-session{grid-column:auto}
+ .decision-actions{gap:6px}
+ .decision-actions button{font-size:12px;padding-inline:4px}
+}
+@media(prefers-reduced-motion:reduce){.decision-card{transition:none}}
