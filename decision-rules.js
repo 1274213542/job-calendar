@@ -44,7 +44,7 @@ export function canDecide(opportunity, today) {
   if (protection.protected) return false;
   const status = String(opportunity.status || '') + ' ' + String(opportunity.statusDetail || '');
   const hasSessions = (opportunity.registrationSessions || []).length > 0;
-  return /候选|计划|未预约|未提交|有意|未Entry|待选择/.test(status) ||
+  return /候选|计划|未预约|未提交|有意|未Entry|待选择|公开招聘／活动信息/.test(status) ||
     (/DENSO/i.test(opportunity.company || '') && hasSessions && /受理|応募済/.test(status));
 }
 

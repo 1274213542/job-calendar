@@ -1813,10 +1813,10 @@
       "title": "UIUX／服务设计合同企业说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "候选／计划申请",
-      "statusDetail": "未确认预约",
-      "description": "校内联合企业活动；线上；校内活动；CONCENT/Goodpatch/Sun*/MIXI/Persol；邮件对象学部1–3年，M1资格尚待校内系统确认",
-      "nextAction": "11/13 16:00–18:30线上；学校门户需重新登录，M1资格、截止及余位仍待核。18:30与已预约ViViViT零缓冲。",
+      "status": "已预约／是否保留待本人决定",
+      "statusDetail": "已核实本场预约完成；是否保留及如何衔接，待本人确认。",
+      "description": "校内UI/UX与服务设计合同企业说明会；线上，可自由进出。",
+      "nextAction": "无需重复预约。11/13 16:00–18:30线上；18:30接已预约ViViViT，零缓冲但没有时间重叠。是否18:00提前离场留出准备时间，待本人决定。",
       "checkedAt": "2026-11-07",
       "sources": [
         {
@@ -1824,12 +1824,12 @@
           "url": "https://st.uc.career-tasu.jp/guidlist/?id=699b4240f39bf9e2a172cdcbd451dc9b"
         }
       ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 2026-11-13 16:00–18:30。 邮件对象为学部1–3年，修士1年是否可参加需向校内系统核对。",
+      "notes": "公开摘要；个人回执、学校登录页原文和人员资料不公开。",
       "milestones": [
         {
           "type": "event",
           "date": "2026-11-13T16:00",
-          "label": "实际举办",
+          "label": "已预约／线上，可自由进出",
           "endDate": "2026-11-13T18:30"
         }
       ],
@@ -1839,19 +1839,19 @@
           "eventStart": "2026-11-13T16:00",
           "eventEnd": "2026-11-13T18:30",
           "reservationRequired": true,
-          "registrationMethod": "校内ムサビ進路ナビ预约（对象／余位需登录核实）",
-          "opensAt": null,
-          "deadline": null,
-          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "registrationMethod": "校内ムサビ進路ナビ预约",
+          "opensAt": "2026-10-06T15:56",
+          "deadline": "2026-11-13T15:59",
+          "deadlineLabel": "学校原页受付截止（日本时间）",
           "firstComeFirstServed": null,
-          "availabilityState": "login_required",
-          "availabilityLabel": "11/7实际入口要求重新登录；未读到截止或余位",
-          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilityState": "booked",
+          "availabilityLabel": "学校已确认该具体场次",
+          "availabilityCheckedAt": "2026-11-07T14:57:07+09:00",
           "availabilitySource": {
-            "label": "学校官方预约门户；私人链接不公开"
+            "label": "已核预约记录；原件不公开"
           },
-          "bookingStage": "未核到本人预约",
-          "nextAction": "需本人用11/6新设密码重新登录；截止和余位尚待核。"
+          "bookingStage": "已预约／是否保留待本人决定",
+          "nextAction": "无需重复预约。11/13 16:00–18:30线上；18:30接已预约ViViViT，零缓冲但没有时间重叠。是否18:00提前离场留出准备时间，待本人决定。"
         }
       ]
     },
@@ -2305,7 +2305,7 @@
       "status": "候选／计划申请",
       "statusDetail": "未提交",
       "description": "28卒秋冬term：开放职种与传播设计职种分开。均需履历书、申请表及“想用设计解决的课题”材料；传播设计还必交自我PR资料（作品集／论文等），开放职种该项为任意。之后适性检查与三轮面试，二次选考需成绩单。",
-      "nextAction": "先听11/11说明会，再选择开放职种或传播设计职种；个人首投目标11/24–27，官网11/30截止（时刻未公布）。提交后留意适性检查的短期限；未通过且仍募集时可改进材料后复投。",
+      "nextAction": "先听11/11说明会，再确认开放职种或传播设计职种；建议11/24–27准备首投，投递日待本人确认，官网11/30截止（时刻未公布）。提交后留意适性检查的短期限；允许仍募集期间改进材料后复投。",
       "checkedAt": "2026-11-05",
       "sources": [
         {
@@ -4932,7 +4932,7 @@
         }
       ],
       "checkedAt": "2026-11-07",
-      "status": "公开招聘／活动信息",
+      "status": "候选／计划申请",
       "statusDetail": "11/7两场Teams登记表均可打开，未显示截止或满员；本人均未提交。",
       "registrationSessions": [
         {

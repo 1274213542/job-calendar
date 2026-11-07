@@ -71,7 +71,7 @@ function reapplicationPanel(op) {
 }
 
 function decisionPrompt(op, openingNote) {
-  if (!canDecide(op,tokyoToday())) return '已有办理记录，先看当前状态；无需重复申请。';
+  if (!canDecide(op,tokyoToday())) return '先看当前手续状态；这里不会新增申请或取消已有安排。';
   if (op.category==='selection') return '现在只确认申请意向；先核重投限制，再决定投哪一轮。';
   if (openingNote) return '现在只决定是否继续关注；正式开放后，再确认材料与申请。';
   if (op.category==='internship') return '先决定是否准备申请；通过选考后，才确认实际参加。';
@@ -325,7 +325,7 @@ export async function mountDecisions(data) {
         : '<p class="decision-company-scope">正在读取待遇与选考资料…</p>'}</section></details>
       <p class="decision-card-feedback" role="status" aria-live="polite">${feedback?.id === op.id ? esc(feedback.text) : ''}</p>
       <span class="decision-swipe-preview" aria-hidden="true"></span>
-      ${!canDecide(op,today) ? '<p class="decision-protection">已有申请或预约记录；这里不会重复办理，也不会取消。</p>' : confirmation
+      ${!canDecide(op,today) ? '<p class="decision-protection">当前不能从这里新增申请；已有手续不会被更改。</p>' : confirmation
         ? `<div class="decision-confirmation"><p>核对上方项目、举办形式和时间后，可保存${choiceLabel('interested', op)}。${esc(confirmationNote)}</p><div class="decision-actions"><button type="button" data-cancel-interest>返回</button><button type="button" data-confirm-interest="${esc(op.id)}" data-confirm-session="${esc(selected?.id || '')}" ${disabled || (!selected?.selectable ? 'disabled' : '')}>确认保存意向</button></div></div>`
         : `<div class="decision-actions"><button type="button" data-choice="declined" data-id="${esc(op.id)}" ${disabled}>不参加</button><button type="button" data-choice="later" data-id="${esc(op.id)}" ${disabled}>再想想</button><button type="button" data-choice="interested" data-id="${esc(op.id)}" ${disabled || (!selectable ? 'disabled' : '')}>${op.category==='selection'?'有意申请':openingNote?'关注开放':'有意参加'}</button></div>`}
       ${saved && canSave() ? `<button class="decision-undo" data-undo="${esc(op.id)}" type="button" ${disabled}>撤销意向（不取消预约）</button>` : ''}
