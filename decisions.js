@@ -74,6 +74,8 @@ function conflict(op) {
 }
 
 export function shouldHideCandidateFromPlans(opportunity) {
+  // Archived public references are retained in the source, not as personal tasks.
+  if (opportunity?.decisionEligible === false) return true;
   const saved = currentChoices.find(c=>c.id===opportunity?.id);
   return mayHideCandidate(opportunity,saved?.choice,tokyoToday());
 }
@@ -90,6 +92,7 @@ export async function mountDecisions(data) {
   let canEdit = false;
   let signedIn = false;
   let apiReady = false;
+  let loadAttempted = false;
   let retrying = false;
   let writing = false;
   let undoStack = [];
@@ -109,6 +112,7 @@ export async function mountDecisions(data) {
   if (toggle) toggle.textContent = isOpen ? '收起待决定' : '展开待决定';
 
   function accessMarkup() {
+    if (!apiReady && !loadAttempted) return '<p class="decision-access-note">正在连接账号，读取已保存的选择…</p>';
     if (!apiReady) return `<p class="decision-access-note">暂时无法连接选择同步。可重试，或前往<a href="${MOBILE_URL}">手机站管理选择</a>。当前选择未保存在此设备。</p>`;
     if (canEdit) return '<p class="decision-access-note">选择将保存到账号，可在其他设备继续查看。</p>';
     if (!signedIn) return `<p class="decision-access-note">登录后可管理选择。<a href="${SIGNIN_URL}">使用 ChatGPT 登录</a> · <a href="${MOBILE_URL}">手机站</a></p>`;
@@ -164,7 +168,7 @@ export async function mountDecisions(data) {
     } catch (error) {
       apiReady = false; canEdit = false;
       status.textContent = `无法同步选择（${error.message}）。可重试；不会在本地伪保存。`;
-    } finally { retrying = false; render(); }
+    } finally { loadAttempted = true; retrying = false; render(); }
   }
   async function save(id, choice) {
     if (!canEdit || writing || retrying) return false;

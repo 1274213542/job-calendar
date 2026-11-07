@@ -38,6 +38,7 @@
 .decision-history-row span{overflow-wrap:anywhere}
 .decision-history-project{flex:1;min-width:0;text-align:left;border:0;background:transparent;color:#405875;padding:7px 0;overflow-wrap:anywhere;font-size:12px}
 .decision-history-row button{flex:none;border:0;border-radius:6px;background:#edf2fb;color:#3057a0;padding:7px 9px;font-size:11px;font-weight:750}
+.decision-history-row .decision-history-project{flex:1 1 0;min-width:0;white-space:normal}
 .decision-detail-tip,.decision-protection{font-size:12px;line-height:1.55;color:#64748a}
 .decision-protection{padding:9px 11px;background:#f3f5f8;border-radius:7px}
 @media(max-width:760px){
@@ -52,5 +53,8 @@
  .decision-session-label,.decision-session{grid-column:auto}
  .decision-actions{gap:6px}
  .decision-actions button{font-size:12px;padding-inline:4px}
+ .decision-history-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .decision-history-row .decision-history-project{grid-column:1/-1;width:100%;text-align:left}
+ .decision-history-row button{min-height:44px;max-width:100%;white-space:normal}
 }
 @media(prefers-reduced-motion:reduce){.decision-card{transition:none}}
