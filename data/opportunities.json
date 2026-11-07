@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T09:20:21+09:00",
+  "updatedAt": "2026-11-07",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -317,26 +317,6 @@
       ]
     },
     {
-      "id": "opp-1b5366df96",
-      "company": "SmartHR",
-      "title": "学生产品设计实习",
-      "category": "internship",
-      "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "新发现；未申请",
-      "description": "人事劳动管理SaaS与企业产品；东京；远程规则未写；2,000日元/小时；Figma＋作品集＋履历书＋约800字作文；书类→面试2次；看重信息架构、AI实际制作、可运行产品与协作",
-      "nextAction": "长期里优先考虑，与你设计系统和AI流程较贴合，但需用真实制作证据说明。",
-      "checkedAt": "2026-10-30",
-      "sources": [
-        {
-          "label": "原始来源",
-          "url": "https://student.redesigner.jp/recruitments/J6401f5eb977573f77f4a2ea416c9a5ba"
-        }
-      ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 至少每周2日、10小时；总期间未公布。",
-      "milestones": []
-    },
-    {
       "id": "opp-3fd3a4b3aa",
       "company": "Mercari",
       "title": "UI/UX Designer Internship",
@@ -412,46 +392,6 @@
       ]
     },
     {
-      "id": "opp-b2d8f5ac76",
-      "company": "ENSAPIA",
-      "title": "Zero Lab Design",
-      "category": "internship",
-      "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "未申请",
-      "description": "数字社交产品与AI实验；东京世田谷；远程天数面试讨论；2,000日元/小时；团队使用真实数据探索UX、AI原型并向经营层提案",
-      "nextAction": "与AI设计能力相关，工作时间需和修士课程协调。",
-      "checkedAt": "2026-10-30",
-      "sources": [
-        {
-          "label": "原始来源",
-          "url": "https://herp.careers/v1/ensapia/nQUincgIc03x"
-        }
-      ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 3个月起；每周2天起；平日10–19点内每日4小时起。",
-      "milestones": []
-    },
-    {
-      "id": "opp-b3b9be1d2d",
-      "company": "SWIPEDRAMA",
-      "title": "UIUX设计实习",
-      "category": "internship",
-      "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "未申请",
-      "description": "竖屏短剧与娱乐应用；可全远程；1,500日元/小时（含税）；也可月固定契约；作品集；约30分钟casual面谈→2次面谈→录用；需要自主推进和团队合作",
-      "nextAction": "线上便利，但不能据此判轻松；正文可周末工作与休日土日休有矛盾，工时需核。10/31只是说明视频到期。",
-      "checkedAt": "2026-10-30",
-      "sources": [
-        {
-          "label": "原始来源",
-          "url": "https://student.redesigner.jp/recruitments/J0d3d655af02dcbab0096e8ba9f2fc0b4"
-        }
-      ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 每周3–5天；无核心时段；总期间未写。",
-      "milestones": []
-    },
-    {
       "id": "opp-bd307ddfdc",
       "company": "Yappli",
       "title": "无代码应用UIUX实习",
@@ -470,38 +410,6 @@
       ],
       "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 约2周；正文每周≥3日/24小时，条款栏写每周4日起。",
       "milestones": []
-    },
-    {
-      "id": "opp-f5ead15ef1",
-      "company": "Game Freak",
-      "title": "冬季2D Art Internship",
-      "category": "internship",
-      "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "未申请",
-      "description": "Pokémon等游戏开发；以公司当期安排为准；无报酬；带照PDF履历、原创人物/非人物彩画及素描；作品集推荐；任务→适性检查→面试1次；最终发表2/24与2/25有冲突",
-      "nextAction": "不是短期UIUX；可优先了解同公司作品建议会。",
-      "checkedAt": "2026-10-30",
-      "sources": [
-        {
-          "label": "原始来源",
-          "url": "https://www.vivivit.com/job-postings/13669"
-        }
-      ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-23 23:59；举办 2027-01-19–02-25；每周≥16小时。",
-      "milestones": [
-        {
-          "type": "deadline",
-          "date": "2026-11-23T23:59",
-          "label": "报名截止"
-        },
-        {
-          "type": "event",
-          "date": "2027-01-19",
-          "label": "实际举办",
-          "endDate": "2027-02-25"
-        }
-      ]
     },
     {
       "id": "opp-bc35483533",
@@ -619,37 +527,6 @@
           "date": "2027-02-01",
           "label": "实际举办",
           "endDate": "2027-02-05"
-        }
-      ]
-    },
-    {
-      "id": "opp-1eb5743c61",
-      "company": "ほぼ日",
-      "title": "旅のなかまに 招聘实习",
-      "category": "internship",
-      "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "公司已正式开放报名。",
-      "description": "含网站／应用UI、包装、活动视觉和空间等设计方向；东京；部分工作可能远程；1,400日元/小时；书类→约2次面试→实习。大学／大学院等在学生，或2028/4/1时毕业未满3年者；实习期间不能在其他公司工作。",
-      "nextAction": "按12/7 11:00前准备。首轮具体题目和作品集要求仅在申请人条款后可查。核对实习期间不得同时在其他公司工作的适用条件。",
-      "checkedAt": "2026-11-06",
-      "sources": [
-        {
-          "label": "原始来源",
-          "url": "https://www.1101.com/intern/tabinonakama_2026/index.html"
-        }
-      ],
-      "notes": "11/5公司宣布正式开放。募集要项和选考流程均列12/7 11:00；致辞仍写12/9，方法段残留11/25。日历采用要项和流程一致的12/7。11/24 14:00与12/2 18:00有可选线上问答，场次须以公司回执为准。",
-      "milestones": [
-        {
-          "type": "open",
-          "date": "2026-11-05T11:00",
-          "label": "正式开始受理"
-        },
-        {
-          "type": "deadline",
-          "date": "2026-12-07T11:00",
-          "label": "官网募集要项与流程所列截止"
         }
       ]
     },
@@ -879,7 +756,7 @@
           "label": "11/4 复核企业作品集咨询通知及独立申请流程"
         }
       ],
-      "notes": "11/7实际读取官方未提交表单：两段各最多300字；作品集URL或邮件；PDF栏原文写100MG未满，大小单位表述待确认；不接受文件临时传送服务。5个候选时间段中筛选分配约25分钟，提前5分钟入室。线上原则在家，其他地点须独立房间且第三人听不到，使用耳机。11/25与周三学校及通勤冲突，不能默认在学校可参加。",
+      "notes": "11/7实际读取官方未提交表单：两段各最多300字；作品集URL或邮件；PDF栏原文写100MG未满，大小单位表述待确认；不接受文件临时传送服务。5个候选时间段中筛选分配约25分钟，提前5分钟入室。线上原则在家，其他地点须独立房间且第三人听不到，使用耳机。11/25与周三学校及通勤冲突，不能默认在学校可参加。 11/7再次读取MyPage正式通知：线上参加须准备可屏幕共享的作品集数据，使用耳机，原则在家或第三人听不到的独立房间；约25分钟，需按互动咨询准备。通知未写固定作品介绍分钟数或明确摄像头要求，不能自行补充。",
       "milestones": [
         {
           "type": "deadline",
@@ -918,7 +795,7 @@
             "url": "https://i-studio-career.snar.jp/login.aspx"
           },
           "bookingStage": "预Entry／咨询会未提交",
-          "nextAction": "先确认可参加时间，再准备两段回答和作品集，未提交。",
+          "nextAction": "先确定可参加时段与安静环境，再决定是否提交咨询申请；线上需准备作品集屏幕共享，仍未报名。",
           "format": "线下"
         },
         {
@@ -939,7 +816,7 @@
             "url": "https://i-studio-career.snar.jp/login.aspx"
           },
           "bookingStage": "预Entry／咨询会未提交",
-          "nextAction": "先确认可参加时间，再准备两段回答和作品集，未提交。",
+          "nextAction": "先确定可参加时段与安静环境，再决定是否提交咨询申请；线上需准备作品集屏幕共享，仍未报名。",
           "format": "线下"
         },
         {
@@ -960,7 +837,7 @@
             "url": "https://i-studio-career.snar.jp/login.aspx"
           },
           "bookingStage": "预Entry／咨询会未提交",
-          "nextAction": "先确认可参加时间，再准备两段回答和作品集，未提交。",
+          "nextAction": "先确定可参加时段与安静环境，再决定是否提交咨询申请；线上需准备作品集屏幕共享，仍未报名。",
           "format": "线上"
         },
         {
@@ -981,7 +858,7 @@
             "url": "https://i-studio-career.snar.jp/login.aspx"
           },
           "bookingStage": "预Entry／咨询会未提交",
-          "nextAction": "先确认可参加时间，再准备两段回答和作品集，未提交。",
+          "nextAction": "先确定可参加时段与安静环境，再决定是否提交咨询申请；线上需准备作品集屏幕共享，仍未报名。",
           "format": "线上"
         },
         {
@@ -1002,10 +879,11 @@
             "url": "https://i-studio-career.snar.jp/login.aspx"
           },
           "bookingStage": "预Entry／咨询会未提交",
-          "nextAction": "先确认可参加时间，再准备两段回答和作品集，未提交。",
+          "nextAction": "先确定可参加时段与安静环境，再决定是否提交咨询申请；线上需准备作品集屏幕共享，仍未报名。",
           "format": "线上"
         }
-      ]
+      ],
+      "decisionContext": "需要作品集屏幕共享与互动交流。11/25线上候选范围与周三课程／通勤相交，不能默认可边上课参加；11/24线下须确认调班和通勤后再选。最终仅筛选分配一个约25分钟时段。"
     },
     {
       "id": "opp-55300098fc",
@@ -1173,7 +1051,8 @@
           "endDate": "2026-11-26T17:15"
         }
       ],
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "decisionEligible": false
     },
     {
       "id": "opp-f0ac29e0e1",
@@ -1211,7 +1090,8 @@
           "label": "候选场",
           "endDate": "2026-12-22T16:00"
         }
-      ]
+      ],
+      "decisionEligible": false
     },
     {
       "id": "opp-ad61947242",
@@ -1291,10 +1171,10 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "报名已提交待指引",
-      "statusDetail": "公司11/2已回复受理11/11线上活动申请，称前一天发送Zoom链接；等待参加链接。",
+      "statusDetail": "11/7重读公司11/2 ReDesigner回信：已受理11/11 18:30–19:30线上活动申请，说明举办前一天发送Zoom网址；目前等待11/10指引。",
       "description": "服务设计、编辑与品牌、数字产品；Zoom／东京现场；未公布费用；公司、两位员工案例与答疑；线下有额外座谈20名",
       "nextAction": "11/10查看公司发送的参加链接；无需重复申请；11/12 09:00提醒确认是否听完，再整理本选考要求与材料。",
-      "checkedAt": "2026-11-03",
+      "checkedAt": "2026-11-07",
       "sources": [
         {
           "label": "原始来源",
@@ -1331,20 +1211,23 @@
           "id": "opp-1c4d34fa39::2026-11-11T18:30",
           "eventStart": "2026-11-11T18:30",
           "eventEnd": "2026-11-11T19:30",
-          "reservationRequired": null,
-          "registrationMethod": "待核对",
+          "reservationRequired": true,
+          "registrationMethod": "ReDesigner申请已获公司受理",
           "opensAt": null,
           "deadline": "2026-11-11T15:00",
           "deadlineLabel": "报名截止",
           "firstComeFirstServed": null,
-          "availabilityState": "unverified",
-          "availabilityLabel": "尚未核到实际余位",
-          "availabilityCheckedAt": null,
-          "availabilitySource": null,
-          "bookingStage": "报名已提交待指引",
-          "nextAction": "11/10查看公司发送的参加链接；无需重复申请；11/12 09:00提醒确认是否听完，再整理本选考要求与材料。"
+          "availabilityState": "accepted_awaiting_join_link",
+          "availabilityLabel": "公司已受理；11/10发送Zoom入场网址",
+          "availabilityCheckedAt": "2026-11-07T10:57:39+09:00",
+          "availabilitySource": {
+            "label": "11/7重读公司11/2回信；私人对话不公开"
+          },
+          "bookingStage": "公司已受理／待入场指引",
+          "nextAction": "11/10查看公司发送的Zoom链接；无需重复报名。"
         }
-      ]
+      ],
+      "decisionContext": "公司已受理，不需重复报名；11/10等待并核对入场链接。公开日历不放私人Zoom地址。"
     },
     {
       "id": "opp-80ccdd1cc4",
@@ -2587,7 +2470,8 @@
           "date": "2026-12-01",
           "label": "2月Artwork PF活动开放"
         }
-      ]
+      ],
+      "decisionEligible": false
     },
     {
       "id": "selection-smarthr-6",
@@ -2926,7 +2810,8 @@
           "date": "2027-01-29T12:00",
           "label": "报名截止"
         }
-      ]
+      ],
+      "decisionEligible": false
     },
     {
       "id": "selection-nintendo-artwork",
@@ -2957,7 +2842,8 @@
           "date": "2027-03-12T12:00",
           "label": "报名截止"
         }
-      ]
+      ],
+      "decisionEligible": false
     },
     {
       "id": "opp-8f09e0090b",
@@ -2987,70 +2873,6 @@
         }
       ],
       "availabilityStatus": "开始时间紧接个人安排，准备缓冲待确认"
-    },
-    {
-      "id": "internship-herp-designer",
-      "company": "HERP",
-      "title": "学生产品设计实习（ジョブミル）",
-      "category": "internship",
-      "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "11/1官方ATS列为募集中；本人未申请。",
-      "description": "B2B SaaS「ジョブミル」UI/UX、原型验证，兼顾Web及平面。不限学科，要求数字产品设计实务经验（含实习）及Figma经验。五反田办公室／可远程；时薪2,000日元起。",
-      "nextAction": "先核对实务经验及每周至少15小时、连续至少3个月的投入是否可行；通过官方ATS查看申请要求。",
-      "checkedAt": "2026-11-01",
-      "sources": [
-        {
-          "label": "企业官方ATS：NW03学生设计实习",
-          "url": "https://herp.careers/v1/herpinc/MKbK-26Piphz"
-        }
-      ],
-      "notes": "长期：工作日每周15小时以上、3个月以上；多次面试。页面标注2026-08-25更新，11/1实际读取募集正文及申请入口。开放日、截止日与入职日未公布，不补日历日期。",
-      "milestones": []
-    },
-    {
-      "id": "internship-studio-details",
-      "company": "STUDIO DETAILS",
-      "title": "学生设计实习／设计助理兼职",
-      "category": "internship",
-      "subtype": "学生兼职（非1Day体验）",
-      "status": "候选／计划申请",
-      "statusDetail": "11/1从公司Careers进入官方ATS；本人未申请。",
-      "description": "株式会社スタジオディテイルズ：品牌、Web、平面及产品设计；从参考资料、部分资料制作、检查等助理工作开始。设计专业的专门学校／大学／大学院在学生，学习平面、Web或UI，并掌握Photoshop／Illustrator／Figma基础。",
-      "nextAction": "先确认东京岗位安排及每周出勤是否可行，再准备个人资料与作品集。",
-      "checkedAt": "2026-11-01",
-      "sources": [
-        {
-          "label": "公司官方Careers",
-          "url": "https://www.details.co.jp/careers/"
-        },
-        {
-          "label": "官网指向的设计实习ATS",
-          "url": "https://herp.careers/v1/details/8e79Uaucnl_A"
-        }
-      ],
-      "notes": "雇佣形式为アルバイト；时薪1,250日元；每周至少2天、每天至少4小时；东京或名古屋。最低月数、截止与开始日未公布。ATS工作地点与公司信息中的东京具体地址不一致，出勤前需确认，不将任一地址写成已确定安排。",
-      "milestones": []
-    },
-    {
-      "id": "internship-ingage-uiux",
-      "company": "Ingage",
-      "title": "28／29卒长期UI/UX实习",
-      "category": "internship",
-      "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "11/1官方HRMOS列出28／29卒募集及申请入口；本人未申请。",
-      "description": "株式会社インゲージ：B2B SaaS「Re:lation」UI/UX设计。面向28／29卒在学生（含大学院）；必须能提交作品集、每周工作约15–20小时并到大阪办公室出勤。时薪依能力决定，金额未公布。",
-      "nextAction": "优先判断大阪出勤是否现实；这是长期备选，不作东京短期实习推荐。",
-      "checkedAt": "2026-11-01",
-      "sources": [
-        {
-          "label": "企业官方HRMOS：28／29卒UIUX长期实习",
-          "url": "https://hrmos.co/pages/ingage/jobs/0000022"
-        }
-      ],
-      "notes": "工作日9:00–18:00范围内安排；履历书及作品集→书类→面试。最低月数、截止和开始日未公布。招聘页的20万日元入社祝い金不适用于新卒／实习，不计入本岗位报酬。",
-      "milestones": []
     },
     {
       "id": "activity-sony-musabi-20261106",
@@ -3185,78 +3007,6 @@
           "nextAction": "停止此场报名提醒；追踪设计专用通知及筹备中的1Day。"
         }
       ]
-    },
-    {
-      "id": "internship-notes-design-student",
-      "company": "NOTES DESIGN OFFICE",
-      "title": "学生品牌／平面／Web设计实习",
-      "category": "internship",
-      "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "11/2官网标示学生实习募集中，官方PDF明确不限学年；未申请。",
-      "description": "品牌、平面、包装、Web及空间设计公司的助理设计师实习；要求专业学习设计，不限学年。东京代官山现场。",
-      "nextAction": "先评估至少1个月的投入与通勤；设计师申请要求履历书及含个人作品在内10件以上作品集，按官方PDF邮寄；本轮未提交。",
-      "checkedAt": "2026-11-02",
-      "sources": [
-        {
-          "label": "官网学生实习募集入口",
-          "url": "https://www.notes-design.co.jp/recruit.html"
-        },
-        {
-          "label": "官方学生实习募集PDF",
-          "url": "https://www.notes-design.co.jp/s/wp-content/uploads/2026/09/2027_Notes_CD_Intern.pdf"
-        }
-      ],
-      "notes": "随时募集，固定截止及入职日期未公布。最低1个月，9:30–18:30，每周出勤安排需确认；薪酬面议，通勤补助按PDF条件。PDF文件名含2027，但学生实习资格正文明确不限学年。",
-      "milestones": []
-    },
-    {
-      "id": "internship-spect-design-student",
-      "company": "SPECT DESIGN／スペクトデザイン",
-      "title": "学生设计助理实习（UI/HMI等）",
-      "category": "internship",
-      "subtype": "学生兼职（非1Day体验）",
-      "status": "候选／计划申请",
-      "statusDetail": "11/2两个官方招聘页面均列学生实习／兼职；未申请，具体项目分配需确认。",
-      "description": "从制作辅助、研究与资料整理进入设计实务；公司涉及UI/UX、HMI、产品、平面及Web。要求设计教育与实务经验合计2年以上，学生可。大阪天王寺办公室。",
-      "nextAction": "先评估大阪现场投入及与UI/HMI项目的匹配；可由官方入口确认期间、频率、具体工作与待遇，作品集按官网要求准备。",
-      "checkedAt": "2026-11-02",
-      "sources": [
-        {
-          "label": "官方当前募集概览",
-          "url": "https://spect.jp/jobs"
-        },
-        {
-          "label": "官方学生实习详细条件",
-          "url": "https://spect.co.jp/jobs"
-        }
-      ],
-      "notes": "官方详细页写每周至少1日／8小时；新版招聘概览写期间与频率可协商，最终安排待企业确认。最低持续月数、截止、具体时薪未公布；薪酬依经验能力。不是已确认的短期体验场次。",
-      "milestones": []
-    },
-    {
-      "id": "internship-cymed-web-design",
-      "company": "CyMed",
-      "title": "学生Web／LP与UI/UX改善长期实习",
-      "category": "internship",
-      "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "11/2设计师实习仍列于企业HRMOS当前24条职位中，并读取职位原文；未申请。",
-      "description": "医疗服务Web、LP、广告图与既有网页UI/UX改善，包含调研、设计提案及发布后改进。面向学习设计的学生，实务经验非必需；Figma、Photoshop或Illustrator学习经验可。",
-      "nextAction": "投入前确认每周工时、最低持续期、到岗方式与报酬；该岗位雇用形式标为业务委托，需按实际条件评估。",
-      "checkedAt": "2026-11-02",
-      "sources": [
-        {
-          "label": "企业HRMOS设计实习原文",
-          "url": "https://hrmos.co/pages/cymed/jobs/2306598560053587970"
-        },
-        {
-          "label": "当前企业招聘列表",
-          "url": "https://hrmos.co/pages/cymed/jobs"
-        }
-      ],
-      "notes": "长期募集，未公开固定截止、入职日期、每周最低工时或最低月数。报酬面议；职位所列工作地为东京西麻布，具体出勤安排待确认。11/1未从列表识别到设计岗位，11/2核实详情后补入，不代表今天刚发布。",
-      "milestones": []
     },
     {
       "id": "opp-0165f6d3d4-booked-20261110",
@@ -3700,30 +3450,6 @@
       ]
     },
     {
-      "id": "selection-layerx-product-design-2028",
-      "company": "LayerX",
-      "title": "28卒产品设计本选考／长期实习路线",
-      "category": "selection",
-      "subtype": "本选考",
-      "status": "候选／计划申请",
-      "statusDetail": "11/3核到当前官方募集；未申请、未预约。",
-      "description": "Bakuraku产品UI/UX、客户研究与部分视觉设计；官方27／28卒岗位。要求产品设计经验、接近母语的日语沟通能力；实习期须有日本合法工作资格。",
-      "nextAction": "先评估研究学业与长期实习投入，再了解设计岗位；本选考与同一ATS的实习路线合并记录，未重复申请。",
-      "checkedAt": "2026-11-03",
-      "sources": [
-        {
-          "label": "官方新卒招聘入口",
-          "url": "https://jobs.layerx.co.jp/newgrads/"
-        },
-        {
-          "label": "官方链接Talentio岗位（浏览器原文已读）",
-          "url": "https://open.talentio.com/r/1/c/layerx/pages/92499"
-        }
-      ],
-      "notes": "通常实习3个月以上，短期可商谈；也接受只参加实习。前5天到岗导入（交通住宿支持），之后可远程；每周工时及截止未公布，报酬按公司规定。实习后双方合意再进入新卒入社路线。",
-      "milestones": []
-    },
-    {
       "id": "selection-litalico-designer-2028",
       "company": "LITALICO",
       "title": "28卒设计师本选考",
@@ -3745,30 +3471,6 @@
         }
       ],
       "notes": "官网新卒在招列表与HERP岗位交叉核实；申请截止和下一轮时间未公布，不推断可以等下一轮。",
-      "milestones": []
-    },
-    {
-      "id": "internship-cyberwave-uiux",
-      "company": "Cyberwave／サイバーウェーブ",
-      "title": "UI/UX长期实习",
-      "category": "internship",
-      "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "11/3核到当前官方募集；未申请、未预约。",
-      "description": "VALUE KIT及客户系统的UI/UX、Figma原型与开发协作；需愿意学习HTML/CSS/JavaScript，面向学生且不限定毕业届。东京江户川桥／神乐坂，当前浏览器原文时薪1,250–2,000日元。",
-      "nextAction": "先评估每周至少3个工作日、12小时的投入；每日至少2小时，远程最多3小时／周，无法当作短期体验。",
-      "checkedAt": "2026-11-03",
-      "sources": [
-        {
-          "label": "官方实习在招列表",
-          "url": "https://cyberwave.jp/recruit/job"
-        },
-        {
-          "label": "官方UIUX实习详情（11/3浏览器现场核验）",
-          "url": "https://cyberwave.jp/recruit/job/uiux_intern/"
-        }
-      ],
-      "notes": "11/3当前官方在招列表及详情页已核；试用期3个月。总最低期间、入职日与截止未公布。",
       "milestones": []
     },
     {
@@ -3948,11 +3650,11 @@
       "category": "activity",
       "subtype": "公司设计说明会",
       "status": "已预约／确认参加",
-      "checkedAt": "2026-11-03",
+      "checkedAt": "2026-11-07",
       "attendanceMode": "online",
-      "statusDetail": "11/3官方MyPage预约完成页及企业确认邮件已核验：11/11 14:30 Zoom场。",
+      "statusDetail": "11/7重新读取11/3企业确认邮件：11/11 14:30 Zoom场已预约；公司称参加网址将在活动临近时另行通知，未承诺固定发送日期。",
       "description": "Zoom线上；包含Creative等六条课程业务说明、员工问答与选考介绍；与正式选考分开。",
-      "nextAction": "本人决定保留11/11 14:30线上原场；仍与固定个人安排重叠，需落实参加方式。11/10查参会链接，保守预留至18:00；不改为11/13线下。",
+      "nextAction": "保留本人已决定的11/11 14:30线上预约；临近时查邮箱及MyPage入场网址，11/10复核。系统结束时间18:00、邀请邮件17:30有差异，保守预留至18:00；仍需安排与学校重叠时段的参加方式。",
       "sources": [
         {
           "label": "官方招聘MyPage",
@@ -3989,19 +3691,23 @@
           "eventStart": "2026-11-11T14:30",
           "eventEnd": "2026-11-11T18:00",
           "reservationRequired": true,
-          "registrationMethod": "待核对",
+          "registrationMethod": "MyPage预约已完成；邮件已确认具体场次",
           "opensAt": null,
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": null,
-          "availabilityState": "unverified",
-          "availabilityLabel": "尚未核到实际余位",
-          "availabilityCheckedAt": null,
-          "availabilitySource": null,
-          "bookingStage": "已预约／以既有回执为据",
-          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+          "availabilityState": "booked",
+          "availabilityLabel": "已预约；入场网址由公司临近时另行通知",
+          "availabilityCheckedAt": "2026-11-07T10:57:39+09:00",
+          "availabilitySource": {
+            "label": "11/7重读11/3企业确认邮件；不公开邮件原文、账号及私人链接",
+            "url": "https://dentsudigital.snar.jp/login.aspx"
+          },
+          "bookingStage": "已预约／待入场指引",
+          "nextAction": "临近时查看邮箱和MyPage；11/10复核入场网址，不重复报名。"
         }
-      ]
+      ],
+      "decisionContext": "已预约并由本人决定保留，不列为重新报名选择；14:30开始与周三课程及通勤重叠，参加方式待协调。"
     },
     {
       "id": "opp-c5b83dedd8",
@@ -4307,7 +4013,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "12月18日截止，未公布钟点。"
+      "notes": "12月18日截止，未公布钟点。",
+      "decisionEligible": false
     },
     {
       "id": "taki-winter28-p2",
@@ -4342,7 +4049,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "12月18日截止，未公布钟点。"
+      "notes": "12月18日截止，未公布钟点。",
+      "decisionEligible": false
     },
     {
       "id": "taki-winter28-p3",
@@ -4377,7 +4085,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "12月18日截止，未公布钟点。"
+      "notes": "12月18日截止，未公布钟点。",
+      "decisionEligible": false
     },
     {
       "id": "taki-winter28-p4",
@@ -4412,7 +4121,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "12月18日截止，未公布钟点。"
+      "notes": "12月18日截止，未公布钟点。",
+      "decisionEligible": false
     },
     {
       "id": "taki-winter28-p5",
@@ -4448,7 +4158,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "12月18日截止，未公布钟点。"
+      "notes": "12月18日截止，未公布钟点。",
+      "decisionEligible": false
     },
     {
       "id": "boi-28-game-designer",
@@ -4471,7 +4182,8 @@
       "milestones": [],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "方向按能力与意向分配。指定素描2–3件以上、禁止任何用途使用生成AI的作品。最终5日实技＋面试属于本选考。"
+      "notes": "方向按能力与意向分配。指定素描2–3件以上、禁止任何用途使用生成AI的作品。最终5日实技＋面试属于本选考。",
+      "decisionEligible": false
     },
     {
       "id": "cygames-28-designer-normal",
@@ -4577,7 +4289,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "两期任选，第二轮只能申请3月。ES+作品集（东京/大阪制作管理可以仅ES）。UI、3DCG、2D动画等导师一对一。"
+      "notes": "两期任选，第二轮只能申请3月。ES+作品集（东京/大阪制作管理可以仅ES）。UI、3DCG、2D动画等导师一对一。",
+      "decisionEligible": false
     },
     {
       "id": "cygames-tokyo-osaka-winter28-illustration",
@@ -4619,7 +4332,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "两期任选，第二轮只能申请3月。ES+作品集（东京/大阪制作管理可以仅ES）。仅角色、背景、单幅插画与制作管理是5天。内容插画另为两周。"
+      "notes": "两期任选，第二轮只能申请3月。ES+作品集（东京/大阪制作管理可以仅ES）。仅角色、背景、单幅插画与制作管理是5天。内容插画另为两周。",
+      "decisionEligible": false
     },
     {
       "id": "cygames-saga-winter28-illustration",
@@ -4661,7 +4375,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "两期任选，第二轮只能申请3月。ES+作品集（东京/大阪制作管理可以仅ES）。佐贺仅招插画，可与东京／大阪併願。每期约3人。"
+      "notes": "两期任选，第二轮只能申请3月。ES+作品集（东京/大阪制作管理可以仅ES）。佐贺仅招插画，可与东京／大阪併願。每期约3人。",
+      "decisionEligible": false
     },
     {
       "id": "colorfulpalette-rolling-illustrator",
@@ -4688,7 +4403,8 @@
       "milestones": [],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "选拔通过后5日线上，必要时另行商谈1–3周线下。须提交PDF履历书与至少3件作品。 以游戏插画为主；线上无薪。"
+      "notes": "选拔通过后5日线上，必要时另行商谈1–3周线下。须提交PDF履历书与至少3件作品。 以游戏插画为主；线上无薪。",
+      "decisionEligible": false
     },
     {
       "id": "colorfulpalette-rolling-background",
@@ -4715,7 +4431,8 @@
       "milestones": [],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "线上或线下个别商定；线上5日、线下1–3周。须提交履历书、作品集或至少3件作品。 以游戏插画为主；线上无薪。"
+      "notes": "线上或线下个别商定；线上5日、线下1–3周。须提交履历书、作品集或至少3件作品。 以游戏插画为主；线上无薪。",
+      "decisionEligible": false
     },
     {
       "id": "selection-sdtech-uiux-2028",
@@ -4822,30 +4539,6 @@
         }
       ],
       "workCompatibility": "requires_confirmation"
-    },
-    {
-      "id": "internship-kiq-design-student",
-      "company": "KiQ（株式会社KiQ）",
-      "title": "学生设计实习｜Web／UI・体验设计",
-      "category": "internship",
-      "subtype": "超过一周及长期实习",
-      "status": "候选／计划申请",
-      "statusDetail": "11/5官方当期招聘列表已核；未申请。",
-      "description": "学生或以设计师为目标者可申请；包含Web/UI、线上线下体验、品牌与设计调研。每周至少3天，曜日可商议；总期间未公布。需平面／Web设计能力、商务日语；实务经验为加分项。",
-      "nextAction": "先判断每周至少3天的投入是否可行，再确认最低持续月数、每日工时和实习专用薪资；材料为履历书／职务经历书与作品集，书类通过后线上面谈。",
-      "checkedAt": "2026-11-05",
-      "sources": [
-        {
-          "label": "官方招聘列表与设计实习详情",
-          "url": "https://kiq.ne.jp/jobs/#job-61"
-        },
-        {
-          "label": "实际法人及公司信息",
-          "url": "https://kiq.ne.jp/about/#company"
-        }
-      ],
-      "notes": "无固定届别、无已公布截止日期。页面共通条件为涩谷办公室或远程（需商议）、薪资按经验决定；未单列实习时薪，不将正式员工共通工时和待遇直接视作实习条件。属于持续型学生岗位，不是1天至1周短期实习。",
-      "milestones": []
     },
     {
       "id": "selection-sunasterisk-creative-2028",
@@ -5291,29 +4984,6 @@
       "statusDetail": "公司预告／尚未开始受理。"
     },
     {
-      "id": "d-zero-student-web-fukuoka",
-      "company": "ディーゼロ",
-      "title": "Web 设计学生兼职 · 福冈",
-      "category": "internship",
-      "subtype": "长期学生兼职",
-      "description": "Creative Design 部，Web设计与制作。大学、专门学校或自学设计者可，需基础设计工具能力。福冈本社工作，工时面议。",
-      "notes": "时薪1,100日元起，交通依规定补贴；没有公开截止。东京不招此岗。公司另有可按希望日期协调的线上业务说明。",
-      "sources": [
-        {
-          "label": "公司学生设计岗位",
-          "url": "https://recruit.d-zero.co.jp/requirements/student"
-        },
-        {
-          "label": "公司线上或现场咨询",
-          "url": "https://recruit.d-zero.co.jp/company_visit/"
-        }
-      ],
-      "milestones": [],
-      "checkedAt": "2026-11-06",
-      "status": "公开招聘／活动信息",
-      "statusDetail": "核到公开招聘或活动要项。"
-    },
-    {
       "id": "mcd3-uiux-designer-2028",
       "company": "MCD3",
       "title": "28卒 UI/UX 设计师本选考",
@@ -5337,8 +5007,8 @@
       ],
       "milestones": [],
       "checkedAt": "2026-11-07",
-      "status": "公开招聘／活动信息",
-      "statusDetail": "核到公开招聘或活动要项。",
+      "status": "候选／计划申请",
+      "statusDetail": "本人11/6表达报名意向、11/7再次明确列为备选；尚未Entry、预约说明会或提交本选考材料。",
       "registrationSessions": [
         {
           "id": "mcd3-uiux-designer-2028::undated",
@@ -5360,54 +5030,8 @@
           "bookingStage": "有意报名／尚未Entry",
           "nextAction": "先核仅登记说明会的路径与场次，不用事业开发活动代替设计说明会。"
         }
-      ]
-    },
-    {
-      "id": "teamlab-engineering-student-uiux-assistant",
-      "company": "teamLab Engineering",
-      "title": "UI/UX 设计助理 · 东京学生兼职",
-      "category": "internship",
-      "subtype": "长期学生兼职",
-      "description": "株式会社チームラボエンジニアリング雇用。东京神田小川町，做Web、手机界面与数字导视。18岁以上、有制作经验，每周至少两天。",
-      "notes": "时薪1,300日元起，通勤补助上限20,000日元。提交履历书、可查看的作品集URL，填写出勤时间及日语沟通情况；使用AI须注明。未列统一截止或总月数。",
-      "sources": [
-        {
-          "label": "UI/UX助理岗位及企业指定报名入口",
-          "url": "https://www.team-lab.com/recruit/arbeit/UIUXDesignAssistant/"
-        }
       ],
-      "milestones": [],
-      "checkedAt": "2026-11-06",
-      "status": "公开招聘／活动信息",
-      "statusDetail": "核到公开招聘或活动要项。"
-    },
-    {
-      "id": "auditech-product-ux-student-intern",
-      "company": "Auditech",
-      "title": "产品／UX 有薪长期实习 · 原则远程",
-      "category": "internship",
-      "subtype": "长期实习（6个月以上）",
-      "description": "株式会社Auditech，面向审计／会计SaaS的用户访谈、流程改善、Figma原型与发布后反馈。不限年级专业，明确欢迎大学院生与美术／设计学生。",
-      "notes": "时薪1,500日元起；原则6个月以上、每周8–16小时（至少8小时）。原则远程，客户访问须本人同意及另行调时，交通费支给。选考含线上面谈、必要时30–60分钟工作样例、最终面谈；并非只交简历即可。未公布统一截止，开始时间协商。",
-      "sources": [
-        {
-          "label": "官方学生实习募集及待遇",
-          "url": "https://auditech.co.jp/student-internship/"
-        },
-        {
-          "label": "官网指定申请入口（选择採用について）",
-          "url": "https://auditech.co.jp/contact/"
-        },
-        {
-          "label": "实际雇主",
-          "url": "https://auditech.co.jp/about/"
-        }
-      ],
-      "milestones": [],
-      "checkedAt": "2026-11-07",
-      "status": "候选／计划申请",
-      "statusDetail": "新发现候选，未申请；尚无本人参加意向确认。",
-      "nextAction": "先评估能否连续6个月、每周至少8小时投入，再决定是否申请。申请时说明自行发现并解决的问题、AI改善经验或尝试计划、想处理的主题；不自动提交。"
+      "decisionContext": "希望先听28卒UI/UX说明会；具体设计场次尚未核到，不能以事业开发活动替代。"
     },
     {
       "id": "brother-design-2028-preregistration",
@@ -5415,13 +5039,9 @@
       "title": "28卒设计职预登记 · 正式选考待公布",
       "category": "selection",
       "subtype": "预登记／接收设计招聘通知",
-      "description": "ブラザー工業株式会社。设计部门涵盖UX设计、界面设计、产品设计及传播设计。11/4公告开始28卒设计职事前登记，登记后接收后续招聘信息。",
-      "notes": "已实际读到官网公告和官网指向的AXOL登记条款入口；预登记不等于正式投递、说明会预约或实习录取。未公布设计正式选考、实习具体日期或此次预登记截止。一般28卒要项含大学院2028年3月修了预计者；设计流程细节以后续专用通知为准。",
+      "description": "ブラザー工業株式会社。业务涵盖打印、扫描、标签与缝纫等设备及相关软件。UX组做访谈、用户旅程与验证；界面组做设备操作面板、PC／手机应用、画面流程与设备和应用之间的操作衔接。",
+      "notes": "11/4官网公告开始28卒设计事前登记；11/7已读公告和AXOL登记条款入口。正式设计选考、设计说明会的具体场次与期限尚未核到公布；预登记不等于正式投递。部门含UX、界面、产品及传播设计并有轮岗，不能保证UI/UX配属；需在后续说明会核实岗位及配属方式。",
       "sources": [
-        {
-          "label": "设计部门28卒预登记公告",
-          "url": "https://www.brother.co.jp/corporate/design/recruit/index.aspx"
-        },
         {
           "label": "公司28卒一般募集资格",
           "url": "https://www.brother.co.jp/corporate/bil/recruit/portal/gradu/information/index.aspx"
@@ -5429,6 +5049,14 @@
         {
           "label": "官网指向的28卒登记入口",
           "url": "https://axol.jp/zw/s/brother_28/entry/"
+        },
+        {
+          "label": "设计部门28卒预登记公告",
+          "url": "https://www.brother.co.jp/corporate/design/recruit/index.aspx"
+        },
+        {
+          "label": "界面设计师工作案例",
+          "url": "https://www.brother.co.jp/corporate/design/recruit/interview/interview02/index.aspx"
         }
       ],
       "milestones": [
@@ -5440,8 +5068,9 @@
       ],
       "checkedAt": "2026-11-07",
       "status": "候选／计划申请",
-      "statusDetail": "新发现候选，未登记；正式选考与具体场次尚未核实。",
-      "nextAction": "有意向时先登记接收设计招聘信息；后续分别核对正式选考、课程、作品集要求与具体截止。"
+      "statusDetail": "本人11/7明确有意申请28卒设计职，等待正式募集公布；尚未预登记、正式投递或预约说明会。",
+      "nextAction": "跟踪28卒设计正式募集和设计说明会；正式开放或具体设计场次公布时通知本人，先听说明会再决定材料提交。现阶段可预登记接收信息，但未代为登记。",
+      "decisionContext": "已表达报名意向，现阶段待正式募集与设计专场公布；预登记为接收通知，是否先登记仍由本人决定。"
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",
@@ -5535,6 +5164,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-07T09:20:21+09:00",
-  "lastPartialVerificationScope": "11/7晨间增量：新增Auditech长期UX实习与Brother设计预登记；不代表全部既有项目重核。"
+  "lastPartialVerificationAt": "2026-11-07T10:57:39+09:00",
+  "lastPartialVerificationScope": "11/7交互补充：Brother与MCD3本人意向、Dentsu/CONCENT参加链接指引、I-STUDIO互动要求及长期候选移出；不代表全量重查。"
 }
