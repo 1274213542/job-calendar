@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "companies": [
     {
       "name": "Goodpatch",
@@ -3978,6 +3978,63 @@
         ],
         "limitations": "第三方员工投稿，非设计新卒专项；统计期间和加班统计样本数未公开，页面总口コミ数不是独立受访人数。仅概括可公开读取部分，未进入登录内容。 不是チームラボ全集团；41条中26条为面试，劳动环境独立人数未知，且主要是工程师。"
       }
+    },
+    {
+      "name": "Auditech",
+      "aliases": [
+        "株式会社Auditech"
+      ],
+      "roles": [
+        {
+          "role": "产品／UX学生实习",
+          "scope": "长期学生实习，非正社员起薪；大学院生可。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "原则远程；客户访问需本人同意和日程协调，交通费支给。公司指定AI工具及业务账号由公司提供；考试期可事前协商减少工时。",
+          "intern": "时薪1,500日元起，定期按职责／成果／技能复核。原则6个月以上，每周8–16小时（至少8小时）；开始时间协商。",
+          "sources": [
+            {
+              "label": "官方学生实习募集",
+              "url": "https://auditech.co.jp/student-internship/"
+            }
+          ],
+          "availabilityLabel": "学生实习时薪已核",
+          "evidenceNote": "2026-11-07读取官方当前募集和申请入口。未公开正社员同岗月薪、年收、奖金或加班制度，不能由时薪推定。"
+        }
+      ]
+    },
+    {
+      "name": "Brother",
+      "aliases": [
+        "ブラザー工業",
+        "ブラザー工業株式会社"
+      ],
+      "roles": [
+        {
+          "role": "设计职（UX／界面设计等）",
+          "scope": "28卒设计预登记；以下工资为官网2026年4月一般专业职入社实绩，不保证28卒设计合同相同。",
+          "monthly": "参考：修士300,400日元（2026年4月一般专业职实绩）",
+          "annual": null,
+          "bonus": "一般募集要项：每年2次（6月、12月），金额未公开。",
+          "overtime": null,
+          "benefits": "一般要项：通勤、家族、住宅等津贴；标准每日7小时50分、弹性；年休124日（闰年125日），首年年假18日，次年起20日；持股、单身宿舍、研修及自我启发支援。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "一般募集要项与2026年入社实绩",
+              "url": "https://www.brother.co.jp/corporate/bil/recruit/portal/gradu/information/index.aspx"
+            },
+            {
+              "label": "设计招聘独立入口",
+              "url": "https://www.brother.co.jp/corporate/design/recruit/index.aspx"
+            }
+          ],
+          "availabilityLabel": "往届一般职待遇参考",
+          "evidenceNote": "2026-11-07读取。设计28卒目前仅预登记；设计职专用工资构成、固定加班及实习报酬未核。员工评价尚未在本轮调查，不以缺少评价推定工作环境。"
+        }
+      ]
     }
   ]
 }

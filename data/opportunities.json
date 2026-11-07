@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-07T09:20:21+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -5380,6 +5380,68 @@
       "checkedAt": "2026-11-06",
       "status": "公开招聘／活动信息",
       "statusDetail": "核到公开招聘或活动要项。"
+    },
+    {
+      "id": "auditech-product-ux-student-intern",
+      "company": "Auditech",
+      "title": "产品／UX 有薪长期实习 · 原则远程",
+      "category": "internship",
+      "subtype": "长期实习（6个月以上）",
+      "description": "株式会社Auditech，面向审计／会计SaaS的用户访谈、流程改善、Figma原型与发布后反馈。不限年级专业，明确欢迎大学院生与美术／设计学生。",
+      "notes": "时薪1,500日元起；原则6个月以上、每周8–16小时（至少8小时）。原则远程，客户访问须本人同意及另行调时，交通费支给。选考含线上面谈、必要时30–60分钟工作样例、最终面谈；并非只交简历即可。未公布统一截止，开始时间协商。",
+      "sources": [
+        {
+          "label": "官方学生实习募集及待遇",
+          "url": "https://auditech.co.jp/student-internship/"
+        },
+        {
+          "label": "官网指定申请入口（选择採用について）",
+          "url": "https://auditech.co.jp/contact/"
+        },
+        {
+          "label": "实际雇主",
+          "url": "https://auditech.co.jp/about/"
+        }
+      ],
+      "milestones": [],
+      "checkedAt": "2026-11-07",
+      "status": "候选／计划申请",
+      "statusDetail": "新发现候选，未申请；尚无本人参加意向确认。",
+      "nextAction": "先评估能否连续6个月、每周至少8小时投入，再决定是否申请。申请时说明自行发现并解决的问题、AI改善经验或尝试计划、想处理的主题；不自动提交。"
+    },
+    {
+      "id": "brother-design-2028-preregistration",
+      "company": "Brother",
+      "title": "28卒设计职预登记 · 正式选考待公布",
+      "category": "selection",
+      "subtype": "预登记／接收设计招聘通知",
+      "description": "ブラザー工業株式会社。设计部门涵盖UX设计、界面设计、产品设计及传播设计。11/4公告开始28卒设计职事前登记，登记后接收后续招聘信息。",
+      "notes": "已实际读到官网公告和官网指向的AXOL登记条款入口；预登记不等于正式投递、说明会预约或实习录取。未公布设计正式选考、实习具体日期或此次预登记截止。一般28卒要项含大学院2028年3月修了预计者；设计流程细节以后续专用通知为准。",
+      "sources": [
+        {
+          "label": "设计部门28卒预登记公告",
+          "url": "https://www.brother.co.jp/corporate/design/recruit/index.aspx"
+        },
+        {
+          "label": "公司28卒一般募集资格",
+          "url": "https://www.brother.co.jp/corporate/bil/recruit/portal/gradu/information/index.aspx"
+        },
+        {
+          "label": "官网指向的28卒登记入口",
+          "url": "https://axol.jp/zw/s/brother_28/entry/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-04",
+          "label": "28卒设计预登记开始（非正式选考）"
+        }
+      ],
+      "checkedAt": "2026-11-07",
+      "status": "候选／计划申请",
+      "statusDetail": "新发现候选，未登记；正式选考与具体场次尚未核实。",
+      "nextAction": "有意向时先登记接收设计招聘信息；后续分别核对正式选考、课程、作品集要求与具体截止。"
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",
@@ -5473,6 +5535,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-07T02:43:16+09:00",
-  "lastPartialVerificationScope": "预约窗口与Epson提交路线补核；不代表全量机会重新检索"
+  "lastPartialVerificationAt": "2026-11-07T09:20:21+09:00",
+  "lastPartialVerificationScope": "11/7晨间增量：新增Auditech长期UX实习与Brother设计预登记；不代表全部既有项目重核。"
 }
