@@ -313,6 +313,7 @@ export async function mountDecisions(data) {
     const savedLabel=saved?choiceLabel(saved.choice,op):'';
     return `<article class="decision-card" tabindex="0" data-decision-card="${esc(op.id)}" aria-label="${esc(type.label)} ${esc(op.company)} ${esc(op.title)}">
       <div class="decision-card-head"><div><div class="decision-card-meta">${typeTag(type)}<span class="decision-company">${esc(op.company)}</span><span class="decision-stage">${esc(shortStage(op))}</span></div><h3>${esc(op.title)}</h3></div>${savedLabel?`<span class="decision-current">${esc(savedLabel)}</span>`:''}</div>
+      ${op.intro?`<p class="decision-intro">${esc(op.intro)}</p>`:''}
       ${sessionPicker}
       <div class="decision-facts">${openingNote&&!expired?`<div class="decision-fact"><b>开放</b><span>${esc(openingNote)}</span></div>`:''}${canDecide(op,today)?`<div class="decision-fact"><b>截止</b><span>${esc(deadlineText)}</span></div>`:''}</div>
       ${reapplicationPanel(op)}

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08T00:50:38+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -52,7 +52,8 @@
           "label": "候选举办日（待选考结果）",
           "endDate": "2026-12-05T18:00"
         }
-      ]
+      ],
+      "intro": "Goodpatch以设计咨询与数字产品体验设计为核心；本项目是围绕用户体验的1日设计实践。"
     },
     {
       "id": "opp-ec071bd0e8",
@@ -96,7 +97,8 @@
         "confirmedOn": "2026-11-03",
         "evidenceType": "user_confirmation",
         "note": "本人表示可调开兼职；未确认已完成调班"
-      }
+      },
+      "intro": "ENSAPIA从事数字社交、虚拟形象与游戏相关业务；本项目结合UI/UX与平面设计进行1日体验。"
     },
     {
       "id": "opp-01066a81d5",
@@ -187,7 +189,8 @@
           "bookingStage": "平台申请已受理／具体场次未确认",
           "nextAction": "先核独立作品集手续与具体参加资格，不重复応募。"
         }
-      ]
+      ],
+      "intro": "Drecom从事游戏、出版及IP内容；本项目通过制作、发表与讲评体验UI/UX设计。"
     },
     {
       "id": "opp-2b726e222a",
@@ -224,7 +227,8 @@
       "sessionModel": {
         "mode": "choose_one",
         "note": "不同地点的候选场；需另核报名与到场条件"
-      }
+      },
+      "intro": "WDB集团运营Web平台；本项目让学生体验与平台相关的设计工作。"
     },
     {
       "id": "opp-156343f8d1",
@@ -261,7 +265,8 @@
           "label": "实际举办",
           "endDate": "2027-02-05"
         }
-      ]
+      ],
+      "intro": "Panasonic开展家电、照明与住宅设备业务；本项目围绕照明或住宅设备进行广告创意设计。"
     },
     {
       "id": "opp-81f3a6ed1a",
@@ -287,7 +292,8 @@
           "date": "2026-12-21T17:00",
           "label": "ReDesigner募集截止"
         }
-      ]
+      ],
+      "intro": "LIFULL运营居住信息与社会课题相关服务；本项目以设计回应社会课题，并涉及品牌设计。"
     },
     {
       "id": "opp-d8ddeecb77",
@@ -318,7 +324,8 @@
           "date": "2026-11-06",
           "label": "报名截止"
         }
-      ]
+      ],
+      "intro": "CafeGroup的本次短期项目以2D设计为主题，具体课题尚未说明。"
     },
     {
       "id": "opp-3fd3a4b3aa",
@@ -350,7 +357,8 @@
           "date": "2026-12-31T23:59",
           "label": "报名截止"
         }
-      ]
+      ],
+      "intro": "Mercari运营二手交易及相关金融、电商服务；本项目是面向产品设计师的UI/UX实习。"
     },
     {
       "id": "opp-eb11a81103",
@@ -397,7 +405,8 @@
       "sessionModel": {
         "mode": "project_schedule",
         "note": "1/13导入＋1/27–2/4实习是同一项目的两个阶段，不是二选一。"
-      }
+      },
+      "intro": "Panasonic开展设备与服务业务；本项目围绕设备或服务界面的UI/UX与用户体验设计。"
     },
     {
       "id": "opp-bd307ddfdc",
@@ -417,7 +426,8 @@
         }
       ],
       "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 约2周；正文每周≥3日/24小时，条款栏写每周4日起。",
-      "milestones": []
+      "milestones": [],
+      "intro": "Yappli提供企业无代码应用平台；本项目涉及应用企划、视觉设计与CMS。"
     },
     {
       "id": "opp-bc35483533",
@@ -458,7 +468,8 @@
           "label": "实际举办",
           "endDate": "2027-02-05"
         }
-      ]
+      ],
+      "intro": "Suzuki从事汽车与移动产品业务；本项目涵盖四轮产品设计及车载GUI。"
     },
     {
       "id": "opp-dc8aff302e",
@@ -499,7 +510,8 @@
           "label": "实际举办",
           "endDate": "2027-01-29"
         }
-      ]
+      ],
+      "intro": "Suzuki从事汽车与移动产品业务；本项目聚焦摩托车造型、CMF与模型设计。"
     },
     {
       "id": "opp-0643215788",
@@ -536,7 +548,8 @@
           "label": "实际举办",
           "endDate": "2027-02-05"
         }
-      ]
+      ],
+      "intro": "Yamaha从事乐器、音响与数字设备业务；本项目带学生了解产品设计工作。"
     },
     {
       "id": "opp-8bb33b8b33",
@@ -577,7 +590,8 @@
           "endDate": "2027-03-18",
           "label": "车载显示器UI/UX实习区间／未申请"
         }
-      ]
+      ],
+      "intro": "Honda从事汽车与移动产品业务；本项目聚焦车载显示器的UI/UX设计。"
     },
     {
       "id": "opp-fe2baefbd3",
@@ -615,7 +629,8 @@
         }
       ],
       "workCompatibility": "online_briefing",
-      "bookingConfirmed": true
+      "bookingConfirmed": true,
+      "intro": "CyberAgent经营互联网广告、媒体与游戏业务；本活动讲解设计师作品集的评价要点。"
     },
     {
       "id": "opp-7dd531df43",
@@ -651,7 +666,8 @@
         "selectionIds": [],
         "intent": "听完后准备本选考"
       },
-      "workCompatibility": "online_briefing"
+      "workCompatibility": "online_briefing",
+      "intro": "WeddingPark提供婚礼信息与场地选择服务；本场介绍UX/UI设计职种与公司选考。"
     },
     {
       "id": "opp-83bc5b305c",
@@ -704,7 +720,8 @@
           "bookingStage": "已预约／以既有回执为据",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
-      ]
+      ],
+      "intro": "LIFULL运营居住信息与社会课题相关服务；本场介绍设计师工作与社会课题相关项目。"
     },
     {
       "id": "opp-d698b0e5c5",
@@ -739,7 +756,8 @@
       "milestones": [],
       "attendanceMode": "in_person",
       "bookingConfirmed": false,
-      "attendanceIntent": "cancelled"
+      "attendanceIntent": "cancelled",
+      "intro": "I-STUDIO从事数字创意与Web体验制作；本场介绍创意职、公司业务及选考。"
     },
     {
       "id": "opp-6286d81e29",
@@ -891,7 +909,8 @@
           "format": "线上"
         }
       ],
-      "decisionContext": "需要作品集屏幕共享与互动交流。11/25线上候选范围与周三课程／通勤相交，不能默认可边上课参加；11/24线下须确认调班和通勤后再选。最终仅筛选分配一个约25分钟时段。"
+      "decisionContext": "需要作品集屏幕共享与互动交流。11/25线上候选范围与周三课程／通勤相交，不能默认可边上课参加；11/24线下须确认调班和通勤后再选。最终仅筛选分配一个约25分钟时段。",
+      "intro": "I-STUDIO 从事数字创意与Web体验制作。作品集咨询会围绕参加者的作品集交流，提供作品表达与构成建议。"
     },
     {
       "id": "opp-55300098fc",
@@ -949,7 +968,8 @@
           "endDate": "2026-11-05T19:30",
           "label": "已过去的同系列场次；出席未知"
         }
-      ]
+      ],
+      "intro": "Sony Creative Center负责Sony设计工作；本场介绍设计项目并安排设计师交流。"
     },
     {
       "id": "opp-37ec3f204b",
@@ -1004,7 +1024,8 @@
           "date": "2026-11-20T16:00",
           "label": "ReDesigner总标签／未证实为独立场次截止"
         }
-      ]
+      ],
+      "intro": "Sony Creative Center负责Sony设计工作；本活动通过员工学生时期的案例介绍作品集制作。"
     },
     {
       "id": "opp-a55f0cdeed",
@@ -1170,7 +1191,8 @@
           "bookingStage": "已预约／以既有回执为据",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
-      ]
+      ],
+      "intro": "JustSystems开发软件与数字服务；本场介绍UX及传播设计师工作，并安排问答。"
     },
     {
       "id": "opp-1c4d34fa39",
@@ -1235,7 +1257,8 @@
           "nextAction": "11/10查看公司发送的Zoom链接；无需重复报名。"
         }
       ],
-      "decisionContext": "公司已受理，不需重复报名；11/10等待并核对入场链接。公开日历不放私人Zoom地址。"
+      "decisionContext": "公司已受理，不需重复报名；11/10等待并核对入场链接。公开日历不放私人Zoom地址。",
+      "intro": "CONCENT从事服务、品牌、编辑与数字产品设计；本场介绍公司工作和员工项目案例。"
     },
     {
       "id": "opp-80ccdd1cc4",
@@ -1288,7 +1311,8 @@
           "bookingStage": "报名已提交待指引",
           "nextAction": "作品集反馈需要互动，先与本人确认是否调开周四兼职；等待公司指引；如希望个别反馈，准备作品集和反馈问题。"
         }
-      ]
+      ],
+      "intro": "Persol Career提供人才与职业服务；本活动介绍作品集选考并提供个别反馈。"
     },
     {
       "id": "opp-1bcefcc2c8",
@@ -1366,7 +1390,8 @@
           "bookingStage": "ReDesigner已受理／Zoom场次未确认",
           "nextAction": "先解决与Sony或Goodpatch的冲突，再登记且核邮件；不重复平台応募。"
         }
-      ]
+      ],
+      "intro": "DENSO从事汽车技术与产品开发；本场介绍图形、编辑、Web及UI设计工作。"
     },
     {
       "id": "opp-0efa90e468",
@@ -1433,7 +1458,8 @@
           "bookingStage": "已预约／以既有回执为据",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
-      ]
+      ],
+      "intro": "Sun Asterisk参与数字产品与设计开发；本场介绍Creative设计工作并安排前辈座谈。"
     },
     {
       "id": "opp-a1702d3007",
@@ -1484,7 +1510,8 @@
           "bookingStage": "候选／计划申请",
           "nextAction": "Mercari Camp入选则冲突；11/20实习也已有反馈价值。"
         }
-      ]
+      ],
+      "intro": "ENSAPIA从事数字社交、虚拟形象与游戏相关业务；本活动提供UI/UX及平面作品集反馈。"
     },
     {
       "id": "opp-cbc5bd2b6e",
@@ -1515,12 +1542,13 @@
       "workCompatibility": "online_briefing",
       "historicalNextAction": "3D方向拓展；与Sony11/5冲突，按UIUX优先可选Sony。",
       "lifecycleUpdatedAt": "2026-11-07T02:43:16+09:00",
-      "remindersEnabled": false
+      "remindersEnabled": false,
+      "intro": "Game Freak开发《宝可梦》等游戏；本场介绍3DCG幕后工作并由内定者讲解作品集。"
     },
     {
       "id": "opp-0165f6d3d4",
       "company": "ViViViT",
-      "title": "しごとマップ其他候选场次",
+      "title": "しごとマップ｜线上设计公司说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "候选／计划申请",
@@ -1654,7 +1682,8 @@
           "bookingStage": "候选／计划申请",
           "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。"
         }
-      ]
+      ],
+      "intro": "ViViViT 是设计求职平台。「しごとマップ」邀请多家公司线上介绍设计工作，每家约20分钟，方便比较公司与岗位。"
     },
     {
       "id": "opp-e99bcc3d35",
@@ -1723,7 +1752,8 @@
           "bookingStage": "候选／计划申请",
           "nextAction": "11/28设计日优先。现场总官网时间优先于早期企业私信13–18旧时段。"
         }
-      ]
+      ],
+      "intro": "ViViViT是面向学生与企业的设计职业平台；本活动汇集招聘企业，并提供作品展示与非选考作品集交流。"
     },
     {
       "id": "opp-033995763b",
@@ -1769,7 +1799,8 @@
           "bookingStage": "候选／计划申请",
           "nextAction": "ENSAPIA实习18:30结束后仅30分钟，考虑通勤与精力；可选而非必排。"
         }
-      ]
+      ],
+      "intro": "ViViViT是面向学生与企业的设计职业平台；本场由たき与ABeam参与，讨论如何让团队参与设计。"
     },
     {
       "id": "opp-99bfd5be09",
@@ -1876,7 +1907,8 @@
         }
       ],
       "notes": "11/3撤下误列的未来候选场次，尤其11/16不是本人已预约安排。此前准备的表单未提交；本人确认已听完，具体历史参加日期不补造。",
-      "milestones": []
+      "milestones": [],
+      "intro": "WDB集团运营Web平台；本场介绍IT系统Growth业务中的设计、前端、Web与企划工作。"
     },
     {
       "id": "opp-a6ecf24894",
@@ -1960,7 +1992,8 @@
           "bookingStage": "候选／计划申请",
           "nextAction": "提前保留机会，不是本周紧急。"
         }
-      ]
+      ],
+      "intro": "ReDesigner连接设计学生与招聘企业；本活动汇集多家公司，介绍设计岗位与职业机会。"
     },
     {
       "id": "opp-eabe457c20",
@@ -2007,7 +2040,8 @@
           "endDate": "2026-11-16T11:00",
           "label": "备选临时预留／未发送，非已约"
         }
-      ]
+      ],
+      "intro": "BASE提供电商建站服务并运营PAY ID购物应用；本次是围绕PAY ID产品设计的轻松交流面谈。"
     },
     {
       "id": "opp-0128a691cd",
@@ -2075,7 +2109,8 @@
           "bookingStage": "候选／计划申请",
           "nextAction": "想练交流选11/26；11/12与LIFULL冲突。"
         }
-      ]
+      ],
+      "intro": "Leverages提供人力与数字服务并开发自有产品；本场是设计师与学生的小组交流会。"
     },
     {
       "id": "opp-e2aa99cbc3",
@@ -2134,7 +2169,8 @@
           "bookingStage": "已预约／以既有回执为据",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
-      ]
+      ],
+      "intro": "Sansan提供B2B SaaS服务；本场介绍品牌、传播、Web与平面设计，并说明后续选考。"
     },
     {
       "id": "opp-1c8cdb18e2",
@@ -2153,7 +2189,8 @@
         }
       ],
       "notes": "原资料：报名开始 10/29新Scout；截止 暂无截止时间（来源未公布）；举办 个别安排，未定。",
-      "milestones": []
+      "milestones": [],
+      "intro": "三洋运营自有电商业务；本次面谈围绕EC与Web设计工作展开。"
     },
     {
       "id": "opp-ff4fd524f5",
@@ -2173,7 +2210,8 @@
         }
       ],
       "notes": "原资料：报名开始 已开放；开始日未公布；截止 暂无截止时间（来源未公布）；举办 个别安排30–60分钟。",
-      "milestones": []
+      "milestones": [],
+      "intro": "CONCENT从事服务、品牌、编辑与UI/UX设计；本次新卒面谈可了解设计工作与职业发展。"
     },
     {
       "id": "opp-c9579f86bd",
@@ -2224,7 +2262,8 @@
           "bookingStage": "已预约／以既有回执为据",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
-      ]
+      ],
+      "intro": "GMO Media运营コエテコ、ポイントタウン等互联网服务；本场介绍设计职工作。"
     },
     {
       "id": "opp-b70896a890",
@@ -2263,7 +2302,8 @@
           "date": "2026-12-04T12:00",
           "label": "作品集截止；实物PF为12/4邮戳"
         }
-      ]
+      ],
+      "intro": "I-STUDIO从事数字创意与Web体验制作；本项目是Creative设计职早期选考。"
     },
     {
       "id": "opp-12092225f7",
@@ -2294,7 +2334,8 @@
           "date": "2026-11-24T23:59",
           "label": "报名截止"
         }
-      ]
+      ],
+      "intro": "Dentsu Digital 的新卒早期选考入口，可从公司说明会了解各课程的工作内容，再决定申请方向。"
     },
     {
       "id": "opp-06123c2f49",
@@ -2358,7 +2399,8 @@
           }
         ],
         "checkedAt": "2026-11-07"
-      }
+      },
+      "intro": "CONCENT从事服务、品牌、编辑与UI/UX设计；本项目是28卒秋冬新卒选考，设开放职种与传播设计职种。"
     },
     {
       "id": "opp-bc7e730330",
@@ -2378,7 +2420,8 @@
         }
       ],
       "notes": "具体课程收件情况与期限见MyPage，待核对；暂无公开具体截止时间。旧实习落选不等于本选考落选。",
-      "milestones": []
+      "milestones": [],
+      "intro": "Hakuhodo DY ONE从事数字广告与创意传播；本项目是Creative正式岗位招聘。"
     },
     {
       "id": "opp-5993d91654",
@@ -2398,7 +2441,8 @@
         }
       ],
       "notes": "原资料：报名开始 已结束；截止 已结束；举办 原12月现场不再作确定安排。",
-      "milestones": []
+      "milestones": [],
+      "intro": "KEYENCE 的设计实习项目，具体内容见公司当期课程说明。"
     },
     {
       "id": "opp-2a164f8193",
@@ -2418,7 +2462,8 @@
         }
       ],
       "notes": "原资料：报名开始 已结束；截止 2026-10-28 10:00（已过）；举办 2026-11-09 17:00–19:00。",
-      "milestones": []
+      "milestones": [],
+      "intro": "CyberAgent经营互联网广告、媒体与游戏业务；本活动提供设计师作品集建议。"
     },
     {
       "id": "opp-ffc550f4cc",
@@ -2442,7 +2487,8 @@
         }
       ],
       "notes": "本期岗位写至2026年10月举办，官网ATS列10月31日申请截止。下期未公布。",
-      "milestones": []
+      "milestones": [],
+      "intro": "COLOPL开发游戏与娱乐内容；本项目是就业型设计实习，包含游戏设计工作。"
     },
     {
       "id": "opp-137a9fd36f",
@@ -2468,7 +2514,8 @@
           "date": "2026-11-23",
           "label": "报名截止"
         }
-      ]
+      ],
+      "intro": "Game Freak开发游戏；本活动面向游戏设计相关方向提供作品集建议。"
     },
     {
       "id": "opp-963aa9e943",
@@ -2527,7 +2574,8 @@
           "label": "第6批截止（钟点未公布）"
         }
       ],
-      "lifecycleUpdatedAt": "2026-11-07T02:43:16+09:00"
+      "lifecycleUpdatedAt": "2026-11-07T02:43:16+09:00",
+      "intro": "本项目为SmartHR的28卒产品设计师招聘，内容聚焦产品设计岗位。"
     },
     {
       "id": "selection-goodpatch-term2",
@@ -2578,7 +2626,8 @@
           }
         ],
         "checkedAt": "2026-11-07"
-      }
+      },
+      "intro": "Goodpatch以设计咨询与数字产品体验设计为核心；本项目招聘28卒UI/UX与服务设计岗位。"
     },
     {
       "id": "selection-goodpatch-term3",
@@ -2613,7 +2662,8 @@
           "date": "2027-01-11",
           "label": "报名截止"
         }
-      ]
+      ],
+      "intro": "Goodpatch以设计咨询与数字产品体验设计为核心；本项目招聘28卒UI/UX与服务设计岗位。"
     },
     {
       "id": "selection-concent-spring",
@@ -2644,7 +2694,8 @@
           "date": "2027-04-12",
           "label": "报名截止"
         }
-      ]
+      ],
+      "intro": "CONCENT从事服务、品牌、编辑与UI/UX设计；本项目为28卒春季新卒选考。"
     },
     {
       "id": "selection-concent-summer",
@@ -2675,7 +2726,8 @@
           "date": "2027-07-05",
           "label": "报名截止"
         }
-      ]
+      ],
+      "intro": "CONCENT从事服务、品牌、编辑与UI/UX设计；本项目为28卒夏季新卒选考。"
     },
     {
       "id": "selection-accenture-creative",
@@ -2715,7 +2767,8 @@
           "date": "2026-12-10T23:59",
           "label": "测试截止：Creative岗位页"
         }
-      ]
+      ],
+      "intro": "Accenture 的新卒 Creative 职种招聘，面向创意与设计方向。"
     },
     {
       "id": "selection-cyberagent",
@@ -2735,7 +2788,8 @@
         }
       ],
       "notes": "暂无统一截止时间；招满可能结束。",
-      "milestones": []
+      "milestones": [],
+      "intro": "CyberAgent 经营互联网广告、媒体与游戏业务，本项目招聘新卒设计师。"
     },
     {
       "id": "selection-base",
@@ -2755,7 +2809,8 @@
         }
       ],
       "notes": "暂无截止时间。Scout面谈另列。",
-      "milestones": []
+      "milestones": [],
+      "intro": "BASE提供电商建站服务并运营PAY ID购物应用；本项目招聘PAY ID UI/UX设计师。"
     },
     {
       "id": "selection-sansan",
@@ -2775,7 +2830,8 @@
         }
       ],
       "notes": "暂无公开截止时间。",
-      "milestones": []
+      "milestones": [],
+      "intro": "Sansan提供B2B SaaS服务；本项目招聘品牌、传播、Web与平面设计方向人才。"
     },
     {
       "id": "selection-mixi",
@@ -2799,7 +2855,8 @@
         }
       ],
       "notes": "期限见MyPage，待核对；下一批与同届复投未公开。 官网当前28卒条款明确2027年10月或2028年4月入社。游戏数字娱乐岗位另招；本条是产品设计师。",
-      "milestones": []
+      "milestones": [],
+      "intro": "本项目招聘MIXI产品设计师，工作围绕产品体验与界面设计展开。"
     },
     {
       "id": "selection-dena",
@@ -2819,7 +2876,8 @@
         }
       ],
       "notes": "暂无公开截止时间；个人材料期限待核对。",
-      "milestones": []
+      "milestones": [],
+      "intro": "DeNA 的 AI Generalist Creative 新卒岗位，通过作品集、设计课题和面试选拔。"
     },
     {
       "id": "selection-nintendo-hardware",
@@ -2938,7 +2996,8 @@
           "endDate": "2026-11-06T18:30",
           "label": "候选校内说明会（未预约）"
         }
-      ]
+      ],
+      "intro": "Sony Creative Center负责Sony设计工作；本场介绍设计案例、UI/UX等职种、工作坊与作品集建议。"
     },
     {
       "id": "activity-denso-musabi-20261102",
@@ -2971,7 +3030,8 @@
       ],
       "historicalNextAction": "如考虑参加今天17:00场次，查看11/2校内通知并从武藏美进路导航确认报名；本轮未代为报名。",
       "lifecycleUpdatedAt": "2026-11-07T02:43:16+09:00",
-      "remindersEnabled": false
+      "remindersEnabled": false,
+      "intro": "DENSO从事汽车技术与产品开发；本场介绍设计部从企划到制作的工作，涵盖视觉识别、编辑、Web、影像与空间传播。"
     },
     {
       "id": "internship-epson-design-winter-2028",
@@ -3046,12 +3106,13 @@
           "bookingStage": "未预约／窗口已关闭",
           "nextAction": "停止此场报名提醒；追踪设计专用通知及筹备中的1Day。"
         }
-      ]
+      ],
+      "intro": "Seiko Epson开发打印及影像设备；本实习与设计师共同处理打印机本体或应用程序的UI/UX课题。"
     },
     {
       "id": "opp-0165f6d3d4-booked-20261110",
       "company": "ViViViT",
-      "title": "ENSAPIA／giftee 等设计专场",
+      "title": "しごとマップ｜ENSAPIA／giftee 等设计专场",
       "category": "activity",
       "subtype": "公司设计说明会",
       "status": "已预约／确认参加",
@@ -3109,12 +3170,13 @@
           "bookingStage": "已预约／以既有回执为据",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
-      ]
+      ],
+      "intro": "ViViViT 是设计求职平台。「しごとマップ」是线上多公司说明会；本场有 ENSAPIA、クイック、フリースタイルエンターテイメント和 giftee。"
     },
     {
       "id": "opp-0165f6d3d4-booked-20261113",
       "company": "ViViViT",
-      "title": "CyberAgent／INFOBAHN／GK京都 等设计专场",
+      "title": "しごとマップ｜CyberAgent／INFOBAHN／GK京都 等设计专场",
       "category": "activity",
       "subtype": "公司设计说明会",
       "status": "已预约／确认参加",
@@ -3170,7 +3232,8 @@
           "bookingStage": "已预约／以既有回执为据",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
-      ]
+      ],
+      "intro": "ViViViT 是设计求职平台。「しごとマップ」是线上多公司说明会；本场有 CyberAgent、INFOBAHN、GK京都等，介绍各自的设计工作。"
     },
     {
       "id": "activity-goodpatch-uiux-20261119",
@@ -3229,7 +3292,8 @@
           "bookingStage": "已预约／以既有回执为据",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
-      ]
+      ],
+      "intro": "Goodpatch以设计咨询与数字产品体验设计为核心；本场介绍面向28卒的UI/UX设计师工作。"
     },
     {
       "id": "activity-hakuhodo-designer-202612",
@@ -3292,7 +3356,8 @@
           "bookingStage": "已预约／以既有回执为据",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
-      ]
+      ],
+      "intro": "博報堂提供广告与创意服务；本场介绍本体设计师的工作与招聘信息。"
     },
     {
       "id": "activity-visional-product-20261111",
@@ -3352,7 +3417,8 @@
           "bookingStage": "已预约／以既有回执为据",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
-      ]
+      ],
+      "intro": "Visional运营ビズリーチ等人才服务；本场介绍面向工程师与设计师的产品职工作。"
     },
     {
       "id": "activity-panasonic-musabi-20261110",
@@ -3403,7 +3469,8 @@
           "bookingStage": "未核到本人预约",
           "nextAction": "需本人用11/6新设密码重新登录；截止和余位尚待核。"
         }
-      ]
+      ],
+      "intro": "Panasonic开展产品与设备业务；本场介绍UI/UX、产品及照明规划设计和春季实习。"
     },
     {
       "id": "workshop-fujifilm-bi-ux-2027",
@@ -3440,7 +3507,8 @@
           "endDate": "2027-01-29",
           "label": "候选：5天UX研究会（待选考）"
         }
-      ]
+      ],
+      "intro": "FUJIFILM Business Innovation提供办公与商业解决方案；本工作坊体验UX流程并提出设计方案。"
     },
     {
       "id": "activity-fujifilm-bi-design-20261119",
@@ -3487,7 +3555,8 @@
           "bookingStage": "候选／计划申请",
           "nextAction": "11/19 17–18点与Persol作品集反馈会候选安排16–17:45重叠45分钟，18点又衔接必听Goodpatch；需本人取舍，未改约。"
         }
-      ]
+      ],
+      "intro": "FUJIFILM Business Innovation提供办公与商业解决方案；本场介绍设计中心与设计研究会。"
     },
     {
       "id": "selection-litalico-designer-2028",
@@ -3511,7 +3580,8 @@
         }
       ],
       "notes": "官网新卒在招列表与HERP岗位交叉核实；申请截止和下一轮时间未公布，不推断可以等下一轮。",
-      "milestones": []
+      "milestones": [],
+      "intro": "LITALICO 提供福祉、教育与社会服务；设计师参与UI/UX、用户研究、可用性测试与设计系统。"
     },
     {
       "id": "selection-giftee-communication-2028",
@@ -3538,7 +3608,8 @@
         }
       ],
       "notes": "实际雇主为株式会社ギフティ，招聘入口属集团。截止及下一轮未公布；新卒概览未列设计，不代表ATS没有在招岗位。",
-      "milestones": []
+      "milestones": [],
+      "intro": "本项目招聘giftee传播设计师，负责宣传册、横幅、礼品卡及展会视觉设计。"
     },
     {
       "id": "selection-quick-graphic-2028",
@@ -3562,7 +3633,8 @@
         }
       ],
       "notes": "10/28企业直发职位可读，申请入口可见；官网专业职职责交叉核对，但官网该页未明确同一28卒批次。与金融信息公司QUICK不是同一法人。",
-      "milestones": []
+      "milestones": [],
+      "intro": "本项目招聘クイック平面与服务设计师，工作涉及LP、广告、图像及用户研究。"
     },
     {
       "id": "briefing-quick-design-video-2028",
@@ -3582,7 +3654,8 @@
         }
       ],
       "notes": "无固定举办时间，不虚构日历日期；公告称申请后3个工作日内联系，观看后介绍早期选考。该视频与联合专场是不同入口。",
-      "milestones": []
+      "milestones": [],
+      "intro": "クイック 的设计师视频说明会，介绍业务、设计团队、工作环境与早期选考，获取视频后可随时观看。"
     },
     {
       "id": "selection-freestyle-design-2028",
@@ -3602,7 +3675,8 @@
         }
       ],
       "notes": "最终1day／2days属于选考环节，不能记作独立公开短期实习。过去夏季落选者可申请，本选考只可参加一次；后续正式提交截止未公布。",
-      "milestones": []
+      "milestones": [],
+      "intro": "フリースタイルエンターテイメント 的新卒设计招聘，可关注平面与Web方向，先通过公司说明会了解工作。"
     },
     {
       "id": "briefing-freestyle-design-2028-dec",
@@ -3681,7 +3755,8 @@
           "bookingStage": "候选／计划申请",
           "nextAction": "两场为候选选项；选一场后再预约。各场预约截止为当天09:00。"
         }
-      ]
+      ],
+      "intro": "フリースタイルエンターテイメント 的公司说明会，介绍平面、Web等设计岗位和选考流程。"
     },
     {
       "id": "activity-dentsudigital-expo-20261111",
@@ -3747,7 +3822,8 @@
           "nextAction": "临近时查看邮箱和MyPage；11/10复核入场网址，不重复报名。"
         }
       ],
-      "decisionContext": "已预约并由本人决定保留，不列为重新报名选择；14:30开始与周三课程及通勤重叠，参加方式待协调。"
+      "decisionContext": "已预约并由本人决定保留，不列为重新报名选择；14:30开始与周三课程及通勤重叠，参加方式待协调。",
+      "intro": "本场介绍Dentsu Digital六条课程方向，包含Creative，并安排员工问答与选考介绍。"
     },
     {
       "id": "opp-c5b83dedd8",
@@ -3843,7 +3919,8 @@
           "endDate": "2026-12-15T18:00",
           "label": "合格后需参加／六本木现场（尚未录取）"
         }
-      ]
+      ],
+      "intro": "Mercari运营二手交易及相关金融、电商服务；本活动是为期11天的产品与事业构想营。"
     },
     {
       "id": "selection-cybozu-product-design-2028",
@@ -3866,7 +3943,8 @@
       "milestones": [],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "全年受理，额满会关闭。2028年4月入社且申请时就业务历未满1年。东京等日本国内据点或在宅依岗位协商。 11/4实际表单注明日语N1相当、过去一年内未申请过；就业务历不含实习和打工，产品设计可选为第一志愿。"
+      "notes": "全年受理，额满会关闭。2028年4月入社且申请时就业务历未满1年。东京等日本国内据点或在宅依岗位协商。 11/4实际表单注明日语N1相当、过去一年内未申请过；就业务历不含实习和打工，产品设计可选为第一志愿。",
+      "intro": "本项目招聘Cybozu产品设计师，工作涉及需求梳理、信息架构、原型与可用性。"
     },
     {
       "id": "selection-herp-product-design-2028",
@@ -3889,7 +3967,8 @@
       "milestones": [],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "未公布固定申请截止。书类及面试后选考含至少1个月的实习。"
+      "notes": "未公布固定申请截止。书类及面试后选考含至少1个月的实习。",
+      "intro": "HERP提供招聘与人力资源SaaS；本项目招聘数字产品设计师，涉及原型、UI/UX及宣传设计。"
     },
     {
       "id": "internship-teamlab-uiux-two-weeks",
@@ -3918,7 +3997,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "具体参加时段待选考后确定。此项目独立于新卒正式选考。 UI/UX实习表可读取，按美术院校在学创作或数字UI设计经验二选一，同次限一个岗位。"
+      "notes": "具体参加时段待选考后确定。此项目独立于新卒正式选考。 UI/UX实习表可读取，按美术院校在学创作或数字UI设计经验二选一，同次限一个岗位。",
+      "intro": "teamLab制作数字产品与互动体验；本实习参与Solutions业务的UI/UX设计。"
     },
     {
       "id": "selection-teamlab-uiux-year-round",
@@ -3941,7 +4021,8 @@
       "milestones": [],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "通年采用，官网列无统一截止。28卒可进入通年渠道，实际入社期需与公司确认。 申请表要求高中起学历的履历及可访问的作品集URL；作品使用AI时须说明用途及范围。"
+      "notes": "通年采用，官网列无统一截止。28卒可进入通年渠道，实际入社期需与公司确认。 申请表要求高中起学历的履历及可访问的作品集URL；作品使用AI时须说明用途及范围。",
+      "intro": "本项目招聘teamLab UI/UX设计师，工作涉及Web、移动产品与数字体验。"
     },
     {
       "id": "selection-fromsoftware-game-ui-2028",
@@ -3964,7 +4045,8 @@
       "milestones": [],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "2027年4月至2028年3月毕业或修了的大学、大学院等学生可报，日本国内在读留学生可用该入口。官网概览仍混列旧届截止，本届时刻待核。"
+      "notes": "2027年4月至2028年3月毕业或修了的大学、大学院等学生可报，日本国内在读留学生可用该入口。官网概览仍混列旧届截止，本届时刻待核。",
+      "intro": "本项目招聘FromSoftware游戏UI Artist，负责游戏内界面视觉设计。"
     },
     {
       "id": "selection-fromsoftware-graphic-web-2028",
@@ -3987,7 +4069,8 @@
       "milestones": [],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "2027年4月至2028年3月毕业或修了的大学、大学院等学生可报，日本国内在读留学生可用该入口。官网概览仍混列旧届截止，本届时刻待核。"
+      "notes": "2027年4月至2028年3月毕业或修了的大学、大学院等学生可报，日本国内在读留学生可用该入口。官网概览仍混列旧届截止，本届时刻待核。",
+      "intro": "本项目招聘FromSoftware平面与Web设计师，负责游戏宣传、包装、广告及网站。"
     },
     {
       "id": "selection-kurihaku-portfolio-dec2026",
@@ -4012,7 +4095,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "2028年3月毕业、志望设计职学生对象。此日是作品提交期限，未公布固定参会时间。"
+      "notes": "2028年3月毕业、志望设计职学生对象。此日是作品提交期限，未公布固定参会时间。",
+      "intro": "クリ博与デジタルスケープ提供创意行业招聘活动；本活动由多家游戏与视觉企业联合查看作品集。"
     },
     {
       "id": "taki-winter28-p1",
@@ -4287,7 +4371,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "四轮只能申请一次，材料齐备后顺次审查，满额可提前结束。"
+      "notes": "四轮只能申请一次，材料齐备后顺次审查，满额可提前结束。",
+      "intro": "本项目为Cygames的28卒设计师招聘，设计方向包含游戏UI等岗位。"
     },
     {
       "id": "cygames-tokyo-osaka-winter28-ui",
@@ -4495,7 +4580,8 @@
       "milestones": [],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "未公布统一截止或选考日期，不能写滚动即将截止。 东京品川。修士基本月薪28万日元，远程办公补贴8,000日元，超时工资另计。"
+      "notes": "未公布统一截止或选考日期，不能写滚动即将截止。 东京品川。修士基本月薪28万日元，远程办公补贴8,000日元，超时工资另计。",
+      "intro": "sdtech从事数字体验与界面设计；本项目招聘UI/UX设计师，涉及车载GUI、Web及手机应用。"
     },
     {
       "id": "selection-hakuhodo-design-2028",
@@ -4525,7 +4611,8 @@
       ],
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
-      "notes": "12月7日开放，未公布钟点。材料含ES、指定课题、作品集及技术能力材料。"
+      "notes": "12月7日开放，未公布钟点。材料含ES、指定课题、作品集及技术能力材料。",
+      "intro": "本项目招聘博報堂本体设计师，岗位面向28卒设计人才与应届求职者。"
     },
     {
       "id": "selection-wdb-aptitude-20261112",
@@ -4608,7 +4695,8 @@
           "date": "2027-01-31T23:59",
           "label": "第一轮：注册及选考书类提交截止（日本时间）"
         }
-      ]
+      ],
+      "intro": "本项目招聘Sun Asterisk Creative设计师，涉及体验设计、产品UI及品牌传播。"
     },
     {
       "id": "school-zemi-2026-materials",
@@ -4901,7 +4989,8 @@
       ],
       "checkedAt": "2026-11-06",
       "status": "公开招聘／活动信息",
-      "statusDetail": "核到公开招聘或活动要项。"
+      "statusDetail": "核到公开招聘或活动要项。",
+      "intro": "Sony Creative Center负责Sony设计工作；本工作坊围绕UI/UX与传播设计进行场景构想、制作和发表。"
     },
     {
       "id": "gk-kyoto-design-briefing-nov28",
@@ -4980,7 +5069,8 @@
       "sessionModel": {
         "mode": "choose_one",
         "note": "两场内容相同，只需选一场"
-      }
+      },
+      "intro": "GK京都从事设计与品牌相关业务；本场介绍设计工作、学生研修及新卒选考。"
     },
     {
       "id": "toyota-design-internship-spring-2027",
@@ -5029,7 +5119,8 @@
       "sessionModel": {
         "mode": "project_schedule",
         "note": "1/31入住＋2/1–12实习是连续安排，不是两个任选场次。"
-      }
+      },
+      "intro": "Toyota从事汽车与移动产品开发；本实习涉及产品、CMF与UX设计。"
     },
     {
       "id": "mcd3-uiux-designer-2028",
@@ -5091,7 +5182,8 @@
           }
         ],
         "checkedAt": "2026-11-07"
-      }
+      },
+      "intro": "MCD3（三菱商事集团）设计数字产品；本项目招聘UI/UX设计师，涉及用户研究、旅程、线框与设计系统。"
     },
     {
       "id": "brother-design-2028-preregistration",
@@ -5130,7 +5222,8 @@
       "status": "候选／计划申请",
       "statusDetail": "本人11/7明确有意申请28卒设计职，等待正式募集公布；尚未预登记、正式投递或预约说明会。",
       "nextAction": "跟踪28卒设计正式募集和设计说明会；正式开放或具体设计场次公布时通知本人，先听说明会再决定材料提交。现阶段可预登记接收信息，但未代为登记。",
-      "decisionContext": "已表达报名意向，现阶段待正式募集与设计专场公布；预登记为接收通知，是否先登记仍由本人决定。"
+      "decisionContext": "已表达报名意向，现阶段待正式募集与设计专场公布；预登记为接收通知，是否先登记仍由本人决定。",
+      "intro": "Brother 开发打印、扫描、标签、缝纫设备及软件。设计岗位涵盖用户研究、操作面板、PC及手机应用界面；当前可预登记关注正式募集。"
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",

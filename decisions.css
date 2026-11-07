@@ -211,3 +211,6 @@
 .decision-deck-nav{margin:4px 0}
 .decision-deck-nav button{border:0;background:#f1f4f8;min-width:72px}
 @media(max-width:600px){.decision-view-heading{margin-bottom:12px}.decision-view-heading h1{font-size:28px}.decision-card-head{gap:4px}.decision-fact{grid-template-columns:42px 1fr}.decision-list-tabs{gap:5px}.decision-list-tabs button{padding-inline:10px}.decision-card-meta .decision-company{display:inline}.decision-stage{margin-left:0}}
+
+/* Short project context stays visible before dates and choices. */
+.decision-intro{margin:12px 0 18px;max-width:66ch;color:#46556b;font-size:14px;line-height:1.7;overflow-wrap:anywhere}
