@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T15:15:00+09:00",
+  "updatedAt": "2026-11-08T15:27:29+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -1554,7 +1554,7 @@
       "status": "候选／计划申请",
       "statusDetail": "11/10和11/13已预约，分别拆为已确认日程；本条其余场次未预约。",
       "description": "学生设计职业平台；Zoom webinar；可中途进出；未公布费用；全学年；每公司20分钟；预约和现场展会入场预约分开",
-      "nextAction": "11/11 Nintendo Cube／ATLUS 18:30–最晚20:30，与已受理CONCENT 18:30–19:30重叠一小时；等待本人确认。",
+      "nextAction": "11/11游戏公司场已放弃；11/10、11/13已预约场次保留。",
       "checkedAt": "2026-11-08",
       "sources": [
         {
@@ -1634,8 +1634,8 @@
             "label": "ViViViT实际登记页",
             "url": "https://www.vivivit.com/event-entry?eventId=168"
           },
-          "bookingStage": "候选／计划申请",
-          "nextAction": "先确认与已受理CONCENT 18:30–19:30的重叠，再预约11/11；11/10和11/13已有预约。"
+          "bookingStage": "本人不参加／未申请",
+          "nextAction": "11/11场已放弃，停止该场报名提醒。"
         },
         {
           "id": "opp-0165f6d3d4::2026-11-12T18:30",
@@ -5760,6 +5760,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-08T15:15:00+09:00",
+  "lastPartialVerificationAt": "2026-11-08T15:27:29+09:00",
   "lastPartialVerificationScope": "11/8下午网页新选择：9项项目资料与下一步骤复核；申请及预约状态未变。"
 }
