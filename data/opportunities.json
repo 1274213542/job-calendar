@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T00:50:38+09:00",
+  "updatedAt": "2026-11-08T09:33:55+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -951,8 +951,8 @@
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": true,
           "availabilityState": "form_available",
-          "availabilityLabel": "表单可选择此场，未显示满员；余位数及精确关闭时间未公开",
-          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilityLabel": "11/8实际登记表仍列11/17 18:00–19:30；余位未公布",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
           "availabilitySource": {
             "label": "Sony官方公开参加登记表",
             "url": "https://sonygroup.my.salesforce-sites.com/sony/Design_students_registration1"
@@ -1320,11 +1320,11 @@
       "title": "Graphic中心设计说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "平台报名已受理／场次待确认",
-      "statusDetail": "ReDesigner仍显示応募済み；11/7 Zoom登记页有11/17和11/19两场，但未核到本人Zoom回执或选定场。",
+      "status": "平台申请已提交／场次待确认",
+      "statusDetail": "11/8本人ReDesigner仍显示応募済み、等待企业承认；未核到具体Zoom回执。",
       "description": "汽车技术、产品及品牌传播；Zoom webinar；未公布费用；设计部＋公关部、图形/编辑/Web/UI与实习介绍；正文指示当天打开Zoom注册页",
       "nextAction": "需从企业Zoom页选择且只选一场。11/17与Sony候选冲突；11/19与必听Goodpatch冲突，先决定取舍。本轮未登记、未处理验证码。",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "原始来源",
@@ -1361,13 +1361,13 @@
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": null,
           "availabilityState": "form_available",
-          "availabilityLabel": "两场均列在Zoom选择器；需填写资料及验证码，未核个人预约",
-          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilityLabel": "11/8实际Zoom下拉框仍列两场；余位及截止未公布",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
           "availabilitySource": {
             "label": "企业指定公开Zoom登记页",
             "url": "https://denso.zoom.us/webinar/register/WN_V7YC37M1QPORHdqNghwIFw#/registration"
           },
-          "bookingStage": "ReDesigner已受理／Zoom场次未确认",
+          "bookingStage": "ReDesigner已提交／Zoom场次未确认",
           "nextAction": "先解决与Sony或Goodpatch的冲突，再登记且核邮件；不重复平台応募。"
         },
         {
@@ -1381,13 +1381,13 @@
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": null,
           "availabilityState": "form_available",
-          "availabilityLabel": "两场均列在Zoom选择器；需填写资料及验证码，未核个人预约",
-          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilityLabel": "11/8实际Zoom下拉框仍列两场；余位及截止未公布",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
           "availabilitySource": {
             "label": "企业指定公开Zoom登记页",
             "url": "https://denso.zoom.us/webinar/register/WN_V7YC37M1QPORHdqNghwIFw#/registration"
           },
-          "bookingStage": "ReDesigner已受理／Zoom场次未确认",
+          "bookingStage": "ReDesigner已提交／Zoom场次未确认",
           "nextAction": "先解决与Sony或Goodpatch的冲突，再登记且核邮件；不重复平台応募。"
         }
       ],
@@ -1601,16 +1601,19 @@
           "id": "opp-0165f6d3d4::2026-11-09T18:30",
           "eventStart": "2026-11-09T18:30",
           "eventEnd": "2026-11-09T20:30",
-          "reservationRequired": null,
-          "registrationMethod": "待核对",
+          "reservationRequired": true,
+          "registrationMethod": "ViViViT活动登记表选择日期；登记后自动回复视听信息",
           "opensAt": null,
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": null,
-          "availabilityState": "unverified",
-          "availabilityLabel": "尚未核到实际余位",
-          "availabilityCheckedAt": null,
-          "availabilitySource": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "11/8实际表单仍列场次；余位及截止未公布",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "ViViViT实际登记页",
+            "url": "https://www.vivivit.com/event-entry?eventId=168"
+          },
           "bookingStage": "候选／计划申请",
           "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。"
         },
@@ -1618,16 +1621,19 @@
           "id": "opp-0165f6d3d4::2026-11-11T18:30",
           "eventStart": "2026-11-11T18:30",
           "eventEnd": "2026-11-11T20:30",
-          "reservationRequired": null,
-          "registrationMethod": "待核对",
+          "reservationRequired": true,
+          "registrationMethod": "ViViViT活动登记表选择日期；登记后自动回复视听信息",
           "opensAt": null,
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": null,
-          "availabilityState": "unverified",
-          "availabilityLabel": "尚未核到实际余位",
-          "availabilityCheckedAt": null,
-          "availabilitySource": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "11/8实际表单仍列场次；余位及截止未公布",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "ViViViT实际登记页",
+            "url": "https://www.vivivit.com/event-entry?eventId=168"
+          },
           "bookingStage": "候选／计划申请",
           "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。"
         },
@@ -1635,16 +1641,19 @@
           "id": "opp-0165f6d3d4::2026-11-12T18:30",
           "eventStart": "2026-11-12T18:30",
           "eventEnd": "2026-11-12T20:30",
-          "reservationRequired": null,
-          "registrationMethod": "待核对",
+          "reservationRequired": true,
+          "registrationMethod": "ViViViT活动登记表选择日期；登记后自动回复视听信息",
           "opensAt": null,
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": null,
-          "availabilityState": "unverified",
-          "availabilityLabel": "尚未核到实际余位",
-          "availabilityCheckedAt": null,
-          "availabilitySource": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "11/8实际表单仍列场次；余位及截止未公布",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "ViViViT实际登记页",
+            "url": "https://www.vivivit.com/event-entry?eventId=168"
+          },
           "bookingStage": "候选／计划申请",
           "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。"
         },
@@ -1844,10 +1853,10 @@
       "title": "UIUX／服务设计合同企业说明会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "已预约／是否保留待本人决定",
-      "statusDetail": "已核实本场预约完成；是否保留及如何衔接，待本人确认。",
+      "status": "已预约／确认参加",
+      "statusDetail": "已预约；本人已确认接受与18:30 ViViViT的衔接。",
       "description": "校内UI/UX与服务设计合同企业说明会；线上，可自由进出。",
-      "nextAction": "无需重复预约。11/13 16:00–18:30线上；18:30接已预约ViViViT，零缓冲但没有时间重叠。是否18:00提前离场留出准备时间，待本人决定。",
+      "nextAction": "按已约16:00–18:30参加；18:30衔接已约ViViViT，零缓冲已由本人接受。",
       "checkedAt": "2026-11-07",
       "sources": [
         {
@@ -2799,16 +2808,16 @@
       "subtype": "本选考",
       "status": "候选／计划申请",
       "statusDetail": "尚未核到正式提交。",
-      "description": "履历书PDF与体现UX过程的PF；普通入口不自动继承Scout特典。",
+      "description": "普通申请入口要求PDF履历书和体现用户研究、流程、线框与设计思考的作品集URL；课程及自主制作可。成绩单为选填。",
       "nextAction": "先核复投规则及个人条件。",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "官方或岗位来源",
           "url": "https://open.talentio.com/r/1/c/binc/pages/128919"
         }
       ],
-      "notes": "暂无截止时间。Scout面谈另列。",
+      "notes": "截止及同届重投规则未公布。普通申请表附件上限100MB；200–400字经历短文为选填。私人Scout面谈为独立手续。",
       "milestones": [],
       "intro": "BASE提供电商建站服务并运营PAY ID购物应用；本项目招聘PAY ID UI/UX设计师。"
     },
@@ -3158,16 +3167,19 @@
           "eventStart": "2026-11-10T18:30",
           "eventEnd": "2026-11-10T20:30",
           "reservationRequired": true,
-          "registrationMethod": "待核对",
+          "registrationMethod": "ViViViT活动登记表选择日期；登记后自动回复视听信息",
           "opensAt": null,
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": null,
-          "availabilityState": "unverified",
-          "availabilityLabel": "尚未核到实际余位",
-          "availabilityCheckedAt": null,
-          "availabilitySource": null,
-          "bookingStage": "已预约／以既有回执为据",
+          "availabilityState": "booked",
+          "availabilityLabel": "11/8实际页面显示申し込み済み",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "ViViViT实际登记页",
+            "url": "https://www.vivivit.com/event-entry?eventId=168"
+          },
+          "bookingStage": "已预约／11/8登记页核验",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
       ],
@@ -3220,16 +3232,19 @@
           "eventStart": "2026-11-13T18:30",
           "eventEnd": "2026-11-13T20:30",
           "reservationRequired": true,
-          "registrationMethod": "待核对",
+          "registrationMethod": "ViViViT活动登记表选择日期；登记后自动回复视听信息",
           "opensAt": null,
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": null,
-          "availabilityState": "unverified",
-          "availabilityLabel": "尚未核到实际余位",
-          "availabilityCheckedAt": null,
-          "availabilitySource": null,
-          "bookingStage": "已预约／以既有回执为据",
+          "availabilityState": "booked",
+          "availabilityLabel": "11/8实际页面显示申し込み済み",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "ViViViT实际登记页",
+            "url": "https://www.vivivit.com/event-entry?eventId=168"
+          },
+          "bookingStage": "已预约／11/8登记页核验",
           "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
         }
       ],
@@ -4031,7 +4046,7 @@
       "category": "selection",
       "subtype": "本选考",
       "description": "负责游戏内UI视觉，是Graphic职下的UI Artist方向。东京本社。",
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "企业28卒专用招聘系统",
@@ -4046,7 +4061,19 @@
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
       "notes": "2027年4月至2028年3月毕业或修了的大学、大学院等学生可报，日本国内在读留学生可用该入口。官网概览仍混列旧届截止，本届时刻待核。",
-      "intro": "本项目招聘FromSoftware游戏UI Artist，负责游戏内界面视觉设计。"
+      "intro": "本项目招聘FromSoftware游戏UI Artist，负责游戏内界面视觉设计。",
+      "reapplication": {
+        "status": "conditional",
+        "summary": "作品筛选落选可再投；面试及以后落选不可再投。",
+        "scope": "官方新卒FAQ的Graphic职规则。并行多职须同次提交，不能错开投；各职种须交相应作品。本届具体材料与截止仍待核。",
+        "checkedAt": "2026-11-08",
+        "sources": [
+          {
+            "label": "官方新卒FAQ",
+            "url": "https://careers.fromsoftware.jp/jp/faq.html"
+          }
+        ]
+      }
     },
     {
       "id": "selection-fromsoftware-graphic-web-2028",
@@ -4055,7 +4082,7 @@
       "category": "selection",
       "subtype": "本选考",
       "description": "游戏宣传包装、广告和网站等的设计制作。东京本社。",
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "企业28卒专用招聘系统",
@@ -4070,7 +4097,19 @@
       "status": "公开招聘／活动信息",
       "statusDetail": "11月4日核实企业或主办方的公开募集信息。",
       "notes": "2027年4月至2028年3月毕业或修了的大学、大学院等学生可报，日本国内在读留学生可用该入口。官网概览仍混列旧届截止，本届时刻待核。",
-      "intro": "本项目招聘FromSoftware平面与Web设计师，负责游戏宣传、包装、广告及网站。"
+      "intro": "本项目招聘FromSoftware平面与Web设计师，负责游戏宣传、包装、广告及网站。",
+      "reapplication": {
+        "status": "conditional",
+        "summary": "作品筛选落选可再投；面试及以后落选不可再投。",
+        "scope": "官方新卒FAQ的Graphic职规则。并行多职须同次提交，不能错开投；各职种须交相应作品。本届具体材料与截止仍待核。",
+        "checkedAt": "2026-11-08",
+        "sources": [
+          {
+            "label": "官方新卒FAQ",
+            "url": "https://careers.fromsoftware.jp/jp/faq.html"
+          }
+        ]
+      }
     },
     {
       "id": "selection-kurihaku-portfolio-dec2026",
@@ -5129,7 +5168,7 @@
       "category": "selection",
       "subtype": "本选考",
       "description": "エムシーディースリー株式会社（三菱商事集团）。设计数字产品的用户研究、旅程、线框和设计系统，含品牌相关工作。2028届大学及大学院生可。",
-      "notes": "公司ATS仍列该岗位并开放申请，未公布统一截止。准备履历书与作品集，企业刊登的流程还含面试、集体讨论和适性检查。",
+      "notes": "公司ATS仍列该岗位并开放申请，未公布统一截止。准备履历书与作品集，企业刊登的流程还含面试、集体讨论和适性检查。 11/8核到企业在外資就活刊登11/30 23:59截止；官方ATS未列统一截止，因此仅作为该平台窗口，不推定全部入口同日关闭。设计说明会具体场次仍待核。",
       "sources": [
         {
           "label": "当届UI/UX岗位",
@@ -5142,10 +5181,20 @@
         {
           "label": "企业发布的28卒职种条件及流程",
           "url": "https://www.onecareer.jp/companies/98036/recruitment_courses/1548"
+        },
+        {
+          "label": "企业刊登的当届流程与平台截止",
+          "url": "https://gaishishukatsu.com/recruiting_info/view/15185"
         }
       ],
-      "milestones": [],
-      "checkedAt": "2026-11-07",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-30T23:59",
+          "label": "外資就活刊登截止／官方ATS期限待确认"
+        }
+      ],
+      "checkedAt": "2026-11-08",
       "status": "候选／计划申请",
       "statusDetail": "本人11/6表达报名意向、11/7再次明确列为备选；尚未Entry、预约说明会或提交本选考材料。",
       "registrationSessions": [
@@ -5183,7 +5232,8 @@
         ],
         "checkedAt": "2026-11-07"
       },
-      "intro": "MCD3（三菱商事集团）设计数字产品；本项目招聘UI/UX设计师，涉及用户研究、旅程、线框与设计系统。"
+      "intro": "MCD3（三菱商事集团）设计数字产品；本项目招聘UI/UX设计师，涉及用户研究、旅程、线框与设计系统。",
+      "nextAction": "优先核UI/UX说明会具体场次与登记路径；平台列11/30 23:59截止，先确认前置流程所需时间，再决定正式投递日。"
     },
     {
       "id": "brother-design-2028-preregistration",
@@ -5224,6 +5274,291 @@
       "nextAction": "跟踪28卒设计正式募集和设计说明会；正式开放或具体设计场次公布时通知本人，先听说明会再决定材料提交。现阶段可预登记接收信息，但未代为登记。",
       "decisionContext": "已表达报名意向，现阶段待正式募集与设计专场公布；预登记为接收通知，是否先登记仍由本人决定。",
       "intro": "Brother 开发打印、扫描、标签、缝纫设备及软件。设计岗位涵盖用户研究、操作面板、PC及手机应用界面；当前可预登记关注正式募集。"
+    },
+    {
+      "id": "briefing-ingage-uiux-2028",
+      "company": "Ingage（インゲージ）",
+      "title": "28卒 UI/UX等职种说明会 · 线上",
+      "category": "activity",
+      "subtype": "说明会",
+      "status": "候选／计划申请",
+      "statusDetail": "新发现；未申请或预约。",
+      "intro": "Ingage开发企业客服管理SaaS「Re:lation」。本场介绍UI/UX等岗位；新卒初始工作地点为大阪梅田。",
+      "description": "Google Meet线上，任选一场17:00–18:00。UI/UX工作包括用户研究、操作体验、线框及界面改善。新卒原则大阪配属，将来东京调动需另行协商。",
+      "nextAction": "先决定是否考虑大阪工作，再选一场并确认登记内容。说明会表填写基本信息、学歴和希望日期；未列履历书或作品集必交。",
+      "checkedAt": "2026-11-08",
+      "attendanceMode": "online",
+      "workCompatibility": "online_briefing",
+      "sessionModel": {
+        "mode": "choose_one",
+        "note": "同系列说明会，选择希望参加日期"
+      },
+      "notes": "登记截止、余位和先到先得规则未公布。正式UI/UX岗位下部残留27卒条款，28卒正式投递条件另核；本条仅为明确28卒的说明会。",
+      "sources": [
+        {
+          "label": "官方28卒说明会及待遇",
+          "url": "https://hrmos.co/pages/ingage/jobs/0000071"
+        },
+        {
+          "label": "官方实际登记表",
+          "url": "https://hrmos.co/pages/ingage/jobs/0000071/apply"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-12T17:00",
+          "endDate": "2026-11-12T18:00",
+          "label": "线上说明会候选",
+          "format": "线上 Google Meet"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-19T17:00",
+          "endDate": "2026-11-19T18:00",
+          "label": "线上说明会候选",
+          "format": "线上 Google Meet"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-26T17:00",
+          "endDate": "2026-11-26T18:00",
+          "label": "线上说明会候选",
+          "format": "线上 Google Meet"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-03T17:00",
+          "endDate": "2026-12-03T18:00",
+          "label": "线上说明会候选",
+          "format": "线上 Google Meet"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-10T17:00",
+          "endDate": "2026-12-10T18:00",
+          "label": "线上说明会候选",
+          "format": "线上 Google Meet"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-17T17:00",
+          "endDate": "2026-12-17T18:00",
+          "label": "线上说明会候选",
+          "format": "线上 Google Meet"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-24T17:00",
+          "endDate": "2026-12-24T18:00",
+          "label": "线上说明会候选",
+          "format": "线上 Google Meet"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-ingage-uiux-2028::2026-11-12T17:00",
+          "eventStart": "2026-11-12T17:00",
+          "eventEnd": "2026-11-12T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "HRMOS登记表选择希望日期并填写基本信息及学歴",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "实际表单列出此场；余位未显示",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "官方参加登记表",
+            "url": "https://hrmos.co/pages/ingage/jobs/0000071/apply"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "决定是否考虑大阪工作并选场，再确认报名内容。"
+        },
+        {
+          "id": "briefing-ingage-uiux-2028::2026-11-19T17:00",
+          "eventStart": "2026-11-19T17:00",
+          "eventEnd": "2026-11-19T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "HRMOS登记表选择希望日期并填写基本信息及学歴",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "实际表单列出此场；余位未显示",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "官方参加登记表",
+            "url": "https://hrmos.co/pages/ingage/jobs/0000071/apply"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "决定是否考虑大阪工作并选场，再确认报名内容。"
+        },
+        {
+          "id": "briefing-ingage-uiux-2028::2026-11-26T17:00",
+          "eventStart": "2026-11-26T17:00",
+          "eventEnd": "2026-11-26T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "HRMOS登记表选择希望日期并填写基本信息及学歴",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "实际表单列出此场；余位未显示",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "官方参加登记表",
+            "url": "https://hrmos.co/pages/ingage/jobs/0000071/apply"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "决定是否考虑大阪工作并选场，再确认报名内容。"
+        },
+        {
+          "id": "briefing-ingage-uiux-2028::2026-12-03T17:00",
+          "eventStart": "2026-12-03T17:00",
+          "eventEnd": "2026-12-03T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "HRMOS登记表选择希望日期并填写基本信息及学歴",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "实际表单列出此场；余位未显示",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "官方参加登记表",
+            "url": "https://hrmos.co/pages/ingage/jobs/0000071/apply"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "决定是否考虑大阪工作并选场，再确认报名内容。"
+        },
+        {
+          "id": "briefing-ingage-uiux-2028::2026-12-10T17:00",
+          "eventStart": "2026-12-10T17:00",
+          "eventEnd": "2026-12-10T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "HRMOS登记表选择希望日期并填写基本信息及学歴",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "实际表单列出此场；余位未显示",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "官方参加登记表",
+            "url": "https://hrmos.co/pages/ingage/jobs/0000071/apply"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "决定是否考虑大阪工作并选场，再确认报名内容。"
+        },
+        {
+          "id": "briefing-ingage-uiux-2028::2026-12-17T17:00",
+          "eventStart": "2026-12-17T17:00",
+          "eventEnd": "2026-12-17T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "HRMOS登记表选择希望日期并填写基本信息及学歴",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "实际表单列出此场；余位未显示",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "官方参加登记表",
+            "url": "https://hrmos.co/pages/ingage/jobs/0000071/apply"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "决定是否考虑大阪工作并选场，再确认报名内容。"
+        },
+        {
+          "id": "briefing-ingage-uiux-2028::2026-12-24T17:00",
+          "eventStart": "2026-12-24T17:00",
+          "eventEnd": "2026-12-24T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "HRMOS登记表选择希望日期并填写基本信息及学歴",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "实际表单列出此场；余位未显示",
+          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilitySource": {
+            "label": "官方参加登记表",
+            "url": "https://hrmos.co/pages/ingage/jobs/0000071/apply"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "决定是否考虑大阪工作并选场，再确认报名内容。"
+        }
+      ]
+    },
+    {
+      "id": "briefing-abilive-web-tourism-20261113",
+      "company": "アビリブ（Abilive）",
+      "title": "Web×观光 · 设计职种说明会",
+      "category": "activity",
+      "subtype": "说明会",
+      "status": "候选／计划申请",
+      "statusDetail": "未报名；预约入口需登录MyCareerID核余位。",
+      "intro": "アビリブ为酒店、旅游和自治体提供网站与数字营销。本场介绍业务及Web设计师工作，面向28卒，修士1年可参加。",
+      "description": "11/13 17:00–18:00线上：40分钟介绍＋20分钟问答。已核Web设计就业地点为仙台、名古屋和大阪，东京设计配属待核。",
+      "nextAction": "与已预约校内活动16:00–18:30重叠17:00–18:00；先决定是否换场，再登录Mynavi核余位和预约内容。",
+      "checkedAt": "2026-11-08",
+      "attendanceMode": "online",
+      "workCompatibility": "online_briefing",
+      "notes": "11/11报名截止，钟点未公布；无选考、先到先得。余位未核，实际登记需登录。公开课程页未要求ES或作品集，表单字段仍待核。",
+      "sources": [
+        {
+          "label": "企业刊登的当期课程与期限",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=274866&optNo=UPA7B"
+        },
+        {
+          "label": "原始场次及预约入口",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?optNo=tMIoYC&corpId=274866"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-13T17:00",
+          "endDate": "2026-11-13T18:00",
+          "label": "线上设计职种说明会",
+          "format": "线上"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-11",
+          "label": "说明会预约截止／钟点未公布"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-abilive-web-tourism-20261113::2026-11-13T17:00",
+          "eventStart": "2026-11-13T17:00",
+          "eventEnd": "2026-11-13T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi场次表进入MyCareerID登录后预约",
+          "opensAt": null,
+          "deadline": "2026-11-11",
+          "deadlineLabel": "11/11，钟点未公布",
+          "firstComeFirstServed": true,
+          "availabilityState": "login_required",
+          "availabilityLabel": "场次表列出该场，实际预约需登录；余位未核",
+          "availabilityCheckedAt": "2026-11-08T09:33:55+09:00",
+          "availabilitySource": {
+            "label": "实际预约场次表",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?optNo=tMIoYC&corpId=274866"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "先确认与已约校内16:00–18:30的冲突，再登录核余位。"
+        }
+      ]
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",
@@ -5317,6 +5652,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-07T10:57:39+09:00",
-  "lastPartialVerificationScope": "11/7交互补充：Brother与MCD3本人意向、Dentsu/CONCENT参加链接指引、I-STUDIO互动要求及长期候选移出；不代表全量重查。"
+  "lastPartialVerificationAt": "2026-11-08T09:28:55+09:00",
+  "lastPartialVerificationScope": "11/8新机会、指定预约窗口、BASE材料、MCD3平台期限及FromSoftware重投规则；非全量重核。"
 }

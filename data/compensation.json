@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "companies": [
     {
       "name": "Goodpatch",
@@ -2749,30 +2749,31 @@
       "name": "Ingage",
       "aliases": [
         "株式会社インゲージ",
-        "インゲージ"
+        "インゲージ",
+        "Ingage（インゲージ）"
       ],
       "roles": [
         {
-          "role": "产品 UI/UX · Re:lation",
-          "scope": "28卒正式岗；另列28／29卒长期实习。",
-          "monthly": "280,930日元起（基本薪235,020日元起）",
-          "annual": "3,371,160日元起（月薪×12，首6个月结束后的固定部分年化；非首年保证额、未含奖金）",
-          "bonus": "每年2次，依业绩。",
-          "overtime": "一般月薪含25小时45,910日元起；入社首6个月无固定加班费，按实际加班全额支付。",
-          "benefits": "年休125天以上、小时年假，9:00–18:00，试用后可错峰；交通每月最高45,000日元，研修／书籍／设备支持、员工持股、企业年金、社保。20万入社贺金不适用新卒。",
+          "role": "UI/UX设计师",
+          "scope": "28卒官方说明会共同待遇；新卒含大学院。正式岗位下部有27卒残留，具体条件待确认。",
+          "monthly": "280,930日元起（基本给235,020＋固定加班45,910）",
+          "annual": "月额×12＝3,371,160日元起的比较折算；首6个月结构不同，非首年保证年收。",
+          "bonus": "年2次，按业绩决定。",
+          "overtime": "通常含25小时固定加班；入社前6个月不发固定加班部分，发生额另付。初期具体月薪待确认。",
+          "benefits": "大阪梅田，9–18点；年休125日以上。交通月上限45,000日元、书籍及研修支持、持股与DC；20万入社祝金不适用于新卒。",
           "intern": "大阪出社，时薪依技能，约每周15–20小时。20万入社贺金排除新卒与实习。",
           "sources": [
             {
-              "label": "28卒产品设计岗位",
-              "url": "https://hrmos.co/pages/ingage/jobs/0000064"
+              "label": "28卒官方说明会待遇",
+              "url": "https://hrmos.co/pages/ingage/jobs/0000071"
             },
             {
-              "label": "长期学生实习",
-              "url": "https://hrmos.co/pages/ingage/jobs/0000022"
+              "label": "UI/UX具体岗位（届别文字有冲突）",
+              "url": "https://hrmos.co/pages/ingage/jobs/0000064"
             }
           ],
-          "availabilityLabel": "28卒官方月薪",
-          "evidenceNote": "首6个月无固定加班费，按实际发生支付，因此280,930×12只作之后薪制的年化对照，不能称第一年保证年收。"
+          "availabilityLabel": "当届说明会公布的设计师待遇",
+          "evidenceNote": "25小时是固定加班费覆盖值，不是实际平均加班。试用期3个月与福利段6个月表述有差异，需确认。"
         }
       ],
       "employeeReviews": {
@@ -4050,6 +4051,48 @@
             "url": "https://www.brother.co.jp/corporate/design/recruit/index.aspx"
           }
         ]
+      }
+    },
+    {
+      "name": "アビリブ",
+      "aliases": [
+        "アビリブ（Abilive）",
+        "Abilive",
+        "株式会社アビリブ"
+      ],
+      "roles": [
+        {
+          "role": "Webデザイナー（サイト運営）",
+          "scope": "官网28卒大阪具体岗位；修士本选适用资格尚未明确。",
+          "monthly": "大阪官网24万–24.5万日元；具体学歴适用额待核。",
+          "annual": "月额×12参考288万–294万日元，未计奖金；非保证年收。",
+          "bonus": "本轮未核具体金额及首年支给条件。",
+          "overtime": "大阪官网含15–20小时固定加班费25,200–33,100日元；不是实际平均加班。HRMOS跨地区岗位口径不同，需确认具体合同。",
+          "benefits": "Web设计岗位核到仙台、名古屋、大阪；其余福利待逐项核实。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒大阪Web设计具体岗位",
+              "url": "https://www.ab-net.co.jp/recruit/new/kansai/76/"
+            },
+            {
+              "label": "跨地区HRMOS岗位",
+              "url": "https://hrmos.co/pages/ab-net/jobs/202-50-02"
+            }
+          ],
+          "availabilityLabel": "当届具体岗位参考／修士资格待核",
+          "evidenceNote": "地区、学歴及固定加班费口径须分开，不能据此保证本人入社薪资。"
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-08",
+        "status": "not_checked",
+        "summary": "员工评价及实际加班尚未核实。",
+        "positives": [],
+        "concerns": [],
+        "overtime": null,
+        "rating": null,
+        "sources": []
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "note": "项目报酬、选考流程与公司入职待遇分开。倍率仅采用相同届别、岗位、批次的可靠统计；计划名额不是实际录取人数。",
   "projects": [
     {
@@ -159,6 +159,48 @@
         {
           "label": "一般新卒要项及历史入社数",
           "url": "https://www.brother.co.jp/corporate/bil/recruit/portal/gradu/information/index.aspx"
+        }
+      ]
+    },
+    {
+      "id": "briefing-ingage-uiux-2028",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "说明会：选择日期并提交登记表。正式UI/UX选考另需作品集并安排面试，届别条款待确认。",
+      "selectionRate": null,
+      "selectionRateNote": "未公开同届设计岗申请数及录取人数。",
+      "requirementsNote": "说明会首轮为基本信息、学歴、希望日期及认识公司来源；作品集URL为选填，未列履历书附件必交。",
+      "fitNote": "企业客服SaaS的用户研究、交互和界面设计；新卒初始大阪梅田。",
+      "checkedAt": "2026-11-08",
+      "sources": [
+        {
+          "label": "官方28卒说明会",
+          "url": "https://hrmos.co/pages/ingage/jobs/0000071"
+        },
+        {
+          "label": "实际登记表",
+          "url": "https://hrmos.co/pages/ingage/jobs/0000071/apply"
+        }
+      ]
+    },
+    {
+      "id": "briefing-abilive-web-tourism-20261113",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "说明会无选考、先到先得；实际预约需登录MyCareerID核余位。",
+      "selectionRate": null,
+      "selectionRateNote": "未核到设计职同届申请数与录用数。",
+      "requirementsNote": "说明会公开页未要求ES或作品集；登录后首轮字段待核。本选另需履历/ES与Web作品集。",
+      "fitNote": "旅游及自治体Web制作。设计工作地点核到仙台、名古屋、大阪；东京设计岗位待核。",
+      "checkedAt": "2026-11-08",
+      "sources": [
+        {
+          "label": "企业刊登的当期课程与期限",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=274866&optNo=UPA7B"
+        },
+        {
+          "label": "原始场次及预约入口",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?optNo=tMIoYC&corpId=274866"
         }
       ]
     }
