@@ -203,6 +203,91 @@
           "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?optNo=tMIoYC&corpId=274866"
         }
       ]
+    },
+    {
+      "id": "opp-0643215788",
+      "internPay": "日当1,000日元＋餐费；交通按公司规定，提供住宿。",
+      "selectionProcess": "MyPage指定课题选考 → 1月中旬通知结果 → 2/1–5实习",
+      "requirementsNote": "课题11/9公布；申请时不交作品集，入选后携带。",
+      "fitNote": "面向产品设计学习者；UI/UX背景适用性和本期课题要求待11/9确认。",
+      "sources": [
+        {
+          "label": "Yamaha冬期设计实习",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/designer/"
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "internPayScope": "对应本期实习公开要项",
+      "selectionRate": null,
+      "selectionRateNote": "未公布本届本岗位的有效申请数与实际录取数，倍率未知。"
+    },
+    {
+      "id": "toyota-design-internship-spring-2027",
+      "internPay": "报酬及交通住宿费用承担尚未核到。",
+      "selectionProcess": "12/1开放 → 事前问卷＋作品集 → 1/6约15:00公布结果",
+      "requirementsNote": "PDF小于300MB、页数不限，文件名学校名_氏名；12/14 13:00截止。",
+      "fitNote": "28卒设计学生，含大学院，跨专业；产品・CMF・UX共同项目，具体分组待核。",
+      "sources": [
+        {
+          "label": "Toyota当期设计实习",
+          "url": "https://recruit.toyota/saiyo/event/design_internship/"
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "internPayScope": "对应本期实习公开要项",
+      "selectionRate": null,
+      "selectionRateNote": "未公布本届本岗位的有效申请数与实际录取数，倍率未知。"
+    },
+    {
+      "id": "workshop-fujifilm-bi-ux-2027",
+      "internPay": "无日当；交通实报，远方参加者有住宿支持。",
+      "selectionProcess": "11/26前Forms登记 → 公司邮件通知材料提交 → 12/6前ES＋作品集 → 12/23前告知结果",
+      "requirementsNote": "指定ES PDF；作品集PDF100MB以内。ES具体问题与后续表单字段待核。",
+      "fitNote": "面向28卒UI/UX或信息设计在读学生；1/25–29横滨港未来线下5天。",
+      "sources": [
+        {
+          "label": "FUJIFILM BI设计研究会2027",
+          "url": "https://www.fujifilm.com/fb/ja/about/initiatives/technical/design/jobs"
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "internPayScope": "对应本期实习公开要项",
+      "selectionRate": null,
+      "selectionRateNote": "未公布本届本岗位的有效申请数与实际录取数，倍率未知。"
+    },
+    {
+      "id": "opp-81f3a6ed1a",
+      "internPay": "报酬未公布；交通旅费按规定支给。",
+      "selectionProcess": "LINE登记 → Top Seminar → 实习选考 → 2027年2月4天实习。实习选考未通过仍可参加本选考。",
+      "requirementsNote": "需要可提交作品集；个人表单、文件规格及后续材料截止待公司案内。",
+      "fitNote": "以设计回应社会课题；4个具体日期和逐日线上／线下安排待公布。",
+      "sources": [
+        {
+          "label": "LIFULL当期设计实习",
+          "url": "https://student.redesigner.jp/recruitments/J2a7523491900a3b6e1f570d96369633b"
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "internPayScope": "对应本期实习公开要项",
+      "selectionRate": null,
+      "selectionRateNote": "未公布本届本岗位的有效申请数与实际录取数，倍率未知。"
+    },
+    {
+      "id": "opp-eb11a81103",
+      "internPay": "无报酬；交通与住宿依公司规定提供。",
+      "selectionProcess": "MyPage Challenge Sheet＋自己PR材料 → 书类 → 面试（12/14或15预定）→ 实习。实习未通过仍可参加本选考。",
+      "requirementsNote": "12/1 15:00截止；作品集／项目发表资料可作自己PR材料。题目、附件大小与志愿选择方式待MyPage核实。",
+      "fitNote": "UI/UX①京都、②大阪门真，各计划5人；1/27–2/4中7个工作日，另有1/13导入。",
+      "sources": [
+        {
+          "label": "Panasonic CREATIVE OJT",
+          "url": "https://recruit.jpn.panasonic.com/internship/courses/creative/index.html"
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "internPayScope": "对应本期实习公开要项",
+      "selectionRate": null,
+      "selectionRateNote": "未公布本届本岗位的有效申请数与实际录取数，倍率未知。"
     }
   ]
 }

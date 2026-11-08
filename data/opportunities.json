@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T13:05:53+09:00",
+  "updatedAt": "2026-11-08T15:15:00+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -277,8 +277,8 @@
       "status": "预Entry",
       "statusDetail": "RD实习预Entry显示応募済み；11/12说明会已预约，实习尚未录取。",
       "description": "HOME’S居住服务、社会课题相关服务与品牌设计；东京／线上混合，按日不同；交通旅费按规定；报酬未公布；先参加Top Seminar→选考，需作品集；实习未通过仍可报本选考",
-      "nextAction": "先参加11/12 17–18说明会，再决定实习选考。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "先听已约11/12 17:00–18:00 Top Seminar，再取得实习选考材料；已有RD预Entry。实习选考未通过仍可参加本选考。",
+      "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "原始来源",
@@ -365,12 +365,12 @@
       "company": "Panasonic",
       "title": "CREATIVE OJT UI/UX①②",
       "category": "internship",
-      "subtype": "超过一周及长期实习",
+      "subtype": "集中设计实习（7个工作日）",
       "status": "预Entry",
       "statusDetail": "RD预Entry；正式材料未核到提交。",
       "description": "设备与服务界面、用户体验；京都／大阪门真；无报酬；交通住宿支持；Challenge Sheet＋作品集等；书类＋面试（12/14或15予定）；未公开SPI或监考要求",
-      "nextAction": "高度匹配；超过一周，不能放进1周内。面试日与Mercari Camp候选日期冲突。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "进入MyPage核Challenge Sheet、作品集规格和UI/UX①②志愿；12/1 15:00截止。实习选考未通过仍可参加本选考。12/14或15面试仅为预定日期，尚未预约。",
+      "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "原始来源",
@@ -522,8 +522,8 @@
       "status": "候选／计划申请",
       "statusDetail": "尚未开放",
       "description": "乐器、音响与数字设备；Yamaha本社；日当1,000日元＋餐费；交通住宿支持；学习产品设计者；提交指定课题；申请时不交PF、参加时携带",
-      "nextAction": "11/9看题目；产品设计方向条件需与自己的专攻作品对应。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "11/9查看MyPage冬期课题，确认产品设计资格及材料要求；申请时交指定课题，作品集入选后携带。",
+      "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "原始来源",
@@ -1554,8 +1554,8 @@
       "status": "候选／计划申请",
       "statusDetail": "11/10和11/13已预约，分别拆为已确认日程；本条其余场次未预约。",
       "description": "学生设计职业平台；Zoom webinar；可中途进出；未公布费用；全学年；每公司20分钟；预约和现场展会入场预约分开",
-      "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "11/11 Nintendo Cube／ATLUS 18:30–最晚20:30，与已受理CONCENT 18:30–19:30重叠一小时；等待本人确认。",
+      "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "原始来源",
@@ -1574,7 +1574,7 @@
           "type": "event",
           "date": "2026-11-11T18:30",
           "endDate": "2026-11-11T20:30",
-          "label": "每日线上介绍；最多至20:30"
+          "label": "Nintendo Cube／ATLUS · 线上，最晚20:30"
         },
         {
           "type": "event",
@@ -1622,20 +1622,20 @@
           "eventStart": "2026-11-11T18:30",
           "eventEnd": "2026-11-11T20:30",
           "reservationRequired": true,
-          "registrationMethod": "ViViViT活动登记表选择日期；登记后自动回复视听信息",
+          "registrationMethod": "ViViViT活动表选择11/11并填写知晓来源，预约后自动回复视听链接",
           "opensAt": null,
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": null,
           "availabilityState": "form_available",
-          "availabilityLabel": "11/8实际表单仍列场次；余位及截止未公布",
-          "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
+          "availabilityLabel": "11/8实际表列有11/11；剩余名额与截止未公布",
+          "availabilityCheckedAt": "2026-11-08T15:15:00+09:00",
           "availabilitySource": {
             "label": "ViViViT实际登记页",
             "url": "https://www.vivivit.com/event-entry?eventId=168"
           },
           "bookingStage": "候选／计划申请",
-          "nextAction": "11/26设计场与Leverages备选场冲突，等待本人取舍；其余游戏场按相关性另定。"
+          "nextAction": "先确认与已受理CONCENT 18:30–19:30的重叠，再预约11/11；11/10和11/13已有预约。"
         },
         {
           "id": "opp-0165f6d3d4::2026-11-12T18:30",
@@ -1927,9 +1927,9 @@
       "subtype": "讲座说明会与作品集反馈",
       "status": "候选／计划申请",
       "statusDetail": "新公开；未报名",
-      "description": "学生设计招聘活动；线上／室町三井Hall；费用以活动页为准；多企业活动；Day1截止晚于开场是原通知",
-      "nextAction": "提前保留机会，不是本周紧急。",
-      "checkedAt": "2026-10-30",
+      "description": "Day1：1/12 17:00–20:50，Zoom；Day2：1/16 10:30–17:00，东京日本桥室町三井Hall。参加免费，作品集可选。",
+      "nextAction": "确认1/16线下全日安排后登记两日；1/16前看完Day1直播或录像。Day1报名1/12 18:00截止，Day2报名1/15 17:00截止、满额提前结束。",
+      "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "原始来源",
@@ -1971,38 +1971,48 @@
           "id": "opp-a6ecf24894::2027-01-12T17:00",
           "eventStart": "2027-01-12T17:00",
           "eventEnd": "2027-01-12T20:50",
-          "reservationRequired": null,
-          "registrationMethod": "待核对",
+          "reservationRequired": true,
+          "registrationMethod": "ReDesigner登录后填写参加问卷；参加Day2需两日都报名，并先观看Day1直播或录像",
           "opensAt": null,
-          "deadline": null,
-          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "deadline": "2027-01-12T18:00",
+          "deadlineLabel": "Day1报名截止",
           "firstComeFirstServed": null,
-          "availabilityState": "unverified",
-          "availabilityLabel": "尚未核到实际余位",
-          "availabilityCheckedAt": null,
-          "availabilitySource": null,
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityLabel": "11/8报名入口可见；实际余位待核",
+          "availabilityCheckedAt": "2026-11-08T15:15:00+09:00",
+          "availabilitySource": {
+            "label": "当期活动正文",
+            "url": "https://student.redesigner.jp/events/designer-career-jam-2027-winter"
+          },
           "bookingStage": "候选／计划申请",
-          "nextAction": "提前保留机会，不是本周紧急。"
+          "nextAction": "确认1/16线下全日安排；两日一起登记，1/16前看完Day1直播或录像。"
         },
         {
           "id": "opp-a6ecf24894::2027-01-16T10:30",
           "eventStart": "2027-01-16T10:30",
           "eventEnd": "2027-01-16T17:00",
-          "reservationRequired": null,
-          "registrationMethod": "待核对",
+          "reservationRequired": true,
+          "registrationMethod": "ReDesigner登录后填写参加问卷；参加Day2需两日都报名，并先观看Day1直播或录像",
           "opensAt": null,
-          "deadline": null,
-          "deadlineLabel": "未公布／未核实，不以举办日代替",
-          "firstComeFirstServed": null,
-          "availabilityState": "unverified",
-          "availabilityLabel": "尚未核到实际余位",
-          "availabilityCheckedAt": null,
-          "availabilitySource": null,
+          "deadline": "2027-01-15T17:00",
+          "deadlineLabel": "Day2报名截止，满额提前结束",
+          "firstComeFirstServed": true,
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityLabel": "11/8报名入口可见；实际余位待核",
+          "availabilityCheckedAt": "2026-11-08T15:15:00+09:00",
+          "availabilitySource": {
+            "label": "当期活动正文",
+            "url": "https://student.redesigner.jp/events/designer-career-jam-2027-winter"
+          },
           "bookingStage": "候选／计划申请",
-          "nextAction": "提前保留机会，不是本周紧急。"
+          "nextAction": "确认1/16线下全日安排；两日一起登记，1/16前看完Day1直播或录像。"
         }
       ],
-      "intro": "ReDesigner连接设计学生与招聘企业；本活动汇集多家公司，介绍设计岗位与职业机会。"
+      "intro": "ReDesigner连接设计学生与招聘企业；本活动汇集多家公司，介绍设计岗位与职业机会。",
+      "sessionModel": {
+        "mode": "project_schedule",
+        "note": "Day2参加流程：报名两日 → 观看Day1直播或录像 → 1/16现场交流。"
+      }
     },
     {
       "id": "opp-eabe457c20",
@@ -3496,8 +3506,8 @@
       "status": "候选／计划申请",
       "statusDetail": "11/3核到当前官方募集；未申请、未预约。",
       "description": "面向2028年3月毕业、在读UI/UX或信息设计课程的大学／大学院／专门学校学生；横滨港未来现场体验UX流程并提案，约6–7人。无日当，交通实报、远方住宿支持。",
-      "nextAction": "可先听11/19说明会；11/26前登记参加希望，再于12/6前提交指定ES和作品集。1/25–29与Epson第二期、Panasonic部分候选日重叠，未代选。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "11/26前填写参加希望表，公司随后邮件通知材料提交方式；12/6前交指定ES和100MB以内作品集。可先听11/19 17:00–18:00线上说明会。",
+      "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "官方设计研究会2027要项",
@@ -3660,8 +3670,8 @@
       "status": "候选／计划申请",
       "statusDetail": "11/3补漏核实当前募集；未申请、未预约。",
       "description": "企业提供点播视频，介绍业务、设计团队、工作环境及早期选考流程；需先通过Wantedly入口申请获取视频。",
-      "nextAction": "可先参加11/10已约专场；若需要点播，再单独申请视频。本条尚未申请、未收到链接。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "通过Wantedly申请获取点播视频，公告称3个工作日内联系；实际表单待核。作品集用于后续正式选考。也可先听已约11/10联合专场。",
+      "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "企业官方Wantedly公告",
@@ -5026,10 +5036,11 @@
           "endDate": "2027-02-04"
         }
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-08",
       "status": "公开招聘／活动信息",
       "statusDetail": "核到公开招聘或活动要项。",
-      "intro": "Sony Creative Center负责Sony设计工作；本工作坊围绕UI/UX与传播设计进行场景构想、制作和发表。"
+      "intro": "Sony Creative Center负责Sony设计工作；本工作坊围绕UI/UX与传播设计进行场景构想、制作和发表。",
+      "nextAction": "先听设计说明会，并准备小于30MB的UI/UX作品集；11/30 17:00 Entry、12/2 17:00作品集必达。若多项实习入选，再决定参加安排。"
     },
     {
       "id": "gk-kyoto-design-briefing-nov28",
@@ -5116,7 +5127,7 @@
       "company": "Toyota",
       "title": "春季汽车设计实习 · 产品／CMF／UX",
       "category": "internship",
-      "subtype": "超过一周及长期实习",
+      "subtype": "集中设计实习（10个工作日）",
       "description": "爱知县丰田市本社线下，2月1–12日中10个工作日，1月31日先入住。28卒设计相关学生、能用日语参与，跨专业项目。",
       "notes": "12月1日预定开放；未公布开放钟点。报名问卷加PDF作品集，小于300MB。未公布实习报酬。专属UI组别、配属并无保证。",
       "sources": [
@@ -5152,14 +5163,15 @@
           "endDate": "2027-02-12"
         }
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-08",
       "status": "公开招聘／活动信息",
       "statusDetail": "公司预告／尚未开始受理。",
       "sessionModel": {
         "mode": "project_schedule",
         "note": "1/31入住＋2/1–12实习是连续安排，不是两个任选场次。"
       },
-      "intro": "Toyota从事汽车与移动产品开发；本实习涉及产品、CMF与UX设计。"
+      "intro": "Toyota从事汽车与移动产品开发；本实习涉及产品、CMF与UX设计。",
+      "nextAction": "12/1开放后核MyPage问卷；准备小于300MB的PDF作品集，12/14 13:00截止。可与其他实习并行申请，入选后再确认到场安排。"
     },
     {
       "id": "mcd3-uiux-designer-2028",
@@ -5748,6 +5760,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-08T12:44:21+09:00",
-  "lastPartialVerificationScope": "MCD3 UI/UX OneCareer预Entry受理及下一步；其他项目核验日期不变。"
+  "lastPartialVerificationAt": "2026-11-08T15:15:00+09:00",
+  "lastPartialVerificationScope": "11/8下午网页新选择：9项项目资料与下一步骤复核；申请及预约状态未变。"
 }
