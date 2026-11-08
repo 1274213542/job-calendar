@@ -241,13 +241,17 @@
     {
       "id": "workshop-fujifilm-bi-ux-2027",
       "internPay": "无日当；交通实报，远方参加者有住宿支持。",
-      "selectionProcess": "11/26前Forms登记 → 公司邮件通知材料提交 → 12/6前ES＋作品集 → 12/23前告知结果",
-      "requirementsNote": "指定ES PDF；作品集PDF100MB以内。ES具体问题与后续表单字段待核。",
+      "selectionProcess": "Forms登记 → 收到自动回复完成登记受理 → 按材料案内于12/6前提交ES＋作品集 → 12/23前告知选考结果",
+      "requirementsNote": "指定ES为1页，含応募理由・動機、自己アピール、设计师未来目标三题；另填学校／导师等基本资料并贴3×4cm照片。作品集PDF100MB以内，团队作品注明本人贡献。",
       "fitNote": "面向28卒UI/UX或信息设计在读学生；1/25–29横滨港未来线下5天。",
       "sources": [
         {
           "label": "FUJIFILM BI设计研究会2027",
           "url": "https://www.fujifilm.com/fb/ja/about/initiatives/technical/design/jobs"
+        },
+        {
+          "label": "设计研究会2027指定ES（1页PDF）",
+          "url": "https://asset-fb.fujifilm.com/master/fb/files/2026-10/ef3cbb05c27cdcea48678d1ccfb07ac3/entrysheet2027.pdf"
         }
       ],
       "checkedAt": "2026-11-08",

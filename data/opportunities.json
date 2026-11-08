@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T15:27:29+09:00",
+  "updatedAt": "2026-11-08T16:01:02+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -3503,23 +3503,28 @@
       "title": "UX设计研究会2027／5天工作坊",
       "category": "internship",
       "subtype": "短期实习与工作坊",
-      "status": "候选／计划申请",
-      "statusDetail": "11/3核到当前官方募集；未申请、未预约。",
+      "status": "参加希望表已提交／待回执",
+      "statusDetail": "11/8本人提交并已核到表单成功页；自动回复及材料案内尚待核。ES／作品集尚未提交，未录取。",
       "description": "面向2028年3月毕业、在读UI/UX或信息设计课程的大学／大学院／专门学校学生；横滨港未来现场体验UX流程并提案，约6–7人。无日当，交通实报、远方住宿支持。",
-      "nextAction": "11/26前填写参加希望表，公司随后邮件通知材料提交方式；12/6前交指定ES和100MB以内作品集。可先听11/19 17:00–18:00线上说明会。",
+      "nextAction": "查收自动回复及公司提供的ES／作品集送付先；12/6前提交指定ES和100MB以内作品集。",
       "checkedAt": "2026-11-08",
       "sources": [
         {
           "label": "官方设计研究会2027要项",
           "url": "https://www.fujifilm.com/fb/ja/about/initiatives/technical/design/jobs"
+        },
+        {
+          "label": "11/8本人提交；Forms成功页已核，自动回复待核"
         }
       ],
-      "notes": "官方名称为设计研究会。2027/1/25–29共5天，钟点未公布；Forms与ES/PF是两个期限，截止钟点均未公布。ES用指定PDF；PF为PDF、100MB以内，团队作品标明个人贡献。结果12/23前通知。",
+      "notes": "官方名称为设计研究会。2027/1/25–29共5天，钟点未公布；参加希望表已提交，登记受理以自动回复到达为准。ES／作品集尚未提交，12/6材料截止钟点未公布。ES用指定1页PDF，含动机、自己PR与设计师未来目标三题及3×4cm照片；作品集PDF100MB以内，团队作品标明本人贡献。选考结果12/23前通知，尚未录取。",
       "milestones": [
         {
           "type": "deadline",
           "date": "2026-11-26",
-          "label": "参加希望登记截止（时刻未公布）"
+          "label": "参加希望登记已提交（自动回复待核）",
+          "completed": true,
+          "completedAt": "2026-11-08"
         },
         {
           "type": "deadline",
@@ -5760,6 +5765,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-08T15:27:29+09:00",
-  "lastPartialVerificationScope": "11/8下午网页新选择：9项项目资料与下一步骤复核；申请及预约状态未变。"
+  "lastPartialVerificationAt": "2026-11-08T16:01:02+09:00",
+  "lastPartialVerificationScope": "仅FUJIFILM BI设计研究会2027参加希望登记状态及ES要求更新；材料申请与录取未完成。"
 }
