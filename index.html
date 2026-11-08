@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f2f4f8">
   <title>求职日历 · 2028</title>
-  <link rel="stylesheet" href="./style.css?v=20261108-intros">
-  <link rel="stylesheet" href="./compensation.css?v=20261108-intros">
-  <link rel="stylesheet" href="./decisions.css?v=20261108-intros">
-  <link rel="stylesheet" href="./navigation.css?v=20261108-intros">
+  <link rel="stylesheet" href="./style.css?v=20261108-sort">
+  <link rel="stylesheet" href="./compensation.css?v=20261108-sort">
+  <link rel="stylesheet" href="./decisions.css?v=20261108-sort">
+  <link rel="stylesheet" href="./navigation.css?v=20261108-sort">
 </head>
 <body>
   <div class="app-shell">
@@ -83,8 +83,8 @@
       <section id="companies" class="app-view" data-app-panel="companies" aria-labelledby="companies-view-title" hidden inert>
         <header class="view-heading"><p class="eyebrow">待遇与工作方式</p><h1 id="companies-view-title" tabindex="-1">公司</h1><p>对照入职待遇、实习报酬与员工评价。</p></header>
         <section id="compensation" class="panel pay-panel" aria-labelledby="pay-title">
-        <div class="panel-heading">
-          <div><h2 id="pay-title">公司待遇与评价</h2><p class="panel-desc">官方招聘条件与员工评价分开看。金额为税前日元，年收口径和适用届别见明细。</p></div>
+        <div class="panel-heading pay-heading">
+          <h2 id="pay-title" class="sr-only">公司待遇与评价</h2>
           <span id="pay-date" class="pay-date"></span>
         </div>
         <div class="pay-controls" hidden>
@@ -101,6 +101,7 @@
             <option value="reference">活动及其他公司</option>
             <option value="history">仅历史记录</option>
           </select></label>
+          <label class="pay-sort"><span>排序</span><select id="pay-sort" aria-label="公司排序"></select></label>
         </div>
         <p id="pay-mode-note" class="pay-mode-note">官方入职条件：固定加班津贴的覆盖时数，不等于实际每月加班。</p>
         <p id="pay-count" class="pay-count" role="status" aria-live="polite">正在读取招聘待遇…</p>
@@ -119,7 +120,7 @@
     <p id="view-announcement" class="sr-only" role="status" aria-live="polite"></p>
   </div>
   <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button class="close-dialog" aria-label="关闭">×</button><div id="detail-content"></div></div></dialog>
-  <script type="module" src="./navigation.js?v=20261108-intros"></script>
-  <script type="module" src="./app.js?v=20261108-intros"></script>
+  <script type="module" src="./navigation.js?v=20261108-sort"></script>
+  <script type="module" src="./app.js?v=20261108-sort"></script>
 </body>
 </html>

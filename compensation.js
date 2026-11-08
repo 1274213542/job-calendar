@@ -1,4 +1,4 @@
-const PAGE_SIZE = 10;
+const PAGE_SIZE = 80;
 const collator = new Intl.Collator('ja', { sensitivity: 'base', numeric: true });
 const groups = { contact: 0, plan: 1, reference: 2, history: 3 };
 const organizers = new Set(['ViViViT', 'ReDesigner', '武藏野美术大学', 'クリ博', 'デジタルスケープ'].map(key));
@@ -71,6 +71,71 @@ function collectEmployers(companies, opportunities) {
 
 function displayValue(value) {
   return el('span', value ? 'pay-value' : 'pay-value pay-missing', value || '待核');
+}
+
+// Use reviewed numeric metadata, never numbers guessed from salary prose.
+function comparisonValue(item, metric) {
+  if (metric === 'rating') return item.company.employeeReviews?.rating;
+  if (metric === 'overtime') return item.company.employeeReviews?.overtime?.hoursPerMonth;
+  const values = (item.job ? [item.job] : item.company.roles || [])
+    .map(job => job.sortValues?.[metric + 'JPY']).filter(Number.isFinite);
+  return values.length ? Math.min(...values) : null;
+}
+
+export function sortCompensationItems(items, sort) {
+  const [metric, direction] = sort.split('-');
+  if (metric === 'default') return [...items];
+  return [...items].sort((a, b) => {
+    if (metric === 'name') return collator.compare(a.company.name, b.company.name) * (direction === 'asc' ? 1 : -1);
+    const av = comparisonValue(a, metric), bv = comparisonValue(b, metric);
+    if (!Number.isFinite(av)) return Number.isFinite(bv) ? 1 : 0;
+    if (!Number.isFinite(bv)) return -1;
+    return (av - bv) * (direction === 'asc' ? 1 : -1) || collator.compare(a.company.name, b.company.name);
+  });
+}
+
+function companyList(items, mode, sort, expanded) {
+  const list = el('div', 'pay-company-list');
+  const metric = sort.split('-')[0];
+  for (const item of items) {
+    const { company, job } = item;
+    const card = el('details', 'pay-company-item');
+    const identityKey = mode + ':' + company.name + ':' + (job?.role || '');
+    card.open = expanded.has(identityKey);
+    const summary = el('summary', 'pay-company-summary');
+    const identity = el('span', 'pay-company-name');
+    identity.append(el('strong', '', company.name));
+    if (job?.role) identity.append(el('small', '', job.role));
+    const value = el('span', 'pay-company-number');
+    const displayMetric = ['monthly', 'annual', 'rating', 'overtime'].includes(metric) ? metric : mode === 'reviews' ? 'rating' : 'monthly';
+    if (mode !== 'intern') {
+      const amount = comparisonValue(item, displayMetric);
+      let label = displayMetric === 'rating' ? '员工评分 · 5分制' : displayMetric === 'overtime' ? '员工自报加班 / 月' : job?.sortValues?.[displayMetric + 'Label'] || fields[displayMetric];
+      if (job?.sortValues?.reference && ['monthly', 'annual'].includes(displayMetric)) label += ' · 参考';
+      const number = Number.isFinite(amount) ? displayMetric === 'rating' ? amount.toFixed(2) : displayMetric === 'overtime' ? amount + ' 小时' : new Intl.NumberFormat('zh-CN', { maximumFractionDigits: 2 }).format(amount / 10000) + '万日元' : '待公布 / 待核';
+      value.append(el('b', '', number), el('small', '', label));
+    } else value.append(el('small', '', '查看报酬'));
+    summary.append(identity, value, el('span', 'pay-company-chevron', '›'));
+    const body = el('div', 'pay-company-body');
+    let rendered = false;
+    function showDetails() {
+      if (!card.open || rendered) return;
+      rendered = true;
+      if (mode === 'reviews') body.append(reviewCards([item]));
+      else {
+        const row = details(job, mode, '', 1);
+        body.append(row.querySelector('.pay-terms'));
+      }
+    }
+    card.addEventListener('toggle', () => {
+      if (card.open) expanded.add(identityKey); else expanded.delete(identityKey);
+      showDetails();
+    });
+    card.append(summary, body);
+    showDetails();
+    list.append(card);
+  }
+  return list;
 }
 
 function sourceLinks(sources, emptyLabel = '招聘要项待核') {
@@ -229,12 +294,27 @@ export async function mountCompensation(opportunities) {
   const employers = collectEmployers(data.companies, opportunities);
   const search = document.getElementById('pay-search');
   const filter = document.getElementById('pay-filter');
+  const sort = document.getElementById('pay-sort');
   const modes = document.getElementById('pay-mode');
   const results = document.getElementById('pay-results');
   const count = document.getElementById('pay-count');
   const more = document.getElementById('pay-more');
   let mode = 'employment';
   let limit = PAGE_SIZE;
+  const expanded = new Set();
+  const sortChoices = {
+    employment: [['default', '已联系优先'], ['monthly-desc', '月薪：高 → 低'], ['monthly-asc', '月薪：低 → 高'], ['annual-desc', '年收：高 → 低'], ['annual-asc', '年收：低 → 高'], ['rating-desc', '评分：高 → 低'], ['rating-asc', '评分：低 → 高'], ['name-asc', '公司名称']],
+    intern: [['default', '已联系优先'], ['name-asc', '公司名称']],
+    reviews: [['rating-desc', '评分：高 → 低'], ['rating-asc', '评分：低 → 高'], ['overtime-asc', '加班：少 → 多'], ['overtime-desc', '加班：多 → 少'], ['default', '已联系优先'], ['name-asc', '公司名称']]
+  };
+  const savedSorts = {};
+  function refreshSortOptions() {
+    sort.replaceChildren(...sortChoices[mode].map(([value, title]) => {
+      const option = el('option', '', title); option.value = value; return option;
+    }));
+    sort.value = savedSorts[mode] || sortChoices[mode][0][0];
+  }
+  refreshSortOptions();
   const modeNote = document.getElementById('pay-mode-note');
   if (data.asOf) document.getElementById('pay-date').textContent = '资料核对 ' + data.asOf;
   document.querySelector('.pay-controls').hidden = false;
@@ -265,18 +345,19 @@ export async function mountCompensation(opportunities) {
       for (const job of matchingRoles) items.push({ company, job });
     }
     count.textContent = companies + ' 家公司' + (mode === 'reviews' ? ' · 员工评价与工作强度' : ' · ' + items.length + ' 条待遇记录');
-    modeNote.textContent = mode === 'reviews' ? '员工自述和平台统计仅供比较，可能跨岗位、部门和任职年份；不等于设计岗新卒的实际待遇。固定加班费包含的时数，也不等于实际加班。' : mode === 'intern' ? '仅列对应实习的报酬、补助与适用条件，和入职后的正社员薪资分开。' : '官方入职条件：留意届别、学历、基本薪与固定加班费。月薪×12的换算不包含未公布的奖金。';
-    if (filter.value === 'all' && !query && companies) count.textContent += ' · 已报名或已联系优先';
-    const visible = items.slice(0, limit);
-    results.replaceChildren(items.length ? (mode === 'reviews' ? reviewCards(visible) : makeTable(visible, mode)) : el('p', 'pay-empty', '没有符合当前条件的公司或岗位。'));
+    modeNote.textContent = mode === 'reviews' ? '员工评分为5分制，统计可能涵盖多个岗位和年份。' : mode === 'intern' ? '查看各项目的实习报酬与交通、住宿补助。' : '税前日元 · 区间按下限排序 · 参考年份及奖金口径见详情';
+    const visible = sortCompensationItems(items, sort.value).slice(0, limit);
+    results.replaceChildren(items.length ? companyList(visible, mode, sort.value, expanded) : el('p', 'pay-empty', '没有符合当前条件的公司或岗位。'));
     more.hidden = visible.length === items.length;
     more.textContent = '再显示 ' + Math.min(PAGE_SIZE, items.length - visible.length) + ' 条';
     if (!more.hidden) count.textContent += ' · 已显示 ' + visible.length + ' 条';
   }
   search.addEventListener('input', () => render());
   filter.addEventListener('change', () => render());
+  sort.addEventListener('change', () => { savedSorts[mode] = sort.value; render(); });
   function setMode(nextMode) {
     mode = nextMode;
+    refreshSortOptions();
     modes.querySelectorAll('button').forEach(tab => tab.setAttribute('aria-pressed', String(tab.dataset.mode === mode)));
     render();
   }

@@ -5168,7 +5168,7 @@
       "category": "selection",
       "subtype": "本选考",
       "description": "エムシーディースリー株式会社（三菱商事集团）。设计数字产品的用户研究、旅程、线框和设计系统，含品牌相关工作。2028届大学及大学院生可。",
-      "notes": "公司ATS仍列该岗位并开放申请，未公布统一截止。准备履历书与作品集，企业刊登的流程还含面试、集体讨论和适性检查。 11/8核到企业在外資就活刊登11/30 23:59截止；官方ATS未列统一截止，因此仅作为该平台窗口，不推定全部入口同日关闭。设计说明会具体场次仍待核。",
+      "notes": "官方流程：Entry→公司说明会→作品集书类选考。OneCareer项目正文说明先预登记，随后公司向注册邮箱发MyPage与招聘活动案内。具体说明会日期、线上／线下及登记时必交材料尚未核到。平台窗口分别为OneCareer 11/30 00:00、外資就活11/30 23:59；官方ATS未列统一截止。",
       "sources": [
         {
           "label": "当届UI/UX岗位",
@@ -5185,6 +5185,10 @@
         {
           "label": "企业刊登的当届流程与平台截止",
           "url": "https://gaishishukatsu.com/recruiting_info/view/15185"
+        },
+        {
+          "label": "企业发布的预登记与后续案内路径",
+          "url": "https://www.onecareer.jp/events/internship/100118"
         }
       ],
       "milestones": [
@@ -5203,23 +5207,23 @@
           "eventStart": null,
           "eventEnd": null,
           "reservationRequired": true,
-          "registrationMethod": "企业流程：Entry→说明会→作品集选考；具体场次未公开",
+          "registrationMethod": "OneCareer预登记后，公司邮件发MyPage及活动案内；公开流程为说明会后进行作品集筛选。",
           "opensAt": null,
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": null,
           "availabilityState": "entry_required_or_unknown",
-          "availabilityLabel": "当前UI/UX岗位页未展示说明会时段；未执行応募，不能据按钮推定余位",
-          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
+          "availabilityLabel": "具体说明会场次与线上／线下未公布；登记表附件要求待确认",
+          "availabilityCheckedAt": "2026-11-08T11:43:51+09:00",
           "availabilitySource": {
-            "label": "当届官方UI/UX岗位",
-            "url": "https://mcd3-recruit.snar.jp/jobboard/detail.aspx?id=iEzyj3eZH3k"
+            "label": "公司发布的预登记路径",
+            "url": "https://www.onecareer.jp/events/internship/100118"
           },
           "bookingStage": "有意报名／尚未Entry",
-          "nextAction": "先核仅登记说明会的路径与场次，不用事业开发活动代替设计说明会。"
+          "nextAction": "先确认设计说明会日期、形式和预登记必交项。"
         }
       ],
-      "decisionContext": "希望先听28卒UI/UX说明会；具体设计场次尚未核到，不能以事业开发活动替代。",
+      "decisionContext": "先听UI/UX说明会，听后决定本选考投递时间。",
       "reapplication": {
         "status": "unknown",
         "summary": "尚未核到重投规则。正式投递前，需确认同届落选后能否再投及有无等待期。",
@@ -5233,7 +5237,7 @@
         "checkedAt": "2026-11-07"
       },
       "intro": "MCD3（三菱商事集团）设计数字产品；本项目招聘UI/UX设计师，涉及用户研究、旅程、线框与设计系统。",
-      "nextAction": "优先核UI/UX说明会具体场次与登记路径；平台列11/30 23:59截止，先确认前置流程所需时间，再决定正式投递日。"
+      "nextAction": "先获取UI/UX说明会案内，听会后决定投递时间。OneCareer先预登记后由公司发MyPage；登记时是否需附件、具体场次待确认。"
     },
     {
       "id": "brother-design-2028-preregistration",

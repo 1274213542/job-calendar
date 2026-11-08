@@ -32,7 +32,14 @@
             }
           ],
           "availabilityLabel": "28卒官方月薪／年收",
-          "evidenceNote": "已重新打开28卒UI/UX原始招聘页，确认360,334／月、4,324,008／年起，决算奖金依业绩。固定40小时不代表实际每月需加班40小时。"
+          "evidenceNote": "已重新打开28卒UI/UX原始招聘页，确认360,334／月、4,324,008／年起，决算奖金依业绩。固定40小时不代表实际每月需加班40小时。",
+          "sortValues": {
+            "monthlyJPY": 360334,
+            "annualJPY": 4324008,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -97,7 +104,14 @@
             }
           ],
           "availabilityLabel": "28卒设计待遇未公布",
-          "evidenceNote": "已复核新卒岗位总表和设计职页面，设计师仍显示求人情報準備中。25/26卒第二新卒岗位及28卒策划岗的金额不适用于本岗位，未混填。实习报酬与正式入职待遇分开。"
+          "evidenceNote": "已复核新卒岗位总表和设计职页面，设计师仍显示求人情報準備中。25/26卒第二新卒岗位及28卒策划岗的金额不适用于本岗位，未混填。实习报酬与正式入职待遇分开。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -163,7 +177,14 @@
           ],
           "availabilityLabel": "设计正社员待遇未核实",
           "evidenceNote": "已核官方新卒入口及ATS。27卒公告明确停止设计师募集；现有商务／工程师薪酬不能代入28卒游戏UI/UX。28卒工作坊不等于已公布同届正社员待遇。 官方实际工时参考：公司2026-07-07文章披露：正社员月均加班18.4小时、全体约17小时；正社员有休取得65%，全体65.2%；统计起止期间未公开。公司文章说明数据默认单体；文中人事数据采用直近实绩，未在该段明确加班统计起止年月，不补造。与転職会議累计44小时不同口径，应并列而非覆盖。",
-          "checkedAt": "2026-11-06"
+          "checkedAt": "2026-11-06",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -225,7 +246,14 @@
             }
           ],
           "availabilityLabel": "官方共通要项",
-          "evidenceNote": "设计师实际配属ネゾット。年化只为比较固定部分，不含奖金且首年培训期津贴起付日未确定。"
+          "evidenceNote": "设计师实际配属ネゾット。年化只为比较固定部分，不含奖金且首年培训期津贴起付日未确定。",
+          "sortValues": {
+            "monthlyJPY": 257670,
+            "annualJPY": 3092040,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -278,7 +306,14 @@
               "label": "设计实习・企业发布",
               "url": "https://student.redesigner.jp/recruitments/J2a7523491900a3b6e1f570d96369633b"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 330000,
+            "annualJPY": 3960000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -333,7 +368,14 @@
               "label": "2D短期实习公告",
               "url": "https://cafegroup.co.jp/news/3157"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 300000,
+            "annualJPY": 3600000,
+            "monthlyLabel": "月薪下限",
+            "annualLabel": "月薪×12下限",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -399,7 +441,14 @@
             }
           ],
           "availabilityLabel": "个别定薪・官网示例",
-          "evidenceNote": "官网明确30万是新卒／中途均可适用的报价示例，不是新卒统一起薪或保证下限。不可与其他公司明确公布的起薪直接排名。"
+          "evidenceNote": "官网明确30万是新卒／中途均可适用的报价示例，不是新卒统一起薪或保证下限。不可与其他公司明确公布的起薪直接排名。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -456,7 +505,14 @@
             }
           ],
           "availabilityLabel": "通年新卒官方待遇",
-          "evidenceNote": "已核创作者／设计师官网：42万起、年俸504万起；合同固定加班时数与官网实际平均31小时是不同指标，平均数也不是设计团队个人保证值。"
+          "evidenceNote": "已核创作者／设计师官网：42万起、年俸504万起；合同固定加班时数与官网实际平均31小时是不同指标，平均数也不是设计团队个人保证值。",
+          "sortValues": {
+            "monthlyJPY": 420000,
+            "annualJPY": 5040000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -506,7 +562,14 @@
               "label": "28卒设计师・集团招聘系统",
               "url": "https://hrmos.co/pages/cyberagent-group/jobs/1936019283746394476583312"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 340000,
+            "annualJPY": 4080000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -558,7 +621,14 @@
               "label": "28卒Creative・待遇",
               "url": "https://www.i-studio.co.jp/recruit_new/recruit/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 290000,
+            "annualJPY": 3480000,
+            "monthlyLabel": "年收÷12",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -611,7 +681,14 @@
             }
           ],
           "availabilityLabel": "28卒官方首年模型",
-          "evidenceNote": "官网已列28卒UX／传播设计，月40万、年670万均是含利润返还和津贴的首年模型，不是每人的基本薪或无条件保证额。"
+          "evidenceNote": "官网已列28卒UX／传播设计，月40万、年670万均是含利润返还和津贴的首年模型，不是每人的基本薪或无条件保证额。",
+          "sortValues": {
+            "monthlyJPY": 400000,
+            "annualJPY": 6700000,
+            "monthlyLabel": "月薪模型",
+            "annualLabel": "年收模型",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -668,7 +745,14 @@
             }
           ],
           "availabilityLabel": "28卒官方月薪",
-          "evidenceNote": "已重新核传播设计职原页：月258,000含20小时固定加班34,866，超出另付；业绩奖不能预先计入保证年收。试用6个月条件不变。"
+          "evidenceNote": "已重新核传播设计职原页：月258,000含20小时固定加班34,866，超出另付；业绩奖不能预先计入保证年收。试用6个月条件不变。",
+          "sortValues": {
+            "monthlyJPY": 258000,
+            "annualJPY": 3096000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -728,7 +812,14 @@
               "label": "27卒设计职・公司招聘要项",
               "url": "https://job.mynavi.jp/27/pc/search/corp51951/recruiting_course27019424/recruiting_course.html?site_preference=smartphone"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 325000,
+            "annualJPY": 3900000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收下限",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -784,7 +875,14 @@
               "label": "新卒共通奖金、津贴与休假",
               "url": "https://careers.denso.com/graduate/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 320000,
+            "annualJPY": 3840000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -832,7 +930,14 @@
               "label": "28卒Creative・官方岗位",
               "url": "https://sunasterisk-recruit.snar.jp/jobboard/detail.aspx?id=nSse34S0Ht4"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 290000,
+            "annualJPY": 3480000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -886,7 +991,14 @@
             }
           ],
           "availabilityLabel": "28卒官方年收",
-          "evidenceNote": "已进入Talentio原页核对PAY ID UI/UX岗位：官方公布年收400–600万，未公布月薪分配、奖金或固定加班构成。折算月额不等于实际每月发薪。"
+          "evidenceNote": "已进入Talentio原页核对PAY ID UI/UX岗位：官方公布年收400–600万，未公布月薪分配、奖金或固定加班构成。折算月额不等于实际每月发薪。",
+          "sortValues": {
+            "monthlyJPY": 333333,
+            "annualJPY": 4000000,
+            "monthlyLabel": "年收÷12下限",
+            "annualLabel": "公布年收下限",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -938,7 +1050,14 @@
               "label": "28卒创作者职要项",
               "url": "https://jp.corp-sansan.com/recruit/newgrads/jobs/creator-2028/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 413000,
+            "annualJPY": 5864000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -993,7 +1112,14 @@
               "label": "GMO Media 28卒设计师",
               "url": "https://herp.careers/v1/gmomedia/OAAr1igZZX43"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": 4500000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1050,7 +1176,14 @@
             }
           ],
           "availabilityLabel": "28卒官方待遇",
-          "evidenceNote": "已复核28卒要项：基本288,000＋割増見合手当78,225。页面的140小时是月所定劳动时间，不是固定加班时数；对应固定加班小时未公布。"
+          "evidenceNote": "已复核28卒要项：基本288,000＋割増見合手当78,225。页面的140小时是月所定劳动时间，不是固定加班时数；对应固定加班小时未公布。",
+          "sortValues": {
+            "monthlyJPY": 366225,
+            "annualJPY": 4394700,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1100,7 +1233,14 @@
               "label": "28卒 Creative 课程要项",
               "url": "https://recruit.hakuhodody-one.co.jp/recruit/recruitment/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 317000,
+            "annualJPY": 3804000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1149,7 +1289,14 @@
               "label": "28卒设计师要项",
               "url": "https://hakusuku.jp/recruit/information/designer-entry/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 300000,
+            "annualJPY": 3600000,
+            "monthlyLabel": "基本月薪",
+            "annualLabel": "基本年薪",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1201,7 +1348,14 @@
               "label": "Visional 产品职官网",
               "url": "https://newgrads.visional.inc/jobs/product/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 333334,
+            "annualJPY": 5000000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1255,7 +1409,14 @@
             }
           ],
           "availabilityLabel": "28卒官方待遇",
-          "evidenceNote": "已重新核株式会社ギフティ28卒传播设计师HERP原页，月333,000起、年4,329,000起；年收已含基本1个月奖金，不再额外重复加算。"
+          "evidenceNote": "已重新核株式会社ギフティ28卒传播设计师HERP原页，月333,000起、年4,329,000起；年收已含基本1个月奖金，不再额外重复加算。",
+          "sortValues": {
+            "monthlyJPY": 333000,
+            "annualJPY": 4329000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1310,7 +1471,14 @@
             }
           ],
           "availabilityLabel": "27卒同本部参考",
-          "evidenceNote": "官网仍为27卒UI/UX要项；初年即半年年俸，每半年的金额分6个月发放。28卒平面岗不是同一岗位，不能把此参考金额视为28卒承诺。"
+          "evidenceNote": "官网仍为27卒UI/UX要项；初年即半年年俸，每半年的金额分6个月发放。28卒平面岗不是同一岗位，不能把此参考金额视为28卒承诺。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪下限",
+            "annualLabel": "月薪×12下限",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -1367,7 +1535,14 @@
               "label": "28卒公司共同要项",
               "url": "https://recruit.leverages.jp/recruit/graduates/information/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 350000,
+            "annualJPY": 5000000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收模型",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1417,7 +1592,14 @@
               "label": "日本福利与津贴",
               "url": "https://www.accenture.com/jp-ja/careers/local/benefits"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 400000,
+            "annualJPY": 4800000,
+            "monthlyLabel": "基本月薪",
+            "annualLabel": "基本年薪",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1477,7 +1659,14 @@
             }
           ],
           "availabilityLabel": "28卒金额已公布",
-          "evidenceNote": "11/6已读28卒原始ATS：起薪35万，替换此前“28卒未列金额／27卒30万参考”。另有每年24万日元福利积分，按制度及入职月折算，不是现金工资。"
+          "evidenceNote": "11/6已读28卒原始ATS：起薪35万，替换此前“28卒未列金额／27卒30万参考”。另有每年24万日元福利积分，按制度及入职月折算，不是现金工资。",
+          "sortValues": {
+            "monthlyJPY": 350000,
+            "annualJPY": 4200000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1531,7 +1720,14 @@
               "label": "AI Generalist 招聘条款",
               "url": "https://student.dena.com/aigeneralist/description/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 465000,
+            "annualJPY": 6000000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1587,7 +1783,14 @@
             }
           ],
           "availabilityLabel": "按公司规定・金额未公布",
-          "evidenceNote": "已完整读取27/28卒Bakuraku产品设计师Talentio原页，薪资仅写“当社規定による”，未公开统一月薪、年收、奖金或固定加班构成。"
+          "evidenceNote": "已完整读取27/28卒Bakuraku产品设计师Talentio原页，薪资仅写“当社規定による”，未公开统一月薪、年收、奖金或固定加班构成。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1635,7 +1838,14 @@
               "label": "新卒设计师职位",
               "url": "https://herp.careers/v1/litalico/NYhHcBGI8U_q"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 253400,
+            "annualJPY": 3500800,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1687,7 +1897,14 @@
             }
           ],
           "availabilityLabel": "28卒官方年收",
-          "evidenceNote": "官方年收450万起、月薪制含30小时固定加班；月薪拆分与奖金分配没有公开，折算月额不能当作实际月薪报价。"
+          "evidenceNote": "官方年收450万起、月薪制含30小时固定加班；月薪拆分与奖金分配没有公开，折算月额不能当作实际月薪报价。",
+          "sortValues": {
+            "monthlyJPY": 375000,
+            "annualJPY": 4500000,
+            "monthlyLabel": "年收÷12",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1731,7 +1948,14 @@
               "label": "28卒产品设计师募集条件",
               "url": "https://cybozu.co.jp/recruit/entry/newgrad/product-designer2028.html"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 400000,
+            "annualJPY": 5600000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1785,7 +2009,14 @@
               "label": "产品设计新卒与实习待遇",
               "url": "https://recruit.smarthr.co.jp/newgrads/product-designer/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 400000,
+            "annualJPY": 5600000,
+            "monthlyLabel": "月薪下限",
+            "annualLabel": "含成果奖估算下限",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1846,7 +2077,14 @@
             }
           ],
           "availabilityLabel": "通年新卒官方模型",
-          "evidenceNote": "已核岗位原页月薪32万起、年收模型484万起。模型奖金100万为全年平均，不保证新卒首年金额；集团子公司不适用本页半年度结算奖。"
+          "evidenceNote": "已核岗位原页月薪32万起、年收模型484万起。模型奖金100万为全年平均，不保证新卒首年金额；集团子公司不适用本页半年度结算奖。",
+          "sortValues": {
+            "monthlyJPY": 320000,
+            "annualJPY": 4840000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收模型",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1901,7 +2139,14 @@
               "label": "官网职种说明",
               "url": "https://careers.fromsoftware.jp/jp/newgraduates.html"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 300000,
+            "annualJPY": 3600000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -1954,7 +2199,14 @@
               "label": "28卒设计师·分学历条件",
               "url": "https://www.sdtech.co.jp/new-graduate-recruitment/entry-level-designer"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 288000,
+            "annualJPY": 3456000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -2000,7 +2252,14 @@
               "label": "公司发布·27卒专业职待遇",
               "url": "https://job.mynavi.jp/27/pc/corpinfo/displayEmployment/index/?corpId=260731&recruitingCourseId=27028084"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 238657,
+            "annualJPY": 2863884,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2055,7 +2314,14 @@
               "label": "CREATIVE OJT",
               "url": "https://recruit.jpn.panasonic.com/internship/courses/creative/index.html"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 309500,
+            "annualJPY": 3714000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         },
         {
           "role": "广告／照明与住宅设备 · Electric Works／Housing Solutions",
@@ -2075,7 +2341,14 @@
               "label": "CREATIVE OJT",
               "url": "https://recruit.jpn.panasonic.com/internship/courses/creative/index.html"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 307500,
+            "annualJPY": 3690000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2129,7 +2402,14 @@
               "label": "四轮设计实习",
               "url": "https://www.design-recruit.suzuki.co.jp/event/info/2027design-practice-car.html"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 317700,
+            "annualJPY": 3812400,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2184,7 +2464,14 @@
               "label": "设计实习待遇",
               "url": "https://www.yamaha.com/ja/recruitment/internship/designer/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 302000,
+            "annualJPY": 3624000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2240,7 +2527,14 @@
               "label": "车载 UI/UX 春季实习",
               "url": "https://global.honda/jp/jobs/design/internship/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 295700,
+            "annualJPY": 3548400,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2297,7 +2591,14 @@
             }
           ],
           "availabilityLabel": "27卒修士参考",
-          "evidenceNote": "集团本社页面仍明确28卒要项尚未公开。修士363,000为27卒参考（2026年度预计），标准实働7小时45分；Creative Center最终录用条件待当届确认。"
+          "evidenceNote": "集团本社页面仍明确28卒要项尚未公开。修士363,000为27卒参考（2026年度预计），标准实働7小时45分；Creative Center最终录用条件待当届确认。",
+          "sortValues": {
+            "monthlyJPY": 363000,
+            "annualJPY": 4356000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2355,7 +2656,14 @@
             }
           ],
           "availabilityLabel": "27卒要项・26年实绩",
-          "evidenceNote": "已复核官方页，正文资格仍截至2027年3月，修士312,000为2026年4月实绩。28卒入社工资待当届要项；标准实働7小时45分。"
+          "evidenceNote": "已复核官方页，正文资格仍截至2027年3月，修士312,000为2026年4月实绩。28卒入社工资待当届要项；标准实働7小时45分。",
+          "sortValues": {
+            "monthlyJPY": 312000,
+            "annualJPY": 3744000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2416,7 +2724,14 @@
             }
           ],
           "evidenceNote": "官方实际工时参考：23.3小时/月；2024年度实绩。与第三方投稿21.1小时口径不同，不能合并或当成相互矛盾；可作为单独官方实绩字段。",
-          "checkedAt": "2026-11-06"
+          "checkedAt": "2026-11-06",
+          "sortValues": {
+            "monthlyJPY": 340900,
+            "annualJPY": 4090800,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2467,7 +2782,14 @@
               "label": "28卒设计职募集要项",
               "url": "https://www.keyence-jobs.jp/recruit/guideline/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 300000,
+            "annualJPY": 3600000,
+            "monthlyLabel": "大阪单身示例",
+            "annualLabel": "示例月薪×12",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2522,7 +2844,14 @@
               "label": "先进设计中心",
               "url": "https://www.mhi.com/jp/business/technology/core_technologies/design.html"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 305000,
+            "annualJPY": 3660000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2575,7 +2904,14 @@
             }
           ],
           "availabilityLabel": "已公布实习，正社员待核",
-          "evidenceNote": "已复核当期学生招聘实习页。公开的是实习时薪1,400日元；录用后正式员工的月薪、年收、奖金和加班构成未在该项目列出，不用公司全员平均年收替代。"
+          "evidenceNote": "已复核当期学生招聘实习页。公开的是实习时薪1,400日元；录用后正式员工的月薪、年收、奖金和加班构成未在该项目列出，不用公司全员平均年收替代。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -2627,7 +2963,14 @@
             }
           ],
           "availabilityLabel": "学生合同报酬",
-          "evidenceNote": "已读企业发布原页：时间单价1,500日元含税、可议月固定合同，不是正社员初任给。页眉为SWIPEDRAMA、正文仍称ハイボール，签约法人需在合同前核实；不混入其他法人评价。"
+          "evidenceNote": "已读企业发布原页：时间单价1,500日元含税、可议月固定合同，不是正社员初任给。页眉为SWIPEDRAMA、正文仍称ハイボール，签约法人需在合同前核实；不混入其他法人评价。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -2677,7 +3020,14 @@
             }
           ],
           "availabilityLabel": "无统一起薪・个别定薪",
-          "evidenceNote": "已复核官方新卒页：不设统一初任给，按职责、能力及经验报价，内定后能力提升也可能调整。没有可用于本岗位的统一年收或固定加班数字。"
+          "evidenceNote": "已复核官方新卒页：不设统一初任给，按职责、能力及经验报价，内定后能力提升也可能调整。没有可用于本岗位的统一年收或固定加班数字。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -2722,7 +3072,14 @@
               "label": "三洋发布的28卒 EC 岗位",
               "url": "https://student.redesigner.jp/recruitments/J9dd1762ab06b341b13032aafe74ff56e"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 249000,
+            "annualJPY": 2988000,
+            "monthlyLabel": "本科月薪",
+            "annualLabel": "本科月薪×12",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2773,7 +3130,14 @@
             }
           ],
           "availabilityLabel": "当届说明会公布的设计师待遇",
-          "evidenceNote": "25小时是固定加班费覆盖值，不是实际平均加班。试用期3个月与福利段6个月表述有差异，需确认。"
+          "evidenceNote": "25小时是固定加班费覆盖值，不是实际平均加班。试用期3个月与福利段6个月表述有差异，需确认。",
+          "sortValues": {
+            "monthlyJPY": 280930,
+            "annualJPY": 3371160,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2820,7 +3184,14 @@
               "label": "学生实习招聘表",
               "url": "https://www.notes-design.co.jp/s/wp-content/uploads/2026/09/2027_Notes_CD_Intern.pdf"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 250000,
+            "annualJPY": 3000000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -2869,7 +3240,14 @@
             }
           ],
           "availabilityLabel": "委托实习・报酬面议",
-          "evidenceNote": "已读设计实习原页及当前24项ATS列表。设计实习报酬写“応相談”、合同为业务委托；未获得28卒设计正社员工资依据，不能套用工程／营销岗。"
+          "evidenceNote": "已读设计实习原页及当前24项ATS列表。设计实习报酬写“応相談”、合同为业务委托；未获得28卒设计正社员工资依据，不能套用工程／营销岗。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -2923,7 +3301,14 @@
             }
           ],
           "availabilityLabel": "仅核到设计实习待遇",
-          "evidenceNote": "已核官网岗位目录：UIUX列在实习招聘，正式岗当前展示的是工程职位。不能把工程师薪资代入设计新卒；未核到正社员UI/UX同岗金额。"
+          "evidenceNote": "已核官网岗位目录：UIUX列在实习招聘，正式岗当前展示的是工程职位。不能把工程师薪资代入设计新卒；未核到正社员UI/UX同岗金额。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -2975,7 +3360,14 @@
             }
           ],
           "availabilityLabel": "共通条件・个别定薪",
-          "evidenceNote": "已读全部官方Jobs：薪酬按经验和公司规定个别决定；正式助理设计岗要求2年以上实务经验，不等于28卒零经验岗位。实习没有独立时薪报价。"
+          "evidenceNote": "已读全部官方Jobs：薪酬按经验和公司规定个别决定；正式助理设计岗要求2年以上实务经验，不等于28卒零经验岗位。实习没有独立时薪报价。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -3030,7 +3422,14 @@
             }
           ],
           "evidenceNote": "官方实际工时参考：月平均20–30小时左右；统计起止期间未公开。官方未给明确统计年度和样本，保留范围而不取中点；非具体UI实习保证。",
-          "checkedAt": "2026-11-06"
+          "checkedAt": "2026-11-06",
+          "sortValues": {
+            "monthlyJPY": 280000,
+            "annualJPY": 3360000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -3082,7 +3481,14 @@
               "label": "企业发布的 UX 设计师要项",
               "url": "https://job.mynavi.jp/27/pc/corpinfo/displayEmployment/index/?corpId=259864&recruitingCourseId=27038814"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 265400,
+            "annualJPY": 3030600,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -3133,7 +3539,14 @@
               "label": "GK 京都公司招聘 PDF",
               "url": "https://www.gk-kyoto.com/hp_works/wp-content/uploads/2026/03/2027_gkkyoto_requirements.pdf"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 225600,
+            "annualJPY": 2707200,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -3184,7 +3597,14 @@
               "label": "28卒设计职正式要项",
               "url": "https://herp.careers/careers/companies/sevendex/jobs/ixum8T5Lm3MA"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 345000,
+            "annualJPY": 4600000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收模型",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -3232,7 +3652,14 @@
               "label": "28卒设计师官方待遇",
               "url": "https://fresh.cygames.co.jp/recruit/guideline/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 335500,
+            "annualJPY": 4026000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "基本年薪下限",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -3287,7 +3714,14 @@
               "label": "28卒 UX 岗位",
               "url": "https://recruit.members.co.jp/freshers/ux-designer/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 260000,
+            "annualJPY": 3120000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -3338,7 +3772,14 @@
               "label": "正社员及学生助理要项",
               "url": "https://spect.co.jp/jobs"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 188000,
+            "annualJPY": null,
+            "monthlyLabel": "基本月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -3392,7 +3833,14 @@
             }
           ],
           "availabilityLabel": "27卒设计职参考",
-          "evidenceNote": "已核设计岗ATS及当前官网入口，设计本选考仍链接27卒页。修士36万为该页参考，并非28卒确认报价。官网称原则禁止22点后加班与假日出勤，属于公司制度而非员工实际工时。"
+          "evidenceNote": "已核设计岗ATS及当前官网入口，设计本选考仍链接27卒页。修士36万为该页参考，并非28卒确认报价。官网称原则禁止22点后加班与假日出勤，属于公司制度而非员工实际工时。",
+          "sortValues": {
+            "monthlyJPY": 360000,
+            "annualJPY": 4320000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -3447,7 +3895,14 @@
               "label": "学生设计实习",
               "url": "https://herp.careers/v1/details/8e79Uaucnl_A"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 231250,
+            "annualJPY": 2775000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -3503,7 +3958,14 @@
               "label": "集团28卒招聘范围",
               "url": "https://hrmos.co/pages/mediagene/jobs/2028"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 304000,
+            "annualJPY": 3648000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收估算",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -3558,7 +4020,14 @@
               "label": "28卒顾问岗位模型与构成",
               "url": "https://www.abeam.com/jp/ja/recruit/newgrad/requirements2028/solution-cs/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "年收模型",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -3619,7 +4088,14 @@
               "label": "28卒联合选考参加公司",
               "url": "https://www.kurihaku.jp/direct/recruit/detail/81017/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 341800,
+            "annualJPY": 4101600,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -3677,7 +4153,14 @@
             }
           ],
           "availabilityLabel": "27卒札幌法人参考",
-          "evidenceNote": "虽然页尾已有28卒入口，但募集对象正文仍截至2027年3月。287,700为旧届修士参考，未升级为28卒金额。"
+          "evidenceNote": "虽然页尾已有28卒入口，但募集对象正文仍截至2027年3月。287,700为旧届修士参考，未升级为28卒金额。",
+          "sortValues": {
+            "monthlyJPY": 287700,
+            "annualJPY": 3452400,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -3733,7 +4216,14 @@
               "label": "28卒联合选考参加公司",
               "url": "https://www.kurihaku.jp/direct/recruit/detail/81017/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 316200,
+            "annualJPY": 3794400,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -3788,7 +4278,14 @@
               "label": "春季设计实习",
               "url": "https://recruit.toyota/saiyo/event/design_internship/"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 300000,
+            "annualJPY": 3600000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -3843,7 +4340,14 @@
               "label": "学生岗位",
               "url": "https://recruit.d-zero.co.jp/requirements/student"
             }
-          ]
+          ],
+          "sortValues": {
+            "monthlyJPY": 253619,
+            "annualJPY": 3043428,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": true
+          }
         }
       ],
       "employeeReviews": {
@@ -3900,7 +4404,14 @@
             }
           ],
           "availabilityLabel": "28卒官方月薪／年收",
-          "evidenceNote": "已重新读取28卒UI/UX ATS，月408,800、年5,314,400，6月奖金1次；ATS只列另付时间外津贴，20小时固定部分见企业ONE CAREER刊登，确切月薪构成仍需确认。"
+          "evidenceNote": "已重新读取28卒UI/UX ATS，月408,800、年5,314,400，6月奖金1次；ATS只列另付时间外津贴，20小时固定部分见企业ONE CAREER刊登，确切月薪构成仍需确认。",
+          "sortValues": {
+            "monthlyJPY": 408800,
+            "annualJPY": 5314400,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -3950,7 +4461,14 @@
             }
           ],
           "availabilityLabel": "学生兼职待遇",
-          "evidenceNote": "已复核UI/UX设计助理兼职页，雇用主体为teamLab Engineering。时薪1,300起；不能将teamLab本体32万起薪和奖金套用到该子公司或兼职合同。"
+          "evidenceNote": "已复核UI/UX设计助理兼职页，雇用主体为teamLab Engineering。时薪1,300起；不能将teamLab本体32万起薪和奖金套用到该子公司或兼职合同。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -4002,7 +4520,14 @@
             }
           ],
           "availabilityLabel": "学生实习时薪已核",
-          "evidenceNote": "2026-11-07读取官方当前募集和申请入口。未公开正社员同岗月薪、年收、奖金或加班制度，不能由时薪推定。"
+          "evidenceNote": "2026-11-07读取官方当前募集和申请入口。未公开正社员同岗月薪、年收、奖金或加班制度，不能由时薪推定。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "月薪",
+            "annualLabel": "公布年收",
+            "reference": false
+          }
         }
       ]
     },
@@ -4037,7 +4562,14 @@
             }
           ],
           "availabilityLabel": "往届一般职待遇参考",
-          "evidenceNote": "2026-11-07核实一般募集要项及设计FAQ。工资是2026年4月一般专业职修士实绩；28卒设计专用待遇待公布。8.6小时为总合设计部2024年度月平均，与全公司2025年度14.9小时不同；不推断个人压力。"
+          "evidenceNote": "2026-11-07核实一般募集要项及设计FAQ。工资是2026年4月一般专业职修士实绩；28卒设计专用待遇待公布。8.6小时为总合设计部2024年度月平均，与全公司2025年度14.9小时不同；不推断个人压力。",
+          "sortValues": {
+            "monthlyJPY": 300400,
+            "annualJPY": 3604800,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12",
+            "reference": true
+          }
         }
       ],
       "officialWorkload": {
@@ -4081,7 +4613,14 @@
             }
           ],
           "availabilityLabel": "当届具体岗位参考／修士资格待核",
-          "evidenceNote": "地区、学歴及固定加班费口径须分开，不能据此保证本人入社薪资。"
+          "evidenceNote": "地区、学歴及固定加班费口径须分开，不能据此保证本人入社薪资。",
+          "sortValues": {
+            "monthlyJPY": 240000,
+            "annualJPY": 2880000,
+            "monthlyLabel": "月薪下限",
+            "annualLabel": "月薪×12下限",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {

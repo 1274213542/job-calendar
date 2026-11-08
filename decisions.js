@@ -76,11 +76,36 @@ function opSortDate(op) {
   const dates=[...(op.registrationSessions||[]).flatMap(s=>[s.deadline,s.eventStart]),...(op.milestones||[]).filter(m=>['deadline','es_deadline','portfolio_deadline','test_deadline','confirmation_deadline','event'].includes(m.type)&&!m.completed).map(m=>m.type==='event'?(m.endDate||m.date):m.date)].filter(Boolean).map(String).sort();
   return dates[0] || '9999-99-99';
 }
-function exactDeadline(op) {
-  const ds = (op.registrationSessions || []).map(s => s.deadline).filter(Boolean);
-  const ms = (op.milestones || []).filter(m => ['deadline','es_deadline','portfolio_deadline','test_deadline','confirmation_deadline'].includes(m.type) && m.date && !m.completed).map(m => m.date);
-  const all = [...ds,...ms].sort();
-  return all.length ? fmt(all[0]) : '未公布／未核实';
+export function decisionDeadline(op, saved) {
+  const allSessions = dateSessions(op);
+  const sessions = allSessions.filter(session => session.selectable &&
+    (!saved?.sessionId || session.id === saved.sessionId));
+  const nodes = op.milestones || [];
+  const sessionDates = sessions.filter(session => !session.source?.deadlineCompleted && !session.source?.requiresVerification &&
+    !nodes.some(node => node.completed && node.date === session.deadline &&
+      (!session.source?.deadlineLabel || node.label === session.source.deadlineLabel))).map(session =>
+        session.source?.waitlistOpen || session.source?.waitlist ? session.source.waitlistDeadline : session.deadline);
+  const milestoneDates = nodes.filter(node =>
+    ['deadline','es_deadline','portfolio_deadline','test_deadline','confirmation_deadline'].includes(node.type) &&
+    !node.completed && !node.requiresVerification &&
+    (!allSessions.some(session => session.deadline === node.date) || sessions.some(session => session.deadline === node.date)))
+    .map(node => node.date);
+  return [...sessionDates,...milestoneDates].filter(date =>
+    /^\d{4}-\d{2}-\d{2}(?:T|$)/.test(String(date || '')) && !pastDate(date)).sort()[0] || null;
+}
+
+export function compareDecisionDeadlines(a, b, direction = 'soonest', choices = []) {
+  const left = decisionDeadline(a, choices.find(choice => choice.id === a.id));
+  const right = decisionDeadline(b, choices.find(choice => choice.id === b.id));
+  if (!left || !right) {
+    if (left) return -1;
+    if (right) return 1;
+  } else {
+    const order = left.localeCompare(right);
+    if (order) return direction === 'latest' ? -order : order;
+  }
+  return String(a.company || '').localeCompare(String(b.company || ''), 'zh-CN') ||
+    String(a.title || '').localeCompare(String(b.title || ''), 'zh-CN');
 }
 function displayWhen(s) {
   if (!s?.start) return '场次待公布';
@@ -236,9 +261,10 @@ export async function mountDecisions(data) {
   let cloudReadFailed = false;
   let writing = false;
   let writeRevision = 0;
-  let deckIndex = 0;
   let reviewId = null;
-  let listMode = 'interested';
+  let listMode = 'pending';
+  let sortOrder = 'soonest';
+  let archiveOpen = false;
   let confirmingId = null;
   let isOpen = location.hash === '#decisions';
   let lastLoadedAt = 0;
@@ -249,9 +275,7 @@ export async function mountDecisions(data) {
   const undoStack = new Map();
   const draftSessions = new Map();
   const today = tokyoToday();
-  const priority = op => /Brother|MCD3/i.test(op.company || '') && /有意|希望|预登记|先听/i.test(op.decisionContext || '') ? 0 : 1;
-  const candidates = data.opportunities.filter(op => canDecide(op, today)).sort((a,b) =>
-    opSortDate(a).localeCompare(opSortDate(b)) || priority(a) - priority(b) || String(a.company || '').localeCompare(String(b.company || '')));
+  const candidates = data.opportunities.filter(op => canDecide(op, today));
 
   const savesToAccount = () => storageMode === 'account';
   const canSave = () => savesToAccount() ? cloudCanEdit : deviceChoices !== null;
@@ -327,6 +351,22 @@ export async function mountDecisions(data) {
     </article>`;
   }
 
+  function listItemHtml(op, archived = false) {
+    const saved = choiceFor(op.id);
+    const expiry = archived ? decisionExpiry(op,today) : null;
+    const deadline = archived ? expiry.date : decisionDeadline(op,saved);
+    const deadlineLabel = archived ? expiry.label || '已过期' : deadline ? `${fmt(deadline)} 截止` : '截止待公布';
+    const expanded = reviewId === op.id;
+    return `<div class="decision-list-item ${expanded?'is-expanded':''}">
+      <button type="button" class="decision-list-summary" data-expand-decision="${esc(op.id)}" aria-expanded="${expanded}" aria-controls="decision-body-${esc(op.id)}">
+        <span class="decision-list-name"><strong>${esc(op.company)}</strong><span>${esc(op.title)}</span></span>
+        <span class="decision-list-meta">${typeTag(opportunityType(op))}<span class="decision-list-deadline ${deadline?'':'is-unknown'}">${esc(deadlineLabel)}</span></span>
+        <svg class="decision-list-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+      </button>
+      <div id="decision-body-${esc(op.id)}" class="decision-list-body" ${expanded?'':'hidden'}>${expanded?cardHtml(op,saved):''}</div>
+    </div>`;
+  }
+
   function render() {
     const cloudLink = !sameOrigin ? `<a href="${CLOUD_URL}" target="_top">打开云端版</a>`
       : cloudCanEdit ? '<button type="button" data-storage-mode="account">切换到云端</button>'
@@ -342,23 +382,18 @@ export async function mountDecisions(data) {
     access.innerHTML = `<p class="decision-access-note">${esc(note)}</p><div class="decision-access-actions">${savesToAccount() && cloudCanEdit ? '' : cloudLink}${deviceLink}</div>`;
     if (gestureHelp) gestureHelp.hidden = !canSave();
     const pending = candidates.filter(op => !choiceFor(op.id));
-    const op = reviewId ? data.opportunities.find(candidate => candidate.id === reviewId) : listMode==='pending' ? pending[Math.min(deckIndex, Math.max(0, pending.length - 1))] : null;
-    const pos = pending.indexOf(op) + 1;
-    let html = op ? (reviewId ? '<div class="decision-deck-nav"><button type="button" data-review-close>← 返回</button></div>'
-      : `<div class="decision-deck-nav"><button type="button" data-deck-nav="prev" ${pos <= 1 ? 'disabled' : ''}>上一项</button><span>第 ${pos} / ${pending.length} 项</span><button type="button" data-deck-nav="next" ${pos >= pending.length ? 'disabled' : ''}>下一项</button></div>`) + cardHtml(op, choiceFor(op.id))
-      : listMode==='pending' ? '<p class="decision-empty">待决定项目已处理完。</p>' : '';
     const activeChoices = choices.filter(choice=>data.opportunities.some(item=>item.id===choice.id&&!decisionExpiry(item,today).expired));
     const history = activeChoices.filter(choice=>listMode==='interested'?choice.choice==='interested':choice.choice!=='interested');
     const counts={pending:pending.length,interested:activeChoices.filter(c=>c.choice==='interested').length,other:activeChoices.filter(c=>c.choice!=='interested').length};
-    const tabs=`<div class="decision-list-tabs" role="group" aria-label="决定列表">${[['interested','我的意向'],['pending','待决定'],['other','暂缓／不参加']].map(([key,label])=>`<button type="button" data-list-mode="${key}" aria-pressed="${listMode===key}">${label} ${counts[key]}</button>`).join('')}</div>`;
-    if (!reviewId && listMode!=='pending' && history.length) html += `<div class="decision-history">${history.map(choice => {
-      const item = data.opportunities.find(candidate => candidate.id === choice.id);
-      return `<div class="decision-history-row"><button class="decision-history-project" type="button" data-id="${esc(choice.id)}">${typeTag(opportunityType(item))} <span>${esc(item.company)} · ${esc(item.title)}<small>${esc(shortStage(item))}</small></span></button><button type="button" data-review="${esc(choice.id)}">查看</button></div>`;
-    }).join('')}</div>`;
-    if (!html) html=`<p class="decision-empty">${!firstLoadComplete?'正在读取云端意向…':cloudReadFailed?'云端意向暂未读到，请点「重试」。':'这个列表暂时没有记录。'}</p>`;
+    const tabs=`<div class="decision-list-tabs" role="group" aria-label="决定列表">${[['pending','待决定'],['interested','我的意向'],['other','暂缓／不参加']].map(([key,label])=>`<button type="button" data-list-mode="${key}" aria-pressed="${listMode===key}">${label} <span>${counts[key]}</span></button>`).join('')}</div>`;
+    const sort=`<label class="decision-sort"><span>排序</span><select data-decision-sort aria-label="按截止时间排序"><option value="soonest" ${sortOrder==='soonest'?'selected':''}>截止最近</option><option value="latest" ${sortOrder==='latest'?'selected':''}>截止最远</option></select></label>`;
+    const items=(listMode==='pending' ? pending : history.map(choice=>data.opportunities.find(item=>item.id===choice.id)))
+      .sort((a,b)=>compareDecisionDeadlines(a,b,sortOrder,choices));
+    let html=items.length ? `<div class="decision-overview">${items.map(item=>listItemHtml(item)).join('')}</div>`
+      : `<p class="decision-empty">${!firstLoadComplete?'正在读取…':cloudReadFailed?'云端意向暂未读到，请点「重试」。':listMode==='pending'?'待决定项目已处理完。':'这个列表暂时没有记录。'}</p>`;
     const archived=data.opportunities.filter(item=>['activity','internship','selection'].includes(item.category)&&item.decisionEligible!==false&&decisionExpiry(item,today).expired).sort((a,b)=>opSortDate(b).localeCompare(opSortDate(a)));
-    if (!reviewId&&archived.length) html+=`<details class="decision-archive"><summary>已过期 <span>${archived.length}</span></summary><div>${archived.map(item=>{const expiry=decisionExpiry(item,today);return `<div class="decision-history-row"><button type="button" class="decision-history-project" data-id="${esc(item.id)}">${typeTag(opportunityType(item))}<span>${esc(item.company)} · ${esc(item.title)}<small>${esc(expiry.label || '已截止')}${expiry.date?` · ${esc(fmt(expiry.date))}`:''}</small></span></button><button type="button" data-review="${esc(item.id)}">查看</button></div>`;}).join('')}</div></details>`;
-    root.innerHTML = tabs + html;
+    if (archived.length) html+=`<details class="decision-archive" ${archiveOpen?'open':''}><summary>已过期 <span>${archived.length}</span></summary><div class="decision-overview">${archived.map(item=>listItemHtml(item,true)).join('')}</div></details>`;
+    root.innerHTML = `<div class="decision-list-toolbar">${tabs}${sort}</div>` + html;
   }
 
   function showFeedback(id, text) {
@@ -501,7 +536,11 @@ export async function mountDecisions(data) {
   }
 
   function showProject(id) {
-    if (!data.opportunities.some(op => op.id === id)) return;
+    const op = data.opportunities.find(item => item.id === id);
+    if (!op) return;
+    const saved = choiceFor(id);
+    if (decisionExpiry(op,today).expired) archiveOpen = true;
+    else listMode = saved ? saved.choice === 'interested' ? 'interested' : 'other' : 'pending';
     reviewId = id;
     confirmingId = null;
     feedback = null;
@@ -509,20 +548,37 @@ export async function mountDecisions(data) {
     render();
   }
 
+  root.addEventListener('toggle', event => {
+    if (event.target.matches('.decision-archive')) archiveOpen = event.target.open;
+  }, true);
   root.addEventListener('change', event => {
+    if (event.target.matches('[data-decision-sort]')) {
+      sortOrder = event.target.value === 'latest' ? 'latest' : 'soonest';
+      render();
+      root.querySelector('[data-decision-sort]')?.focus({preventScroll:true});
+      return;
+    }
     const select = event.target.closest('[data-session-for]');
     if (!select) return;
     draftSessions.set(select.dataset.sessionFor, select.value);
     confirmingId = null;
     feedback = null;
     render();
+    root.querySelector(`[data-session-for="${CSS.escape(select.dataset.sessionFor)}"][value="${CSS.escape(select.value)}"]`)?.focus({preventScroll:true});
   });
   root.addEventListener('click', event => {
     const button = event.target.closest('button');
     if (!button) return;
     event.stopPropagation();
-    const {choice,id,undo,restore,review,deckNav,confirmInterest} = button.dataset;
-    if (button.dataset.listMode) {listMode=button.dataset.listMode;reviewId=null;confirmingId=null;feedback=null;render();}
+    const {choice,id,undo,restore,review,confirmInterest} = button.dataset;
+    if (button.dataset.expandDecision) {
+      reviewId = reviewId === button.dataset.expandDecision ? null : button.dataset.expandDecision;
+      confirmingId = null;
+      feedback = null;
+      render();
+      root.querySelector(`[data-expand-decision="${CSS.escape(button.dataset.expandDecision)}"]`)?.focus({preventScroll:true});
+    }
+    else if (button.dataset.listMode) {listMode=button.dataset.listMode;reviewId=null;confirmingId=null;feedback=null;render();}
     else if (button.matches('.decision-history-project')) showProject(id);
     else if (choice) choose(id, choice);
     else if (confirmInterest) choose(confirmInterest, 'interested', button.dataset.confirmSession);
@@ -535,16 +591,7 @@ export async function mountDecisions(data) {
       void writeChoice(undo, previous?.choice || null, previous?.sessionId || null, false);
     } else if (restore) void writeChoice(restore, null, null, false);
     else if (review) showProject(review);
-    else if (button.hasAttribute('data-review-close') || deckNav) {
-      reviewId = null;
-      confirmingId = null;
-      feedback = null;
-      if (deckNav) {
-        const count = candidates.filter(candidate => !choiceFor(candidate.id)).length;
-        deckIndex = Math.max(0, Math.min(count - 1, deckIndex + (deckNav === 'next' ? 1 : -1)));
-      }
-      render();
-    }
+
   });
 
   const interactive = 'a,button,select,input,label,summary,details[open]';

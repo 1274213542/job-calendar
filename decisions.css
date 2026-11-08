@@ -214,3 +214,47 @@
 
 /* Short project context stays visible before dates and choices. */
 .decision-intro{margin:12px 0 18px;max-width:66ch;color:#46556b;font-size:14px;line-height:1.7;overflow-wrap:anywhere}
+
+/* Scan the whole list first; open one project in place. */
+.decision-list-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.decision-list-toolbar .decision-list-tabs{margin:0;gap:6px}
+.decision-list-tabs button span{margin-left:4px;font-variant-numeric:tabular-nums;font-weight:600;opacity:.75}
+.decision-sort{display:flex;align-items:center;gap:8px;color:#68778b;font-size:12px;white-space:nowrap}
+.decision-sort select{min-height:44px;max-width:100%;border:1px solid #d9e0e9;border-radius:10px;padding:8px 28px 8px 11px;background:#fff;color:#344b67;font:inherit;font-size:13px;font-weight:650;cursor:pointer}
+.decision-overview{border:1px solid #e1e7ef;border-radius:14px;overflow:hidden;background:#fff}
+.decision-list-item+.decision-list-item{border-top:1px solid #e8edf3}
+.decision-list-summary{display:grid;grid-template-columns:minmax(0,1fr) auto 18px;align-items:center;gap:16px;width:100%;min-height:82px;padding:16px 18px;border:0;background:#fff;color:#253950;font:inherit;text-align:left;cursor:pointer;touch-action:manipulation}
+.decision-list-summary:hover{background:#f7f9fc}
+.decision-list-summary:active{background:#edf2f8}
+.decision-list-summary:focus-visible{outline:3px solid #7296ca;outline-offset:-3px}
+.decision-list-name{display:grid;gap:5px;min-width:0}
+.decision-list-name strong{font-size:15px;font-weight:750;line-height:1.35;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.decision-list-name>span{font-size:12px;font-weight:450;line-height:1.45;color:#68788d;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.decision-list-meta{display:grid;justify-items:end;gap:7px;min-width:0}
+.decision-list-meta .decision-type{padding:2px 6px;font-size:10px;font-weight:700}
+.decision-list-deadline{font-size:12px;font-weight:650;line-height:1.4;color:#465e7c;font-variant-numeric:tabular-nums;white-space:nowrap}
+.decision-list-deadline.is-unknown{color:#8190a2;font-weight:450}
+.decision-list-chevron{width:18px;height:18px;fill:none;stroke:#8b9bae;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:transform .16s ease}
+.is-expanded>.decision-list-summary{background:#f5f8fc}
+.is-expanded>.decision-list-summary .decision-list-chevron{transform:rotate(90deg)}
+.decision-list-body[hidden]{display:none}
+.decision-list-body{padding:0 4px 4px;border-top:1px solid #e4eaf2}
+.decision-list-body .decision-card{border:0;border-radius:0;padding:20px 16px}
+.decision-list-body .decision-card h3{font-size:17px;line-height:1.5}
+.decision-list-body .decision-intro{font-size:13px}
+.decision-archive .decision-overview{opacity:.85}
+@media(max-width:600px){
+  .decision-list-toolbar{gap:10px;margin-bottom:2px}
+  .decision-list-toolbar .decision-list-tabs{width:100%;display:grid;grid-template-columns:1fr 1fr 1.35fr;gap:5px}
+  .decision-list-toolbar .decision-list-tabs button{padding:8px 5px;font-size:12px;white-space:nowrap}
+  .decision-sort{margin-left:auto}
+  .decision-sort select{min-height:40px}
+  .decision-list-summary{grid-template-columns:minmax(0,1fr) auto 14px;gap:10px;padding:15px 12px;min-height:82px}
+  .decision-list-name strong{font-size:14px}
+  .decision-list-name>span{font-size:11px}
+  .decision-list-deadline{font-size:11px}
+  .decision-list-chevron{width:14px;height:14px}
+  .decision-list-body{padding:0}
+  .decision-list-body .decision-card{padding:18px 12px}
+}
+@media(prefers-reduced-motion:reduce){.decision-list-chevron{transition:none}}
