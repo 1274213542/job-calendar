@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T12:44:21+09:00",
+  "updatedAt": "2026-11-08T13:05:53+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -5508,15 +5508,15 @@
       "title": "Web×观光 · 设计职种说明会",
       "category": "activity",
       "subtype": "说明会",
-      "status": "候选／计划申请",
-      "statusDetail": "未报名；官网表单第1页可直接读取，Mynavi路线需登录。余位待核。",
+      "status": "已报名／连接链接待邮件",
+      "statusDetail": "官网说明会报名表已提交并显示受理成功，参加连接链接将由公司稍后通过邮件发送。",
       "intro": "アビリブ为酒店、旅游和自治体提供网站与数字营销。本场介绍业务及Web设计师工作，面向28卒，修士1年可参加。",
       "description": "11/13 17:00–18:00线上 Teams：40分钟介绍＋20分钟问答。已核Web设计就业地点为仙台、名古屋和大阪，东京设计配属待核。",
-      "nextAction": "与已预约校内活动16:00–18:30重叠17:00–18:00；先确认是否参加，再选择官网表单或Mynavi核余位及报名内容。",
+      "nextAction": "查收公司发送的当日连接链接，11/13 17:00–18:00线上参加；会后确认实际出席再决定本选考。",
       "checkedAt": "2026-11-08",
       "attendanceMode": "online",
       "workCompatibility": "online_briefing",
-      "notes": "Mynavi截止11/11（钟点未公布）；官网表单截止11/12 23:00，两个渠道分别适用。官网公告定员80人；Mynavi列无选考、先到先得。官网表单仅读第1/3页，大学院对应选项、后两页及余位待核。公开公告未要求ES或作品集。",
+      "notes": "官网表单已显示报名受理成功，接入链接待公司邮件。原Mynavi与官网渠道的截止日期保留为历史记录；本场转为参加及剩余手续提醒。",
       "sources": [
         {
           "label": "企业刊登的当期课程与期限",
@@ -5531,7 +5531,7 @@
           "url": "https://www.ab-net.co.jp/news/85397/"
         },
         {
-          "label": "官网公开报名表（仅第1/3页已读）",
+          "label": "官网报名表（已提交并显示受理成功）",
           "url": "https://forms.office.com/r/Q074kAFkjq"
         }
       ],
@@ -5547,13 +5547,15 @@
           "type": "deadline",
           "date": "2026-11-11",
           "label": "Mynavi预约截止／钟点未公布",
-          "registrationChannelId": "mynavi"
+          "registrationChannelId": "mynavi",
+          "completed": true
         },
         {
           "type": "deadline",
           "date": "2026-11-12T23:00",
           "label": "官网表单预约截止",
-          "registrationChannelId": "official-form"
+          "registrationChannelId": "official-form",
+          "completed": true
         }
       ],
       "registrationSessions": [
@@ -5567,15 +5569,15 @@
           "deadline": "2026-11-12T23:00",
           "deadlineLabel": "官网11/12 23:00；Mynavi11/11（钟点未公布）",
           "firstComeFirstServed": true,
-          "availabilityState": "form_available",
-          "availabilityLabel": "官网表单第1页可读；Mynavi需登录，两渠道实际余位均待核",
+          "availabilityState": "registration_accepted",
+          "availabilityLabel": "本人报名已受理；连接链接待公司邮件",
           "availabilityCheckedAt": "2026-11-08T12:15:34+09:00",
           "availabilitySource": {
-            "label": "官网公开报名表（仅第1/3页已读）",
+            "label": "官网报名表提交成功页",
             "url": "https://forms.office.com/r/Q074kAFkjq"
           },
-          "bookingStage": "未预约",
-          "nextAction": "与已预约校内活动16:00–18:30重叠17:00–18:00；先确认是否参加，再选择官网表单或Mynavi核余位及报名内容。",
+          "bookingStage": "已报名／连接链接待邮件",
+          "nextAction": "查收公司发送的当日连接链接，11/13 17:00–18:00线上参加；会后确认实际出席再决定本选考。",
           "registrationChannels": [
             {
               "id": "mynavi",
@@ -5637,11 +5639,22 @@
           "firstComeFirstServedScope": "Mynavi渠道原文；官网渠道未明确",
           "attendanceMode": "online",
           "platform": "Microsoft Teams",
-          "capacity": 80
+          "capacity": 80,
+          "registrationStatus": "已受理",
+          "deadlineCompleted": true,
+          "reminderMode": "attendance_or_remaining_steps",
+          "deadlineRemindersEnabled": false,
+          "selectedRegistrationChannelId": "official-form",
+          "connectionEmailStatus": "pending",
+          "attendanceStatus": "unknown",
+          "lastStatusRecordedAt": "2026-11-08T13:05:53+09:00"
         }
       ],
       "lastPartialVerificationAt": "2026-11-08T12:15:34+09:00",
-      "lastPartialVerificationScope": "官网说明会公告与公开表单第1/3页；未重新核验个人状态或Mynavi登录后页面。"
+      "lastPartialVerificationScope": "官网说明会公告与公开表单第1/3页；未重新核验个人状态或Mynavi登录后页面。",
+      "reminderMode": "attendance_or_remaining_steps",
+      "deadlineRemindersEnabled": false,
+      "lastStatusRecordedAt": "2026-11-08T13:05:53+09:00"
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",
