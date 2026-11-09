@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T09:25:26+09:00",
+  "updatedAt": "2026-11-09T11:43:20+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -3390,58 +3390,60 @@
       "company": "Visional／ビズリーチ",
       "title": "28卒产品职公司说明会",
       "status": "已预约／确认参加",
-      "statusDetail": "11/3官方HRMOS提交完成；企业预约确认邮件及场次回执均已核验：11/11 11:00–11:45线上。",
+      "statusDetail": "公司已确认改期：11/19 15:00–15:45线上。",
       "description": "面向工程师与设计师的产品职专场，线上；2028/3前毕业、2028/4入社。",
-      "nextAction": "保留11/11 11:00–11:45线上原场；按最新明确的个人安排无时间重叠。11/10约15:00查参会链接；11/12 09:00确认听会情况后跟进本选考。",
+      "nextAction": "11/18查收参加详情，11/19 15:00进入线上说明会。",
       "sources": [
         {
           "label": "官方HRMOS活动",
           "url": "https://public.n-ats.hrmos.co/rookie/events/2316051816225210368"
         },
         {
-          "label": "11/3本人HRMOS完成页及企业预约确认邮件已核验；私人邮件、联系方式及取消链接不公开"
+          "label": "11/9公司具体场次改期确认已核验"
         }
       ],
       "milestones": [
         {
           "type": "event",
-          "date": "2026-11-11T11:00",
-          "endDate": "2026-11-11T11:45",
-          "label": "已预约：产品职公司说明会"
+          "date": "2026-11-19T15:00",
+          "endDate": "2026-11-19T15:45",
+          "label": "已预约：线上产品职公司说明会"
         }
       ],
       "category": "activity",
       "subtype": "公司设计说明会",
-      "checkedAt": "2026-11-03",
-      "notes": "只确认11/11这一场；未预约其他替代日期。参会链接由企业前一日约15:00发送。 11/3新增个人时间限制，是否能全程参加尚待本人确认；不据此自动取消或改约。 11/3官网现有线上备选为11/5 13:00–13:45、11/19 15:00–15:45、11/25 14:00–14:45。11/19可能碰JustSystems会后测试，11/25仍存在个人时间冲突。官方要求取消必须提前邮件联系；每人限一个场次。HRMOS自动回执另显示11/10 12:00取消截止，不替代公司邮件联系要求。 11/3本人明确决定保留11/11线上原场，不改约、不取消。",
+      "checkedAt": "2026-11-09",
+      "notes": "公司已完成从11/11到11/19的改期，无需另办手续；参加详情于举办前一天发送。",
       "postBriefingFollowUp": {
-        "remindAt": "2026-11-12T09:00:00+09:00",
+        "remindAt": "2026-11-20T09:00:00+09:00",
         "attendanceStatus": "unknown",
         "selectionIds": [],
         "intent": "听完后准备本选考"
       },
-      "availabilityStatus": "本人保留；与当前上课通勤时间不重叠",
-      "availabilityDecision": "keep",
+      "availabilityStatus": "11/19场已确认；参加详情待发送",
+      "availabilityDecision": "rescheduled_confirmed",
       "bookingConfirmed": true,
       "attendanceMode": "online",
       "workCompatibility": "online_briefing",
       "registrationSessions": [
         {
-          "id": "activity-visional-product-20261111::2026-11-11T11:00",
-          "eventStart": "2026-11-11T11:00",
-          "eventEnd": "2026-11-11T11:45",
+          "id": "activity-visional-product-20261111::2026-11-19T15:00",
+          "eventStart": "2026-11-19T15:00",
+          "eventEnd": "2026-11-19T15:45",
           "reservationRequired": true,
-          "registrationMethod": "待核对",
+          "registrationMethod": "已由公司完成改期",
           "opensAt": null,
           "deadline": null,
-          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "deadlineLabel": "已预约",
           "firstComeFirstServed": null,
-          "availabilityState": "unverified",
-          "availabilityLabel": "尚未核到实际余位",
-          "availabilityCheckedAt": null,
-          "availabilitySource": null,
-          "bookingStage": "已预约／以既有回执为据",
-          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+          "availabilityState": "booking_confirmed",
+          "availabilityLabel": "公司已确认本场预约",
+          "availabilityCheckedAt": "2026-11-09T11:43:20+09:00",
+          "availabilitySource": {
+            "label": "11/9公司改期确认已核验"
+          },
+          "bookingStage": "已预约／确认参加",
+          "nextAction": "11/18查收参加详情。"
         }
       ],
       "intro": "Visional运营ビズリーチ等人才服务；本场介绍面向工程师与设计师的产品职工作。"
