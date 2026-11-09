@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:48:29+09:00",
+  "updatedAt": "2026-11-09T13:14:18+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -478,28 +478,25 @@
       "company": "Suzuki",
       "title": "二轮设计实习",
       "category": "internship",
-      "subtype": "即将开放",
-      "status": "候选／计划申请",
-      "statusDetail": "尚未开放",
+      "subtype": "二轮造型／CMF／模型设计实习",
+      "status": "本轮不申请",
+      "statusDetail": "本人选择继续四轮GUI，本轮不申请二轮；此前未提交二轮申请。",
       "description": "摩托车工业设计；静冈浜松线下；报酬未公布；同四轮材料/测试；造型、CMFG、模型方向；不能与四轮兼报",
-      "nextAction": "周期短，但与作品方向相比四轮GUI更匹配。",
-      "checkedAt": "2026-10-30",
+      "nextAction": "继续准备四轮GUI申请。",
+      "checkedAt": "2026-11-09",
       "sources": [
         {
-          "label": "原始来源",
+          "label": "当期二轮实习官方要项",
           "url": "https://www.design-recruit.suzuki.co.jp/event/info/2027design-practice-motorcycle.html"
-        },
-        {
-          "label": "ReDesigner页头23:59、正文23:50",
-          "url": "https://student.redesigner.jp/recruitments/J0d890f835e0bb90173a96e392425d05a"
         }
       ],
-      "notes": "原资料：报名开始 2026-11-09 10:00；截止 2026-11-23 23:50；举办 2027-01-25–01-29；5天。官网正文截止23:50，RD页头为23:59；采用官网正文并保留差异。",
+      "notes": "本届二轮与四轮实习不能兼报；二轮没有独立GUI方向。本人11/9决定继续四轮GUI。二轮课程为2027/1/25–29浜松线下；本条保留历史，不作报名待办。",
       "milestones": [
         {
           "type": "open",
           "date": "2026-11-09T10:00",
-          "label": "报名开放"
+          "label": "正式报名开放",
+          "completed": true
         },
         {
           "type": "deadline",
@@ -2020,50 +2017,52 @@
     {
       "id": "opp-eabe457c20",
       "company": "BASE",
-      "title": "PAY ID UIUX casual面谈",
+      "title": "PAY ID UI/UX casual面谈",
       "category": "activity",
-      "subtype": "已接洽但需约场",
-      "status": "Scout已匹配",
-      "statusDetail": "11/2阿部回复可安排11月面谈，等待我方候选时间；11/3已拟回复但按本人要求未发送。",
-      "description": "商家电商工具与PAY ID购物应用；线上；无报酬；公司明确可先了解、不进入选考；需提供几个候选时间",
-      "nextAction": "审阅11/9 14–15、11/10 14–15、11/16 10–11三个备选时段与草稿后再发送；最终仅约一场。",
-      "checkedAt": "2026-11-03",
+      "subtype": "已确认线上面谈",
+      "status": "已预约／确认参加",
+      "statusDetail": "公司已确定11/26 13:00–14:00；本人11/9已回复确认。",
+      "description": "围绕PAY ID产品设计、团队工作和选考流程的线上交流，约60分钟。",
+      "nextAction": "11/26 13:00–14:00通过Google Meet参加；事前阅读公司资料并整理问题。",
+      "checkedAt": "2026-11-09",
+      "attendanceMode": "online",
+      "attendanceIntent": "attending",
       "sources": [
         {
-          "label": "11/3核对公司11/2 ReDesigner回复；私人对话与链接不公开"
-        },
-        {
-          "label": "11/3用户要求草稿先不发送；当前仅预留候选时间"
+          "label": "11/9已核公司具体场次案内及本人确认回复；原消息和入场链接仅本地保存"
         }
       ],
-      "notes": "线上、约60分钟、非选考。原10/30回复期限已过，10/31已致歉；公司11/2回复愿意重新安排。三个候选时间仅临时预留，尚未向公司提出，不代表三场面谈。",
+      "notes": "本次为选考前的信息交流。原先提供的其他候选时窗已不作为预约。",
       "milestones": [
         {
-          "type": "deadline",
-          "date": "2026-10-30T18:00",
-          "label": "原回复期限（10/31已逾期回复）",
-          "completed": true
-        },
-        {
           "type": "event",
-          "date": "2026-11-09T14:00",
-          "endDate": "2026-11-09T15:00",
-          "label": "备选临时预留／未发送，非已约"
-        },
-        {
-          "type": "event",
-          "date": "2026-11-10T14:00",
-          "endDate": "2026-11-10T15:00",
-          "label": "备选临时预留／未发送，非已约"
-        },
-        {
-          "type": "event",
-          "date": "2026-11-16T10:00",
-          "endDate": "2026-11-16T11:00",
-          "label": "备选临时预留／未发送，非已约"
+          "date": "2026-11-26T13:00",
+          "endDate": "2026-11-26T14:00",
+          "label": "Google Meet线上casual面谈"
         }
       ],
-      "intro": "BASE提供电商建站服务并运营PAY ID购物应用；本次是围绕PAY ID产品设计的轻松交流面谈。"
+      "registrationSessions": [
+        {
+          "id": "opp-eabe457c20::2026-11-26T13:00",
+          "eventStart": "2026-11-26T13:00",
+          "eventEnd": "2026-11-26T14:00",
+          "attendanceMode": "online",
+          "reservationRequired": true,
+          "registrationMethod": "ReDesigner消息往来，已完成场次确认",
+          "opensAt": null,
+          "deadline": null,
+          "firstComeFirstServed": null,
+          "availabilityState": "reservation_confirmed",
+          "availabilityLabel": "公司安排场次，本人已回复确认",
+          "availabilityCheckedAt": "2026-11-09T13:14:18+09:00",
+          "availabilitySource": {
+            "label": "11/9公司案内与本人确认回复已核"
+          },
+          "bookingStage": "已预约／确认参加",
+          "nextAction": "按11/26 13:00–14:00参加；入场链接见私人公司对话。"
+        }
+      ],
+      "intro": "BASE提供电商建站服务并运营PAY ID购物应用；本次与设计负责人和招聘负责人交流产品设计工作。"
     },
     {
       "id": "opp-0128a691cd",
@@ -5743,6 +5742,40 @@
         }
       ],
       "intro": "Lasengle的28卒设计师招聘，关注游戏UI方向，配属结合志向与适性确定。"
+    },
+    {
+      "id": "opp-1eb5743c61",
+      "company": "ほぼ日",
+      "title": "旅のなかまに｜设计职招聘实习",
+      "category": "internship",
+      "subtype": "长期实习／新卒採用直結",
+      "status": "候选／计划申请",
+      "statusDetail": "本人有意申请；官网已开放，尚未提交。",
+      "description": "Web/App UI、包装、活动视觉、空间及UX等设计工作。原则东京神田出勤，每周约3天、每天约5小时；时薪1,400日元。",
+      "nextAction": "12/7 11:00前申请；先查看实际ES和附件要求，整理材料后确认提交。",
+      "checkedAt": "2026-11-09",
+      "sources": [
+        {
+          "label": "当期官方募集要项与选考流程（11/9重读）",
+          "url": "https://www.1101.com/intern/tabinonakama_2026/index.html"
+        }
+      ],
+      "notes": "实施流程列2027年2月初–3月，募集要项另写1–3月，具体日程待核。原则在东京神田办公室/工作室，部分工作可远程。实习期间他社就業限制是否涵盖现有兼职待核。面试候选为12/17–19、1/8–9，可能调整，形式未公布。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-05T11:00",
+          "label": "正式开始受理",
+          "completed": true
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-07T11:00",
+          "label": "申请截止（募集要项与流程一致）"
+        }
+      ],
+      "attendanceMode": "onsite",
+      "intro": "ほぼ日从事内容、文具与生活产品业务；本项目通过约两个月实习参与实际工作，并衔接新卒选考。"
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",
@@ -5836,6 +5869,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-09T09:25:26+09:00",
-  "lastPartialVerificationScope": "11/9核实QUICK UI/UX及Lasengle28卒本选候选，补FSE预约窗口和ENSAPIA作品集反馈材料。"
+  "lastPartialVerificationAt": "2026-11-09T13:14:18+09:00",
+  "lastPartialVerificationScope": "BASE具体场次确认、ほぼ日恢复意向、Suzuki二轮本轮不申请；其他项目未重核。"
 }
