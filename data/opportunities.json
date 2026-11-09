@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T16:01:02+09:00",
+  "updatedAt": "2026-11-09T09:25:26+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -1469,16 +1469,16 @@
       "subtype": "讲座说明会与作品集反馈",
       "status": "候选／计划申请",
       "statusDetail": "新轮次；旧草稿不等于此场已申请",
-      "description": "UIUX与图形设计；线上；需摄像头/麦克风；未公布费用；28卒以后；PDF≤30MB，超容量可文件链接，Web作品集不可；参加有选考；每人约20分钟整体构成咨询",
-      "nextAction": "Mercari Camp入选则冲突；11/20实习也已有反馈价值。",
-      "checkedAt": "2026-10-30",
+      "description": "12/9 16:00–18:00线上作品集反馈与公司介绍，面向28卒以后学生。需开摄像头、开麦对话，每人约20分钟。提交作品集PDF（30MB以内；超容量可用文件下载链接，Web作品集不可），参加需经过筛选。",
+      "nextAction": "先准备作品集PDF和想咨询的问题，11/25 23:59前通过官方HERP入口申请。Mercari Camp若同时入选，再决定取舍。",
+      "checkedAt": "2026-11-09",
       "sources": [
         {
           "label": "原始来源",
           "url": "https://herp.careers/v1/ensapia/UlafHfCtigwR"
         }
       ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-11-25 23:59；举办 2026-12-09 16:00–18:00。",
+      "notes": "已开放，具体开放日期未公布；11/25 23:59截止，12/9 16:00–18:00举办。当前未提交这一轮；结果待选拔。11/20已确认的实习也含作品集反馈，可结合反馈需要选择。",
       "milestones": [
         {
           "type": "deadline",
@@ -1497,21 +1497,22 @@
           "id": "opp-a1702d3007::2026-12-09T16:00",
           "eventStart": "2026-12-09T16:00",
           "eventEnd": "2026-12-09T18:00",
-          "reservationRequired": null,
-          "registrationMethod": "待核对",
+          "reservationRequired": true,
+          "registrationMethod": "官方HERP入口提交作品集并申请，经过参加选拔",
           "opensAt": null,
           "deadline": "2026-11-25T23:59",
-          "deadlineLabel": "报名截止",
+          "deadlineLabel": "作品集反馈会申请截止",
           "firstComeFirstServed": null,
           "availabilityState": "unverified",
           "availabilityLabel": "尚未核到实际余位",
           "availabilityCheckedAt": null,
           "availabilitySource": null,
           "bookingStage": "候选／计划申请",
-          "nextAction": "Mercari Camp入选则冲突；11/20实习也已有反馈价值。"
+          "nextAction": "准备作品集PDF及咨询问题；本人确认后申请，等待参加选拔结果。"
         }
       ],
-      "intro": "ENSAPIA从事数字社交、虚拟形象与游戏相关业务；本活动提供UI/UX及平面作品集反馈。"
+      "intro": "ENSAPIA从事数字社交、虚拟形象与游戏相关业务；本活动提供UI/UX及平面作品集反馈。",
+      "attendanceMode": "online"
     },
     {
       "id": "opp-cbc5bd2b6e",
@@ -3696,15 +3697,15 @@
       "status": "候选／计划申请",
       "statusDetail": "11/3补漏核实当前募集；未申请、未预约。",
       "description": "2028年4月可入社；明确招平面、Web设计师及插画师。需先参加该公司指定说明会并完成出席登记，再决定是否进入选考。",
-      "nextAction": "先听11/10联合专场了解公司；如想申请，再选12/16或12/17独立说明会。不能假定联合专场能替代指定前置说明会。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "先听11/10联合专场了解公司；正式本选前参加12/16或12/17指定说明会并登记出席，再决定是否投递。",
+      "checkedAt": "2026-11-09",
       "sources": [
         {
           "label": "10/26公司官方28卒本选考公告",
           "url": "https://www.freestyle-entertainment.co.jp/blog/recruit2027_pre-3/"
         }
       ],
-      "notes": "最终1day／2days属于选考环节，不能记作独立公开短期实习。过去夏季落选者可申请，本选考只可参加一次；后续正式提交截止未公布。",
+      "notes": "夏季早期选考／工作坊落选者可参加本次本选考；本选考仅可参加一次。最终1day／2days实习属于选考环节。正式材料、课题及最终投递截止尚待公司后续案内。",
       "milestones": [],
       "intro": "フリースタイルエンターテイメント 的新卒设计招聘，可关注平面与Web方向，先通过公司说明会了解工作。"
     },
@@ -3717,15 +3718,15 @@
       "status": "候选／计划申请",
       "statusDetail": "11/3补漏核实当前募集；未申请、未预约。",
       "description": "Zoom线上，包含设计岗位介绍与选考流程；12/16 18:00–20:00或12/17 10:00–12:00。可只听说明会，本选考前必须参加并登记出席。",
-      "nextAction": "两场为候选选项；选一场后再预约。各场预约截止为当天09:00。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "在官网MyPage选一场预约：12/16 18:00–20:00，或12/17 10:00–12:00。各场当天09:00截止。",
+      "checkedAt": "2026-11-09",
       "sources": [
         {
           "label": "公司官方说明会与报名公告",
           "url": "https://www.freestyle-entertainment.co.jp/blog/recruit2027_pre-3/"
         }
       ],
-      "notes": "未预约任何场次。将来若只预约一场须拆分确认，不能将两场一并标为已确认。",
+      "notes": "可先参加说明会，再决定是否进入本选考。当前未预约；MyPage实际受理状态与余位尚未核实。",
       "milestones": [
         {
           "type": "deadline",
@@ -3755,38 +3756,39 @@
           "id": "briefing-freestyle-design-2028-dec::2026-12-16T18:00",
           "eventStart": "2026-12-16T18:00",
           "eventEnd": "2026-12-16T20:00",
-          "reservationRequired": null,
-          "registrationMethod": "待核对",
+          "reservationRequired": true,
+          "registrationMethod": "官网MyPage选择场次预约",
           "opensAt": null,
-          "deadline": null,
-          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "deadline": "2026-12-16T09:00",
+          "deadlineLabel": "该场预约截止（当天09:00）",
           "firstComeFirstServed": null,
           "availabilityState": "unverified",
           "availabilityLabel": "尚未核到实际余位",
           "availabilityCheckedAt": null,
           "availabilitySource": null,
           "bookingStage": "候选／计划申请",
-          "nextAction": "两场为候选选项；选一场后再预约。各场预约截止为当天09:00。"
+          "nextAction": "选择场次后在官网MyPage预约；实际受理状态与余位待核。"
         },
         {
           "id": "briefing-freestyle-design-2028-dec::2026-12-17T10:00",
           "eventStart": "2026-12-17T10:00",
           "eventEnd": "2026-12-17T12:00",
-          "reservationRequired": null,
-          "registrationMethod": "待核对",
+          "reservationRequired": true,
+          "registrationMethod": "官网MyPage选择场次预约",
           "opensAt": null,
-          "deadline": null,
-          "deadlineLabel": "未公布／未核实，不以举办日代替",
+          "deadline": "2026-12-17T09:00",
+          "deadlineLabel": "该场预约截止（当天09:00）",
           "firstComeFirstServed": null,
           "availabilityState": "unverified",
           "availabilityLabel": "尚未核到实际余位",
           "availabilityCheckedAt": null,
           "availabilitySource": null,
           "bookingStage": "候选／计划申请",
-          "nextAction": "两场为候选选项；选一场后再预约。各场预约截止为当天09:00。"
+          "nextAction": "选择场次后在官网MyPage预约；实际受理状态与余位待核。"
         }
       ],
-      "intro": "フリースタイルエンターテイメント 的公司说明会，介绍平面、Web等设计岗位和选考流程。"
+      "intro": "フリースタイルエンターテイメント 的公司说明会，介绍平面、Web等设计岗位和选考流程。",
+      "attendanceMode": "online"
     },
     {
       "id": "activity-dentsudigital-expo-20261111",
@@ -5672,6 +5674,71 @@
       "reminderMode": "attendance_or_remaining_steps",
       "deadlineRemindersEnabled": false,
       "lastStatusRecordedAt": "2026-11-08T13:05:53+09:00"
+    },
+    {
+      "id": "selection-quick-uiux-2028",
+      "company": "クイック／株式会社クイック",
+      "title": "28卒 UI/UX设计师早期选考",
+      "category": "selection",
+      "subtype": "UI/UX设计师早期选考",
+      "status": "候选／计划申请",
+      "statusDetail": "11/9核实28卒岗位；尚未申请该岗位。",
+      "description": "Web事业企划开发本部，东京。参与自有Web与App的用户研究、体验与界面设计。要求Figma等设计工具经验及UI/UX服务设计经验；正式选考需作品集、适性测试及2–3次面试。",
+      "nextAction": "先听11/10已约联合专场。有意向后可通过Wantedly申请获取点播说明会，或申请选考前面谈，再决定投递时间。",
+      "checkedAt": "2026-11-09",
+      "sources": [
+        {
+          "label": "企业发布的28卒UI/UX设计师岗位",
+          "url": "https://www.wantedly.com/projects/2613984"
+        },
+        {
+          "label": "官网Web专业职新卒入口",
+          "url": "https://919.jp/recruit/new-market/"
+        },
+        {
+          "label": "官网专业职岗位与募集要项",
+          "url": "https://919.jp/recruit/new-market/requirements/"
+        }
+      ],
+      "notes": "截止日期、同届重投及UI/UX与平面岗位并投规则未公布。Wantedly申请后，公司预计3个工作日内发送点播视频入口。该岗位与已有平面／服务设计岗位分开；Wantedly 2589224与2613984作为同岗发布去重。",
+      "milestones": [],
+      "intro": "クイック自有招聘服务的UI/UX设计岗位，涉及用户研究、Web与App体验及界面设计。"
+    },
+    {
+      "id": "selection-lasengle-designer-ui-2028-round2",
+      "company": "ラセングル／Lasengle",
+      "title": "28卒设计师本选考・第二次募集（含UI方向）",
+      "category": "selection",
+      "subtype": "游戏UI设计・本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "11/9核到28卒第二次募集；尚未Entry或提交材料。",
+      "description": "东京的游戏设计师综合招聘，配属例包括UI等方向，入社后结合本人志向与适性确定。首轮需要含照片的履历PDF和作品集；作品集PDF合计小于100MB，也可提交视频。当前材料清单未列必交素描。",
+      "nextAction": "先确认UI岗位路线与作品集要求，再决定本批投递时间。先在HRMOS做基本Entry，收到邮件后通过专用Google Forms交材料。",
+      "checkedAt": "2026-11-09",
+      "sources": [
+        {
+          "label": "官方28卒设计师第二次募集与材料",
+          "url": "https://public.n-ats.hrmos.co/lasengle/jobs/2284277603245416448"
+        },
+        {
+          "label": "官方fresh2028待遇与新卒採用FAQ",
+          "url": "https://recruit.lasengle.co.jp/fresh2028/"
+        }
+      ],
+      "notes": "第二次募集10/5–11/30，未公布截止钟点；12月以后另有募集。同年度同一职种原则上不能再次応募，其他职种可以；不能并投职种。仅收录UI方向供考虑；材料上传前确认岗位路线。11/14说明会预约已于10/28截止。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-05",
+          "label": "第二次募集开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-30",
+          "label": "第二次募集截止（钟点未公布）"
+        }
+      ],
+      "intro": "Lasengle的28卒设计师招聘，关注游戏UI方向，配属结合志向与适性确定。"
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",
@@ -5765,6 +5832,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-08T16:01:02+09:00",
-  "lastPartialVerificationScope": "仅FUJIFILM BI设计研究会2027参加希望登记状态及ES要求更新；材料申请与录取未完成。"
+  "lastPartialVerificationAt": "2026-11-09T09:25:26+09:00",
+  "lastPartialVerificationScope": "11/9核实QUICK UI/UX及Lasengle28卒本选候选，补FSE预约窗口和ENSAPIA作品集反馈材料。"
 }

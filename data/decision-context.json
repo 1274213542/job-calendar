@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-09",
   "note": "项目报酬、选考流程与公司入职待遇分开。倍率仅采用相同届别、岗位、批次的可靠统计；计划名额不是实际录取人数。",
   "projects": [
     {
@@ -292,6 +292,46 @@
       "internPayScope": "对应本期实习公开要项",
       "selectionRate": null,
       "selectionRateNote": "未公布本届本岗位的有效申请数与实际录取数，倍率未知。"
+    },
+    {
+      "id": "selection-quick-uiux-2028",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "申请获取点播说明会 → 正式书类（作品集）→ 适性检查 → 面试2–3次；可在正式选考前申请面谈",
+      "selectionRate": null,
+      "selectionRateNote": "未公布同届同岗位有效申请数及录取数。",
+      "requirementsNote": "UI/UX设计经历及Figma等工具经验；正式作品集要求依公司案内。",
+      "fitNote": "自有Web与App服务的UI/UX设计；与现有平面岗位分别比较。",
+      "reapplicationNote": "同届同岗重投及平面/UIUX并投规则未核实。",
+      "checkedAt": "2026-11-09",
+      "sources": [
+        {
+          "label": "企业发布28UIUX岗位",
+          "url": "https://www.wantedly.com/projects/2613984"
+        }
+      ]
+    },
+    {
+      "id": "selection-lasengle-designer-ui-2028-round2",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "HRMOS基本Entry → 邮件中的专用Google Forms提交履历和作品集 → 书类与适性检查 → 三轮面试",
+      "selectionRate": null,
+      "selectionRateNote": "未公布同届设计师有效申请数及录取数。",
+      "requirementsNote": "含照片履历PDF；作品集PDF合计<100MB或视频。首面线上，二面及终面原则到场。",
+      "fitNote": "配属例含游戏UI；设计综合募集，入社后按志向与适性确定配属。",
+      "reapplicationNote": "同年度同职种原则不可重投；12月以后另有募集，适合尚未申请者安排准备时间。",
+      "checkedAt": "2026-11-09",
+      "sources": [
+        {
+          "label": "官方28设计师岗位",
+          "url": "https://public.n-ats.hrmos.co/lasengle/jobs/2284277603245416448"
+        },
+        {
+          "label": "官方28新卒FAQ",
+          "url": "https://recruit.lasengle.co.jp/fresh2028/"
+        }
+      ]
     }
   ]
 }

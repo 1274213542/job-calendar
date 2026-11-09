@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-09",
   "companies": [
     {
       "name": "Goodpatch",
@@ -4627,6 +4627,55 @@
         "checkedAt": "2026-11-08",
         "status": "not_checked",
         "summary": "员工评价及实际加班尚未核实。",
+        "positives": [],
+        "concerns": [],
+        "overtime": null,
+        "rating": null,
+        "sources": []
+      }
+    },
+    {
+      "name": "ラセングル",
+      "aliases": [
+        "Lasengle",
+        "ラセングル／Lasengle",
+        "株式会社ラセングル"
+      ],
+      "roles": [
+        {
+          "role": "28卒デザイナー（大学院卒・含UI方向）",
+          "scope": "官方fresh2028设计师整体待遇；UI为配属方向之一，配属按志向与适性确定。",
+          "monthly": "大学院卒月薪301,000日元。",
+          "annual": "官方年收4,299,000日元。",
+          "bonus": "奖金每年2次；首年具体支给条件未公布。",
+          "overtime": "月薪含40小时固定加班费；这是薪资计入范围，实际平均加班时长未核。",
+          "benefits": "东京目黑；弹性制核心11–15点，标准10–19点。交通费每月上限5万日元，条件性住房津贴，2026年度年休125天，游戏购入和英语考试支持。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "官方fresh2028募集要项・大学院卒待遇",
+              "url": "https://recruit.lasengle.co.jp/fresh2028/"
+            },
+            {
+              "label": "官方28卒设计师具体岗位",
+              "url": "https://public.n-ats.hrmos.co/lasengle/jobs/2284277603245416448"
+            }
+          ],
+          "availabilityLabel": "28卒官方大学院卒待遇",
+          "evidenceNote": "11/9由主控读取fresh2028当届页核实；不是fresh2027旧届金额。岗位综合募集，不能保证入社后一定配属UI。",
+          "sortValues": {
+            "monthlyJPY": 301000,
+            "annualJPY": 4299000,
+            "monthlyLabel": "大学院卒月薪",
+            "annualLabel": "官方大学院卒年收",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": null,
+        "status": "not_checked",
+        "summary": "员工评价与实际加班时长尚未核实。",
         "positives": [],
         "concerns": [],
         "overtime": null,
