@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:43:20+09:00",
+  "updatedAt": "2026-11-09T11:48:29+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -434,33 +434,34 @@
       "company": "Suzuki",
       "title": "四轮设计实习（含GUI）",
       "category": "internship",
-      "subtype": "即将开放",
+      "subtype": "四轮GUI设计实习",
       "status": "候选／计划申请",
-      "statusDetail": "尚未开放",
-      "description": "汽车、车载HMI与工业设计；静冈浜松线下；报酬未公布；ES＋Web测试＋PF<10MB（建议<20页）＋成绩单；外籍JLPT N3或JPT430；四轮二轮不能兼报",
-      "nextAction": "车载UI方向高匹配；比一周长；与Panasonic UIUX重叠。RD页头23:59应以正文/官网23:50为准。",
-      "checkedAt": "2026-10-30",
+      "statusDetail": "正式申请已开放；MyPage已登记，ES、附件和Web测试均未提交。",
+      "description": "四轮GUI与车载界面设计；2027/1/28–2/5静冈浜松线下。申请需ES、近3个月顔写真、作品集PDF＜10MB（建议＜20页）、成绩证明＜10MB及Web测试。",
+      "nextAction": "11/23 23:50前完成ES、照片、作品集、成绩证明及约1小时Web测试；先核材料并确认后提交。",
+      "checkedAt": "2026-11-09",
       "sources": [
         {
-          "label": "原始来源",
+          "label": "四轮设计实习当期要项",
           "url": "https://www.design-recruit.suzuki.co.jp/event/info/2027design-practice-car.html"
         },
         {
-          "label": "ReDesigner页头23:59、正文23:50",
-          "url": "https://student.redesigner.jp/recruitments/J19ce206e70192a2e6bdbacefaf4ac09e"
+          "label": "11/9已登录MyPage设计申请、材料与测试入口核验",
+          "url": "https://mypage.3070.i-webs.jp/suzuki2028/"
         }
       ],
-      "notes": "原资料：报名开始 2026-11-09 10:00；截止 2026-11-23 23:50；举办 2027-01-28–02-05；通过实习审查者另2/18或19。官网正文截止23:50，RD页头为23:59；采用官网正文并保留差异。",
+      "notes": "MyPage设计申请入口已开放。ES、材料与Web测试同为11/23 23:50截止；测试含計数・言語・英語・パーソナリティ，约1小时。四轮与二轮不能兼报。通过实习审查者另安排2027/2/18或19面试。",
       "milestones": [
         {
           "type": "open",
           "date": "2026-11-09T10:00",
-          "label": "报名开放"
+          "label": "报名已开放",
+          "completed": true
         },
         {
           "type": "deadline",
           "date": "2026-11-23T23:50",
-          "label": "报名截止"
+          "label": "ES、照片、作品集、成绩证明及Web测试截止"
         },
         {
           "type": "event",
@@ -469,7 +470,8 @@
           "endDate": "2027-02-05"
         }
       ],
-      "intro": "Suzuki从事汽车与移动产品业务；本项目涵盖四轮产品设计及车载GUI。"
+      "intro": "Suzuki从事汽车与移动产品业务；本项目涵盖四轮产品设计及车载GUI。",
+      "attendanceMode": "onsite"
     },
     {
       "id": "opp-dc8aff302e",
