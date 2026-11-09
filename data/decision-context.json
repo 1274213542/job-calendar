@@ -340,13 +340,17 @@
       "selectionProcess": "书类审查 → 约2次面试 → 1月中旬确定实习参加者 → 2月初至3月实习（要项另列1–3月）→ 4月通知採用合否",
       "selectionRate": null,
       "selectionRateNote": "约5名为四类岗位合计；设计职名额与有效申请人数未公布，不能计算设计职倍率。",
-      "requirementsNote": "首轮ES原题、字数及作品集规格在申请条款后，正在查看。大学/大学院等在学生可申请；实习期间他社就業限制待核具体适用。",
+      "requirementsNote": "两道必填ES：申请动机、当前最投入和喜欢的事，各1000字以内；另需填写可出勤安排。设计岗至少1份作品集；格式、体积及页数未明示。截止12/7 11:00。实习期间他社就業限制的适用范围待核。",
       "fitNote": "设计范围包括Web/App UI、包装、活动视觉、空间及UX；原则东京神田线下，每周约15小时，部分工作可远程。",
       "checkedAt": "2026-11-09",
       "sources": [
         {
           "label": "当期官方募集要项",
           "url": "https://www.1101.com/intern/tabinonakama_2026/index.html"
+        },
+        {
+          "label": "官网链接的实际申请表（11/9已读题目）",
+          "url": "https://hobonichi.snar.jp/entry.aspx?entryid=746f0812-cc8f-475a-b5e6-5a21b82079eb"
         }
       ]
     }
