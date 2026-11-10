@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T13:23:52+09:00",
+  "updatedAt": "2026-11-10T09:16:01+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -333,24 +333,18 @@
       "title": "UI/UX Designer Internship",
       "category": "internship",
       "subtype": "超过一周及长期实习",
-      "status": "正式已提交待结果",
-      "statusDetail": "2026-11-02本人明确确认已正式提交；按本人确认记录，企业回执尚未单独复核。",
+      "status": "候选／计划申请",
+      "statusDetail": "ReDesigner预报名；Workable正式申请未提交。",
       "description": "二手交易及相关金融／电商服务；日本境内远程／六本木；职位报酬依条件；本次不引用其他Camp报酬；官方Workable完整申请表仍开放；作品集等按表单；与Camp分开",
-      "nextAction": "等待企业选考结果或后续指引；已正式提交，不再提示重复报名。",
-      "checkedAt": "2026-11-02",
+      "nextAction": "在12/31 23:59 JST前准备履历、日语作品集、500字以内的志望理由、起止日期和每周可出勤时间。",
+      "checkedAt": "2026-11-09",
       "sources": [
         {
-          "label": "原始来源",
-          "url": "https://apply.workable.com/mercari/j/DBA3561ADB/"
-        },
-        {
-          "label": "11/2核对ReDesigner本人对话：企业10/26说明（私人正文与对话链接不公开）"
-        },
-        {
-          "label": "2026-11-02本人确认：已正式提交（未另行核验企业回执）"
+          "label": "官方正式申请表",
+          "url": "https://apply.workable.com/mercari/j/DBA3561ADB/apply/"
         }
       ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 2026-12-31 23:59 JST；举办 约2–3个月；每周≥20小时；申请距入职至少2个月，入职每月1或16日。 10/26 RD仮応募为历史状态；11/2本人确认已正式提交，实际提交日期未说明。",
+      "notes": "预报名与正式提交分开；与Product Camp为不同项目。实习约2–3个月、每周20小时以上。",
       "milestones": [
         {
           "type": "deadline",
@@ -5780,6 +5774,68 @@
       ],
       "attendanceMode": "onsite",
       "intro": "ほぼ日从事内容、文具与生活产品业务；本项目通过约两个月实习参与实际工作，并衔接新卒选考。"
+    },
+    {
+      "id": "briefing-goodpatch-service-design-20261112",
+      "company": "Goodpatch",
+      "title": "28卒服务设计师线上说明会",
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "status": "候选／未申请",
+      "statusDetail": "官方HRMOS已读到11/12服务设计师场的申请表；本人未申请，席位未确认。",
+      "intro": "Goodpatch 介绍服务设计师如何做用户研究、梳理需求和设计服务。",
+      "description": "11/12 18:00–19:00，日本时间，Google Meet。面向28卒，含公司、业务、服务设计工作和问答。与11/19 UI/UX专场分开。",
+      "nextAction": "可通过官方HRMOS场次表直接申请，参加链接通常前一天发给申请者；另有Wantedly意向登记，11/10 23:59截止，之后由企业告知预约方法。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "label": "官方场次申请表",
+          "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/events/2301591493399715840/schedules/2314371711515496448/apply"
+        },
+        {
+          "label": "Wantedly渠道的登记截止",
+          "url": "https://www.wantedly.com/projects/2569543"
+        }
+      ],
+      "notes": "Wantedly截止只适用于该渠道。HRMOS截止和余位未公布；材料未列需作品集。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-10T23:59",
+          "label": "Wantedly意向登记截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-12T18:00",
+          "endDate": "2026-11-12T19:00",
+          "label": "服务设计线上说明会"
+        }
+      ]
+    },
+    {
+      "id": "selection-adglobe-tokyo-game-uiux-2028",
+      "company": "Adglobe／株式会社アドグローブ",
+      "title": "28卒 游戏 UI/UX 设计师（东京）",
+      "category": "selection",
+      "subtype": "正式选考",
+      "status": "候选／未申请",
+      "statusDetail": "28卒东京设计招聘明确列UI/UX分支，大学院及留学生可。报名截止未公布。",
+      "intro": "东京游戏业务本部，面向主机与手游，UI/UX与其他美术方向分别列出。",
+      "description": "正式选考需带照片的履历PDF和作品集，书类与一次面试后有3–5日线上实习选考。实习选考课题未公开。",
+      "nextAction": "如有兴趣可先通过官网链接的游戏业务说明会表单了解，具体场次待核。正式投递前核UI/UX实习选考题型及同届复投规则。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "label": "官方28卒东京设计岗位",
+          "url": "https://hrmos.co/pages/adglobe/jobs/2800700"
+        },
+        {
+          "label": "官方线上说明会表单",
+          "url": "https://forms.gle/p4sVegsQfbeP19PAA"
+        }
+      ],
+      "notes": "最终面试原则线下。正式岗位未承诺博物馆项目或固定作品类别。",
+      "milestones": []
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",

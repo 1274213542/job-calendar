@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-10",
   "companies": [
     {
       "name": "Goodpatch",
@@ -4682,6 +4682,39 @@
         "rating": null,
         "sources": []
       }
+    },
+    {
+      "name": "Adglobe／株式会社アドグローブ",
+      "aliases": [
+        "Adglobe",
+        "株式会社アドグローブ",
+        "アドグローブ"
+      ],
+      "roles": [
+        {
+          "role": "28卒东京设计师（含游戏UI/UX）",
+          "scope": "官方当届东京设计招聘统一待遇。",
+          "monthly": "大学院卒月薪253,500日元。",
+          "annual": "按月薪×12折算为3,042,000日元，奖金另计。",
+          "bonus": "每年2次，7月及12月，金额未公布。",
+          "overtime": "加班费全额另付，实际平均加班时长未核。",
+          "benefits": "标准10:00–19:00，实际8小时。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "官方当届待遇",
+              "url": "https://hrmos.co/pages/adglobe/jobs/2800700"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 253500,
+            "annualJPY": 3042000,
+            "monthlyLabel": "大学院卒月薪",
+            "annualLabel": "月薪折算，奖金另计",
+            "reference": true
+          }
+        }
+      ]
     }
   ]
 }
