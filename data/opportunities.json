@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T09:16:01+09:00",
+  "updatedAt": "2026-11-10T09:47:25+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -5781,11 +5781,11 @@
       "title": "28卒服务设计师线上说明会",
       "category": "activity",
       "subtype": "公司设计说明会",
-      "status": "候选／未申请",
-      "statusDetail": "官方HRMOS已读到11/12服务设计师场的申请表；本人未申请，席位未确认。",
+      "status": "已预约／确认参加",
+      "statusDetail": "已预约 11 月 12 日 Goodpatch 服务设计师线上说明会。",
       "intro": "Goodpatch 介绍服务设计师如何做用户研究、梳理需求和设计服务。",
       "description": "11/12 18:00–19:00，日本时间，Google Meet。面向28卒，含公司、业务、服务设计工作和问答。与11/19 UI/UX专场分开。",
-      "nextAction": "可通过官方HRMOS场次表直接申请，参加链接通常前一天发给申请者；另有Wantedly意向登记，11/10 23:59截止，之后由企业告知预约方法。",
+      "nextAction": "11/11查看参加链接；11/12 18:00–19:00（日本时间）参加。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -5797,18 +5797,13 @@
           "url": "https://www.wantedly.com/projects/2569543"
         }
       ],
-      "notes": "Wantedly截止只适用于该渠道。HRMOS截止和余位未公布；材料未列需作品集。",
+      "notes": "与11/19 UI/UX说明会为不同场次。",
       "milestones": [
-        {
-          "type": "deadline",
-          "date": "2026-11-10T23:59",
-          "label": "Wantedly意向登记截止"
-        },
         {
           "type": "event",
           "date": "2026-11-12T18:00",
           "endDate": "2026-11-12T19:00",
-          "label": "服务设计线上说明会"
+          "label": "已预约：服务设计师线上说明会"
         }
       ]
     },
