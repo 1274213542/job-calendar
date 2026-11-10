@@ -1193,11 +1193,11 @@
       "title": "设计公司工作研究",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "报名已提交待指引",
-      "statusDetail": "11/7重读公司11/2 ReDesigner回信：已受理11/11 18:30–19:30线上活动申请，说明举办前一天发送Zoom网址；目前等待11/10指引。",
+      "status": "已预约／确认参加",
+      "statusDetail": "11/10 已核对公司发送的 11/11 18:30–19:30 线上参会指引，具体场次已确认。",
       "description": "服务设计、编辑与品牌、数字产品；Zoom／东京现场；未公布费用；公司、两位员工案例与答疑；线下有额外座谈20名",
-      "nextAction": "11/10查看公司发送的参加链接；无需重复申请；11/12 09:00提醒确认是否听完，再整理本选考要求与材料。",
-      "checkedAt": "2026-11-07",
+      "nextAction": "11/11 18:25 起可通过 ReDesigner 公司消息进入 Zoom，活动 18:30 开始。11/12 09:00 跟进听会情况。",
+      "checkedAt": "2026-11-10",
       "sources": [
         {
           "label": "原始来源",
@@ -1240,17 +1240,17 @@
           "deadline": "2026-11-11T15:00",
           "deadlineLabel": "报名截止",
           "firstComeFirstServed": null,
-          "availabilityState": "accepted_awaiting_join_link",
-          "availabilityLabel": "公司已受理；11/10发送Zoom入场网址",
-          "availabilityCheckedAt": "2026-11-07T10:57:39+09:00",
+          "availabilityState": "confirmed",
+          "availabilityLabel": "已收到 Zoom 参加指引",
+          "availabilityCheckedAt": "2026-11-10T11:16:50+09:00",
           "availabilitySource": {
-            "label": "11/7重读公司11/2回信；私人对话不公开"
+            "label": "11/10 公司参会指引已核对"
           },
-          "bookingStage": "公司已受理／待入场指引",
-          "nextAction": "11/10查看公司发送的Zoom链接；无需重复报名。"
+          "bookingStage": "已预约／确认参加",
+          "nextAction": "11/11 18:25 起从 ReDesigner 公司消息进入 Zoom。"
         }
       ],
-      "decisionContext": "公司已受理，不需重复报名；11/10等待并核对入场链接。公开日历不放私人Zoom地址。",
+      "decisionContext": "11/10 已核对公司发送的 11/11 18:30–19:30 线上参会指引，具体场次已确认。 11/11 18:25 起可通过 ReDesigner 公司消息进入 Zoom，活动 18:30 开始。11/12 09:00 跟进听会情况。",
       "intro": "CONCENT从事服务、品牌、编辑与数字产品设计；本场介绍公司工作和员工项目案例。"
     },
     {
@@ -4673,26 +4673,21 @@
       "title": "适应性测试",
       "category": "selection",
       "subtype": "适性测试",
-      "status": "已预约／确认参加",
-      "statusDetail": "本人确认已预约11月12日09:30–13:00的适应性测试。",
-      "description": "WDB选考测试，按已预约时段参加。",
-      "nextAction": "按预约指引参加，提前准备所需设备或材料。",
-      "checkedAt": "2026-11-04",
+      "status": "已取消",
+      "statusDetail": "本人确认已取消 11/12 09:30–13:00 的 WDB 线上适应性测试预约。",
+      "description": "WDB选考测试；11/12场次已取消。",
+      "nextAction": "该场已取消，时段释放。",
+      "checkedAt": "2026-11-10",
       "sources": [
         {
-          "label": "本人确认已预约（2026-11-04）"
+          "label": "11/10 本人确认已取消该场预约"
         }
       ],
-      "notes": "测试形式、地点与详细参加要求以预约指引为准。",
-      "milestones": [
-        {
-          "type": "event",
-          "date": "2026-11-12T09:30",
-          "endDate": "2026-11-12T13:00",
-          "label": "已预约／适应性测试"
-        }
-      ],
-      "workCompatibility": "requires_confirmation"
+      "notes": "该场已取消，时段释放。",
+      "milestones": [],
+      "workCompatibility": "requires_confirmation",
+      "bookingConfirmed": false,
+      "attendanceIntent": "cancelled"
     },
     {
       "id": "interview-goodpatch-ux1day-20261110",
