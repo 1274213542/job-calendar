@@ -758,152 +758,45 @@
       "title": "作品集咨询会",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "预Entry",
-      "statusDetail": "MyPage正式咨询表仍为空白、未提交；预Entry不等于咨询会申请或预约。参加者须经筛选，最终只分配一场约25分钟。",
-      "description": "数字广告与交互体验；现场／Web择场；未公布费用；MyPage申请；参加者有选考；需准备PF",
-      "nextAction": "11/16 12:00前提交独立咨询表：参加理由300字、学习与制作经历300字、事先分享作品集（URL或邮件）及可参加时段。先确认学校／兼职和线上私密环境，再选场；本轮未填报。",
-      "checkedAt": "2026-11-07",
+      "status": "已预约／确认参加",
+      "statusDetail": "11/10 已核验公司确认，预约 11/25 11:30 的线上作品集咨询，约25分钟。",
+      "description": "由设计师进行作品集咨询，线上约25分钟。",
+      "nextAction": "11/25 11:25 入场，11:30 开始。准备可共享屏幕的作品集和耳机。参加入口待公司另行通知。",
+      "checkedAt": "2026-11-10",
       "sources": [
         {
-          "label": "原始来源",
+          "label": "官方招聘 MyPage",
           "url": "https://i-studio-career.snar.jp/login.aspx"
         },
         {
-          "label": "11/3读取本人ReDesigner对话；私人正文及对话链接不公开"
-        },
-        {
-          "label": "11/4 复核企业作品集咨询通知及独立申请流程"
+          "label": "11/10 已核验公司具体场次确认"
         }
       ],
-      "notes": "11/7实际读取官方未提交表单：两段各最多300字；作品集URL或邮件；PDF栏原文写100MG未满，大小单位表述待确认；不接受文件临时传送服务。5个候选时间段中筛选分配约25分钟，提前5分钟入室。线上原则在家，其他地点须独立房间且第三人听不到，使用耳机。11/25与周三学校及通勤冲突，不能默认在学校可参加。 11/7再次读取MyPage正式通知：线上参加须准备可屏幕共享的作品集数据，使用耳机，原则在家或第三人听不到的独立房间；约25分钟，需按互动咨询准备。通知未写固定作品介绍分钟数或明确摄像头要求，不能自行补充。",
+      "notes": "该场公司已确认，无需另提交该咨询会的 MyPage 表单。线上原则在家，或在第三人听不到的独立房间参加。",
       "milestones": [
         {
-          "type": "deadline",
-          "date": "2026-11-16T12:00",
-          "label": "报名截止"
-        },
-        {
           "type": "event",
-          "date": "2026-11-24T14:30",
-          "label": "现场分场范围，约25分钟／人",
-          "endDate": "2026-11-24T18:30"
-        },
-        {
-          "type": "event",
-          "date": "2026-11-25T11:00",
-          "label": "线上分场范围，约25分钟／人",
-          "endDate": "2026-11-25T17:30"
+          "date": "2026-11-25T11:30",
+          "endDate": "2026-11-25T11:55",
+          "label": "已预约：线上作品集咨询（约25分钟，11:25入场）"
         }
       ],
       "registrationSessions": [
         {
-          "id": "opp-6286d81e29::2026-11-24T14:30",
-          "eventStart": "2026-11-24T14:30",
-          "eventEnd": "2026-11-24T16:30",
+          "id": "opp-6286d81e29::2026-11-25T11:30",
+          "eventStart": "2026-11-25T11:30",
+          "eventEnd": "2026-11-25T11:55",
+          "format": "线上",
           "reservationRequired": true,
-          "registrationMethod": "MyPage独立咨询申请表→筛选→个人时段通知",
-          "opensAt": null,
-          "deadline": "2026-11-16T12:00",
-          "deadlineLabel": "官方申请截止",
-          "firstComeFirstServed": false,
-          "availabilityState": "form_available",
-          "availabilityLabel": "申请表可打开；有选考，非先到先得／非名额保证",
-          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
-          "availabilitySource": {
-            "label": "本人MyPage咨询通知及空白申请表已核；私人直达链接不公开",
-            "url": "https://i-studio-career.snar.jp/login.aspx"
-          },
-          "bookingStage": "预Entry／咨询会未提交",
-          "nextAction": "先确定可参加时段与安静环境，再决定是否提交咨询申请；线上需准备作品集屏幕共享，仍未报名。",
-          "format": "线下"
-        },
-        {
-          "id": "opp-6286d81e29::2026-11-24T16:30",
-          "eventStart": "2026-11-24T16:30",
-          "eventEnd": "2026-11-24T18:30",
-          "reservationRequired": true,
-          "registrationMethod": "MyPage独立咨询申请表→筛选→个人时段通知",
-          "opensAt": null,
-          "deadline": "2026-11-16T12:00",
-          "deadlineLabel": "官方申请截止",
-          "firstComeFirstServed": false,
-          "availabilityState": "form_available",
-          "availabilityLabel": "申请表可打开；有选考，非先到先得／非名额保证",
-          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
-          "availabilitySource": {
-            "label": "本人MyPage咨询通知及空白申请表已核；私人直达链接不公开",
-            "url": "https://i-studio-career.snar.jp/login.aspx"
-          },
-          "bookingStage": "预Entry／咨询会未提交",
-          "nextAction": "先确定可参加时段与安静环境，再决定是否提交咨询申请；线上需准备作品集屏幕共享，仍未报名。",
-          "format": "线下"
-        },
-        {
-          "id": "opp-6286d81e29::2026-11-25T11:00",
-          "eventStart": "2026-11-25T11:00",
-          "eventEnd": "2026-11-25T13:00",
-          "reservationRequired": true,
-          "registrationMethod": "MyPage独立咨询申请表→筛选→个人时段通知",
-          "opensAt": null,
-          "deadline": "2026-11-16T12:00",
-          "deadlineLabel": "官方申请截止",
-          "firstComeFirstServed": false,
-          "availabilityState": "form_available",
-          "availabilityLabel": "申请表可打开；有选考，非先到先得／非名额保证",
-          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
-          "availabilitySource": {
-            "label": "本人MyPage咨询通知及空白申请表已核；私人直达链接不公开",
-            "url": "https://i-studio-career.snar.jp/login.aspx"
-          },
-          "bookingStage": "预Entry／咨询会未提交",
-          "nextAction": "先确定可参加时段与安静环境，再决定是否提交咨询申请；线上需准备作品集屏幕共享，仍未报名。",
-          "format": "线上"
-        },
-        {
-          "id": "opp-6286d81e29::2026-11-25T13:00",
-          "eventStart": "2026-11-25T13:00",
-          "eventEnd": "2026-11-25T15:00",
-          "reservationRequired": true,
-          "registrationMethod": "MyPage独立咨询申请表→筛选→个人时段通知",
-          "opensAt": null,
-          "deadline": "2026-11-16T12:00",
-          "deadlineLabel": "官方申请截止",
-          "firstComeFirstServed": false,
-          "availabilityState": "form_available",
-          "availabilityLabel": "申请表可打开；有选考，非先到先得／非名额保证",
-          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
-          "availabilitySource": {
-            "label": "本人MyPage咨询通知及空白申请表已核；私人直达链接不公开",
-            "url": "https://i-studio-career.snar.jp/login.aspx"
-          },
-          "bookingStage": "预Entry／咨询会未提交",
-          "nextAction": "先确定可参加时段与安静环境，再决定是否提交咨询申请；线上需准备作品集屏幕共享，仍未报名。",
-          "format": "线上"
-        },
-        {
-          "id": "opp-6286d81e29::2026-11-25T15:00",
-          "eventStart": "2026-11-25T15:00",
-          "eventEnd": "2026-11-25T17:30",
-          "reservationRequired": true,
-          "registrationMethod": "MyPage独立咨询申请表→筛选→个人时段通知",
-          "opensAt": null,
-          "deadline": "2026-11-16T12:00",
-          "deadlineLabel": "官方申请截止",
-          "firstComeFirstServed": false,
-          "availabilityState": "form_available",
-          "availabilityLabel": "申请表可打开；有选考，非先到先得／非名额保证",
-          "availabilityCheckedAt": "2026-11-07T02:43:16+09:00",
-          "availabilitySource": {
-            "label": "本人MyPage咨询通知及空白申请表已核；私人直达链接不公开",
-            "url": "https://i-studio-career.snar.jp/login.aspx"
-          },
-          "bookingStage": "预Entry／咨询会未提交",
-          "nextAction": "先确定可参加时段与安静环境，再决定是否提交咨询申请；线上需准备作品集屏幕共享，仍未报名。",
-          "format": "线上"
+          "availabilityState": "confirmed",
+          "availabilityLabel": "公司已确认具体场次；入场链接待发",
+          "bookingStage": "已预约／确认参加",
+          "nextAction": "准备可共享的作品集和耳机，11:25入场。"
         }
       ],
-      "decisionContext": "需要作品集屏幕共享与互动交流。11/25线上候选范围与周三课程／通勤相交，不能默认可边上课参加；11/24线下须确认调班和通勤后再选。最终仅筛选分配一个约25分钟时段。",
-      "intro": "I-STUDIO 从事数字创意与Web体验制作。作品集咨询会围绕参加者的作品集交流，提供作品表达与构成建议。"
+      "intro": "博報堂アイ・スタジオ的设计师提供线上作品集咨询。",
+      "attendanceMode": "online",
+      "bookingConfirmed": true
     },
     {
       "id": "opp-55300098fc",
