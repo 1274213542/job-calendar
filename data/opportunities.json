@@ -4729,7 +4729,7 @@
       "status": "候选／计划申请",
       "statusDetail": "11/5官方Creative募集详情已核；本选考尚未提交，MyPage注册及说明会预约不等于材料提交。",
       "description": "2028年4月入社；体验设计、产品UI与信息架构、传播／品牌设计。作品集至少包含1个数字产品（Web或应用），需能说明设计意图。",
-      "nextAction": "先听11/9已预约的Creative线上说明会；11/10会后核对是否听完，再准备正式选考书类与作品集。首轮须在2027/1/31 23:59前完成MyPage注册及选考书类提交。",
+      "nextAction": "先参加11/17 17:00已预约的Creative线上说明会，再准备正式选考书类与作品集。首轮材料提交截止为2027/1/31 23:59（日本时间）。",
       "checkedAt": "2026-11-05",
       "sources": [
         {
@@ -5831,6 +5831,39 @@
       ],
       "notes": "最终面试原则线下。正式岗位未承诺博物馆项目或固定作品类别。",
       "milestones": []
+    },
+    {
+      "id": "briefing-sunasterisk-creative-20261117",
+      "company": "Sun Asterisk",
+      "title": "28卒 Creative 线上说明会＋前辈座谈",
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "status": "已预约／确认参加",
+      "statusDetail": "11/10 已核验官方 MyPage 预约完成页，确认 11/17 Zoom 场。",
+      "intro": "Sun Asterisk 介绍 Creative 设计工作，并安排设计师座谈。",
+      "description": "面向28卒的 Creative 设计师线上说明会与前辈座谈。",
+      "nextAction": "11/17 17:00（日本时间）从 MyPage 进入 Zoom。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "label": "公司发布的说明会",
+          "url": "https://student.redesigner.jp/recruitments/Ja482a3da24d09db23e2b33c0d60760fe"
+        },
+        {
+          "label": "官方招聘入口",
+          "url": "https://sunasterisk-recruit.snar.jp/index.aspx"
+        }
+      ],
+      "notes": "说明会预计75分钟，18:15结束。MyPage排期保留至18:30。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-17T17:00",
+          "endDate": "2026-11-17T18:30",
+          "label": "已预约：Zoom线上说明会＋前辈座谈"
+        }
+      ],
+      "attendanceMode": "online"
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",
