@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "companies": [
     {
       "name": "Goodpatch",
@@ -4710,6 +4710,72 @@
             "monthlyJPY": 253500,
             "annualJPY": 3042000,
             "monthlyLabel": "大学院卒月薪",
+            "annualLabel": "月薪折算，奖金另计",
+            "reference": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "サントリー／サントリーホールディングス株式会社",
+      "aliases": [
+        "サントリー",
+        "サントリーホールディングス株式会社",
+        "Suntory"
+      ],
+      "roles": [
+        {
+          "role": "28卒 Digital & Technology 部门",
+          "scope": "官方列2026年修士初任给作参考；对应部门，28届最终金额待公布。",
+          "monthly": "2026年修士月薪参考317,800日元。",
+          "annual": "按月薪×12折算为3,813,600日元，奖金另计。",
+          "bonus": "每年2次，7月及12月。",
+          "overtime": "实际平均时长与固定加班费未核。",
+          "benefits": "标准每日7小时30分；原则9:00–17:30。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "2028新卒官网｜Digital & Technology 部门",
+              "url": "https://www.suntory.co.jp/recruit/fresh/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 317800,
+            "annualJPY": 3813600,
+            "monthlyLabel": "2026年修士月薪参考",
+            "annualLabel": "月薪折算，奖金另计",
+            "reference": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "あつまる／株式会社あつまる",
+      "aliases": [
+        "あつまる",
+        "株式会社あつまる",
+        "Atsumaru"
+      ],
+      "roles": [
+        {
+          "role": "28卒 Web设计师（东京）",
+          "scope": "官网新卒设计岗位东京起薪；前3个月为合同员工。",
+          "monthly": "东京月薪起270,000日元。",
+          "annual": "按月薪×12折算为3,240,000日元，奖金另计。",
+          "bonus": "每年2次（8月、2月），原则上仅正社员。",
+          "overtime": "含40小时固定加班费64,286日元，超出另付；官网新卒整体月均约18小时；未细分设计组。",
+          "benefits": "入职前三个月合同制，面谈后转正或续约。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "新卒设计岗位与待遇",
+              "url": "https://atsu-maru.co.jp/recruit/requirement/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 270000,
+            "annualJPY": 3240000,
+            "monthlyLabel": "东京月薪起",
             "annualLabel": "月薪折算，奖金另计",
             "reference": true
           }

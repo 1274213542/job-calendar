@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T09:47:25+09:00",
+  "updatedAt": "2026-11-11T09:16:53+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -1095,6 +1095,9 @@
         {
           "label": "原始来源",
           "url": "https://student.redesigner.jp/recruitments/J1b6435e391135dc7f2856796363c1177"
+        },
+        {
+          "label": "11/10 公司参会指引已核对"
         }
       ],
       "notes": "原资料：报名开始 已开放；开始日未公布；截止 线上：2026-11-11 15:00；线下另页/满额提前关；举办 2026-11-11 18:30–19:30线上；线下到约20:00。 11/3根据本人最新可用时间复核，当前场次可保留。",
@@ -1135,7 +1138,7 @@
           "firstComeFirstServed": null,
           "availabilityState": "confirmed",
           "availabilityLabel": "已收到 Zoom 参加指引",
-          "availabilityCheckedAt": "2026-11-10T11:16:50+09:00",
+          "availabilityCheckedAt": "2026-11-10T11:17:41+09:00",
           "availabilitySource": {
             "label": "11/10 公司参会指引已核对"
           },
@@ -1143,7 +1146,7 @@
           "nextAction": "11/11 18:25 起从 ReDesigner 公司消息进入 Zoom。"
         }
       ],
-      "decisionContext": "11/10 已核对公司发送的 11/11 18:30–19:30 线上参会指引，具体场次已确认。 11/11 18:25 起可通过 ReDesigner 公司消息进入 Zoom，活动 18:30 开始。11/12 09:00 跟进听会情况。",
+      "decisionContext": "已收到线上参加指引；11/11 18:25起可进入，18:30开始。公开日历不放私人Zoom地址。",
       "intro": "CONCENT从事服务、品牌、编辑与数字产品设计；本场介绍公司工作和员工项目案例。"
     },
     {
@@ -4567,15 +4570,18 @@
       "subtype": "适性测试",
       "status": "已取消",
       "statusDetail": "本人确认已取消 11/12 09:30–13:00 的 WDB 线上适应性测试预约。",
-      "description": "WDB选考测试；11/12场次已取消。",
+      "description": "WDB 11/12 适应性测试预约已取消。",
       "nextAction": "该场已取消，时段释放。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
+          "label": "本人确认已预约（2026-11-04）"
+        },
+        {
           "label": "11/10 本人确认已取消该场预约"
         }
       ],
-      "notes": "该场已取消，时段释放。",
+      "notes": "本人确认该场已取消，时段释放。",
       "milestones": [],
       "workCompatibility": "requires_confirmation",
       "bookingConfirmed": false,
@@ -5751,6 +5757,122 @@
         }
       ],
       "attendanceMode": "online"
+    },
+    {
+      "id": "selection-suntory-digital-technology-2028",
+      "company": "サントリー／サントリーホールディングス株式会社",
+      "title": "28卒 Digital & Technology 本选考（含 UI/UX／服务设计）",
+      "category": "selection",
+      "subtype": "部门统一正式选考",
+      "status": "候选／计划申请",
+      "statusDetail": "11/9开放，未登记个人投递。",
+      "checkedAt": "2026-11-11",
+      "description": "数字与科技部门公开列有数字营销、UI/UX与服务设计工作，涉及用户访谈、旅程、原型验证；同一部门也招战略、工程及数据方向。2025/3–2028/9毕业或修了且无职历，专业、国籍不限，可在日本全国及海外工作。",
+      "nextAction": "从官方新卒MyPage查看ES、适性检查的各自时限和具体题目，再决定是否申请。",
+      "notes": "设计配属、作品集和同部门重投规则未公布。约15人为本部门含实习选考的总计划，设计岗人数及录取率未公布。",
+      "sources": [
+        {
+          "label": "2028新卒官网｜Digital & Technology 部门",
+          "url": "https://www.suntory.co.jp/recruit/fresh/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-09",
+          "label": "部门公开选考 ES 开放"
+        },
+        {
+          "type": "es_deadline",
+          "date": "2026-12-06T23:59",
+          "label": "部门公开选考 ES 截止（日本时间）"
+        }
+      ],
+      "intro": "部门公开选考包括UI/UX、服务设计等方向，具体配属待核。"
+    },
+    {
+      "id": "selection-atsumaru-web-designer-2028",
+      "company": "あつまる",
+      "title": "28卒 Web设计师",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／计划申请",
+      "statusDetail": "28卒募集及Web设计岗位已核；未申请。",
+      "checkedAt": "2026-11-11",
+      "description": "Web网站的企划、设计与编码，涉及用户动线、SEO及社交媒体协作。东京或福冈；申请前先参加公司说明会。",
+      "nextAction": "先选说明会。听完后再决定正式投递，ES可选视觉版或文字版，按官网要求转为PDF提交。",
+      "notes": "正式ES期限、作品集是否另交及同年度重投规则待核。东京月薪27万日元起，含40小时固定加班费64,286日元；超过部分另付。入职前三个月为合同员工，之后面谈决定转正或续约。",
+      "sources": [
+        {
+          "label": "28卒募集公告",
+          "url": "https://atsu-maru.co.jp/recruit/news/detail.php?id=2765"
+        },
+        {
+          "label": "新卒设计岗位与待遇",
+          "url": "https://atsu-maru.co.jp/recruit/requirement/"
+        },
+        {
+          "label": "说明会之后的ES提交方式",
+          "url": "https://atsu-maru.co.jp/recruit/entry/"
+        }
+      ],
+      "milestones": [],
+      "intro": "あつまる提供企业集客和新卒招聘的数字营销服务，Web设计岗位负责网站企划到制作。"
+    },
+    {
+      "id": "briefing-atsumaru-20261116-talk",
+      "company": "あつまる",
+      "title": "28卒 公司说明会｜招聘担当交流",
+      "category": "activity",
+      "subtype": "公司说明会",
+      "status": "候选／计划申请",
+      "statusDetail": "11月16日16:00–19:00线上场已核；未预约。",
+      "checkedAt": "2026-11-11",
+      "description": "Zoom线上，3小时。招聘担当介绍公司和工作氛围并交流求职问题；属于公司综合说明会，适用于正在募集的Web设计路线。",
+      "nextAction": "确认11月16日16:00–19:00的安排后，进入28卒线上登记入口预约。",
+      "notes": "当前可读登记入口；余位、准确报名截止及后续必填项尚未公布或未读到。",
+      "sources": [
+        {
+          "label": "11月16日活动官方说明",
+          "url": "https://atsu-maru.co.jp/recruit/event/detail.php?id=3154"
+        },
+        {
+          "label": "28卒线上场登记入口",
+          "url": "https://www.career-cloud.asia/s/jwlFuK"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-16T16:00",
+          "endDate": "2026-11-16T19:00",
+          "label": "候选线上说明会"
+        }
+      ],
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "briefing-atsumaru-20261116-talk::2026-11-16T16:00",
+          "eventStart": "2026-11-16T16:00",
+          "eventEnd": "2026-11-16T19:00",
+          "reservationRequired": true,
+          "registrationMethod": "官网28卒线上入口进入CareerCloud登记",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "登记页可读；剩余名额未公布",
+          "availabilityCheckedAt": "2026-11-11T09:09:44+09:00",
+          "availabilitySource": {
+            "label": "28卒线上场实际登记页",
+            "url": "https://www.career-cloud.asia/28/entry/event/general_event/af025208b5ca5e09902b8e2e1fcd385b"
+          },
+          "bookingStage": "未预约",
+          "nextAction": "确认时间后登记。"
+        }
+      ],
+      "intro": "あつまる招聘担当的线上交流说明会。"
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",

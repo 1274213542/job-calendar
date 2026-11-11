@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "note": "项目报酬、选考流程与公司入职待遇分开。倍率仅采用相同届别、岗位、批次的可靠统计；计划名额不是实际录取人数。",
   "projects": [
     {
@@ -381,6 +381,50 @@
         {
           "label": "Wantedly渠道的登记截止",
           "url": "https://www.wantedly.com/projects/2569543"
+        }
+      ]
+    },
+    {
+      "id": "selection-suntory-digital-technology-2028",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "ES＋适性检查 → 书审 → DX适性检查、数轮面试",
+      "selectionRate": null,
+      "selectionRateNote": "无当届对应岗位可比的有效申请数和录取数。",
+      "requirementsNote": "适性检查具体期限及作品集要求待MyPage核实。",
+      "fitNote": "数字营销、用户研究、UI/UX与服务设计；部门统一入口，设计配属待核。",
+      "reapplicationNote": "官网允许与ビジネス部門并投；同部门重投未知。实习选考结果不影响公开选考申请。",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "label": "2028新卒官网｜Digital & Technology 部门",
+          "url": "https://www.suntory.co.jp/recruit/fresh/"
+        }
+      ]
+    },
+    {
+      "id": "selection-atsumaru-web-designer-2028",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "先参加公司说明会 → 视觉ES或文字ES二选一，以PDF提交",
+      "selectionRate": null,
+      "selectionRateNote": "无当届对应岗位可比的有效申请数和录取数。",
+      "requirementsNote": "精确ES截止、作品集和重投规则待核。",
+      "fitNote": "网站从企划、设计到编码；偏Web营销落地。",
+      "reapplicationNote": "同届同岗重投规则未核。",
+      "checkedAt": "2026-11-11",
+      "sources": [
+        {
+          "label": "28卒募集公告",
+          "url": "https://atsu-maru.co.jp/recruit/news/detail.php?id=2765"
+        },
+        {
+          "label": "新卒设计岗位与待遇",
+          "url": "https://atsu-maru.co.jp/recruit/requirement/"
+        },
+        {
+          "label": "说明会之后的ES提交方式",
+          "url": "https://atsu-maru.co.jp/recruit/entry/"
         }
       ]
     }
