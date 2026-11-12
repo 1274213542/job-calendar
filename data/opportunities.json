@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T09:16:53+09:00",
+  "updatedAt": "2026-11-12T09:29:17+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -5873,6 +5873,107 @@
         }
       ],
       "intro": "あつまる招聘担当的线上交流说明会。"
+    },
+    {
+      "id": "briefing-yamaha-motor-design-20261118",
+      "company": "Yamaha Motor",
+      "title": "设计职线上说明会",
+      "category": "activity",
+      "subtype": "说明会",
+      "status": "候选／计划申请",
+      "statusDetail": "公开Zoom登记表可见，实际余位未公开；未申请。",
+      "description": "面向所有专业及年级。设计师、设计企划、模型师介绍工作并讨论，另介绍冬季设计实习。Zoom Webinar，预计之后在MyPage提供录像。",
+      "nextAction": "如有兴趣，通过官方Zoom表单登记。未看到公开余位；提交后等入场信息。",
+      "checkedAt": "2026-11-12",
+      "sources": [
+        {
+          "label": "官方设计招聘活动列表",
+          "url": "https://global.yamaha-motor.com/jp/design_technology/design/recruit/internship/"
+        },
+        {
+          "label": "官方链接指向的Zoom登记表",
+          "url": "https://yamaha-motor-co-jp.zoom.us/webinar/register/WN_RYFN71KpQIGF4iD1J6tC0A"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-18T17:30",
+          "label": "Zoom登记截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-18T18:00",
+          "endDate": "2026-11-18T19:30",
+          "label": "线上说明会"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-yamaha-motor-design-20261118::2026-11-18T18:00",
+          "eventStart": "2026-11-18T18:00",
+          "eventEnd": "2026-11-18T19:30",
+          "reservationRequired": true,
+          "registrationMethod": "直接填官方Zoom表单，姓名、邮箱和学校名。",
+          "opensAt": null,
+          "deadline": "2026-11-18T17:30",
+          "deadlineLabel": "登记截止",
+          "firstComeFirstServed": null,
+          "availabilityState": "form_available",
+          "availabilityLabel": "登记表可见，余位未公开",
+          "availabilityCheckedAt": "2026-11-12T09:29:17+09:00",
+          "availabilitySource": "https://yamaha-motor-co-jp.zoom.us/webinar/register/WN_RYFN71KpQIGF4iD1J6tC0A",
+          "bookingStage": "候选／未申请"
+        }
+      ],
+      "intro": "雅马哈发动机的设计部门负责摩托车等移动产品的设计。"
+    },
+    {
+      "id": "internship-yamaha-motor-ycl2027-design-planning",
+      "company": "Yamaha Motor",
+      "title": "YCL2027 冬季设计企划实习",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／计划申请",
+      "statusDetail": "28卒接受范围内的线下设计企划课程，须符合官网无就职经历及日语沟通要求；未申请。",
+      "description": "在静冈县磐田市总部参加。围绕未来用户需求与体验价值构思概念，用文字和视觉表达，与团队讨论推进。全程日语；适性测试可申请英语。",
+      "nextAction": "11/30 12:00前在该项目MyPage完成问卷预登记并选设计企划；12/10 12:00前完成测试、履历式资料、作品集PDF（10MB以下）和证件照。",
+      "notes": "根据官网，企业按规定补助交通费并安排指定住宿与餐食。12月底预计公布选考结果；实习未公布出勤钟点或现金报酬。",
+      "checkedAt": "2026-11-12",
+      "sources": [
+        {
+          "label": "官方当届YCL2027课程、窗口与材料",
+          "url": "https://global.yamaha-motor.com/jp/design_technology/design/recruit/internship/ycl2027/"
+        },
+        {
+          "label": "官方Yamaha Motor MyPage",
+          "url": "https://yamaha-motor.snar.jp/jobboard/detail.aspx?id=aq97JSBxXI6j8jMh-zh8Vg"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-03",
+          "label": "MyPage预登记开放"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-30T12:00",
+          "label": "MyPage预登记截止"
+        },
+        {
+          "type": "confirmation_deadline",
+          "date": "2026-12-10T12:00",
+          "label": "完成适性测试并交材料"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-24",
+          "endDate": "2027-01-29",
+          "label": "设计企划实习（静冈线下）"
+        }
+      ],
+      "intro": "雅马哈发动机设计企划团队通过用户访谈和田野观察确定产品与体验方向。"
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "companies": [
     {
       "name": "Goodpatch",
@@ -4778,6 +4778,39 @@
             "monthlyLabel": "东京月薪起",
             "annualLabel": "月薪折算，奖金另计",
             "reference": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yamaha Motor／ヤマハ発動機株式会社",
+      "aliases": [
+        "Yamaha Motor",
+        "ヤマハ発動機",
+        "ヤマハ発動機株式会社"
+      ],
+      "roles": [
+        {
+          "role": "YCL2027 冬季设计企划实习",
+          "scope": "2027年1月24–29日，静冈总部线下实习",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "交通费按规定补助，期间餐食和指定住宿由公司安排。",
+          "intern": "现金报酬未公布；交通与住宿支持如上。",
+          "sources": [
+            {
+              "label": "当届官方设计企划实习募集",
+              "url": "https://global.yamaha-motor.com/jp/design_technology/design/recruit/internship/ycl2027/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
           }
         }
       ]
