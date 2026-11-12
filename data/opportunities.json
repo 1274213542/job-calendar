@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T15:04:39+09:00",
+  "updatedAt": "2026-11-12T21:11:45+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -5410,12 +5410,12 @@
       "title": "Web×观光 · 设计职种说明会",
       "category": "activity",
       "subtype": "说明会",
-      "status": "已报名／连接链接待邮件",
-      "statusDetail": "官网说明会报名表已提交并显示受理成功，参加连接链接将由公司稍后通过邮件发送。",
+      "status": "已报名／受理；已收参加指引",
+      "statusDetail": "已受理 11/13 17:00–18:00 的 Teams 说明会报名，已收到公司入场指引。",
       "intro": "アビリブ为酒店、旅游和自治体提供网站与数字营销。本场介绍业务及Web设计师工作，面向28卒，修士1年可参加。",
       "description": "11/13 17:00–18:00线上 Teams：40分钟介绍＋20分钟问答。已核Web设计就业地点为仙台、名古屋和大阪，东京设计配属待核。",
-      "nextAction": "查收公司发送的当日连接链接，11/13 17:00–18:00线上参加；会后确认实际出席再决定本选考。",
-      "checkedAt": "2026-11-08",
+      "nextAction": "11/13 17:00–18:00（日本时间）线上。用公司邮件中的 Teams 入口，建议 16:55 入场。",
+      "checkedAt": "2026-11-12",
       "attendanceMode": "online",
       "workCompatibility": "online_briefing",
       "notes": "官网表单已显示报名受理成功，接入链接待公司邮件。原Mynavi与官网渠道的截止日期保留为历史记录；本场转为参加及剩余手续提醒。",
@@ -5472,14 +5472,14 @@
           "deadlineLabel": "官网11/12 23:00；Mynavi11/11（钟点未公布）",
           "firstComeFirstServed": true,
           "availabilityState": "registration_accepted",
-          "availabilityLabel": "本人报名已受理；连接链接待公司邮件",
+          "availabilityLabel": "本人已受理并收到入场指引",
           "availabilityCheckedAt": "2026-11-08T12:15:34+09:00",
           "availabilitySource": {
             "label": "官网报名表提交成功页",
             "url": "https://forms.office.com/r/Q074kAFkjq"
           },
-          "bookingStage": "已报名／连接链接待邮件",
-          "nextAction": "查收公司发送的当日连接链接，11/13 17:00–18:00线上参加；会后确认实际出席再决定本选考。",
+          "bookingStage": "已报名／受理；已收参加指引",
+          "nextAction": "11/13 17:00–18:00（日本时间）线上。用公司邮件中的 Teams 入口，建议 16:55 入场。",
           "registrationChannels": [
             {
               "id": "mynavi",
@@ -5511,7 +5511,7 @@
               "firstComeFirstServed": null,
               "capacity": 80,
               "availabilityState": "form_available",
-              "availabilityLabel": "表单第1页可读；第2–3页、具体场次及余位待核",
+              "availabilityLabel": "本人已受理并收到入场指引",
               "availabilityCheckedAt": "2026-11-08T12:15:34+09:00",
               "availabilitySource": {
                 "label": "官网公告指向的公开报名表（仅第1/3页已读）",
@@ -5528,12 +5528,9 @@
                 "学校及专攻",
                 "学年（必选）"
               ],
-              "unknowns": [
-                "学年选择未单列大学院，修士如何对应待核",
-                "第2–3页与可选场次未读",
-                "实际余位未知",
-                "是否与Mynavi共用名额未说明"
-              ]
+              "unknowns": [],
+              "bookingStage": "已报名／受理；已收参加指引",
+              "connectionEmailStatus": "received"
             }
           ],
           "deadlineChannelId": "official-form",
@@ -5547,9 +5544,9 @@
           "reminderMode": "attendance_or_remaining_steps",
           "deadlineRemindersEnabled": false,
           "selectedRegistrationChannelId": "official-form",
-          "connectionEmailStatus": "pending",
+          "connectionEmailStatus": "received",
           "attendanceStatus": "unknown",
-          "lastStatusRecordedAt": "2026-11-08T13:05:53+09:00"
+          "lastStatusRecordedAt": "2026-11-12T21:11:45+09:00"
         }
       ],
       "lastPartialVerificationAt": "2026-11-08T12:15:34+09:00",
@@ -6060,6 +6057,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-12T15:04:39+09:00",
-  "lastPartialVerificationScope": "Epson No.68 提交进度及 Goodpatch 已约场次的参加案内。"
+  "lastPartialVerificationAt": "2026-11-12T21:11:45+09:00",
+  "lastPartialVerificationScope": "11/13 アビリブ说明会入场指引"
 }
