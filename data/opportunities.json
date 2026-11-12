@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T09:29:17+09:00",
+  "updatedAt": "2026-11-12T15:04:39+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -2950,11 +2950,11 @@
       "title": "28卒 冬季UI/UX设计职场实习（5天）",
       "category": "internship",
       "subtype": "短期实习与工作坊",
-      "status": "有意申请／提交路线待核",
-      "statusDetail": "已填No.68问卷但未提交，测试未开始。11/6企业通知要求设计希望者不申请通用课程、等待设计另行案内；与官网及No.68问卷存在适用冲突。",
+      "status": "问卷已提交／网测待完成",
+      "statusDetail": "No.68 职场受入课程问卷已提交。当前须完成网测，本阶段无需履历书或作品集。",
       "description": "线下与设计师共同参与实际工作，课题示例为打印机本体及应用程序UI/UX；每人有前辈指导与反馈。资格：28卒且接受过设计相关教育。",
-      "nextAction": "先核设计专用提交路线；保留现有草稿与1/18–22偏好，不提交通用问卷、不开始通用测试。官网11/18上午仅作待核参考，不能视为本人最终路线已确认。",
-      "checkedAt": "2026-11-07",
+      "nextAction": "在 11/18 13:00（日本时间）前从 Epson MyPage 完成网测。1/18–22 是已填报的希望档期，等待公司选考结果。",
+      "checkedAt": "2026-11-12",
       "sources": [
         {
           "label": "官方28卒冬季设计实习要项",
@@ -2974,22 +2974,15 @@
       "notes": "官网仍列10/26开放、11/18上午期限与1/18–22或1/25–29五天UI/UX实习，但11/6新通知要求设计课程另行案内，本人登记已核为设计系。11/9 17:00–18:30理系攻略说明会已显示受付終了，准确关闭时点未知。11/4曾发现活动但未核余位、漏明确提醒；不能断言当时一定可约。另有1Day工作坊筹备预告：日期、资格、是否设计向及预约窗口均未公布，不是已关闭。",
       "milestones": [
         {
-          "type": "reference",
-          "date": "2026-10-26",
-          "label": "官网开放日期参考／本人路线待核",
-          "requiresVerification": true
-        },
-        {
-          "type": "reference",
-          "date": "2026-11-18",
-          "label": "官网上午期限参考／本人路线待核，非已确认提交期限",
-          "requiresVerification": true
+          "type": "deadline",
+          "date": "2026-11-18T13:00",
+          "label": "No.68 网测截止（日本时间）"
         },
         {
           "type": "event",
           "date": "2027-01-18",
           "endDate": "2027-01-22",
-          "label": "本人偏好第1期，未提交／未确认参加"
+          "label": "已填报希望档期／通过选考后才确认"
         }
       ],
       "applicationIntent": {
@@ -3159,7 +3152,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3 16:44 HRMOS报名完成页、场次回执及企业确认邮件均已核验：11/19 18:00–19:00 UI/UX设计师线上专场。",
       "description": "面向2028卒，线上UI/UX设计师专场；与UX 1Day实习申请分开。",
-      "nextAction": "11/18前查收Google Meet链接；11/19 18:00参加必听专场。11/20 09:00提醒确认听会情况，再准备本选考履历书与作品集。",
+      "nextAction": "11/19 18:00（日本时间）使用 Goodpatch 参加案内邮件中的 Google Meet 链接入场（UI/UX 设计师说明会）。",
       "sources": [
         {
           "label": "官方HRMOS说明会",
@@ -3179,7 +3172,7 @@
       ],
       "category": "activity",
       "subtype": "公司设计说明会",
-      "checkedAt": "2026-11-03",
+      "checkedAt": "2026-11-12",
       "notes": "仅本场已确认；DENSO同时间候选按本人明确意向让位于Goodpatch。UX 1Day实习已提交与本选考为独立事项。",
       "postBriefingFollowUp": {
         "remindAt": "2026-11-20T09:00:00+09:00",
@@ -3207,7 +3200,7 @@
           "availabilityCheckedAt": null,
           "availabilitySource": null,
           "bookingStage": "已预约／以既有回执为据",
-          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+          "nextAction": "11/19 18:00（日本时间）使用 Goodpatch 参加案内邮件中的 Google Meet 链接入场（UI/UX 设计师说明会）。"
         }
       ],
       "intro": "Goodpatch以设计咨询与数字产品体验设计为核心；本场介绍面向28卒的UI/UX设计师工作。"
@@ -5678,8 +5671,8 @@
       "statusDetail": "已预约 11 月 12 日 Goodpatch 服务设计师线上说明会。",
       "intro": "Goodpatch 介绍服务设计师如何做用户研究、梳理需求和设计服务。",
       "description": "11/12 18:00–19:00，日本时间，Google Meet。面向28卒，含公司、业务、服务设计工作和问答。与11/19 UI/UX专场分开。",
-      "nextAction": "11/11查看参加链接；11/12 18:00–19:00（日本时间）参加。",
-      "checkedAt": "2026-11-10",
+      "nextAction": "11/12 18:00（日本时间）使用 Goodpatch 参加案内邮件中的 Google Meet 链接入场（服务设计师说明会）。",
+      "checkedAt": "2026-11-12",
       "sources": [
         {
           "label": "官方场次申请表",
@@ -6067,6 +6060,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-09T13:14:18+09:00",
-  "lastPartialVerificationScope": "BASE具体场次确认、ほぼ日恢复意向、Suzuki二轮本轮不申请；其他项目未重核。"
+  "lastPartialVerificationAt": "2026-11-12T15:04:39+09:00",
+  "lastPartialVerificationScope": "Epson No.68 提交进度及 Goodpatch 已约场次的参加案内。"
 }
