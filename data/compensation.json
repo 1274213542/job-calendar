@@ -4972,6 +4972,42 @@
           }
         }
       ]
+    },
+    {
+      "name": "ウェルスナビ株式会社",
+      "aliases": [
+        "WealthNavi",
+        "ウェルスナビ"
+      ],
+      "roles": [
+        {
+          "role": "28卒产品设计师",
+          "scope": "28卒设计岗位",
+          "monthly": null,
+          "annual": "4,500,000日元",
+          "bonus": null,
+          "overtime": null,
+          "benefits": "东京五反田，通常每周至少3天出社，配属有例外。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "新卒官网",
+              "url": "https://recruit.wealthnavi.com/newgrads"
+            },
+            {
+              "label": "官方HRMOS 28卒设计职位、选考及待遇",
+              "url": "https://public.n-ats.hrmos.co/wealthnavi/jobs/2321142576603160576"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": 4500000,
+            "monthlyLabel": null,
+            "annualLabel": "官方岗位公布年收",
+            "reference": false
+          }
+        }
+      ]
     }
   ],
   "updatedAt": "2026-11-13T13:02:35+09:00"

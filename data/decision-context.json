@@ -506,6 +506,68 @@
           "url": "https://en-gage.net/user/search/desc/5114115/"
         }
       ]
+    },
+    {
+      "id": "internship-yamaha-2026-winter-general-uiux",
+      "internPay": "交通费按规定、住宿设施、日当1,000日元加餐费。",
+      "internPayScope": "官方冬季一般实习",
+      "selectionProcess": "四项手续完成→书类筛选→线上面试。",
+      "selectionRate": null,
+      "selectionRateNote": "未公开同课题或同岗申请与录取数。",
+      "requirementsNote": "大学院生可报名。02-08/02-09偏好信息类，04-03文理不限。",
+      "fitNote": "电子乐器的UI改善、原型验证，或在横滨做音乐体验试作。",
+      "checkedAt": "2026-11-13",
+      "sources": [
+        {
+          "label": "冬季一般实习官方募集、资格和截止",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/application-information/"
+        },
+        {
+          "label": "当期主题列表",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/theme/"
+        },
+        {
+          "label": "02-08 电子钢琴 UI",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/theme/2026-winter/02-08/"
+        },
+        {
+          "label": "02-09 电子键盘 UI",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/theme/2026-winter/02-09/"
+        },
+        {
+          "label": "04-03 面向初学者的音乐体验原型",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/theme/2026-winter/04-03/"
+        },
+        {
+          "label": "官方 MyPage",
+          "url": "https://yamaha-recruiting.snar.jp/login.aspx"
+        }
+      ]
+    },
+    {
+      "id": "selection-wealthnavi-designer-2028",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "书类→Web测试→人事→现场→役员面试→内定。",
+      "selectionRate": null,
+      "selectionRateNote": "未公开同课题或同岗申请与录取数。",
+      "requirementsNote": "履历和作品集均需提交。作品集>30MB可填Google Drive链接。",
+      "fitNote": "金融App／Web UI/UX，从企划及课题设定开始参与；混合办公。",
+      "checkedAt": "2026-11-13",
+      "sources": [
+        {
+          "label": "新卒官网",
+          "url": "https://recruit.wealthnavi.com/newgrads"
+        },
+        {
+          "label": "官方HRMOS 28卒设计职位、选考及待遇",
+          "url": "https://public.n-ats.hrmos.co/wealthnavi/jobs/2321142576603160576"
+        },
+        {
+          "label": "实际申请表",
+          "url": "https://public.n-ats.hrmos.co/wealthnavi/jobs/2321142576603160576/apply"
+        }
+      ]
     }
   ]
 }

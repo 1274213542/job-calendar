@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T13:02:35+09:00",
+  "updatedAt": "2026-11-13T21:14:31+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -3437,14 +3437,14 @@
       "statusDetail": "11/3核到当前官方募集；未申请、未预约。",
       "description": "设计中心官方远程说明会，与5天UX设计研究会分开记录；公开日历只保留官网入口，不收录会议口令。",
       "nextAction": "11/19 17–18点与Persol作品集反馈会候选安排16–17:45重叠45分钟，18点又衔接必听Goodpatch；需本人取舍，未改约。",
-      "checkedAt": "2026-11-03",
+      "checkedAt": "2026-11-13",
       "sources": [
         {
           "label": "官方说明会时间",
           "url": "https://www.fujifilm.com/fb/ja/about/initiatives/technical/design/jobs"
         }
       ],
-      "notes": "2026/11/19 17:00–18:00；官网未另列说明会预约截止。未核到本人预约／参加确认。",
+      "notes": "2026/11/19 17:00–18:00；官网未另列说明会预约截止。未核到本人预约／参加确认。 官网提供线上参会入口，未另列预约手续。",
       "milestones": [
         {
           "type": "event",
@@ -3460,15 +3460,18 @@
           "eventStart": "2026-11-19T17:00",
           "eventEnd": "2026-11-19T18:00",
           "reservationRequired": null,
-          "registrationMethod": "待核对",
+          "registrationMethod": "从官网当期活动说明直接进入Zoom；公开页未列另行预约步骤",
           "opensAt": null,
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": null,
-          "availabilityState": "unverified",
-          "availabilityLabel": "尚未核到实际余位",
-          "availabilityCheckedAt": null,
-          "availabilitySource": null,
+          "availabilityState": "public_join_link_visible",
+          "availabilityLabel": "官网公开参会入口已核，未验证会议当日接入或席位",
+          "availabilityCheckedAt": "2026-11-13T21:13:19+09:00",
+          "availabilitySource": {
+            "label": "富士BI官网当期说明会行",
+            "url": "https://www.fujifilm.com/fb/ja/about/initiatives/technical/design/jobs"
+          },
           "bookingStage": "候选／计划申请",
           "nextAction": "11/19 17–18点与Persol作品集反馈会候选安排16–17:45重叠45分钟，18点又衔接必听Goodpatch；需本人取舍，未改约。"
         }
@@ -6082,6 +6085,205 @@
       ],
       "milestones": [],
       "checkedAt": "2026-11-13"
+    },
+    {
+      "id": "internship-yamaha-2026-winter-general-uiux",
+      "company": "Yamaha",
+      "title": "2027年2月冬季一般实习｜UI与体验设计课题",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／未申请",
+      "checkedAt": "2026-11-13",
+      "statusDetail": "官方一般实习已公布当期申请窗口。",
+      "description": "02-08 电子钢琴 UI：浜松本社。制作或改善原型，用试作机验证易用性。；02-09 电子键盘 UI：浜松本社。提出操作改善方案、试作并做易用性验证。；04-03 面向初学者的音乐体验原型：横滨港未来。可用 App、Web 或装置试作，让人试用后评估；文理不限。",
+      "intro": "ヤマハ株式会社的电子乐器 UI 验证及音乐体验原型课题。三个课题共用一般实习申请流程。",
+      "nextAction": "11/25 09:00（日本时间）前通过 Yamaha MyPage 完成 ES、主题意向表、Web 适性测试和照片。",
+      "notes": "2027/2/12–19 线下六个实习日，出勤钟点未公开。02-08及02-09偏好信息类；编程、电子乐器、MIDI、Figma及易用性评估中有若干经验为加分，编程题仅问有经验者。04-03文理不限，官网列多种试作方式。一般实习按规定补交通、安排住宿，日当1,000日元另加餐费。与2月上旬独立设计师实习及 Yamaha Motor 分开。",
+      "sources": [
+        {
+          "label": "冬季一般实习官方募集、资格和截止",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/application-information/"
+        },
+        {
+          "label": "当期主题列表",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/theme/"
+        },
+        {
+          "label": "02-08 电子钢琴 UI",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/theme/2026-winter/02-08/"
+        },
+        {
+          "label": "02-09 电子键盘 UI",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/theme/2026-winter/02-09/"
+        },
+        {
+          "label": "04-03 面向初学者的音乐体验原型",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/theme/2026-winter/04-03/"
+        },
+        {
+          "label": "官方 MyPage",
+          "url": "https://yamaha-recruiting.snar.jp/login.aspx"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-12",
+          "label": "一般实习受理开始"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-25T09:00",
+          "label": "ES・主题意向・Web测试・照片截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-12",
+          "endDate": "2027-02-19",
+          "label": "线下实习（六天，课题决定地点）"
+        }
+      ]
+    },
+    {
+      "id": "selection-wealthnavi-designer-2028",
+      "company": "ウェルスナビ株式会社",
+      "title": "28卒产品设计师（UI/UX）",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／未申请",
+      "statusDetail": "当届官方HRMOS表单可读。",
+      "checkedAt": "2026-11-13",
+      "description": "资管服务的iOS、Android和Web UI/UX，也涉及品牌和营销设计。设计师从企划与课题设定参与，与产品、开发及业务团队协作。2028年4月可入社。",
+      "nextAction": "准备履历书和作品集，确认是否通过官方HRMOS提交。官网职位及首表未列明确截止。",
+      "intro": "金融产品的 UI/UX 及品牌设计，新卒设计岗。",
+      "notes": "年收450万日元。岗位写混合办公原则每周至少到岗3天，部分配属例外。履历无指定格式，作品集超过30MB时使用Google Drive URL；上传最多3文件，单文件上限30MB。书类→Web测试→人事→现场→役员面试→内定。",
+      "sources": [
+        {
+          "label": "新卒官网",
+          "url": "https://recruit.wealthnavi.com/newgrads"
+        },
+        {
+          "label": "官方HRMOS 28卒设计职位、选考及待遇",
+          "url": "https://public.n-ats.hrmos.co/wealthnavi/jobs/2321142576603160576"
+        },
+        {
+          "label": "实际申请表",
+          "url": "https://public.n-ats.hrmos.co/wealthnavi/jobs/2321142576603160576/apply"
+        }
+      ],
+      "milestones": []
+    },
+    {
+      "id": "activity-hallab-28-design-work-20261202",
+      "company": "株式会社ハル研究所",
+      "title": "28卒设计师线上工作介绍",
+      "category": "briefing",
+      "subtype": "说明会",
+      "status": "候选／未申请",
+      "checkedAt": "2026-11-13",
+      "statusDetail": "28卒线上活动，具体席位未核。",
+      "description": "公司介绍与设计师工作介绍。官网活动专页写预计19:00左右结束，招聘总览写19:30左右，以MyPage当场通知为准。",
+      "nextAction": "通过公司28卒MyPage核实登记及席位。",
+      "notes": "公司官网明确须经MyPage报名；公开页未列截止、预约材料或席位。",
+      "sources": [
+        {
+          "label": "公司官方当期活动公告",
+          "url": "https://www.hallab.co.jp/freshinfo/detail/20261009/"
+        },
+        {
+          "label": "公司28卒MyPage",
+          "url": "https://mypage.3010.i-webs.jp/hallab2028/"
+        },
+        {
+          "label": "公司新卒招聘总览",
+          "url": "https://www.i-note.jp/hallab/fresh/top.html"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-02T17:00",
+          "label": "Zoom，结束时间待MyPage核对"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "activity-hallab-28-design-work-20261202::2026-12-02T17:00",
+          "eventStart": "2026-12-02T17:00",
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "ハル研究所28卒MyPage，活动分别报名",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "公开页未列具体截止",
+          "firstComeFirstServed": null,
+          "availabilityState": "entry_required_or_unknown",
+          "availabilityLabel": "官网已公布，实际登录报名窗口和余位待核",
+          "availabilityCheckedAt": "2026-11-13T21:13:19+09:00",
+          "availabilitySource": {
+            "label": "公司官方活动公告及28卒MyPage登录前公开页",
+            "url": "https://www.hallab.co.jp/freshinfo/detail/20261009/"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "通过公司28卒MyPage核实登记及席位。"
+        }
+      ]
+    },
+    {
+      "id": "activity-hallab-28-design-briefing-20261222",
+      "company": "株式会社ハル研究所",
+      "title": "28卒设计师线上公司说明会",
+      "category": "briefing",
+      "subtype": "说明会",
+      "status": "候选／未申请",
+      "checkedAt": "2026-11-13",
+      "statusDetail": "28卒线上活动，具体席位未核。",
+      "description": "公司介绍、设计师工作介绍及问答。官网活动专页写预计19:00左右结束，招聘总览写18:30左右并注明依职种而异。",
+      "nextAction": "通过公司28卒MyPage核实登记及席位。",
+      "notes": "公司官网明确须经MyPage报名；公开页未列截止、预约材料或席位。",
+      "sources": [
+        {
+          "label": "公司官方当期活动公告",
+          "url": "https://www.hallab.co.jp/news/detail/20261027/"
+        },
+        {
+          "label": "公司28卒MyPage",
+          "url": "https://mypage.3010.i-webs.jp/hallab2028/"
+        },
+        {
+          "label": "公司新卒招聘总览",
+          "url": "https://www.i-note.jp/hallab/fresh/top.html"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-22T17:00",
+          "label": "Zoom，结束时间待MyPage核对"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "activity-hallab-28-design-briefing-20261222::2026-12-22T17:00",
+          "eventStart": "2026-12-22T17:00",
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "ハル研究所28卒MyPage，活动分别报名",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "公开页未列具体截止",
+          "firstComeFirstServed": null,
+          "availabilityState": "entry_required_or_unknown",
+          "availabilityLabel": "官网已公布，实际登录报名窗口和余位待核",
+          "availabilityCheckedAt": "2026-11-13T21:13:19+09:00",
+          "availabilitySource": {
+            "label": "公司官方活动公告及28卒MyPage登录前公开页",
+            "url": "https://www.hallab.co.jp/news/detail/20261027/"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "通过公司28卒MyPage核实登记及席位。"
+        }
+      ]
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",
