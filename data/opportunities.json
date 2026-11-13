@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T21:14:31+09:00",
+  "updatedAt": "2026-11-14T00:24:09+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -371,7 +371,7 @@
           "url": "https://recruit.jpn.panasonic.com/internship/courses/creative/index.html"
         }
       ],
-      "notes": "原资料：报名开始 2026-10-19；截止 2026-12-01 15:00；举办 2027-01-27–02-04；7工作日／9自然日；1/13 18:30–19:30导入。",
+      "notes": "原资料：报名开始 2026-10-19；截止 2026-12-01 15:00；举办 2027-01-27–02-04；7工作日／9自然日；1/13 18:30–19:30导入。 官网暂列12/14或12/15面试，实际场次与两阶段结果日期未公布；结果均会通知。",
       "milestones": [
         {
           "type": "open",
@@ -444,7 +444,7 @@
           "url": "https://mypage.3070.i-webs.jp/suzuki2028/"
         }
       ],
-      "notes": "MyPage设计申请入口已开放。ES、材料与Web测试同为11/23 23:50截止；测试含計数・言語・英語・パーソナリティ，约1小时。四轮与二轮不能兼报。通过实习审查者另安排2027/2/18或19面试。",
+      "notes": "MyPage设计申请入口已开放。ES、材料与Web测试同为11/23 23:50截止；测试含計数・言語・英語・パーソナリティ，约1小时。四轮与二轮不能兼报。通过实习审查者另安排2027/2/18或19面试。 实习后如进入下一环节，2/18或2/19另有线下个人面试。",
       "milestones": [
         {
           "type": "open",
@@ -462,6 +462,12 @@
           "date": "2027-01-28",
           "label": "实际举办",
           "endDate": "2027-02-05"
+        },
+        {
+          "type": "reference",
+          "date": "2026-12-18",
+          "label": "最迟邮件通知书类结果",
+          "requiresVerification": true
         }
       ],
       "intro": "Suzuki从事汽车与移动产品业务；本项目涵盖四轮产品设计及车载GUI。",
@@ -523,7 +529,7 @@
           "url": "https://www.yamaha.com/ja/recruitment/internship/designer/"
         }
       ],
-      "notes": "原资料：报名开始 2026-11-09；截止 2027-01-05 12:00；举办 2027-02-01–02-05；5天。",
+      "notes": "原资料：报名开始 2026-11-09；截止 2027-01-05 12:00；举办 2027-02-01–02-05；5天。 选考结果预计2027年1月中旬，通过和未通过均会通知。",
       "milestones": [
         {
           "type": "open",
@@ -3423,6 +3429,12 @@
           "date": "2027-01-25",
           "endDate": "2027-01-29",
           "label": "候选：5天UX研究会（待选考）"
+        },
+        {
+          "type": "reference",
+          "date": "2026-12-23",
+          "label": "最迟邮件通知选考结果",
+          "requiresVerification": true
         }
       ],
       "intro": "FUJIFILM Business Innovation提供办公与商业解决方案；本工作坊体验UX流程并提出设计方案。"
@@ -3758,7 +3770,7 @@
       "attendanceMode": "in_person",
       "checkedAt": "2026-11-03",
       "nextAction": "等待选考结果；若合格，12/1–15内11个工作日10:00–18:00需协调学校与兼职。12/1结束后紧接18:00博报堂线上说明会，参加地点和缓冲需确认；12/8不能预先承诺空闲。",
-      "notes": "原先因非设计专属被排除，11/3本人要求同时考虑录取后的占用，按原稳定ID恢复为个人潜在安排。日期已与正式申请回执逐日核对；企业ReDesigner正文与勤務時間栏写每天10:00–18:00，页面结构化时间显示1:00–9:00存在时区偏差，采用正文日本当地时间。Workable当前入口跳回职位列表，不据此改变已提交事实。与Mercari长期UI/UX Internship是两个不同项目。",
+      "notes": "原先因非设计专属被排除，11/3本人要求同时考虑录取后的占用，按原稳定ID恢复为个人潜在安排。日期已与正式申请回执逐日核对；企业ReDesigner正文与勤務時間栏写每天10:00–18:00，页面结构化时间显示1:00–9:00存在时区偏差，采用正文日本当地时间。Workable当前入口跳回职位列表，不据此改变已提交事实。与Mercari长期UI/UX Internship是两个不同项目。 选考结果预计11月中旬，仅向书类通过者发邮件，未公布具体日期。",
       "sources": [
         {
           "label": "11/3重读10/28正式申请成功回执；私人正文及账号不公开"
@@ -4927,6 +4939,12 @@
           "date": "2027-01-28",
           "label": "东京品川 · 6个工作日，周末除外",
           "endDate": "2027-02-04"
+        },
+        {
+          "type": "reference",
+          "date": "2027-01-08",
+          "label": "最迟通知选考结果",
+          "requiresVerification": true
         }
       ],
       "checkedAt": "2026-11-08",
@@ -5054,6 +5072,12 @@
           "date": "2027-02-01",
           "label": "本社实习10个工作日",
           "endDate": "2027-02-12"
+        },
+        {
+          "type": "reference",
+          "date": "2027-01-06",
+          "label": "约15:00 MyPage公布选考结果",
+          "requiresVerification": true
         }
       ],
       "checkedAt": "2026-11-08",
@@ -5644,7 +5668,7 @@
           "url": "https://hobonichi.snar.jp/entry.aspx?entryid=746f0812-cc8f-475a-b5e6-5a21b82079eb"
         }
       ],
-      "notes": "实施流程列2027年2月初–3月，募集要项另写1–3月，具体日程待核。原则在东京神田办公室/工作室，部分工作可远程。实习期间他社就業限制的适用范围待核。面试候选为12/17–19、1/8–9，可能调整，形式未公布。",
+      "notes": "实施流程列2027年2月初–3月，募集要项另写1–3月，具体日程待核。原则在东京神田办公室/工作室，部分工作可远程。实习期间他社就業限制的适用范围待核。面试候选为12/17–19、1/8–9，可能调整，形式未公布。 书类结果预计12月中旬（全员），最终参加名单预计1月中旬；未公布具体日期。",
       "milestones": [
         {
           "type": "open",
@@ -5931,7 +5955,7 @@
       "statusDetail": "28卒接受范围内的线下设计企划课程，须符合官网无就职经历及日语沟通要求；未申请。",
       "description": "在静冈县磐田市总部参加。围绕未来用户需求与体验价值构思概念，用文字和视觉表达，与团队讨论推进。全程日语；适性测试可申请英语。",
       "nextAction": "11/30 12:00前在该项目MyPage完成问卷预登记并选设计企划；12/10 12:00前完成测试、履历式资料、作品集PDF（10MB以下）和证件照。",
-      "notes": "根据官网，企业按规定补助交通费并安排指定住宿与餐食。12月底预计公布选考结果；实习未公布出勤钟点或现金报酬。",
+      "notes": "根据官网，企业按规定补助交通费并安排指定住宿与餐食。12月底预计公布选考结果；实习未公布出勤钟点或现金报酬。 选考结果预计12月底，未公布具体日期。",
       "checkedAt": "2026-11-12",
       "sources": [
         {
@@ -6098,7 +6122,7 @@
       "description": "02-08 电子钢琴 UI：浜松本社。制作或改善原型，用试作机验证易用性。；02-09 电子键盘 UI：浜松本社。提出操作改善方案、试作并做易用性验证。；04-03 面向初学者的音乐体验原型：横滨港未来。可用 App、Web 或装置试作，让人试用后评估；文理不限。",
       "intro": "ヤマハ株式会社的电子乐器 UI 验证及音乐体验原型课题。三个课题共用一般实习申请流程。",
       "nextAction": "11/25 09:00（日本时间）前通过 Yamaha MyPage 完成 ES、主题意向表、Web 适性测试和照片。",
-      "notes": "2027/2/12–19 线下六个实习日，出勤钟点未公开。02-08及02-09偏好信息类；编程、电子乐器、MIDI、Figma及易用性评估中有若干经验为加分，编程题仅问有经验者。04-03文理不限，官网列多种试作方式。一般实习按规定补交通、安排住宿，日当1,000日元另加餐费。与2月上旬独立设计师实习及 Yamaha Motor 分开。",
+      "notes": "2027/2/12–19 线下六个实习日，出勤钟点未公开。02-08及02-09偏好信息类；编程、电子乐器、MIDI、Figma及易用性评估中有若干经验为加分，编程题仅问有经验者。04-03文理不限，官网列多种试作方式。一般实习按规定补交通、安排住宿，日当1,000日元另加餐费。与2月上旬独立设计师实习及 Yamaha Motor 分开。 书类结果最迟12/3，线上面试12/9–15按主题安排，面试者最终结果最迟12/21。",
       "sources": [
         {
           "label": "冬季一般实习官方募集、资格和截止",
@@ -6141,6 +6165,18 @@
           "date": "2027-02-12",
           "endDate": "2027-02-19",
           "label": "线下实习（六天，课题决定地点）"
+        },
+        {
+          "type": "reference",
+          "date": "2026-12-03",
+          "label": "最迟通知书类结果（全员）",
+          "requiresVerification": true
+        },
+        {
+          "type": "reference",
+          "date": "2026-12-21",
+          "label": "最迟通知最终结果（面试者）",
+          "requiresVerification": true
         }
       ]
     },
@@ -6282,6 +6318,459 @@
           },
           "bookingStage": "候选／未申请",
           "nextAction": "通过公司28卒MyPage核实登记及席位。"
+        }
+      ]
+    },
+    {
+      "id": "internship-okamura-2028-winter-product",
+      "company": "オカムラ",
+      "title": "28卒 秋冬五天实习｜产品设计",
+      "category": "internship",
+      "subtype": "设计实务实习",
+      "status": "候选／未申请",
+      "statusDetail": "官网公布受理期限，东京线下，未申请。",
+      "description": "面向家具与办公产品，通过用户调研、概念构思、细化和发表体验设计流程。",
+      "nextAction": "从官方 MyPage 确认课程材料并完成 ES、作品集及约40分钟适性测试。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "オカムラ28卒秋冬实习官方要项",
+          "url": "https://www.i-note.jp/okamura/internship/index.html"
+        },
+        {
+          "label": "官方 MyPage",
+          "url": "https://mypage.3030.i-webs.jp/okamura2028/"
+        }
+      ],
+      "notes": "作品集5–10页、5MB以内；超额按书类筛选，截止后邮件通知，具体日未公布。多个课程可申请，但同时间课程只能出席一项。五天课程按规定补交通，远方住宿可由公司安排。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-16T12:00",
+          "label": "申请材料截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-01",
+          "label": "候选：东京线下实习",
+          "endDate": "2027-02-05"
+        }
+      ]
+    },
+    {
+      "id": "internship-okamura-2028-winter-office",
+      "company": "オカムラ",
+      "title": "28卒 秋冬五天实习｜办公室空间设计",
+      "category": "internship",
+      "subtype": "设计实务实习",
+      "status": "候选／未申请",
+      "statusDetail": "官网公布受理期限，东京线下，未申请。",
+      "description": "体验办公室空间规划和工作方式设计。",
+      "nextAction": "从官方 MyPage 确认课程材料并完成 ES、作品集及约40分钟适性测试。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "オカムラ28卒秋冬实习官方要项",
+          "url": "https://www.i-note.jp/okamura/internship/index.html"
+        },
+        {
+          "label": "官方 MyPage",
+          "url": "https://mypage.3030.i-webs.jp/okamura2028/"
+        }
+      ],
+      "notes": "作品集5–10页、5MB以内；超额按书类筛选，截止后邮件通知，具体日未公布。多个课程可申请，但同时间课程只能出席一项。五天课程按规定补交通，远方住宿可由公司安排。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-16T12:00",
+          "label": "申请材料截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-14",
+          "label": "候选：东京线下实习",
+          "endDate": "2026-12-18"
+        }
+      ]
+    },
+    {
+      "id": "internship-okamura-2028-winter-store",
+      "company": "オカムラ",
+      "title": "28卒 秋冬五天实习｜店铺空间设计",
+      "category": "internship",
+      "subtype": "设计实务实习",
+      "status": "候选／未申请",
+      "statusDetail": "官网公布受理期限，东京线下，未申请。",
+      "description": "体验店铺布局与购物空间设计。",
+      "nextAction": "从官方 MyPage 确认课程材料并完成 ES、作品集及约40分钟适性测试。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "オカムラ28卒秋冬实习官方要项",
+          "url": "https://www.i-note.jp/okamura/internship/index.html"
+        },
+        {
+          "label": "官方 MyPage",
+          "url": "https://mypage.3030.i-webs.jp/okamura2028/"
+        }
+      ],
+      "notes": "作品集5–10页、5MB以内；超额按书类筛选，截止后邮件通知，具体日未公布。多个课程可申请，但同时间课程只能出席一项。五天课程按规定补交通，远方住宿可由公司安排。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-16T12:00",
+          "label": "申请材料截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-14",
+          "label": "候选：东京线下实习",
+          "endDate": "2026-12-18"
+        }
+      ]
+    },
+    {
+      "id": "internship-mizuno-2028-design-5days",
+      "company": "ミズノ",
+      "title": "28卒 设计职五天实习｜产品／平面／服装",
+      "category": "internship",
+      "subtype": "设计实务实习",
+      "status": "候选／未申请",
+      "statusDetail": "企业公布11/17截止，钟点及五天具体日期待 MyPage 核实。",
+      "description": "在大阪 MIZUNO ENGINE 体验设计实务并获反馈，企业公开课程示例含产品／平面与服装设计。",
+      "nextAction": "进入公司当期报名系统核对具体设计分支、截止钟点、日期及材料，再决定是否投递。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "企业发布的28卒设计实习要项",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=57159&optNo=EDRuV"
+        },
+        {
+          "label": "ミズノ官方28卒MyPage",
+          "url": "https://axol.jp/zw/s/mizuno_28/mypage/login"
+        }
+      ],
+      "notes": "企业明确预计ES和小组面试；公开课程内容与部分资格沿用上期示例，当期作品集要求未核到。活动报酬栏写无报酬、无交通费及住宿费。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-17",
+          "label": "募集截止（钟点待 MyPage）"
+        }
+      ]
+    },
+    {
+      "id": "workshop-hakuhodo-products-creative-muscle-gym-2028",
+      "company": "博報堂プロダクツ",
+      "title": "CREATIVE MUSCLE GYM｜广告创意与体验设计",
+      "category": "activity",
+      "subtype": "三天创意工作体验",
+      "status": "候选／未申请",
+      "statusDetail": "公司公布11/17报名及ES截止，三天必须参加。",
+      "description": "设计、文案策划、技术分组后以跨领域团队完成体验设计和创意表达任务。",
+      "nextAction": "先核对三天出勤安排；如果能全程参加，从企业募集入口提交ES。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "企业发布的募集及日程",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=85503&optNo=qr14Y"
+        }
+      ],
+      "notes": "报名钟点未公布；若超额按ES筛选，11/24起只联系通过者。第一天线上，第二、三天东京丰洲线下。无报酬，远距离交通补助有条件。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-17",
+          "label": "报名与ES截止（钟点未公布）"
+        },
+        {
+          "type": "reference",
+          "date": "2026-11-24",
+          "label": "起通知选考通过者",
+          "requiresVerification": true
+        },
+        {
+          "type": "event",
+          "date": "2026-12-03T13:00",
+          "label": "第1天：线上",
+          "endDate": "2026-12-03T16:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-05T13:00",
+          "label": "第2天：丰洲线下",
+          "endDate": "2026-12-05T17:30"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-06T10:00",
+          "label": "第3天：丰洲线下",
+          "endDate": "2026-12-06T17:30"
+        }
+      ]
+    },
+    {
+      "id": "workshop-pivot-2028-uiux-1day",
+      "company": "PIVOT",
+      "title": "28卒 UI/UX一日工作体验",
+      "category": "activity",
+      "subtype": "UI/UX工作坊",
+      "status": "候选／未申请",
+      "statusDetail": "企业接受报名意向，两场均为东京北青山线下，余位和截止未公布。",
+      "description": "分析现有App使用问题，制作人物画像和用户旅程图，由设计师、工程师和导演等员工反馈。28卒，专业不限，接受设计初学者。",
+      "nextAction": "选一场，从企业发布页表达意向，由招聘方回复后确定具体场次。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "公司发布的28卒工作体验",
+          "url": "https://www.wantedly.com/projects/2626974"
+        },
+        {
+          "label": "PIVOT官方招聘系统",
+          "url": "https://pivot-recruit.snar.jp/"
+        }
+      ],
+      "notes": "无指定事前准备，未公布报酬、选考结果通知日及剩余名额。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-28T13:00",
+          "label": "候选：东京北青山线下",
+          "endDate": "2026-11-28T17:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-21T13:00",
+          "label": "候选：东京北青山线下",
+          "endDate": "2026-12-21T17:00"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-pivot-2028-uiux-1day::2026-11-28T13:00",
+          "eventStart": "2026-11-28T13:00",
+          "eventEnd": "2026-11-28T17:00",
+          "reservationRequired": true,
+          "registrationMethod": "Wantedly表达报名意向，等待公司回信选择场次。",
+          "opensAt": null,
+          "deadline": null,
+          "firstComeFirstServed": null,
+          "availabilityState": "unknown",
+          "availabilityLabel": "公开征集，名额未公开。",
+          "availabilityCheckedAt": "2026-11-14T00:24:09+09:00",
+          "availabilitySource": {
+            "label": "当期公开募集",
+            "url": "https://www.wantedly.com/projects/2626974"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Wantedly表达报名意向，等待公司回信选择场次。"
+        },
+        {
+          "id": "workshop-pivot-2028-uiux-1day::2026-12-21T13:00",
+          "eventStart": "2026-12-21T13:00",
+          "eventEnd": "2026-12-21T17:00",
+          "reservationRequired": true,
+          "registrationMethod": "Wantedly表达报名意向，等待公司回信选择场次。",
+          "opensAt": null,
+          "deadline": null,
+          "firstComeFirstServed": null,
+          "availabilityState": "unknown",
+          "availabilityLabel": "公开征集，名额未公开。",
+          "availabilityCheckedAt": "2026-11-14T00:24:09+09:00",
+          "availabilitySource": {
+            "label": "当期公开募集",
+            "url": "https://www.wantedly.com/projects/2626974"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Wantedly表达报名意向，等待公司回信选择场次。"
+        }
+      ]
+    },
+    {
+      "id": "internship-epson-2028-design-program-feb",
+      "company": "Epson／セイコーエプソン",
+      "title": "28卒 设计部门冬季实习｜GUI／UX／平面／产品",
+      "category": "internship",
+      "subtype": "预告｜五天设计实习",
+      "status": "候选／未申请",
+      "statusDetail": "11/19开始申请，开放时刻未公布。长野盐尻线下。",
+      "description": "含产品、平面、GUI与易用性方向，通过小组研究和个人设计提案体验设计工作。",
+      "nextAction": "开放后从官方入口核对当期申请按钮与材料细则；已有No.68路线，先查本人是否可并报。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "官方设计部门冬季实习",
+          "url": "https://www.recruit.epson.jp/newgraduate/internship.html"
+        },
+        {
+          "label": "官方Entry入口",
+          "url": "https://www.recruit.epson.jp/entry/"
+        }
+      ],
+      "notes": "本人大学或研究生代表作3件，A3横向3页PDF，合计不超过2MB；网测与作品评审通过后面试。无报酬，按规定支持交通和住宿；结果日期未公布。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-19",
+          "label": "官网预告开始受理（时刻未公布）"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-07",
+          "label": "上午截止（具体时刻未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-01",
+          "label": "候选：长野盐尻线下五天",
+          "endDate": "2027-02-05"
+        }
+      ]
+    },
+    {
+      "id": "workshop-npb-2028-banknote-layout-december",
+      "company": "国立印刷局",
+      "title": "钞票版面与通用设计｜半日工作体验",
+      "category": "activity",
+      "subtype": "通用设计工作坊",
+      "status": "候选／未申请",
+      "statusDetail": "官网两场标为受理中，先到先得，Mynavi实际余位尚未核实。",
+      "description": "围绕日本纸币的券面结构与无障碍性完成小组设计提案与发表，研究生可参加，文理及年级不限。",
+      "nextAction": "在官方指向的Mynavi报名页核对实际余位，从上午和下午场中选一场。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "国立印刷局官方逐场日程",
+          "url": "https://www.npb.go.jp/recruit/intern2028.html"
+        }
+      ],
+      "notes": "东京虎之门线下，先到先得、满额关闭。未公布单场截止和实时报名人数。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-19T09:00",
+          "label": "候选：东京本局线下",
+          "endDate": "2026-12-19T12:00"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-19T13:30",
+          "label": "候选：东京本局线下",
+          "endDate": "2026-12-19T16:30"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-npb-2028-banknote-layout-december::2026-12-19T09:00",
+          "eventStart": "2026-12-19T09:00",
+          "eventEnd": "2026-12-19T12:00",
+          "reservationRequired": true,
+          "registrationMethod": "在Mynavi2028核实余位并预约。",
+          "opensAt": null,
+          "deadline": null,
+          "firstComeFirstServed": true,
+          "availabilityState": "unknown",
+          "availabilityLabel": "官网写受理中；预约系统剩余席位未核实。",
+          "availabilityCheckedAt": "2026-11-14T00:24:09+09:00",
+          "availabilitySource": {
+            "label": "当期公开募集",
+            "url": "https://www.npb.go.jp/recruit/intern2028.html"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "在Mynavi2028核实余位并预约。"
+        },
+        {
+          "id": "workshop-npb-2028-banknote-layout-december::2026-12-19T13:30",
+          "eventStart": "2026-12-19T13:30",
+          "eventEnd": "2026-12-19T16:30",
+          "reservationRequired": true,
+          "registrationMethod": "在Mynavi2028核实余位并预约。",
+          "opensAt": null,
+          "deadline": null,
+          "firstComeFirstServed": true,
+          "availabilityState": "unknown",
+          "availabilityLabel": "官网写受理中；预约系统剩余席位未核实。",
+          "availabilityCheckedAt": "2026-11-14T00:24:09+09:00",
+          "availabilitySource": {
+            "label": "当期公开募集",
+            "url": "https://www.npb.go.jp/recruit/intern2028.html"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "在Mynavi2028核实余位并预约。"
+        }
+      ]
+    },
+    {
+      "id": "workshop-gk-graphics-2028-student-seminar",
+      "company": "GK Graphics",
+      "title": "28卒 GK Graphics学生研修｜平面与视觉设计",
+      "category": "activity",
+      "subtype": "四天设计工作坊",
+      "status": "候选／未申请",
+      "statusDetail": "官网公布12/18 15:00截止，未申请。",
+      "description": "株式会社GKグラフィックス面向28卒设计专业学生，做主题调研、构思、视觉设计及讲评。需能在电脑使用Illustrator和Photoshop。",
+      "nextAction": "从公司官网取指定ES，备一张A3横版作品摘要，按当期要项发至公开募集入口。先核具体地点与出勤形式。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "GK Graphics官方通知及ES",
+          "url": "https://www.gk-graphics.jp/recruit"
+        },
+        {
+          "label": "当期学生研修募集PDF",
+          "url": "https://www.gk-graphics.jp/wp-content/themes/gk_wp/assets/img/recruit/2027_Gra_StudentSeminar_info.pdf"
+        }
+      ],
+      "notes": "约10人，作品摘要评审。作品摘要为PDF或JPG，约3MB以内；可用作品照片、草图、文字呈现。最终日交流预计到18:00。官方公开要项未明确活动地点／形式。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-18T15:00",
+          "label": "指定ES与一页作品摘要截止"
+        },
+        {
+          "type": "reference",
+          "date": "2027-01-08",
+          "label": "最迟邮件通知选考结果",
+          "requiresVerification": true
+        },
+        {
+          "type": "event",
+          "date": "2027-01-26",
+          "label": "候选：四天研修，每日10:00–17:00",
+          "endDate": "2027-01-29"
+        }
+      ]
+    },
+    {
+      "id": "feedback-cyberconnect2-2028-winter-game-ui",
+      "company": "CyberConnect2",
+      "title": "冬季游戏UI作品反馈会｜2D UI与图标",
+      "category": "activity",
+      "subtype": "作品集反馈",
+      "status": "候选／未申请",
+      "statusDetail": "官网发布当期作品募集，入选后协调一次60分钟反馈。",
+      "description": "只需提供能体现能力的作品，可仅用游戏UI或图标；不限制年级。可选线上，也可到公司现场。",
+      "nextAction": "准备小于20MB的作品集PDF或可查看的作品链接，从官方页进入申请表。被选中后确认具体时间。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "CyberConnect2官方冬季作品反馈会",
+          "url": "https://www.cc2.co.jp/recruit/?page_id=12225"
+        }
+      ],
+      "notes": "2/2、2/3、2/9、2/10 四天中安排一场，10:00–17:00内约60分钟。截止后两周内公司邮件联系，具体场次并未预约。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2027-01-15",
+          "label": "申请及作品提交截止（钟点未公布）"
+        },
+        {
+          "type": "reference",
+          "date": "2027-01-29",
+          "label": "公司预计最迟联系（按截止后两周推算）",
+          "requiresVerification": true
         }
       ]
     }
