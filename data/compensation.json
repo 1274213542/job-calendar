@@ -4814,6 +4814,44 @@
           }
         }
       ]
+    },
+    {
+      "name": "マイクロニティ／株式会社マイクロニティ",
+      "aliases": [
+        "マイクロニティ",
+        "株式会社マイクロニティ",
+        "Micronity"
+      ],
+      "roles": [
+        {
+          "role": "28卒／デザイナー",
+          "scope": "2028年3月毕业，新卒正社员，东京涩谷",
+          "monthly": "300,000円起，含基本给218,000円、固定加班费77,000円、统一津贴5,000円。",
+          "annual": "360万円起（300,000円×12，不含奖金；雇主岗位的HERP再版亦标360万円起）。",
+          "bonus": "每年1次，按业绩。",
+          "overtime": "固定加班费合计对应普通加班40小时及深夜20小时；这是工资计算口径，实际加班时长未知。",
+          "benefits": "社保、双休及节假日；弹性工作制核心时间11:00–16:00，未公布在宅。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "雇主当期28卒设计募集",
+              "url": "https://herp.careers/v1/micronity/TqlSZYlTyqGP"
+            },
+            {
+              "label": "同一雇主岗位的HERP再版",
+              "url": "https://herp.careers/careers/companies/micronity/jobs/TqlSZYlTyqGP"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 300000,
+            "annualJPY": 3600000,
+            "monthlyLabel": "公布月薪起点（含固定支付）",
+            "annualLabel": "月薪×12（不含奖金）",
+            "reference": false
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "updatedAt": "2026-11-13T09:19:10+09:00"
 }

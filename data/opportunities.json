@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T21:11:45+09:00",
+  "updatedAt": "2026-11-13T09:19:10+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -513,10 +513,10 @@
       "category": "internship",
       "subtype": "即将开放",
       "status": "候选／计划申请",
-      "statusDetail": "尚未开放",
+      "statusDetail": "官网公布当期报名窗口已开始；MyPage指定题面和文件格式待核。",
       "description": "乐器、音响与数字设备；Yamaha本社；日当1,000日元＋餐费；交通住宿支持；学习产品设计者；提交指定课题；申请时不交PF、参加时携带",
-      "nextAction": "11/9查看MyPage冬期课题，确认产品设计资格及材料要求；申请时交指定课题，作品集入选后携带。",
-      "checkedAt": "2026-11-08",
+      "nextAction": "在MyPage核当期指定课题、文件格式与产品设计资格；申请时交指定课题，作品集在入选参加时携带。",
+      "checkedAt": "2026-11-13",
       "sources": [
         {
           "label": "原始来源",
@@ -5964,6 +5964,27 @@
         }
       ],
       "intro": "雅马哈发动机设计企划团队通过用户访谈和田野观察确定产品与体验方向。"
+    },
+    {
+      "id": "selection-micronity-designer-2028",
+      "company": "マイクロニティ／株式会社マイクロニティ",
+      "title": "28卒 设计师｜Web UI/UX、信息设计",
+      "category": "selection",
+      "subtype": "正式选考",
+      "status": "候选／未申请",
+      "statusDetail": "雇主28卒设计岗位公开受理；未公布截止与在宅政策。",
+      "intro": "东京涩谷的数字产品公司，岗位覆盖Web产品UI/UX、信息设计、品牌和平面。",
+      "description": "2028年3月四年制大学或大学院毕业可申请。要求设计工具经验、做过Web服务设计、可提交含制作过程的作品集。",
+      "nextAction": "通过雇主招聘页查看申请字段；若在宅办公是必要条件，先核工作制度再决定投递。",
+      "checkedAt": "2026-11-13",
+      "sources": [
+        {
+          "label": "雇主28卒设计岗位与申请入口",
+          "url": "https://herp.careers/v1/micronity/TqlSZYlTyqGP"
+        }
+      ],
+      "notes": "具体岗位的申请期限、在宅安排及审核阶段未公布。",
+      "milestones": []
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",
