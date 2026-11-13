@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T09:19:10+09:00",
+  "updatedAt": "2026-11-13T13:02:35+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -5985,6 +5985,103 @@
       ],
       "notes": "具体岗位的申请期限、在宅安排及审核阶段未公布。",
       "milestones": []
+    },
+    {
+      "id": "selection-celsys-uiux-2028",
+      "company": "セルシス／株式会社セルシス",
+      "title": "28卒 UI/UX 设计师｜CLIP STUDIO PAINT",
+      "category": "selection",
+      "subtype": "正式选考",
+      "status": "候选／未申请",
+      "statusDetail": "当届公开募集已核，未申请。",
+      "intro": "为 CLIP STUDIO PAINT 及相关服务设计界面、做用户研究和可用性评估。",
+      "description": "27／28卒全年受理，东京西新宿，可在宅并按需到岗。无手绘必交；绘画经验属于欢迎条件，作品可展示UI。",
+      "nextAction": "从岗位页进入申请；准备日文带照片履历和自己PR书或作品集，先核官方指南与生成内容限制。",
+      "notes": "统一截止未列。先书类，再两轮面试（可能第三轮）；修士没有单列初任给。",
+      "sources": [
+        {
+          "label": "官方UI/UX职位",
+          "url": "https://www.celsys.com/recruit/id=2380"
+        },
+        {
+          "label": "新卒招募",
+          "url": "https://www.celsys.com/employment/newgrads/"
+        },
+        {
+          "label": "作品指南",
+          "url": "https://www.celsys.com/employment/guidelines/"
+        }
+      ],
+      "milestones": [],
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "id": "selection-cyberconnect2-game-ui-2028",
+      "company": "サイバーコネクトツー／株式会社サイバーコネクトツー",
+      "title": "28卒 游戏界面设计师｜インターフェイスデザイナー",
+      "category": "selection",
+      "subtype": "正式选考",
+      "status": "候选／未申请",
+      "statusDetail": "当届公开募集已核，未申请。",
+      "intro": "负责游戏界面开发。UI与角色、场景等美术方向分开，要求有游戏UI制作经历。",
+      "description": "28卒一期现在可随时投递。官方列2028年3月毕业学生，公司同职种招聘刊登写学历不限。东京、福冈或大阪，按志愿安排；东京入职预计赴福冈研修1–2周。",
+      "nextAction": "有游戏UI作品才走正式选考；准备照片履历、艺术岗位问卷及游戏UI作品（PDF建议约20MB以内）。",
+      "notes": "一期截止2027/3/14，钟点未公布；不强制参加说明会，无统一素描。官网允许落选后在作品确有进步时再投。",
+      "sources": [
+        {
+          "label": "官方游戏UI分支及薪资材料",
+          "url": "https://www.cc2.co.jp/recruit/?p=3575"
+        },
+        {
+          "label": "28卒一期截止",
+          "url": "https://www.cc2.co.jp/recruit/?page_id=3284"
+        },
+        {
+          "label": "公司发布的游戏UI新卒岗",
+          "url": "https://en-gage.net/user/search/desc/2745820/"
+        },
+        {
+          "label": "官方FAQ与再応募",
+          "url": "https://www.cc2.co.jp/recruit/?page_id=909"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2027-03-14",
+          "label": "28卒第一期报名截止（钟点未公布）"
+        }
+      ],
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "id": "selection-ueyesdesign-uiux-2028",
+      "company": "U’eyes Design／株式会社U’eyes Design",
+      "title": "28卒 UI/UX・服务设计师",
+      "category": "selection",
+      "subtype": "正式选考",
+      "status": "候选／未申请",
+      "statusDetail": "当届公开募集已核，未申请。",
+      "intro": "以用户研究为起点，设计产品与服务，工作含信息架构、交互原型及可用性测试。",
+      "description": "2028年3月大学院修了可申请。东京恵比寿；入社约半年先出社，之后可在宅。修士起薪223,360日元，接近但高于22万。",
+      "nextAction": "从雇主表单选择新卒设计师，准备志望动机与可说明研究和迭代的项目；首表未列作品集附件。",
+      "notes": "未公布统一截止；先书类、现场经理一面、适性检查、役员二面。无同届再投规则实证。",
+      "sources": [
+        {
+          "label": "官方新卒设计师要项",
+          "url": "https://www.ueyesdesign.co.jp/recruit/about.html"
+        },
+        {
+          "label": "官方应聘表",
+          "url": "https://www.ueyesdesign.co.jp/recruit/entry.html"
+        },
+        {
+          "label": "雇主刊登28卒职位",
+          "url": "https://en-gage.net/user/search/desc/5114115/"
+        }
+      ],
+      "milestones": [],
+      "checkedAt": "2026-11-13"
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",

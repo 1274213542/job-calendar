@@ -4851,7 +4851,128 @@
           }
         }
       ]
+    },
+    {
+      "name": "セルシス／株式会社セルシス",
+      "aliases": [
+        "セルシス"
+      ],
+      "roles": [
+        {
+          "role": "28卒 UI/UX 设计师",
+          "scope": "27／28卒新卒正社员；修士未单列待遇",
+          "monthly": "260,000日元起，雇主将固定加班费计入该月额；剔除63,493日元后的下限算术参考为196,507日元。",
+          "annual": "官方预计3,812,000日元起（含每月10,000日在宅或弹性工作津贴）。",
+          "bonus": null,
+          "overtime": "63,493日元起覆盖45小时/月时间外劳动；超出另付。未单列深夜部分；设计团队实绩未核。",
+          "benefits": "新宿办公室或在宅；必要的团队活动可能需到办公室。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "官方UI/UX职位",
+              "url": "https://www.celsys.com/recruit/id=2380"
+            },
+            {
+              "label": "新卒招募",
+              "url": "https://www.celsys.com/employment/newgrads/"
+            },
+            {
+              "label": "作品指南",
+              "url": "https://www.celsys.com/employment/guidelines/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 260000,
+            "annualJPY": 3812000,
+            "monthlyLabel": "公布月薪下限（是否含固定支付见明细）",
+            "annualLabel": "官方预计年收下限",
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "サイバーコネクトツー／株式会社サイバーコネクトツー",
+      "aliases": [
+        "サイバーコネクトツー"
+      ],
+      "roles": [
+        {
+          "role": "28卒 游戏UI／Junior",
+          "scope": "28卒正式员工Junior标准，未公布修士专属差额",
+          "monthly": "231,000日元起：基本160,000＋级别45,000＋固定加班24,000＋技能2,000起。",
+          "annual": "2,772,000日元（月薪下限×12，不含其他收入）。",
+          "bonus": null,
+          "overtime": "Junior固定加班覆盖普通时间外14小时，官网称该等级不得超出；非实际平均。Intermediate固定30小时55,000，超出另付。未单列深夜。",
+          "benefits": "东京／福冈／大阪；东京入职可能先在福冈研修；首约3个月231,000日元。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "官方游戏UI分支及薪资材料",
+              "url": "https://www.cc2.co.jp/recruit/?p=3575"
+            },
+            {
+              "label": "28卒一期截止",
+              "url": "https://www.cc2.co.jp/recruit/?page_id=3284"
+            },
+            {
+              "label": "公司发布的游戏UI新卒岗",
+              "url": "https://en-gage.net/user/search/desc/2745820/"
+            },
+            {
+              "label": "官方FAQ与再応募",
+              "url": "https://www.cc2.co.jp/recruit/?page_id=909"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 231000,
+            "annualJPY": 2772000,
+            "monthlyLabel": "公布月薪下限（是否含固定支付见明细）",
+            "annualLabel": "月薪×12（不含其他收入）",
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "U’eyes Design／株式会社U’eyes Design",
+      "aliases": [
+        "U’eyes Design"
+      ],
+      "roles": [
+        {
+          "role": "28卒 UI/UX、服务设计师",
+          "scope": "大学院毕业薪资（本科217,000日元不适用）",
+          "monthly": "223,360日元起（修士）；另列通勤与资格津贴。",
+          "annual": null,
+          "bonus": "每年两次，按业绩。",
+          "overtime": "官网将时间外、深夜和休日割增津贴分列；未列固定加班金额或小时。设计队实际工时未核。",
+          "benefits": "东京恵比寿；初期约半年到岗，之后可在宅；125天年休、弹性制依官网。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "官方新卒设计师要项",
+              "url": "https://www.ueyesdesign.co.jp/recruit/about.html"
+            },
+            {
+              "label": "官方应聘表",
+              "url": "https://www.ueyesdesign.co.jp/recruit/entry.html"
+            },
+            {
+              "label": "雇主刊登28卒职位",
+              "url": "https://en-gage.net/user/search/desc/5114115/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 223360,
+            "annualJPY": null,
+            "monthlyLabel": "公布月薪下限（是否含固定支付见明细）",
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-13T09:19:10+09:00"
+  "updatedAt": "2026-11-13T13:02:35+09:00"
 }

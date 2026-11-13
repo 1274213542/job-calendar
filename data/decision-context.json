@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-13",
   "note": "项目报酬、选考流程与公司入职待遇分开。倍率仅采用相同届别、岗位、批次的可靠统计；计划名额不是实际录取人数。",
   "projects": [
     {
@@ -425,6 +425,85 @@
         {
           "label": "说明会之后的ES提交方式",
           "url": "https://atsu-maru.co.jp/recruit/entry/"
+        }
+      ]
+    },
+    {
+      "id": "selection-celsys-uiux-2028",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "雇主表单 → 书类 → 一面 → 二面（可能三面）。",
+      "selectionRate": null,
+      "selectionRateNote": "未公开同届同岗申请与录取数。",
+      "requirementsNote": "日文带照片履历及自己PR书或作品集（PDF/URL）；先看本职作品要求；含生成内容的材料可能不予审查。",
+      "fitNote": "自有工具的产品交互、复杂功能可发现性与可用性，岗位明确含研究与评估。",
+      "checkedAt": "2026-11-13",
+      "sources": [
+        {
+          "label": "官方UI/UX职位",
+          "url": "https://www.celsys.com/recruit/id=2380"
+        },
+        {
+          "label": "新卒招募",
+          "url": "https://www.celsys.com/employment/newgrads/"
+        },
+        {
+          "label": "作品指南",
+          "url": "https://www.celsys.com/employment/guidelines/"
+        }
+      ]
+    },
+    {
+      "id": "selection-cyberconnect2-game-ui-2028",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "正式表单交材料 → 书类 → 一次与最终面试等；近场通常到场，远方可依阶段安排线上。",
+      "selectionRate": null,
+      "selectionRateNote": "未公开同届同岗申请与录取数。",
+      "requirementsNote": "带照片履历、艺术岗位问卷、对应游戏UI作品，数量/种类不限；PDF建议20MB以内；要求游戏UI相关制作经验。",
+      "fitNote": "游戏菜单、HUD、可读性与交互反馈；没有合适作品时，先看作品反馈会比硬投更合适。",
+      "checkedAt": "2026-11-13",
+      "sources": [
+        {
+          "label": "官方游戏UI分支及薪资材料",
+          "url": "https://www.cc2.co.jp/recruit/?p=3575"
+        },
+        {
+          "label": "28卒一期截止",
+          "url": "https://www.cc2.co.jp/recruit/?page_id=3284"
+        },
+        {
+          "label": "公司发布的游戏UI新卒岗",
+          "url": "https://en-gage.net/user/search/desc/2745820/"
+        },
+        {
+          "label": "官方FAQ与再応募",
+          "url": "https://www.cc2.co.jp/recruit/?page_id=909"
+        }
+      ]
+    },
+    {
+      "id": "selection-ueyesdesign-uiux-2028",
+      "internPay": null,
+      "internPayScope": null,
+      "selectionProcess": "官方表单 → 书类 → 现场经理面试 → 适性检查 → 役员面试。",
+      "selectionRate": null,
+      "selectionRateNote": "未公开同届同岗申请与录取数。",
+      "requirementsNote": "首表必填求职类别、姓名、邮箱、最高学历、志望动机；首表未列作品集附件，后续材料以公司通知为准。",
+      "fitNote": "研究→原型→用户测试，适合练产品与服务设计的完整设计过程。",
+      "checkedAt": "2026-11-13",
+      "sources": [
+        {
+          "label": "官方新卒设计师要项",
+          "url": "https://www.ueyesdesign.co.jp/recruit/about.html"
+        },
+        {
+          "label": "官方应聘表",
+          "url": "https://www.ueyesdesign.co.jp/recruit/entry.html"
+        },
+        {
+          "label": "雇主刊登28卒职位",
+          "url": "https://en-gage.net/user/search/desc/5114115/"
         }
       ]
     }
