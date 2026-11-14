@@ -29,6 +29,10 @@
   margin: 20px 0 12px;
 }
 .pay-panel [hidden] { display: none !important; }
+.pay-tier-filter { display: flex; flex: 0 0 100%; flex-wrap: wrap; gap: 6px; }
+.pay-tier-filter button { min-height: 40px; padding: 6px 12px; border: 1px solid #c8d3e2; border-radius: 8px; background: #fff; color: #384c68; font-size: 13px; }
+.pay-tier-filter button[aria-pressed="true"] { border-color: #263f92; background: #263f92; color: #fff; font-weight: 700; }
+.pay-tier-filter button:focus-visible { outline: 2px solid #547ac5; outline-offset: 2px; }
 #pay-mode {
   display: inline-flex;
   gap: 3px;
@@ -81,6 +85,11 @@
 .pay-company-name { flex: 1; min-width: 0; }
 .pay-company-name strong { display: block; font-size: 15px; font-weight: 700; color: #233449; overflow-wrap: anywhere; }
 .pay-company-name small { display: block; margin-top: 4px; color: #728096; font-size: 11px; line-height: 1.5; }
+.pay-tier-label { display: inline-block; margin-top: 5px; padding: 2px 7px; border-radius: 5px; background: #edf1f6; color: #4d5d73; font-size: 11px; line-height: 1.45; }
+.pay-tier-priority { background: #e3f3eb; color: #216148; }
+.pay-tier-consider { background: #e9effb; color: #2d4e85; }
+.pay-tier-practice { background: #fbefde; color: #78511d; }
+.pay-tier-reason { margin: 0; padding: 6px 4px 12px; color: #344961; font-size: 13px; line-height: 1.55; overflow-wrap: anywhere; }
 .pay-company-number { text-align: right; flex-shrink: 0; }
 .pay-company-number b { display: block; color: #28466a; font-size: 16px; font-weight: 650; font-variant-numeric: tabular-nums; }
 .pay-company-number small { display: block; color: #728096; font-size: 10px; margin-top: 4px; }
@@ -173,6 +182,8 @@
   .pay-panel .panel-heading { flex-wrap: wrap; gap: 6px; }
   .pay-controls { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; margin-top: 15px; }
   #pay-mode { grid-column: 1 / -1; justify-self: start; margin-bottom: 2px; }
+  .pay-tier-filter { grid-column: 1 / -1; }
+  .pay-tier-filter button { padding-inline: 9px; font-size: 12px; }
   .pay-controls label { display: grid; gap: 3px; }
   .pay-search { margin: 0; }
   .pay-sort { grid-column: 1 / -1; }

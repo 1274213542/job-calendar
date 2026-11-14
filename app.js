@@ -160,7 +160,7 @@ function bind(){
 try{const response=await fetch('./data/opportunities.json',{cache:'no-store'});if(!response.ok)throw new Error(`HTTP ${response.status}`);state.data=await response.json();$('#today-label').textContent=`${today.slice(0,4)} / ${today.slice(5,7)} / ${today.slice(8)}`;$('#updated-label').textContent=`数据更新 ${state.data.updatedAt||'待核对'} · Asia/Tokyo`;renderFilters();bind();render();await mountDecisions(state.data);}catch(err){$('#calendar').innerHTML=`<p class="error">无法读取本地数据。请按说明启动本地服务器后访问此页面。<br>${esc(err.message)}</p>`;}
 
 if (state.data) {
-  import('./compensation.js?v=20261108-sort')
+  import('./compensation.js?v=20261114-tiers')
     .then(async ({ mountCompensation }) => {
       addPayShortcut = await mountCompensation(state.data.opportunities);
     })

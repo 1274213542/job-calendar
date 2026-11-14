@@ -1,6 +1,12 @@
 const PAGE_SIZE = 80;
 const collator = new Intl.Collator('ja', { sensitivity: 'base', numeric: true });
 const groups = { contact: 0, plan: 1, reference: 2, history: 3 };
+const tiers = {
+  priority: { label: '优先认真考虑', order: 0 },
+  consider: { label: '还可以／备选', order: 1 },
+  pending: { label: '待核', order: 2 },
+  practice: { label: '练手专区', order: 3 }
+};
 const organizers = new Set(['ViViViT', 'ReDesigner', '武藏野美术大学', 'クリ博', 'デジタルスケープ'].map(key));
 const fields = {
   monthly: '月薪', annual: '年收', bonus: '奖金', overtime: '加班费',
@@ -26,12 +32,14 @@ function calendarGroup(status) {
   return 'plan';
 }
 
-function collectEmployers(companies, opportunities) {
+function collectEmployers(companies, opportunities, recruitingTiers) {
   const byAlias = new Map();
   const employers = [];
   function addCompany(company) {
     const names = [company.name, ...(company.aliases || [])];
-    const item = { ...company, group: null, searchNames: names.map(key) };
+    const rank = recruitingTiers?.[company.name];
+    const tier = Object.hasOwn(tiers, rank?.tier) ? rank.tier : 'pending';
+    const item = { ...company, tier, tierReason: rank?.reason, group: null, searchNames: names.map(key) };
     for (const name of names) byAlias.set(key(name), item);
     employers.push(item);
     return item;
@@ -85,6 +93,7 @@ function comparisonValue(item, metric) {
 export function sortCompensationItems(items, sort) {
   const [metric, direction] = sort.split('-');
   if (metric === 'default') return [...items];
+  if (metric === 'tier') return [...items].sort((a, b) => tiers[a.company.tier].order - tiers[b.company.tier].order);
   return [...items].sort((a, b) => {
     if (metric === 'name') return collator.compare(a.company.name, b.company.name) * (direction === 'asc' ? 1 : -1);
     const av = comparisonValue(a, metric), bv = comparisonValue(b, metric);
@@ -106,6 +115,7 @@ function companyList(items, mode, sort, expanded) {
     const identity = el('span', 'pay-company-name');
     identity.append(el('strong', '', company.name));
     if (job?.role) identity.append(el('small', '', job.role));
+    identity.append(el('span', 'pay-tier-label pay-tier-' + company.tier, tiers[company.tier].label));
     const value = el('span', 'pay-company-number');
     const displayMetric = ['monthly', 'annual', 'rating', 'overtime'].includes(metric) ? metric : mode === 'reviews' ? 'rating' : 'monthly';
     if (mode !== 'intern') {
@@ -121,6 +131,7 @@ function companyList(items, mode, sort, expanded) {
     function showDetails() {
       if (!card.open || rendered) return;
       rendered = true;
+      if (company.tierReason) body.append(el('p', 'pay-tier-reason', company.tierReason));
       if (mode === 'reviews') body.append(reviewCards([item]));
       else {
         const row = details(job, mode, '', 1);
@@ -291,21 +302,24 @@ export async function mountCompensation(opportunities) {
   const response = await fetch('./data/compensation.json', { cache: 'no-store' });
   if (!response.ok) throw new Error('Compensation data unavailable');
   const data = await response.json();
-  const employers = collectEmployers(data.companies, opportunities);
+  const employers = collectEmployers(data.companies, opportunities, data.recruitingTiers);
   const search = document.getElementById('pay-search');
   const filter = document.getElementById('pay-filter');
+  const tierFilter = document.getElementById('pay-tier');
   const sort = document.getElementById('pay-sort');
   const modes = document.getElementById('pay-mode');
   const results = document.getElementById('pay-results');
   const count = document.getElementById('pay-count');
   const more = document.getElementById('pay-more');
   let mode = 'employment';
+  let selectedTier = 'all';
   let limit = PAGE_SIZE;
   const expanded = new Set();
+  const tierSort = ['tier', '求职分档'];
   const sortChoices = {
-    employment: [['default', '已联系优先'], ['monthly-desc', '月薪：高 → 低'], ['monthly-asc', '月薪：低 → 高'], ['annual-desc', '年收：高 → 低'], ['annual-asc', '年收：低 → 高'], ['rating-desc', '评分：高 → 低'], ['rating-asc', '评分：低 → 高'], ['name-asc', '公司名称']],
-    intern: [['default', '已联系优先'], ['name-asc', '公司名称']],
-    reviews: [['rating-desc', '评分：高 → 低'], ['rating-asc', '评分：低 → 高'], ['overtime-asc', '加班：少 → 多'], ['overtime-desc', '加班：多 → 少'], ['default', '已联系优先'], ['name-asc', '公司名称']]
+    employment: [tierSort, ['default', '已联系优先'], ['monthly-desc', '月薪：高 → 低'], ['monthly-asc', '月薪：低 → 高'], ['annual-desc', '年收：高 → 低'], ['annual-asc', '年收：低 → 高'], ['rating-desc', '评分：高 → 低'], ['rating-asc', '评分：低 → 高'], ['name-asc', '公司名称']],
+    intern: [tierSort, ['default', '已联系优先'], ['name-asc', '公司名称']],
+    reviews: [tierSort, ['rating-desc', '评分：高 → 低'], ['rating-asc', '评分：低 → 高'], ['overtime-asc', '加班：少 → 多'], ['overtime-desc', '加班：多 → 少'], ['default', '已联系优先'], ['name-asc', '公司名称']]
   };
   const savedSorts = {};
   function refreshSortOptions() {
@@ -326,6 +340,7 @@ export async function mountCompensation(opportunities) {
     let companies = 0;
     for (const company of employers) {
       if (filter.value !== 'all' && company.group !== filter.value) continue;
+      if (selectedTier !== 'all' && company.tier !== selectedTier) continue;
       const roles = company.roles?.length ? company.roles : [{}];
       if (mode === 'reviews') {
         if (query && !company.searchNames.some(name => name.includes(query)) && !roles.some(job => key(job.role).includes(query))) continue;
@@ -354,6 +369,16 @@ export async function mountCompensation(opportunities) {
   }
   search.addEventListener('input', () => render());
   filter.addEventListener('change', () => render());
+  function setTier(tier) {
+    selectedTier = tier;
+    tierFilter.querySelectorAll('button').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.tier === tier)));
+  }
+  tierFilter.addEventListener('click', event => {
+    const button = event.target.closest('button[data-tier]');
+    if (!button || button.dataset.tier === selectedTier) return;
+    setTier(button.dataset.tier);
+    render();
+  });
   sort.addEventListener('change', () => { savedSorts[mode] = sort.value; render(); });
   function setMode(nextMode) {
     mode = nextMode;
@@ -372,6 +397,7 @@ export async function mountCompensation(opportunities) {
     const employer = employers.find(item => item.name === link.dataset.compareCompany);
     if (!employer) return;
     filter.value = 'all';
+    setTier('all');
     search.value = employer.name;
     setMode('employment');
   });
@@ -388,6 +414,7 @@ export async function mountCompensation(opportunities) {
     link.addEventListener('click', () => {
       container.closest('dialog').close();
       filter.value = 'all';
+      setTier('all');
       search.value = employer.name;
       const hasInternPay = employer.roles.some(job => job.intern);
       setMode(opportunity.category === 'internship' && hasInternPay ? 'intern' : 'employment');

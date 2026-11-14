@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-14",
   "companies": [
     {
       "name": "Goodpatch",
@@ -921,7 +921,7 @@
           "scope": "28卒 Creative正社员",
           "monthly": "290,000日元（基本220,600＋固定加班69,400）",
           "annual": "3,480,000日元（月薪×12，未含奖金）",
-          "bonus": "每年2次，首年按入社月份扣减；每年1次调薪。",
+          "bonus": "每年两次，按入社年月可能扣减。",
           "overtime": "69,400日元覆盖40小时/月，超出全付；公司整体实际月均15小时。",
           "benefits": "无核心时段全弹性，可远程；通勤往返每日最高3,000日元，另有居家津贴、租借社宅、持股、设备与健康支持。年休120天以上，2026年实绩126天。",
           "intern": null,
@@ -929,6 +929,10 @@
             {
               "label": "28卒Creative・官方岗位",
               "url": "https://sunasterisk-recruit.snar.jp/jobboard/detail.aspx?id=nSse34S0Ht4"
+            },
+            {
+              "label": "公司工作制度",
+              "url": "https://sun-asterisk.com/recruitment/benefits/"
             }
           ],
           "sortValues": {
@@ -937,7 +941,9 @@
             "monthlyLabel": "月薪",
             "annualLabel": "月薪×12",
             "reference": false
-          }
+          },
+          "checkedAt": "2026-11-14",
+          "evidenceNote": "2026年11月14日读当届Creative原文。公司月均15小时，统计期间未列；此数字与月薪含40小时固定加班分开。"
         }
       ],
       "employeeReviews": {
@@ -1997,8 +2003,8 @@
           "monthly": "400,000–590,000日元（基本薪293,120–432,480日元）",
           "annual": "含成果奖估算5,600,000–8,260,000日元；不含成果奖4,800,000–7,080,000日元",
           "bonus": "成果奖金按公司业绩、个人评估与等级决定，金额可变。",
-          "overtime": "月薪含预付加班45小时（103,216–152,114日元）及深夜8小时（3,664–5,406日元）；超出另付。",
-          "benefits": "无核心弹性，每月通勤费最高3万日元；每年可选6万日元福利服务或商品，另有设计师培养制度。",
+          "overtime": "月薪含预付加班45小时（103,216–152,114日元）及深夜8小时（3,664–5,406日元）；超出另付。 2026年人力资本披露全公司实际月均16.6小时。",
+          "benefits": "日本国内可全远程。无核心弹性，每月通勤费最高3万日元；每年可选6万日元福利服务或商品，另有设计师培养制度。",
           "intern": "学生产品设计实习：时薪2,000日元，可全远程，无指定到岗日数。",
           "sources": [
             {
@@ -2008,6 +2014,10 @@
             {
               "label": "产品设计新卒与实习待遇",
               "url": "https://recruit.smarthr.co.jp/newgrads/product-designer/"
+            },
+            {
+              "label": "SmartHR工作制度",
+              "url": "https://recruit.smarthr.co.jp/environment/"
             }
           ],
           "sortValues": {
@@ -2643,7 +2653,7 @@
           "annual": "3,744,000日元（月薪×12，仅固定部分估算，未含奖金）",
           "bonus": "每年2次，6月、12月。",
           "overtime": "另列时间外与休日出勤津贴。",
-          "benefits": "通勤和家庭津贴、每年4月调薪。年休127天；首年带薪假12天，以后20天。可用弹性工时。",
+          "benefits": "通勤和家庭津贴、每年4月调薪。年休127天；首年带薪假12天，以后20天。可用弹性工时。 公司在宅制度以每周至少出社一次为基准，团队按业务安排。28卒设计岗出社天数未核。",
           "intern": "冬季5天 UI/UX 职场实习无报酬，交通及住宿按公司标准支付。",
           "sources": [
             {
@@ -2653,6 +2663,10 @@
             {
               "label": "冬季设计实习细则",
               "url": "https://www.recruit.epson.jp/newgraduate/internship.html"
+            },
+            {
+              "label": "Epson在宅制度",
+              "url": "https://corporate.epson/en/sustainability/our-people/workplace.html"
             }
           ],
           "availabilityLabel": "27卒要项・26年实绩",
@@ -4391,7 +4405,7 @@
           "annual": "公司年收5,314,400日元",
           "bonus": "每年1次，6月。",
           "overtime": "企业ATS列加班津贴；企业在ONE CAREER记载含20小时固定加班、超出另付。月薪内的准确构成待核。",
-          "benefits": "标准9:00–18:00、核心10–15点弹性，双休祝日、年休120天；特别有薪假年5天，普通年假次年17天起。通勤、社保、健诊、三菱集团及Udemy研修、社团／交流补助、每人每年5万自我研修补助（中途入社按规定减额）。",
+          "benefits": "标准9:00–18:00、核心10–15点弹性，双休祝日、年休120天；特别有薪假年5天，普通年假次年17天起。通勤、社保、健诊、三菱集团及Udemy研修、社团／交流补助、每人每年5万自我研修补助（中途入社按规定减额）。 28卒招聘介绍写全职种可在宅。设计组每周频率、培训期和客户现场要求待核；公司自报全社平均加班20小时以下，统计期间未列。",
           "intern": null,
           "sources": [
             {
@@ -4401,6 +4415,10 @@
             {
               "label": "企业刊登的薪资构成",
               "url": "https://www.onecareer.jp/companies/98036/recruitment_courses/1548"
+            },
+            {
+              "label": "28卒工作制度",
+              "url": "https://www.onecareer.jp/events/internship/100118"
             }
           ],
           "availabilityLabel": "28卒官方月薪／年收",
@@ -4619,6 +4637,45 @@
             "annualJPY": 2880000,
             "monthlyLabel": "月薪下限",
             "annualLabel": "月薪×12下限",
+            "reference": false
+          }
+        },
+        {
+          "role": "28卒Web设计师（运营）",
+          "scope": "当期正社员，三地分别列明，不按学历拆分",
+          "monthly": "名古屋23–24万／大阪24–24.5万／仙台21–22万日元",
+          "annual": null,
+          "bonus": "每年两次，按业绩及个人评价。",
+          "overtime": "名古屋20小时；大阪15–20小时；仙台20小时。公司另列超时另付，设计实际加班未核。 公司招聘图表公布全公司月均14.8小时，统计期间未列。",
+          "benefits": "三地年休123天，9:00–18:00。 公司有条件式在宅制度，未核到该28卒岗位在宅天数。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "名古屋岗位",
+              "url": "https://www.ab-net.co.jp/recruit/new/nagoya/76/"
+            },
+            {
+              "label": "大阪岗位",
+              "url": "https://www.ab-net.co.jp/recruit/new/kansai/76/"
+            },
+            {
+              "label": "仙台岗位",
+              "url": "https://www.ab-net.co.jp/recruit/new/tohoku/76/"
+            },
+            {
+              "label": "公司工作制度",
+              "url": "https://www.ab-net.co.jp/recruit/culture/"
+            },
+            {
+              "label": "公司平均工时图",
+              "url": "https://www.ab-net.co.jp/recruit/culture/images/img_chart_06.png"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 210000,
+            "annualJPY": null,
+            "monthlyLabel": "官方月薪下限",
+            "annualLabel": null,
             "reference": false
           }
         }
@@ -5008,7 +5065,362 @@
           }
         }
       ]
+    },
+    {
+      "name": "ARSTECH GUILD 株式会社",
+      "aliases": [
+        "ARSTECH GUILD"
+      ],
+      "roles": [
+        {
+          "role": "28卒UI Artist",
+          "scope": "官方当期游戏UI职位",
+          "monthly": "275,000日元",
+          "annual": "3,300,000日元（年俸：月薪×12）",
+          "bonus": null,
+          "overtime": "月薪含固定加班40小时，超时另付；实际加班未核。",
+          "benefits": "东京三田，带核心时间的弹性制，出勤模式未公开。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒游戏UI招聘",
+              "url": "https://herp.careers/v1/arstechguild/I4Yx5RZ8cVPB"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 275000,
+            "annualJPY": 3300000,
+            "monthlyLabel": "官方月薪下限",
+            "annualLabel": "年俸（月薪×12）",
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "株式会社くふうカンパニーホールディングス",
+      "aliases": [
+        "くふうカンパニーホールディングス"
+      ],
+      "roles": [
+        {
+          "role": "28卒设计师",
+          "scope": "官网当期新卒岗位",
+          "monthly": null,
+          "annual": "4,500,000日元起，选考后个别定",
+          "bonus": null,
+          "overtime": null,
+          "benefits": "东京三田，原则出社；弹性制，年休120天以上。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒设计师官方招聘",
+              "url": "https://kufu.co.jp/recruit/freshers/%E3%80%9028%E5%8D%92%E3%80%91%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": 4500000,
+            "monthlyLabel": null,
+            "annualLabel": "官方年收下限",
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "クリプトン・フューチャー・メディア株式会社",
+      "aliases": [
+        "クリプトン・フューチャー・メディア"
+      ],
+      "roles": [
+        {
+          "role": "28卒Web／平面实务实习",
+          "scope": "仅当期实习报酬，不代表正社员薪资",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "无报酬；远方交通与住宿按公司规定支给。",
+          "sources": [
+            {
+              "label": "公司刊登实务型设计实习",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=223940&optNo=cVh7m"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
+          },
+          "evidenceNote": "仅实务型短期实习报酬，28卒正式设计岗薪资未核到。",
+          "checkedAt": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "name": "株式会社デジタルベリー",
+      "aliases": [
+        "デジタルベリー",
+        "Digital Berry"
+      ],
+      "roles": [
+        {
+          "role": "28卒技术职｜设计方向",
+          "scope": "新卒官网共同待遇；大学院卒，埼玉",
+          "monthly": "250,000日元起（修士）",
+          "annual": "300万日元起（月薪×12，未计奖金）",
+          "bonus": "年两次，按业绩。",
+          "overtime": "月额的10%为约15小时固定加班；按公布下限为25,000日元，余225,000日元。",
+          "benefits": "符合条件的独居津贴与交通合计每月上限20,000日元；在宅未核到。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒新卒条件与起薪",
+              "url": "https://www.d-berry.jp/recruit/recruitment/"
+            },
+            {
+              "label": "新卒技术职设计方向",
+              "url": "https://www.d-berry.jp/recruit/designer/"
+            }
+          ],
+          "checkedAt": "2026-11-14",
+          "evidenceNote": null,
+          "sortValues": {
+            "monthlyJPY": 250000,
+            "annualJPY": 3000000,
+            "monthlyLabel": "官方月薪下限",
+            "annualLabel": "月薪×12下限，不含奖金",
+            "reference": false
+          }
+        },
+        {
+          "role": "28卒Web／广告一日体验",
+          "scope": "仅当期课程报酬",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "无报酬，不补交通住宿；线下场提供午餐。",
+          "sources": [
+            {
+              "label": "一日体验报酬与补贴",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=111308&optNo=WOiYU"
+            }
+          ],
+          "checkedAt": "2026-11-14",
+          "evidenceNote": null,
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "株式会社アクアスター",
+      "aliases": [
+        "アクアスター",
+        "AquaStar"
+      ],
+      "roles": [
+        {
+          "role": "28卒Web创作者工作坊",
+          "scope": "仅11/27线下场；当届正式Web／设计薪资未核到。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "公司公开的在宅支持包括家庭情况，28卒Web岗位适用与出社频率未核到。",
+          "intern": "无报酬，不补交通住宿；提供午餐便当。",
+          "sources": [
+            {
+              "label": "Web工作坊报酬与补贴",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=267342&optNo=yUkXB"
+            },
+            {
+              "label": "公司当期新卒岗位列表",
+              "url": "https://recruit.jobcan.jp/aqua-web/list/all/all?category_id=59346"
+            },
+            {
+              "label": "AquaStar工作制度",
+              "url": "https://aqua-star.co.jp/recruit/environment/"
+            }
+          ],
+          "checkedAt": "2026-11-14",
+          "evidenceNote": null,
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "ダイアモンドヘッド株式会社",
+      "aliases": [
+        "ダイアモンドヘッド",
+        "Diamondhead"
+      ],
+      "roles": [
+        {
+          "role": "28卒Web设计岗／公司说明会",
+          "scope": "说明会未列报酬；28卒正式Web设计岗与修士薪资未核到。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": null,
+          "sources": [
+            {
+              "label": "Diamondhead官方业务与岗位",
+              "url": "https://recruit.diamondhead.jp/"
+            }
+          ],
+          "checkedAt": "2026-11-14",
+          "evidenceNote": null,
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
+          }
+        },
+        {
+          "role": "札幌Web设计师（往届）",
+          "scope": "雇主前年度札幌Web设计岗，2026年4月实绩。修士与本科同额，28卒未核。",
+          "monthly": "260,000日元（往届修士、本科同额）",
+          "annual": "312万日元（月薪×12参考）",
+          "bonus": "往届列无奖金，另列绩效激励制度。",
+          "overtime": "基本给202,800日元，固定加班34小时57,200日元。超出另付。 另一份27卒札幌岗位的雇主信息列平均约9.3小时/月，统计期间未列。",
+          "benefits": "札幌，年休123天；28卒在宅安排未核到。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "27卒札幌Web设计师旧届参考",
+              "url": "https://recruit.jobcan.jp/diamondhead/job_offers/2197383"
+            },
+            {
+              "label": "雇主往届札幌Web设计岗：修士、本科、工时与奖金",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayPrevEmployment/index/?corpId=112080&recruitingCourseId=27005472"
+            }
+          ],
+          "checkedAt": "2026-11-14",
+          "evidenceNote": null,
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "株式会社日本テレビアート",
+      "aliases": [
+        "日本テレビアート",
+        "日テレアート"
+      ],
+      "roles": [
+        {
+          "role": "新卒一般（2026年10月实绩）",
+          "scope": "公司新卒共同资料；28卒具体设计岗与修士金额未核到。",
+          "monthly": "256,620日元（2026年10月实绩，含津贴）",
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "新卒一般要项列在宅制度，28卒具体岗位适用频率未核到。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "新卒一般参考（2026年10月实绩）",
+              "url": "https://www.ntvart.co.jp/recruit/newgrad/"
+            },
+            {
+              "label": "雇主公告｜说明会报酬",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=92606&optNo=anchY"
+            }
+          ],
+          "checkedAt": "2026-11-14",
+          "evidenceNote": "本次线上公司研究会无报酬；公司新卒参考不是本场报酬。",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": true
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-13T13:02:35+09:00"
+  "updatedAt": "2026-11-14T11:33:01+09:00",
+  "recruitingTiers": {
+    "SmartHR": {
+      "tier": "priority",
+      "reason": "28 卒产品设计可在日本国内全远程，年收 480–708 万日元，另有成果奖。"
+    },
+    "MCD3": {
+      "tier": "priority",
+      "reason": "28 卒 UI/UX 年收 531.44 万日元。招聘资料列全职种可在宅，设计组出社频率待核。"
+    },
+    "Sun Asterisk": {
+      "tier": "priority",
+      "reason": "28 卒 Creative 岗可远程，月薪 29 万日元，含 40 小时固定加班，另有奖金。"
+    },
+    "Epson": {
+      "tier": "consider",
+      "reason": "设计实习涵盖打印机、电脑和手机 App 的 UI/UX。公司有混合办公制度，设计组频率与 28 卒起薪待核。"
+    },
+    "株式会社くふうカンパニーホールディングス": {
+      "tier": "consider",
+      "reason": "28 卒消费产品设计年收 450 万日元起，东京原则出社。"
+    },
+    "ARSTECH GUILD 株式会社": {
+      "tier": "consider",
+      "reason": "28 卒游戏 UI 岗做菜单与操作流程，月薪 27.5 万日元，含 40 小时固定加班。在宅和实际工时待核。"
+    },
+    "アビリブ": {
+      "tier": "consider",
+      "reason": "酒店与旅游网站设计月薪 21–24.5 万日元，按地区而定。普通新卒在宅及设计组实际工时待核。"
+    },
+    "株式会社アクアスター": {
+      "tier": "consider",
+      "reason": "Web 工作坊做网站结构和线框图。28 卒 Web 方向薪资与在宅频率待核。"
+    },
+    "クリプトン・フューチャー・メディア株式会社": {
+      "tier": "consider",
+      "reason": "札幌设计实习可做网页改版或活动视觉，有远方交通和住宿补助。28 卒正式岗待遇与在宅待核。"
+    },
+    "株式会社デジタルベリー": {
+      "tier": "consider",
+      "reason": "28 卒修士月薪 25 万日元起，可参加线上一日 Web 提案。正式岗在宅安排待核。"
+    },
+    "ダイアモンドヘッド株式会社": {
+      "tier": "consider",
+      "reason": "服装电商 Web 设计，往届修士月薪 26 万日元。28 卒待遇与在宅条件待核。"
+    },
+    "株式会社日本テレビアート": {
+      "tier": "consider",
+      "reason": "做节目图形、CG 与布景。28 卒图形／Web 岗和在宅适用范围待核。"
+    },
+    "あつまる／株式会社あつまる": {
+      "tier": "practice",
+      "reason": "Web 设计面试练习备选。新卒在宅安排待核。"
+    }
+  }
 }

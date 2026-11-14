@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f2f4f8">
   <title>求职日历 · 2028</title>
   <link rel="stylesheet" href="./style.css?v=20261108-sort">
-  <link rel="stylesheet" href="./compensation.css?v=20261108-sort">
+  <link rel="stylesheet" href="./compensation.css?v=20261114-tiers">
   <link rel="stylesheet" href="./decisions.css?v=20261108-sort">
   <link rel="stylesheet" href="./navigation.css?v=20261108-sort">
 </head>
@@ -88,6 +88,13 @@
           <span id="pay-date" class="pay-date"></span>
         </div>
         <div class="pay-controls" hidden>
+          <div id="pay-tier" class="pay-tier-filter" role="group" aria-label="求职分档">
+            <button type="button" data-tier="all" aria-pressed="true">全部</button>
+            <button type="button" data-tier="priority" aria-pressed="false">优先认真考虑</button>
+            <button type="button" data-tier="consider" aria-pressed="false">还可以／备选</button>
+            <button type="button" data-tier="practice" aria-pressed="false">练手专区</button>
+            <button type="button" data-tier="pending" aria-pressed="false">待核</button>
+          </div>
           <div id="pay-mode" role="group" aria-label="薪酬类型">
             <button type="button" aria-pressed="true" data-mode="employment">入职待遇</button>
             <button type="button" aria-pressed="false" data-mode="intern">实习报酬</button>
@@ -121,6 +128,6 @@
   </div>
   <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button class="close-dialog" aria-label="关闭">×</button><div id="detail-content"></div></div></dialog>
   <script type="module" src="./navigation.js?v=20261108-sort"></script>
-  <script type="module" src="./app.js?v=20261108-sort"></script>
+  <script type="module" src="./app.js?v=20261114-tiers"></script>
 </body>
 </html>
