@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "note": "项目报酬、选考流程与公司入职待遇分开。倍率仅采用相同届别、岗位、批次的可靠统计；计划名额不是实际录取人数。",
   "projects": [
     {
@@ -568,6 +568,43 @@
           "url": "https://public.n-ats.hrmos.co/wealthnavi/jobs/2321142576603160576/apply"
         }
       ]
+    },
+    {
+      "id": "workshop-aquastar-2028-web-creator-20261127",
+      "sources": [
+        {
+          "label": "Web工作坊报酬与补贴",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=267342&optNo=yUkXB"
+        }
+      ],
+      "internPay": "无报酬、不补交通和住宿，提供午餐便当。",
+      "internPayScope": "仅本课程；补助与工资分别列。",
+      "checkedAt": "2026-11-14"
+    },
+    {
+      "id": "workshop-digital-berry-web-ad-2028",
+      "sources": [
+        {
+          "label": "一日体验报酬与补贴",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=111308&optNo=WOiYU"
+        }
+      ],
+      "internPay": "无报酬、不补交通和住宿；线下提供午餐。",
+      "internPayScope": "仅本课程；补助与工资分别列。",
+      "checkedAt": "2026-11-14"
+    },
+    {
+      "id": "internship-crypton-web-graphic-2028",
+      "sources": [
+        {
+          "label": "28卒公司发布设计实习报酬",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=223940&optNo=cVh7m"
+        }
+      ],
+      "internPay": "无报酬；远方参加者可获交通与住宿补助。",
+      "internPayScope": "仅本课程；补助与工资分别列。",
+      "checkedAt": "2026-11-14"
     }
-  ]
+  ],
+  "updatedAt": "2026-11-14T11:07:25+09:00"
 }

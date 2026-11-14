@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T00:24:09+09:00",
+  "updatedAt": "2026-11-14T11:20:54+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -6516,9 +6516,9 @@
       "category": "activity",
       "subtype": "UI/UX工作坊",
       "status": "候选／未申请",
-      "statusDetail": "企业接受报名意向，两场均为东京北青山线下，余位和截止未公布。",
+      "statusDetail": "11/28东京现场：Mynavi列出预约按钮、先到先得，无选考；12/21仅公司募集页列日期，尚未核到独立可预约入口。",
       "description": "分析现有App使用问题，制作人物画像和用户旅程图，由设计师、工程师和导演等员工反馈。28卒，专业不限，接受设计初学者。",
-      "nextAction": "选一场，从企业发布页表达意向，由招聘方回复后确定具体场次。",
+      "nextAction": "11/28场从Mynavi预约，11/20截止（钟点未知）。12/21场等公司确认报名方式。",
       "checkedAt": "2026-11-14",
       "sources": [
         {
@@ -6528,9 +6528,17 @@
         {
           "label": "PIVOT官方招聘系统",
           "url": "https://pivot-recruit.snar.jp/"
+        },
+        {
+          "label": "Mynavi 11/28 实际预约页",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?optNo=v6G6tC&corpId=266392"
+        },
+        {
+          "label": "Mynavi当期课程与截止",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?optNo=WYBQ6&corpId=266392"
         }
       ],
-      "notes": "无指定事前准备，未公布报酬、选考结果通知日及剩余名额。",
+      "notes": "Mynavi当期课程无报酬、交通费及住宿费；实际剩余席位未公开。",
       "milestones": [
         {
           "type": "event",
@@ -6543,6 +6551,11 @@
           "date": "2026-12-21T13:00",
           "label": "候选：东京北青山线下",
           "endDate": "2026-12-21T17:00"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-20",
+          "label": "11/28 Mynavi场预约截止（钟点未公布）"
         }
       ],
       "registrationSessions": [
@@ -6551,38 +6564,38 @@
           "eventStart": "2026-11-28T13:00",
           "eventEnd": "2026-11-28T17:00",
           "reservationRequired": true,
-          "registrationMethod": "Wantedly表达报名意向，等待公司回信选择场次。",
+          "registrationMethod": "Mynavi选择11/28，先到先得，未显示剩余人数。",
           "opensAt": null,
-          "deadline": null,
-          "firstComeFirstServed": null,
-          "availabilityState": "unknown",
-          "availabilityLabel": "公开征集，名额未公开。",
-          "availabilityCheckedAt": "2026-11-14T00:24:09+09:00",
+          "deadline": "2026-11-20",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示申请按钮；剩余人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
           "availabilitySource": {
-            "label": "当期公开募集",
-            "url": "https://www.wantedly.com/projects/2626974"
+            "label": "Mynavi 11/28 实际预约页",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?optNo=v6G6tC&corpId=266392"
           },
           "bookingStage": "未申请／未预约",
-          "nextAction": "Wantedly表达报名意向，等待公司回信选择场次。"
+          "nextAction": "Mynavi选择11/28，先到先得，未显示剩余人数。"
         },
         {
           "id": "workshop-pivot-2028-uiux-1day::2026-12-21T13:00",
           "eventStart": "2026-12-21T13:00",
           "eventEnd": "2026-12-21T17:00",
           "reservationRequired": true,
-          "registrationMethod": "Wantedly表达报名意向，等待公司回信选择场次。",
+          "registrationMethod": "企业公开页表达意向，等实际场次指引。",
           "opensAt": null,
           "deadline": null,
           "firstComeFirstServed": null,
           "availabilityState": "unknown",
-          "availabilityLabel": "公开征集，名额未公开。",
-          "availabilityCheckedAt": "2026-11-14T00:24:09+09:00",
+          "availabilityLabel": "公司发布日期；Mynavi预约页未列此场。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
           "availabilitySource": {
             "label": "当期公开募集",
             "url": "https://www.wantedly.com/projects/2626974"
           },
           "bookingStage": "未申请／未预约",
-          "nextAction": "Wantedly表达报名意向，等待公司回信选择场次。"
+          "nextAction": "等公司公告或独立预约场次出现。"
         }
       ]
     },
@@ -6771,6 +6784,698 @@
           "date": "2027-01-29",
           "label": "公司预计最迟联系（按截止后两周推算）",
           "requiresVerification": true
+        }
+      ]
+    },
+    {
+      "id": "selection-arstech-guild-ui-2028",
+      "company": "ARSTECH GUILD",
+      "title": "28卒 UI Artist｜游戏UI",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／未申请",
+      "statusDetail": "当期28新卒专岗有应聘入口；未公布截止。",
+      "intro": "游戏与影像开发工作室，为游戏项目提供开发与美术制作。这个岗位做游戏界面、流程和HUD。",
+      "description": "东京三田。负责游戏界面流程、线框、信息设计、HUD和可用性验证。必须交作品集，可用Web、杂志版式、自主制作；Photoshop／Illustrator为基本要求，未见必交素描或角色绘画。",
+      "nextAction": "官方HERP表单履历必填；岗位另要求作品集，可填写作品URL或附支持格式。职位未单列硕士细则和统一截止。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "28卒游戏UI招聘",
+          "url": "https://herp.careers/v1/arstechguild/I4Yx5RZ8cVPB"
+        },
+        {
+          "label": "官方申请表",
+          "url": "https://herp.careers/v1/arstechguild/I4Yx5RZ8cVPB/apply"
+        },
+        {
+          "label": "公司业务",
+          "url": "https://arstechguild.inc/"
+        }
+      ],
+      "notes": "28卒游戏UI：月薪27.5万日元，年俸330万，含40小时固定加班；实际加班和在宅条件未核到。",
+      "milestones": []
+    },
+    {
+      "id": "selection-kufu-holdings-design-2028",
+      "company": "くふうカンパニーホールディングス",
+      "title": "28卒设计师｜App、Web、平面",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／未申请",
+      "statusDetail": "官网按申请顺序推进，未公布统一截止；明确接受2028年毕业或修了。",
+      "intro": "运营トクバイ、Zaim等消费生活服务；设计师做App、Web和宣传视觉。",
+      "description": "消费生活服务的iOS／Android、Web、海报及宣传视觉设计。东京三田，原则出社；年收450万日元起。",
+      "nextAction": "首轮填作品／研究链接，课内、自主或未完成项目都可；履历选填，不用志望动机。未公布统一截止。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "28卒设计师官方招聘",
+          "url": "https://kufu.co.jp/recruit/freshers/%E3%80%9028%E5%8D%92%E3%80%91%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC/"
+        },
+        {
+          "label": "官方Talentio入口",
+          "url": "https://open.talentio.com/r/1/c/kufu-company/pages/128522/apply"
+        },
+        {
+          "label": "28卒设计师职位、集团业务",
+          "url": "https://kufu.co.jp/recruit/freshers/%E3%80%9028%E5%8D%92%E3%80%91%E3%83%87%E3%82%A4%E3%83%8A%E3%83%BC/"
+        },
+        {
+          "label": "Zaim资产总览",
+          "url": "https://content.zaim.net/manuals/show/97"
+        }
+      ],
+      "notes": "28卒设计年收450万日元起，按选考定；原则出社。具体月薪、固定加班和奖金口径未核到。",
+      "milestones": []
+    },
+    {
+      "id": "selection-abilive-web-2028",
+      "company": "アビリブ（Abilive）",
+      "title": "28卒 Web设计师｜网站运营",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／未申请",
+      "statusDetail": "名古屋／大阪／仙台同岗，同一个官方HRMOS入口；未公布统一截止。",
+      "intro": "为旅馆、酒店和观光客户做网站及数字营销；本岗偏网站维护、局部改版和HTML/CSS。",
+      "description": "酒店与旅游网站更新、局部改版、LP和HTML/CSS。需UI/UX与HTML/CSS基础；作品可交公开网页URL，或GitHub链接／可本地运行源码ZIP。",
+      "nextAction": "官方HRMOS首轮交履历（ES）和Web作品，填写三地中一个意向地点。网页URL可填留言栏。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "名古屋岗位",
+          "url": "https://www.ab-net.co.jp/recruit/new/nagoya/76/"
+        },
+        {
+          "label": "大阪岗位",
+          "url": "https://www.ab-net.co.jp/recruit/new/kansai/76/"
+        },
+        {
+          "label": "仙台岗位",
+          "url": "https://www.ab-net.co.jp/recruit/new/tohoku/76/"
+        },
+        {
+          "label": "官方HRMOS申请入口",
+          "url": "https://hrmos.co/pages/ab-net/jobs/202-50-02/apply"
+        },
+        {
+          "label": "Abilive酒店网站案例",
+          "url": "https://www.ab-net.co.jp/service/website.php"
+        }
+      ],
+      "notes": "28卒月薪：名古屋23–24万、大阪24–24.5万、仙台21–22万日元；岗位未按学历另列。固定加班大阪15–20小时，其他两地20小时；年两次奖金按业绩及评价。在宅条件未核到。",
+      "milestones": []
+    },
+    {
+      "id": "internship-crypton-web-graphic-2028",
+      "company": "クリプトン・フューチャー・メディア",
+      "title": "设计实务实习｜Web原型／平面",
+      "category": "internship",
+      "subtype": "实务型设计实习（5天至不足2周）",
+      "status": "候选／未申请",
+      "statusDetail": "接受28卒修士。公布项目总截止12/31，12月批次单独截止未核；需要筛选。",
+      "intro": "开发初音未来歌声合成软件，并做音源、角色授权和创作者服务。实习可做Web或活动平面。",
+      "description": "札幌线下，每天约6–8小时。按协商日期做Web服务设计或活动平面等，冬档窗口12/21–1/11或2月，实际天数及日期待协调。无薪；远方交通和住宿按公司规则支给。",
+      "nextAction": "先核连续出勤与札幌行程；Mynavi预登记后用My CareerBox交ES和作品集，后续适性检查及一次个人面试。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "公司刊登实务型设计实习",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=223940&optNo=cVh7m"
+        },
+        {
+          "label": "公司业务与代表产品",
+          "url": "https://www.crypton.co.jp/cfm/aboutus"
+        }
+      ],
+      "notes": "实习无薪，补远方交通与住宿；28卒正式设计岗待遇未核到。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-31",
+          "label": "项目总截止（钟点、冬档个别截止未公布）"
+        }
+      ],
+      "attendanceMode": "onsite"
+    },
+    {
+      "id": "briefing-crypton-designer-portfolio-2028",
+      "company": "クリプトン・フューチャー・メディア",
+      "title": "设计师作品集经验分享｜Zoom",
+      "category": "activity",
+      "subtype": "作品集讲座／说明会",
+      "status": "候选／未申请",
+      "statusDetail": "两场预约表均显示可申请；余位数未知，满额即止。",
+      "intro": "初音未来开发商，业务含音乐软件、角色授权和创作者服务；这场是设计师的作品集经验分享。",
+      "description": "设计团队介绍、员工讲解Web／平面作品集制作要点、问答。不是个人作品集反馈，也不等于报名实习。",
+      "nextAction": "若想听，选择一场从Mynavi登记。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "公司逐场预约页",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=223940&optNo=GwVcyC"
+        },
+        {
+          "label": "公司业务与代表产品",
+          "url": "https://www.crypton.co.jp/cfm/aboutus"
+        }
+      ],
+      "notes": "线上作品集讲座本身未列报酬。28卒正式设计岗起薪未核到，另有独立的无薪设计实务实习。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-26T14:00",
+          "endDate": "2026-11-26T15:30",
+          "label": "候选：Zoom"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-04T14:00",
+          "endDate": "2026-12-04T15:30",
+          "label": "候选：Zoom"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-crypton-designer-portfolio-2028::2026-11-26T14:00",
+          "eventStart": "2026-11-26T14:00",
+          "eventEnd": "2026-11-26T15:30",
+          "reservationRequired": true,
+          "registrationMethod": "在Mynavi选择一场，先到先得。",
+          "opensAt": null,
+          "deadline": null,
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示申请按钮；剩余人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "公司逐场预约页",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=223940&optNo=GwVcyC"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "在Mynavi选择一场，先到先得。"
+        },
+        {
+          "id": "briefing-crypton-designer-portfolio-2028::2026-12-04T14:00",
+          "eventStart": "2026-12-04T14:00",
+          "eventEnd": "2026-12-04T15:30",
+          "reservationRequired": true,
+          "registrationMethod": "在Mynavi选择一场，先到先得。",
+          "opensAt": null,
+          "deadline": null,
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示申请按钮；剩余人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "公司逐场预约页",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=223940&optNo=GwVcyC"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "在Mynavi选择一场，先到先得。"
+        }
+      ],
+      "attendanceMode": "online"
+    },
+    {
+      "id": "briefing-ntv-art-2028-online",
+      "company": "日本テレビアート",
+      "title": "电视美术、平面与CG｜线上公司研究会",
+      "category": "activity",
+      "subtype": "设计说明会",
+      "status": "候选／未申请",
+      "statusDetail": "面向包含28卒修士的学生，需预约，满额关闭；每场提前3天截止，钟点未公开。",
+      "intro": "做电视节目美术、布景、灯光、CG和电视图形，也做展会及企业宣传。",
+      "description": "Teams讲解电视图形、布景、CG等职业及案例，非实习或正式选考。",
+      "nextAction": "最早仍显示报名入口的是11/21 14:00，按11/18日期截止；同内容可择另一场。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "公司官方说明会",
+          "url": "https://www.ntvart.co.jp/news/2961/"
+        },
+        {
+          "label": "Mynavi逐场预约",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+        },
+        {
+          "label": "新卒一般参考（2026年10月实绩）",
+          "url": "https://www.ntvart.co.jp/recruit/newgrad/"
+        },
+        {
+          "label": "雇主公告｜说明会报酬",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=92606&optNo=anchY"
+        },
+        {
+          "label": "日テレアート设计工作",
+          "url": "https://www.ntvart.co.jp/recruit/jobs/"
+        }
+      ],
+      "notes": "本场线上无报酬。官网新卒一般待遇为25万6,620日元（2026年10月实绩，含津贴），28卒具体设计岗与修士适用金额未核到。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-18T18:00",
+          "endDate": "2026-11-18T18:45",
+          "label": "满员"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-21T11:00",
+          "endDate": "2026-11-21T11:45",
+          "label": "满员"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-21T14:00",
+          "endDate": "2026-11-21T14:45",
+          "label": "候选：Teams"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-27T18:00",
+          "endDate": "2026-11-27T18:45",
+          "label": "候选：Teams"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-02T18:00",
+          "endDate": "2026-12-02T18:45",
+          "label": "候选：Teams"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-05T11:00",
+          "endDate": "2026-12-05T11:45",
+          "label": "候选：Teams"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-05T14:00",
+          "endDate": "2026-12-05T14:45",
+          "label": "候选：Teams"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-11T18:00",
+          "endDate": "2026-12-11T18:45",
+          "label": "候选：Teams"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-ntv-art-2028-online::2026-11-18T18:00",
+          "eventStart": "2026-11-18T18:00",
+          "eventEnd": "2026-11-18T18:45",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi选一场，先到先得。",
+          "opensAt": null,
+          "deadline": "2026-11-15",
+          "firstComeFirstServed": true,
+          "availabilityState": "full",
+          "availabilityLabel": "预约表显示满员。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "Mynavi逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Mynavi选一场，先到先得。"
+        },
+        {
+          "id": "briefing-ntv-art-2028-online::2026-11-21T11:00",
+          "eventStart": "2026-11-21T11:00",
+          "eventEnd": "2026-11-21T11:45",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi选一场，先到先得。",
+          "opensAt": null,
+          "deadline": "2026-11-18",
+          "firstComeFirstServed": true,
+          "availabilityState": "full",
+          "availabilityLabel": "预约表显示满员。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "Mynavi逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Mynavi选一场，先到先得。"
+        },
+        {
+          "id": "briefing-ntv-art-2028-online::2026-11-21T14:00",
+          "eventStart": "2026-11-21T14:00",
+          "eventEnd": "2026-11-21T14:45",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi选一场，先到先得。",
+          "opensAt": null,
+          "deadline": "2026-11-18",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示可申请，人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "Mynavi逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Mynavi选一场，先到先得。"
+        },
+        {
+          "id": "briefing-ntv-art-2028-online::2026-11-27T18:00",
+          "eventStart": "2026-11-27T18:00",
+          "eventEnd": "2026-11-27T18:45",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi选一场，先到先得。",
+          "opensAt": null,
+          "deadline": "2026-11-24",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示可申请，人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "Mynavi逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Mynavi选一场，先到先得。"
+        },
+        {
+          "id": "briefing-ntv-art-2028-online::2026-12-02T18:00",
+          "eventStart": "2026-12-02T18:00",
+          "eventEnd": "2026-12-02T18:45",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi选一场，先到先得。",
+          "opensAt": null,
+          "deadline": "2026-11-29",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示可申请，人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "Mynavi逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Mynavi选一场，先到先得。"
+        },
+        {
+          "id": "briefing-ntv-art-2028-online::2026-12-05T11:00",
+          "eventStart": "2026-12-05T11:00",
+          "eventEnd": "2026-12-05T11:45",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi选一场，先到先得。",
+          "opensAt": null,
+          "deadline": "2026-12-02",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示可申请，人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "Mynavi逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Mynavi选一场，先到先得。"
+        },
+        {
+          "id": "briefing-ntv-art-2028-online::2026-12-05T14:00",
+          "eventStart": "2026-12-05T14:00",
+          "eventEnd": "2026-12-05T14:45",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi选一场，先到先得。",
+          "opensAt": null,
+          "deadline": "2026-12-02",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示可申请，人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "Mynavi逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Mynavi选一场，先到先得。"
+        },
+        {
+          "id": "briefing-ntv-art-2028-online::2026-12-11T18:00",
+          "eventStart": "2026-12-11T18:00",
+          "eventEnd": "2026-12-11T18:45",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi选一场，先到先得。",
+          "opensAt": null,
+          "deadline": "2026-12-08",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示可申请，人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "Mynavi逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Mynavi选一场，先到先得。"
+        }
+      ],
+      "attendanceMode": "online"
+    },
+    {
+      "id": "workshop-digital-berry-web-ad-2028",
+      "company": "デジタルベリー",
+      "title": "Web与广告提案｜1日体验",
+      "category": "activity",
+      "subtype": "Web制作企划工作坊",
+      "status": "候选／未申请",
+      "statusDetail": "两场预约表均显示入口；先到先得，具体余位及各场截止未核。",
+      "intro": "埼玉的企业网站、电子目录和印刷设计公司，客户包括川崎重工、埼玉大学。",
+      "description": "做面向客户的网站或宣传方案，含制作现场介绍；不是专做UI画面。公开课程包含修士。",
+      "nextAction": "如考虑，优先核1/20 Zoom场；1/14为埼玉现场。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "公司逐场预约页",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?corpId=111308&optNo=afC4fC"
+        },
+        {
+          "label": "Mynavi项目详情",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=111308&optNo=WOiYU"
+        },
+        {
+          "label": "Digital Berry公司业务",
+          "url": "https://www.d-berry.jp/recruit/business/"
+        },
+        {
+          "label": "28卒新卒条件与起薪",
+          "url": "https://www.d-berry.jp/recruit/recruitment/"
+        },
+        {
+          "label": "新卒技术职设计方向",
+          "url": "https://www.d-berry.jp/recruit/designer/"
+        }
+      ],
+      "notes": "一日体验无薪，不补交通和住宿，线下提供午餐。另：28卒技术职含设计，修士月薪25万日元起，含约15小时固定加班。",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2027-01-14T10:00",
+          "endDate": "2027-01-14T16:00",
+          "label": "候选：埼玉线下"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-20T10:00",
+          "endDate": "2027-01-20T16:00",
+          "label": "候选：Zoom"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-digital-berry-web-ad-2028::2027-01-14T10:00",
+          "eventStart": "2027-01-14T10:00",
+          "eventEnd": "2027-01-14T16:00",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi选择一场先到先得；单场截止未公布。",
+          "opensAt": null,
+          "deadline": null,
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示申请按钮；剩余人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "公司逐场预约页",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?corpId=111308&optNo=afC4fC"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Mynavi选择一场先到先得；单场截止未公布。"
+        },
+        {
+          "id": "workshop-digital-berry-web-ad-2028::2027-01-20T10:00",
+          "eventStart": "2027-01-20T10:00",
+          "eventEnd": "2027-01-20T16:00",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi选择一场先到先得；单场截止未公布。",
+          "opensAt": null,
+          "deadline": null,
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示申请按钮；剩余人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "公司逐场预约页",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?corpId=111308&optNo=afC4fC"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "Mynavi选择一场先到先得；单场截止未公布。"
+        }
+      ],
+      "attendanceMode": "mixed"
+    },
+    {
+      "id": "briefing-diamondhead-web-design-20261117",
+      "company": "ダイアモンドヘッド",
+      "title": "电商Web设计师职业说明会",
+      "category": "activity",
+      "subtype": "设计说明会",
+      "status": "候选／未申请",
+      "statusDetail": "11/17 12:00–13:00，可选线上或札幌现场；11/15截止，未核到数字钟点。",
+      "intro": "做服装品牌电商，为客户提供EC网站设计、系统、拍摄与运营。",
+      "description": "介绍电商网站设计师实际工作。Mynavi当届列表两种形式有按钮，名额未公开。",
+      "nextAction": "如果感兴趣，11/15前用Mynavi选线上。公司公告的旧表单不适用。",
+      "checkedAt": "2026-11-14",
+      "sources": [
+        {
+          "label": "当期Mynavi逐场预约",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=112080&optNo=BGbbvC"
+        },
+        {
+          "label": "同一活动公司公告（仅核期限）",
+          "url": "https://recruit.jobcan.jp/diamondhead/job_offers/1462258"
+        },
+        {
+          "label": "Diamondhead官方业务与岗位",
+          "url": "https://recruit.diamondhead.jp/"
+        },
+        {
+          "label": "27卒札幌Web设计师旧届参考",
+          "url": "https://recruit.jobcan.jp/diamondhead/job_offers/2197383"
+        },
+        {
+          "label": "Diamondhead设计案例",
+          "url": "https://design.diamondhead.jp/works/"
+        },
+        {
+          "label": "雇主往届札幌Web设计岗：修士、本科、工时与奖金",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayPrevEmployment/index/?corpId=112080&recruitingCourseId=27005472"
+        }
+      ],
+      "notes": "说明会未列报酬。28卒Web设计岗起薪和在宅条件待核。雇主札幌Web设计的前年度数据列2026年4月修士月薪26万，基本给202,800，含34小时固定加班57,200；该往届数据列无奖金、年休123天。",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-15",
+          "label": "预约截止（钟点未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-17T12:00",
+          "endDate": "2026-11-17T13:00",
+          "label": "候选：线上／同时间札幌线下"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-diamondhead-web-design-20261117::2026-11-17T12:00",
+          "eventStart": "2026-11-17T12:00",
+          "eventEnd": "2026-11-17T13:00",
+          "reservationRequired": true,
+          "registrationMethod": "从当期Mynavi选择线上场；另有同时间札幌线下场。",
+          "opensAt": null,
+          "deadline": "2026-11-15",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示申请按钮；剩余人数未公开。",
+          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilitySource": {
+            "label": "当期Mynavi逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=112080&optNo=BGbbvC"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "从当期Mynavi选择线上场；另有同时间札幌线下场。"
+        }
+      ],
+      "attendanceMode": "mixed"
+    },
+    {
+      "id": "workshop-aquastar-2028-web-creator-20261127",
+      "company": "アクアスター",
+      "title": "Web创作者一日工作坊｜信息架构与线框",
+      "category": "activity",
+      "subtype": "Web工作坊／职种体验",
+      "status": "候选／未申请",
+      "statusDetail": "11/27 11:00–16:00东京筑地线下，11/20报名截止，钟点未公布。登记后须交材料筛选。",
+      "description": "为网站梳理目标和信息，做线框图，发表后获反馈。还会体验互动内容。面向含28卒修士的学生；东京筑地线下。",
+      "intro": "为品牌制作广告、网站、互动内容、插画及视频。这场练网站信息架构和线框图。",
+      "nextAction": "11/20前从Mynavi登记；按指引交履历和作品集，课内／自主作品可。是否入选等公司确认。",
+      "checkedAt": "2026-11-14",
+      "notes": "预约表显示可申请，未核到剩余席位；书类审核通过才可参加。 本场无薪，不补交通和住宿，提供午餐；28卒Web／设计正式薪资未核到。",
+      "sources": [
+        {
+          "label": "Mynavi公司逐场预约",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=267342&optNo=Ww2OOC"
+        },
+        {
+          "label": "Mynavi公司要项",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=267342&optNo=yUkXB"
+        },
+        {
+          "label": "Rikunabi公司课程正文",
+          "url": "https://job.rikunabi.com/job_descriptions/3affab12b1609c73/"
+        },
+        {
+          "label": "AquaStar公司业务",
+          "url": "https://aqua-star.co.jp/company/profile/"
+        },
+        {
+          "label": "公司当期新卒岗位列表",
+          "url": "https://recruit.jobcan.jp/aqua-web/list/all/all?category_id=59346"
+        },
+        {
+          "label": "AquaStar关西电力与近大案例",
+          "url": "https://aqua-star.co.jp/recruit/works/"
+        }
+      ],
+      "attendanceMode": "onsite",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-20",
+          "label": "报名截止（钟点未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-27T11:00",
+          "endDate": "2026-11-27T16:00",
+          "label": "候选：东京筑地现场"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-aquastar-2028-web-creator-20261127::2026-11-27T11:00",
+          "eventStart": "2026-11-27T11:00",
+          "eventEnd": "2026-11-27T16:00",
+          "reservationRequired": true,
+          "registrationMethod": "11/20前从Mynavi登记；按指引交履历和作品集，课内／自主作品可。是否入选等公司确认。",
+          "opensAt": null,
+          "deadline": "2026-11-20",
+          "firstComeFirstServed": false,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "预约表显示可申请；登记后材料筛选，余位未公布。",
+          "availabilityCheckedAt": "2026-11-14T09:19:23+09:00",
+          "availabilitySource": {
+            "label": "Mynavi公司逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=267342&optNo=Ww2OOC"
+          },
+          "bookingStage": "未申请／未预约",
+          "nextAction": "11/20前从Mynavi登记；按指引交履历和作品集，课内／自主作品可。是否入选等公司确认。"
         }
       ]
     }
