@@ -5368,59 +5368,2519 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-14T11:33:01+09:00",
+  "updatedAt": "2026-11-14T12:50:16+09:00",
   "recruitingTiers": {
-    "SmartHR": {
+    "Goodpatch": {
       "tier": "priority",
-      "reason": "28 卒产品设计可在日本国内全远程，年收 480–708 万日元，另有成果奖。"
+      "reason": "28卒 UI/UX、服务设计年收432.4万日元起，可混合办公。全远程另有距离条件。",
+      "business": "设计咨询与数字产品体验设计",
+      "targetRole": "UI/UX设计师・服务设计师",
+      "pay": "28卒正社员｜两岗位均列同一薪资下限 360,334日元起 4,324,008日元起 按业绩发放决算奖金",
+      "remote": "招聘列远程，官网正式全远程资格为住处距办公室逾100公里。混合频率与培训待核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总18.3小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.40/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/jobs/2262878075284336640",
+          "label": "public.n-ats.hrmos.co"
+        },
+        {
+          "url": "https://student.redesigner.jp/recruitments/Jc10cc3da0722b4d224f77de6291e3d0e",
+          "label": "student.redesigner.jp"
+        },
+        {
+          "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/jobs/2316102706524372992",
+          "label": "public.n-ats.hrmos.co"
+        },
+        {
+          "url": "https://student.redesigner.jp/recruitments/J68662ff6bb8f06e06e3a1193005445f6",
+          "label": "student.redesigner.jp"
+        },
+        {
+          "url": "https://careers.goodpatch.com/workstyle/benefits/",
+          "label": "careers.goodpatch.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/3949802",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/3949802/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
     },
-    "MCD3": {
+    "ENSAPIA": {
+      "tier": "consider",
+      "reason": "社交游戏 UI/UX 与平面实习对口。新卒原则出社，设计正职待遇待公布。",
+      "business": "虚拟形象、换装与社交游戏，如ポケコロ",
+      "targetRole": "UI/UX・平面设计师",
+      "pay": "28卒设计正职待遇待公布；1Day与Zero Lab实习条件见独立官方项目。",
+      "remote": "新卒官网说原则出社，个别部门／职种可混合，设计范围未知。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总22.3小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.05/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://ensapia.com/joinus/new-grads/careers/",
+          "label": "ensapia.com"
+        },
+        {
+          "url": "https://herp.careers/v1/ensapia/UQrxHNP1ZUbU",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://herp.careers/v1/ensapia/nQUincgIc03x",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://ensapia.com/joinus/new-grads/",
+          "label": "ensapia.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/60347/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Drecom": {
+      "tier": "consider",
+      "reason": "游戏 UI/UX 一日工作坊可了解流程。公司允许符合条件的远程，28卒设计正职待遇待核。",
+      "business": "游戏、出版与IP企划开发",
+      "targetRole": "游戏UI/UX设计",
+      "pay": "28卒游戏UI/UX正职待遇待公布；一日工作坊报酬未核。",
+      "remote": "公司称远程天数未设上限但有资格标准、部门出社及每月面对面沟通安排。新卒设计适用待核。",
+      "actualOvertime": "公司2026年7月披露正社员18.4小时/月、整体约17小时，统计起止未列。 転職会議跨岗员工投稿汇总44小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分2.89/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://student.redesigner.jp/recruitments/Jf5a5878810a6c9e73c0c3fe185f9674b",
+          "label": "student.redesigner.jp"
+        },
+        {
+          "url": "https://drecom-newgrad.snar.jp/index.aspx",
+          "label": "drecom-newgrad.snar.jp"
+        },
+        {
+          "url": "https://recruit.drecom.co.jp/benefit/",
+          "label": "recruit.drecom.co.jp"
+        },
+        {
+          "url": "https://note.com/drecom_/n/neb7770233820",
+          "label": "note.com"
+        },
+        {
+          "url": "https://recruit.drecom.co.jp/newgrad/",
+          "label": "recruit.drecom.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/1088/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "NEZOT／WDB": {
+      "tier": "consider",
+      "reason": "IT系统Growth设计配属NEZOT，培训后月薪25.77万日元，奖金另计。初配神户，在宅待核。",
+      "business": "WDB人材业务与NEZOT集团数字平台",
+      "targetRole": "IT系统Growth・设计师",
+      "pay": "集团新卒共通要项｜设计师配属ネゾット，按志愿和适性分配 257,670日元（基本245,670＋评价给2,000＋保密津贴10,000） 3,092,040日元（月薪257,670×12，培训后固定部分年化；未含奖金／加班，非首年保证额） 每年2次，6月、12月；每年1次调薪审查。",
+      "remote": "设计岗最初神户，目标新卒远程条件未查到。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总31.7小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分2.86/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://www.wdbhd.co.jp/recruit/graduate/recruit/job-description/developer.html",
+          "label": "wdbhd.co.jp"
+        },
+        {
+          "url": "https://www.wdbhd.co.jp/recruit/graduate/event/grade-third/internship.html",
+          "label": "wdbhd.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/9420253/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "LIFULL": {
+      "tier": "consider",
+      "reason": "住房产品、品牌与服务设计，最近新卒月薪33万日元，原则每周到岗3天。28卒金额待核。",
+      "business": "LIFULL HOME’S住房信息及社会课题产品",
+      "targetRole": "产品／品牌／服务设计师",
+      "pay": "新卒设计职｜2026年4月入职实绩，28卒金额待确认 330,000日元（基本252,000＋固定加班78,000） 3,960,000日元（月薪×12，未含奖金） 按业绩每年2次，7月、12月；调薪评估4月、10月。",
+      "remote": "新卒共通原则到岗3天，团队经审批可调整。",
+      "actualOvertime": "全社2024年9月期20小时/月。 転職会議跨岗员工投稿汇总22.9小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.97/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://recruit.lifull.com/recruit/",
+          "label": "recruit.lifull.com"
+        },
+        {
+          "url": "https://student.redesigner.jp/recruitments/J2a7523491900a3b6e1f570d96369633b",
+          "label": "student.redesigner.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/260/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "CafeGroup": {
+      "tier": "consider",
+      "reason": "UI/UX、Web和平面岗位参考27卒月薪30万日元起。远程按部门，28卒正职条件待核。",
+      "business": "受托CG、视觉与数字内容制作",
+      "targetRole": "设计师（UI/UX・Web・平面）",
+      "pay": "27卒正社员正式要项参考｜28卒金额待公布 300,000–380,000日元 3,600,000–4,560,000日元（月薪×12，未含奖金） 正社员按业绩发决算奖金，每年1次；每年1次调薪。",
+      "remote": "官网往届岗位列全远程津贴，部分部门不可选，当届设计分支待核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总14.3小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.19/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://cafegroup.co.jp/recruit/new-graduate/designer?recruitYear=2027",
+          "label": "cafegroup.co.jp"
+        },
+        {
+          "url": "https://cafegroup.co.jp/news/3157",
+          "label": "cafegroup.co.jp"
+        },
+        {
+          "url": "https://cafegroup.co.jp/recruit/new-graduate/designer",
+          "label": "cafegroup.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/9780211/answers",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/9780211/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Mercari": {
+      "tier": "consider",
+      "reason": "28卒UI/UX实习有真实产品项目。新卒原则每周至少到岗2天，正职起薪按个人定价。",
+      "business": "Mercari二手交易、支付与金融产品",
+      "targetRole": "UI/UX设计师",
+      "pay": "28卒实习；正式入职数字为招聘官网示例，实际按经验和能力面议。 示例300,000日元（基本221,965＋固定加班78,035）；个人报价另定。 个人报价另定；官网30万月薪示例对应固定部分360万／年，仅为计算示例 正社员3月、9月按公司业绩及个人评价发放；每年1次调薪评估。",
+      "remote": "新卒FAQ确认每周至少2天办公室基本政策。具体实习出勤与正职分开。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总16.4小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.21/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://careers.mercari.com/new-graduates/",
+          "label": "careers.mercari.com"
+        },
+        {
+          "url": "https://apply.workable.com/mercari/j/DBA3561ADB/",
+          "label": "apply.workable.com"
+        },
+        {
+          "url": "https://note.com/mercari_newgrads/n/n323445a05eb7",
+          "label": "note.com"
+        },
+        {
+          "url": "https://careers.mercari.com/workstyle/",
+          "label": "careers.mercari.com"
+        },
+        {
+          "url": "https://careers.mercari.com/jobs/business/creative/",
+          "label": "careers.mercari.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/421853/answers",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/421853/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "CyberAgent": {
+      "tier": "consider",
+      "reason": "28卒设计综合职年俸504万日元起。官网列平均加班31小时，设计新人在宅待核。",
+      "business": "互联网广告、ABEMA及手游",
+      "targetRole": "设计师综合职（UI/UX等）",
+      "pay": "新卒通年创作者／设计师招聘 420,000日元起 5,040,000日元起（年俸制） 每年2次评估调薪；岗位未列定期奖金。",
+      "remote": "岗位页东京本社，未列可在宅频率。工程师新卒的首年及次年出社政策不套用设计综合职。",
+      "actualOvertime": "公司创作者招聘页列月均31小时，未单列设计队。 転職会議跨岗员工投稿汇总39.1小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.53/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://creators.cyberagent.co.jp/information/",
+          "label": "creators.cyberagent.co.jp"
+        },
+        {
+          "url": "https://www.cyberagent.co.jp/careers/students/designer/",
+          "label": "cyberagent.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/1524/answers?question_codes=worklife&sort=post_date",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "WeddingPark": {
       "tier": "priority",
-      "reason": "28 卒 UI/UX 年收 531.44 万日元。招聘资料列全职种可在宅，设计组出社频率待核。"
+      "reason": "28卒婚礼产品UX/UI年俸408万日元起，可混合，每周至少到岗3天。岗位页列实际月均20–30小时。",
+      "business": "婚礼场地搜索、婚礼内容与营销",
+      "targetRole": "UX/UI设计师",
+      "pay": "28卒设计师招聘｜ウエディングパーク正社员 340,000日元起 4,080,000日元起（年俸制） 每半年按目标评价调整年俸；未公布定期奖金。",
+      "remote": "雇主新卒岗位明示混合、每周至少到岗3天，居家津贴月4,000。",
+      "actualOvertime": "雇主新卒岗位页月均20–30小时，期间未列。 転職会議跨岗员工投稿汇总33.8小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.76/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://hrmos.co/pages/cyberagent-group/jobs/1936019283746394476583312",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/24853/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "I-STUDIO": {
+      "tier": "consider",
+      "reason": "28卒Creative年俸348万日元另有奖金，新卒官网有混合制度。出社频率和团队工时待核。",
+      "business": "博报堂集团数字创意、品牌与Web体验",
+      "targetRole": "Creative职・设计师",
+      "pay": "28卒正社员｜博報堂アイ・スタジオ 月均约290,000日元（年俸÷12） 3,480,000日元（另有奖金） 每年1次，6月；每年6月调薪评估。",
+      "remote": "新卒官网明示出社及远程结合，设计新人出社频率和培训待核。",
+      "actualOvertime": "未核到设计队实绩；跨岗员工汇总63.1小时，样本期间未明，不能套用。 転職会議跨岗员工投稿汇总63.1小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.31/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://www.i-studio.co.jp/recruit_new/recruit/",
+          "label": "i-studio.co.jp"
+        },
+        {
+          "url": "https://www.i-studio.co.jp/recruit_new/hybrid/",
+          "label": "i-studio.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/48824/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "JustSystems": {
+      "tier": "consider",
+      "reason": "28卒UX／传播设计首年模型670万日元，含利润返还与津贴。在宅安排待核。",
+      "business": "スマイルゼミ在线教育及ATOK等软件",
+      "targetRole": "UX设计师／传播设计师",
+      "pay": "28卒｜公司公布的首年模型，含利润返还和津贴 首年模型400,000日元 首年模型6,700,000日元 每年2次奖金＋每月利润返还",
+      "remote": "官方新卒要项与FAQ未核到目标岗在宅。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总43.2小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.33/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://www.justsystems.com/jp/employ/new-graduates/info/guidelines.html",
+          "label": "justsystems.com"
+        },
+        {
+          "url": "https://www.justsystems.com/jp/employ/new-graduates/info/faq.html",
+          "label": "justsystems.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/1477/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "CONCENT": {
+      "tier": "consider",
+      "reason": "28卒传播设计月薪25.8万日元，经主管商议可在宅。岗位偏品牌与传播，也有开放设计职。",
+      "business": "服务设计、信息架构、品牌与编辑设计咨询",
+      "targetRole": "传播设计／开放职种（含设计）",
+      "pay": "28卒新卒募集｜两职种同额 258,000日元（基本223,134＋固定加班34,866） 3,096,000日元（月薪×12，未含奖金） 按业绩每年3月发业绩奖金。",
+      "remote": "同一28卒传播设计岗位写按情况与主管商议，未列频率。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总30.5小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.80/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://hrmos.co/pages/concent/jobs/2301529019589464067",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://hrmos.co/pages/concent/jobs/2301529019589464066",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/23162",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/23162/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Persol Career": {
+      "tier": "consider",
+      "reason": "NUTION做人才产品UI/UX，27卒基本年俸390万日元及在宅制度可参考，28卒待遇待核。",
+      "business": "doda等人才产品、职业与招聘服务",
+      "targetRole": "UI/UX设计师",
+      "pay": "27卒雇主公布2025年10月实绩，基本月32.5万、年390万日元，另付实际加班；示例439万–550万基于每月20小时。28卒待核。",
+      "remote": "往届雇主刊登写每周数日在宅并有津贴；28卒团队适用未核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总33.2小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.13/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://nution.persol-career.co.jp/careers/",
+          "label": "nution.persol-career.co.jp"
+        },
+        {
+          "url": "https://job.mynavi.jp/27/pc/search/corp51951/recruiting_course27019424/recruiting_course.html?site_preference=smartphone",
+          "label": "job.mynavi.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/1529/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "DENSO": {
+      "tier": "consider",
+      "reason": "汽车HMI、数字和品牌设计均有价值。修士最近初任给32万日元，设计组在宅频率待核。",
+      "business": "汽车零件、电动化与出行技术",
+      "targetRole": "设计部・平面／品牌／数字设计",
+      "pay": "修士｜公司最近初任给实绩，28卒设计部门报价待确认 320,000日元（最近修士初任给实绩） 3,840,000日元（月薪×12，未含奖金） 新卒共通每年2次，7月、12月；每年4月调薪。",
+      "remote": "公司设在宅津贴，设计部出社与研修安排未核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总23.8小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.44/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://careers.denso.com/career/",
+          "label": "careers.denso.com"
+        },
+        {
+          "url": "https://careers.denso.com/graduate/",
+          "label": "careers.denso.com"
+        },
+        {
+          "url": "https://careers.denso.com/environment/benefits/",
+          "label": "careers.denso.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/2423",
+          "label": "jobtalk.jp"
+        }
+      ]
     },
     "Sun Asterisk": {
       "tier": "priority",
-      "reason": "28 卒 Creative 岗可远程，月薪 29 万日元，含 40 小时固定加班，另有奖金。"
+      "reason": "28卒Creative月薪29万日元，可远程，另有奖金。公司披露月均加班15小时，团队数据待核。",
+      "business": "客户数字产品、品牌与DX开发",
+      "targetRole": "Creative・产品UI和体验设计师",
+      "pay": "28卒 Creative正社员 290,000日元（基本220,600＋固定加班69,400） 3,480,000日元（月薪×12，未含奖金） 每年两次，按入社年月可能扣减。",
+      "remote": "同届Creative官方岗位明确可远程，有地方居住实例。团队到岗频率未公开。",
+      "actualOvertime": "同岗招聘页列全公司月均15小时，统计期间未列。 転職会議跨岗员工投稿汇总21.5小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.37/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://sunasterisk-recruit.snar.jp/jobboard/detail.aspx?id=nSse34S0Ht4",
+          "label": "sunasterisk-recruit.snar.jp"
+        },
+        {
+          "url": "https://sun-asterisk.com/recruitment/benefits/",
+          "label": "sun-asterisk.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/4407610/answers?question_codes=worklife&sort=post_date",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "BASE": {
+      "tier": "priority",
+      "reason": "28卒PAY ID产品UI/UX预计年收400–600万日元，目前预计每周到岗3天。",
+      "business": "BASE电商开店及PAY ID购物平台",
+      "targetRole": "PAY ID・UI/UX设计师",
+      "pay": "28卒正社员｜BASE株式会社 约333,333–500,000日元／月（年收÷12的比较折算，非公布月薪） 预计4,000,000–6,000,000日元 每年6月、12月薪资评价；岗位未公布定期奖金。",
+      "remote": "本轮在浏览器读到当届岗位正文，现时预计每周出社3天。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总20.8小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.04/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://open.talentio.com/r/1/c/binc/pages/128919",
+          "label": "open.talentio.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/4008966/answers",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/4008966/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Sansan": {
+      "tier": "consider",
+      "reason": "28卒品牌与Web创作者预计年收586.4万日元。公司最新披露非工程职原则每周到岗4天以上。",
+      "business": "Sansan名片与合同管理、Bill One等B2B SaaS",
+      "targetRole": "Creator｜品牌、传播与 Web 设计",
+      "pay": "28卒创作者职 413,000日元（基本薪324,000日元） 预计5,864,000日元 1月、7月，每年2次。",
+      "remote": "2025统合报告写非工程职自2025年9月起周4日以上出社。目标岗每周实际在宅及培训待核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总23.1小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.33/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://jp.corp-sansan.com/recruit/newgrads/jobs/creator-2028/",
+          "label": "jp.corp-sansan.com"
+        },
+        {
+          "url": "https://ir.corp-sansan.com/ja/ir/library/report/main/06/teaserItems1/00/linkList/0/link/sansan_ar2025_jp.pdf",
+          "label": "ir.corp-sansan.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/5420",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/5420/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "GMO Media": {
+      "tier": "consider",
+      "reason": "28卒自有服务设计年俸450万日元起，含45小时固定加班。设计组在宅待核。",
+      "business": "コエテコ教育平台、ポイントタウン积分服务",
+      "targetRole": "自有服务设计师",
+      "pay": "28卒设计岗 年俸的分月方式未列 年俸4,500,000日元起",
+      "remote": "招聘页远程选项明确指远方候选人的面试，目标岗位在宅待核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总35.1小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.97/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://herp.careers/v1/gmomedia/OAAr1igZZX43",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/7827",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/7827/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Dentsu Digital": {
+      "tier": "priority",
+      "reason": "28卒Creative／Art月薪36.62万日元，另有奖金。新卒允许在宅并须定期到岗，频率按业务。",
+      "business": "数字营销、广告创意与企业DX",
+      "targetRole": "Creative／Art",
+      "pay": "28卒新卒；一般课程 366,225日元（基本薪288,000日元＋预付附加津贴78,225日元） 月额×12为4,394,700日元，不含奖金 3月、9月，每年2次。",
+      "remote": "新卒FAQ须定期出社，频率随业务。新卒统计全员可在宅，非设计队实绩。",
+      "actualOvertime": "官方2025年12月末数据月均法定外12小时56分，定义为8小时/日、40小时/周以外。 転職会議跨岗员工投稿汇总40小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.95/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://www.dentsudigital.co.jp/careers/newgrad/recruiting/",
+          "label": "dentsudigital.co.jp"
+        },
+        {
+          "url": "https://www.dentsudigital.co.jp/careers/newgrad/faq/",
+          "label": "dentsudigital.co.jp"
+        },
+        {
+          "url": "https://www.dentsudigital.co.jp/careers/newgrad/data/",
+          "label": "dentsudigital.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/22191/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Hakuhodo DY ONE": {
+      "tier": "consider",
+      "reason": "28卒Creative综合职月薪31.7万日元，官网有混合办公例。创意新卒在宅适用与工时待核。",
+      "business": "数字广告媒体、营销数据与创意制作",
+      "targetRole": "综合职 · Creative Course",
+      "pay": "28卒创意课程 317,000日元 月额×12为3,804,000日元，不含奖金 6月，每年1次。",
+      "remote": "雇主工作方式页面有员工在宅事例，Creative新卒制度及天数待核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总44.2小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.97/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://recruit.hakuhodody-one.co.jp/recruit/recruitment/",
+          "label": "recruit.hakuhodody-one.co.jp"
+        },
+        {
+          "url": "https://recruit.hakuhodody-one.co.jp/work-life/",
+          "label": "recruit.hakuhodody-one.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/9300467/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "博報堂": {
+      "tier": "consider",
+      "reason": "28卒设计师基本月薪30万日元，加班另付、另有业绩奖。设计组在宅和实际工时待核。",
+      "business": "博报堂本体广告、品牌及整合创意",
+      "targetRole": "创意职 · 设计师",
+      "pay": "28卒；博报堂本体 基本薪300,000日元 基本年俸3,600,000日元，另加加班费和业绩奖 业绩奖金每年1次，预计下一年度6月底发。",
+      "remote": "招聘主体为博报堂本体。官方未核目标岗规律，集团其他法人不替代。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总49.8小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.31/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://hakusuku.jp/recruit/information/designer-entry/",
+          "label": "hakusuku.jp"
+        },
+        {
+          "url": "https://hakusuku.jp/recruit/environment/",
+          "label": "hakusuku.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/24828/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Visional／ビズリーチ": {
+      "tier": "priority",
+      "reason": "28卒产品设计年收500万日元。现行每周可在宅2天，官方预告2027年2月起改为1天。",
+      "business": "ビズリーチ、HRMOS等人才平台",
+      "targetRole": "产品职 · 设计方向",
+      "pay": "28卒；公司发布的设计岗 333,334日元（基本薪253,968日元＋固定加班79,366日元） 5,000,000日元 原则上每年2次（4月、10月），依业绩变动；首年按在职时间。",
+      "remote": "公司新卒FAQ原则出社，现行每周允许远程2天，2027年2月起拟改每周1天。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总24.6小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.19/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://student.redesigner.jp/recruitments/J1997f98066c962ddbe50c3c0c64f4b84",
+          "label": "student.redesigner.jp"
+        },
+        {
+          "url": "https://newgrads.visional.inc/jobs/product/",
+          "label": "newgrads.visional.inc"
+        },
+        {
+          "url": "https://newgrads.visional.inc/faq/",
+          "label": "newgrads.visional.inc"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/25037/answers?topic=%E6%9C%89%E7%B5%A6",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "giftee": {
+      "tier": "priority",
+      "reason": "28卒传播设计年收432.9万日元起，可在宅，公司原则每周到岗2次，部分职种另定。",
+      "business": "giftee电子礼品及eGift发行平台",
+      "targetRole": "传播设计师",
+      "pay": "28卒；株式会社ギフティ 333,000日元起（基本薪258,336日元起） 4,329,000日元起 基本为1个月工资；依公司业绩、贡献及出勤可另加。",
+      "remote": "官方岗位列在宅地点，公司招聘页原则每周2次到岗并有职种例外。",
+      "actualOvertime": "公司招聘2025年度全公司月均16.8小时。 転職会議跨岗员工投稿汇总26.9小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分2.95/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://herp.careers/v1/gifteegroup/J6M3UNeozyFf",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://careers.giftee.co.jp/workstyle/",
+          "label": "careers.giftee.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/3994050/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "株式会社クイック": {
+      "tier": "consider",
+      "reason": "28卒平面／服务设计覆盖Web、广告和研究，雇主介绍混合办公。目标岗位薪资和出社频率待核。",
+      "business": "看護roo!等招聘、护理与人力资讯产品",
+      "targetRole": "平面／服务设计",
+      "pay": "28卒平面岗未列薪；金额仅参考同本部27卒 UI/UX 岗 27卒参考 375,834–434,334日元（依能力） 27卒参考4,510,008–5,212,008日元（月额×12，假设两期薪额不变；未额外加奖金） 27卒新卒共通条件列每年2次，28卒平面岗待核。",
+      "remote": "当期设计岗雇主稿与新卒环境页均介绍混合，公司例为2天在宅但按团队。",
+      "actualOvertime": "28卒平面岗雇主介绍组织月均约20小时，具体职种样本及期间未列。 転職会議跨岗员工投稿汇总37.3小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.18/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://www.wantedly.com/projects/2613985",
+          "label": "wantedly.com"
+        },
+        {
+          "url": "https://saiyo.919.jp/recruitment/",
+          "label": "saiyo.919.jp"
+        },
+        {
+          "url": "https://saiyo.919.jp/environment/",
+          "label": "saiyo.919.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/1304/answers",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/1304/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Leverages": {
+      "tier": "priority",
+      "reason": "28卒产品设计月薪35万日元起，公布年收500万起。岗位列按公司规则在宅，团队频率待核。",
+      "business": "人力服务与自有数字产品，如レバテック",
+      "targetRole": "产品设计师",
+      "pay": "28卒；公司发布的该设计岗 350,000日元起 5,000,000日元起；公司综合要项的模型含常规业绩奖和符合条件的近邻津贴 按目标完成度及对团队、服务的贡献评定。",
+      "remote": "同岗雇主明确列远程制度，按规定适用，团队和新人频率待核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总40.6小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.11/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://student.redesigner.jp/recruitments/Ja733bb114a7d628f12181a0b01918f87",
+          "label": "student.redesigner.jp"
+        },
+        {
+          "url": "https://recruit.leverages.jp/recruit/graduates/information/",
+          "label": "recruit.leverages.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/4200/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Accenture": {
+      "tier": "consider",
+      "reason": "28卒Creative基本年薪480万日元。日本法人有条件式在宅，创意配属或客户现场要求待核。",
+      "business": "Accenture Song的服务体验、产品和数字转型",
+      "targetRole": "Creative｜服务、体验与产品设计",
+      "pay": "28卒；2026年8月所公告的入社预计待遇 基本薪400,000日元 基本年薪4,800,000日元；含业绩奖及津贴的理论年收6,630,000日元 理论年收含个人及公司业绩奖金，实际金额未定。",
+      "remote": "日本福利列有条件使用在宅；Creative当届工作地东京或关西，项目可赴客户现场，频率待核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总32.6小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.66/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://www.accenture.com/jp-ja/careers/life-at-accenture/entry-level",
+          "label": "accenture.com"
+        },
+        {
+          "url": "https://www.accenture.com/jp-ja/careers/local/benefits",
+          "label": "accenture.com"
+        },
+        {
+          "url": "https://student.redesigner.jp/recruitments/J819a5020e227c42d88a6ea6392ad3ed0",
+          "label": "student.redesigner.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/5024/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/5024/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "MIXI": {
+      "tier": "priority",
+      "reason": "28卒产品设计月薪35万日元起，适用公司远程规则。公司按部门决定出社，目标团队频率待核。",
+      "business": "MIXI旗下生活方式、体育及数字娱乐服务",
+      "targetRole": "产品设计师",
+      "pay": "28卒产品设计师｜2027年10月／2028年4月入社 350,000日元起（基本266,640，含资产形成津贴；职务给83,360） 4,200,000日元起（月薪×12的固定部分，未计另付项目） 本次28卒岗位原页未列定期奖金金额或次数；不得沿用旧届假设。",
+      "remote": "当届产品岗指向公司远程规定，Marble制度由部门选全远程或出社安排，设计新人频率待核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总21.6小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.26/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://mixi-recruit.snar.jp/jobboard/detail.aspx?id=KpFxLlAEDwVuw1atygdFVA",
+          "label": "mixi-recruit.snar.jp"
+        },
+        {
+          "url": "https://mixi-recruit.snar.jp/jobboard/detail.aspx?id=qhpxaMGz5sdzVhWlzMQYqQ",
+          "label": "mixi-recruit.snar.jp"
+        },
+        {
+          "url": "https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/14537/",
+          "label": "mixigroup-recruit.mixi.co.jp"
+        },
+        {
+          "url": "https://mixigroup-recruit.mixi.co.jp/life/workstyle/",
+          "label": "mixigroup-recruit.mixi.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/261",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/261/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "DeNA": {
+      "tier": "priority",
+      "reason": "28卒Creative含产品设计，标准年收600万日元起，岗位列可在经批准地点远程。配属出社频率待核。",
+      "business": "游戏、直播、体育与医疗数字服务",
+      "targetRole": "28 卒 AI Generalist 的 Creative 职，涵盖体验及产品设计。",
+      "pay": "28 卒 AI Generalist 的 Creative 职月薪 46.5 万日元起，含 45 小时固定加班。标准年收 600 万起含两次奖金，4 月入职的首年 6 月不发奖。",
+      "remote": "当届Creative新卒要项列办公室或认可的远程地点，包括入职时条件；具体团队频率待核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总32.9小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分4.62/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://student.dena.com/aigeneralist/description/",
+          "label": "student.dena.com"
+        },
+        {
+          "url": "https://csr.dena.com/jp/employees/environment-health/",
+          "label": "csr.dena.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/460/answers",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/460/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "LayerX": {
+      "tier": "consider",
+      "reason": "バクラク产品设计涵盖客户业务研究与UI。官网岗位有远程实践，28卒薪资按公司规定。",
+      "business": "バクラク财务、支出与后台业务SaaS",
+      "targetRole": "Bakuraku 产品设计师",
+      "pay": "27／28卒产品设计师薪资按公司规定，未公开金额，工程师个案不套用。",
+      "remote": "当届官方岗位写远程为主，出勤随组。长期实习首周须到岗，交通住宿公司负担，第六天起可远程；正职培训期安排待核。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总16.7小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.29/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://open.talentio.com/r/1/c/layerx/pages/92499",
+          "label": "open.talentio.com"
+        },
+        {
+          "url": "https://jobs-preview.layerx.co.jp/newgrads/",
+          "label": "jobs-preview.layerx.co.jp"
+        },
+        {
+          "url": "https://jobs.layerx.co.jp/opendoor/206cdd370bae80c786efd947a99a7125/",
+          "label": "jobs.layerx.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/9742610",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "LITALICO": {
+      "tier": "consider",
+      "reason": "新卒岗位做无障碍服务、用户研究和UI/UX，预计年收350.08万日元起，岗位在宅待核。",
+      "business": "福祉、教育和照护现场服务及数字产品",
+      "targetRole": "新卒设计师｜UI/UX 与用户研究",
+      "pay": "可于2028年4月入社 253,400日元起 预计3,500,800日元起 每年2次，半年有一次调薪机会。",
+      "remote": "当届招聘只列东京本社与依就业规则，未确认设计岗可在宅。",
+      "actualOvertime": "転職会議跨岗员工投稿汇总22小时/月，统计期间及该工时样本数未列。",
+      "reviews": "転職会議跨岗评分3.99/5，11/14公开原页回读，设计新卒样本不足。",
+      "sources": [
+        {
+          "url": "https://herp.careers/v1/litalico/NYhHcBGI8U_q",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://litalico.co.jp/recruit/recruit_student/",
+          "label": "litalico.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/10216868/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "HERP": {
+      "tier": "priority",
+      "reason": "28卒产品设计年收450万日元起，官网岗位明确可在宅，配属出社频率待核。",
+      "business": "HERP Hire与ジョブミル招聘SaaS",
+      "targetRole": "产品设计师｜ジョブミル等",
+      "pay": "28卒新卒；另列独立学生实习 375,000日元起（年收÷12的比较折算，非岗位公布月薪） 4,500,000日元起",
+      "remote": "28卒官方岗位明确可在宅，东京五反田办公室，频率未列。",
+      "actualOvertime": "目标设计岗与跨岗均无可引工时样本。",
+      "reviews": "现有公开评价资料有限，未获可用设计岗评分。",
+      "sources": [
+        {
+          "url": "https://herp.careers/v1/herpinc/rOCQ7t221beA",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://herp.careers/v1/herpinc/MKbK-26Piphz",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/9435475/jobs",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Cybozu": {
+      "tier": "priority",
+      "reason": "28卒产品设计月薪40万日元起，日本国内可选在宅，需匹配团队安排。",
+      "business": "kintone、Garoon 等协作软件",
+      "targetRole": "28卒产品设计师，信息架构、可用性、设计系统",
+      "pay": "40万/月起，含40小时固定加班，含奖金模型560万起",
+      "remote": "岗位明确日本国内可在宅，按工作与团队匹配，申请可表明希望",
+      "actualOvertime": "2025年官方全公司月均11.23小时",
+      "reviews": "转职会议全公司评分4.37，月均18.9小时自报，设计组未单列",
+      "sources": [
+        {
+          "url": "https://cybozu.co.jp/human-capital/data/",
+          "label": "cybozu.co.jp"
+        },
+        {
+          "url": "https://cybozu.co.jp/recruit/entry/newgrad/product-designer2028.html",
+          "label": "cybozu.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/1543/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "SmartHR": {
+      "tier": "priority",
+      "reason": "28卒产品设计在日本国内可全远程，年收480–708万日元，另有成果奖。",
+      "business": "SmartHR 人事劳务 SaaS",
+      "targetRole": "28卒产品设计师",
+      "pay": "40–59万/月，含45小时固定加班及8小时深夜津贴，成果奖另计",
+      "remote": "产品团队日本国内可全远程，无指定出社天数",
+      "actualOvertime": "2026年官方全公司月均16.6小时",
+      "reviews": "转职会议公司汇总4.33，19小时自报，有限跨岗样本",
+      "sources": [
+        {
+          "url": "https://recruit.smarthr.co.jp/career/?category=design-product",
+          "label": "recruit.smarthr.co.jp"
+        },
+        {
+          "url": "https://open.talentio.com/r/1/c/smarthr/pages/125677",
+          "label": "open.talentio.com"
+        },
+        {
+          "url": "https://recruit.smarthr.co.jp/newgrads/product-designer/",
+          "label": "recruit.smarthr.co.jp"
+        },
+        {
+          "url": "https://recruit.smarthr.co.jp/environment/",
+          "label": "recruit.smarthr.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/4026318",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/4026318/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "teamLab": {
+      "tier": "consider",
+      "reason": "通年新卒 UI/UX 月薪32万日元起，新卒设计岗在宅频率待核。",
+      "business": "网站、App、数字展陈和交互体验",
+      "targetRole": "通年新卒 Solutions UI/UX，另有两周学生实习",
+      "pay": "32万/月起，484万含奖金模型，两周实习1300日元/小时",
+      "remote": "岗位列东京办公，未核到新卒UI/UX在宅制度或出社频率",
+      "actualOvertime": "转职会议全公司自报31小时/月，岗位未知",
+      "reviews": "汇总4.27，Web制作管理个人经历提到项目影响加班",
+      "sources": [
+        {
+          "url": "https://www.team-lab.com/recruit/fresh/",
+          "label": "team-lab.com"
+        },
+        {
+          "url": "https://www.team-lab.com/recruit/fresh/designer/",
+          "label": "team-lab.com"
+        },
+        {
+          "url": "https://www.team-lab.com/recruit/internship/",
+          "label": "team-lab.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/4099425/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "FromSoftware": {
+      "tier": "consider",
+      "reason": "28卒游戏 UI／宣传 Web 月薪30万日元，含住房与定额加班费。在宅安排按岗位待核。",
+      "business": "《艾尔登法环》等主机及PC游戏",
+      "targetRole": "28卒游戏UI Artist、广告与Web设计",
+      "pay": "30万/月含住房3万及定额加班1.3万，奖金每年两次",
+      "remote": "正式页列在宅补助且试用期不适用补助，公司提到推动远程开发，设计岗频率待核",
+      "actualOvertime": "转职会议全公司自报29.4小时/月",
+      "reviews": "汇总3.0，旧年份与跨岗位样本",
+      "sources": [
+        {
+          "url": "https://careers.fromsoftware.jp/jp/faq.html",
+          "label": "careers.fromsoftware.jp"
+        },
+        {
+          "url": "https://fromsoftware-careers.snar.jp/jobboard/detail.aspx?id=r6feZU24V8w",
+          "label": "fromsoftware-careers.snar.jp"
+        },
+        {
+          "url": "https://careers.fromsoftware.jp/jp/newgraduates.html",
+          "label": "careers.fromsoftware.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/8009",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/8009/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "sdtech": {
+      "tier": "priority",
+      "reason": "28卒车载及数字产品 UI/UX 修士月薪28.8万日元，官方岗位写可在宅，加班另付。",
+      "business": "车载与数字设备人机界面、数字产品研发",
+      "targetRole": "28卒UI/UX设计，车载GUI、Web/App",
+      "pay": "修士28.8万/月，基本薪28万加远程补贴8000，业绩奖金另计",
+      "remote": "官方岗位写可在宅，官网介绍全国可远程，设计新人团队固定出社次数待核",
+      "actualOvertime": "雇主ATS全公司平均18小时/月，统计期未列",
+      "reviews": "转职会议对应法人无可读员工投稿，缺设计岗样本",
+      "sources": [
+        {
+          "url": "https://hrmos.co/pages/sdtech/jobs/n00001",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://www.sdtech.co.jp/careers-lp",
+          "label": "sdtech.co.jp"
+        },
+        {
+          "url": "https://www.sdtech.co.jp/new-graduate-recruitment/entry-level-designer",
+          "label": "sdtech.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/8248840",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "フリースタイルエンターテイメント": {
+      "tier": "consider",
+      "reason": "28卒平面／Web 有独立设计方向。往届修士约23.87万日元，现届薪资与在宅待核。",
+      "business": "名古屋网站制作、品牌和宣传",
+      "targetRole": "28卒平面／Web设计分支",
+      "pay": "27卒修士23.8657万/月，含20小时固定加班，28卒待核",
+      "remote": "28卒公告列名古屋岗位，远程政策待核，线上说明会为活动",
+      "actualOvertime": "转职会议全公司自报35.4小时/月",
+      "reviews": "汇总3.28，2024年Web设计个人有工作负荷反馈",
+      "sources": [
+        {
+          "url": "https://www.freestyle-entertainment.co.jp/blog/recruit2027_pre-3/",
+          "label": "freestyle-entertainment.co.jp"
+        },
+        {
+          "url": "https://job.mynavi.jp/27/pc/corpinfo/displayEmployment/index/?corpId=260731&recruitingCourseId=27028084",
+          "label": "job.mynavi.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/6090846/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Panasonic": {
+      "tier": "consider",
+      "reason": "设备与服务 UI/UX 对口。27卒 Panasonic 本体修士30.95万日元，28卒与具体法人在宅安排待核。",
+      "business": "家电、设备、照明、住宅系统",
+      "targetRole": "Panasonic 本体UI/UX，相关法人广告创意分开",
+      "pay": "27卒本体修士30.95万/月，其他两法人30.75万/月参考",
+      "remote": "集团公开远程制度，目标法人和设计新卒出社安排待核",
+      "actualOvertime": "旧娱乐通信法人自报38.6小时/月，住宅法人21.7小时/月，本体设计未知",
+      "reviews": "集团内不同法人意见分开，无本体设计组可比汇总",
+      "sources": [
+        {
+          "url": "https://holdings.panasonic/jp/corporate/sustainability/diversity-equity-inclusion/support-worklifebalance.html",
+          "label": "holdings.panasonic"
+        },
+        {
+          "url": "https://recruit.jpn.panasonic.com/newgrads/job_description/",
+          "label": "recruit.jpn.panasonic.com"
+        },
+        {
+          "url": "https://recruit.jpn.panasonic.com/internship/courses/creative/index.html",
+          "label": "recruit.jpn.panasonic.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/10337158/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/10337322/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Suzuki": {
+      "tier": "consider",
+      "reason": "28卒四轮实习有车载 GUI 分支。往届修士31.77万日元，设计新人在宅与当届薪资待核。",
+      "business": "汽车及出行设备",
+      "targetRole": "四轮GUI设计实习，保留此分支",
+      "pay": "2026年实绩修士31.77万/月，奖金另计，28卒待核",
+      "remote": "GUI实习在浜松，正职新卒GUI岗在宅待核",
+      "actualOvertime": "转职会议全公司自报27.6小时/月",
+      "reviews": "汇总3.06，生产技术和机械设计投稿仅作参考",
+      "sources": [
+        {
+          "url": "https://design-recruit.suzuki.co.jp/",
+          "label": "design-recruit.suzuki.co.jp"
+        },
+        {
+          "url": "https://saiyo.suzuki.co.jp/graduate/recruit/requirements/index.html",
+          "label": "saiyo.suzuki.co.jp"
+        },
+        {
+          "url": "https://www.design-recruit.suzuki.co.jp/event/info/2027design-practice-car.html",
+          "label": "design-recruit.suzuki.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/2565/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Yamaha": {
+      "tier": "consider",
+      "reason": "电子乐器 UI 和音乐体验原型对口。新卒通用条款列可在宅，往届修士30.2万日元。",
+      "business": "钢琴、电子乐器与音响设备",
+      "targetRole": "电子乐器UI及音乐体验，设计研究所或一般课题独立",
+      "pay": "27卒要项2026实绩修士30.2万/月，奖金两次，28卒待核",
+      "remote": "27卒雇用条款列居家地点，设计组频率与当届安排待核",
+      "actualOvertime": "转职会议全公司自报21.7小时/月",
+      "reviews": "汇总4.31，开发职反馈只可参考",
+      "sources": [
+        {
+          "url": "https://www.yamaha.com/ja/recruitment/about-yamaha/wlb/",
+          "label": "yamaha.com"
+        },
+        {
+          "url": "https://www.yamaha.com/ja/recruitment/",
+          "label": "yamaha.com"
+        },
+        {
+          "url": "https://www.yamaha.com/ja/recruitment/about-recruitment/information/",
+          "label": "yamaha.com"
+        },
+        {
+          "url": "https://www.yamaha.com/ja/recruitment/internship/designer/",
+          "label": "yamaha.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/2965/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Honda": {
+      "tier": "consider",
+      "reason": "车载显示器 UI/UX 实习有明确课题。往届技术修士29.57万日元，设计岗在宅规则待核。",
+      "business": "汽车、摩托车、移动产品",
+      "targetRole": "车载显示器UI/UX设计",
+      "pay": "27卒联合招聘技术系修士参考29.57万/月，奖金按制度，28卒设计额待核",
+      "remote": "Honda软件职公开资料称基本到岗及可协商远程，设计组不可直接沿用",
+      "actualOvertime": "本田技研自报23.2小时/月，本田技术研究所29.8小时/月，设计组未知",
+      "reviews": "公司平台口径按法人分开",
+      "sources": [
+        {
+          "url": "https://global.honda/jp/jobs/design/process/",
+          "label": "global.honda"
+        },
+        {
+          "url": "https://software.honda-jobs.com/wp/wp-content/uploads/2026/04/b07b62dddddec8ad164e2be01a9c6251.pdf",
+          "label": "software.honda-jobs.com"
+        },
+        {
+          "url": "https://www.honda-recruit.jp/information/recruiting/index.html",
+          "label": "honda-recruit.jp"
+        },
+        {
+          "url": "https://global.honda/jp/jobs/design/internship/",
+          "label": "global.honda"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/2563/answers?topic=%E6%9C%89%E7%B5%A6",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/112370/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Sony": {
+      "tier": "consider",
+      "reason": "Creative Center 已实行混合办公，样机确认需到岗。往届集团本社修士36.3万日元起。",
+      "business": "Sony 产品、服务、品牌及跨业务设计",
+      "targetRole": "Creative Center UI/UX／产品交互",
+      "pay": "集团本社27卒修士参考36.3万/月起，28卒条款尚待官网",
+      "remote": "设计中心说明远程已普及，项目需要时到岗核样机，固定出社次数待核",
+      "actualOvertime": "转职会议集团本体自报27.8小时/月",
+      "reviews": "汇总4.59，团队与项目存在差异",
+      "sources": [
+        {
+          "url": "https://www.sony.com/ja/SonyInfo/design/career/workstyle/",
+          "label": "sony.com"
+        },
+        {
+          "url": "https://www.sony.com/ja/SonyInfo/Jobs/sgc-recruit/newgrads/",
+          "label": "sony.com"
+        },
+        {
+          "url": "https://www.sony.com/ja/SonyInfo/Jobs/sgc-recruit/newgrads/info/",
+          "label": "sony.com"
+        },
+        {
+          "url": "https://www.sony.com/ja/SonyInfo/design/career/recruiting_newgrads/",
+          "label": "sony.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/2306/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
     },
     "Epson": {
       "tier": "consider",
-      "reason": "设计实习涵盖打印机、电脑和手机 App 的 UI/UX。公司有混合办公制度，设计组频率与 28 卒起薪待核。"
+      "reason": "打印机与 App UI/UX 对口，公司混合办公，设计组频率及28卒起薪待核。",
+      "business": "打印、影像与设备软件",
+      "targetRole": "打印机和应用UI/UX，28卒五日实习",
+      "pay": "2026年修士31.2万/月参考，奖金两次；28卒待核",
+      "remote": "公司制度一般至少每周出社1次，设计组频率待核",
+      "actualOvertime": "转职会议全公司自报21.8小时/月",
+      "reviews": "汇总4.63，应用开发岗位个案只作参考",
+      "sources": [
+        {
+          "url": "https://corporate.epson/en/sustainability/our-people/workplace.html",
+          "label": "corporate.epson"
+        },
+        {
+          "url": "https://www.recruit.epson.jp/newgraduate/requirements.html",
+          "label": "recruit.epson.jp"
+        },
+        {
+          "url": "https://www.recruit.epson.jp/newgraduate/internship.html",
+          "label": "recruit.epson.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/2278/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
     },
-    "株式会社くふうカンパニーホールディングス": {
+    "FUJIFILM Business Innovation": {
       "tier": "consider",
-      "reason": "28 卒消费产品设计年收 450 万日元起，东京原则出社。"
+      "reason": "UX 设计中心有明确方向。公司原则每周最多两天全日在宅，27卒修士34.09万日元。",
+      "business": "办公复合机、文档管理、企业解决方案",
+      "targetRole": "富士胶片BI设计中心UI/UX",
+      "pay": "27卒本体修士34.09万/月，奖金两次；28卒待核",
+      "remote": "本体全员工制度原则每周最多2个全日在宅日，具体团队待核",
+      "actualOvertime": "2024年度官方实际月均23.3小时，跨岗",
+      "reviews": "转职会议汇总3.83、员工自报21.1小时/月，与官方不同口径",
+      "sources": [
+        {
+          "url": "https://www.fujifilm.com/fb/ja/about/careers/career/environment",
+          "label": "fujifilm.com"
+        },
+        {
+          "url": "https://www.fujifilm.com/fb/ja/about/initiatives/technical/design/work-and-life",
+          "label": "fujifilm.com"
+        },
+        {
+          "url": "https://www.fujifilm.com/fb/ja/about/careers/graduates/recruit/fb",
+          "label": "fujifilm.com"
+        },
+        {
+          "url": "https://www.fujifilm.com/fb/ja/about/initiatives/technical/design/jobs",
+          "label": "fujifilm.com"
+        },
+        {
+          "url": "https://www.fujifilm.com/fb/ja/about/careers/career/environment/real-voices",
+          "label": "fujifilm.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/23620/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
     },
-    "ARSTECH GUILD 株式会社": {
+    "KEYENCE": {
       "tier": "consider",
-      "reason": "28 卒游戏 UI 岗做菜单与操作流程，月薪 27.5 万日元，含 40 小时固定加班。在宅和实际工时待核。"
+      "reason": "28卒 Creative 涵盖工业产品和 UI/UX。大阪修士示例30万日元含住房补助，在宅待核。",
+      "business": "传感器、工业检测及自动化设备",
+      "targetRole": "28卒Creative 产品、工业UI/UX设计",
+      "pay": "大阪单身修士示例30万/月，含3万住房补助，业绩奖金四次",
+      "remote": "官方新卒岗未核到该岗位可在宅或频率",
+      "actualOvertime": "转职会议全公司自报44.3小时/月，设计岗未单列",
+      "reviews": "汇总4.36，公开工时跨岗且一般事务个案不可套设计岗",
+      "sources": [
+        {
+          "url": "https://www.keyence-jobs.jp/work/creative/",
+          "label": "keyence-jobs.jp"
+        },
+        {
+          "url": "https://www.keyence-jobs.jp/recruit/guideline/",
+          "label": "keyence-jobs.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/2390/answers?question_codes=worklife&sort=post_date",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "三菱重工業": {
+      "tier": "consider",
+      "reason": "先进设计中心做新业务愿景与产品服务。往届修士30.5万日元，具体配属与在宅频率待核。",
+      "business": "能源、航空、工业设备等重型制造",
+      "targetRole": "先进设计中心愿景、产品与服务设计",
+      "pay": "本体27卒共通2026实绩修士30.5万/月，奖金两次，28卒设计岗位待核",
+      "remote": "公司FAQ有经上长批准的在宅制度，先进设计中心安排待核",
+      "actualOvertime": "转职会议全公司自报28小时/月",
+      "reviews": "汇总4.28，跨岗反馈提及福利及项目工期",
+      "sources": [
+        {
+          "url": "https://www.mhi.com/jp/recruit/diversity/requirements/qa",
+          "label": "mhi.com"
+        },
+        {
+          "url": "https://compass.labbase.jp/company/1030/recruit/59861",
+          "label": "compass.labbase.jp"
+        },
+        {
+          "url": "https://www.mhi.com/jp/recruit/shinsotsu/info/requirements",
+          "label": "mhi.com"
+        },
+        {
+          "url": "https://www.mhi.com/jp/business/technology/core_technologies/design.html",
+          "label": "mhi.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/2501/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "ほぼ日": {
+      "tier": "consider",
+      "reason": "内容和生活品牌设计实习时薪1400日元，原则到岗，视任务可部分远程。",
+      "business": "内容、文具与生活品牌产品",
+      "targetRole": "设计招聘直结实习，Web/App、包装、活动视觉",
+      "pay": "1400日元/小时，正职待遇待核",
+      "remote": "官网实习原则总部，依任务可部分远程，正式岗未核",
+      "actualOvertime": "转职会议全公司自报38.8小时/月",
+      "reviews": "汇总3.28，样本较小",
+      "sources": [
+        {
+          "url": "https://www.1101.com/intern/tabinonakama_2026/index.html",
+          "label": "1101.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/3618361/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "SWIPEDRAMA": {
+      "tier": "consider",
+      "reason": "竖屏短剧 App 的 UI/UX 学生委托时薪1500日元、可全远程，正职条件待核。",
+      "business": "竖屏短剧产品及发行",
+      "targetRole": "学生UI/UX长期项目，不等同正职",
+      "pay": "1500日元/小时含税，可协商月固定，合同签约法人待核",
+      "remote": "实习可全远程，每周3至5天，正职在宅未核",
+      "actualOvertime": "未核到可靠数据",
+      "reviews": "未核到可归属员工评论，产品评价不使用",
+      "sources": [
+        {
+          "url": "https://careers.highball.me/2024/05/19/swipedrama/",
+          "label": "careers.highball.me"
+        },
+        {
+          "url": "https://student.redesigner.jp/recruitments/J0d3d655af02dcbab0096e8ba9f2fc0b4",
+          "label": "student.redesigner.jp"
+        }
+      ]
+    },
+    "Yappli": {
+      "tier": "consider",
+      "reason": "企业 App 的 UI/UX 方向适合比较。新卒混合办公，薪资按职责和经验个别确定。",
+      "business": "Yappli 无代码 App 开发平台",
+      "targetRole": "新卒设计职及应用UIUX学生实习",
+      "pay": "新卒没有统一报价，实习时薪个别决定",
+      "remote": "新卒官网明确混合，频率未公开",
+      "actualOvertime": "设计组及全社可比实际工时未核",
+      "reviews": "2024年财务员工提及混合及可能加强出社，非设计组",
+      "sources": [
+        {
+          "url": "https://yappli.co.jp/newgraduate/",
+          "label": "yappli.co.jp"
+        },
+        {
+          "url": "https://student.redesigner.jp/recruitments/Jc28c036c8c03250dd171f688e6001898",
+          "label": "student.redesigner.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/169862/answers/7272349",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "三洋": {
+      "tier": "consider",
+      "reason": "自营电商 Web 与服务设计对口。库内28卒本科24.9万日元，修士及在宅待核。",
+      "business": "自营电商与线上销售",
+      "targetRole": "自营EC／Web与服务设计",
+      "pay": "28卒本科24.9万/月，含8小时固定加班，修士待核",
+      "remote": "未核到目标岗位在宅，线上面谈不等于在宅",
+      "actualOvertime": "原库雇主刊载上年约8小时/月，本轮原页不可读",
+      "reviews": "同名企业较多，无可可靠归属员工评价",
+      "sources": [
+        {
+          "url": "https://student.redesigner.jp/recruitments/J9dd1762ab06b341b13032aafe74ff56e",
+          "label": "student.redesigner.jp"
+        }
+      ]
+    },
+    "Ingage": {
+      "tier": "consider",
+      "reason": "Re:lation 28卒 UI/UX 大阪梅田，月薪28.093万日元起，入社初期薪资构成及在宅待核。",
+      "business": "企业客服SaaS Re:lation",
+      "targetRole": "28卒UI/UX设计",
+      "pay": "28.093万/月起，基本23.502万加25小时固定4.591万，前6月固定项另算",
+      "remote": "岗位列大阪梅田，28卒正职在宅未核",
+      "actualOvertime": "实际未核，25小时属固定加班",
+      "reviews": "公开员工评价汇总2.54，部门差异及样本限制",
+      "sources": [
+        {
+          "url": "https://hrmos.co/pages/ingage/jobs/0000064",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://hrmos.co/pages/ingage/jobs/0000071",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/6244832/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "NOTES DESIGN OFFICE": {
+      "tier": "consider",
+      "reason": "品牌、平面和 Web 对口。2027年入社参考25万日元并列远程制度，28卒待核。",
+      "business": "品牌、CI、包装与网站设计",
+      "targetRole": "品牌／平面／Web设计，另有学生实习",
+      "pay": "2027年4月职位四年制参考25万/月，修士及28卒未核",
+      "remote": "往届列远程制度，28卒新人适用频率待核",
+      "actualOvertime": "未核到可靠统计",
+      "reviews": "未核到可读且法人对应的员工评价",
+      "sources": [
+        {
+          "url": "https://www.notes-design.co.jp/sp/recruit.html",
+          "label": "notes-design.co.jp"
+        },
+        {
+          "url": "https://www.notes-design.co.jp/s/wp-content/uploads/2026/09/2027_Notes_D.pdf",
+          "label": "notes-design.co.jp"
+        },
+        {
+          "url": "https://www.notes-design.co.jp/s/wp-content/uploads/2026/09/2027_Notes_CD_Intern.pdf",
+          "label": "notes-design.co.jp"
+        },
+        {
+          "url": "https://www.notes-design.co.jp/",
+          "label": "notes-design.co.jp"
+        }
+      ]
+    },
+    "CyMed": {
+      "tier": "consider",
+      "reason": "现有医疗 Web／LP 长期设计实习按委托面议，28卒正式设计薪资和在宅待核。",
+      "business": "医疗数字服务与网络获客",
+      "targetRole": "长设计实习，Web、LP及UI改善",
+      "pay": "业务委托报酬面议，28卒正职薪资未核",
+      "remote": "设计实习在宅条件待核",
+      "actualOvertime": "未核到可靠数据",
+      "reviews": "公开面谈体验样本不能代表员工",
+      "sources": [
+        {
+          "url": "https://hrmos.co/pages/cymed/jobs/2306598560053587970",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://hrmos.co/pages/cymed/jobs",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/10498136",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://geeklyreview.com/company/company-85464/review/reviewer",
+          "label": "geeklyreview.com"
+        }
+      ]
+    },
+    "Cyberwave": {
+      "tier": "consider",
+      "reason": "UI/UX 长期实习时薪1250–2000日元，每周远程最多3小时，正职设计待遇待核。",
+      "business": "企业受托 Web 应用与系统开发",
+      "targetRole": "UI/UX长期实习",
+      "pay": "1250–2000日元/小时，至少每周3天12小时，正职设计薪资未核",
+      "remote": "实习远程最多3小时/周，正职设计未知",
+      "actualOvertime": "未核到当前相关团队实际工时",
+      "reviews": "可读员工评价主要为2007–2008年工程/派遣",
+      "sources": [
+        {
+          "url": "https://cyberwave.jp/recruit/job/uiux_intern/",
+          "label": "cyberwave.jp"
+        },
+        {
+          "url": "https://cyberwave.jp/recruit/job",
+          "label": "cyberwave.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/30793/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "KiQ": {
+      "tier": "consider",
+      "reason": "Web/UI 设计工作室有学生实习入口，远程可协商的通用条款需核实习适用。",
+      "business": "Web、品牌与服务体验设计",
+      "targetRole": "学生设计实习；助理设计正职要求实务经验",
+      "pay": "实习薪资未公布，正式按经验定薪",
+      "remote": "岗位通用条款可协商远程，实习是否适用待核",
+      "actualOvertime": "未核到可靠工时",
+      "reviews": "同名法人排除，未核到员工评价",
+      "sources": [
+        {
+          "url": "https://kiq.ne.jp/jobs/",
+          "label": "kiq.ne.jp"
+        },
+        {
+          "url": "https://kiq.ne.jp/about/",
+          "label": "kiq.ne.jp"
+        }
+      ]
+    },
+    "Game Freak": {
+      "tier": "consider",
+      "reason": "游戏 UI 岗可关注。新卒为东京混合办公，往届图形设计月薪28万日元，28卒同岗待核。",
+      "business": "《宝可梦》等游戏开发",
+      "targetRole": "图形设计内游戏UI分支",
+      "pay": "雇主前年度图形设计28万/月，无固定加班，28卒待核",
+      "remote": "官方新卒FAQ明确东京混合办公，固定频率未列",
+      "actualOvertime": "官方全社20–30小时/月，未标统计期",
+      "reviews": "转职会议汇总3.64、跨岗自报26.9小时/月",
+      "sources": [
+        {
+          "url": "https://www.gamefreak.co.jp/recruit/faq/",
+          "label": "gamefreak.co.jp"
+        },
+        {
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayPrevEmployment/index/?corpId=100216&recruitingCourseId=27018616&site_preference=pc",
+          "label": "job.mynavi.jp"
+        },
+        {
+          "url": "https://www.gamefreak.co.jp/recruit/new/",
+          "label": "gamefreak.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/23505/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "たきコーポレーション": {
+      "tier": "consider",
+      "reason": "东京 UX 往届月薪26.54万日元，试用期21.4万。28卒正式条件与实际团队工时待核。",
+      "business": "广告、品牌、Web和设计服务",
+      "targetRole": "东京UX／Web设计，另有平面制作活动",
+      "pay": "27卒东京UX26.54万/月，前三个月21.4万，含30小时40分固定仅转正后",
+      "remote": "往届Web岗位写每周数日在宅，28卒UX适用待核",
+      "actualOvertime": "转职会议全公司自报51.6小时/月",
+      "reviews": "汇总3.07，跨岗历史评价不能证实28卒目标岗",
+      "sources": [
+        {
+          "url": "https://www.taki.co.jp/news/recruit-saiyou-end-2027/",
+          "label": "taki.co.jp"
+        },
+        {
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayPrevEmployment/index/?corpId=259864&recruitingCourseId=27038148&site_preference=smartphone",
+          "label": "job.mynavi.jp"
+        },
+        {
+          "url": "https://job.mynavi.jp/27/pc/corpinfo/displayEmployment/index/?corpId=259864&recruitingCourseId=27038814",
+          "label": "job.mynavi.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/48037/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "GK京都": {
+      "tier": "consider",
+      "reason": "28卒设计说明会涉及学生研修。往届本科22.56万日元，修士薪资和在宅待核。",
+      "business": "工业产品、品牌和设计咨询",
+      "targetRole": "京都设计公司，产品／传播／UI可关注",
+      "pay": "27卒本科22.56万/月，修士与28卒未核",
+      "remote": "28卒说明会线上，正职在宅待核",
+      "actualOvertime": "转职会议自报40.7小时/月，旧小样本",
+      "reviews": "3.01，旧工业设计个人评价，当前UI岗未知",
+      "sources": [
+        {
+          "url": "https://www.gk-kyoto.com/topics/3668",
+          "label": "gk-kyoto.com"
+        },
+        {
+          "url": "https://www.gk-kyoto.com/recruit",
+          "label": "gk-kyoto.com"
+        },
+        {
+          "url": "https://www.gk-kyoto.com/hp_works/wp-content/uploads/2026/03/2027_gkkyoto_requirements.pdf",
+          "label": "gk-kyoto.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/5762540/answers/6728945",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "SevenDex": {
+      "tier": "consider",
+      "reason": "28卒 UX/UI 月薪34.5万日元含60小时固定加班，每周两天远程。实际团队工时值得确认。",
+      "business": "数字产品UX、商业增长及品牌设计",
+      "targetRole": "28卒UX/UI和品牌设计",
+      "pay": "34.5万/月含60小时固定，460万首年模型含近邻房补及业绩奖",
+      "remote": "28卒官方ATS全公司每周3天出社、2天远程",
+      "actualOvertime": "转职会议汇总67.5小时/月，劳动平衡公开评论少，不能视设计团队实绩",
+      "reviews": "汇总3.50，项目工作负荷有限样本",
+      "sources": [
+        {
+          "url": "https://herp.careers/v1/sevendex/ixum8T5Lm3MA",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://herp.careers/careers/companies/sevendex/jobs/ixum8T5Lm3MA",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/9783677/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Cygames": {
+      "tier": "consider",
+      "reason": "28卒游戏 UI 修士月薪33.55万日元，含45小时固定加班及深夜加成。正式岗在宅待核。",
+      "business": "手游、主机游戏及内容IP",
+      "targetRole": "28卒游戏设计师中的UI分支",
+      "pay": "33.55万/月，基本年俸402.6万，含45小时加班及20小时深夜加成，激励另计",
+      "remote": "官方实习对远方人员可考虑在宅，28卒正式设计岗待核",
+      "actualOvertime": "转职会议公司自报27小时/月，跨岗",
+      "reviews": "汇总4.08，项目和运营压力差异较大",
+      "sources": [
+        {
+          "url": "https://fresh.cygames.co.jp/internship/designer/",
+          "label": "fresh.cygames.co.jp"
+        },
+        {
+          "url": "https://fresh.cygames.co.jp/recruit/flow/",
+          "label": "fresh.cygames.co.jp"
+        },
+        {
+          "url": "https://fresh.cygames.co.jp/recruit/guideline/",
+          "label": "fresh.cygames.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/338204/answers?question_codes=worklife&sort=post_date",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Members": {
+      "tier": "consider",
+      "reason": "28卒 UX 岗现已暂停受理。集团往届月薪26万日元，有在宅制度，等目标岗后续。",
+      "business": "企业数字服务、运营与DX",
+      "targetRole": "28卒UX设计，当前停止受理",
+      "pay": "集团往届26万/月，28卒同岗另行待核",
+      "remote": "官网新卒福利列在宅制度，配属团队及实际天数未知",
+      "actualOvertime": "转职会议公司自报15.8小时/月，跨配属",
+      "reviews": "汇总3.91，实际工作方式依配属",
+      "sources": [
+        {
+          "url": "https://recruit.members.co.jp/freshers/",
+          "label": "recruit.members.co.jp"
+        },
+        {
+          "url": "https://recruit.members.co.jp/welfare",
+          "label": "recruit.members.co.jp"
+        },
+        {
+          "url": "https://recruit.members.co.jp/requirements",
+          "label": "recruit.members.co.jp"
+        },
+        {
+          "url": "https://recruit.members.co.jp/freshers/ux-designer/",
+          "label": "recruit.members.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/268/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "SPECT DESIGN": {
+      "tier": "consider",
+      "reason": "UI/HMI 与产品设计方向对口。大阪办公室，基本月薪18.8万日元起，远程和团队实际工时待核。",
+      "business": "工业产品与软件界面设计，包含文具、App 和 SaaS。",
+      "targetRole": "常设新卒/中途 UI、HMI、产品或 Web 设计师；设计教育与经历合计四年以上。",
+      "pay": "月基本给18.8万日元起，加班按实另付，绩效奖金一年一次。326万日元为含每月37小时加班条件的示例。",
+      "remote": "官网写在大阪天王寺办公室工作。岗位远程制度未核到。",
+      "actualOvertime": "未核可靠员工实际统计。官网的37小时只用于年收算例。",
+      "reviews": "未核到可确认同法人的员工口碑。",
+      "sources": [
+        {
+          "url": "https://spect.co.jp/jobs",
+          "label": "spect.co.jp"
+        }
+      ]
+    },
+    "COLOPL": {
+      "tier": "consider",
+      "reason": "游戏 UI 有明确方向，27卒修士月薪36万日元参考。新卒以出社为主，可按情况在宅，28卒薪资待核。",
+      "business": "手机游戏开发运营，代表作《白猫Project》。",
+      "targetRole": "游戏设计师里的 UI。官网列28卒设计入口，报名端返回错误页；28卒作品集联选也列名。",
+      "pay": "27卒修士月薪36万日元，决算奖按业绩，28卒同岗薪资未核。",
+      "remote": "新卒FAQ列出社为基本，按情况可用在宅；27卒设计条款另列有条件津贴。",
+      "actualOvertime": "転職会議跨岗位投稿汇总25.7小时/月，期间和工时样本数未公布，设计新卒未核。",
+      "reviews": "既有员工证据见2024年平面设计师对弹性工时的评价，也有项目负荷和出社方面的意见。",
+      "sources": [
+        {
+          "url": "https://colopl-recruit.snar.jp/jobboard/detail.aspx?id=SG9ioFC0L6U",
+          "label": "colopl-recruit.snar.jp"
+        },
+        {
+          "url": "https://origin.colopl.co.jp/recruit/graduate/",
+          "label": "origin.colopl.co.jp"
+        },
+        {
+          "url": "https://colopl.co.jp/recruit/graduate/",
+          "label": "colopl.co.jp"
+        },
+        {
+          "url": "https://www.kurihaku.jp/direct/recruit/detail/81017/",
+          "label": "kurihaku.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/24928/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "STUDIO DETAILS": {
+      "tier": "consider",
+      "reason": "品牌、Web 与平面项目对口。往届设计年俸277.5万日元，当前可见学生实习，28卒正式岗与在宅待核。",
+      "business": "品牌策略、品牌视觉与 Web 制作。",
+      "targetRole": "品牌/Web/平面设计。官网现列设计学生兼职，正社员新卒栏目本轮仅见工程岗。",
+      "pay": "27卒同岗月薪23.125万日元，含20小时固定加班，年俸277.5万日元为历史；现有学生实习时薪1,250日元，每周2天、每天4小时以上。",
+      "remote": "实习列东京或名古屋，适用在宅条件待核；往届正式岗在宅待核。",
+      "actualOvertime": "既有転職会議跨岗位汇总38.9小时/月，样本与期间不明，待核设计团队实际。",
+      "reviews": "已有可读帖子提到跨专业协作、反馈和成长，也有负荷风险；不可用全公司评分代替设计新卒。",
+      "sources": [
+        {
+          "url": "https://www.details.co.jp/careers/",
+          "label": "details.co.jp"
+        },
+        {
+          "url": "https://herp.careers/v1/details/8e79Uaucnl_A",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://www.wantedly.com/projects/2383075",
+          "label": "wantedly.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/181210/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "INFOBAHN": {
+      "tier": "consider",
+      "reason": "IDL 有服务设计和 UI/UX。28卒集团总合职预登记月薪30.4万日元起，IDL 配属、独立设计岗与在宅待核。",
+      "business": "品牌沟通、内容及设计咨询，设 INFOBAHN DESIGN LAB。",
+      "targetRole": "IDL 服务设计/UX，27卒专岗已结束，28卒集团预登记可配属本法人。",
+      "pay": "28卒集团总合职预登记月薪30.4万起，其中基本22.6万、45小时固定加班7.8万；未保证IDL配属。",
+      "remote": "28卒集团预登记列东京；官网介绍弹性和自由工位，IDL 新卒在宅安排待核。",
+      "actualOvertime": "既有転職会議现法人跨岗位汇总31.5小时/月，工时样本及期间不明。",
+      "reviews": "现法人已有对同事沟通的认可，也有对分工与管理的保留，IDL专项无。",
+      "sources": [
+        {
+          "url": "https://www.infobahn.co.jp/recruit",
+          "label": "infobahn.co.jp"
+        },
+        {
+          "url": "https://hrmos.co/pages/mediagene/jobs/2028",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://hrmos.co/pages/mediagene/jobs/2027_idl",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/9712705/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "ABeam Consulting": {
+      "tier": "consider",
+      "reason": "服务设计共创讲座与项目经验可参考，28卒尚未核到可直接投递的设计专岗和对应待遇。",
+      "business": "企业管理、业务与数字转型咨询。",
+      "targetRole": "已核公开设计师讲座及服务设计/UX-CX社招；28卒招聘以顾问分类，未见设计独立入口。",
+      "pay": "28 卒设计新卒待遇待核。可见的 42.1 万日元为 Solution Consultant 修士的 2026 年实绩，仅供比较。",
+      "remote": "社招及顾问路线制度另有披露，目标新卒设计路线适用性待核。",
+      "actualOvertime": "既有転職会議跨岗位汇总34.7小时/月，设计新卒未核。",
+      "reviews": "咨询岗位评价有高薪和成长机会，也有项目压力；非设计专岗样本。",
+      "sources": [
+        {
+          "url": "https://vivivit.co.jp/archives/4387/",
+          "label": "vivivit.co.jp"
+        },
+        {
+          "url": "https://www.abeam.com/jp/ja/recruit/newgrad/",
+          "label": "abeam.com"
+        },
+        {
+          "url": "https://www.abeam.com/jp/ja/recruit/newgrad/requirements2028/solution-cs/",
+          "label": "abeam.com"
+        },
+        {
+          "url": "https://hrmos.co/pages/abeamconsulting/jobs/2054842977887649994",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/8515/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "SEGA（株式会社セガ）": {
+      "tier": "consider",
+      "reason": "游戏 UI/Web 职种清楚。27卒修士月薪34.18万日元，新卒至少前半年原则出社，之后适用岗位最多每周在宅2次。",
+      "business": "家用、手机和街机等游戏开发运营。",
+      "targetRole": "游戏 UI、Web 创意，28卒联合选考列名。",
+      "pay": "27卒修士/博士月薪34.18万日元（含 Life Plan 津贴），奖金年2次，加班另付；28卒正式额待核。",
+      "remote": "SEGA本体官网写至少入社后6个月原则出社；之后业务允许时通常每周最多2次在宅。",
+      "actualOvertime": "既有転職会議本体跨岗位汇总27.9小时/月；设计新卒未单列。",
+      "reviews": "既有可读员工评价认为工时管理有改善，也指出项目高峰与远程规则差异。",
+      "sources": [
+        {
+          "url": "https://www.sega.co.jp/recruit/fresh/details/",
+          "label": "sega.co.jp"
+        },
+        {
+          "url": "https://www.sega.co.jp/recruit/jobs/",
+          "label": "sega.co.jp"
+        },
+        {
+          "url": "https://www.sega.co.jp/recruit/work_style_diversity/index.html",
+          "label": "sega.co.jp"
+        },
+        {
+          "url": "https://www.kurihaku.jp/direct/recruit/detail/81017/",
+          "label": "kurihaku.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/5561/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "SEGA 札幌スタジオ": {
+      "tier": "consider",
+      "reason": "札幌游戏设计招聘包含 UI。27卒修士月薪28.77万日元，28卒待遇、设计岗在宅和工时待核。",
+      "business": "与 SEGA 本体协作开发《PSO2》等游戏。",
+      "targetRole": "游戏设计，历史明确含3D、动作及UI；28卒联合选考列名。",
+      "pay": "27卒修士/博士月薪28.77万日元，札幌法人奖金与实际加班待核。",
+      "remote": "官网列札幌办公室，设计在宅政策未核。",
+      "actualOvertime": "设计实际未核；评价平台也没有可用工时汇总。",
+      "reviews": "公开可读案例主要涉及质量管理兼职，适用范围有限。",
+      "sources": [
+        {
+          "url": "https://www.sega.co.jp/recruit/fresh/details/sapporostudio/",
+          "label": "sega.co.jp"
+        },
+        {
+          "url": "https://www.sega-sapporo-studio.co.jp/",
+          "label": "sega-sapporo-studio.co.jp"
+        },
+        {
+          "url": "https://www.kurihaku.jp/direct/recruit/detail/81017/",
+          "label": "kurihaku.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/10452538/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "SEGA FAVE（セガ フェイブ）": {
+      "tier": "consider",
+      "reason": "街机屏幕 UI 是可追踪的设计方向。27卒修士月薪31.62万日元，28卒独立 UI 名额与在宅待核。",
+      "business": "街机游乐设备、玩具和角色商品。",
+      "targetRole": "街机画面设计/游戏 UI；28卒联合选考列名。",
+      "pay": "27卒修士月薪31.62万日元（含 Life Plan 津贴），奖金年2次、加班另付；28卒同岗待核。",
+      "remote": "同法人新卒页只明确特殊家庭情况相关远程安排，街机UI常规远程待核。",
+      "actualOvertime": "既有転職会議汇总16.8小时/月，含改组前原セガトイズ历史，设计新卒未核。",
+      "reviews": "评价有跨业务现场差异，未核街机UI新卒专门样本。",
+      "sources": [
+        {
+          "url": "https://www.segafave.co.jp/recruit/details/",
+          "label": "segafave.co.jp"
+        },
+        {
+          "url": "https://www.segafave.co.jp/recruit/environment/",
+          "label": "segafave.co.jp"
+        },
+        {
+          "url": "https://www.segafave.co.jp/recruit/jobs/",
+          "label": "segafave.co.jp"
+        },
+        {
+          "url": "https://www.kurihaku.jp/direct/recruit/detail/81017/",
+          "label": "kurihaku.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/2871/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Toyota": {
+      "tier": "consider",
+      "reason": "汽车 UX、产品与 CMF 有独立设计实习。2026年修士综合职月薪30万日元参考，28卒设计待遇和团队出社频率待核。",
+      "business": "汽车与移动出行产品及服务。",
+      "targetRole": "汽车产品/CMF/UX设计，春季设计实习明确分支。",
+      "pay": "2026年修士综合职月薪30万日元，奖金年2次、加班另付。设计本岗28卒数额未核。",
+      "remote": "有数字开发团队使用远程的官方访谈，设计团队和入社培训规则待核；春季设计实习线下。",
+      "actualOvertime": "企业新卒要项列月均20小时，设计团队实际未核；员工平台为另一个跨岗位口径。",
+      "reviews": "跨岗位有对弹性与在宅的正面评价，现场部门和设计部门的条件不同。",
+      "sources": [
+        {
+          "url": "https://recruit.toyota/saiyo/info/",
+          "label": "recruit.toyota"
+        },
+        {
+          "url": "https://recruit.toyota/saiyo/event/design_internship/",
+          "label": "recruit.toyota"
+        },
+        {
+          "url": "https://recruit.toyota/interview/084/",
+          "label": "recruit.toyota"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/2513/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "ディーゼロ": {
+      "tier": "consider",
+      "reason": "福冈 Web 设计。27卒官网月薪25.36万日元，每月至少出社8天，28卒同岗待遇待核。",
+      "business": "福冈的 Web 制作、企划、品牌与企业数字传播。",
+      "targetRole": "Web 设计师；另有学生 Web 设计兼职。",
+      "pay": "27卒月薪253,619日元，含基本187,000、远程津贴3,000与45小时固定加班63,619。28卒未核。",
+      "remote": "27卒官网列可远程，每月至少出社8天，适用全员；28卒岗位适用情况待核。",
+      "actualOvertime": "同一27卒官网招聘写每月约10–30小时，未给样本；既有员工平台跨岗位约35小时/月为另一口径。",
+      "reviews": "既有可读评价有对指导及反馈的认可，也指出团队之间的差异。",
+      "sources": [
+        {
+          "url": "https://recruit.d-zero.co.jp/requirements/fresh",
+          "label": "recruit.d-zero.co.jp"
+        },
+        {
+          "url": "https://recruit.d-zero.co.jp/requirements/student",
+          "label": "recruit.d-zero.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/23084/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "MCD3": {
+      "tier": "priority",
+      "reason": "28卒 UI/UX 年收531.44万日元。招聘资料列全职种可在宅，设计组出社频率和培训安排待核。",
+      "business": "三菱商事集团内企业DX、数据与AI服务。",
+      "targetRole": "28卒 UI/UX，客户共创、用户调研、原型及设计系统。",
+      "pay": "28卒岗位月薪40.88万、年收531.44万日元；年奖1次。官方岗位列时间外津贴，OneCareer 同岗位列 20 小时固定加班、超时另付，具体构成待核。",
+      "remote": "28卒企业刊登资料列全职种可在宅，设计组每周频率和客户现场规则待核。",
+      "actualOvertime": "公司28卒招聘材料称全公司月均20小时以下，期间未列，非设计组专项。",
+      "reviews": "现法人公开可读在职设计样本不足，既有资料以选考记录为主。",
+      "sources": [
+        {
+          "url": "https://mcd3-recruit.snar.jp/jobboard/detail.aspx?id=iEzyj3eZH3k",
+          "label": "mcd3-recruit.snar.jp"
+        },
+        {
+          "url": "https://www.onecareer.jp/companies/98036/recruitment_courses/1548",
+          "label": "onecareer.jp"
+        },
+        {
+          "url": "https://www.onecareer.jp/events/internship/100118",
+          "label": "onecareer.jp"
+        },
+        {
+          "url": "https://gaishishukatsu.com/recruiting_info/view/15185",
+          "label": "gaishishukatsu.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/8217239/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "teamLab Engineering": {
+      "tier": "pending",
+      "reason": "目前核到的是东京到岗的 UI/UX 学生兼职，时薪1,300日元起。正式设计新卒路线和对应待遇待核。",
+      "business": "团队数字产品开发和设计辅助。",
+      "targetRole": "UI/UX 设计助理学生兼职，雇用法人是 teamLab Engineering。",
+      "pay": "学生兼职时薪1,300日元起，正社员同岗薪资待核。",
+      "remote": "学生岗东京神田、每周至少2天，正式岗政策未核。",
+      "actualOvertime": "既有転職会議法人跨岗位汇总20.4小时/月，目标兼职及正社员UI没有专项。",
+      "reviews": "现有员工评价仅供法人背景；对合作和成长有好评，也见工作时长与转籍相关意见。",
+      "sources": [
+        {
+          "url": "https://www.team-lab.com/recruit/arbeit/UIUXDesignAssistant/",
+          "label": "team-lab.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/4343304/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "Auditech": {
+      "tier": "pending",
+      "reason": "核到原则远程的长期产品／UX实习，时薪1,500日元起，通常需半年以上。设计新卒正式岗待核。",
+      "business": "面向会计与审计机构的 AI 审计 SaaS。",
+      "targetRole": "产品／UX 学生长期实习，大学院生可。",
+      "pay": "时薪1,500日元起，按职责成果调整。正式新卒未核。",
+      "remote": "实习原则远程，客户访问另行协调；每周约8–16小时，通常半年以上。",
+      "actualOvertime": "未核到实际加班数据，公告周工时是计划范围。",
+      "reviews": "未核到匹配岗位的公开员工样本。",
+      "sources": [
+        {
+          "url": "https://auditech.co.jp/student-internship/",
+          "label": "auditech.co.jp"
+        }
+      ]
+    },
+    "Brother": {
+      "tier": "consider",
+      "reason": "28卒设计预登记。设计部通常每周出社3天，2024年度月均加班8.6小时，28卒设计薪资待正式公布。",
+      "business": "打印设备、缝纫机与工业设备，设总合设计部。",
+      "targetRole": "28卒设计职含用户研究、UX与界面；预登记，正式招聘细则待公布。",
+      "pay": "2026年公司一般专业职修士月薪30.04万日元实绩，28卒设计同岗额未核。",
+      "remote": "设计招聘FAQ确认弹性工时员工可在宅，原则每周出社3天；研修安排待核。",
+      "actualOvertime": "官方设计部2024年度实际8.6小时/月。全公司2025年度14.9小时/月为另一个口径。",
+      "reviews": "暂未核到可代表现行新卒UX小组的独立员工样本。",
+      "sources": [
+        {
+          "url": "https://www.brother.co.jp/corporate/design/recruit/index.aspx",
+          "label": "brother.co.jp"
+        },
+        {
+          "url": "https://www.brother.co.jp/corporate/bil/recruit/portal/gradu/information/index.aspx",
+          "label": "brother.co.jp"
+        },
+        {
+          "url": "https://www.brother.co.jp/corporate/bil/recruit/portal/faq/index.aspx",
+          "label": "brother.co.jp"
+        }
+      ]
     },
     "アビリブ": {
       "tier": "consider",
-      "reason": "酒店与旅游网站设计月薪 21–24.5 万日元，按地区而定。普通新卒在宅及设计组实际工时待核。"
+      "reason": "酒店与旅游网站设计月薪21–24.5万日元，按地区而定。普通新卒在宅及设计组实际工时待核。",
+      "business": "旅馆、酒店、观光企业的网站设计、运营和数字营销。",
+      "targetRole": "28卒 Web 设计师（网站运营），改版、LP、页面更新和HTML/CSS。",
+      "pay": "28卒仙台21–22万、名古屋23–24万、大阪24–24.5万日元，含各地15–20小时固定加班，超额另付。",
+      "remote": "公司有条件式在宅制度，28卒普通岗位适用性和频率未核。",
+      "actualOvertime": "公司招聘图表列全公司14.8小时/月，期间未列；2025年Web设计师个人提到20–30小时。",
+      "reviews": "个别 Web 设计员工反馈仅可作为问题线索，目标团队样本不足。",
+      "sources": [
+        {
+          "url": "https://www.ab-net.co.jp/recruit/new/tohoku/76/",
+          "label": "ab-net.co.jp"
+        },
+        {
+          "url": "https://www.ab-net.co.jp/recruit/new/nagoya/76/",
+          "label": "ab-net.co.jp"
+        },
+        {
+          "url": "https://www.ab-net.co.jp/recruit/new/kansai/76/",
+          "label": "ab-net.co.jp"
+        },
+        {
+          "url": "https://www.ab-net.co.jp/recruit/culture/",
+          "label": "ab-net.co.jp"
+        },
+        {
+          "url": "https://www.ab-net.co.jp/recruit/culture/images/img_chart_06.png",
+          "label": "ab-net.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/32795/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
     },
-    "株式会社アクアスター": {
-      "tier": "consider",
-      "reason": "Web 工作坊做网站结构和线框图。28 卒 Web 方向薪资与在宅频率待核。"
+    "ラセングル": {
+      "tier": "priority",
+      "reason": "28卒设计含游戏 UI。修士月薪30.1万、年收429.9万日元，可选在宅型，仍需住在可通勤东京的范围。",
+      "business": "开发运营《Fate/Grand Order》等游戏。",
+      "targetRole": "28卒设计师，UI为可能配属方向，配属看志向和适性。",
+      "pay": "官网修士月薪30.1万、年收429.9万日元，含每月40小时固定，超出另付，奖金年2次。",
+      "remote": "官网招聘FAQ提供出社型/在宅型，官网同岗UI设计师有在宅实例；28卒须住可通勤范围，具体到岗天数待核。",
+      "actualOvertime": "官网UI设计师采访一例说本人月均不足20小时；転職会議跨岗位自报34.3小时/月，无法作为新卒UI平均。",
+      "reviews": "転職会議3.05/5、工作生活评论7条为不同职种；公开意见不一致。",
+      "sources": [
+        {
+          "url": "https://recruit.lasengle.co.jp/fresh2028/",
+          "label": "recruit.lasengle.co.jp"
+        },
+        {
+          "url": "https://recruit.lasengle.co.jp/faq/",
+          "label": "recruit.lasengle.co.jp"
+        },
+        {
+          "url": "https://recruit.lasengle.co.jp/interview/02/",
+          "label": "recruit.lasengle.co.jp"
+        },
+        {
+          "url": "https://www.onecareer.jp/companies/97494/recruitment_courses/795",
+          "label": "onecareer.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/10459473/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
     },
-    "クリプトン・フューチャー・メディア株式会社": {
+    "Adglobe／株式会社アドグローブ": {
       "tier": "consider",
-      "reason": "札幌设计实习可做网页改版或活动视觉，有远方交通和住宿补助。28 卒正式岗待遇与在宅待核。"
+      "reason": "28卒游戏 UI/UX，修士月薪25.35万日元，奖金年两次、加班另付。要项列在宅，频率及配属条件待核。",
+      "business": "游戏开发、App与Web系统解决方案。",
+      "targetRole": "28卒东京设计师含游戏 UI/UX，履历与作品集必需。",
+      "pay": "28卒修士25.35万日元/月，加班全额另付，奖金年2次。",
+      "remote": "同岗28卒ATS在工作地点中列东京近郊及在宅，实际频率与新人适用条件未列。",
+      "actualOvertime": "転職会議跨岗位投稿16.4小时/月，设计新卒未拆分。",
+      "reviews": "転職会議3.18/5为跨岗位，部分外勤经历年份较早。",
+      "sources": [
+        {
+          "url": "https://hrmos.co/pages/adglobe/jobs/2800700",
+          "label": "hrmos.co"
+        },
+        {
+          "url": "https://blog.adglobe.co.jp/entry/2026/07/31/000000",
+          "label": "blog.adglobe.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/132642/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
     },
-    "株式会社デジタルベリー": {
+    "サントリー／サントリーホールディングス株式会社": {
       "tier": "consider",
-      "reason": "28 卒修士月薪 25 万日元起，可参加线上一日 Web 提案。正式岗在宅安排待核。"
-    },
-    "ダイアモンドヘッド株式会社": {
-      "tier": "consider",
-      "reason": "服装电商 Web 设计，往届修士月薪 26 万日元。28 卒待遇与在宅条件待核。"
-    },
-    "株式会社日本テレビアート": {
-      "tier": "consider",
-      "reason": "做节目图形、CG 与布景。28 卒图形／Web 岗和在宅适用范围待核。"
+      "reason": "28卒数字与科技部门明确含 UI/UX／服务设计，DX 招聘 FAQ 列可远程，2026年修士月薪31.78万日元为参考。",
+      "business": "酒类、饮料、健康食品；数字业务案例有健康服务App comado。",
+      "targetRole": "28卒 Digital & Technology 下的 UI/UX、服务设计；与独立视觉设计部门区分。",
+      "pay": "28卒D&T要项列2026年修士初任月薪31.78万日元参考、奖金年2次；28卒最终数额待核。",
+      "remote": "DX官方FAQ确认可远程与弹性；目标团队每周次数及研修频率待核。",
+      "actualOvertime": "人力报告近一期披露多个国内主体成员层月均约20小时，目标D&T新卒未拆。",
+      "reviews": "現法人公开投稿含多个部门及业务公司，未核到能代表该UX团队的口碑样本。",
+      "sources": [
+        {
+          "url": "https://www.suntory.co.jp/recruit/fresh/",
+          "label": "suntory.co.jp"
+        },
+        {
+          "url": "https://www.suntory.co.jp/recruit/dx/faq/",
+          "label": "suntory.co.jp"
+        },
+        {
+          "url": "https://www.suntory.co.jp/company/peopleculture/assets/pdf/202504_Suntory_HCM_report_JAPAN.pdf",
+          "label": "suntory.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/24823/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
     },
     "あつまる／株式会社あつまる": {
       "tier": "practice",
-      "reason": "Web 设计面试练习备选。新卒在宅安排待核。"
+      "reason": "Web 设计面试练习备选。东京月薪27万日元起，含40小时固定加班。新卒在宅安排待核。",
+      "business": "为企业提供获客、招聘传播、DX 和网页制作。",
+      "targetRole": "28卒 Web 设计师，东京及福冈。",
+      "pay": "东京27万起、福冈23.0625万日元起，含40小时固定加班；奖金原则限正社员，最初三个月为合同。",
+      "remote": "官网列本社工作地点，普通新卒在宅安排未核。",
+      "actualOvertime": "新卒招聘要项称实际月均约18小时，未拆设计部门。",
+      "reviews": "未核同岗位有代表性的当前口碑；保留既有练手选择。",
+      "sources": [
+        {
+          "url": "https://atsu-maru.co.jp/recruit/requirement/",
+          "label": "atsu-maru.co.jp"
+        },
+        {
+          "url": "https://atsu-maru.co.jp/recruit/about/company.php",
+          "label": "atsu-maru.co.jp"
+        }
+      ]
+    },
+    "Yamaha Motor／ヤマハ発動機株式会社": {
+      "tier": "consider",
+      "reason": "冬季线下实习可了解设计企划。公司有混合办公，2026年一般新卒修士月薪30.9万日元，28卒设计具体待遇和频率待核。",
+      "business": "摩托车、船外机和移动出行设备，设计部门另设 HMI/UI/UX。",
+      "targetRole": "YCL2027 冬季设计企划实习；另有HMI／UI/UX职种介绍，当前YCL冬季课程不含该独立方向。",
+      "pay": "当前冬季项目现金报酬未列，交通按规补助、住宿和餐食由公司安排。2026年一般新卒修士30.9万日元/月。",
+      "remote": "冬季实习静冈线下。一般新卒待遇有混合办公和在宅津贴，设计小组执行范围待核。",
+      "actualOvertime": "企业刊登的マイナビ数据为2024年度月均17.2小时；転職会議跨岗位自报20.1小时/月。设计部门专项未核。",
+      "reviews": "転職会議3.90/5、跨岗位；评价提到弹性和请假条件因部而异。",
+      "sources": [
+        {
+          "url": "https://global.yamaha-motor.com/jp/design_technology/design/recruit/internship/ycl2027/",
+          "label": "global.yamaha-motor.com"
+        },
+        {
+          "url": "https://global.yamaha-motor.com/jp/design_technology/design/recruit/job/",
+          "label": "global.yamaha-motor.com"
+        },
+        {
+          "url": "https://global.yamaha-motor.com/jp/recruit/graduates/student/guide/",
+          "label": "global.yamaha-motor.com"
+        },
+        {
+          "url": "https://global.yamaha-motor.com/jp/sustainability/social/human_capital/data/",
+          "label": "global.yamaha-motor.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/2568/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        },
+        {
+          "url": "https://job.mynavi.jp/28/pc/search/corp50799/outline.html?func=corpinfo",
+          "label": "job.mynavi.jp"
+        }
+      ]
+    },
+    "マイクロニティ／株式会社マイクロニティ": {
+      "tier": "practice",
+      "reason": "沿用面试练习分档。28 卒做 Web 产品 UI/UX，月薪 30 万日元起，在宅安排待核。",
+      "business": "Web 产品开发与品牌设计。",
+      "targetRole": "28 卒设计师，做产品界面、信息架构、功能改进与品牌设计。",
+      "pay": "月薪 30 万日元起，基本给 21.8 万；固定普通加班 40 小时与深夜 20 小时合计 7.7 万，另有统一津贴 5,000 日元。按业绩发奖金。",
+      "remote": "当届岗位只列涩谷办公地点与弹性工作制，适用的在宅安排待核。",
+      "actualOvertime": "设计组实际工时待核。",
+      "reviews": "転職会議跨岗位自报月均 51.7 小时，工时样本和统计期间未标；可见评论混有面试、质量管理等。",
+      "sources": [
+        {
+          "url": "https://herp.careers/v1/micronity/TqlSZYlTyqGP",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/10974383/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "セルシス／株式会社セルシス": {
+      "tier": "priority",
+      "reason": "CLIP STUDIO PAINT 的产品 UI/UX，新卒岗明确可在宅，官方预计年收 381.2 万日元起。",
+      "business": "创作软件和服务，代表产品是 CLIP STUDIO PAINT。",
+      "targetRole": "新卒产品 UI/UX，负责调研、跨设备界面、新功能原型及评估。",
+      "pay": "月薪 26 万日元起，含 45 小时固定加班费 63,493 日元起，超出另付。预计年收 381.2 万起，含在宅或弹性津贴每月 1 万。",
+      "remote": "岗位明确可在宅，活动或团队协作时可能要到新宿办公室；新卒每周固定出社频率待核。",
+      "actualOvertime": "公司 2025 年度正社员与契约员工月均法定外 9 小时，含管理人员；UI/UX 组数据待核。",
+      "reviews": "现法人公开平台样本很少，未获得当届产品设计员工评价。",
+      "sources": [
+        {
+          "url": "https://www.celsys.com/recruit/id=2380",
+          "label": "celsys.com"
+        },
+        {
+          "url": "https://www.celsys.com/employment/faq/",
+          "label": "celsys.com"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/353006/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "サイバーコネクトツー／株式会社サイバーコネクトツー": {
+      "tier": "consider",
+      "reason": "新卒游戏界面方向明确，Junior 月薪 23.1 万日元起，新卒在宅待核。",
+      "business": "开发主机和移动游戏。",
+      "targetRole": "28 卒艺术岗的游戏界面方向，做 UI、图标、布局与动画。",
+      "pay": "Junior 月薪 23.1 万日元起；日文艺术岗原页列固定 14 小时，雇主另一个公开招募页写 15 小时，适用合同构成待核。",
+      "remote": "东京、大阪或福冈工作；新卒在宅适用待核。",
+      "actualOvertime": "日文艺术岗称 Junior 不得超过固定时数；实际设计组均值待核。",
+      "reviews": "転職会議跨岗位 2.92/5、月均 38.2 小时，统计期间、工时样本与新卒 UI 代表性待核。",
+      "sources": [
+        {
+          "url": "https://www.cc2.co.jp/recruit/?p=3575",
+          "label": "cc2.co.jp"
+        },
+        {
+          "url": "https://www.cc2.co.jp/recruit/?page_id=3284",
+          "label": "cc2.co.jp"
+        },
+        {
+          "url": "https://en-gage.net/user/search/desc/2745820/",
+          "label": "en-gage.net"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/23522",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "U’eyes Design／株式会社U’eyes Design": {
+      "tier": "consider",
+      "reason": "研究驱动的 UI/UX、服务设计很匹配。修士 22.336 万日元/月起，入职约半年到岗后可在宅。",
+      "business": "人间中心设计咨询，协助企业开发产品、服务及组织能力。",
+      "targetRole": "28 卒 UI/UX、服务设计，包括用户调研、概念和产品设计。",
+      "pay": "修士月薪 22.336 万日元起，按业绩奖金两次，另列时间外、深夜和休日津贴。",
+      "remote": "官网列入职约六个月出社，之后可在宅。每周出社天数待核。",
+      "actualOvertime": "当届设计组实际工时待核。",
+      "reviews": "可见样本较旧，未获得当前设计组评价。",
+      "sources": [
+        {
+          "url": "https://www.ueyesdesign.co.jp/recruit/about.html",
+          "label": "ueyesdesign.co.jp"
+        },
+        {
+          "url": "https://en-gage.net/user/search/desc/5114115/",
+          "label": "en-gage.net"
+        }
+      ]
+    },
+    "ウェルスナビ株式会社": {
+      "tier": "priority",
+      "reason": "28 卒金融产品设计年收 450 万日元，通常每周至少 3 天出社，可安排在宅。",
+      "business": "自动化资产管理及金融科技产品。",
+      "targetRole": "28 卒产品设计师，做资产管理服务的 Web/App 界面及体验。",
+      "pay": "28 卒设计岗位公布年收 450 万日元。",
+      "remote": "当届岗位列混合办公，通常每周至少 3 天出社，配属可能例外。",
+      "actualOvertime": "公司 2025 年度正式员工月均 16.9 小时，设计组待核。",
+      "reviews": "当前设计新卒团队的可比公开评价待核。",
+      "sources": [
+        {
+          "url": "https://recruit.wealthnavi.com/newgrads",
+          "label": "recruit.wealthnavi.com"
+        },
+        {
+          "url": "https://public.n-ats.hrmos.co/wealthnavi/jobs/2321142576603160576",
+          "label": "public.n-ats.hrmos.co"
+        },
+        {
+          "url": "https://recruit.wealthnavi.com/environment",
+          "label": "recruit.wealthnavi.com"
+        }
+      ]
+    },
+    "ARSTECH GUILD 株式会社": {
+      "tier": "consider",
+      "reason": "28 卒游戏 UI 做菜单、HUD 和操作流程，月薪 27.5 万日元，含 40 小时固定加班。在宅待核。",
+      "business": "承接主机、手游及影像开发。",
+      "targetRole": "28 卒 UI Artist，制作游戏流程、线框、HUD 和菜单。",
+      "pay": "月薪 27.5 万日元，年俸 330 万，含 40 小时固定加班，超出另付。",
+      "remote": "招聘列东京三田与弹性工时，是否可在宅待核。",
+      "actualOvertime": "设计组实际工时待核。",
+      "reviews": "同法人、同职种及有样本范围的公开评价待核。",
+      "sources": [
+        {
+          "url": "https://herp.careers/v1/arstechguild/I4Yx5RZ8cVPB",
+          "label": "herp.careers"
+        },
+        {
+          "url": "https://arstechguild.inc/",
+          "label": "arstechguild.inc"
+        }
+      ]
+    },
+    "株式会社くふうカンパニーホールディングス": {
+      "tier": "consider",
+      "reason": "28 卒消费产品设计年收 450 万日元起，东京原则出社。",
+      "business": "运营超市优惠「トクバイ」、记账 App「Zaim」等消费服务。",
+      "targetRole": "28 卒设计师，负责 App、Web 及线下视觉等不同接点。",
+      "pay": "年收 450 万日元起，按选考确定。奖金和固定加班拆分待核。",
+      "remote": "东京三田原则出社，核心时段 10:00–15:00。",
+      "actualOvertime": "同法人设计组实际工时待核。",
+      "reviews": "公开可见 Web 新卒评价是应聘体验，设计在职评价待核。",
+      "sources": [
+        {
+          "url": "https://kufu.co.jp/recruit/freshers/%E3%80%9028%E5%8D%92%E3%80%91%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8A%E3%83%BC/",
+          "label": "kufu.co.jp"
+        },
+        {
+          "url": "https://content.zaim.net/manuals/show/97",
+          "label": "content.zaim.net"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/10432595/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "クリプトン・フューチャー・メディア株式会社": {
+      "tier": "consider",
+      "reason": "札幌设计实习可做网页改版或视觉，无薪，远方有交通与住宿补助。28 卒 Web 正职待遇待核。",
+      "business": "初音未来 IP、音源平台 SONICWIRE 与创作者社区 piapro。",
+      "targetRole": "28 卒实务实习，做网站改版、原型或活动宣传。",
+      "pay": "实习无薪，远方补交通和住宿。28 卒对应正式岗薪资待核。",
+      "remote": "实习为札幌线下；28 卒 Web／平面正职在宅待核。",
+      "actualOvertime": "公司前年度月均所定外 12.4 小时，设计组数据待核。",
+      "reviews": "公开评价涵盖多职种、年代及雇用形式，当前新卒 Web 评价待核。",
+      "sources": [
+        {
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=223940&optNo=cVh7m",
+          "label": "job.mynavi.jp"
+        },
+        {
+          "url": "https://www.crypton.co.jp/cfm/project",
+          "label": "crypton.co.jp"
+        },
+        {
+          "url": "https://www.crypton.co.jp/recruit/staff-data.html",
+          "label": "crypton.co.jp"
+        }
+      ]
+    },
+    "株式会社デジタルベリー": {
+      "tier": "consider",
+      "reason": "企业 Web／平面设计，28 卒修士月薪 25 万日元起，有线上一日体验，正职在宅待核。",
+      "business": "企业网站、电子目录、广告与印刷。",
+      "targetRole": "28 卒技术职的设计分支，做网页和印刷设计。",
+      "pay": "修士月薪 25 万日元起，约 15 小时固定加班占月额一成。奖金每年两次，按业绩。",
+      "remote": "正职工作地为埼玉本社，在宅待核。体验另有线上场。",
+      "actualOvertime": "公司披露 2025 年度月均 8 小时，员工平台跨岗位 30.8 小时，两个统计口径不同。",
+      "reviews": "転職会議综合 3.29/5；工时统计期间、答题人数与设计岗位占比待核。",
+      "sources": [
+        {
+          "url": "https://www.d-berry.jp/recruit/recruitment/",
+          "label": "d-berry.jp"
+        },
+        {
+          "url": "https://job.mynavi.jp/28/pc/search/corp111308/outline.html",
+          "label": "job.mynavi.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/57849",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "株式会社アクアスター": {
+      "tier": "consider",
+      "reason": "Web 工作坊练信息结构与线框图。28 卒 Web 正职薪资和在宅待核。",
+      "business": "广告视觉、网站、视频与互动内容。",
+      "targetRole": "28 卒 Web 创作者工作坊，练网站企划与线框图。",
+      "pay": "工作坊无薪，无交通住宿补贴。27 卒 Web Director 月薪 27 万日元，仅供参考。",
+      "remote": "工作坊是筑地线下；28 卒 Web 正职在宅适用待核。",
+      "actualOvertime": "公司公布 2025 年度全公司月均所定外 16.5 小时，Web 组待核。",
+      "reviews": "可见部分加班评价来自插画等其他岗位，Web 新卒独立口径待核。",
+      "sources": [
+        {
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=267342&optNo=yUkXB",
+          "label": "job.mynavi.jp"
+        },
+        {
+          "url": "https://aqua-star.co.jp/recruit/works/",
+          "label": "aqua-star.co.jp"
+        },
+        {
+          "url": "https://job.mynavi.jp/28/pc/search/corp267342/outline.html?func=SPtop",
+          "label": "job.mynavi.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/163589/answers",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "ダイアモンドヘッド株式会社": {
+      "tier": "consider",
+      "reason": "服装电商 Web 设计，2026 年札幌修士月薪实绩 26 万日元。28 卒待遇及在宅待核。",
+      "business": "服装品牌电商制作与运营。",
+      "targetRole": "Web 设计做商品页、专题、运营与数据驱动的体验改善。",
+      "pay": "2026 年 4 月札幌实绩，修士与本科月薪 26 万，含 34 小时固定加班，无奖金，另有绩效激励。",
+      "remote": "28 卒 Web 设计在宅待核；现有公开全远程委托不代表新卒正社员。",
+      "actualOvertime": "27 卒札幌招聘列月均约 9.3 小时，员工平台 Web 设计／企划口径为 26.4 小时，均未标统计期间。",
+      "reviews": "転職会議 Web 设计／企划满意度 2.74/5，岗位采样范围、受访人数及年份待核。",
+      "sources": [
+        {
+          "url": "https://recruit.jobcan.jp/diamondhead/job_offers/2197383",
+          "label": "recruit.jobcan.jp"
+        },
+        {
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayPrevEmployment/index/?corpId=112080&recruitingCourseId=27005472",
+          "label": "job.mynavi.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/27221/answers?topic=%E6%AE%8B%E6%A5%AD",
+          "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "株式会社日本テレビアート": {
+      "tier": "consider",
+      "reason": "节目图形、CG 与布景方向可了解。2026 年公司新卒月薪实绩 25.662 万日元，28 卒图形／Web 专岗待核。",
+      "business": "日本电视控股旗下的节目视觉、CG、布景、灯光与 Web 制作。",
+      "targetRole": "可关注图形和 Web；官方新卒页现列布景、CG 等。",
+      "pay": "2026 年 10 月新卒共同实绩月薪 256,620 日元，含津贴。28 卒图形／Web 待核。",
+      "remote": "公司新卒页列在宅制度，图形及现场职种的适用和频率待核。",
+      "actualOvertime": "图形设计组工时待核。転職会議跨岗位月均 29.3 小时，样本与统计期间未列。",
+      "reviews": "有室内设计在职个人反映部分组夜间工作多；当前图形／Web 员工样本待核。",
+      "sources": [
+        {
+          "url": "https://www.ntvart.co.jp/recruit/newgrad/",
+          "label": "ntvart.co.jp"
+        },
+        {
+          "url": "https://www.ntvart.co.jp/service/",
+          "label": "ntvart.co.jp"
+        },
+        {
+          "url": "https://jobtalk.jp/companies/55118/answers?question_codes=worklife",
+          "label": "jobtalk.jp"
+        }
+      ]
     }
   }
 }

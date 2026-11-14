@@ -39,7 +39,7 @@ function collectEmployers(companies, opportunities, recruitingTiers) {
     const names = [company.name, ...(company.aliases || [])];
     const rank = recruitingTiers?.[company.name];
     const tier = Object.hasOwn(tiers, rank?.tier) ? rank.tier : 'pending';
-    const item = { ...company, tier, tierReason: rank?.reason, group: null, searchNames: names.map(key) };
+    const item = { ...company, tier, assessment: rank, group: null, searchNames: names.map(key) };
     for (const name of names) byAlias.set(key(name), item);
     employers.push(item);
     return item;
@@ -131,7 +131,7 @@ function companyList(items, mode, sort, expanded) {
     function showDetails() {
       if (!card.open || rendered) return;
       rendered = true;
-      if (company.tierReason) body.append(el('p', 'pay-tier-reason', company.tierReason));
+      if (company.assessment) body.append(tierAssessment(company.assessment));
       if (mode === 'reviews') body.append(reviewCards([item]));
       else {
         const row = details(job, mode, '', 1);
@@ -162,6 +162,26 @@ function sourceLinks(sources, emptyLabel = '招聘要项待核') {
     box.append(link);
   }
   if (!box.childElementCount) box.append(el('span', 'pay-missing', emptyLabel));
+  return box;
+}
+
+function tierAssessment(assessment) {
+  const box = el('div', 'pay-tier-assessment');
+  if (assessment.reason) box.append(el('p', 'pay-tier-reason', assessment.reason));
+  const terms = el('dl', 'pay-terms');
+  const entries = [
+    ['主营业务', assessment.business], ['审核岗位', assessment.targetRole],
+    ['薪资', assessment.pay], ['在宅', assessment.remote],
+    ['实际加班', assessment.actualOvertime], ['员工评价', assessment.reviews]
+  ];
+  for (const [label, value] of entries) {
+    if (!value) continue;
+    const term = el('div');
+    term.append(el('dt', '', label), el('dd', '', value));
+    terms.append(term);
+  }
+  if (terms.childElementCount) box.append(terms);
+  if (assessment.sources?.length) box.append(sourceLinks(assessment.sources));
   return box;
 }
 
