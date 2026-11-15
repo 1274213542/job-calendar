@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T09:14:48+09:00",
+  "updatedAt": "2026-11-15T11:53:21+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -7618,8 +7618,8 @@
       "statusDetail": "公开招聘／活动已核，个人未申请。",
       "intro": "Web制作公司。本场通过分析现有网站、提出改版方案和员工反馈，体验Web设计流程。",
       "description": "12/15 09:00–13:00 Zoom。28卒含修士1年。约20人，人多可能抽选。准备电脑与笔记工具。",
-      "nextAction": "从Mynavi选择线上场。按官网场次规则约12/13截止，钟点未公布，可能提早关闭。",
-      "notes": "无报酬与交通费。正职设计方向的具体配属和待遇另核。",
+      "nextAction": "通过Mynavi预约。单场页写线上提前2天，按12/13推算；课程总页写提前1周，按12/8准备较稳妥。两处均可能提前关闭。",
+      "notes": "体验无报酬或交通补贴。约20人，人数过多可能抽选。课程总页及单场页的截止规则有差异，具体钟点与剩余名额均未公布。",
       "checkedAt": "2026-11-15",
       "sources": [
         {
@@ -7635,7 +7635,7 @@
         {
           "type": "deadline",
           "date": "2026-12-13",
-          "label": "线上场按前2日规则推得，可能早闭"
+          "label": "单场预计12/13；课程页规则推得12/8，钟点未知"
         },
         {
           "type": "event",
@@ -7653,17 +7653,18 @@
           "registrationMethod": "Mynavi事前预约；多人时可能抽选",
           "opensAt": null,
           "deadline": "2026-12-13",
-          "deadlineLabel": "按线上各场前2日规则推得，可能提前关闭，钟点未公布",
+          "deadlineLabel": "单场页预计12/13；课程页按12/8，可能早闭",
           "firstComeFirstServed": null,
           "availabilityState": "public_reservation_link",
           "availabilityLabel": "原始登记页仍显示选项或按钮，实际余位未知",
-          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
+          "availabilityCheckedAt": "2026-11-15T11:53:21+09:00",
           "availabilitySource": {
             "label": "雇主实际逐场预约页",
             "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=229130&optNo=eygH2C"
           },
           "bookingStage": "候选／未申请",
-          "nextAction": "按登记页选择场次，等待公司确认。"
+          "nextAction": "通过Mynavi预约。单场页写线上提前2天，按12/13推算；课程总页写提前1周，按12/8准备较稳妥。两处均可能提前关闭。",
+          "deadlineNotes": "线上场逐场页前2天与课程总页前1周同时可读；优先在12/8前办理。"
         }
       ]
     },
