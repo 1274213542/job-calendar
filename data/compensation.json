@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-14",
+  "asOf": "2026-11-15",
   "companies": [
     {
       "name": "Goodpatch",
@@ -2544,6 +2544,30 @@
             "monthlyLabel": "月薪",
             "annualLabel": "年收估算",
             "reference": true
+          }
+        },
+        {
+          "role": "春季CMF设计实习",
+          "scope": "埼玉线下、仅春季CMF课程",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "交通、餐食和符合条件的住宿按公司规则，日当未公布",
+          "sources": [
+            {
+              "label": "Honda官方实习要项",
+              "url": "https://global.honda/jp/jobs/design/internship/"
+            }
+          ],
+          "checkedAt": "2026-11-15",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
           }
         }
       ],
@@ -5366,9 +5390,146 @@
           }
         }
       ]
+    },
+    {
+      "name": "株式会社レイアップ",
+      "aliases": [
+        "レイアップ",
+        "LAYUP"
+      ],
+      "roles": [
+        {
+          "role": "28卒平面／Web设计",
+          "scope": "综合职设计意向，大学院卒",
+          "monthly": "257,200日元/月",
+          "annual": null,
+          "bonus": "年2次，按业绩",
+          "overtime": "裁量労働制视同9小时，标准7.5小时；实际工时未知。",
+          "benefits": "部分员工在宅，新人频率未知。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒要项",
+              "url": "https://www.layup.co.jp/careers/graduate/index.php"
+            }
+          ],
+          "checkedAt": "2026-11-15",
+          "sortValues": {
+            "monthlyJPY": 257200,
+            "annualJPY": null,
+            "monthlyLabel": "257,200日元/月",
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "株式会社ＨＲビジョン（株式会社クイック雇用）",
+      "aliases": [
+        "ＨＲビジョン",
+        "HRビジョン"
+      ],
+      "roles": [
+        {
+          "role": "28卒设计师",
+          "scope": "东京修士，クイック雇用、出向ＨＲビジョン",
+          "monthly": "298,500日元/月",
+          "annual": null,
+          "bonus": "年2次",
+          "overtime": "含35小时64,095日元；超出另付。",
+          "benefits": "含东京地域津贴2万；在宅团队适用及频率待核。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒设计要项",
+              "url": "https://hrvision.co.jp/newgrads/recruiting/2028/designs.php"
+            },
+            {
+              "label": "当期招聘",
+              "url": "https://www.openwork.jp/a0C1000000YqY2I/recruit?j=38c9176f796bfb86"
+            }
+          ],
+          "checkedAt": "2026-11-15",
+          "sortValues": {
+            "monthlyJPY": 298500,
+            "annualJPY": null,
+            "monthlyLabel": "298,500日元/月",
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "株式会社ネクストページ",
+      "aliases": [
+        "ネクストページ",
+        "NextPage"
+      ],
+      "roles": [
+        {
+          "role": "28卒线上Web UX改版体验",
+          "scope": "12/15线上单场",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "无报酬、交通费等补助",
+          "sources": [
+            {
+              "label": "课程与报酬",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=229130&optNo=H-R4m"
+            }
+          ],
+          "checkedAt": "2026-11-15",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "株式会社Flavor",
+      "aliases": [
+        "Flavor",
+        "フレーバー",
+        "Re:CENO"
+      ],
+      "roles": [
+        {
+          "role": "Re:CENO制作部一日体验",
+          "scope": "11/17京都线下单场",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "无报酬、交通费或住宿费",
+          "sources": [
+            {
+              "label": "课程与报酬",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=278706&optNo=PKRtO"
+            }
+          ],
+          "checkedAt": "2026-11-15",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-14T12:50:16+09:00",
+  "updatedAt": "2026-11-15T09:14:48+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -7879,6 +8040,74 @@
         {
           "url": "https://jobtalk.jp/companies/55118/answers?question_codes=worklife",
           "label": "jobtalk.jp"
+        }
+      ]
+    },
+    "株式会社レイアップ": {
+      "tier": "consider",
+      "reason": "设计职责有匹配，正式岗位适用的在宅频率或重要待遇仍待核。",
+      "business": "玩具企划、角色商品与包装宣传",
+      "targetRole": "平面与Web设计",
+      "pay": "修士257,200日元/月，年2次奖金",
+      "remote": "部分员工有在宅，设计新人待核",
+      "actualOvertime": null,
+      "reviews": null,
+      "sources": [
+        {
+          "label": "28卒要项",
+          "url": "https://www.layup.co.jp/careers/graduate/index.php"
+        }
+      ]
+    },
+    "株式会社ＨＲビジョン（株式会社クイック雇用）": {
+      "tier": "consider",
+      "reason": "设计职责有匹配，正式岗位适用的在宅频率或重要待遇仍待核。",
+      "business": "人事媒体、行业活动和数据内容",
+      "targetRole": "自有媒体UI与视觉编辑",
+      "pay": "东京修士298,500日元/月，年2次奖金",
+      "remote": "团队安排，设计新人频率待核",
+      "actualOvertime": null,
+      "reviews": null,
+      "sources": [
+        {
+          "label": "28卒设计要项",
+          "url": "https://hrvision.co.jp/newgrads/recruiting/2028/designs.php"
+        },
+        {
+          "label": "当期招聘",
+          "url": "https://www.openwork.jp/a0C1000000YqY2I/recruit?j=38c9176f796bfb86"
+        }
+      ]
+    },
+    "株式会社ネクストページ": {
+      "tier": "consider",
+      "reason": "设计职责有匹配，正式岗位适用的在宅频率或重要待遇仍待核。",
+      "business": "网站建设与Web运营",
+      "targetRole": "一日Web UX改版，正式岗位待核",
+      "pay": "该活动无报酬",
+      "remote": "活动线上，正式岗位在宅未核",
+      "actualOvertime": null,
+      "reviews": null,
+      "sources": [
+        {
+          "label": "课程与报酬",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=229130&optNo=H-R4m"
+        }
+      ]
+    },
+    "株式会社Flavor": {
+      "tier": "consider",
+      "reason": "设计职责有匹配，正式岗位适用的在宅频率或重要待遇仍待核。",
+      "business": "家具家居电商Re:CENO",
+      "targetRole": "商品摄影、修图及视觉制作",
+      "pay": "该活动无报酬",
+      "remote": "活动线下，正职设计在宅未核",
+      "actualOvertime": null,
+      "reviews": null,
+      "sources": [
+        {
+          "label": "课程与报酬",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=278706&optNo=PKRtO"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T11:20:54+09:00",
+  "updatedAt": "2026-11-15T09:14:48+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -6216,7 +6216,7 @@
       "category": "briefing",
       "subtype": "说明会",
       "status": "候选／未申请",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-15",
       "statusDetail": "28卒线上活动，具体席位未核。",
       "description": "公司介绍与设计师工作介绍。官网活动专页写预计19:00左右结束，招聘总览写19:30左右，以MyPage当场通知为准。",
       "nextAction": "通过公司28卒MyPage核实登记及席位。",
@@ -6233,6 +6233,10 @@
         {
           "label": "公司新卒招聘总览",
           "url": "https://www.i-note.jp/hallab/fresh/top.html"
+        },
+        {
+          "label": "公司Mynavi本场日期截止",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=80244&optNo=ZFeFl"
         }
       ],
       "milestones": [
@@ -6240,6 +6244,11 @@
           "type": "event",
           "date": "2026-12-02T17:00",
           "label": "Zoom，结束时间待MyPage核对"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-01",
+          "label": "Mynavi本场日期截止，MyPage余位待核"
         }
       ],
       "registrationSessions": [
@@ -6250,15 +6259,15 @@
           "reservationRequired": true,
           "registrationMethod": "ハル研究所28卒MyPage，活动分别报名",
           "opensAt": null,
-          "deadline": null,
-          "deadlineLabel": "公开页未列具体截止",
-          "firstComeFirstServed": null,
+          "deadline": "2026-12-01",
+          "deadlineLabel": "Mynavi日期级截止，钟点未公布",
+          "firstComeFirstServed": true,
           "availabilityState": "entry_required_or_unknown",
           "availabilityLabel": "官网已公布，实际登录报名窗口和余位待核",
-          "availabilityCheckedAt": "2026-11-13T21:13:19+09:00",
+          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
           "availabilitySource": {
-            "label": "公司官方活动公告及28卒MyPage登录前公开页",
-            "url": "https://www.hallab.co.jp/freshinfo/detail/20261009/"
+            "label": "公司Mynavi本场要项",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=80244&optNo=ZFeFl"
           },
           "bookingStage": "候选／未申请",
           "nextAction": "通过公司28卒MyPage核实登记及席位。"
@@ -6272,7 +6281,7 @@
       "category": "briefing",
       "subtype": "说明会",
       "status": "候选／未申请",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-15",
       "statusDetail": "28卒线上活动，具体席位未核。",
       "description": "公司介绍、设计师工作介绍及问答。官网活动专页写预计19:00左右结束，招聘总览写18:30左右并注明依职种而异。",
       "nextAction": "通过公司28卒MyPage核实登记及席位。",
@@ -6289,6 +6298,10 @@
         {
           "label": "公司新卒招聘总览",
           "url": "https://www.i-note.jp/hallab/fresh/top.html"
+        },
+        {
+          "label": "公司Mynavi本场日期截止",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=80244&optNo=Q0KIa"
         }
       ],
       "milestones": [
@@ -6296,6 +6309,11 @@
           "type": "event",
           "date": "2026-12-22T17:00",
           "label": "Zoom，结束时间待MyPage核对"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-22",
+          "label": "Mynavi本场日期截止，MyPage余位待核"
         }
       ],
       "registrationSessions": [
@@ -6306,15 +6324,15 @@
           "reservationRequired": true,
           "registrationMethod": "ハル研究所28卒MyPage，活动分别报名",
           "opensAt": null,
-          "deadline": null,
-          "deadlineLabel": "公开页未列具体截止",
-          "firstComeFirstServed": null,
+          "deadline": "2026-12-22",
+          "deadlineLabel": "Mynavi日期级截止，钟点未公布",
+          "firstComeFirstServed": true,
           "availabilityState": "entry_required_or_unknown",
           "availabilityLabel": "官网已公布，实际登录报名窗口和余位待核",
-          "availabilityCheckedAt": "2026-11-13T21:13:19+09:00",
+          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
           "availabilitySource": {
-            "label": "公司官方活动公告及28卒MyPage登录前公开页",
-            "url": "https://www.hallab.co.jp/news/detail/20261027/"
+            "label": "公司Mynavi本场要项",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=80244&optNo=Q0KIa"
           },
           "bookingStage": "候选／未申请",
           "nextAction": "通过公司28卒MyPage核实登记及席位。"
@@ -7476,6 +7494,393 @@
           },
           "bookingStage": "未申请／未预约",
           "nextAction": "11/20前从Mynavi登记；按指引交履历和作品集，课内／自主作品可。是否入选等公司确认。"
+        }
+      ]
+    },
+    {
+      "id": "selection-layup-design-2028",
+      "company": "株式会社レイアップ",
+      "title": "28卒设计早期选考｜平面／Web",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／未申请",
+      "statusDetail": "公开招聘／活动已核，个人未申请。",
+      "intro": "为玩具和角色商品做企划、包装、说明书、推广和数字内容。",
+      "description": "平面方向为包装、印刷、广告与视觉设计。Web方向以网站制作和编码为主。两方向共享入口，可并报；最终配属综合决定。",
+      "nextAction": "先用SNAR登记。公司另发资料提交入口，上传带照片和志望理由的履历、自己PR及作品集。",
+      "notes": "修士税前月薪257,200日元，奖金每年两次按业绩；部分员工可在宅，新人适用和实际工时未核实。",
+      "checkedAt": "2026-11-15",
+      "sources": [
+        {
+          "label": "28卒募集要项",
+          "url": "https://www.layup.co.jp/careers/graduate/index.php"
+        },
+        {
+          "label": "平面岗",
+          "url": "https://www.layup.co.jp/careers/graduate/g-gd.php"
+        },
+        {
+          "label": "Web岗",
+          "url": "https://www.layup.co.jp/careers/graduate/g-wd.php"
+        },
+        {
+          "label": "官方入口实读",
+          "url": "https://layup-recruit.snar.jp/entry.aspx?entryid=9a080892-c148-48ef-bf2c-8255bfbc2e10"
+        },
+        {
+          "label": "FAQ",
+          "url": "https://www.layup.co.jp/careers/graduate/g-faq.php"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-30T23:59",
+          "label": "早期选考截止"
+        }
+      ]
+    },
+    {
+      "id": "selection-hrvision-web-design-2028",
+      "company": "株式会社ＨＲビジョン（株式会社クイック雇用）",
+      "title": "28卒设计师｜自有媒体UI、平面与编辑设计",
+      "category": "selection",
+      "subtype": "本选考",
+      "status": "候选／未申请",
+      "statusDetail": "公开招聘／活动已核，个人未申请。",
+      "intro": "运营面向人事从业者的「日本の人事部」及活动。设计团队负责自有媒体界面、出版物、广告视觉与内容提案。",
+      "description": "株式会社クイック雇用，出向ＨＲビジョン。接受2028年3月毕业修士，要求无社会人经历，未单列学生兼职细则。工作含HTML/CSS及少量前端。",
+      "nextAction": "官网指向OpenWork具体岗位；首轮需ES和作品集，网页URL或A4 PDF，注明时间、背景、工具和设计考虑。统一截止未公布。",
+      "notes": "修士东京税前298,500日元/月，含35小时固定加班及2万地域津贴；奖金年2次。在宅由团队安排，新人频率和岗位实际加班未核。",
+      "checkedAt": "2026-11-15",
+      "sources": [
+        {
+          "label": "公司28卒岗位",
+          "url": "https://hrvision.co.jp/newgrads/recruiting/2028/designs.php"
+        },
+        {
+          "label": "公司指定OpenWork岗位",
+          "url": "https://www.openwork.jp/a0C1000000YqY2I/recruit?j=38c9176f796bfb86"
+        }
+      ],
+      "milestones": []
+    },
+    {
+      "id": "internship-honda-spring-cmf-2027",
+      "company": "Honda",
+      "title": "春季设计实习｜四轮CMF／二轮及动力产品CMF",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／未申请",
+      "statusDetail": "公开招聘／活动已核，个人未申请。",
+      "intro": "本田研发与制造汽车、摩托车及动力产品。CMF实习练习把设计概念落实到颜色、材质和表面处理。",
+      "description": "埼玉和光或朝霞，2/1–11期间线下，修士1年且2028年3月毕业可报。两课共用申请，志愿最多3项，提交一份PDF；数字设计可用。",
+      "nextAction": "通过Honda 28卒MyPage选课，传10MB未满PDF，包含CMF作品、能说明设计思路的项目及自我介绍。二轮课程可用平面或标志类CMF，另需展示构思到方案。",
+      "notes": "交通、餐食及符合条件住宿按公司规则办，具体日当未公布。",
+      "checkedAt": "2026-11-15",
+      "sources": [
+        {
+          "label": "Honda实习资格、课题和申请",
+          "url": "https://global.honda/jp/jobs/design/internship/"
+        },
+        {
+          "label": "28卒MyPage登录",
+          "url": "https://honda.i-web.jpn.com/2028/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-02T11:00",
+          "label": "CMF申请开放",
+          "completed": true
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-03T11:00",
+          "label": "CMF申请与作品截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-01",
+          "label": "线下实习期间",
+          "endDate": "2027-02-11"
+        }
+      ]
+    },
+    {
+      "id": "workshop-nextpage-2028-web-redesign-20261215",
+      "company": "株式会社ネクストページ",
+      "title": "28卒一日线上｜Web UX改版",
+      "category": "activity",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／未申请",
+      "statusDetail": "公开招聘／活动已核，个人未申请。",
+      "intro": "Web制作公司。本场通过分析现有网站、提出改版方案和员工反馈，体验Web设计流程。",
+      "description": "12/15 09:00–13:00 Zoom。28卒含修士1年。约20人，人多可能抽选。准备电脑与笔记工具。",
+      "nextAction": "从Mynavi选择线上场。按官网场次规则约12/13截止，钟点未公布，可能提早关闭。",
+      "notes": "无报酬与交通费。正职设计方向的具体配属和待遇另核。",
+      "checkedAt": "2026-11-15",
+      "sources": [
+        {
+          "label": "当期企业课程",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=229130&optNo=H-R4m"
+        },
+        {
+          "label": "逐场实际预约",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=229130&optNo=eygH2C"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-13",
+          "label": "线上场按前2日规则推得，可能早闭"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-15T09:00",
+          "label": "线上Web UX改版",
+          "endDate": "2026-12-15T13:00"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-nextpage-2028-web-redesign-20261215::2026-12-15T09:00",
+          "eventStart": "2026-12-15T09:00",
+          "eventEnd": "2026-12-15T13:00",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi事前预约；多人时可能抽选",
+          "opensAt": null,
+          "deadline": "2026-12-13",
+          "deadlineLabel": "按线上各场前2日规则推得，可能提前关闭，钟点未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "原始登记页仍显示选项或按钮，实际余位未知",
+          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
+          "availabilitySource": {
+            "label": "雇主实际逐场预约页",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=229130&optNo=eygH2C"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "按登记页选择场次，等待公司确认。"
+        }
+      ]
+    },
+    {
+      "id": "workshop-flavor-2028-receno-creative-20261117",
+      "company": "株式会社Flavor",
+      "title": "Re:CENO制作部一日体验｜商品视觉与修图",
+      "category": "activity",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／未申请",
+      "statusDetail": "公开招聘／活动已核，个人未申请。",
+      "intro": "运营家具和家居电商Re:CENO。制作部负责商品视觉、网站、内容编辑与社交媒体。",
+      "description": "11/17 14:00–17:00京都总部线下，体验商品摄影与Photoshop补正，并有制作人员反馈。面向有制作课程或软件实践的学生。",
+      "nextAction": "如考虑线下及通勤，先核Mynavi实际登记。当前列出申请按钮，实际余位未显示，未公布该场时刻截止。",
+      "notes": "先到先得，无报酬、交通费或住宿费；课程总截止2027/2/9不代表11/17单场截止。",
+      "checkedAt": "2026-11-15",
+      "sources": [
+        {
+          "label": "当期企业制作部课程",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=278706&optNo=PKRtO"
+        },
+        {
+          "label": "实际场次页",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=278706&optNo=6rSd6C"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-17T14:00",
+          "label": "京都线下摄影与视觉制作",
+          "endDate": "2026-11-17T17:00"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-flavor-2028-receno-creative-20261117::2026-11-17T14:00",
+          "eventStart": "2026-11-17T14:00",
+          "eventEnd": "2026-11-17T17:00",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi事前预约，京都总部线下，先到先得",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "原始登记页仍显示选项或按钮，实际余位未知",
+          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
+          "availabilitySource": {
+            "label": "雇主实际逐场预约页",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=278706&optNo=6rSd6C"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "考虑京都通勤后，在逐场页核登记，具体截止及余位数未公布。"
+        }
+      ]
+    },
+    {
+      "id": "activity-hobonichi-intern-hr-stream-20261116",
+      "company": "ほぼ日",
+      "title": "实习人事直播｜PLAYBACK HOBONICHI",
+      "category": "activity",
+      "subtype": "公开线上活动",
+      "status": "候选／未申请",
+      "statusDetail": "公开招聘／活动已核，个人未申请。",
+      "intro": "ほぼ日经营手帐、自有内容与生活类商品。实习团队人事在直播介绍招募项目。",
+      "description": "11/16 20:00开始，结束时间未公布。公司公告给出YouTube观看入口。",
+      "nextAction": "到点可从官方频道进入直播。",
+      "notes": "公开直播，未公布报酬。",
+      "checkedAt": "2026-11-15",
+      "sources": [
+        {
+          "label": "公司实习活动公告",
+          "url": "https://www.1101.com/intern/tabinonakama_2026/index.html"
+        },
+        {
+          "label": "官方直播频道",
+          "url": "https://www.youtube.com/@hobonichi1101/streams"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-16T20:00",
+          "label": "公开线上直播"
+        }
+      ]
+    },
+    {
+      "id": "briefing-hobonichi-intern-2026-sessions",
+      "company": "ほぼ日",
+      "title": "实习说明会与线上问答｜旅のなかまに",
+      "category": "activity",
+      "subtype": "设计招聘说明会／问答",
+      "status": "候选／未申请",
+      "statusDetail": "公开招聘／活动已核，个人未申请。",
+      "intro": "ほぼ日经营手帐、自有内容与生活类商品。本活动服务于招聘直结实习，包含公司说明或线上提问。",
+      "description": "11/24与12/2为线上问答，11/26与12/1为神田线下说明。各场开始时刻已公布，结束时刻未公布。",
+      "nextAction": "公司指定表单任选一场，先到先得，收到案内邮件后方确认预约。",
+      "notes": "活动可选，是否参加不影响选考。对应设计实习本体12/7 11:00截止，表单另办。",
+      "checkedAt": "2026-11-15",
+      "sources": [
+        {
+          "label": "公司公告及四场",
+          "url": "https://www.1101.com/intern/tabinonakama_2026/index.html"
+        },
+        {
+          "label": "四场实际预约表",
+          "url": "https://forms.gle/fz2ojCAXANZvQab27"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-24T14:00",
+          "label": "线上问答｜15人"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-26T18:00",
+          "label": "神田线下说明会｜30人"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-01T18:00",
+          "label": "神田线下说明会｜30人"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-02T18:00",
+          "label": "线上问答｜15人"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-hobonichi-intern-2026-sessions::2026-11-24T14:00",
+          "eventStart": "2026-11-24T14:00",
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "线上；原表只能选一场；公司案内邮件确认",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "满员即止，未公布固定时刻",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "原始登记页仍显示选项或按钮，实际余位未知",
+          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
+          "availabilitySource": {
+            "label": "公司指定实际预约表",
+            "url": "https://forms.gle/fz2ojCAXANZvQab27"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "如选这场，请核当日安排及学校／兼职。",
+          "format": "线上"
+        },
+        {
+          "id": "briefing-hobonichi-intern-2026-sessions::2026-11-26T18:00",
+          "eventStart": "2026-11-26T18:00",
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "神田线下；原表只能选一场；公司案内邮件确认",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "满员即止，未公布固定时刻",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "原始登记页仍显示选项或按钮，实际余位未知",
+          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
+          "availabilitySource": {
+            "label": "公司指定实际预约表",
+            "url": "https://forms.gle/fz2ojCAXANZvQab27"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "如选这场，请先确定线下通勤与兼职安排。",
+          "format": "神田线下"
+        },
+        {
+          "id": "briefing-hobonichi-intern-2026-sessions::2026-12-01T18:00",
+          "eventStart": "2026-12-01T18:00",
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "神田线下；原表只能选一场；公司案内邮件确认",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "满员即止，未公布固定时刻",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "原始登记页仍显示选项或按钮，实际余位未知",
+          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
+          "availabilitySource": {
+            "label": "公司指定实际预约表",
+            "url": "https://forms.gle/fz2ojCAXANZvQab27"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "与18:00已约活动重叠，选择前先确认。",
+          "format": "神田线下"
+        },
+        {
+          "id": "briefing-hobonichi-intern-2026-sessions::2026-12-02T18:00",
+          "eventStart": "2026-12-02T18:00",
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "线上；原表只能选一场；公司案内邮件确认",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "满员即止，未公布固定时刻",
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "原始登记页仍显示选项或按钮，实际余位未知",
+          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
+          "availabilitySource": {
+            "label": "公司指定实际预约表",
+            "url": "https://forms.gle/fz2ojCAXANZvQab27"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "与当日布展窗口有潜在冲突，先确认学校安排。",
+          "format": "线上"
         }
       ]
     }

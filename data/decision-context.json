@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-14",
+  "asOf": "2026-11-15",
   "note": "项目报酬、选考流程与公司入职待遇分开。倍率仅采用相同届别、岗位、批次的可靠统计；计划名额不是实际录取人数。",
   "projects": [
     {
@@ -604,7 +604,43 @@
       "internPay": "无报酬；远方参加者可获交通与住宿补助。",
       "internPayScope": "仅本课程；补助与工资分别列。",
       "checkedAt": "2026-11-14"
+    },
+    {
+      "id": "internship-honda-spring-cmf-2027",
+      "sources": [
+        {
+          "label": "当期费用要项",
+          "url": "https://global.honda/jp/jobs/design/internship/"
+        }
+      ],
+      "internPay": "交通、餐食和符合条件住宿依公司规则，日当未知。",
+      "internPayScope": "对应当期课程",
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "workshop-nextpage-2028-web-redesign-20261215",
+      "sources": [
+        {
+          "label": "当期费用要项",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=229130&optNo=H-R4m"
+        }
+      ],
+      "internPay": "无报酬及交通费补助。",
+      "internPayScope": "对应当期课程",
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "workshop-flavor-2028-receno-creative-20261117",
+      "sources": [
+        {
+          "label": "当期费用要项",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=278706&optNo=PKRtO"
+        }
+      ],
+      "internPay": "无报酬、交通费或住宿补助。",
+      "internPayScope": "对应当期课程",
+      "checkedAt": "2026-11-15"
     }
   ],
-  "updatedAt": "2026-11-14T11:07:25+09:00"
+  "updatedAt": "2026-11-15T09:14:48+09:00"
 }
