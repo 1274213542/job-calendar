@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T09:12:13+09:00",
+  "updatedAt": "2026-11-16T15:15:25+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -810,11 +810,11 @@
       "title": "Creative Center企业Seminar",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "候选／计划申请",
-      "statusDetail": "11/7实际表单仍可选择此场；本人未登记，没有预约回执。",
+      "status": "已预约／确认场次",
+      "statusDetail": "线上说明会 18:00–19:30，预约已确认。",
       "description": "电子、娱乐及跨领域设计；Teams线上；未公布费用；企业/项目介绍与设计师交流；须Sony外部表单逐场申请，RD按钮不算正式报名",
-      "nextAction": "11/17 18:00–19:30线上，先到先得；登记表仍列此场，精确截止未公布。与DENSO同日候选重叠，需决定听哪场再预约。",
-      "checkedAt": "2026-11-07",
+      "nextAction": "线上场次已确认，参加入口待主办方通知。",
+      "checkedAt": "2026-11-16",
       "sources": [
         {
           "label": "原始来源",
@@ -827,7 +827,7 @@
           "type": "event",
           "date": "2026-11-17T18:00",
           "endDate": "2026-11-17T19:30",
-          "label": "候选线上企业说明会（未预约）"
+          "label": "已预约：线上企业说明会"
         }
       ],
       "workCompatibility": "online_briefing",
@@ -842,15 +842,15 @@
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": true,
-          "availabilityState": "form_available",
-          "availabilityLabel": "11/8实际登记表仍列11/17 18:00–19:30；余位未公布",
+          "availabilityState": "booked",
+          "availabilityLabel": "已确认具体场次",
           "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
           "availabilitySource": {
             "label": "Sony官方公开参加登记表",
             "url": "https://sonygroup.my.salesforce-sites.com/sony/Design_students_registration1"
           },
-          "bookingStage": "未预约",
-          "nextAction": "先核冲突并决定场次，再完成官方登记；本轮未提交。"
+          "bookingStage": "已预约／确认场次",
+          "nextAction": "线上场次已确认，参加入口待主办方通知。"
         }
       ],
       "historicalMilestones": [
@@ -5897,11 +5897,11 @@
       "title": "设计职线上说明会",
       "category": "activity",
       "subtype": "说明会",
-      "status": "候选／计划申请",
-      "statusDetail": "公开Zoom登记表可见，实际余位未公开；未申请。",
+      "status": "已预约／确认场次",
+      "statusDetail": "线上说明会 18:00–19:30，预约已确认。",
       "description": "面向所有专业及年级。设计师、设计企划、模型师介绍工作并讨论，另介绍冬季设计实习。Zoom Webinar，预计之后在MyPage提供录像。",
-      "nextAction": "如有兴趣，通过官方Zoom表单登记。未看到公开余位；提交后等入场信息。",
-      "checkedAt": "2026-11-12",
+      "nextAction": "线上场次已确认，届时参加。",
+      "checkedAt": "2026-11-16",
       "sources": [
         {
           "label": "官方设计招聘活动列表",
@@ -5914,15 +5914,15 @@
       ],
       "milestones": [
         {
-          "type": "deadline",
+          "type": "reference",
           "date": "2026-11-18T17:30",
-          "label": "Zoom登记截止"
+          "label": "Zoom 登记截止（已完成登记）"
         },
         {
           "type": "event",
           "date": "2026-11-18T18:00",
           "endDate": "2026-11-18T19:30",
-          "label": "线上说明会"
+          "label": "已预约：设计职线上说明会"
         }
       ],
       "registrationSessions": [
@@ -5936,11 +5936,12 @@
           "deadline": "2026-11-18T17:30",
           "deadlineLabel": "登记截止",
           "firstComeFirstServed": null,
-          "availabilityState": "form_available",
-          "availabilityLabel": "登记表可见，余位未公开",
+          "availabilityState": "booked",
+          "availabilityLabel": "已确认具体场次",
           "availabilityCheckedAt": "2026-11-12T09:29:17+09:00",
           "availabilitySource": "https://yamaha-motor-co-jp.zoom.us/webinar/register/WN_RYFN71KpQIGF4iD1J6tC0A",
-          "bookingStage": "候选／未申请"
+          "bookingStage": "已预约／确认场次",
+          "nextAction": "线上场次已确认，届时参加。"
         }
       ],
       "intro": "雅马哈发动机的设计部门负责摩托车等移动产品的设计。"
@@ -7759,11 +7760,11 @@
       "title": "实习说明会与线上问答｜旅のなかまに",
       "category": "activity",
       "subtype": "设计招聘说明会／问答",
-      "status": "候选／未申请",
-      "statusDetail": "公开招聘／活动已核，个人未申请。",
+      "status": "预约申请已提交／待公司案内",
+      "statusDetail": "11/24 14:00 线上问答申请已提交，具体席位待公司确认。",
       "intro": "ほぼ日经营手帐、自有内容与生活类商品。本活动服务于招聘直结实习，包含公司说明或线上提问。",
       "description": "11/24与12/2为线上问答，11/26与12/1为神田线下说明。各场开始时刻已公布，结束时刻未公布。",
-      "nextAction": "公司指定表单任选一场，先到先得，收到案内邮件后方确认预约。",
+      "nextAction": "等待 11/24 线上问答的公司通知。",
       "notes": "活动可选，是否参加不影响选考。对应设计实习本体12/7 11:00截止，表单另办。 11/26线下说明会现已满员。",
       "checkedAt": "2026-11-16",
       "sources": [
@@ -7780,7 +7781,7 @@
         {
           "type": "event",
           "date": "2026-11-24T14:00",
-          "label": "线上问答｜15人"
+          "label": "线上问答｜申请已提交，席位待确认"
         },
         {
           "type": "event",
@@ -7816,8 +7817,8 @@
             "label": "公司指定实际预约表",
             "url": "https://forms.gle/fz2ojCAXANZvQab27"
           },
-          "bookingStage": "候选／未申请",
-          "nextAction": "如选这场，请核当日安排及学校／兼职。",
+          "bookingStage": "预约申请已提交／待公司案内",
+          "nextAction": "等公司确认该场次席位。",
           "format": "线上"
         },
         {
