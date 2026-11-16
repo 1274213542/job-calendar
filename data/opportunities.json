@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T15:15:25+09:00",
+  "updatedAt": "2026-11-16T21:08:43+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -62,10 +62,10 @@
       "category": "internship",
       "subtype": "短期实习与工作坊",
       "status": "已预约／确认参加",
-      "statusDetail": "10/30已通过选考；11/2本人已发送参加表提交完成邮件，11/3核到表单回答成功页；等待公司发送参加详情。",
+      "statusDetail": "已确认11/20参加实习。",
       "description": "数字社交、虚拟形象与游戏；Tokyo办公室；已通过选考并完成参加确认。谢礼手续及集合详情以公司后续通知为准。",
-      "nextAction": "保留11/20 09:30–18:30安排；等待并阅读公司后续参加详情，无需重复提交确认表。 本人11/3表示当天兼职可调开；仍需确认实际调班完成。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "11/20前体验《リヴリーアイランド》，熟悉世界观与UI。无指定等级。",
+      "checkedAt": "2026-11-16",
       "sources": [
         {
           "label": "10/30 ENSAPIA录取邮件及参加确认表；私人邮件正文未收录"
@@ -811,9 +811,9 @@
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
       "status": "已预约／确认场次",
-      "statusDetail": "线上说明会 18:00–19:30，预约已确认。",
+      "statusDetail": "11/17 18:00–19:30线上场次已确认，入场指引已收到。",
       "description": "电子、娱乐及跨领域设计；Teams线上；未公布费用；企业/项目介绍与设计师交流；须Sony外部表单逐场申请，RD按钮不算正式报名",
-      "nextAction": "线上场次已确认，参加入口待主办方通知。",
+      "nextAction": "11/17 17:50左右可进入 Teams，会后填写问卷。参加入口见主办方邮件。",
       "checkedAt": "2026-11-16",
       "sources": [
         {
@@ -850,7 +850,7 @@
             "url": "https://sonygroup.my.salesforce-sites.com/sony/Design_students_registration1"
           },
           "bookingStage": "已预约／确认场次",
-          "nextAction": "线上场次已确认，参加入口待主办方通知。"
+          "nextAction": "11/17 17:50左右可进入 Teams，会后填写问卷。参加入口见主办方邮件。"
         }
       ],
       "historicalMilestones": [
@@ -2038,8 +2038,8 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3官方MyPage预约完成页及企业确认邮件已核验：11/17 15:00–16:00 Zoom场。",
       "description": "B2B SaaS品牌、传播、Web与平面设计；约1小时线上说明会与Q&A，最后介绍本选考。此场不含作品集咨询。",
-      "nextAction": "11/17 14:55左右进入Zoom，尽可能开摄像头；11/18 09:00提醒确认听会情况，再核Creator本选考与作品集要求。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "11/17 14:55左右入Zoom。请先登录 MyPage，会上需用它完成参加确认。",
+      "checkedAt": "2026-11-16",
       "sources": [
         {
           "label": "原始来源",
@@ -2084,7 +2084,7 @@
           "availabilityCheckedAt": null,
           "availabilitySource": null,
           "bookingStage": "已预约／以既有回执为据",
-          "nextAction": "维持已约场次，核查参加指引及必要会前手续，不重复报名。"
+          "nextAction": "11/17 14:55左右入Zoom。请先登录 MyPage，会上需用它完成参加确认。"
         }
       ],
       "intro": "Sansan提供B2B SaaS服务；本场介绍品牌、传播、Web与平面设计，并说明后续选考。"
@@ -5842,11 +5842,11 @@
       "title": "28卒 公司说明会｜招聘担当交流",
       "category": "activity",
       "subtype": "公司说明会",
-      "status": "候选／计划申请",
-      "statusDetail": "11月16日16:00–19:00线上场已核；未预约。",
-      "checkedAt": "2026-11-11",
+      "status": "已预约／确认场次",
+      "statusDetail": "11/16 16:00–19:00线上场次已预约。",
+      "checkedAt": "2026-11-16",
       "description": "Zoom线上，3小时。招聘担当介绍公司和工作氛围并交流求职问题；属于公司综合说明会，适用于正在募集的Web设计路线。",
-      "nextAction": "确认11月16日16:00–19:00的安排后，进入28卒线上登记入口预约。",
+      "nextAction": "待本人确认听会情况，再决定是否继续 Web 设计师本选考。",
       "notes": "当前可读登记入口；余位、准确报名截止及后续必填项尚未公布或未读到。",
       "sources": [
         {
@@ -5863,7 +5863,7 @@
           "type": "event",
           "date": "2026-11-16T16:00",
           "endDate": "2026-11-16T19:00",
-          "label": "候选线上说明会"
+          "label": "已预约／线上说明会"
         }
       ],
       "workCompatibility": "online_briefing",
@@ -5878,15 +5878,15 @@
           "deadline": null,
           "deadlineLabel": "未公布",
           "firstComeFirstServed": null,
-          "availabilityState": "form_available",
-          "availabilityLabel": "登记页可读；剩余名额未公布",
+          "availabilityState": "booked",
+          "availabilityLabel": "具体场次已预约",
           "availabilityCheckedAt": "2026-11-11T09:09:44+09:00",
           "availabilitySource": {
             "label": "28卒线上场实际登记页",
             "url": "https://www.career-cloud.asia/28/entry/event/general_event/af025208b5ca5e09902b8e2e1fcd385b"
           },
-          "bookingStage": "未预约",
-          "nextAction": "确认时间后登记。"
+          "bookingStage": "已预约／确认场次",
+          "nextAction": "待本人确认听会情况，再决定是否继续 Web 设计师本选考。"
         }
       ],
       "intro": "あつまる招聘担当的线上交流说明会。"
@@ -6455,10 +6455,10 @@
       "category": "internship",
       "subtype": "设计实务实习",
       "status": "候选／未申请",
-      "statusDetail": "企业公布11/17截止，钟点及五天具体日期待 MyPage 核实。",
+      "statusDetail": "五天设计实习，报名截止为11/17 23:59。",
       "description": "在大阪 MIZUNO ENGINE 体验设计实务并获反馈，企业公开课程示例含产品／平面与服装设计。",
-      "nextAction": "进入公司当期报名系统核对具体设计分支、截止钟点、日期及材料，再决定是否投递。",
-      "checkedAt": "2026-11-14",
+      "nextAction": "11/17 23:59前完成ES、PR视频（60秒、20MB以内）、作品集（PDF 10页、4MB以内）和适性检查。",
+      "checkedAt": "2026-11-16",
       "sources": [
         {
           "label": "企业发布的28卒设计实习要项",
@@ -6473,8 +6473,8 @@
       "milestones": [
         {
           "type": "deadline",
-          "date": "2026-11-17",
-          "label": "募集截止（钟点待 MyPage）"
+          "date": "2026-11-17T23:59",
+          "label": "实习报名截止"
         }
       ]
     },
