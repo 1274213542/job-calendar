@@ -5700,6 +5700,37 @@
           }
         }
       ]
+    },
+    {
+      "name": "株式会社mediba",
+      "aliases": [
+        "mediba",
+        "株式会社mediba"
+      ],
+      "roles": [
+        {
+          "role": "28卒UI设计师",
+          "scope": "28卒官方岗位",
+          "monthly": "254,720日元起",
+          "annual": null,
+          "bonus": "每年两次",
+          "overtime": "加班另付",
+          "benefits": "东京目黑",
+          "sources": [
+            {
+              "label": "公司官方HERP",
+              "url": "https://herp.careers/v1/mediba/Wa15msVG3Q6D"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 254720,
+            "annualJPY": null,
+            "monthlyLabel": "官方月薪下限",
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
     }
   ],
   "updatedAt": "2026-11-16T09:09:12+09:00",

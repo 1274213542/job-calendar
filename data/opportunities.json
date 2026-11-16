@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:08:43+09:00",
+  "updatedAt": "2026-11-17T02:42:01+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -62,9 +62,9 @@
       "category": "internship",
       "subtype": "短期实习与工作坊",
       "status": "已预约／确认参加",
-      "statusDetail": "已确认11/20参加实习。",
+      "statusDetail": "11/20场已确认，电子合同已签约完成。",
       "description": "数字社交、虚拟形象与游戏；Tokyo办公室；已通过选考并完成参加确认。谢礼手续及集合详情以公司后续通知为准。",
-      "nextAction": "11/20前体验《リヴリーアイランド》，熟悉世界观与UI。无指定等级。",
+      "nextAction": "11/20前体验《リヴリーアイランド》，了解世界观和UI，等级不限。按已有公司指引参加。",
       "checkedAt": "2026-11-16",
       "sources": [
         {
@@ -810,10 +810,10 @@
       "title": "Creative Center企业Seminar",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "已预约／确认场次",
-      "statusDetail": "11/17 18:00–19:30线上场次已确认，入场指引已收到。",
+      "status": "已预约／公司确认场次",
+      "statusDetail": "公司回执确认11/17 18:00–19:30线上场。",
       "description": "电子、娱乐及跨领域设计；Teams线上；未公布费用；企业/项目介绍与设计师交流；须Sony外部表单逐场申请，RD按钮不算正式报名",
-      "nextAction": "11/17 17:50左右可进入 Teams，会后填写问卷。参加入口见主办方邮件。",
+      "nextAction": "按11/17 18:00场的公司邮件入场。",
       "checkedAt": "2026-11-16",
       "sources": [
         {
@@ -842,15 +842,15 @@
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": true,
-          "availabilityState": "booked",
-          "availabilityLabel": "已确认具体场次",
+          "availabilityState": "registration_confirmed",
+          "availabilityLabel": "公司回执确认11/17 18:00–19:30线上场。",
           "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
           "availabilitySource": {
             "label": "Sony官方公开参加登记表",
             "url": "https://sonygroup.my.salesforce-sites.com/sony/Design_students_registration1"
           },
-          "bookingStage": "已预约／确认场次",
-          "nextAction": "11/17 17:50左右可进入 Teams，会后填写问卷。参加入口见主办方邮件。"
+          "bookingStage": "已预约／公司确认场次",
+          "nextAction": "查看Sony发送的入场邮件；先前已收11/17 18:00场报名回执。"
         }
       ],
       "historicalMilestones": [
@@ -5438,11 +5438,11 @@
       "category": "activity",
       "subtype": "说明会",
       "status": "已报名／受理；已收参加指引",
-      "statusDetail": "已受理 11/13 17:00–18:00 的 Teams 说明会报名，已收到公司入场指引。",
+      "statusDetail": "11/13 17:00–18:00 Teams报名已受理；公司已发送入场指引，出席待本人确认。",
       "intro": "アビリブ为酒店、旅游和自治体提供网站与数字营销。本场介绍业务及Web设计师工作，面向28卒，修士1年可参加。",
       "description": "11/13 17:00–18:00线上 Teams：40分钟介绍＋20分钟问答。已核Web设计就业地点为仙台、名古屋和大阪，东京设计配属待核。",
-      "nextAction": "11/13 17:00–18:00（日本时间）线上。用公司邮件中的 Teams 入口，建议 16:55 入场。",
-      "checkedAt": "2026-11-12",
+      "nextAction": "场次已结束；等本人确认听会情况，再决定是否准备28卒Web设计岗。",
+      "checkedAt": "2026-11-15",
       "attendanceMode": "online",
       "workCompatibility": "online_briefing",
       "notes": "官网表单已显示报名受理成功，接入链接待公司邮件。原Mynavi与官网渠道的截止日期保留为历史记录；本场转为参加及剩余手续提醒。",
@@ -5499,14 +5499,14 @@
           "deadlineLabel": "官网11/12 23:00；Mynavi11/11（钟点未公布）",
           "firstComeFirstServed": true,
           "availabilityState": "registration_accepted",
-          "availabilityLabel": "本人已受理并收到入场指引",
+          "availabilityLabel": "公司已发该场次参加指引",
           "availabilityCheckedAt": "2026-11-08T12:15:34+09:00",
           "availabilitySource": {
             "label": "官网报名表提交成功页",
             "url": "https://forms.office.com/r/Q074kAFkjq"
           },
           "bookingStage": "已报名／受理；已收参加指引",
-          "nextAction": "11/13 17:00–18:00（日本时间）线上。用公司邮件中的 Teams 入口，建议 16:55 入场。",
+          "nextAction": "场次已结束；等本人确认听会情况，再决定是否准备28卒Web设计岗。",
           "registrationChannels": [
             {
               "id": "mynavi",
@@ -5842,11 +5842,11 @@
       "title": "28卒 公司说明会｜招聘担当交流",
       "category": "activity",
       "subtype": "公司说明会",
-      "status": "已预约／确认场次",
-      "statusDetail": "11/16 16:00–19:00线上场次已预约。",
+      "status": "已预约／公司确认场次",
+      "statusDetail": "公司回执确认11/16 Zoom场；邮件到达时场次已结束，出席未核。",
       "checkedAt": "2026-11-16",
       "description": "Zoom线上，3小时。招聘担当介绍公司和工作氛围并交流求职问题；属于公司综合说明会，适用于正在募集的Web设计路线。",
-      "nextAction": "待本人确认听会情况，再决定是否继续 Web 设计师本选考。",
+      "nextAction": "说明会已结束，实际出席待本人确认。",
       "notes": "当前可读登记入口；余位、准确报名截止及后续必填项尚未公布或未读到。",
       "sources": [
         {
@@ -5878,15 +5878,15 @@
           "deadline": null,
           "deadlineLabel": "未公布",
           "firstComeFirstServed": null,
-          "availabilityState": "booked",
-          "availabilityLabel": "具体场次已预约",
+          "availabilityState": "registration_confirmed",
+          "availabilityLabel": "公司回执确认11/16 Zoom场；邮件到达时场次已结束，出席未核。",
           "availabilityCheckedAt": "2026-11-11T09:09:44+09:00",
           "availabilitySource": {
             "label": "28卒线上场实际登记页",
             "url": "https://www.career-cloud.asia/28/entry/event/general_event/af025208b5ca5e09902b8e2e1fcd385b"
           },
-          "bookingStage": "已预约／确认场次",
-          "nextAction": "待本人确认听会情况，再决定是否继续 Web 设计师本选考。"
+          "bookingStage": "已预约／公司确认场次",
+          "nextAction": "说明会已结束，实际出席待本人确认。"
         }
       ],
       "intro": "あつまる招聘担当的线上交流说明会。"
@@ -5897,10 +5897,10 @@
       "title": "设计职线上说明会",
       "category": "activity",
       "subtype": "说明会",
-      "status": "已预约／确认场次",
-      "statusDetail": "线上说明会 18:00–19:30，预约已确认。",
+      "status": "已预约／公司确认场次",
+      "statusDetail": "Zoom报名确认11/18 18:00–19:30场，并有入场指引。",
       "description": "面向所有专业及年级。设计师、设计企划、模型师介绍工作并讨论，另介绍冬季设计实习。Zoom Webinar，预计之后在MyPage提供录像。",
-      "nextAction": "线上场次已确认，届时参加。",
+      "nextAction": "从公司发来的Zoom确认邮件入场。",
       "checkedAt": "2026-11-16",
       "sources": [
         {
@@ -5936,12 +5936,12 @@
           "deadline": "2026-11-18T17:30",
           "deadlineLabel": "登记截止",
           "firstComeFirstServed": null,
-          "availabilityState": "booked",
-          "availabilityLabel": "已确认具体场次",
+          "availabilityState": "registration_confirmed",
+          "availabilityLabel": "Zoom报名确认11/18 18:00–19:30场，并有入场指引。",
           "availabilityCheckedAt": "2026-11-12T09:29:17+09:00",
           "availabilitySource": "https://yamaha-motor-co-jp.zoom.us/webinar/register/WN_RYFN71KpQIGF4iD1J6tC0A",
-          "bookingStage": "已预约／确认场次",
-          "nextAction": "线上场次已确认，届时参加。"
+          "bookingStage": "已预约／公司确认场次",
+          "nextAction": "从公司发来的Zoom确认邮件入场。"
         }
       ],
       "intro": "雅马哈发动机的设计部门负责摩托车等移动产品的设计。"
@@ -8155,6 +8155,212 @@
           "bookingStage": "候选／未申请",
           "format": "名古屋线下",
           "nextAction": "选インターンシップ，准备作品集、照片、志望理由、自我PR。公司看资料后安排面谈与出勤日期。"
+        }
+      ]
+    },
+    {
+      "id": "briefing-goodpatch-ceo-20261127",
+      "company": "Goodpatch",
+      "title": "28卒 CEO登坛公司说明会",
+      "category": "activity",
+      "subtype": "设计公司说明会",
+      "status": "候选／未申请",
+      "description": "28卒全职种，含设计师。CEO介绍公司历程、决策与价值观并答疑。涩谷总部线下。",
+      "intro": "设计公司Goodpatch由创办人介绍公司发展历程及工作价值观。",
+      "nextAction": "如想参加，先核线下安排，再使用公司HRMOS登记。表单可读，实际席位以公司为准。",
+      "checkedAt": "2026-11-15",
+      "sources": [
+        {
+          "label": "公司HRMOS场次",
+          "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/events/2039641808880758784"
+        },
+        {
+          "label": "公司HRMOS报名表",
+          "url": "https://public.n-ats.hrmos.co/goodpatchnewgrads/events/2039641808880758784/schedules/2317255556648570880/apply"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-26T15:00",
+          "label": "官方HRMOS报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-27T18:00",
+          "endDate": "2026-11-27T20:00",
+          "label": "涩谷总部线下说明会"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-goodpatch-ceo-20261127::2026-11-27T18:00",
+          "eventStart": "2026-11-27T18:00",
+          "eventEnd": "2026-11-27T20:00",
+          "format": "东京涩谷线下",
+          "reservationRequired": true,
+          "registrationMethod": "官网指向的HRMOS直接报名",
+          "deadline": "2026-11-26T15:00",
+          "opensAt": null,
+          "firstComeFirstServed": true,
+          "availabilityState": "form_available",
+          "availabilityLabel": "报名表能打开，余位未公开",
+          "availabilitySource": "https://public.n-ats.hrmos.co/goodpatchnewgrads/events/2039641808880758784/schedules/2317255556648570880/apply",
+          "bookingStage": "候选／未申请"
+        }
+      ]
+    },
+    {
+      "id": "briefing-yamaha-winter-design-2026",
+      "company": "Yamaha",
+      "title": "设计研究所｜冬季实习线上说明会",
+      "category": "activity",
+      "subtype": "设计实习说明会",
+      "status": "候选／未申请",
+      "description": "ヤマハ株式会社设计研究所介绍乐器与音响等产品设计及冬期实习。两场同内容，参加任意一场。",
+      "nextAction": "MyPage登记，额满为止；公开官网未显示实际余位。",
+      "checkedAt": "2026-11-15",
+      "sources": [
+        {
+          "label": "当期设计实习与说明会",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/designer/"
+        },
+        {
+          "label": "公司MyPage",
+          "url": "https://yamaha-recruiting.snar.jp/login.aspx"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-19T18:00",
+          "endDate": "2026-11-19T19:30",
+          "label": "可选Zoom线上说明会"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-20T18:00",
+          "endDate": "2026-11-20T19:30",
+          "label": "可选Zoom线上说明会"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-yamaha-winter-design-2026::2026-11-19T18:00",
+          "eventStart": "2026-11-19T18:00",
+          "eventEnd": "2026-11-19T19:30",
+          "format": "在线 Zoom Webinar",
+          "reservationRequired": true,
+          "registrationMethod": "ヤマハ株式会社 MyPage 登记",
+          "deadline": null,
+          "opensAt": null,
+          "firstComeFirstServed": true,
+          "availabilityState": "login_required",
+          "availabilitySource": "https://yamaha-recruiting.snar.jp/login.aspx",
+          "bookingStage": "候选／未申请"
+        },
+        {
+          "id": "briefing-yamaha-winter-design-2026::2026-11-20T18:00",
+          "eventStart": "2026-11-20T18:00",
+          "eventEnd": "2026-11-20T19:30",
+          "format": "在线 Zoom Webinar",
+          "reservationRequired": true,
+          "registrationMethod": "ヤマハ株式会社 MyPage 登记",
+          "deadline": null,
+          "opensAt": null,
+          "firstComeFirstServed": true,
+          "availabilityState": "login_required",
+          "availabilitySource": "https://yamaha-recruiting.snar.jp/login.aspx",
+          "bookingStage": "候选／未申请"
+        }
+      ]
+    },
+    {
+      "id": "selection-mediba-ui-designer-2028",
+      "company": "株式会社mediba",
+      "title": "28卒 UI设计师",
+      "category": "selection",
+      "status": "候选／未申请",
+      "intro": "mediba 参与运营 au 等大型数字服务。新卒UI岗负责功能改善、新服务的界面和视觉设计。",
+      "description": "要求Figma或Adobe CC、设计基础、团队经验。东京目黑，月薪254,720日元起，另计加班，奖金每年两次。",
+      "nextAction": "官方HERP申请表可读。作品集链接及附件可选；公开页未写具体截止与独立学历限制。",
+      "checkedAt": "2026-11-15",
+      "milestones": [],
+      "sources": [
+        {
+          "label": "28卒岗位",
+          "url": "https://herp.careers/v1/mediba/Wa15msVG3Q6D"
+        },
+        {
+          "label": "官方申请表",
+          "url": "https://herp.careers/v1/mediba/Wa15msVG3Q6D/apply"
+        }
+      ]
+    },
+    {
+      "id": "workshop-pivot-uiux-2028-1day",
+      "company": "株式会社PIVOT",
+      "title": "28卒 UI/UX思考 1Day 工作坊",
+      "category": "activity",
+      "subtype": "UX短期职业体验",
+      "status": "候选／未申请",
+      "statusDetail": "11/28或12/21选一场。公司收到意向后再联络确认场次。",
+      "intro": "株式会社PIVOT 为客户设计与开发网站、App和系统。工作坊实作用户画像与旅程地图，并由在职员工反馈。",
+      "description": "2028年卒可参加，文理不限；东京外苑前线下。公司正文下的这项课程明确有UI/UX设计练习，和单独工程师正式岗位区分。",
+      "nextAction": "如想参加，从企业原公告按「話を聞きに行きたい」登记意向，等招聘方回复后选择场次。未公布截止钟点和余位。",
+      "checkedAt": "2026-11-16",
+      "sources": [
+        {
+          "label": "公司当届工作坊原公告",
+          "url": "https://www.wantedly.com/projects/2626974"
+        },
+        {
+          "label": "公司官网招聘",
+          "url": "https://pivot.jp/recruitment/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-28T13:00",
+          "endDate": "2026-11-28T17:00",
+          "label": "可选线下UI/UX工作坊"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-21T13:00",
+          "endDate": "2026-12-21T17:00",
+          "label": "可选线下UI/UX工作坊"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-pivot-uiux-2028-1day::2026-11-28T13:00",
+          "eventStart": "2026-11-28T13:00",
+          "eventEnd": "2026-11-28T17:00",
+          "format": "东京外苑前线下",
+          "reservationRequired": true,
+          "registrationMethod": "企业原公告的Wantedly登记意向，待公司消息选场",
+          "deadline": null,
+          "opensAt": null,
+          "firstComeFirstServed": null,
+          "availabilityState": "entry_button_visible_seats_unverified",
+          "availabilitySource": "https://www.wantedly.com/projects/2626974",
+          "bookingStage": "候选／未申请"
+        },
+        {
+          "id": "workshop-pivot-uiux-2028-1day::2026-12-21T13:00",
+          "eventStart": "2026-12-21T13:00",
+          "eventEnd": "2026-12-21T17:00",
+          "format": "东京外苑前线下",
+          "reservationRequired": true,
+          "registrationMethod": "企业原公告的Wantedly登记意向，待公司消息选场",
+          "deadline": null,
+          "opensAt": null,
+          "firstComeFirstServed": null,
+          "availabilityState": "entry_button_visible_seats_unverified",
+          "availabilitySource": "https://www.wantedly.com/projects/2626974",
+          "bookingStage": "候选／未申请"
         }
       ]
     }
