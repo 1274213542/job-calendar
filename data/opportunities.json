@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T09:09:12+09:00",
+  "updatedAt": "2026-11-16T09:12:13+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -7764,8 +7764,8 @@
       "intro": "ほぼ日经营手帐、自有内容与生活类商品。本活动服务于招聘直结实习，包含公司说明或线上提问。",
       "description": "11/24与12/2为线上问答，11/26与12/1为神田线下说明。各场开始时刻已公布，结束时刻未公布。",
       "nextAction": "公司指定表单任选一场，先到先得，收到案内邮件后方确认预约。",
-      "notes": "活动可选，是否参加不影响选考。对应设计实习本体12/7 11:00截止，表单另办。",
-      "checkedAt": "2026-11-15",
+      "notes": "活动可选，是否参加不影响选考。对应设计实习本体12/7 11:00截止，表单另办。 11/26线下说明会现已满员。",
+      "checkedAt": "2026-11-16",
       "sources": [
         {
           "label": "公司公告及四场",
@@ -7810,8 +7810,8 @@
           "deadlineLabel": "满员即止，未公布固定时刻",
           "firstComeFirstServed": true,
           "availabilityState": "public_reservation_link",
-          "availabilityLabel": "原始登记页仍显示选项或按钮，实际余位未知",
-          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
+          "availabilityLabel": "原表仍能选，实际剩余席位未公布",
+          "availabilityCheckedAt": "2026-11-16T09:12:13+09:00",
           "availabilitySource": {
             "label": "公司指定实际预约表",
             "url": "https://forms.gle/fz2ojCAXANZvQab27"
@@ -7830,15 +7830,15 @@
           "deadline": null,
           "deadlineLabel": "满员即止，未公布固定时刻",
           "firstComeFirstServed": true,
-          "availabilityState": "public_reservation_link",
-          "availabilityLabel": "原始登记页仍显示选项或按钮，实际余位未知",
-          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
+          "availabilityState": "closed",
+          "availabilityLabel": "公司表单明确写已达定员并关闭此场",
+          "availabilityCheckedAt": "2026-11-16T09:12:13+09:00",
           "availabilitySource": {
             "label": "公司指定实际预约表",
             "url": "https://forms.gle/fz2ojCAXANZvQab27"
           },
           "bookingStage": "候选／未申请",
-          "nextAction": "如选这场，请先确定线下通勤与兼职安排。",
+          "nextAction": "该场已经满员；如需要，从表单选择线上问答场。",
           "format": "神田线下"
         },
         {
@@ -7852,8 +7852,8 @@
           "deadlineLabel": "满员即止，未公布固定时刻",
           "firstComeFirstServed": true,
           "availabilityState": "public_reservation_link",
-          "availabilityLabel": "原始登记页仍显示选项或按钮，实际余位未知",
-          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
+          "availabilityLabel": "原表仍能选，实际剩余席位未公布",
+          "availabilityCheckedAt": "2026-11-16T09:12:13+09:00",
           "availabilitySource": {
             "label": "公司指定实际预约表",
             "url": "https://forms.gle/fz2ojCAXANZvQab27"
@@ -7873,8 +7873,8 @@
           "deadlineLabel": "满员即止，未公布固定时刻",
           "firstComeFirstServed": true,
           "availabilityState": "public_reservation_link",
-          "availabilityLabel": "原始登记页仍显示选项或按钮，实际余位未知",
-          "availabilityCheckedAt": "2026-11-15T09:14:48+09:00",
+          "availabilityLabel": "原表仍能选，实际剩余席位未公布",
+          "availabilityCheckedAt": "2026-11-16T09:12:13+09:00",
           "availabilitySource": {
             "label": "公司指定实际预约表",
             "url": "https://forms.gle/fz2ojCAXANZvQab27"
