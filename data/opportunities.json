@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T11:53:21+09:00",
+  "updatedAt": "2026-11-16T09:09:12+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -7882,6 +7882,278 @@
           "bookingStage": "候选／未申请",
           "nextAction": "与当日布展窗口有潜在冲突，先确认学校安排。",
           "format": "线上"
+        }
+      ]
+    },
+    {
+      "id": "internship-toyota-industries-mobility-design-2028-20270222",
+      "company": "株式会社豊田自動織機",
+      "title": "28卒设计实习｜爱知 5 天移动出行设计",
+      "category": "internship",
+      "subtype": "短期实习",
+      "status": "候选／未申请",
+      "statusDetail": "已核公开项目与报名入口，个人未申请。",
+      "intro": "丰田自动织机业务包括叉车与物流设备、汽车与零件和纺织机械；车辆团队参与 RAV4 设计开发。",
+      "description": "爱知公司设施线下，约10人。面向2028届设计系学生，构思、概念讨论、课题实作、发表与员工反馈。UI、造型及当期课题细节未公布。",
+      "nextAction": "先从 OneCareer 预登记并等公司引导，再到 MyPage 提交 ES 与作品集。该平台截止与公司材料时限分别核对。",
+      "notes": "交通和住宿按公司规定支付；实习报酬未公布。2026年入职参考：修士¥312,000/月，奖金每年两次。",
+      "checkedAt": "2026-11-16",
+      "sources": [
+        {
+          "label": "雇主公开募集／OneCareer",
+          "url": "https://www.onecareer.jp/events/internship/103609"
+        },
+        {
+          "label": "公司设计职介绍",
+          "url": "https://saiyo.toyota-shokki.co.jp/job_people/dpt11"
+        },
+        {
+          "label": "公司新卒要项（2026实绩）",
+          "url": "https://saiyo.toyota-shokki.co.jp/recruit/index"
+        },
+        {
+          "label": "公司工作制度",
+          "url": "https://saiyo.toyota-shokki.co.jp/environment/index"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2027-01-04T23:59",
+          "label": "OneCareer 预登记截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-22T08:00",
+          "label": "爱知线下 5 天",
+          "end": "2027-02-26T18:00"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "internship-toyota-industries-mobility-design-2028-20270222::2027-02-22T08:00",
+          "eventStart": "2027-02-22T08:00",
+          "eventEnd": "2027-02-26T18:00",
+          "reservationRequired": true,
+          "registrationMethod": "先从 OneCareer 预登记并等公司引导，再到 MyPage 提交 ES 与作品集。该平台截止与公司材料时限分别核对。",
+          "opensAt": null,
+          "deadline": "2027-01-04T23:59",
+          "deadlineLabel": "OneCareer 预登记截止",
+          "firstComeFirstServed": null,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "公开报名入口可见，个人申请及余位未核",
+          "availabilityCheckedAt": "2026-11-16T09:09:12+09:00",
+          "availabilitySource": {
+            "label": "雇主公开募集／OneCareer",
+            "url": "https://www.onecareer.jp/events/internship/103609"
+          },
+          "bookingStage": "候选／未申请",
+          "format": "爱知线下",
+          "nextAction": "先从 OneCareer 预登记并等公司引导，再到 MyPage 提交 ES 与作品集。该平台截止与公司材料时限分别核对。"
+        }
+      ]
+    },
+    {
+      "id": "briefing-suntory-design-center-2028-online",
+      "company": "サントリー／サントリーホールディングス株式会社",
+      "title": "SUNTORY DESIGN CENTER｜28卒设计线上说明会",
+      "category": "event",
+      "subtype": "说明会",
+      "status": "候选／未申请",
+      "statusDetail": "已核公开项目与报名入口，个人未申请。",
+      "intro": "设计中心负责饮料产品与消费者接点，案例包括天然水、碧 Ao 与伊右卫门无标签包装。",
+      "description": "两场 Zoom 都是18:00开始、约90分钟，内容相同，无回放。本选考的截点、首轮材料及同岗待遇待公司更新。",
+      "nextAction": "官方表单事前登记，邮件接收 Zoom 链接。两场内容相同，参加一场即可。",
+      "notes": "新卒设计薪资、固定加班、奖金、实际工时与在宅频率未确认。报名表含汉字姓名栏，是否接受替代写法未核。",
+      "checkedAt": "2026-11-16",
+      "sources": [
+        {
+          "label": "设计中心28卒官方说明会",
+          "url": "https://suntory.design/recruit/2028/"
+        },
+        {
+          "label": "官方指向的事前登记表",
+          "url": "https://www.career-cloud.asia/28/form/entryb/index/73d97d1da008b786cfa1488e025ca20f"
+        },
+        {
+          "label": "设计中心与代表项目",
+          "url": "https://suntory.design/info/"
+        },
+        {
+          "label": "公司28卒招聘总入口",
+          "url": "https://www.suntory.co.jp/recruit/fresh/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-01T18:00",
+          "label": "Zoom 说明会（任选一场）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-02T18:00",
+          "label": "Zoom 说明会（任选一场）"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-suntory-design-center-2028-online::2026-12-01T18:00",
+          "eventStart": "2026-12-01T18:00",
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "官方表单事前登记，邮件接收 Zoom 链接。两场内容相同，参加一场即可。",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "公开报名入口可见，个人申请及余位未核",
+          "availabilityCheckedAt": "2026-11-16T09:09:12+09:00",
+          "availabilitySource": {
+            "label": "官方指向的事前登记表",
+            "url": "https://www.career-cloud.asia/28/form/entryb/index/73d97d1da008b786cfa1488e025ca20f"
+          },
+          "bookingStage": "候选／未申请",
+          "format": "线上",
+          "nextAction": "任选一场，预计90分钟，留意与同日博報堂设计说明会重叠。"
+        },
+        {
+          "id": "briefing-suntory-design-center-2028-online::2026-12-02T18:00",
+          "eventStart": "2026-12-02T18:00",
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "官方表单事前登记，邮件接收 Zoom 链接。两场内容相同，参加一场即可。",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "公开报名入口可见，个人申请及余位未核",
+          "availabilityCheckedAt": "2026-11-16T09:09:12+09:00",
+          "availabilitySource": {
+            "label": "官方指向的事前登记表",
+            "url": "https://www.career-cloud.asia/28/form/entryb/index/73d97d1da008b786cfa1488e025ca20f"
+          },
+          "bookingStage": "候选／未申请",
+          "format": "线上",
+          "nextAction": "任选一场，预计90分钟，留意与同日博報堂设计说明会重叠。"
+        }
+      ]
+    },
+    {
+      "id": "briefing-mikimoto-creative-2028-online-20261210",
+      "company": "株式会社ミキモト",
+      "title": "28卒创意职说明会｜平面设计／展示／珠宝（线上）",
+      "category": "event",
+      "subtype": "说明会",
+      "status": "候选／未申请",
+      "statusDetail": "已核公开项目与报名入口，个人未申请。",
+      "intro": "以珍珠与珠宝为主营，设企业内部平面与展示设计职能。",
+      "description": "艺术或设计相关在校生可参加。12/10 13:00–15:00 Zoom，介绍现役平面、展示、珠宝设计师的工作。禁止录制或储存活动影像。",
+      "nextAction": "从 Mynavi 选择12/10线上场。公告未列该场ES或作品集，实际席位待核。",
+      "notes": "活动无报酬。28卒平面设计岗位是否单独招募、薪资与在宅待核；27卒珠宝岗数据仅作历史参考。另有线下方案，无须参加线下才能看本场。",
+      "checkedAt": "2026-11-16",
+      "sources": [
+        {
+          "label": "雇主28届创意职募集",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=56513&optNo=ffuYB"
+        },
+        {
+          "label": "线上逐场报名页",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=56513&optNo=FMZvYC"
+        },
+        {
+          "label": "27卒珠宝设计募集（历史参考）",
+          "url": "https://recruit.mikimoto.com/new/bosyu02.html"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-07",
+          "label": "线上报名截止（钟点未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-10T13:00",
+          "label": "线上创意职说明会",
+          "end": "2026-12-10T15:00"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-mikimoto-creative-2028-online-20261210::2026-12-10T13:00",
+          "eventStart": "2026-12-10T13:00",
+          "eventEnd": "2026-12-10T15:00",
+          "reservationRequired": true,
+          "registrationMethod": "从 Mynavi 选择12/10线上场。公告未列该场ES或作品集，实际席位待核。",
+          "opensAt": null,
+          "deadline": "2026-12-07",
+          "deadlineLabel": "线上报名截止，钟点未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "公开报名入口可见，个人申请及余位未核",
+          "availabilityCheckedAt": "2026-11-16T09:09:12+09:00",
+          "availabilitySource": {
+            "label": "线上逐场报名页",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=56513&optNo=FMZvYC"
+          },
+          "bookingStage": "候选／未申请",
+          "format": "线上",
+          "nextAction": "从 Mynavi 选择12/10线上场。公告未列该场ES或作品集，实际席位待核。"
+        }
+      ]
+    },
+    {
+      "id": "internship-kom-design-labo-student-branding",
+      "company": "株式会社コムデザインラボ",
+      "title": "学生品牌／平面设计实践｜名古屋至少10个工作日",
+      "category": "internship",
+      "subtype": "集中实习",
+      "status": "候选／未申请",
+      "statusDetail": "已核公开项目与报名入口，个人未申请。",
+      "intro": "名古屋设计事务所做品牌策略、标志、平面、包装与店铺设计，例如つづき農場品牌与クレマパレット包装。",
+      "description": "学生全年可申请。品牌练习和实际项目至少10个工作日，可协商分段。具体开始日和出勤须与公司确定。",
+      "nextAction": "选インターンシップ，准备作品集、照片、志望理由、自我PR。公司看资料后安排面谈与出勤日期。",
+      "notes": "实习无薪、交通费不补助。正式员工的公开通用待遇不能用于推算本实习或28卒个别岗位。",
+      "checkedAt": "2026-11-16",
+      "sources": [
+        {
+          "label": "公司学生品牌实习",
+          "url": "https://design-recruit.com/inturn"
+        },
+        {
+          "label": "公司公开申请表",
+          "url": "https://design-recruit.com/entry/"
+        },
+        {
+          "label": "公司实务案例与学生实践",
+          "url": "https://design-kom.com/blog/"
+        }
+      ],
+      "milestones": [],
+      "registrationSessions": [
+        {
+          "id": "internship-kom-design-labo-student-branding::application",
+          "eventStart": null,
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "选インターンシップ，准备作品集、照片、志望理由、自我PR。公司看资料后安排面谈与出勤日期。",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "未公布",
+          "firstComeFirstServed": null,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "公开报名入口可见，个人申请及余位未核",
+          "availabilityCheckedAt": "2026-11-16T09:09:12+09:00",
+          "availabilitySource": {
+            "label": "公司公开申请表",
+            "url": "https://design-recruit.com/entry/"
+          },
+          "bookingStage": "候选／未申请",
+          "format": "名古屋线下",
+          "nextAction": "选インターンシップ，准备作品集、照片、志望理由、自我PR。公司看资料后安排面谈与出勤日期。"
         }
       ]
     }

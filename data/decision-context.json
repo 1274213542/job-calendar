@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15",
+  "asOf": "2026-11-16",
   "note": "项目报酬、选考流程与公司入职待遇分开。倍率仅采用相同届别、岗位、批次的可靠统计；计划名额不是实际录取人数。",
   "projects": [
     {
@@ -640,7 +640,75 @@
       "internPay": "无报酬、交通费或住宿补助。",
       "internPayScope": "对应当期课程",
       "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "internship-toyota-industries-mobility-design-2028-20270222",
+      "sources": [
+        {
+          "label": "雇主公开募集／OneCareer",
+          "url": "https://www.onecareer.jp/events/internship/103609"
+        }
+      ],
+      "internPay": "实习报酬未公开，交通及住宿按规定",
+      "internPayScope": "对应当前项目",
+      "selectionSteps": "OneCareer 预登记 → MyPage 引导 → ES与作品集筛选 → 结果通知",
+      "scheduleNote": "1月4日23:59为OneCareer预登记截止；MyPage实际提交及结果日期未公布。",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "briefing-suntory-design-center-2028-online",
+      "sources": [
+        {
+          "label": "设计中心28卒官方说明会",
+          "url": "https://suntory.design/recruit/2028/"
+        },
+        {
+          "label": "官方指向的事前登记表",
+          "url": "https://www.career-cloud.asia/28/form/entryb/index/73d97d1da008b786cfa1488e025ca20f"
+        }
+      ],
+      "internPay": "线上说明会无招聘薪资信息",
+      "internPayScope": "对应当前项目",
+      "selectionSteps": "事前登记 → 邮件收到Zoom链接",
+      "scheduleNote": "12/1或12/2，18:00开始约90分钟，同内容。",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "briefing-mikimoto-creative-2028-online-20261210",
+      "sources": [
+        {
+          "label": "雇主28届创意职募集",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=56513&optNo=ffuYB"
+        },
+        {
+          "label": "线上逐场报名页",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=56513&optNo=FMZvYC"
+        }
+      ],
+      "internPay": "线上说明会无报酬",
+      "internPayScope": "对应当前项目",
+      "selectionSteps": "线上预约，雇主页面未列该场ES/PF",
+      "scheduleNote": "12月7日截止，12月10日13:00–15:00。",
+      "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "internship-kom-design-labo-student-branding",
+      "sources": [
+        {
+          "label": "公司学生品牌实习",
+          "url": "https://design-recruit.com/inturn"
+        },
+        {
+          "label": "公司公开申请表",
+          "url": "https://design-recruit.com/entry/"
+        }
+      ],
+      "internPay": "无实习报酬与交通补助",
+      "internPayScope": "对应当前项目",
+      "selectionSteps": "公开表单＋作品集 → 资料审查／面谈",
+      "scheduleNote": "全年，至少10个工作日，可分段，具体起始日协商。",
+      "checkedAt": "2026-11-16"
     }
   ],
-  "updatedAt": "2026-11-15T09:14:48+09:00"
+  "updatedAt": "2026-11-16T09:09:12+09:00"
 }

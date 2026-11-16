@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15",
+  "asOf": "2026-11-16",
   "companies": [
     {
       "name": "Goodpatch",
@@ -4802,7 +4802,9 @@
       "aliases": [
         "サントリー",
         "サントリーホールディングス株式会社",
-        "Suntory"
+        "Suntory",
+        "SUNTORY DESIGN CENTER",
+        "サントリーデザインセンター"
       ],
       "roles": [
         {
@@ -4826,6 +4828,38 @@
             "monthlyLabel": "2026年修士月薪参考",
             "annualLabel": "月薪折算，奖金另计",
             "reference": true
+          }
+        },
+        {
+          "role": "28卒设计中心设计师",
+          "scope": "设计中心专项；公司一般/数字职种不替代。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "设计团队的在宅与实际工时未公布",
+          "intern": null,
+          "sources": [
+            {
+              "label": "设计中心28卒官方说明会",
+              "url": "https://suntory.design/recruit/2028/"
+            },
+            {
+              "label": "设计中心与代表项目",
+              "url": "https://suntory.design/info/"
+            },
+            {
+              "label": "公司28卒招聘总入口",
+              "url": "https://www.suntory.co.jp/recruit/fresh/"
+            }
+          ],
+          "checkedAt": "2026-11-16",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
           }
         }
       ]
@@ -5527,9 +5561,148 @@
           }
         }
       ]
+    },
+    {
+      "name": "株式会社豊田自動織機",
+      "aliases": [
+        "豊田自動織機",
+        "Toyota Industries"
+      ],
+      "roles": [
+        {
+          "role": "技术综合职设计路线的新卒参考",
+          "scope": "官网2026年入社实绩，修士；28卒设计组以当期要项为准。",
+          "monthly": "修士¥312,000/月（2026年4月实绩）",
+          "annual": null,
+          "bonus": "年2次，金额未公布",
+          "overtime": null,
+          "benefits": "公司制度可整天或部分时间在宅，无统一天数上限，按业务需要出社；设计组频率未知。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "公司新卒要项（2026实绩）",
+              "url": "https://saiyo.toyota-shokki.co.jp/recruit/index"
+            },
+            {
+              "label": "公司工作制度",
+              "url": "https://saiyo.toyota-shokki.co.jp/environment/index"
+            },
+            {
+              "label": "公司公布工时",
+              "url": "https://careersaiyo.toyota-shokki.co.jp/key-figures/"
+            },
+            {
+              "label": "公司设计职介绍",
+              "url": "https://saiyo.toyota-shokki.co.jp/job_people/dpt11"
+            }
+          ],
+          "checkedAt": "2026-11-16",
+          "sortValues": {
+            "monthlyJPY": 312000,
+            "annualJPY": null,
+            "monthlyLabel": "2026实绩修士参考",
+            "annualLabel": null,
+            "reference": true
+          }
+        },
+        {
+          "role": "28卒移动出行设计5天实习",
+          "scope": "爱知线下课程",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "交通与住宿按规定支付",
+          "intern": "未公布实习报酬",
+          "sources": [
+            {
+              "label": "雇主公开募集／OneCareer",
+              "url": "https://www.onecareer.jp/events/internship/103609"
+            }
+          ],
+          "checkedAt": "2026-11-16",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "株式会社ミキモト",
+      "aliases": [
+        "ミキモト",
+        "MIKIMOTO"
+      ],
+      "roles": [
+        {
+          "role": "28卒平面设计／创意职线索",
+          "scope": "28卒线上说明会出现平面设计岗位；具体正式募集待确认。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "实际在宅与工时未公布",
+          "intern": "说明会无报酬",
+          "sources": [
+            {
+              "label": "雇主28届创意职募集",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=56513&optNo=ffuYB"
+            }
+          ],
+          "checkedAt": "2026-11-16",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "株式会社コムデザインラボ",
+      "aliases": [
+        "コムデザインラボ",
+        "KOM Design Labo"
+      ],
+      "roles": [
+        {
+          "role": "学生集中品牌设计实习",
+          "scope": "名古屋线下10个工作日，可分段",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": "交通费不补助",
+          "intern": "无报酬",
+          "sources": [
+            {
+              "label": "公司学生品牌实习",
+              "url": "https://design-recruit.com/inturn"
+            },
+            {
+              "label": "公司公开申请表",
+              "url": "https://design-recruit.com/entry/"
+            }
+          ],
+          "checkedAt": "2026-11-16",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-15T11:53:21+09:00",
+  "updatedAt": "2026-11-16T09:09:12+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -8108,6 +8281,74 @@
         {
           "label": "课程与报酬",
           "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=278706&optNo=PKRtO"
+        }
+      ]
+    },
+    "株式会社豊田自動織機": {
+      "tier": "consider",
+      "reason": "修士历史待遇明确，公司有混合办公。先确认设计团队的职责分配、实际在宅与28卒待遇。",
+      "business": "叉车、汽车与零件、纺织机械",
+      "targetRole": "出行及工业设备设计",
+      "pay": "2026修士入职实绩¥312,000/月，奖金年2次",
+      "remote": "公司制度支持整天或部分时间在宅，设计组频率未知",
+      "actualOvertime": "全公司2025年度月均25.8小时，设计团队未知",
+      "reviews": null,
+      "sources": [
+        {
+          "label": "公司新卒要项（2026实绩）",
+          "url": "https://saiyo.toyota-shokki.co.jp/recruit/index"
+        },
+        {
+          "label": "公司工作制度",
+          "url": "https://saiyo.toyota-shokki.co.jp/environment/index"
+        },
+        {
+          "label": "公司公布工时",
+          "url": "https://careersaiyo.toyota-shokki.co.jp/key-figures/"
+        },
+        {
+          "label": "公司设计职介绍",
+          "url": "https://saiyo.toyota-shokki.co.jp/job_people/dpt11"
+        }
+      ]
+    },
+    "株式会社ミキモト": {
+      "tier": "pending",
+      "reason": "本届在线可先了解企业平面设计，正式岗位待遇和在宅资料待核。",
+      "business": "珍珠、珠宝及品牌零售",
+      "targetRole": "企业平面设计",
+      "pay": "28卒平面岗位未核；网会无薪",
+      "remote": "设计岗位在宅未知",
+      "actualOvertime": null,
+      "reviews": null,
+      "sources": [
+        {
+          "label": "雇主28届创意职募集",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=56513&optNo=ffuYB"
+        },
+        {
+          "label": "27卒珠宝设计募集（历史参考）",
+          "url": "https://recruit.mikimoto.com/new/bosyu02.html"
+        }
+      ]
+    },
+    "株式会社コムデザインラボ": {
+      "tier": "consider",
+      "reason": "品牌与平面方向对口，参加需承担10个工作日线下时间及交通费用。",
+      "business": "标志、包装、店铺及品牌设计",
+      "targetRole": "集中学生实习",
+      "pay": "无薪，交通不补助",
+      "remote": "活动名古屋线下，正职在宅未知",
+      "actualOvertime": null,
+      "reviews": null,
+      "sources": [
+        {
+          "label": "公司学生品牌实习",
+          "url": "https://design-recruit.com/inturn"
+        },
+        {
+          "label": "公司公开申请表",
+          "url": "https://design-recruit.com/entry/"
         }
       ]
     }
