@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T09:30:25+09:00",
+  "updatedAt": "2026-11-17T15:10:11+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -8505,6 +8505,67 @@
           },
           "bookingStage": "候选／未申请",
           "nextAction": "先核个人日程与实际余位，再由本人决定是否预约。"
+        }
+      ]
+    },
+    {
+      "id": "briefing-cyberagent-game-creator-20261127",
+      "company": "CyberAgent",
+      "title": "游戏创作者职业说明会｜UI/UX、平面与艺术指导",
+      "category": "activity",
+      "subtype": "公司设计说明会",
+      "status": "候选／未申请",
+      "statusDetail": "官网明确包含28卒，11/27为本次公告的最后一场。个人报名窗口和余位需登录核验。",
+      "intro": "CyberAgent 经营手游、ABEMA、Ameba及互联网广告。本场介绍游戏 UI/UX、平面与艺术指导的工作与职业路径，并安排问答。",
+      "description": "线上 Zoom Webinar，可不开摄像头和麦克风。现役创作者分享职业路径和工作实例，随后问答及问卷。官网流程为 MyPage 登记、邮件收取详情、参加，未列面试或作品集。",
+      "nextAction": "11/26 10:00 前在 MyPage 登记「ゲームクリエイター キャリアガイダンス」，留意邮件中的 Zoom 详情。实际余位需登录核对。",
+      "checkedAt": "2026-11-17",
+      "attendanceMode": "online",
+      "workCompatibility": "online_briefing",
+      "sources": [
+        {
+          "label": "CyberAgent 官方活动公告",
+          "url": "https://www.cyberagent.co.jp/careers/students/career_event/detail/id=33777"
+        },
+        {
+          "label": "CyberAgent 招聘 MyPage",
+          "url": "https://cyberagent.snar.jp/login.aspx"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-26T10:00",
+          "label": "线上说明会报名截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-27T17:00",
+          "endDate": "2026-11-27T18:00",
+          "label": "线上｜游戏创作者职业说明会"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-cyberagent-game-creator-20261127::2026-11-27T17:00",
+          "eventStart": "2026-11-27T17:00",
+          "eventEnd": "2026-11-27T18:00",
+          "format": "线上 Zoom Webinar",
+          "reservationRequired": true,
+          "registrationMethod": "招聘 MyPage 选择本活动",
+          "opensAt": null,
+          "deadline": "2026-11-26T10:00",
+          "deadlineLabel": "11/26 10:00（日本时间）",
+          "firstComeFirstServed": null,
+          "availabilityState": "login_required",
+          "availabilityLabel": "官网标募集中；报名栏与余位需登录核实",
+          "availabilityCheckedAt": "2026-11-17T15:10:11+09:00",
+          "availabilitySource": {
+            "label": "CyberAgent 官方活动公告",
+            "url": "https://www.cyberagent.co.jp/careers/students/career_event/detail/id=33777"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "11/26 10:00 前在 MyPage 登记「ゲームクリエイター キャリアガイダンス」，留意邮件中的 Zoom 详情。实际余位需登录核对。"
         }
       ]
     }

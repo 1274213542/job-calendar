@@ -5796,7 +5796,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-17T09:30:25+09:00",
+  "updatedAt": "2026-11-17T15:10:11+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -6032,7 +6032,7 @@
       "business": "互联网广告、ABEMA及手游",
       "targetRole": "设计师综合职（UI/UX等）",
       "pay": "新卒通年创作者／设计师招聘 420,000日元起 5,040,000日元起（年俸制） 每年2次评估调薪；岗位未列定期奖金。",
-      "remote": "岗位页东京本社，未列可在宅频率。工程师新卒的首年及次年出社政策不套用设计综合职。",
+      "remote": "公司官网介绍「リモデイ」混合办公。新卒设计团队入职首年的出社要求与每周实际在宅天数未核到。",
       "actualOvertime": "公司创作者招聘页列月均31小时，未单列设计队。 転職会議跨岗员工投稿汇总39.1小时/月，统计期间及该工时样本数未列。",
       "reviews": "転職会議跨岗评分4.53/5，11/14公开原页回读，设计新卒样本不足。",
       "sources": [
@@ -6047,6 +6047,10 @@
         {
           "url": "https://jobtalk.jp/companies/1524/answers?question_codes=worklife&sort=post_date",
           "label": "jobtalk.jp"
+        },
+        {
+          "label": "CyberAgent 官方混合办公制度",
+          "url": "https://www.cyberagent.co.jp/sustainability/info/detail/id=24630"
         }
       ]
     },
