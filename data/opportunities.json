@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T02:42:01+09:00",
+  "updatedAt": "2026-11-17T09:30:25+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -813,7 +813,7 @@
       "status": "已预约／公司确认场次",
       "statusDetail": "公司回执确认11/17 18:00–19:30线上场。",
       "description": "电子、娱乐及跨领域设计；Teams线上；未公布费用；企业/项目介绍与设计师交流；须Sony外部表单逐场申请，RD按钮不算正式报名",
-      "nextAction": "按11/17 18:00场的公司邮件入场。",
+      "nextAction": "11/17 17:50左右可进Teams，入口见公司邮件。",
       "checkedAt": "2026-11-16",
       "sources": [
         {
@@ -850,7 +850,7 @@
             "url": "https://sonygroup.my.salesforce-sites.com/sony/Design_students_registration1"
           },
           "bookingStage": "已预约／公司确认场次",
-          "nextAction": "查看Sony发送的入场邮件；先前已收11/17 18:00场报名回执。"
+          "nextAction": "11/17 17:50左右可进Teams，入口见公司邮件。"
         }
       ],
       "historicalMilestones": [
@@ -5843,7 +5843,7 @@
       "category": "activity",
       "subtype": "公司说明会",
       "status": "已预约／公司确认场次",
-      "statusDetail": "公司回执确认11/16 Zoom场；邮件到达时场次已结束，出席未核。",
+      "statusDetail": "公司回执确认11/16 16:00–19:00线上场，是否听完待本人确认。",
       "checkedAt": "2026-11-16",
       "description": "Zoom线上，3小时。招聘担当介绍公司和工作氛围并交流求职问题；属于公司综合说明会，适用于正在募集的Web设计路线。",
       "nextAction": "说明会已结束，实际出席待本人确认。",
@@ -8283,8 +8283,8 @@
       "status": "候选／未申请",
       "intro": "mediba 参与运营 au 等大型数字服务。新卒UI岗负责功能改善、新服务的界面和视觉设计。",
       "description": "要求Figma或Adobe CC、设计基础、团队经验。东京目黑，月薪254,720日元起，另计加班，奖金每年两次。",
-      "nextAction": "官方HERP申请表可读。作品集链接及附件可选；公开页未写具体截止与独立学历限制。",
-      "checkedAt": "2026-11-15",
+      "nextAction": "官方HERP当前可申请。建议先准备履历与作品集链接；字段是否必填和固定截止待确认。",
+      "checkedAt": "2026-11-17",
       "milestones": [],
       "sources": [
         {
@@ -8298,69 +8298,213 @@
       ]
     },
     {
-      "id": "workshop-pivot-uiux-2028-1day",
-      "company": "株式会社PIVOT",
-      "title": "28卒 UI/UX思考 1Day 工作坊",
-      "category": "activity",
-      "subtype": "UX短期职业体验",
+      "id": "selection-gmo-media-designer-2028",
+      "company": "GMO Media",
+      "title": "28卒｜自有服务 UI/UX 设计师",
+      "category": "selection",
       "status": "候选／未申请",
-      "statusDetail": "11/28或12/21选一场。公司收到意向后再联络确认场次。",
-      "intro": "株式会社PIVOT 为客户设计与开发网站、App和系统。工作坊实作用户画像与旅程地图，并由在职员工反馈。",
-      "description": "2028年卒可参加，文理不限；东京外苑前线下。公司正文下的这项课程明确有UI/UX设计练习，和单独工程师正式岗位区分。",
-      "nextAction": "如想参加，从企业原公告按「話を聞きに行きたい」登记意向，等招聘方回复后选择场次。未公布截止钟点和余位。",
-      "checkedAt": "2026-11-16",
+      "statusDetail": "已核当期公开项目；未申请或预约。",
+      "intro": "自有媒体、教育与积分服务，负责新功能和现有服务UI/UX、信息结构、活动页与视觉，部分任务涉及HTML/CSS。",
+      "description": "自有媒体、教育与积分服务，负责新功能和现有服务UI/UX、信息结构、活动页与视觉，部分任务涉及HTML/CSS。",
+      "nextAction": "通过官方HERP申请；名额满为止，无公开固定截止；按官方FAQ准备书审及后续面谈。原有说明会单独保留。",
       "sources": [
         {
-          "label": "公司当届工作坊原公告",
-          "url": "https://www.wantedly.com/projects/2626974"
+          "label": "公司招聘入口",
+          "url": "https://www.gmo.media/recruit/recruit-info/"
         },
         {
-          "label": "公司官网招聘",
-          "url": "https://pivot.jp/recruitment/"
+          "label": "28卒设计报名",
+          "url": "https://herp.careers/v1/gmomedia/OAAr1igZZX43"
+        },
+        {
+          "label": "官方招聘FAQ",
+          "url": "https://www.gmo.media/recruit/question/"
         }
       ],
+      "checkedAt": "2026-11-17",
+      "milestones": [],
+      "registrationSessions": []
+    },
+    {
+      "id": "selection-tansu-gen-web-designer-2028",
+      "company": "タンスのゲン",
+      "title": "28卒｜Web设计／指导早期选考",
+      "category": "selection",
+      "status": "候选／未申请",
+      "statusDetail": "已核当期公开项目；未申请或预约。",
+      "intro": "家具家居电商，Web制作课做商品页、横幅、摄影和视频。可指定Web制作课的选考路径。",
+      "description": "家具家居电商，Web制作课做商品页、横幅、摄影和视频。可指定Web制作课的选考路径。",
+      "nextAction": "从官方28卒MyPage进入。作品集于二次选考前一日提交，固定总截止和实际面试日待个人入口核对。",
+      "sources": [
+        {
+          "label": "28卒官方早期选考及条件",
+          "url": "https://tansu-gen.co.jp/recruit/freshers_page/"
+        },
+        {
+          "label": "28卒MyPage",
+          "url": "https://mypage.3030.i-webs.jp/tansu-gen2028/"
+        }
+      ],
+      "checkedAt": "2026-11-17",
+      "milestones": [],
+      "registrationSessions": []
+    },
+    {
+      "id": "selection-glassy-editorial-designer-2028",
+      "company": "glassy",
+      "title": "28卒｜企业编辑／平面／Web设计",
+      "category": "selection",
+      "status": "候选／未申请",
+      "statusDetail": "已核当期公开项目；未申请或预约。",
+      "intro": "面向修士及同届学生，制作企业内刊、周年册、招聘工具和网页等。",
+      "description": "面向修士及同届学生，制作企业内刊、周年册、招聘工具和网页等。",
+      "nextAction": "选考前须听公司线上说明会；场次、余位及截止待实际表单确认。之后准备ES、PDF作品集和带照片履历。",
+      "sources": [
+        {
+          "label": "28卒官方设计岗位",
+          "url": "https://recruit.glassy-co.jp/recruit/12"
+        },
+        {
+          "label": "官方说明会登记",
+          "url": "https://forms.gle/3DXZxYZ64csECkSK6"
+        }
+      ],
+      "checkedAt": "2026-11-17",
+      "milestones": [],
+      "registrationSessions": []
+    },
+    {
+      "id": "briefing-goodpatch-service-design-20261214",
+      "company": "Goodpatch",
+      "title": "28卒｜服务设计师线上说明会",
+      "category": "event",
+      "status": "候选／未申请",
+      "statusDetail": "已核当期公开项目；未申请或预约。",
+      "intro": "从实际业务与项目介绍用户研究、服务设计和业务共创；会议为Google Meet。",
+      "description": "从实际业务与项目介绍用户研究、服务设计和业务共创；会议为Google Meet。",
+      "nextAction": "通过当前场次公司Wantedly入口登记，11/17核到页面列入口，实际余位未知；未预约。",
+      "sources": [
+        {
+          "label": "28卒官方新卒活动",
+          "url": "https://careers.goodpatch.com/newgraduate/"
+        },
+        {
+          "label": "公司发布的逐场报名",
+          "url": "https://www.wantedly.com/projects/2569543"
+        }
+      ],
+      "checkedAt": "2026-11-17",
       "milestones": [
         {
-          "type": "event",
-          "date": "2026-11-28T13:00",
-          "endDate": "2026-11-28T17:00",
-          "label": "可选线下UI/UX工作坊"
+          "type": "deadline",
+          "date": "2026-12-10T23:59",
+          "label": "Wantedly登记截止"
         },
         {
           "type": "event",
-          "date": "2026-12-21T13:00",
-          "endDate": "2026-12-21T17:00",
-          "label": "可选线下UI/UX工作坊"
+          "date": "2026-12-14T18:00",
+          "endDate": "2026-12-14T19:00",
+          "label": "线上服务设计师说明会"
         }
       ],
       "registrationSessions": [
         {
-          "id": "workshop-pivot-uiux-2028-1day::2026-11-28T13:00",
-          "eventStart": "2026-11-28T13:00",
-          "eventEnd": "2026-11-28T17:00",
-          "format": "东京外苑前线下",
+          "id": "briefing-goodpatch-service-design-20261214::2026-12-14T18:00",
+          "eventStart": "2026-12-14T18:00",
+          "eventEnd": "2026-12-14T19:00",
           "reservationRequired": true,
-          "registrationMethod": "企业原公告的Wantedly登记意向，待公司消息选场",
-          "deadline": null,
+          "registrationMethod": "企业Wantedly登记",
           "opensAt": null,
+          "deadline": "2026-12-10T23:59",
+          "deadlineLabel": "该平台登记截止",
           "firstComeFirstServed": null,
-          "availabilityState": "entry_button_visible_seats_unverified",
-          "availabilitySource": "https://www.wantedly.com/projects/2626974",
-          "bookingStage": "候选／未申请"
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "页面列登记入口，实际余位未公布",
+          "availabilityCheckedAt": "2026-11-17T09:30:25+09:00",
+          "availabilitySource": {
+            "label": "公司发布的逐场报名",
+            "url": "https://www.wantedly.com/projects/2569543"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "先核个人日程与实际余位，再由本人决定是否预约。"
+        }
+      ]
+    },
+    {
+      "id": "workshop-artfreak-spatial-experience-2028",
+      "company": "アートフリーク",
+      "title": "28卒｜空间体验设计工作坊",
+      "category": "event",
+      "status": "候选／未申请",
+      "statusDetail": "已核当期公开项目；未申请或预约。",
+      "intro": "围绕展览空间的目的、参观路径与体验做小组企划、发表并获反馈，适合对体验设计和空间信息感兴趣的学生。东京茅场町线下。",
+      "description": "围绕展览空间的目的、参观路径与体验做小组企划、发表并获反馈，适合对体验设计和空间信息感兴趣的学生。东京茅场町线下。",
+      "nextAction": "选一场，从Mynavi实际场次页申请；页面有入口，实际余位及截止未公布。需自带笔。",
+      "sources": [
+        {
+          "label": "公司招聘入口",
+          "url": "https://artfreak.co.jp/recruit/"
         },
         {
-          "id": "workshop-pivot-uiux-2028-1day::2026-12-21T13:00",
-          "eventStart": "2026-12-21T13:00",
-          "eventEnd": "2026-12-21T17:00",
-          "format": "东京外苑前线下",
+          "label": "28卒作品体验逐场预约",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=85639&optNo=BHbmOC"
+        }
+      ],
+      "checkedAt": "2026-11-17",
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-21T14:00",
+          "endDate": "2026-11-21T16:30",
+          "label": "东京茅场町线下"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-13T14:00",
+          "endDate": "2026-12-13T16:30",
+          "label": "东京茅场町线下"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-artfreak-spatial-experience-2028::2026-11-21T14:00",
+          "eventStart": "2026-11-21T14:00",
+          "eventEnd": "2026-11-21T16:30",
           "reservationRequired": true,
-          "registrationMethod": "企业原公告的Wantedly登记意向，待公司消息选场",
-          "deadline": null,
+          "registrationMethod": "Mynavi逐场登记",
           "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": null,
           "firstComeFirstServed": null,
-          "availabilityState": "entry_button_visible_seats_unverified",
-          "availabilitySource": "https://www.wantedly.com/projects/2626974",
-          "bookingStage": "候选／未申请"
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "页面列登记入口，实际余位未公布",
+          "availabilityCheckedAt": "2026-11-17T09:30:25+09:00",
+          "availabilitySource": {
+            "label": "28卒作品体验逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=85639&optNo=BHbmOC"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "先核个人日程与实际余位，再由本人决定是否预约。"
+        },
+        {
+          "id": "workshop-artfreak-spatial-experience-2028::2026-12-13T14:00",
+          "eventStart": "2026-12-13T14:00",
+          "eventEnd": "2026-12-13T16:30",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi逐场登记",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": null,
+          "firstComeFirstServed": null,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "页面列登记入口，实际余位未公布",
+          "availabilityCheckedAt": "2026-11-17T09:30:25+09:00",
+          "availabilitySource": {
+            "label": "28卒作品体验逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=85639&optNo=BHbmOC"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "先核个人日程与实际余位，再由本人决定是否预约。"
         }
       ]
     }

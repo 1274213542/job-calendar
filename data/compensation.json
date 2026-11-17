@@ -5731,9 +5731,72 @@
           }
         }
       ]
+    },
+    {
+      "name": "glassy",
+      "aliases": [
+        "グラッシー",
+        "glassy株式会社"
+      ],
+      "roles": [
+        {
+          "role": "企业编辑／平面／Web设计",
+          "scope": "28卒当期官方岗位",
+          "monthly": "260,271日元",
+          "annual": null,
+          "bonus": "年2次；上年实绩2个月",
+          "overtime": "固定35小时／56,071日元；岗位页列平均约20–30小时/月，统计期间和样本未列。",
+          "benefits": "东京；月最多在宅5次，须事前许可，S1及试用期不适用。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒官方设计岗位",
+              "url": "https://recruit.glassy-co.jp/recruit/12"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 260271,
+            "annualJPY": null,
+            "monthlyLabel": "税前月薪",
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "タンスのゲン",
+      "aliases": [
+        "タンスのゲン株式会社"
+      ],
+      "roles": [
+        {
+          "role": "Web设计／指导（Web制作课）",
+          "scope": "28卒当期官方岗位",
+          "monthly": "修士300,000日元",
+          "annual": null,
+          "bonus": "年2–3次；2025年实绩3次",
+          "overtime": "含固定25小时；公司披露实际月均17.7小时，设计单独数据未知。",
+          "benefits": "福冈大川，新人／设计岗位是否适用在宅待核。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒官方早期选考及条件",
+              "url": "https://tansu-gen.co.jp/recruit/freshers_page/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 300000,
+            "annualJPY": null,
+            "monthlyLabel": "税前月薪",
+            "annualLabel": null,
+            "reference": false
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-16T09:09:12+09:00",
+  "updatedAt": "2026-11-17T09:30:25+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -8382,6 +8445,18 @@
           "url": "https://design-recruit.com/entry/"
         }
       ]
+    },
+    "glassy": {
+      "tier": "consider",
+      "reason": "设计工作明确；月五次在宅有等级和试用限制。"
+    },
+    "タンスのゲン": {
+      "tier": "consider",
+      "reason": "目标岗位薪资明确，福冈大川到岗及新人在宅待核。"
+    },
+    "株式会社mediba": {
+      "tier": "consider",
+      "reason": "UI职责清楚；新人在宅及实际加班待核。"
     }
   }
 }
