@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T15:10:11+09:00",
+  "updatedAt": "2026-11-18T09:12:02+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -810,10 +810,10 @@
       "title": "Creative Center企业Seminar",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "已预约／公司确认场次",
-      "statusDetail": "公司回执确认11/17 18:00–19:30线上场。",
+      "status": "已预约／确认场次",
+      "statusDetail": "11/17 18:00–19:30线上场次已确认，入场指引已收到。",
       "description": "电子、娱乐及跨领域设计；Teams线上；未公布费用；企业/项目介绍与设计师交流；须Sony外部表单逐场申请，RD按钮不算正式报名",
-      "nextAction": "11/17 17:50左右可进Teams，入口见公司邮件。",
+      "nextAction": "11/17 线上入场使用公司已发的参加邮件。出席情况待本人确认。",
       "checkedAt": "2026-11-16",
       "sources": [
         {
@@ -842,15 +842,15 @@
           "deadline": null,
           "deadlineLabel": "未公布／未核实，不以举办日代替",
           "firstComeFirstServed": true,
-          "availabilityState": "registration_confirmed",
-          "availabilityLabel": "公司回执确认11/17 18:00–19:30线上场。",
+          "availabilityState": "booked",
+          "availabilityLabel": "公司已确认本场",
           "availabilityCheckedAt": "2026-11-08T09:28:55+09:00",
           "availabilitySource": {
             "label": "Sony官方公开参加登记表",
             "url": "https://sonygroup.my.salesforce-sites.com/sony/Design_students_registration1"
           },
-          "bookingStage": "已预约／公司确认场次",
-          "nextAction": "11/17 17:50左右可进Teams，入口见公司邮件。"
+          "bookingStage": "已预约／确认场次",
+          "nextAction": "11/17 线上入场使用公司已发的参加邮件。出席情况待本人确认。"
         }
       ],
       "historicalMilestones": [
@@ -8566,6 +8566,144 @@
           },
           "bookingStage": "候选／未申请",
           "nextAction": "11/26 10:00 前在 MyPage 登记「ゲームクリエイター キャリアガイダンス」，留意邮件中的 Zoom 详情。实际余位需登录核对。"
+        }
+      ]
+    },
+    {
+      "id": "briefing-dad-young-creators-2028-winter",
+      "company": "ダッド",
+      "title": "28卒·年轻设计与技术员工线上座谈",
+      "category": "activity",
+      "subtype": "设计职交流／线上座谈",
+      "status": "候选／未申请",
+      "statusDetail": "企业在28卒课程页标注受理；匹配场次和抽签结果待核。",
+      "checkedAt": "2026-11-17",
+      "intro": "爱知县ダッド的线上半日座谈，拟邀UI/UX、平面或品牌设计，以及Web、CG/XR等职种员工介绍工作。",
+      "description": "Microsoft Teams；28届含修士。约三位员工从四个职种中登坛；每场具体登坛人及日本时间未公布。无面试筛选，超额抽签。",
+      "notes": "企业课程页列12/7和1/21，单场截止、可预约席位及提交字段需登录核实。1/21为课程页显示的总截止，未公布钟点。",
+      "nextAction": "在Mynavi 28卒具体课程核对希望的日期、登坛人及开放情况。",
+      "sources": [
+        {
+          "url": "https://www.dad.co.jp/recruit/",
+          "label": "公司招聘"
+        },
+        {
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=75841&optNo=ZO8yH",
+          "label": "企业发布的Mynavi 28卒具体课程"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-07",
+          "label": "线上座谈，钟点待公布"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-21",
+          "label": "线上座谈，钟点待公布"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-01-21",
+          "label": "课程页总截止，具体场次和钟点待核"
+        }
+      ],
+      "workCompatibility": "online_briefing",
+      "registrationSessions": [
+        {
+          "id": "briefing-dad-young-creators-2028-winter::2026-12-07",
+          "eventStart": "2026-12-07",
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi 28卒独立登记，超额抽签",
+          "opensAt": null,
+          "deadline": "2027-01-21",
+          "deadlineLabel": "企业课程总截止，单场时间未知",
+          "firstComeFirstServed": false,
+          "availabilityState": "unknown",
+          "availabilityLabel": "实际余位待核",
+          "availabilityCheckedAt": null,
+          "availabilitySource": {
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=75841&optNo=ZO8yH",
+            "label": "本期企业课程页"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "在Mynavi 28卒具体课程核对希望的日期、登坛人及开放情况。"
+        },
+        {
+          "id": "briefing-dad-young-creators-2028-winter::2027-01-21",
+          "eventStart": "2027-01-21",
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi 28卒独立登记，超额抽签",
+          "opensAt": null,
+          "deadline": "2027-01-21",
+          "deadlineLabel": "企业课程总截止，单场时间未知",
+          "firstComeFirstServed": false,
+          "availabilityState": "unknown",
+          "availabilityLabel": "实际余位待核",
+          "availabilityCheckedAt": null,
+          "availabilitySource": {
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=75841&optNo=ZO8yH",
+            "label": "本期企业课程页"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "在Mynavi 28卒具体课程核对希望的日期、登坛人及开放情况。"
+        }
+      ]
+    },
+    {
+      "id": "workshop-osk-uiux-design-dive-2028",
+      "company": "OSK",
+      "title": "28卒·UI/UX界面设计 1 日工作坊",
+      "category": "internship",
+      "subtype": "界面设计工作坊（1日）",
+      "status": "候选／未申请",
+      "statusDetail": "28卒企业课程页标注受理，先到先得；具体日期和实际余位待核。",
+      "checkedAt": "2026-11-17",
+      "intro": "大塚商会集团的株式会社OSK安排参与者以日常产品为题，整理界面信息、做小组设计，现场听员工反馈。",
+      "description": "东京锦糸町线下。适合28届及以上大学生或研究生，专业不限。以界面设计为课题，归在公司的系统工程师体验课程。",
+      "notes": "企业本届课程页标注8至12月、12/31截止，仅日期；提供便当和500日元QUO卡。公司培训总页的 MyPage 链接仍写2027，须以Mynavi 28卒本期项目为入口。",
+      "nextAction": "通过Mynavi 28卒课程核具体日期与余位，再核交通和已有安排。",
+      "sources": [
+        {
+          "url": "https://www.kk-osk.co.jp/corporate/recruit/recruit/training.html",
+          "label": "公司1日工作坊课程说明"
+        },
+        {
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=100625&optNo=95Hyn",
+          "label": "公司发布的Mynavi 28卒本期课程"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-31",
+          "label": "Mynavi本期课程总截止，钟点未知"
+        }
+      ],
+      "workCompatibility": "in_person",
+      "registrationSessions": [
+        {
+          "id": "workshop-osk-uiux-design-dive-2028::undated",
+          "eventStart": null,
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi 28卒报名，先到先得",
+          "opensAt": null,
+          "deadline": "2026-12-31",
+          "deadlineLabel": "企业课程总截止，单场时间未知",
+          "firstComeFirstServed": true,
+          "availabilityState": "unknown",
+          "availabilityLabel": "实际余位待核",
+          "availabilityCheckedAt": null,
+          "availabilitySource": {
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=100625&optNo=95Hyn",
+            "label": "本期企业课程页"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "通过Mynavi 28卒课程核具体日期与余位，再核交通和已有安排。"
         }
       ]
     }
