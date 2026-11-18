@@ -1362,6 +1362,38 @@
             "annualLabel": "公布年收",
             "reference": false
           }
+        },
+        {
+          "role": "28卒产品职（设计路线）",
+          "scope": "当期官方HRMOS，2028/4入社",
+          "monthly": "333,334日元（基本253,968＋固定加班79,366）",
+          "annual": "官方5,000,000日元；首年奖金按在籍期，非实收保证",
+          "bonus": "原则年2次，随业绩；首年按在籍期",
+          "overtime": "含40小时79,366日元，超出另付；当前设计岗实际加班未知。",
+          "benefits": "东京涩谷；企业当届发布称部分在宅，新人频率未公布。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒官方产品职本选考ATS",
+              "url": "https://public.n-ats.hrmos.co/rookie/jobs/2306272763608694784"
+            },
+            {
+              "label": "企业发布28卒产品职岗位",
+              "url": "https://student.redesigner.jp/recruitments/J1997f98066c962ddbe50c3c0c64f4b84"
+            },
+            {
+              "label": "公司工作环境",
+              "url": "https://www.visional.inc/ja/careers/work-environment.html"
+            }
+          ],
+          "checkedAt": "2026-11-18",
+          "sortValues": {
+            "monthlyJPY": 333334,
+            "annualJPY": 5000000,
+            "monthlyLabel": "税前月薪",
+            "annualLabel": "官方年收，首年奖金按在籍期",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -5080,41 +5112,63 @@
     {
       "name": "U’eyes Design／株式会社U’eyes Design",
       "aliases": [
-        "U’eyes Design"
+        "U’eyes Design",
+        "U'eyes Design",
+        "ユーアイズデザイン",
+        "株式会社U'eyes Design"
       ],
       "roles": [
         {
-          "role": "28卒 UI/UX、服务设计师",
-          "scope": "大学院毕业薪资（本科217,000日元不适用）",
-          "monthly": "223,360日元起（修士）；另列通勤与资格津贴。",
+          "role": "28卒UI/UX・服务设计师",
+          "scope": "当期官方大学院卒",
+          "monthly": "223,360日元起",
           "annual": null,
-          "bonus": "每年两次，按业绩。",
-          "overtime": "官网将时间外、深夜和休日割增津贴分列；未列固定加班金额或小时。设计队实际工时未核。",
-          "benefits": "东京恵比寿；初期约半年到岗，之后可在宅；125天年休、弹性制依官网。",
+          "bonus": "业绩奖金年2次，数额未公布",
+          "overtime": "另列时间外等割增手当；固定加班构成和实际平均工时未核。",
+          "benefits": "前6月出社；之后可在宅，频率未公布，弹性core11:00–14:30。",
           "intern": null,
           "sources": [
             {
-              "label": "官方新卒设计师要项",
+              "label": "官方28卒设计募集",
               "url": "https://www.ueyesdesign.co.jp/recruit/about.html"
             },
             {
-              "label": "官方应聘表",
+              "label": "官方实际Entry表",
               "url": "https://www.ueyesdesign.co.jp/recruit/entry.html"
             },
             {
-              "label": "雇主刊登28卒职位",
-              "url": "https://en-gage.net/user/search/desc/5114115/"
+              "label": "官方企业与客户",
+              "url": "https://www.ueyesdesign.co.jp/company/about.html"
             }
           ],
           "sortValues": {
             "monthlyJPY": 223360,
             "annualJPY": null,
-            "monthlyLabel": "公布月薪下限（是否含固定支付见明细）",
+            "monthlyLabel": "修士月薪起",
             "annualLabel": null,
             "reference": false
           }
         }
-      ]
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-18",
+        "status": "old_small_sample",
+        "rating": 3.5,
+        "summary": "公开4人跨岗汇总；可读投稿为2013年经历、2015年发布，称需主动学习、可积累经验。",
+        "positives": [
+          "旧投稿认为愿意学习和承担任务者可积累经验。"
+        ],
+        "concerns": [
+          "样本极少且过旧，不能判断当前工时与管理。"
+        ],
+        "sources": [
+          {
+            "label": "旧员工投稿与统计范围",
+            "url": "https://employment.en-japan.com/comp-31932/"
+          }
+        ],
+        "limitations": "非当期新卒设计岗评价；不以3.5推断当前优劣。"
+      }
     },
     {
       "name": "ウェルスナビ株式会社",
@@ -5942,7 +5996,7 @@
       }
     }
   ],
-  "updatedAt": "2026-11-18T15:22:46+09:00",
+  "updatedAt": "2026-11-18T15:49:06+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -8250,23 +8304,7 @@
     },
     "U’eyes Design／株式会社U’eyes Design": {
       "tier": "consider",
-      "reason": "研究驱动的 UI/UX、服务设计很匹配。修士 22.336 万日元/月起，入职约半年到岗后可在宅。",
-      "business": "人间中心设计咨询，协助企业开发产品、服务及组织能力。",
-      "targetRole": "28 卒 UI/UX、服务设计，包括用户调研、概念和产品设计。",
-      "pay": "修士月薪 22.336 万日元起，按业绩奖金两次，另列时间外、深夜和休日津贴。",
-      "remote": "官网列入职约六个月出社，之后可在宅。每周出社天数待核。",
-      "actualOvertime": "当届设计组实际工时待核。",
-      "reviews": "可见样本较旧，未获得当前设计组评价。",
-      "sources": [
-        {
-          "url": "https://www.ueyesdesign.co.jp/recruit/about.html",
-          "label": "ueyesdesign.co.jp"
-        },
-        {
-          "url": "https://en-gage.net/user/search/desc/5114115/",
-          "label": "en-gage.net"
-        }
-      ]
+      "reason": "28卒UI/UX内容明确，前6月出社后可在宅；修士22.336万起，薪资优先级靠后。"
     },
     "ウェルスナビ株式会社": {
       "tier": "priority",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T15:22:46+09:00",
+  "updatedAt": "2026-11-18T15:40:14+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -8759,6 +8759,34 @@
         {
           "label": "公司刊载设计中心员工采访",
           "url": "https://safie.co.jp/teams/voice/640/"
+        }
+      ],
+      "milestones": [],
+      "checkedAt": "2026-11-18"
+    },
+    {
+      "id": "selection-visional-product-2028",
+      "company": "Visional／株式会社ビズリーチ",
+      "title": "28卒产品职本选考｜设计路线",
+      "category": "selection",
+      "subtype": "28卒设计本选考",
+      "status": "候选／未申请",
+      "intro": "经营BizReach招聘平台及HRMOS人事SaaS等服务，产品职包含设计师与工程师，共同处理用户及业务课题。",
+      "description": "2028/3前毕业、2028/4可入社；专业不限，设计或编程经验不限程度，也接受学习意愿。正社员或契约员工经历者须走career，个人适用需核。",
+      "notes": "官方年收5,000,000日元，月基本253,968＋固定40小时79,366＝333,334日元；超出另付。奖金原则年2次随业绩，首年按在籍期。企业当届发布文称部分在宅，但新人频率未公布；跨岗旧评价不能保证设计岗。",
+      "nextAction": "先听已约11/19 15:00说明会，再决定设计路线正式投递。流程Entry/书类→适性→按经历选择PF或代码测验→多次面试→终面，次数和截止未公布。",
+      "sources": [
+        {
+          "label": "28卒官方产品职本选考ATS",
+          "url": "https://public.n-ats.hrmos.co/rookie/jobs/2306272763608694784"
+        },
+        {
+          "label": "企业发布28卒产品职岗位",
+          "url": "https://student.redesigner.jp/recruitments/J1997f98066c962ddbe50c3c0c64f4b84"
+        },
+        {
+          "label": "公司工作环境",
+          "url": "https://www.visional.inc/ja/careers/work-environment.html"
         }
       ],
       "milestones": [],
