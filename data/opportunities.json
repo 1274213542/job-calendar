@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T09:12:02+09:00",
+  "updatedAt": "2026-11-18T15:22:46+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -810,11 +810,11 @@
       "title": "Creative Center企业Seminar",
       "category": "activity",
       "subtype": "讲座说明会与作品集反馈",
-      "status": "已预约／确认场次",
-      "statusDetail": "11/17 18:00–19:30线上场次已确认，入场指引已收到。",
+      "status": "部分参加／本人确认",
+      "statusDetail": "2026/11/18本人确认11/17场实际听会情况；预约事实保留。",
       "description": "电子、娱乐及跨领域设计；Teams线上；未公布费用；企业/项目介绍与设计师交流；须Sony外部表单逐场申请，RD按钮不算正式报名",
-      "nextAction": "11/17 线上入场使用公司已发的参加邮件。出席情况待本人确认。",
-      "checkedAt": "2026-11-16",
+      "nextAction": "本人确认只听了一部分；会后问卷为自愿。设计工作坊Entry 11/30 17:00、PF 12/2 17:00，和本选考期限分开核对。",
+      "checkedAt": "2026-11-18",
       "sources": [
         {
           "label": "原始来源",
@@ -849,8 +849,8 @@
             "label": "Sony官方公开参加登记表",
             "url": "https://sonygroup.my.salesforce-sites.com/sony/Design_students_registration1"
           },
-          "bookingStage": "已预约／确认场次",
-          "nextAction": "11/17 线上入场使用公司已发的参加邮件。出席情况待本人确认。"
+          "bookingStage": "部分参加／本人确认",
+          "nextAction": "本人确认只听了一部分；会后问卷为自愿。设计工作坊Entry 11/30 17:00、PF 12/2 17:00，和本选考期限分开核对。"
         }
       ],
       "historicalMilestones": [
@@ -861,7 +861,11 @@
           "label": "已过去的同系列场次；出席未知"
         }
       ],
-      "intro": "Sony Creative Center负责Sony设计工作；本场介绍设计项目并安排设计师交流。"
+      "intro": "Sony Creative Center负责Sony设计工作；本场介绍设计项目并安排设计师交流。",
+      "attendanceStatus": "partially_attended_user_confirmed",
+      "postBriefingFollowUp": {
+        "attendanceStatus": "partially_attended_user_confirmed"
+      }
     },
     {
       "id": "opp-37ec3f204b",
@@ -1023,8 +1027,8 @@
       "status": "已预约／确认参加",
       "statusDetail": "11/3官方MyPage预约完成页及企业确认邮件均已核验：11/19 13:00线上设计职场。",
       "description": "UX设计师与传播设计师线上说明会；公司说明及问答约60分钟；会后休息，再有适性测试与问卷约60分钟。",
-      "nextAction": "先确认周四兼职能否为会后测试留出专心时段；Google Meet参会显示名已登记；11/18 18:00后查Google Meet链接。13:00听会约60分钟，会后测试与问卷另约60分钟及休息。履历可在听会后3日内提交（带照片、不需志望动机，上传后不可更换），尚未上传；11/20 09:00提醒处理。",
-      "checkedAt": "2026-11-03",
+      "nextAction": "履历书与Google参会账号名均已登记。11/18 18:00后查Google Meet指引；11/19 12:50可入室、13:00说明会约60分钟，会后测试和问卷另约60分钟及休息，需安静可专心时段。",
+      "checkedAt": "2026-11-18",
       "sources": [
         {
           "label": "原始来源",
@@ -1040,7 +1044,7 @@
           "label": "11/3 Google参会显示名登记完成页已核验；账号姓名不公开"
         }
       ],
-      "notes": "13:00–约14:00为说明会；会后测试及问卷另约60分钟，休息长度及最终结束时间未公布。RD11/10 09:00为平台统一标签，不是官方场次截止。预约邮件要求履历，具体MyPage规则明确允许说明会后3日内提交，也可提前；履历PDF带照片、不需志望动机，上传后不能更换。先听后投的意向可保留。Google账号显示名登记截止为说明会开始前1小时。履历、作品集及测试均未提交。 11/3已核对当前Google账号实际显示名并完成登记，官方页面显示「登録いたしました」。",
+      "notes": "13:00–约14:00为说明会；会后测试及问卷另约60分钟，休息长度及最终结束时间未公布。RD11/10 09:00为平台统一标签，不是官方场次截止。预约邮件要求履历，具体MyPage规则明确允许说明会后3日内提交，也可提前；履历PDF带照片、不需志望动机，上传后不能更换。先听后投的意向可保留。Google账号显示名登记截止为说明会开始前1小时。履历书已登记；作品集与测试另核。 11/3已核对当前Google账号实际显示名并完成登记，官方页面显示「登録いたしました」。",
       "milestones": [
         {
           "type": "event",
@@ -2035,11 +2039,11 @@
       "title": "Creators Talk 线上公司说明会",
       "category": "activity",
       "subtype": "公司设计说明会",
-      "status": "已预约／确认参加",
-      "statusDetail": "11/3官方MyPage预约完成页及企业确认邮件已核验：11/17 15:00–16:00 Zoom场。",
+      "status": "已参加／本人确认",
+      "statusDetail": "2026/11/18本人确认11/17场实际听会情况；预约事实保留。",
       "description": "B2B SaaS品牌、传播、Web与平面设计；约1小时线上说明会与Q&A，最后介绍本选考。此场不含作品集咨询。",
-      "nextAction": "11/17 14:55左右入Zoom。请先登录 MyPage，会上需用它完成参加确认。",
-      "checkedAt": "2026-11-16",
+      "nextAction": "本人确认已听完；从MyPage核对设计本选考材料与个人截止，尚未确认正式投递。",
+      "checkedAt": "2026-11-18",
       "sources": [
         {
           "label": "原始来源",
@@ -2061,7 +2065,7 @@
       "attendanceMode": "online",
       "postBriefingFollowUp": {
         "remindAt": "2026-11-18T09:00:00+09:00",
-        "attendanceStatus": "unknown",
+        "attendanceStatus": "attended_user_confirmed",
         "selectionIds": [
           "selection-sansan"
         ],
@@ -2083,11 +2087,12 @@
           "availabilityLabel": "尚未核到实际余位",
           "availabilityCheckedAt": null,
           "availabilitySource": null,
-          "bookingStage": "已预约／以既有回执为据",
-          "nextAction": "11/17 14:55左右入Zoom。请先登录 MyPage，会上需用它完成参加确认。"
+          "bookingStage": "已参加／本人确认",
+          "nextAction": "本人确认已听完；从MyPage核对设计本选考材料与个人截止，尚未确认正式投递。"
         }
       ],
-      "intro": "Sansan提供B2B SaaS服务；本场介绍品牌、传播、Web与平面设计，并说明后续选考。"
+      "intro": "Sansan提供B2B SaaS服务；本场介绍品牌、传播、Web与平面设计，并说明后续选考。",
+      "attendanceStatus": "attended_user_confirmed"
     },
     {
       "id": "opp-1c8cdb18e2",
@@ -3282,7 +3287,7 @@
       "status": "已预约／确认参加",
       "statusDetail": "公司已确认改期：11/19 15:00–15:45线上。",
       "description": "面向工程师与设计师的产品职专场，线上；2028/3前毕业、2028/4入社。",
-      "nextAction": "11/18查收参加详情，11/19 15:00进入线上说明会。",
+      "nextAction": "公司已发11/19 15:00–15:45线上入场指引；请从本人确认邮件参加，15:05前入室。",
       "sources": [
         {
           "label": "官方HRMOS活动",
@@ -3302,7 +3307,7 @@
       ],
       "category": "activity",
       "subtype": "公司设计说明会",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-18",
       "notes": "公司已完成从11/11到11/19的改期，无需另办手续；参加详情于举办前一天发送。",
       "postBriefingFollowUp": {
         "remindAt": "2026-11-20T09:00:00+09:00",
@@ -3396,11 +3401,11 @@
       "title": "UX设计研究会2027／5天工作坊",
       "category": "internship",
       "subtype": "短期实习与工作坊",
-      "status": "参加希望表已提交／待回执",
-      "statusDetail": "11/8本人提交并已核到表单成功页；自动回复及材料案内尚待核。ES／作品集尚未提交，未录取。",
+      "status": "参加希望已受理／正式材料待提交",
+      "statusDetail": "公司已发送材料提交案内；参加意向已受理，ES／作品集尚未核到提交，未录取。",
       "description": "面向2028年3月毕业、在读UI/UX或信息设计课程的大学／大学院／专门学校学生；横滨港未来现场体验UX流程并提案，约6–7人。无日当，交通实报、远方住宿支持。",
-      "nextAction": "查收自动回复及公司提供的ES／作品集送付先；12/6前提交指定ES和100MB以内作品集。",
-      "checkedAt": "2026-11-08",
+      "nextAction": "从公司材料案内进入SecureDeliver，提交指定ES与作品集，勾选给自己发副本，以系统副本核实受领。个人精确时限见私人邮件。",
+      "checkedAt": "2026-11-18",
       "sources": [
         {
           "label": "官方设计研究会2027要项",
@@ -3410,7 +3415,7 @@
           "label": "11/8本人提交；Forms成功页已核，自动回复待核"
         }
       ],
-      "notes": "官方名称为设计研究会。2027/1/25–29共5天，钟点未公布；参加希望表已提交，登记受理以自动回复到达为准。ES／作品集尚未提交，12/6材料截止钟点未公布。ES用指定1页PDF，含动机、自己PR与设计师未来目标三题及3×4cm照片；作品集PDF100MB以内，团队作品标明本人贡献。选考结果12/23前通知，尚未录取。",
+      "notes": "官方名称为设计研究会。2027/1/25–29共5天，钟点未公布；参加希望表已提交，公司材料案内已收到。ES／作品集尚未提交，12/6材料截止钟点未公布。ES用指定1页PDF，含动机、自己PR与设计师未来目标三题及3×4cm照片；作品集PDF100MB以内，团队作品标明本人贡献。选考结果12/23前通知，尚未录取。",
       "milestones": [
         {
           "type": "deadline",
@@ -5748,12 +5753,12 @@
       "title": "28卒 Creative 线上说明会＋前辈座谈",
       "category": "activity",
       "subtype": "公司设计说明会",
-      "status": "已预约／确认参加",
-      "statusDetail": "11/10 已核验官方 MyPage 预约完成页，确认 11/17 Zoom 场。",
+      "status": "已参加／本人确认",
+      "statusDetail": "2026/11/18本人确认11/17场实际听会情况；预约事实保留。",
       "intro": "Sun Asterisk 介绍 Creative 设计工作，并安排设计师座谈。",
       "description": "面向28卒的 Creative 设计师线上说明会与前辈座谈。",
-      "nextAction": "11/17 17:00（日本时间）从 MyPage 进入 Zoom。",
-      "checkedAt": "2026-11-10",
+      "nextAction": "本人确认已听完；查看Step2，准备履历书PDF与可访问作品集URL（至少一个数字产品项目）。材料未确认提交。",
+      "checkedAt": "2026-11-18",
       "sources": [
         {
           "label": "公司发布的说明会",
@@ -5773,7 +5778,11 @@
           "label": "已预约：Zoom线上说明会＋前辈座谈"
         }
       ],
-      "attendanceMode": "online"
+      "attendanceMode": "online",
+      "attendanceStatus": "attended_user_confirmed",
+      "postBriefingFollowUp": {
+        "attendanceStatus": "attended_user_confirmed"
+      }
     },
     {
       "id": "selection-suntory-digital-technology-2028",
@@ -8706,6 +8715,54 @@
           "nextAction": "通过Mynavi 28卒课程核具体日期与余位，再核交通和已有安排。"
         }
       ]
+    },
+    {
+      "id": "selection-gmofh-uiux-2028",
+      "company": "GMOフィナンシャルホールディングス株式会社",
+      "title": "27・28卒 UI/UX设计师｜金融、医疗与自有服务",
+      "category": "selection",
+      "subtype": "28卒设计本选考",
+      "status": "候选／未申请",
+      "intro": "经营GMOクリック証券、GMOコイン等金融服务，并覆盖创业支持与医疗云服务。设计岗负责交易图表、开户流程、医疗问诊等UI/UX及品牌视觉。",
+      "description": "27、28卒正社员，东京涩谷Fukuras。岗位列名额5人，Figma／Illustrator／Photoshop任一制作经验，作品集必交。",
+      "notes": "月薪420,000日元起，含出勤手当20,000和固定加班42小时40分；固定加班金额及基本给未拆分。公司披露全社月均实际加班约18小时。当前新卒设计岗在宅频率、奖金、选考次数和截止未公布；2023–24员工反馈有全员出社，不能据旧评价断定当前制度。",
+      "nextAction": "如有意向，先核当前设计岗在宅、新人适用、完整选考与截止，再决定正式投递；作品集尚未提交。",
+      "sources": [
+        {
+          "label": "当期官方Jobcan UIUX岗位",
+          "url": "https://recruit.jobcan.jp/gmofh-saiyou/job_offers/2263631?hide_breadcrumb=false&hide_search=false"
+        }
+      ],
+      "milestones": [],
+      "checkedAt": "2026-11-18"
+    },
+    {
+      "id": "selection-safie-designer-2028",
+      "company": "セーフィー株式会社",
+      "title": "28卒设计师本选考｜Safie云影像平台",
+      "category": "selection",
+      "subtype": "28卒设计本选考",
+      "status": "候选／未申请",
+      "intro": "提供云录像及影像平台Safie，服务零售、建筑、制造和基础设施。设计方向涵盖产品UI/UX、品牌、Web和设计系统。",
+      "description": "2028年4月以后可入社、大学院／大学／高专毕业学生，学部不限；东京品川。不同课程不可兼报。",
+      "notes": "月薪375,000日元起，月额×12为4,500,000日元起，业绩奖金另计；基本给及固定加班构成未公布。可经上长批准在宅，须住在可出社范围，不按全远程前提录用。首年每周在宅天数未知。官方2025年全社月均22小时15分排除裁量劳动者，不能替代设计岗工时。",
+      "nextAction": "考虑先听公司说明会：Entry后MyPage预约，随后PF书审、线上一面和二面、线下终面＋网测；另有两次不含选考的员工面谈。具体场次、截止与作品集格式待核，未申请。",
+      "sources": [
+        {
+          "label": "官方28卒设计岗位",
+          "url": "https://safie-recruit.snar.jp/jobboard/detail.aspx?id=gLRKnDyvxHM"
+        },
+        {
+          "label": "官方工作制度与工时统计",
+          "url": "https://safie.co.jp/teams/workstyle/"
+        },
+        {
+          "label": "公司刊载设计中心员工采访",
+          "url": "https://safie.co.jp/teams/voice/640/"
+        }
+      ],
+      "milestones": [],
+      "checkedAt": "2026-11-18"
     }
   ],
   "lastVerifiedAt": "2026-11-06T09:10:09+09:00",

@@ -1485,6 +1485,34 @@
             "annualLabel": "月薪×12下限",
             "reference": true
           }
+        },
+        {
+          "role": "28卒UI/UX设计师",
+          "scope": "当期企业发布28卒岗位＋官网Web本部同职种要项",
+          "monthly": "375,834–434,334日元（按能力）",
+          "annual": "4,510,008–5,212,008日元（月额×12，假设两期薪额不变；奖金已包含半年年俸）",
+          "bonus": "奖金包含在半年年俸，不另加；半年评估一次",
+          "overtime": "含固定42小时92,853–107,306日元；超出另付。当前设计团队实际加班未核。",
+          "benefits": "东京；首年9:00–18:00，其后无核心弹性。当前新人在宅天数未公布；同本部中途岗位有远程制度，不能套到新卒。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "企业28卒UI/UX公告",
+              "url": "https://www.wantedly.com/projects/2613984"
+            },
+            {
+              "label": "官网Web本部UI/UX要项",
+              "url": "https://919.jp/recruit/new-market/requirements/"
+            }
+          ],
+          "checkedAt": "2026-11-18",
+          "sortValues": {
+            "monthlyJPY": 375834,
+            "annualJPY": 4510008,
+            "monthlyLabel": "税前月薪下限",
+            "annualLabel": "月额×12下限，奖金内含",
+            "reference": false
+          }
         }
       ],
       "employeeReviews": {
@@ -5794,9 +5822,127 @@
           }
         }
       ]
+    },
+    {
+      "name": "GMOフィナンシャルホールディングス株式会社",
+      "aliases": [
+        "GMO FH",
+        "GMOフィナンシャルHD"
+      ],
+      "roles": [
+        {
+          "role": "27・28卒UI/UX设计师",
+          "scope": "当期新卒官方岗位",
+          "monthly": "420,000日元起，含出勤手当20,000及固定加班部分",
+          "annual": "5,040,000日元起（月额×12，未加奖金）",
+          "bonus": "未公布",
+          "overtime": "含固定42小时40分；金额及基本给未拆分。公司称全社月均实际约18小时，设计单独工时未知。",
+          "benefits": "东京涩谷Fukuras；当前设计岗在宅和新人适用未核。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "当期官方Jobcan UIUX岗位",
+              "url": "https://recruit.jobcan.jp/gmofh-saiyou/job_offers/2263631?hide_breadcrumb=false&hide_search=false"
+            }
+          ],
+          "checkedAt": "2026-11-18",
+          "sortValues": {
+            "monthlyJPY": 420000,
+            "annualJPY": 5040000,
+            "monthlyLabel": "税前月薪起",
+            "annualLabel": "月额×12未加奖金",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-18",
+        "status": "public_summary",
+        "summary": "2024/5员工投稿认为休假较易取、加班不强制，但称无法远程；同日投稿批评评价制度不透明。仅为旧跨岗样本，不代表2028设计岗。",
+        "positives": [
+          "部分投稿肯定休假及同事关系。"
+        ],
+        "concerns": [
+          "2023–24投稿称全员出社；现行设计岗需官方确认。"
+        ],
+        "rating": 3.2,
+        "overtime": {
+          "hoursPerMonth": 20,
+          "sampleSize": 14,
+          "period": null,
+          "note": "エン公开14名员工汇总，非设计专项；与公司公布约18小时口径分开。"
+        },
+        "sources": [
+          {
+            "label": "エン员工原始投稿与公开统计",
+            "url": "https://employment.en-japan.com/comp-132782/"
+          }
+        ],
+        "limitations": "3.2为平台公开14人跨职种评分，评论年代2023–24；未代表当前新卒设计团队。"
+      }
+    },
+    {
+      "name": "セーフィー株式会社",
+      "aliases": [
+        "Safie",
+        "セーフィー"
+      ],
+      "roles": [
+        {
+          "role": "28卒设计师",
+          "scope": "当期新卒官方设计岗位",
+          "monthly": "375,000日元起",
+          "annual": "4,500,000日元起（月额×12，业绩奖金另计）",
+          "bonus": "业绩连动型奖金，金额未公布；年2次调薪",
+          "overtime": "基本给与固定加班构成未公布；2025全社22小时15分/月排除裁量劳动者，设计岗实际工时未知。",
+          "benefits": "可经上长批准在宅，住在可出社范围；非全远程前提。每周天数及首年频率未公布。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "官方28卒设计岗位",
+              "url": "https://safie-recruit.snar.jp/jobboard/detail.aspx?id=gLRKnDyvxHM"
+            },
+            {
+              "label": "官方工作制度与工时统计",
+              "url": "https://safie.co.jp/teams/workstyle/"
+            },
+            {
+              "label": "公司刊载设计中心员工采访",
+              "url": "https://safie.co.jp/teams/voice/640/"
+            }
+          ],
+          "checkedAt": "2026-11-18",
+          "sortValues": {
+            "monthlyJPY": 375000,
+            "annualJPY": 4500000,
+            "monthlyLabel": "税前月薪起",
+            "annualLabel": "月额×12，未加奖金",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-18",
+        "status": "company_published_interview_only",
+        "summary": "公司刊载设计中心员工采访，介绍UI/UX、品牌、设计系统和跨部门协作；属于公司发布的本人发言。",
+        "positives": [
+          "可接触产品与品牌等多个设计领域。"
+        ],
+        "concerns": [
+          "未核到设计岗独立评价及工时样本。"
+        ],
+        "rating": null,
+        "sources": [
+          {
+            "label": "公司刊载设计中心员工采访",
+            "url": "https://safie.co.jp/teams/voice/640/"
+          }
+        ],
+        "limitations": "采访日期未核，不能替代独立员工口碑或新卒实际工时。"
+      }
     }
   ],
-  "updatedAt": "2026-11-17T15:10:11+09:00",
+  "updatedAt": "2026-11-18T15:22:46+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -8461,6 +8607,14 @@
     "株式会社mediba": {
       "tier": "consider",
       "reason": "UI职责清楚；新人在宅及实际加班待核。"
+    },
+    "GMOフィナンシャルホールディングス株式会社": {
+      "tier": "consider",
+      "reason": "UI/UX内容与薪资已明确；当前在宅条件待核，旧跨岗评价存在出社限制。"
+    },
+    "セーフィー株式会社": {
+      "tier": "priority",
+      "reason": "28卒设计岗位、37.5万起与混合办公已明确；新人在宅频率、固定加班与设计岗工时待核。"
     }
   }
 }
