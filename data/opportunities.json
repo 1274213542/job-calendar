@@ -8265,32 +8265,12 @@
       "milestones": [
         {
           "type": "event",
-          "date": "2026-11-19T18:00",
-          "endDate": "2026-11-19T19:30",
-          "label": "可选Zoom线上说明会"
-        },
-        {
-          "type": "event",
           "date": "2026-11-20T18:00",
           "endDate": "2026-11-20T19:30",
           "label": "可选Zoom线上说明会"
         }
       ],
       "registrationSessions": [
-        {
-          "id": "briefing-yamaha-winter-design-2026::2026-11-19T18:00",
-          "eventStart": "2026-11-19T18:00",
-          "eventEnd": "2026-11-19T19:30",
-          "format": "在线 Zoom Webinar",
-          "reservationRequired": true,
-          "registrationMethod": "ヤマハ株式会社 MyPage 登记",
-          "deadline": null,
-          "opensAt": null,
-          "firstComeFirstServed": true,
-          "availabilityState": "login_required",
-          "availabilitySource": "https://yamaha-recruiting.snar.jp/login.aspx",
-          "bookingStage": "候选／未申请"
-        },
         {
           "id": "briefing-yamaha-winter-design-2026::2026-11-20T18:00",
           "eventStart": "2026-11-20T18:00",
@@ -8306,6 +8286,51 @@
           "bookingStage": "候选／未申请"
         }
       ]
+    },
+    {
+      "id": "briefing-yamaha-winter-design-2026-1119",
+      "company": "Yamaha",
+      "title": "设计研究所｜冬季实习线上说明会（11/19已预约）",
+      "category": "activity",
+      "subtype": "设计实习说明会",
+      "status": "已预约／确认场次",
+      "description": "ヤマハ株式会社设计研究所介绍乐器与音响等产品设计及冬期实习。已预约11/19线上场。",
+      "nextAction": "11/19 18:00–19:30参加线上说明会；实际参加待确认。",
+      "checkedAt": "2026-11-19",
+      "sources": [
+        {
+          "label": "当期设计实习与说明会",
+          "url": "https://www.yamaha.com/ja/recruitment/internship/designer/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-11-19T18:00",
+          "endDate": "2026-11-19T19:30",
+          "label": "已预约线上说明会"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-yamaha-winter-design-2026-1119::2026-11-19T18:00",
+          "eventStart": "2026-11-19T18:00",
+          "eventEnd": "2026-11-19T19:30",
+          "format": "在线",
+          "reservationRequired": true,
+          "registrationMethod": "ヤマハ株式会社 MyPage 登记",
+          "deadline": null,
+          "opensAt": null,
+          "firstComeFirstServed": true,
+          "availabilityState": "booked",
+          "availabilitySource": "https://www.yamaha.com/ja/recruitment/internship/designer/",
+          "bookingStage": "已预约／确认场次",
+          "availabilityLabel": "已预约",
+          "availabilityCheckedAt": "2026-11-19",
+          "nextAction": "11/19 18:00–19:30参加线上说明会；实际参加待确认。"
+        }
+      ],
+      "statusDetail": "11/19 18:00–19:30已预约，实际参加待确认"
     },
     {
       "id": "selection-mediba-ui-designer-2028",
