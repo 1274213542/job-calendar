@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T10:31:26+09:00",
+  "updatedAt": "2026-11-19T15:16:56+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -1031,9 +1031,9 @@
       "subtype": "讲座说明会与作品集反馈",
       "status": "已预约／确认参加",
       "statusDetail": "11/3官方MyPage预约完成页及企业确认邮件均已核验：11/19 13:00线上设计职场。",
-      "description": "UX设计师与传播设计师线上说明会及问答约60分钟；会后适性检查与材料提交另约60分钟，期限由公司另行通知。",
-      "nextAction": "入场案内已收到。11/19 12:50可申请入室，13:00开始约60分钟；履历和账号名已登记。后续适性检查＋材料约60分钟，期限另行通知；禁止录音录像。",
-      "checkedAt": "2026-11-18",
+      "description": "UX与传播设计师说明会约60分钟；会后问卷、两项测试及作品集按公司分别规定的期限办理。",
+      "nextAction": "履历已登记；11/21 23:59前完成说明会问卷与两项测试；11/28 23:59前交UX作品集（PDF≤10MB或URL）。问卷、测试及作品集完成情况待核。",
+      "checkedAt": "2026-11-19",
       "sources": [
         {
           "label": "原始来源",
@@ -1047,22 +1047,35 @@
         },
         {
           "label": "11/3 Google参会显示名登记完成页已核验；账号姓名不公开"
+        },
+        {
+          "label": "11/19公司会后选考与材料通知已核；私人原文和受检链接不公开"
         }
       ],
-      "notes": "13:00–约14:00为说明会。RD11/10 09:00为平台统一标签，不是官方场次截止。预约邮件要求履历，具体MyPage规则明确允许说明会后3日内提交，也可提前；履历PDF带照片、不需志望动机，上传后不能更换。先听后投的意向可保留。Google账号显示名登记截止为说明会开始前1小时。履历书已登记；作品集与测试另核。 11/3已核对当前Google账号实际显示名并完成登记，官方页面显示「登録いたしました」。 11/18晚新入场案内：后续适性检查＋材料提交约60分钟，期限另行通知；不假定14点立即开始、15点必然相撞。迟到超过10分钟不受理，禁止录音录像。",
+      "notes": "13:00–约14:00为说明会。RD11/10 09:00为平台统一标签，不是官方场次截止。预约邮件要求履历，具体MyPage规则明确允许说明会后3日内提交，也可提前；履历PDF带照片、不需志望动机，上传后不能更换。先听后投的意向可保留。Google账号显示名登记截止为说明会开始前1小时。履历书已登记；作品集与测试另核。 11/3已核对当前Google账号实际显示名并完成登记，官方页面显示「登録いたしました」。 11/18晚新入场案内：后续适性检查＋材料提交约60分钟，期限另行通知；不假定14点立即开始、15点必然相撞。迟到超过10分钟不受理，禁止录音录像。 11/19后续正式通知取代此前期限待定：问卷及两项受检11/21 23:59；UX方向交作品集，PDF≤10MB或Web/Drive URL，11/28 23:59。BioGraph平台11/22 00:00关闭，按公司11/21 23:59要求提前完成；履历已登记，不重复上传。",
       "milestones": [
         {
           "type": "event",
           "date": "2026-11-19T13:00",
           "endDate": "2026-11-19T14:00",
           "endApproximate": true,
-          "label": "已预约／线上设计说明会约60分钟；后续测试与材料期限另通知"
+          "label": "已预约／线上设计说明会约60分钟"
         },
         {
           "type": "action",
           "date": "2026-11-19T12:00",
           "label": "会前Google账号显示名已登记",
           "completed": true
+        },
+        {
+          "type": "confirmation_deadline",
+          "date": "2026-11-21T23:59",
+          "label": "说明会问卷及两项测试完成截止（履历已登记）"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-28T23:59",
+          "label": "UX作品集提交截止：PDF≤10MB或URL"
         }
       ],
       "attendanceMode": "online",
@@ -1073,7 +1086,7 @@
         "intent": "听完说明会后准备和决定本选考"
       },
       "workCompatibility": "requires_confirmation",
-      "scheduleNotice": "后续适性检查及材料提交的期限另发，尚无必须说明会后当场连续完成的证据；按会后实际案内核对后续占用。",
+      "scheduleNotice": "会后问卷与两项测试须在11/21 23:59前完成，UX作品集11/28 23:59前提交；没有必须说明会后当场连续完成的证据。",
       "registrationSessions": [
         {
           "id": "opp-ad61947242::2026-11-19T13:00",
@@ -1090,7 +1103,7 @@
           "availabilityCheckedAt": null,
           "availabilitySource": null,
           "bookingStage": "已预约／以既有回执为据",
-          "nextAction": "入场案内已收到。11/19 12:50可申请入室，13:00开始约60分钟；履历和账号名已登记。后续适性检查＋材料约60分钟，期限另行通知；禁止录音录像。"
+          "nextAction": "履历已登记；11/21 23:59前完成说明会问卷与两项测试；11/28 23:59前交UX作品集（PDF≤10MB或URL）。问卷、测试及作品集完成情况待核。"
         }
       ],
       "intro": "JustSystems开发软件与数字服务；本场介绍UX及传播设计师工作，并安排问答。"
@@ -3778,17 +3791,17 @@
     {
       "id": "opp-c5b83dedd8",
       "company": "Mercari",
-      "title": "Product Camp 2026（合格后个人占用）",
+      "title": "Product Camp 2026（选考结果已通知）",
       "category": "personal",
-      "subtype": "已正式申请／待录取 · 非设计专属",
-      "status": "正式已提交待结果",
-      "statusDetail": "10/28 22:38 JST Workable正式申请成功邮件已于11/3重新读取；尚未核到录取通知。",
+      "subtype": "已正式申请／本轮未通过 · 非设计专属",
+      "status": "未通过／本轮已结束",
+      "statusDetail": "11/19已核公司本轮选考结果：未通过。原10/28正式提交事实保留。",
       "description": "11天产品与事业构想营，六本木全程线下；须参加全部11天。作为本人已申请项目的潜在时间占用，不作为新增设计机会推荐。",
-      "conditionalAttendance": true,
+      "conditionalAttendance": false,
       "attendanceMode": "in_person",
-      "checkedAt": "2026-11-03",
-      "nextAction": "等待选考结果；若合格，12/1–15内11个工作日10:00–18:00需协调学校与兼职。12/1结束后紧接18:00博报堂线上说明会，参加地点和缓冲需确认；12/8不能预先承诺空闲。",
-      "notes": "原先因非设计专属被排除，11/3本人要求同时考虑录取后的占用，按原稳定ID恢复为个人潜在安排。日期已与正式申请回执逐日核对；企业ReDesigner正文与勤務時間栏写每天10:00–18:00，页面结构化时间显示1:00–9:00存在时区偏差，采用正文日本当地时间。Workable当前入口跳回职位列表，不据此改变已提交事实。与Mercari长期UI/UX Internship是两个不同项目。 选考结果预计11月中旬，仅向书类通过者发邮件，未公布具体日期。",
+      "checkedAt": "2026-11-19",
+      "nextAction": "本轮选考已结束；解除12/1–15的合格后潜在占用，不再等待或催查本轮结果。与另一个UI/UX实习项目分开。",
+      "notes": "原先因非设计专属被排除，11/3本人要求同时考虑录取后的占用，按原稳定ID恢复为个人潜在安排。日期已与正式申请回执逐日核对；企业ReDesigner正文与勤務時間栏写每天10:00–18:00，页面结构化时间显示1:00–9:00存在时区偏差，采用正文日本当地时间。Workable当前入口跳回职位列表，不据此改变已提交事实。与Mercari长期UI/UX Internship是两个不同项目。 原招募说明预计11月中旬通知；11/19已实际收到未通过结果，本轮不再待核。",
       "sources": [
         {
           "label": "11/3重读10/28正式申请成功回执；私人正文及账号不公开"
@@ -3800,9 +3813,20 @@
         {
           "label": "原正式申请入口（当前已无法读取岗位正文）",
           "url": "https://apply.workable.com/mercari/j/DBBC080F29/"
+        },
+        {
+          "label": "11/19公司具体选考结果已核；私人回执及联系方式不公开"
         }
       ],
       "milestones": [
+        {
+          "type": "reference",
+          "date": "2026-11-19",
+          "label": "公司通知本轮选考未通过"
+        }
+      ],
+      "intro": "Mercari运营二手交易及相关金融、电商服务；本活动是为期11天的产品与事业构想营。",
+      "archivedMilestones": [
         {
           "type": "event",
           "date": "2026-12-01T10:00",
@@ -3869,8 +3893,7 @@
           "endDate": "2026-12-15T18:00",
           "label": "合格后需参加／六本木现场（尚未录取）"
         }
-      ],
-      "intro": "Mercari运营二手交易及相关金融、电商服务；本活动是为期11天的产品与事业构想营。"
+      ]
     },
     {
       "id": "selection-cybozu-product-design-2028",
@@ -6150,12 +6173,12 @@
       "category": "internship",
       "subtype": "短期实习与工作坊",
       "status": "候选／未申请",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-19",
       "statusDetail": "官方一般实习已公布当期申请窗口。",
       "description": "02-08 电子钢琴 UI：浜松本社。制作或改善原型，用试作机验证易用性。；02-09 电子键盘 UI：浜松本社。提出操作改善方案、试作并做易用性验证。；04-03 面向初学者的音乐体验原型：横滨港未来。可用 App、Web 或装置试作，让人试用后评估；文理不限。",
       "intro": "ヤマハ株式会社的电子乐器 UI 验证及音乐体验原型课题。三个课题共用一般实习申请流程。",
       "nextAction": "11/25 09:00（日本时间）前通过 Yamaha MyPage 完成 ES、主题意向表、Web 适性测试和照片。",
-      "notes": "2027/2/12–19 线下六个实习日，出勤钟点未公开。02-08及02-09偏好信息类；编程、电子乐器、MIDI、Figma及易用性评估中有若干经验为加分，编程题仅问有经验者。04-03文理不限，官网列多种试作方式。一般实习按规定补交通、安排住宿，日当1,000日元另加餐费。与2月上旬独立设计师实习及 Yamaha Motor 分开。 书类结果最迟12/3，线上面试12/9–15按主题安排，面试者最终结果最迟12/21。",
+      "notes": "2027/2/12–19 线下六个实习日，出勤钟点未公开。02-08及02-09偏好信息类；编程、电子乐器、MIDI、Figma及易用性评估中有若干经验为加分，编程题仅问有经验者。04-03文理不限，官网列多种试作方式。一般实习按规定补交通、安排住宿，日当1,000日元另加餐费。与2月上旬独立设计师实习及 Yamaha Motor 分开。 线上面试12/9–15按主题安排，面试者最终结果原定最迟12/21；该最终结果日尚待后续个人通知复核。 11/19公司当期公告将书类结果通知结束日由12/3延至12/7，开始日仍11/26；不是申请截止延期。另一个02-04钢琴购买体验课题取消，不将该取消套到其他主题。",
       "sources": [
         {
           "label": "冬季一般实习官方募集、资格和截止",
@@ -6180,6 +6203,9 @@
         {
           "label": "官方 MyPage",
           "url": "https://yamaha-recruiting.snar.jp/login.aspx"
+        },
+        {
+          "label": "11/19公司当期选考日程变更公告已核，原文仅本地留存"
         }
       ],
       "milestones": [
@@ -6201,15 +6227,20 @@
         },
         {
           "type": "reference",
-          "date": "2026-12-03",
-          "label": "最迟通知书类结果（全员）",
-          "requiresVerification": true
+          "date": "2026-12-07",
+          "label": "书类结果最迟通知（全员；通知窗口11/26–12/7）",
+          "requiresVerification": false
         },
         {
           "type": "reference",
           "date": "2026-12-21",
           "label": "最迟通知最终结果（面试者）",
           "requiresVerification": true
+        },
+        {
+          "type": "reference",
+          "date": "2026-11-26",
+          "label": "书类结果通知窗口开始（至12/7，个人具体日期未定）"
         }
       ]
     },
@@ -6873,12 +6904,12 @@
       "title": "28卒设计师｜App、Web、平面",
       "category": "selection",
       "subtype": "本选考",
-      "status": "候选／未申请",
-      "statusDetail": "官网按申请顺序推进，未公布统一截止；明确接受2028年毕业或修了。",
+      "status": "已收公司案内／说明会未预约",
+      "statusDetail": "11/19公司发来约60分钟线上说明会的可选场次，待本人选择；正式申请材料提交未核。",
       "intro": "运营トクバイ、Zaim等消费生活服务；设计师做App、Web和宣传视觉。",
       "description": "消费生活服务的iOS／Android、Web、海报及宣传视觉设计。东京三田，原则出社；年收450万日元起。",
-      "nextAction": "首轮填作品／研究链接，课内、自主或未完成项目都可；履历选填，不用志望动机。未公布统一截止。",
-      "checkedAt": "2026-11-14",
+      "nextAction": "在本人可行的线上场次中选择后再决定回复；未代回复或预约，正式材料另行办理。",
+      "checkedAt": "2026-11-19",
       "sources": [
         {
           "label": "28卒设计师官方招聘",
@@ -6895,6 +6926,9 @@
         {
           "label": "Zaim资产总览",
           "url": "https://content.zaim.net/manuals/show/97"
+        },
+        {
+          "label": "11/19公司线上说明会案内已核；私人消息不公开"
         }
       ],
       "notes": "28卒设计年收450万日元起，按选考定；原则出社。具体月薪、固定加班和奖金口径未核到。",
@@ -7789,16 +7823,16 @@
     {
       "id": "briefing-hobonichi-intern-2026-sessions",
       "company": "ほぼ日",
-      "title": "实习说明会与线上问答｜旅のなかまに",
+      "title": "实习说明会与线上问答｜其余候选场",
       "category": "activity",
       "subtype": "设计招聘说明会／问答",
-      "status": "预约申请已提交／待公司案内",
-      "statusDetail": "11/24 14:00 线上问答申请已提交，具体席位待公司确认。",
+      "status": "候选场次／未申请",
+      "statusDetail": "11/24已确认单独列项；其余三场仍未申请，线下场本人不考虑。",
       "intro": "ほぼ日经营手帐、自有内容与生活类商品。本活动服务于招聘直结实习，包含公司说明或线上提问。",
       "description": "11/24与12/2为线上问答，11/26与12/1为神田线下说明。各场开始时刻已公布，结束时刻未公布。",
-      "nextAction": "等待 11/24 线上问答的公司通知。",
+      "nextAction": "11/24线上问答已确认并单列；其余场次无需重复申请。",
       "notes": "活动可选，是否参加不影响选考。对应设计实习本体12/7 11:00截止，表单另办。 11/26线下说明会现已满员。",
-      "checkedAt": "2026-11-16",
+      "checkedAt": "2026-11-19",
       "sources": [
         {
           "label": "公司公告及四场",
@@ -7810,11 +7844,6 @@
         }
       ],
       "milestones": [
-        {
-          "type": "event",
-          "date": "2026-11-24T14:00",
-          "label": "线上问答｜申请已提交，席位待确认"
-        },
         {
           "type": "event",
           "date": "2026-11-26T18:00",
@@ -7832,27 +7861,6 @@
         }
       ],
       "registrationSessions": [
-        {
-          "id": "briefing-hobonichi-intern-2026-sessions::2026-11-24T14:00",
-          "eventStart": "2026-11-24T14:00",
-          "eventEnd": null,
-          "reservationRequired": true,
-          "registrationMethod": "线上；原表只能选一场；公司案内邮件确认",
-          "opensAt": null,
-          "deadline": null,
-          "deadlineLabel": "满员即止，未公布固定时刻",
-          "firstComeFirstServed": true,
-          "availabilityState": "public_reservation_link",
-          "availabilityLabel": "原表仍能选，实际剩余席位未公布",
-          "availabilityCheckedAt": "2026-11-16T09:12:13+09:00",
-          "availabilitySource": {
-            "label": "公司指定实际预约表",
-            "url": "https://forms.gle/fz2ojCAXANZvQab27"
-          },
-          "bookingStage": "预约申请已提交／待公司案内",
-          "nextAction": "等公司确认该场次席位。",
-          "format": "线上"
-        },
         {
           "id": "briefing-hobonichi-intern-2026-sessions::2026-11-26T18:00",
           "eventStart": "2026-11-26T18:00",
@@ -8794,7 +8802,7 @@
       "intro": "提供云录像及影像平台Safie，服务零售、建筑、制造和基础设施。设计方向涵盖产品UI/UX、品牌、Web和设计系统。",
       "description": "2028年4月以后可入社、大学院／大学／高专毕业学生，学部不限；东京品川。不同课程不可兼报。",
       "notes": "月薪375,000日元起，月额×12为4,500,000日元起，业绩奖金另计；基本给及固定加班构成未公布。可经上长批准在宅，须住在可出社范围，不按全远程前提录用。首年每周在宅天数未知。官方2025年全社月均22小时15分排除裁量劳动者，不能替代设计岗工时。",
-      "nextAction": "考虑先听公司说明会：Entry后MyPage预约，随后PF书审、线上一面和二面、线下终面＋网测；另有两次不含选考的员工面谈。具体场次、截止与作品集格式待核，未申请。",
+      "nextAction": "12/22作品集咨询会已预约并单列。本次咨询会路线参会后公司再发MyPage案内；本选考ES／作品集尚未核到正式提交。",
       "sources": [
         {
           "label": "官方28卒设计岗位",
@@ -8810,7 +8818,7 @@
         }
       ],
       "milestones": [],
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-19"
     },
     {
       "id": "selection-visional-product-2028",
@@ -8839,6 +8847,105 @@
       ],
       "milestones": [],
       "checkedAt": "2026-11-18"
+    },
+    {
+      "id": "briefing-hobonichi-intern-20261124-online",
+      "company": "ほぼ日",
+      "title": "旅のなかまに｜11/24线上问答",
+      "category": "activity",
+      "subtype": "线上问答／已确认单场",
+      "status": "已预约／确认场次",
+      "statusDetail": "11/19公司具体场次案内已核：11/24 14:00线上问答；实习申请尚未提交。",
+      "description": "实习招聘线上问答，13:50起可入室；公司希望尽量开启摄像头。结束时刻未公布。",
+      "nextAction": "11/24 13:50起按公司邮件入室，14:00开始；准备实习与出勤问题。无需再次预约，实习申请另办。",
+      "checkedAt": "2026-11-19",
+      "attendanceMode": "online",
+      "sources": [
+        {
+          "label": "公司当期实习与说明会公告",
+          "url": "https://www.1101.com/intern/tabinonakama_2026/index.html"
+        },
+        {
+          "label": "11/19公司具体场次确认已核；私人入场链接与邮件不公开"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "reference",
+          "date": "2026-11-24T13:50",
+          "label": "可开始入室"
+        },
+        {
+          "type": "event",
+          "date": "2026-11-24T14:00",
+          "label": "已预约：线上问答",
+          "requiresVerification": false
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-hobonichi-intern-20261124-online::2026-11-24T14:00",
+          "eventStart": "2026-11-24T14:00",
+          "eventEnd": null,
+          "reservationRequired": true,
+          "registrationMethod": "线上；原表只能选一场；公司案内邮件确认",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "满员即止，未公布固定时刻",
+          "firstComeFirstServed": true,
+          "availabilityState": "booked",
+          "availabilityLabel": "已收到公司11/24具体场次案内",
+          "availabilityCheckedAt": "2026-11-19T15:16:56+09:00",
+          "bookingStage": "已预约／公司具体场次已确认",
+          "nextAction": "13:50起入室，14:00开始；无需重复报名。",
+          "format": "线上"
+        }
+      ]
+    },
+    {
+      "id": "consultation-safie-portfolio-20261222",
+      "company": "セーフィー株式会社",
+      "title": "28卒设计师作品集咨询会",
+      "category": "activity",
+      "subtype": "作品集反馈／设计师座谈",
+      "status": "已预约／确认场次",
+      "statusDetail": "11/19平台显示応募済み、已匹配，公司具体场次案内已核；不是本选考已正式提交。",
+      "intro": "Safie云录像与影像平台；设计师负责产品UI/UX、品牌与Web等。",
+      "description": "12/22 18:00–20:30 Zoom线上：作品集制作讲解、新卒作品集拆解、个别咨询和设计师座谈。该募集明确応募即预约完成。",
+      "nextAction": "准备可屏幕共享的作品集及咨询问题；按公司私信的Zoom入口参加。参会后公司发送MyPage案内；正式选考材料另行办理。",
+      "checkedAt": "2026-11-19",
+      "attendanceMode": "online",
+      "sources": [
+        {
+          "label": "企业发布的28卒作品集咨询会",
+          "url": "https://student.redesigner.jp/recruitments/J5e9f29e5c9bbdc9f61627755801d2934"
+        },
+        {
+          "label": "11/19平台已応募、匹配及公司场次案内已核；私人链接不公开"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-22T18:00",
+          "endDate": "2026-12-22T20:30",
+          "label": "已预约：作品集咨询会／Zoom"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "consultation-safie-portfolio-20261222::2026-12-22T18:00",
+          "eventStart": "2026-12-22T18:00",
+          "eventEnd": "2026-12-22T20:30",
+          "reservationRequired": true,
+          "registrationMethod": "ReDesigner对应募集応募即预约完成",
+          "deadline": "2026-12-22T17:00",
+          "deadlineLabel": "平台募集截止；本人已预约，不再催报名",
+          "availabilityState": "booked",
+          "bookingStage": "已预约／公司具体场次已案内",
+          "nextAction": "准备可共享的作品集，按公司私信参加。"
+        }
+      ]
     }
   ],
   "lastVerifiedAt": "2026-11-19T10:04:52+09:00",
@@ -8932,6 +9039,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-12T21:11:45+09:00",
-  "lastPartialVerificationScope": "11/13 アビリブ说明会入场指引"
+  "lastPartialVerificationAt": "2026-11-19T15:16:56+09:00",
+  "lastPartialVerificationScope": "11/19下午新回执与个人期限；不重复当日完整深搜。"
 }
