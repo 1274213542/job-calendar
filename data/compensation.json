@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-19",
   "companies": [
     {
       "name": "Goodpatch",
@@ -5994,9 +5994,71 @@
         ],
         "limitations": "采访日期未核，不能替代独立员工口碑或新卒实际工时。"
       }
+    },
+    {
+      "name": "株式会社クラビズ",
+      "aliases": [
+        "クラビズ",
+        "Kurabiz"
+      ],
+      "roles": [
+        {
+          "role": "28卒创意职（设计师）",
+          "scope": "28卒官方JD；冈山仓敷，设计与工程共用标题，设计职责单列。",
+          "monthly": "247,500日元，含固定加班费52,970日元；扣除此部分为194,530日元，官方未另单列基本给。",
+          "annual": "2,970,000日元（月薪×12，不含奖金；实际总年收未公布）",
+          "bonus": "年2次，前年度合计约2个月；非本人首年保证金额。",
+          "overtime": "含35小时固定加班，超出另付。官方平均实际加班20小时/月。",
+          "benefits": "年休124天，土日祝双休，通勤上限2万，学习补助与自营品牌优惠。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "28卒创意职当期JD",
+              "url": "https://recruit.jobcan.jp/kurabiz/job_offers/2289173?hide_breadcrumb=false&hide_search=false"
+            },
+            {
+              "label": "官方员工/环境FAQ",
+              "url": "https://kurabiz.jp/recruit/environment/"
+            }
+          ],
+          "availabilityLabel": "28卒官方金额",
+          "evidenceNote": "固定加班与实际工时分开。管理部育儿员工的临时在宅不是设计新人常态在宅证据。",
+          "sortValues": {
+            "monthlyJPY": 247500,
+            "annualJPY": 2970000,
+            "monthlyLabel": "公布月薪（含固定加班）",
+            "annualLabel": "月薪×12，不含奖金",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-19",
+        "status": "limited",
+        "rating": 3.0,
+        "overtime": {
+          "hoursPerMonth": 32.1,
+          "sampleSize": null,
+          "period": null,
+          "note": "転職会議跨岗位汇总，不是28设计岗；与官方20h范围不同，不平均合并。"
+        },
+        "paidLeaveRate": 71.4,
+        "summary": "公开16条记录中8条为面试；加班指标的实际人数和年份未知。",
+        "positives": [],
+        "concerns": [
+          "公开汇总工时高于公司自报，设计团队实际工时及新人在宅应单独确认。"
+        ],
+        "sources": [
+          {
+            "label": "同法人独立员工公开评价",
+            "url": "https://jobtalk.jp/companies/8044805"
+          }
+        ],
+        "limitations": "样本小、跨岗位跨年份，不能当设计新人实际工时。公司2026育儿管理岗采访与独立口碑分开。"
+      }
     }
   ],
-  "updatedAt": "2026-11-18T15:49:06+09:00",
+  "updatedAt": "2026-11-19T10:04:52+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -8653,6 +8715,30 @@
     "セーフィー株式会社": {
       "tier": "priority",
       "reason": "28卒设计岗位、37.5万起与混合办公已明确；新人在宅频率、固定加班与设计岗工时待核。"
+    },
+    "株式会社クラビズ": {
+      "tier": "consider",
+      "reason": "平面/品牌/Web匹配；月24.75万含35h固定，28设计在宅未确认且工作地仓敷，不能列在宅优先，也不凭缺项直接判练手。",
+      "business": "广告、Web、品牌与自有生活品牌",
+      "targetRole": "28卒创意职／设计师",
+      "pay": "247500/月，含35h固定52970；月薪×12为297万，不含奖金",
+      "remote": "28设计新人常态在宅与天数未知；管理岗育儿在宅不套用。",
+      "actualOvertime": "公司自报20h/月；独立跨岗汇总32.1h，统计范围不同。",
+      "reviews": "転職会議3.00，16总记录含8面试，工时样本/期间未知。",
+      "sources": [
+        {
+          "label": "28卒创意职当期JD",
+          "url": "https://recruit.jobcan.jp/kurabiz/job_offers/2289173?hide_breadcrumb=false&hide_search=false"
+        },
+        {
+          "label": "官方员工/环境FAQ",
+          "url": "https://kurabiz.jp/recruit/environment/"
+        },
+        {
+          "label": "同法人独立员工公开评价",
+          "url": "https://jobtalk.jp/companies/8044805"
+        }
+      ]
     }
   }
 }
