@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T22:23:00+09:00",
+  "updatedAt": "2026-11-20T03:18:33+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -9042,6 +9042,256 @@
           "nextAction": "准备可共享的作品集，按公司私信参加。"
         }
       ]
+    },
+    {
+      "id": "toshiba-winter-design-2027",
+      "company": "株式会社東芝",
+      "title": "Winter Internship 2027｜UI/UX・服务设计5天",
+      "category": "internship",
+      "subtype": "短期实习／工作坊",
+      "status": "候选／未申请",
+      "statusDetail": "官网11/17宣布当期受理开始；修士可申请。具体ReDesigner募集页尚未定位，未申请。",
+      "intro": "东芝DX・设计与沟通部门，以人间中心设计处理人、企业与社会的课题。",
+      "description": "2027/2/15–19，每日09:00–17:15，川崎站步行1分钟Creative Circuit线下5天。UI/UX、服务、沟通、产品设计等专家指导调研、概念、可视化与发表；约10名。学部3年以上，明确含修士与博士。",
+      "nextAction": "先核官网指向的当期ReDesigner具体申请页，再准备约10页、10MB以内作品集，开头加自我PR，文件名「学校名_氏名.PDF」。1/4截止仅日期已公布；线下出勤另由本人决定，未申请。",
+      "checkedAt": "2026-11-20",
+      "attendanceMode": "onsite",
+      "location": "神奈川县川崎市幸区堀川町／Creative Circuit",
+      "sources": [
+        {
+          "label": "企业官方当期设计冬期实习",
+          "url": "https://www.global.toshiba/jp/design/corporate/career/internship.html"
+        }
+      ],
+      "notes": "交通、旅费、餐费按公司规定补助；伤害保险由公司加入；远方免费住宿（拟员工宿舍）。日薪未公布。1月上旬书类、中旬面谈、下旬结果。正职设计薪资、在宅制度、实际加班与独立员工评价本轮未核。成果归公司。",
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-17",
+          "label": "官方宣布受理开始"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-01-04",
+          "label": "作品／申请截止；钟点未公布"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-15T09:00",
+          "endDate": "2027-02-19T17:15",
+          "label": "候选：川崎线下5天；每日09:00–17:15"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "toshiba-winter-design-2027::2027-02-15",
+          "eventStart": "2027-02-15T09:00",
+          "eventEnd": "2027-02-19T17:15",
+          "reservationRequired": true,
+          "registrationMethod": "ReDesigner账号＋基本信息／作品注册；按书类与面谈筛选",
+          "opensAt": "2026-11-17",
+          "deadline": "2027-01-04",
+          "deadlineLabel": "仅公布日期，钟点未知",
+          "firstComeFirstServed": false,
+          "availabilityState": "official_acceptance_announced_specific_form_unverified",
+          "availabilityLabel": "官方已宣布当期受理；具体ReDesigner募集／表单未核",
+          "availabilityCheckedAt": "2026-11-20T03:18:33+09:00",
+          "availabilitySource": {
+            "label": "官方当期募集正文",
+            "url": "https://www.global.toshiba/jp/design/corporate/career/internship.html"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "核当期申请页与首轮作品文件；线下日程由本人决定。"
+        }
+      ]
+    },
+    {
+      "id": "nintendo-software-design-seminar",
+      "company": "任天堂株式会社",
+      "title": "软件制作设计线上说明会｜含UI/UX与学生作品集讲解",
+      "category": "activity",
+      "subtype": "设计说明会",
+      "status": "候选／未预约",
+      "statusDetail": "官方活动列表标受付中；须在既有MyPage另约具体场次，实际余位未核。",
+      "intro": "任天堂的游戏软件制作设计团队，介绍UI/UX等岗位及在职设计师学生时期作品集。",
+      "description": "线上16:00–17:45，可选12/2、12/5、12/11、12/22、1/19；大学院在读可参加，是否参加不影响採用选考。第一部含UI/UX、特效、关卡、角色等；第二部讲学生作品集与常见问题。摄像头／麦克风关闭，各部可自由进出。",
+      "nextAction": "有意听UI/UX工作或作品集讲解时，登录既有28届MyPage选一场并核余位。首场12/2截止11/27 12:00，先到先得；仅列候选，未代预约。",
+      "checkedAt": "2026-11-20",
+      "attendanceMode": "online",
+      "sources": [
+        {
+          "label": "官方软件制作设计线上说明会",
+          "url": "https://www.nintendo.co.jp/jobs/recruit/event/design_online_software.html"
+        },
+        {
+          "label": "官方28届MyPage登录入口",
+          "url": "https://www.nintendo.co.jp/jobs/recruit/entry_logon/index.html"
+        }
+      ],
+      "notes": "本说明会观看不要求提交作品集或绘画课题；不能据此推定正式岗位的材料要求。活动费用未公布；目标正式岗位薪资、在宅、实际加班及独立评价本轮未核。各场先到先得、满员提前关闭，当前具体库存未核。",
+      "sessionModel": {
+        "mode": "single_choice",
+        "note": "同内容候选场次，选择一场；未预约。"
+      },
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-27T12:00",
+          "label": "2026-12-02场报名截止／先到先得"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-02T16:00",
+          "endDate": "2026-12-02T17:45",
+          "label": "候选：线上软件设计说明会"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-02T12:00",
+          "label": "2026-12-05场报名截止／先到先得"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-05T16:00",
+          "endDate": "2026-12-05T17:45",
+          "label": "候选：线上软件设计说明会"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-08T12:00",
+          "label": "2026-12-11场报名截止／先到先得"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-11T16:00",
+          "endDate": "2026-12-11T17:45",
+          "label": "候选：线上软件设计说明会"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-17T12:00",
+          "label": "2026-12-22场报名截止／先到先得"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-22T16:00",
+          "endDate": "2026-12-22T17:45",
+          "label": "候选：线上软件设计说明会"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-01-14T12:00",
+          "label": "2027-01-19场报名截止／先到先得"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-19T16:00",
+          "endDate": "2027-01-19T17:45",
+          "label": "候选：线上软件设计说明会"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "nintendo-software-design-seminar::2026-12-02T16:00",
+          "eventStart": "2026-12-02T16:00",
+          "eventEnd": "2026-12-02T17:45",
+          "reservationRequired": true,
+          "registrationMethod": "既有28届MyPage／セミナー予約画面另约场次",
+          "opensAt": null,
+          "deadline": "2026-11-27T12:00",
+          "deadlineLabel": "该场报名截止／满员提前关闭",
+          "firstComeFirstServed": true,
+          "availabilityState": "official_accepting_live_seats_unverified",
+          "availabilityLabel": "官方标受付中；MyPage实际余位未核",
+          "availabilityCheckedAt": "2026-11-20T03:18:33+09:00",
+          "availabilitySource": {
+            "label": "官方软件制作说明会",
+            "url": "https://www.nintendo.co.jp/jobs/recruit/event/design_online_software.html"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "本人决定是否听本软件UI分支，再到MyPage选一场并核库存。"
+        },
+        {
+          "id": "nintendo-software-design-seminar::2026-12-05T16:00",
+          "eventStart": "2026-12-05T16:00",
+          "eventEnd": "2026-12-05T17:45",
+          "reservationRequired": true,
+          "registrationMethod": "既有28届MyPage／セミナー予約画面另约场次",
+          "opensAt": null,
+          "deadline": "2026-12-02T12:00",
+          "deadlineLabel": "该场报名截止／满员提前关闭",
+          "firstComeFirstServed": true,
+          "availabilityState": "official_accepting_live_seats_unverified",
+          "availabilityLabel": "官方标受付中；MyPage实际余位未核",
+          "availabilityCheckedAt": "2026-11-20T03:18:33+09:00",
+          "availabilitySource": {
+            "label": "官方软件制作说明会",
+            "url": "https://www.nintendo.co.jp/jobs/recruit/event/design_online_software.html"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "本人决定是否听本软件UI分支，再到MyPage选一场并核库存。"
+        },
+        {
+          "id": "nintendo-software-design-seminar::2026-12-11T16:00",
+          "eventStart": "2026-12-11T16:00",
+          "eventEnd": "2026-12-11T17:45",
+          "reservationRequired": true,
+          "registrationMethod": "既有28届MyPage／セミナー予約画面另约场次",
+          "opensAt": null,
+          "deadline": "2026-12-08T12:00",
+          "deadlineLabel": "该场报名截止／满员提前关闭",
+          "firstComeFirstServed": true,
+          "availabilityState": "official_accepting_live_seats_unverified",
+          "availabilityLabel": "官方标受付中；MyPage实际余位未核",
+          "availabilityCheckedAt": "2026-11-20T03:18:33+09:00",
+          "availabilitySource": {
+            "label": "官方软件制作说明会",
+            "url": "https://www.nintendo.co.jp/jobs/recruit/event/design_online_software.html"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "本人决定是否听本软件UI分支，再到MyPage选一场并核库存。"
+        },
+        {
+          "id": "nintendo-software-design-seminar::2026-12-22T16:00",
+          "eventStart": "2026-12-22T16:00",
+          "eventEnd": "2026-12-22T17:45",
+          "reservationRequired": true,
+          "registrationMethod": "既有28届MyPage／セミナー予約画面另约场次",
+          "opensAt": null,
+          "deadline": "2026-12-17T12:00",
+          "deadlineLabel": "该场报名截止／满员提前关闭",
+          "firstComeFirstServed": true,
+          "availabilityState": "official_accepting_live_seats_unverified",
+          "availabilityLabel": "官方标受付中；MyPage实际余位未核",
+          "availabilityCheckedAt": "2026-11-20T03:18:33+09:00",
+          "availabilitySource": {
+            "label": "官方软件制作说明会",
+            "url": "https://www.nintendo.co.jp/jobs/recruit/event/design_online_software.html"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "本人决定是否听本软件UI分支，再到MyPage选一场并核库存。"
+        },
+        {
+          "id": "nintendo-software-design-seminar::2027-01-19T16:00",
+          "eventStart": "2027-01-19T16:00",
+          "eventEnd": "2027-01-19T17:45",
+          "reservationRequired": true,
+          "registrationMethod": "既有28届MyPage／セミナー予約画面另约场次",
+          "opensAt": null,
+          "deadline": "2027-01-14T12:00",
+          "deadlineLabel": "该场报名截止／满员提前关闭",
+          "firstComeFirstServed": true,
+          "availabilityState": "official_accepting_live_seats_unverified",
+          "availabilityLabel": "官方标受付中；MyPage实际余位未核",
+          "availabilityCheckedAt": "2026-11-20T03:18:33+09:00",
+          "availabilitySource": {
+            "label": "官方软件制作说明会",
+            "url": "https://www.nintendo.co.jp/jobs/recruit/event/design_online_software.html"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "本人决定是否听本软件UI分支，再到MyPage选一场并核库存。"
+        }
+      ]
     }
   ],
   "lastVerifiedAt": "2026-11-19T10:04:52+09:00",
@@ -9135,6 +9385,6 @@
       }
     }
   ],
-  "lastPartialVerificationAt": "2026-11-19T15:16:56+09:00",
-  "lastPartialVerificationScope": "11/19下午新回执与个人期限；不重复当日完整深搜。"
+  "lastPartialVerificationAt": "2026-11-20T03:18:33+09:00",
+  "lastPartialVerificationScope": "续接11/19晚间两个未入库项目；不重复当日完整深搜。"
 }

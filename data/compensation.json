@@ -5994,9 +5994,87 @@
         ],
         "limitations": "采访日期未核，不能替代独立员工口碑或新卒实际工时。"
       }
+    },
+    {
+      "name": "株式会社東芝",
+      "aliases": [
+        "Toshiba",
+        "東芝"
+      ],
+      "roles": [
+        {
+          "role": "Winter Internship 2027／设计5天",
+          "scope": "2027年2月当期设计实习，非正式录用待遇",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": "实习每日09:00–17:15；正式设计岗实际加班本轮未核。",
+          "benefits": "交通／旅费／餐费按规定支给；远方免费住宿，拟员工宿舍；公司加入伤害保险。",
+          "intern": "川崎线下5天，日薪未公布；成果归公司。",
+          "sources": [
+            {
+              "label": "企业官方当期实习",
+              "url": "https://www.global.toshiba/jp/design/corporate/career/internship.html"
+            }
+          ],
+          "checkedAt": "2026-11-20",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-20",
+        "status": "not_reviewed_in_incremental_check",
+        "summary": "本轮仅核当期实习，未核独立设计岗评价；正式薪资和在宅制度也未核。",
+        "rating": null,
+        "sources": [],
+        "limitations": "不能用实习补助推断正职待遇。"
+      }
+    },
+    {
+      "name": "任天堂株式会社",
+      "aliases": [
+        "Nintendo",
+        "任天堂"
+      ],
+      "roles": [
+        {
+          "role": "软件制作设计说明会",
+          "scope": "设计岗位介绍活动，不是职位待遇确认",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": "目标设计岗实际加班本轮未核。",
+          "benefits": "说明会线上，可关闭摄像头和麦克风；这不代表正式工作可在宅。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "官方当期软件设计说明会",
+              "url": "https://www.nintendo.co.jp/jobs/recruit/event/design_online_software.html"
+            }
+          ],
+          "checkedAt": "2026-11-20",
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-20",
+        "status": "not_reviewed_in_incremental_check",
+        "summary": "本轮仅核说明会；目标正式岗位薪资、在宅、实际加班和独立评价未核。",
+        "rating": null,
+        "sources": [],
+        "limitations": "说明会包含UI/UX，不等于已确认正式岗位或申请材料。"
+      }
     }
   ],
-  "updatedAt": "2026-11-19T11:22:25+09:00",
+  "updatedAt": "2026-11-20T03:18:33+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
