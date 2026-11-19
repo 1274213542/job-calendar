@@ -5996,7 +5996,7 @@
       }
     }
   ],
-  "updatedAt": "2026-11-19T10:31:26+09:00",
+  "updatedAt": "2026-11-19T11:22:25+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -7651,8 +7651,8 @@
       ]
     },
     "Members": {
-      "tier": "consider",
-      "reason": "28卒 UX 岗现已暂停受理。集团往届月薪26万日元，有在宅制度，等目标岗后续。",
+      "tier": "pending",
+      "reason": "28卒UX官方暂停受理，暂无已核实的同届后续申请入口；待正式重开公告后再核。",
       "business": "企业数字服务、运营与DX",
       "targetRole": "28卒UX设计，当前停止受理",
       "pay": "集团往届26万/月，28卒同岗另行待核",
@@ -7680,7 +7680,8 @@
           "url": "https://jobtalk.jp/companies/268/answers?question_codes=worklife",
           "label": "jobtalk.jp"
         }
-      ]
+      ],
+      "availabilityStatus": "paused_no_confirmed_entry"
     },
     "SPECT DESIGN": {
       "tier": "consider",
