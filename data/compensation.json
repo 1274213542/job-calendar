@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "companies": [
     {
       "name": "Goodpatch",
@@ -81,33 +81,29 @@
       ],
       "roles": [
         {
-          "role": "UI/UX・平面设计师",
-          "scope": "28卒设计岗位详情待公布；两项实习分别列价",
-          "monthly": null,
-          "annual": null,
-          "bonus": null,
-          "overtime": null,
-          "benefits": "集团列员工餐、育儿弹性时段、每满5年特别休假；适用条件因集团法人而异。",
+          "role": "UI/UX・产品设计师",
+          "scope": "2028卒ENSAPIA UIUX/平面设计",
+          "monthly": "316,667日元起",
+          "annual": "3,800,000日元起（官方年俸）",
+          "bonus": "业绩联动年1次，金额未公布",
+          "overtime": "基本231809＋固定45h84858；超过部分另付",
+          "benefits": "混合办公原则周3次以上出社；部门与新人研修另核。",
           "intern": "秋季UI/UX 1Day日薪10,000日元，另付交通和住宿费。Zero Lab设计实习时薪2,000日元，合同3个月起。",
           "sources": [
             {
-              "label": "集团新卒岗位与福利",
-              "url": "https://ensapia.com/joinus/new-grads/careers/"
+              "label": "28卒设计详情",
+              "url": "https://herp.careers/v1/ensapia/s1DvBn8HtkMx"
             },
             {
-              "label": "秋季1Day・公司HERP",
-              "url": "https://herp.careers/v1/ensapia/UQrxHNP1ZUbU"
-            },
-            {
-              "label": "Zero Lab・公司HERP",
-              "url": "https://herp.careers/v1/ensapia/nQUincgIc03x"
+              "label": "实际Apply",
+              "url": "https://herp.careers/v1/ensapia/s1DvBn8HtkMx/apply"
             }
           ],
-          "availabilityLabel": "28卒设计待遇未公布",
-          "evidenceNote": "已复核新卒岗位总表和设计职页面，设计师仍显示求人情報準備中。25/26卒第二新卒岗位及28卒策划岗的金额不适用于本岗位，未混填。实习报酬与正式入职待遇分开。",
+          "availabilityLabel": "28卒正式岗位公开待遇",
+          "evidenceNote": "月薪、固定津贴及实际加班分别记录；当届实际新人在宅频率仍待核。",
           "sortValues": {
-            "monthlyJPY": null,
-            "annualJPY": null,
+            "monthlyJPY": 316667,
+            "annualJPY": 3800000,
             "monthlyLabel": "月薪",
             "annualLabel": "公布年收",
             "reference": false
@@ -115,30 +111,34 @@
         }
       ],
       "employeeReviews": {
-        "checkedAt": "2026-11-06",
-        "status": "public_summary",
-        "summary": "休假与育儿支持有好评，也有2026年插画岗投稿称部门工时差异大；UI/UX团队需单独确认。",
-        "positives": [
-          "2026年插画岗个别投稿肯定育儿短时勤務和育休的实际使用。"
-        ],
-        "concerns": [
-          "同一投稿称不同部门下班时间差异明显。"
-        ],
+        "checkedAt": "2026-11-20T15:13:28+09:00",
+        "status": "public_cross_role_summary",
+        "summary": "员工评价方面，エンセイピア（平台旧名cocone ONE）原页当前显示跨岗平均加班22.9小时/月、总评3.05/5。评论优点集中在食堂等福利、有休及flex；也有部门工时差距、制度变动和突发对应的反馈。可见样本是插画、CG、企划及宣传等职种，含2020–26历史，不能据此判断当前UI岗或实习的实际负担。",
+        "rating": 3.05,
+        "paidLeaveRate": 74.1,
         "overtime": {
           "hoursPerMonth": 22.9,
           "sampleSize": null,
           "period": null,
-          "note": "転職会議员工投稿汇总；非固定加班额推算，亦非设计岗或新卒单独统计。"
+          "note": "27条残业和226条全主题记录不是27/226名员工，不能推为UI或新卒样本。"
         },
-        "paidLeaveRate": 74.1,
-        "rating": 3.05,
+        "positives": [
+          "育儿休业和短时制度有人实际使用。",
+          "用餐、健身/按摩等福利丰富，一些部门有休好请。",
+          "有休和flex方便通院等私人事项。"
+        ],
+        "concerns": [
+          "部门加班差异明显，有人早走、也有人22点后仍工作。",
+          "称周三制度与remote突然变更，团队和职位之间负担不均。",
+          "称部分职种加班多，App/SNS异常有时须周末响应。"
+        ],
         "sources": [
           {
-            "label": "転職会議｜公开员工统计与评价",
+            "label": "転職会議公开跨岗评价",
             "url": "https://jobtalk.jp/companies/60347/answers?topic=%E6%AE%8B%E6%A5%AD"
           }
         ],
-        "limitations": "员工自愿投稿的跨年份、跨岗位汇总，非28卒设计岗专项；加班和休假指标的回答人数、统计期间未公开。只读取公开概要/节录，未登录或绕过限制。数值为本次打开页面所示，检索缓存与不同页面可能不同；评分为平台5分制。 平台沿用旧cocone ONE履历，不能视为本届UI/UX岗位专属样本。"
+        "limitations": "已读第一页15/27条残业主题，未识别UI/UX评论；第二页12条未读，不断言全站不存在。 旧产品/部门当前法人归属未逐一核定。 UI新人/学生实习实际工时、独立口碑、聚合统计样本人数仍未知。"
       }
     },
     {
@@ -6072,9 +6072,137 @@
         "sources": [],
         "limitations": "说明会包含UI/UX，不等于已确认正式岗位或申请材料。"
       }
+    },
+    {
+      "name": "ミツエーリンクス",
+      "aliases": [
+        "株式会社ミツエーリンクス"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX・产品设计师",
+          "scope": "2028卒修士｜创意/UI/Web",
+          "monthly": "250,000日元",
+          "annual": "固定月薪×12＝3,000,000日元；奖金另计",
+          "bonus": "年2次，通用FAQ每次约1.5个月；首年夏按在籍期缩减，不作固定保证",
+          "overtime": "原则按实际分钟全额支给，因薪酬形态或异；基本给和固定津贴内拆未公布",
+          "benefits": "弹性核心10–15，年休约120日，每周1日在宅；新卒约1.5月研修，培训期间多有西装出社。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "当届募集",
+              "url": "https://jobs.mitsue.co.jp/entry/new_graduates/creative/"
+            },
+            {
+              "label": "FAQ",
+              "url": "https://jobs.mitsue.co.jp/faq/"
+            }
+          ],
+          "availabilityLabel": "28卒正式岗位公开待遇",
+          "evidenceNote": "月薪、固定津贴及实际加班分别记录；当届实际新人在宅频率仍待核。",
+          "sortValues": {
+            "monthlyJPY": 250000,
+            "annualJPY": 3000000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12固定部分",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-20T15:13:28+09:00",
+        "status": "public_cross_role_summary",
+        "rating": 3.2,
+        "overtime": {
+          "hoursPerMonth": 39,
+          "sampleSize": null,
+          "period": null,
+          "note": "エン页面84名跨岗受访样本，非当前设计岗；不与公司2025全员16.8h平均。"
+        },
+        "summary": "可见2020/21旧跨岗评论称成长与自由度有优点、项目繁忙影响加班；不代表2025/28卒设计团队。",
+        "positives": [
+          "旧跨岗评论肯定成长、自由度。"
+        ],
+        "concerns": [
+          "旧跨岗评论提项目忙闲影响加班；当前设计新人实绩未知。"
+        ],
+        "sources": [
+          {
+            "label": "エン公开跨岗样本",
+            "url": "https://employment.en-japan.com/comp-26130/"
+          }
+        ],
+        "limitations": "旧跨岗经验与公司2025披露时段不同，不能平均或套新卒UI。"
+      }
+    },
+    {
+      "name": "pixiv",
+      "aliases": [
+        "ピクシブ株式会社",
+        "ピクシブ"
+      ],
+      "roles": [
+        {
+          "role": "UI/UX・产品设计师",
+          "scope": "2028卒产品设计师｜大学院在读可",
+          "monthly": "340,000日元起",
+          "annual": "固定月薪×12＝4,080,000日元起；非含奖保证年收",
+          "bonus": "原则年1次（10月），业绩等决定",
+          "overtime": "基本236000＋定额104000，含45h时间外及45h深夜割增相当额；不是实际90h加班",
+          "benefits": "混合办公，100km远程有距离条件；新卒研修约2周座学与2.5月现场，具体周频率待核。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "当届岗位",
+              "url": "https://hrmos.co/pages/pixiv/jobs/22032028"
+            },
+            {
+              "label": "工作制度",
+              "url": "https://www.pixiv.co.jp/environment/"
+            }
+          ],
+          "availabilityLabel": "28卒正式岗位公开待遇",
+          "evidenceNote": "月薪、固定津贴及实际加班分别记录；当届实际新人在宅频率仍待核。",
+          "sortValues": {
+            "monthlyJPY": 340000,
+            "annualJPY": 4080000,
+            "monthlyLabel": "月薪",
+            "annualLabel": "月薪×12固定部分",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-20T15:13:28+09:00",
+        "status": "public_cross_role_summary",
+        "summary": "员工评价方面，転職会議当前显示跨岗平均加班27.9小时/月、总评3.60/5；工时样本人数未列。2025程序员称加班少、flex和远程方便，2023企划员工则提醒部门及任务不同，个人可能长时间工作；当前新卒产品设计师的实际工时与独立评价尚未核到。",
+        "rating": 3.6,
+        "paidLeaveRate": 71.9,
+        "overtime": {
+          "hoursPerMonth": 27.9,
+          "sampleSize": null,
+          "period": null,
+          "note": "11与123是页面评论记录数，含多职种、年份及选考等主题；不是工时均值的员工样本人数。"
+        },
+        "positives": [
+          "称通常几乎不加班，flex和remote方便，内部交流活跃。",
+          "称当时基本remote/flex，少因会议或公司要求延长工作。",
+          "称工作与私人时间能兼顾、公司不鼓励加班。"
+        ],
+        "concerns": [
+          "部门与个人任务不同，自主管理也可能使工时不断膨胀。"
+        ],
+        "sources": [
+          {
+            "label": "転職会議公开跨岗评价",
+            "url": "https://jobtalk.jp/companies/6735/answers?topic=%E6%AE%8B%E6%A5%AD"
+          }
+        ],
+        "limitations": "未核到当前新卒产品设计师自己的实际工时或独立员工评价。 聚合工时准确人数与年度分布未公开。 历史跨岗remote频率不能替代当期岗位制度。"
+      }
     }
   ],
-  "updatedAt": "2026-11-20T03:18:33+09:00",
+  "updatedAt": "2026-11-20T15:13:28+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -6118,33 +6246,21 @@
     },
     "ENSAPIA": {
       "tier": "consider",
-      "reason": "社交游戏 UI/UX 与平面实习对口。新卒原则出社，设计正职待遇待公布。",
-      "business": "虚拟形象、换装与社交游戏，如ポケコロ",
-      "targetRole": "UI/UX・平面设计师",
-      "pay": "28卒设计正职待遇待公布；1Day与Zero Lab实习条件见独立官方项目。",
-      "remote": "新卒官网说原则出社，个别部门／职种可混合，设计范围未知。",
-      "actualOvertime": "転職会議跨岗员工投稿汇总22.3小时/月，统计期间及该工时样本数未列。",
-      "reviews": "転職会議跨岗评分3.05/5，11/14公开原页回读，设计新卒样本不足。",
+      "reason": "28卒UIUX正式待遇和混合办公已确认，年380万起；原则周3次出社，新人安排待核。",
+      "business": "数字社交、虚拟形象与《リヴリーアイランド》等产品。",
+      "targetRole": "28卒UI/UX・平面设计",
+      "pay": "年380万起；月316667=基本231809＋固定45h84858；业绩奖金另计。",
+      "remote": "原则每周至少3次出社，可混合；新人研修安排和部门差异待核。",
+      "actualOvertime": "転職会議跨岗汇总22.9小时/月；样本人数/年度未列，非当届UI/产品设计新人。",
+      "reviews": "员工评价方面，エンセイピア（平台旧名cocone ONE）原页当前显示跨岗平均加班22.9小时/月、总评3.05/5。评论优点集中在食堂等福利、有休及flex；也有部门工时差距、制度变动和突发对应的反馈。可见样本是插画、CG、企划及宣传等职种，含2020–26历史，不能据此判断当前UI岗或实习的实际负担。",
       "sources": [
         {
-          "url": "https://ensapia.com/joinus/new-grads/careers/",
-          "label": "ensapia.com"
+          "label": "28卒UIUX/设计岗",
+          "url": "https://herp.careers/v1/ensapia/s1DvBn8HtkMx"
         },
         {
-          "url": "https://herp.careers/v1/ensapia/UQrxHNP1ZUbU",
-          "label": "herp.careers"
-        },
-        {
-          "url": "https://herp.careers/v1/ensapia/nQUincgIc03x",
-          "label": "herp.careers"
-        },
-        {
-          "url": "https://ensapia.com/joinus/new-grads/",
-          "label": "ensapia.com"
-        },
-        {
-          "url": "https://jobtalk.jp/companies/60347/answers?topic=%E6%AE%8B%E6%A5%AD",
-          "label": "jobtalk.jp"
+          "label": "跨岗员工评价",
+          "url": "https://jobtalk.jp/companies/60347/answers?topic=%E6%AE%8B%E6%A5%AD"
         }
       ]
     },
@@ -8732,6 +8848,54 @@
     "セーフィー株式会社": {
       "tier": "priority",
       "reason": "28卒设计岗位、37.5万起与混合办公已明确；新人在宅频率、固定加班与设计岗工时待核。"
+    },
+    "ミツエーリンクス": {
+      "tier": "consider",
+      "reason": "UI/Web匹配且通用每周1日在宅；修士25万、UI配属及新人频率需取舍。",
+      "business": "企业Web与数字沟通设计，包含无障碍、易用性和交互。",
+      "targetRole": "28卒 UI/Webデザイナー",
+      "pay": "修士月250000日元；月薪×12为300万固定部分，奖金年2次另计。",
+      "remote": "通用每周1日在宅；新人研修/设计实际频率待核。",
+      "actualOvertime": "公司披露2025全员月16.8小时；设计新卒未单列。",
+      "reviews": "エン跨岗84人样本3.2/5、月39h；可见2020/21旧评论有成长支持及项目忙闲差异，不能代表2025设计团队。",
+      "sources": [
+        {
+          "label": "当届岗位",
+          "url": "https://jobs.mitsue.co.jp/entry/new_graduates/creative/"
+        },
+        {
+          "label": "公司FAQ",
+          "url": "https://jobs.mitsue.co.jp/faq/"
+        },
+        {
+          "label": "跨岗员工评价",
+          "url": "https://employment.en-japan.com/comp-26130/"
+        }
+      ]
+    },
+    "pixiv": {
+      "tier": "priority",
+      "reason": "产品UIUX匹配，月34万起并有官方混合工作制度；新人研修与每周频率仍需确认。",
+      "business": "创作者平台pixiv、BOOTH、FANBOX。",
+      "targetRole": "28卒 产品设计师",
+      "pay": "月34万起=基本23.6万＋时间外及深夜定额10.4万；奖金另计。",
+      "remote": "可office/hybrid；100km以远全远程不是东京居住者的默认条件。新人约2周座学及2.5月现场研修，具体出社频率未列。",
+      "actualOvertime": "転職会議跨岗汇总27.9小时/月；样本人数/年度未列，非当届UI/产品设计新人。",
+      "reviews": "员工评价方面，転職会議当前显示跨岗平均加班27.9小时/月、总评3.60/5；工时样本人数未列。2025程序员称加班少、flex和远程方便，2023企划员工则提醒部门及任务不同，个人可能长时间工作；当前新卒产品设计师的实际工时与独立评价尚未核到。",
+      "sources": [
+        {
+          "label": "当届岗位",
+          "url": "https://hrmos.co/pages/pixiv/jobs/22032028"
+        },
+        {
+          "label": "工作制度",
+          "url": "https://www.pixiv.co.jp/environment/"
+        },
+        {
+          "label": "跨岗员工评价",
+          "url": "https://jobtalk.jp/companies/6735/answers?topic=%E6%AE%8B%E6%A5%AD"
+        }
+      ]
     }
   }
 }
