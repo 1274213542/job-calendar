@@ -708,7 +708,75 @@
       "selectionSteps": "公开表单＋作品集 → 资料审查／面谈",
       "scheduleNote": "全年，至少10个工作日，可分段，具体起始日协商。",
       "checkedAt": "2026-11-16"
+    },
+    {
+      "id": "selection-mitsuelinks-ui-web-2028",
+      "internPay": null,
+      "internPayScope": "正式选考，不是独立实习。另有1day工作体验，日期/报酬/补助尚未核定，不建立参加占用。",
+      "selectionProcess": "履历书＋必交PF（合计200MB）→书审→线上一面→约20分适性→役员终面；通常2次面试，各阶段结果约1周，申请至结果通常3周至1月。",
+      "selectionRate": null,
+      "selectionRateNote": "未公布有效申请人数与录取人数，不计算倍率。",
+      "requirementsNote": "履历格式自由；作品集可包含UI、平面、研究等，无统一必交素描。固定截止未公布，UI配属不保证。",
+      "checkedAt": "2026-11-20",
+      "sources": [
+        {
+          "label": "28卒创意/UI募集",
+          "url": "https://jobs.mitsue.co.jp/entry/new_graduates/creative/"
+        },
+        {
+          "label": "官网指定28卒申请表",
+          "url": "https://www.career-cloud.asia/28/form/entryb/index/78e7939368f81131591c76155ef716df"
+        },
+        {
+          "label": "待遇、研修与在宅FAQ",
+          "url": "https://jobs.mitsue.co.jp/faq/"
+        }
+      ]
+    },
+    {
+      "id": "selection-pixiv-product-designer-2028",
+      "internPay": null,
+      "internPayScope": "5日实习是本选考流程环节，实施日期、报酬与交通未核。",
+      "selectionProcess": "实际申请表→书审→一次面试→平日连续5天选考实习→役员最终面试→内定；两次面试，未列结果日期。",
+      "selectionRate": null,
+      "selectionRateNote": "未公布相应样本，不计算倍率。",
+      "requirementsNote": "准备必填照片、投入经历/最自豪经历/介绍自己URL及说明/知晓招聘渠道；团队合作题选填。附件最多4份、各项页面标最大30MB，作品集附件旁文任意。书审→一面→5个平日选考实习→役员终面→内定。实习报酬、日期和各阶段通知时间未公布；不作为独立短期实习报名。",
+      "checkedAt": "2026-11-20",
+      "sources": [
+        {
+          "label": "28卒产品设计官方岗位",
+          "url": "https://hrmos.co/pages/pixiv/jobs/22032028"
+        },
+        {
+          "label": "实际申请表",
+          "url": "https://hrmos.co/pages/pixiv/jobs/22032028/apply"
+        },
+        {
+          "label": "工作方式与新人培养",
+          "url": "https://www.pixiv.co.jp/environment/"
+        }
+      ]
+    },
+    {
+      "id": "selection-ensapia-uiux-designer-2028",
+      "internPay": null,
+      "internPayScope": "正式本选考，与秋季已录取1Day及12月PF反馈分别管理。",
+      "selectionProcess": "Apply交PF＋另交指定履历/方向，双步骤完成→书审→一面→视情况实技→二面/最终；结果日未公布。",
+      "selectionRate": null,
+      "selectionRateNote": "未公布当届岗位有效申请数/录取数。",
+      "requirementsNote": "实际Apply提交PDF作品集后，还须提交ENSAPIA指定履历并选方向，两个步骤都完成才算Entry。单个PDF原则30MB；含视频100MB与表单总50MB有容量差异，超过30MB可按岗位说明在message放至少可阅14天URL。书审→一面→视情况实技→二面/最终；期限和结果时点未公布。",
+      "checkedAt": "2026-11-20",
+      "sources": [
+        {
+          "label": "28卒设计职官方详情",
+          "url": "https://herp.careers/v1/ensapia/s1DvBn8HtkMx"
+        },
+        {
+          "label": "实际申请入口",
+          "url": "https://herp.careers/v1/ensapia/s1DvBn8HtkMx/apply"
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-16T09:09:12+09:00"
+  "updatedAt": "2026-11-20T15:10:39+09:00"
 }
