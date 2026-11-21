@@ -1963,34 +1963,39 @@
             }
           ],
           "availabilityLabel": "28卒官方年收",
-          "evidenceNote": "官方年收450万起、月薪制含30小时固定加班；月薪拆分与奖金分配没有公开，折算月额不能当作实际月薪报价。",
+          "evidenceNote": "当期28设计正式JD年收450万起、月薪制含30h固定OT；月额拆分及奖金未知。必需数字产品设计实务经验（实习可），课程/自主项目替代规则未公开。多轮面试后至少1个月选考实习，报酬/周投入/在宅未知；独立3个月学生实习条件不能外推。",
           "sortValues": {
             "monthlyJPY": 375000,
             "annualJPY": 4500000,
             "monthlyLabel": "年收÷12",
             "annualLabel": "公布年收",
             "reference": false
-          }
+          },
+          "checkedAt": "2026-11-21"
         }
       ],
       "employeeReviews": {
-        "checkedAt": "2026-11-06",
-        "status": "limited",
-        "summary": "公开页面显示休假消化100%，但加班与评分未公布，且多数内容是面试记录，员工压力情况不足以判断。",
-        "positives": [],
-        "concerns": [
-          "需直接询问设计师实际工时、发布高峰和休假覆盖机制。"
-        ],
-        "overtime": null,
-        "paidLeaveRate": 100,
-        "rating": null,
+        "checkedAt": "2026-11-21",
+        "status": "official_data_and_small_independent_sample",
+        "rating": 4.13,
+        "summary": "官方2026/8/26图表：2025年12月至2026年2月三个月平均14.7h、年休124、有休65%；非全年或设计专项。OpenMoney旧公开8人跨岗样本27h/4.13。",
+        "overtime": {
+          "hoursPerMonth": 27,
+          "sampleSize": 8,
+          "period": null,
+          "note": "OpenMoney2026/8/2旧公开样本，非当前设计新人。"
+        },
         "sources": [
           {
-            "label": "転職会議｜公开员工统计与评价",
-            "url": "https://jobtalk.jp/companies/9435475/jobs"
+            "label": "HERP官方数据",
+            "url": "https://note.herp.co.jp/n/n5b54082fa2b8"
+          },
+          {
+            "label": "OpenMoney公开样本",
+            "url": "https://openmoney.jp/corporations/7643"
           }
         ],
-        "limitations": "员工自愿投稿的跨年份、跨岗位汇总，非28卒设计岗专项；加班和休假指标的回答人数、统计期间未公开。只读取公开概要/节录，未登录或绕过限制。数值为本次打开页面所示，检索缓存与不同页面可能不同；评分为平台5分制。 本次原页13条总记录中10条为面试；100%不代表全体员工普遍达到。"
+        "limitations": "旧Jobtalk100%休假指标样本未知，不替代官方65%；跨岗独立样本和公司三个月数据不平均。"
       }
     },
     {
@@ -2234,7 +2239,7 @@
           "note": "転職会議员工投稿汇总；非固定加班额推算，亦非设计岗或新卒单独统计。"
         },
         "paidLeaveRate": 67.6,
-        "rating": 3.0,
+        "rating": 3,
         "sources": [
           {
             "label": "転職会議｜公开员工统计与评价",
@@ -5005,7 +5010,7 @@
           "annual": "360万円起（300,000円×12，不含奖金；雇主岗位的HERP再版亦标360万円起）。",
           "bonus": "每年1次，按业绩。",
           "overtime": "固定加班费合计对应普通加班40小时及深夜20小时；这是工资计算口径，实际加班时长未知。",
-          "benefits": "社保、双休及节假日；弹性工作制核心时间11:00–16:00，未公布在宅。",
+          "benefits": "东京涩谷，弹性核心11–16；官网通用制度可远程/有在宅手当，但标2025年現在，28设计新人及周频未知。",
           "intern": null,
           "sources": [
             {
@@ -5023,7 +5028,8 @@
             "monthlyLabel": "公布月薪起点（含固定支付）",
             "annualLabel": "月薪×12（不含奖金）",
             "reference": false
-          }
+          },
+          "checkedAt": "2026-11-21"
         }
       ]
     },
@@ -5038,7 +5044,7 @@
           "scope": "27／28卒新卒正社员；修士未单列待遇",
           "monthly": "260,000日元起，雇主将固定加班费计入该月额；剔除63,493日元后的下限算术参考为196,507日元。",
           "annual": "官方预计3,812,000日元起（含每月10,000日在宅或弹性工作津贴）。",
-          "bonus": null,
+          "bonus": "7月、12月年2次；FAQ标准1等级各1.1个月为预定、随业绩评价变化，首年实得不保证。",
           "overtime": "63,493日元起覆盖45小时/月时间外劳动；超出另付。未单列深夜部分；设计团队实绩未核。",
           "benefits": "新宿办公室或在宅；必要的团队活动可能需到办公室。",
           "intern": null,
@@ -5062,7 +5068,9 @@
             "monthlyLabel": "公布月薪下限（是否含固定支付见明细）",
             "annualLabel": "官方预计年收下限",
             "reference": false
-          }
+          },
+          "checkedAt": "2026-11-21",
+          "evidenceNote": "28新卒UIUX可在宅但每周/新人频率未列；官方创意职提交物制作过程中禁止生成AI（文章/图像/声音/代码等），须按当次指南准备。"
         }
       ]
     },
@@ -5204,7 +5212,30 @@
             "reference": false
           }
         }
-      ]
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-21",
+        "status": "public_small_cross_role_sample",
+        "rating": 3.21,
+        "overtime": {
+          "hoursPerMonth": 15,
+          "sampleSize": 19,
+          "period": null,
+          "note": "OpenMoney公开19人跨岗，页面更新2026/10/28；非设计新卒。"
+        },
+        "summary": "公司2025全体正社员平均16.9h；独立19人15h，人员/期间不同；现设计新卒评价未核。",
+        "sources": [
+          {
+            "label": "OpenMoney员工样本",
+            "url": "https://openmoney.jp/corporations/735"
+          },
+          {
+            "label": "官方全社2025OT披露（他岗JD，仅引用全体统计）",
+            "url": "https://hrmos.co/pages/wealthnavi/jobs/500000120"
+          }
+        ],
+        "limitations": "不将他岗45h固定及年俸12分割套到28设计；37条Jobtalk记录中25面试。"
+      }
     },
     {
       "name": "ARSTECH GUILD 株式会社",
@@ -5550,11 +5581,11 @@
         {
           "role": "28卒设计师",
           "scope": "东京修士，クイック雇用、出向ＨＲビジョン",
-          "monthly": "298,500日元/月",
-          "annual": null,
-          "bonus": "年2次",
-          "overtime": "含35小时64,095日元；超出另付。",
-          "benefits": "含东京地域津贴2万；在宅团队适用及频率待核。",
+          "monthly": "303,500日元/月（基本218,332＋固定35小时65,168＋东京地域20,000）",
+          "annual": "3,642,000日元（月薪×12，不含奖金）",
+          "bonus": "年2次（6月/12月），金额未公布；通用制度另有业绩决算奖金",
+          "overtime": "固定35小时65,168日元，超出另付；公司岗位称月均约20小时，另职业数据19.1小时口径待核。",
+          "benefits": "含东京地域津贴20,000；28设计雇主岗位明确每周1–2日在宅，约3–4日出社；新人启用时点未知，首年固定9–18不等于禁在宅。",
           "intern": null,
           "sources": [
             {
@@ -5566,16 +5597,35 @@
               "url": "https://www.openwork.jp/a0C1000000YqY2I/recruit?j=38c9176f796bfb86"
             }
           ],
-          "checkedAt": "2026-11-15",
+          "checkedAt": "2026-11-21",
           "sortValues": {
-            "monthlyJPY": 298500,
-            "annualJPY": null,
-            "monthlyLabel": "298,500日元/月",
-            "annualLabel": null,
+            "monthlyJPY": 303500,
+            "annualJPY": 3642000,
+            "monthlyLabel": "东京修士税前月薪",
+            "annualLabel": "月薪×12，未含奖金",
             "reference": false
           }
         }
-      ]
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-21",
+        "status": "public_cross_role_limited_excerpts",
+        "rating": 4.15,
+        "overtime": {
+          "hoursPerMonth": 25.9,
+          "sampleSize": 13,
+          "period": null,
+          "note": "OpenWork跨岗13人工时回答，非28设计新人。"
+        },
+        "summary": "公开WLB节录有2023–25营业员工肯定休假和周末安排；现设计团队全文未读。",
+        "sources": [
+          {
+            "label": "OpenWork公开员工摘要",
+            "url": "https://www.openwork.jp/company_answer.php?m_id=a0C1000000YqY2I&q_no=6"
+          }
+        ],
+        "limitations": "67是记录数而非人数；制作职旧样本2010年前已离职，不套当前设计。"
+      }
     },
     {
       "name": "株式会社ネクストページ",
@@ -5797,7 +5847,7 @@
           "annual": null,
           "bonus": "每年两次",
           "overtime": "加班另付",
-          "benefits": "东京目黑",
+          "benefits": "东京目黑；首年9:30–17:30、实働7h；2年目依等级可能转弹性/裁量制。28UI新人在宅及周频未公开；修士资格细则需另核。",
           "sources": [
             {
               "label": "公司官方HERP",
@@ -5810,9 +5860,29 @@
             "monthlyLabel": "官方月薪下限",
             "annualLabel": null,
             "reference": false
-          }
+          },
+          "checkedAt": "2026-11-21"
         }
-      ]
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-21",
+        "status": "public_cross_role_summary",
+        "rating": 3.96,
+        "overtime": {
+          "hoursPerMonth": 23.3,
+          "sampleSize": null,
+          "period": null,
+          "note": "転職会議跨岗/跨年；260条记录不是工时人数。"
+        },
+        "summary": "历史行政岗样本肯定工时沟通；2020派遣技术岗个例反映繁忙与休假压力；未核当前28UI新人。",
+        "sources": [
+          {
+            "label": "転職会議公开统计",
+            "url": "https://jobtalk.jp/companies/4811/answers?topic=%E6%AE%8B%E6%A5%AD"
+          }
+        ],
+        "limitations": "当前UI设计团队的实测/独立口碑未核；2025雇主采访的混合制度不保证当前28新人。"
+      }
     },
     {
       "name": "glassy",
@@ -5890,7 +5960,7 @@
           "monthly": "420,000日元起，含出勤手当20,000及固定加班部分",
           "annual": "5,040,000日元起（月额×12，未加奖金）",
           "bonus": "未公布",
-          "overtime": "含固定42小时40分；金额及基本给未拆分。公司称全社月均实际约18小时，设计单独工时未知。",
+          "overtime": "月额含42小时40分固定加班，金额/基本给未拆；公司全体约18h基于2024/1–12，当前设计实际未知。",
           "benefits": "东京涩谷Fukuras；当前设计岗在宅和新人适用未核。",
           "intern": null,
           "sources": [
@@ -5899,7 +5969,7 @@
               "url": "https://recruit.jobcan.jp/gmofh-saiyou/job_offers/2263631?hide_breadcrumb=false&hide_search=false"
             }
           ],
-          "checkedAt": "2026-11-18",
+          "checkedAt": "2026-11-21",
           "sortValues": {
             "monthlyJPY": 420000,
             "annualJPY": 5040000,
@@ -5910,7 +5980,7 @@
         }
       ],
       "employeeReviews": {
-        "checkedAt": "2026-11-18",
+        "checkedAt": "2026-11-21",
         "status": "public_summary",
         "summary": "2024/5员工投稿认为休假较易取、加班不强制，但称无法远程；同日投稿批评评价制度不透明。仅为旧跨岗样本，不代表2028设计岗。",
         "positives": [
@@ -5921,10 +5991,10 @@
         ],
         "rating": 3.2,
         "overtime": {
-          "hoursPerMonth": 20,
-          "sampleSize": 14,
+          "hoursPerMonth": 21,
+          "sampleSize": 15,
           "period": null,
-          "note": "エン公开14名员工汇总，非设计专项；与公司公布约18小时口径分开。"
+          "note": "エン当前公开15人跨岗统计；非设计新人，统计期间未知。"
         },
         "sources": [
           {
@@ -5932,7 +6002,7 @@
             "url": "https://employment.en-japan.com/comp-132782/"
           }
         ],
-        "limitations": "3.2为平台公开14人跨职种评分，评论年代2023–24；未代表当前新卒设计团队。"
+        "limitations": "本轮动态页面15人21h覆盖旧档14人20h；2023–24跨岗评论称出社和评价制度意见，不代表当前28设计。"
       }
     },
     {
@@ -6202,7 +6272,7 @@
       }
     }
   ],
-  "updatedAt": "2026-11-20T15:13:28+09:00",
+  "updatedAt": "2026-11-21T13:08:00+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -7030,13 +7100,13 @@
     },
     "HERP": {
       "tier": "priority",
-      "reason": "28卒产品设计年收450万日元起，官网岗位明确可在宅，配属出社频率待核。",
+      "reason": "28设计年收450万起、可在宅；数字产品实务经验与至少1个月选考实习是门槛，资格需逐人核。",
       "business": "HERP Hire与ジョブミル招聘SaaS",
       "targetRole": "产品设计师｜ジョブミル等",
       "pay": "28卒新卒；另列独立学生实习 375,000日元起（年收÷12的比较折算，非岗位公布月薪） 4,500,000日元起",
       "remote": "28卒官方岗位明确可在宅，东京五反田办公室，频率未列。",
-      "actualOvertime": "目标设计岗与跨岗均无可引工时样本。",
-      "reviews": "现有公开评价资料有限，未获可用设计岗评分。",
+      "actualOvertime": "官方14.7h仅2025年12月至2026年2月三个月，设计专项未知。",
+      "reviews": "OpenMoney旧8人跨岗4.13/5、27h；非当届设计。",
       "sources": [
         {
           "url": "https://herp.careers/v1/herpinc/rOCQ7t221beA",
@@ -8426,14 +8496,14 @@
       ]
     },
     "マイクロニティ／株式会社マイクロニティ": {
-      "tier": "practice",
-      "reason": "沿用面试练习分档。28 卒做 Web 产品 UI/UX，月薪 30 万日元起，在宅安排待核。",
+      "tier": "consider",
+      "reason": "Web产品UIUX匹配且有2025通用远程制度；28新人适用、工时及管理口碑需核，暂列备选。",
       "business": "Web 产品开发与品牌设计。",
       "targetRole": "28 卒设计师，做产品界面、信息架构、功能改进与品牌设计。",
       "pay": "月薪 30 万日元起，基本给 21.8 万；固定普通加班 40 小时与深夜 20 小时合计 7.7 万，另有统一津贴 5,000 日元。按业绩发奖金。",
-      "remote": "当届岗位只列涩谷办公地点与弹性工作制，适用的在宅安排待核。",
+      "remote": "官网通用制度可远程并有在宅手当，标2025年現在；当届设计新人的每周频率未知。",
       "actualOvertime": "设计组实际工时待核。",
-      "reviews": "転職会議跨岗位自报月均 51.7 小时，工时样本和统计期间未标；可见评论混有面试、质量管理等。",
+      "reviews": "転職会議3.0/5、51.7h，人数/期间未知；14记录含面试和集中投稿，历史法人对应未全核，不能直接代表28设计。",
       "sources": [
         {
           "url": "https://herp.careers/v1/micronity/TqlSZYlTyqGP",
@@ -8711,13 +8781,13 @@
     },
     "株式会社ＨＲビジョン（株式会社クイック雇用）": {
       "tier": "consider",
-      "reason": "设计职责有匹配，正式岗位适用的在宅频率或重要待遇仍待核。",
+      "reason": "28设计岗位明确每周1–2日在宅，修士月30.35万；保留认真考虑，新人启用时间待核，移出无在宅练手。",
       "business": "人事媒体、行业活动和数据内容",
       "targetRole": "自有媒体UI与视觉编辑",
-      "pay": "东京修士298,500日元/月，年2次奖金",
-      "remote": "团队安排，设计新人频率待核",
-      "actualOvertime": null,
-      "reviews": null,
+      "pay": "东京修士303,500日元/月=基本218,332＋35小时固定65,168＋地域20,000；奖金年2次。",
+      "remote": "目标28设计雇主JD每周1–2日在宅，团队裁量；新人限制未知。",
+      "actualOvertime": "公司约20h，另职业信息19.1h；OpenWork13人25.9h均非设计新人专项。",
+      "reviews": "OpenWork4.15/5；工时13人25.9h，公开旧营业岗摘要为主。",
       "sources": [
         {
           "label": "28卒设计要项",
