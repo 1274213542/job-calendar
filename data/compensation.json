@@ -6270,9 +6270,62 @@
         ],
         "limitations": "未核到当前新卒产品设计师自己的实际工时或独立员工评价。 聚合工时准确人数与年度分布未公开。 历史跨岗remote频率不能替代当期岗位制度。"
       }
+    },
+    {
+      "name": "BRISK",
+      "aliases": [
+        "株式会社BRISK"
+      ],
+      "roles": [
+        {
+          "role": "Web设计师",
+          "scope": "28卒东京新卒",
+          "monthly": "270,000日元起＋业绩激励",
+          "annual": "按下限×12约324万日元（不含激励）",
+          "bonus": "另有按成果的激励；未公开28卒保证金额",
+          "overtime": "采用裁量劳动制，招聘页称另无加班费；公司披露月均20小时，内部上限35小时。",
+          "benefits": "可混合在宅，招聘页写以远程为主；2025届Web设计师入职半年时每周出社1–3天，28届培训与日数未知。年休约120天，通勤费上限2.5万日元。",
+          "sources": [
+            {
+              "label": "28卒官方设计岗",
+              "url": "https://b-risk.jp/recruit_designer/"
+            },
+            {
+              "label": "设计师入职半年实例",
+              "url": "https://b-risk.jp/blog/2025/09/newgrad6_6th/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 270000,
+            "annualJPY": 3240000,
+            "monthlyLabel": "月薪下限",
+            "annualLabel": "月薪下限×12",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-22",
+        "status": "public_summary",
+        "summary": "転職会議显示2.69分、14条混合记录；自报加班22.5小时/月。",
+        "rating": 2.69,
+        "overtime": {
+          "hoursPerMonth": 22.5,
+          "sampleSize": null,
+          "period": null,
+          "note": "跨岗匿名汇总，不能等同设计新人实测。"
+        },
+        "sources": [
+          {
+            "label": "転職会議公开页面",
+            "url": "https://jobtalk.jp/companies/4212008"
+          }
+        ],
+        "limitations": "样本较少且混有面试记录。"
+      }
     }
   ],
-  "updatedAt": "2026-11-21T13:08:00+09:00",
+  "updatedAt": "2026-11-22T09:31:02+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -8966,6 +9019,12 @@
           "url": "https://jobtalk.jp/companies/6735/answers?topic=%E6%AE%8B%E6%A5%AD"
         }
       ]
+    },
+    "BRISK": {
+      "tier": "consider",
+      "reason": "东京Web／移动端制作与客户方向，招聘页以在宅为主且有设计新卒案例，28团队新人频次和培训未核。",
+      "work": "客户网站及移动端、HTML/CSS和视觉制作",
+      "source": "https://b-risk.jp/recruit_designer/"
     }
   }
 }
