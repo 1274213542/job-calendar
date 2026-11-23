@@ -6323,9 +6323,293 @@
         ],
         "limitations": "样本较少且混有面试记录。"
       }
+    },
+    {
+      "name": "GrowGroup株式会社",
+      "aliases": [
+        "GrowGroup",
+        "グローグループ"
+      ],
+      "roles": [
+        {
+          "role": "28卒Web设计师",
+          "scope": "近期开招的名古屋设计岗；大学卒档明确，修士独立档未公布。",
+          "monthly": "大学卒基本给235,000日元起，每月另有远程补助10,000日元。修士金额待核。",
+          "annual": "大学卒基本给×12为282万日元起，未含补贴、奖金与加班费。",
+          "bonus": "年两次（5、11月），上年度每次约1.9个月基本给，随公司和个人业绩变化。",
+          "overtime": "每分钟全额另付。公司制度页称全公司平均每月不足17小时。",
+          "benefits": "名古屋周一三五出社，周二四可在宅。研修六个月10:00–19:00，研修中在宅起算时间未写。年休130日。",
+          "sources": [
+            {
+              "label": "名古屋28卒Webデザイナー",
+              "url": "https://grow-group.jp/recruit/requirements/new-graduate/designer/"
+            },
+            {
+              "label": "公司工时制度",
+              "url": "https://grow-group.jp/recruit/culture/time/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 235000,
+            "annualJPY": 2820000,
+            "monthlyLabel": "28卒大学档基本给下限；修士未单列",
+            "annualLabel": "大学档基本给×12，不含奖补",
+            "reference": true
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-23",
+        "status": "public_summary",
+        "rating": 3.29,
+        "overtime": {
+          "hoursPerMonth": 17.5,
+          "sampleSize": null,
+          "period": null,
+          "note": "匿名跨岗平均。"
+        },
+        "paidLeaveRate": 90,
+        "summary": "転職会議6条记录含3条面试。约2019年在职的Web设计师提到不同客户的网站和LP带来跨行业经验。",
+        "sources": [
+          {
+            "label": "転職会議公司统计",
+            "url": "https://jobtalk.jp/companies/8321087"
+          },
+          {
+            "label": "设计师匿名投稿",
+            "url": "https://jobtalk.jp/companies/8321087/answers"
+          }
+        ],
+        "limitations": "数据跨职种与年份，记录数包含面试，也未披露工时指标的有效人数。"
+      }
+    },
+    {
+      "name": "株式会社アイデム",
+      "aliases": [
+        "アイデム",
+        "AiDEM"
+      ],
+      "roles": [
+        {
+          "role": "28卒西日本Web制作・Web设计师",
+          "scope": "大阪市西区当届Web制作岗位，学历门槛含大卒以上，未分列修士薪档。",
+          "monthly": "217,120日元（已含自己啓発支援金20,000日元）。",
+          "annual": "公布月薪×12为2,605,440日元，未含额外奖金。",
+          "bonus": "6、12月按业绩发放，金额未公开。",
+          "overtime": "28卒Web制作栏没有列固定加班费或实际工时。大阪同岗中途招聘披露月均20–30小时。",
+          "benefits": "当届制度含全额通勤、按条件的家属及住宅补贴，2026年度休126日；大阪同岗中途可协商每周2天、每月10天远程，新卒起用条件未核。",
+          "sources": [
+            {
+              "label": "西日本28卒募集要项・Web制作",
+              "url": "https://www.aidem.co.jp/job/fresh/recruit/west2028/index.html"
+            },
+            {
+              "label": "大阪Web设计中途岗位的工作制度",
+              "url": "https://doda.jp/DodaFront/View/JobSearchDetail/j_jid__3015944177/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 217120,
+            "annualJPY": 2605440,
+            "monthlyLabel": "Web制作公布月薪（含学习支持金）",
+            "annualLabel": "月薪×12，不含奖金",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-23",
+        "status": "public_summary",
+        "rating": 3.87,
+        "overtime": {
+          "hoursPerMonth": 31.6,
+          "sampleSize": null,
+          "period": null,
+          "note": "跨职种公司自报，不能直接代表西日本设计师。"
+        },
+        "paidLeaveRate": 39.8,
+        "summary": "転職会議实时页面910条评价，含48条面试。",
+        "sources": [
+          {
+            "label": "転職会議公司统计",
+            "url": "https://jobtalk.jp/companies/24484"
+          }
+        ],
+        "limitations": "数据跨职种与年份，记录数包含面试，也未披露工时指标的有效人数。"
+      }
+    },
+    {
+      "name": "株式会社プロアシスト",
+      "aliases": [
+        "プロアシスト",
+        "Proassist"
+      ],
+      "roles": [
+        {
+          "role": "28卒大阪Web制作半日体验",
+          "scope": "仅核到半日Web制作课程；独立28卒正式Web设计岗与相应修士待遇未公开。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": "企业官网披露2025年度全公司月均加班8小时32分钟。",
+          "benefits": "活动大阪线下。企业环境页提及家庭照护时的在宅制度，当届正式设计岗在宅频率未知。",
+          "intern": "4小时，无报酬、交通费及住宿补助，保险不要求。",
+          "sources": [
+            {
+              "label": "雇主刊载的28卒制作课",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=113190&optNo=Y489q"
+            },
+            {
+              "label": "雇主逐场预约页",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?corpId=113190&optNo=meQyzC"
+            },
+            {
+              "label": "公司2025年度工作环境",
+              "url": "https://www.proassist.co.jp/recruit/new-graduate/env/"
+            }
+          ]
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-23",
+        "status": "public_summary",
+        "rating": 3.12,
+        "overtime": {
+          "hoursPerMonth": 6.8,
+          "sampleSize": null,
+          "period": null,
+          "note": "公司跨岗位统计。"
+        },
+        "paidLeaveRate": 66.6,
+        "summary": "転職会議51条评价，含2条面试。",
+        "sources": [
+          {
+            "label": "転職会議公司统计",
+            "url": "https://jobtalk.jp/companies/30259"
+          }
+        ],
+        "limitations": "数据跨职种与年份，记录数包含面试，也未披露工时指标的有效人数。"
+      }
+    },
+    {
+      "name": "原町サイン",
+      "aliases": [
+        "株式会社原町サイン",
+        "株式会社 原町サイン"
+      ],
+      "roles": [
+        {
+          "role": "総合デザイン職",
+          "scope": "福岛；27卒学部参考，28卒修士同岗未公开",
+          "monthly": "27卒学部例190,000日元起，全额为基本工资；28卒修士未公布",
+          "annual": "未公开，奖金金额不详",
+          "bonus": "公司官网注明有奖金，未载次数或金额",
+          "overtime": "27卒岗位无固定加班费。雇主披露全员月均所定外10小时，未列设计职单独数值。",
+          "benefits": "27卒试用3个月同待遇。官网年休124天。公司岗位未披露在宅适用及频率。",
+          "sources": [
+            {
+              "label": "雇主27卒综合设计职",
+              "url": "https://job.rikunabi.com/selection/job_descriptions/43a6ae884f3bc60a/"
+            },
+            {
+              "label": "官网薪资、假期及奖金",
+              "url": "https://haramachi-sign.com/recruit/"
+            },
+            {
+              "label": "福岛县项目中的企业自报",
+              "url": "https://kando-fukushima.jp/companies/3392/"
+            },
+            {
+              "label": "雇主1Day课程与补助",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=296687&optNo=qnZQ1"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 190000,
+            "annualJPY": null,
+            "monthlyLabel": "27卒学部参考",
+            "annualLabel": "未公布",
+            "reference": true
+          },
+          "intern": "28卒标识设计与制作1日体验无报酬。雇主提供午餐及交通补助，交通上限未列；外县参加者有需要时提供住宿，住宿费由企业承担。"
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-23",
+        "status": "public_summary",
+        "summary": "転職会議跨岗3.22分，6条记录包含面试评价，非6名设计师。约2013年印刷岗位员工肯定新人设备培训，约2010年的销售员工提及赶交付与工时记录问题。",
+        "rating": 3.22,
+        "overtime": {
+          "hoursPerMonth": 70,
+          "sampleSize": null,
+          "period": null,
+          "note": "转职平台跨岗投稿汇总，工时样本数与期间未给。雇主全员月均10小时另计。"
+        },
+        "sources": [
+          {
+            "label": "転職会議员工投稿",
+            "url": "https://jobtalk.jp/companies/1839657/answers"
+          }
+        ],
+        "limitations": "岗位、时期不同，无法确定当前设计师实际工时。"
+      }
+    },
+    {
+      "name": "KDDIアジャイル開発センター",
+      "aliases": [
+        "KDDIアジャイル開発センター株式会社",
+        "KAG"
+      ],
+      "roles": [
+        {
+          "role": "服务设计师",
+          "scope": "28卒正式岗位，修士可",
+          "monthly": "按经验和能力决定，未披露月薪数字",
+          "annual": null,
+          "bonus": "每年两次（6月、12月）",
+          "overtime": "时间外、休日和深夜津贴按实际另付；未公布该岗位月均时数。",
+          "benefits": "日本国内可全远程、远程补助；全弹性无核心时间，每天标准7.5小时。",
+          "sources": [
+            {
+              "label": "28卒服务设计岗位和待遇",
+              "url": "https://hrmos.co/pages/kag/jobs/100000301"
+            },
+            {
+              "label": "实际正式申请表",
+              "url": "https://hrmos.co/pages/kag/jobs/100000301/apply"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "当届未公布金额",
+            "annualLabel": "未公布",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-23",
+        "status": "public_summary",
+        "rating": null,
+        "summary": "転職会議有23条含面试的跨岗位记录；工时回答人数未列。",
+        "overtime": {
+          "hoursPerMonth": 20,
+          "sampleSize": null,
+          "period": null,
+          "note": "跨岗位自报，非28设计团队单独数据。"
+        },
+        "sources": [
+          {
+            "label": "転職会議",
+            "url": "https://jobtalk.jp/companies/10520195"
+          }
+        ],
+        "limitations": "不据混合职种和招聘面试记录推算设计师薪资。"
+      }
     }
   ],
-  "updatedAt": "2026-11-22T09:31:02+09:00",
+  "updatedAt": "2026-11-23T09:31:41+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
