@@ -6607,9 +6607,236 @@
         ],
         "limitations": "不据混合职种和招聘面试记录推算设计师薪资。"
       }
+    },
+    {
+      "name": "GMOインターネット株式会社",
+      "aliases": [
+        "GMOインターネット"
+      ],
+      "roles": [
+        {
+          "role": "28卒 クリエイティブ職（设计方向）",
+          "scope": "GMOインターネット株式会社正社员，接受修士，初配预计东京涩谷。",
+          "monthly": "475,001日元（基本给266,000＋预估加班手当113,096＋调整手当95,905，按公告分项相加）",
+          "annual": "5,700,000日元（公告年收，入社后两年保证提示金额）",
+          "bonus": "当届募集未单列奖金。年内四次的是薪资调整。",
+          "overtime": "固定加班手当113,096日元，覆盖40小时。目标团队实际加班未公布。",
+          "benefits": "公司原则出社，因业务可能每周约一天在宅；设计新人及研修期适用待核。",
+          "sources": [
+            {
+              "label": "28卒クリエイティブ職募集要項",
+              "url": "https://internet.gmo/recruit/rookies/entry/creative/?year=2028"
+            },
+            {
+              "label": "28卒クリエイティブ職本选考与报名",
+              "url": "https://gmoap-recruit.snar.jp/jobboard/detail.aspx?id=GmIBR4Ch9I8DviFhR6QhMQ"
+            },
+            {
+              "label": "公司福利及出勤原则",
+              "url": "https://internet.gmo/recruit/workstyle/benefits/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 475001,
+            "annualJPY": 5700000,
+            "monthlyLabel": "月额分项合计",
+            "annualLabel": "当届提示年收",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-23",
+        "status": "public_summary",
+        "rating": 3.5,
+        "summary": "転職会議跨职种汇总；2026年2月一名应用系统设计者称每周在宅两天。",
+        "overtime": {
+          "hoursPerMonth": 33,
+          "sampleSize": null,
+          "period": null,
+          "note": "跨职种投稿，统计期间、样本数及创意团队数据未核到。"
+        },
+        "sources": [
+          {
+            "label": "転職会議，同法人跨职种汇总和个人投稿",
+            "url": "https://jobtalk.jp/companies/1548/answers/8546903"
+          }
+        ],
+        "paidLeaveRate": 61
+      }
+    },
+    {
+      "name": "株式会社大嶌屋",
+      "aliases": [
+        "大嶌屋"
+      ],
+      "roles": [
+        {
+          "role": "28卒广告与包装设计1Day",
+          "scope": "活动面向修士；28卒正式设计岗位待遇未公布。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "本课无报酬，不支付交通费、住宿费。Zoom和熊本本社同一课程。",
+          "sources": [
+            {
+              "label": "雇主发布的广告设计1Day课程",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=229929&optNo=LcxEl"
+            },
+            {
+              "label": "按日期与形式预约",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=229929&optNo=DIOZsC"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
+          }
+        },
+        {
+          "role": "27卒综合职（入职先配客服）",
+          "scope": "前届综合职／大学及大学院参考口径。",
+          "monthly": "190,000日元（基本给）",
+          "annual": null,
+          "bonus": "首年一次，第二年起每年两次，取决于业绩。",
+          "overtime": "无固定加班制度。",
+          "benefits": "交通及住宅津贴有条件。设计新人常态在宅条件未核到。",
+          "sources": [
+            {
+              "label": "27卒综合职招聘待遇",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayPrevEmployment/index?corpId=229929&recruitingCourseId=27010101"
+            },
+            {
+              "label": "雇主发布的全社工时",
+              "url": "https://job.mynavi.jp/28/pc/search/corp229929/outline.html"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 190000,
+            "annualJPY": null,
+            "monthlyLabel": "往届综合职参考",
+            "annualLabel": null,
+            "reference": true
+          }
+        }
+      ],
+      "officialWorkload": {
+        "hoursPerMonth": 5.3,
+        "period": "2025年度",
+        "scope": "全社",
+        "checkedAt": "2026-11-23",
+        "sources": [
+          {
+            "label": "雇主发布的全社工时",
+            "url": "https://job.mynavi.jp/28/pc/search/corp229929/outline.html"
+          }
+        ]
+      },
+      "employeeReviews": {
+        "checkedAt": "2026-11-23",
+        "status": "public_summary",
+        "rating": null,
+        "summary": "2024年一名个人营业职员工提到因育儿可临时在宅，设计岗新人的常态频率未知。雇主另列2025年度全社月均加班5.3小时。",
+        "sources": [
+          {
+            "label": "転職会議员工投稿",
+            "url": "https://jobtalk.jp/companies/7933055/answers"
+          },
+          {
+            "label": "雇主发布的全社工时",
+            "url": "https://job.mynavi.jp/28/pc/search/corp229929/outline.html"
+          }
+        ]
+      }
+    },
+    {
+      "name": "株式会社武揚堂",
+      "aliases": [
+        "武揚堂"
+      ],
+      "roles": [
+        {
+          "role": "28卒线上旅游地图改版／目黑地图实地企划",
+          "scope": "公司公开课程，均接受修士；28卒制作正职待遇待核。",
+          "monthly": null,
+          "annual": null,
+          "bonus": null,
+          "overtime": null,
+          "benefits": null,
+          "intern": "两项体验均无报酬和住宿费。线上无交通费；线下交通费最高3,000日元。",
+          "sources": [
+            {
+              "label": "雇主刊载的线上旅游地图改版课程",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=66026&optNo=31xyl"
+            },
+            {
+              "label": "雇主刊载的目黑地图企划课程",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=66026&optNo=844pv"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": null,
+            "annualLabel": null,
+            "reference": false
+          }
+        },
+        {
+          "role": "27卒制作职（学部参考）",
+          "scope": "公司27卒要项所列2025年4月实绩，修士及28卒同岗金额未核到。",
+          "monthly": "204,000日元（学部，基本给164,000＋一律住宅手当40,000）",
+          "annual": null,
+          "bonus": "每年两次。",
+          "overtime": "无固定加班，另付时间外手当。",
+          "benefits": "制作职新人在宅适用和频率未核到。",
+          "sources": [
+            {
+              "label": "27卒制作职的前届待遇",
+              "url": "https://job.mynavi.jp/27/pc/corpinfo/displayEmployment/index/?corpId=66026&recruitingCourseId=27055108"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 204000,
+            "annualJPY": null,
+            "monthlyLabel": "往届学部参考",
+            "annualLabel": null,
+            "reference": true
+          }
+        }
+      ],
+      "officialWorkload": {
+        "hoursPerMonth": 17.5,
+        "period": "2024年度",
+        "scope": "全社",
+        "checkedAt": "2026-11-23",
+        "sources": [
+          {
+            "label": "雇主刊载的2024年度全社工时",
+            "url": "https://job.mynavi.jp/27/pc/search/corp66026/outline.html?site_preference=pc"
+          }
+        ]
+      },
+      "employeeReviews": {
+        "checkedAt": "2026-11-23",
+        "status": "public_summary",
+        "rating": null,
+        "summary": "公开员工评价页有22条跨职种投稿；设计制作岗新人的工时、在宅与满意度待核。",
+        "sources": [
+          {
+            "label": "员工跨职种投稿",
+            "url": "https://jobcatalog.yahoo.co.jp/company/2002196452/review/"
+          }
+        ]
+      }
     }
   ],
-  "updatedAt": "2026-11-23T09:31:41+09:00",
+  "updatedAt": "2026-11-23T14:01:48+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
