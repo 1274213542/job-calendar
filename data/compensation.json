@@ -6834,9 +6834,131 @@
           }
         ]
       }
+    },
+    {
+      "name": "株式会社クーシー",
+      "aliases": [
+        "クーシー",
+        "COOSY"
+      ],
+      "roles": [
+        {
+          "role": "28卒东京 Webデザイナー",
+          "scope": "年俸制12等分，正式社员。",
+          "monthly": "217,000日元起。基本201,500＋固定加班5,500，两项距招聘标价差10,000日元，详情未说明。",
+          "annual": "按月薪×12折算260.4万日元起，业绩奖金另计。",
+          "bonus": "9月业绩奖金，金额未承诺。",
+          "overtime": "固定加班1小时，5,500日元起，超出另付。公司自报月平均约20小时。",
+          "benefits": "公司说明可按个人情况安排在宅，未公布新卒设计每周在宅天数；试用期后可错峰出勤。",
+          "intern": "终面后安排实习，时长及补贴未公开。",
+          "sources": [
+            {
+              "label": "东京28卒正式岗位",
+              "url": "https://herp.careers/v1/coosytokyo/0197877b-5754-7ffd-8512-ed3df990a2ba"
+            },
+            {
+              "label": "选考与实习FAQ",
+              "url": "https://coosy.co.jp/recruit/faq/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 217000,
+            "annualJPY": 2604000,
+            "monthlyLabel": "28卒东京岗位",
+            "annualLabel": "按月薪×12推算",
+            "reference": false
+          }
+        }
+      ],
+      "officialWorkload": {
+        "hoursPerMonth": 20,
+        "scope": "招聘页公司口径，未分职种，约数",
+        "checkedAt": "2026-11-24",
+        "sources": [
+          {
+            "label": "东京28卒正式岗位",
+            "url": "https://herp.careers/v1/coosytokyo/0197877b-5754-7ffd-8512-ed3df990a2ba"
+          }
+        ]
+      },
+      "employeeReviews": {
+        "checkedAt": "2026-11-24",
+        "rating": null,
+        "status": "historical_only",
+        "summary": "一名2014年以前在职的新卒设计师回忆赶工时加班较多。与现况相距较久，当届团队实际工时仍待核。",
+        "sources": [
+          {
+            "label": "新卒入社设计师的历史匿名投稿",
+            "url": "https://jobcatalog.yahoo.co.jp/company/2001812111/review/"
+          }
+        ]
+      }
+    },
+    {
+      "name": "トヨタ紡織",
+      "aliases": [
+        "トヨタ紡織株式会社",
+        "Toyota Boshoku"
+      ],
+      "roles": [
+        {
+          "role": "事技职修士・设计部五日实习",
+          "scope": "月薪为2026年4月正式入社实绩，28卒设计部合同数额待公布。",
+          "monthly": "2026年4月実績、修士事技职日给月给基本30.1万日元/月，12个月361.2万（不含奖金及加班）；2028正式报价和设计部适用另核。",
+          "annual": "按参考基本月薪乘12为361.2万日元，奖金与加班另计。",
+          "bonus": "奖金年2次，金额未知；超时及休日工作另付。",
+          "overtime": "2025年度单体工会人员所定外21.4小时/月。",
+          "benefits": "事技职有在宅与无核心时段弹性，未公布本部门周几可在宅。",
+          "intern": "无报酬，交通补助，需要时单位安排住宿。",
+          "sources": [
+            {
+              "label": "事技职正式募集与往年实绩",
+              "url": "https://www.tb-recruit.com/recruit/gradu.html"
+            },
+            {
+              "label": "公司ESG数据",
+              "url": "https://www.toyota-boshoku.com/jp/sustainability/data/esg/"
+            },
+            {
+              "label": "工作与制度",
+              "url": "https://www.toyota-boshoku.com/jp/sustainability/social/diversity/"
+            },
+            {
+              "label": "设计部冬季募集",
+              "url": "https://design.toyota-boshoku.com/designrecruit/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 301000,
+            "annualJPY": 3612000,
+            "monthlyLabel": "2026修士实绩",
+            "annualLabel": "基本月薪×12参考",
+            "reference": true
+          }
+        }
+      ],
+      "officialWorkload": {
+        "hoursPerMonth": 21.4,
+        "period": "2025年度",
+        "scope": "单体工会员所定外；非设计部门专属。",
+        "checkedAt": "2026-11-24",
+        "sources": [
+          {
+            "label": "公司ESG数据",
+            "url": "https://www.toyota-boshoku.com/jp/sustainability/data/esg/"
+          }
+        ]
+      },
+      "employeeReviews": {
+        "checkedAt": "2026-11-24",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "尚未核实可代表当期设计部的员工评价。",
+        "sources": []
+      }
     }
   ],
-  "updatedAt": "2026-11-23T14:01:48+09:00",
+  "updatedAt": "2026-11-24T15:19:58+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -9536,6 +9658,18 @@
       "reason": "东京Web／移动端制作与客户方向，招聘页以在宅为主且有设计新卒案例，28团队新人频次和培训未核。",
       "work": "客户网站及移动端、HTML/CSS和视觉制作",
       "source": "https://b-risk.jp/recruit_designer/"
+    },
+    "株式会社クーシー": {
+      "tier": "practice",
+      "reason": "月薪21.7万起，固定加班与实际平均有区分，新卒每周在宅天数未公开。",
+      "work": "Web、UI/UX与品牌视觉",
+      "source": "https://herp.careers/v1/coosytokyo/0197877b-5754-7ffd-8512-ed3df990a2ba"
+    },
+    "トヨタ紡織": {
+      "tier": "consider",
+      "reason": "修士往届待遇明确，设计课题侧重实体座舱与CMF，实习线下。",
+      "work": "汽车座舱产品与色彩、材料、表面处理",
+      "source": "https://design.toyota-boshoku.com/designrecruit/"
     }
   }
 }

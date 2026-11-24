@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T15:14:46+09:00",
+  "updatedAt": "2026-11-24T15:19:58+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -9433,6 +9433,63 @@
       ],
       "milestones": [],
       "nextAction": "申请表要求履历书，岗位要求作品集。通过「その他のファイル」上传PDF或填写作品URL，全部上传文件合计不超过50MB。",
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "id": "activity-redesigner-career-seminar-20261222",
+      "title": "クリエイター就活駆け込み寺｜企业研究与志望动机",
+      "company": "ReDesigner for Student",
+      "category": "activity",
+      "subtype": "求职讲座",
+      "intro": "面向2028至2030年毕业生的90分钟线上讲座，介绍怎样研究企业以及如何写志望动机。",
+      "description": "须提前在主办方活动页报名，报名后显示Zoom链接。公开页面未提供可核实的实际余位。",
+      "status": "公开募集",
+      "attendanceMode": "online",
+      "sources": [
+        {
+          "label": "主办方活动与报名详情",
+          "url": "https://student.redesigner.jp/events/20261222-kakekomidera"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-11-24T12:00",
+          "label": "开放报名"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-22T21:00",
+          "label": "主办方标注的报名截止（日本时间）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-22T19:30",
+          "endDate": "2026-12-22T21:00",
+          "label": "线上讲座（日本时间）"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "activity-redesigner-career-seminar-20261222::2026-12-22T19:30",
+          "eventStart": "2026-12-22T19:30",
+          "eventEnd": "2026-12-22T21:00",
+          "format": "Zoom",
+          "reservationRequired": true,
+          "registrationMethod": "ReDesigner for Student 活动页",
+          "opensAt": "2026-11-24T12:00",
+          "deadline": "2026-12-22T21:00",
+          "firstComeFirstServed": null,
+          "availabilityState": "application_form_open",
+          "availabilityLabel": "主办方提供报名入口，余位未公开。",
+          "availabilitySource": {
+            "label": "正式活动页",
+            "url": "https://student.redesigner.jp/events/20261222-kakekomidera"
+          },
+          "nextAction": "在活动页查看报名入口。"
+        }
+      ],
+      "nextAction": "参加者在活动页预约，随后从该页取得Zoom入口。",
       "checkedAt": "2026-11-24"
     }
   ],
