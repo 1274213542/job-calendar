@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T03:18:33+09:00",
+  "updatedAt": "2026-11-24T15:14:46+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -9292,6 +9292,148 @@
           "nextAction": "本人决定是否听本软件UI分支，再到MyPage选一场并核库存。"
         }
       ]
+    },
+    {
+      "id": "intern-toyota-boshoku-design-5day-202703",
+      "company": "トヨタ紡織株式会社",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "title": "移动空间产品／CMF 五日设计实习",
+      "intro": "从移动空间概念设计做到最终提案，由汽车座舱设计师反馈。",
+      "description": "爱知县现场实习。面向2028年3月毕业的美术、设计系大学生或修士。无报酬，有交通补助，需住宿者由企业安排。",
+      "status": "公开募集",
+      "attendanceMode": "in_person",
+      "sources": [
+        {
+          "label": "设计部募集要项",
+          "url": "https://design.toyota-boshoku.com/designrecruit/"
+        },
+        {
+          "label": "雇主课程与补助说明",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=76039&optNo=dxcDY"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "open",
+          "date": "2026-10-01",
+          "label": "开放报名"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-02-11",
+          "label": "ES、网测、作品集到达截止，钟点未公布"
+        },
+        {
+          "type": "result",
+          "date": "2027-02-25",
+          "label": "预计2月25日前后联络入选者"
+        },
+        {
+          "type": "reference",
+          "date": "2027-03-08",
+          "label": "五日实习，入选后参加",
+          "endDate": "2027-03-12"
+        }
+      ],
+      "nextAction": "MyPage选「デザイン部採用※別選考」，提交ES、参加网测并提交8MB以内的PDF作品集。",
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "id": "briefing-toyota-boshoku-design-2028",
+      "company": "トヨタ紡織株式会社",
+      "category": "briefing",
+      "subtype": "线上企业说明会",
+      "title": "设计部线上说明会｜产品、CMF 与先行开发",
+      "intro": "设计部介绍业务、先行开发、海外活动，并安排提问。",
+      "description": "两场均为日本时间16:30–17:30。12月22日公开表单接受预约申请，需主办方审批。1月12日场已公布日期。",
+      "status": "公开案内",
+      "attendanceMode": "online",
+      "sources": [
+        {
+          "label": "设计部说明会场次",
+          "url": "https://design.toyota-boshoku.com/designrecruit/#infosession"
+        },
+        {
+          "label": "12月22日公开登记表",
+          "url": "https://events.teams.microsoft.com/event/f10ab0bf-196b-490f-be58-7d321fcde40e@e91af347-08b9-41ce-bb76-f3785c28d0cf"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "reference",
+          "date": "2026-12-22T16:30",
+          "label": "线上说明会",
+          "endDate": "2026-12-22T17:30"
+        },
+        {
+          "type": "reference",
+          "date": "2027-01-12T16:30",
+          "label": "线上说明会",
+          "endDate": "2027-01-12T17:30"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-toyota-boshoku-design-2028::2026-12-22T16:30",
+          "eventStart": "2026-12-22T16:30",
+          "eventEnd": "2026-12-22T17:30",
+          "format": "线上",
+          "reservationRequired": true,
+          "registrationMethod": "Teams 公开表，需主办方审批",
+          "deadline": null,
+          "opensAt": null,
+          "firstComeFirstServed": null,
+          "availabilityState": "application_form_open",
+          "availabilityLabel": "已开受理表，名额和受理截止未公布。",
+          "availabilityCheckedAt": "2026-11-24T09:09+09:00",
+          "nextAction": "已开受理表，名额和受理截止未公布。"
+        },
+        {
+          "id": "briefing-toyota-boshoku-design-2028::2027-01-12T16:30",
+          "eventStart": "2027-01-12T16:30",
+          "eventEnd": "2027-01-12T17:30",
+          "format": "线上",
+          "reservationRequired": true,
+          "registrationMethod": "官网预告，报名入口待公布",
+          "deadline": null,
+          "opensAt": null,
+          "firstComeFirstServed": null,
+          "availabilityState": "announced",
+          "availabilityLabel": "已公布场次时间，尚无单独报名链接。",
+          "availabilityCheckedAt": "2026-11-24T09:09+09:00",
+          "nextAction": "已公布场次时间，尚无单独报名链接。"
+        }
+      ],
+      "nextAction": "12月22日场可在主办方Teams登记。1月12日场的独立报名入口待公布。",
+      "checkedAt": "2026-11-24"
+    },
+    {
+      "id": "selection-coosy-web-designer-2028",
+      "company": "株式会社クーシー",
+      "category": "selection",
+      "subtype": "28卒设计本选考",
+      "title": "28卒 Web 设计师｜东京本社",
+      "intro": "为企业设计网站、Web服务和视觉识别，客户包括日本邮便、freee及SUUMO。",
+      "description": "负责Web及品牌概念、UI与视觉设计、信息图和客户沟通。接受2028年3月前大学院毕业生，要求有设计基础，使用过Photoshop和Illustrator。书审后有面试及选考实习，截止日未公布。",
+      "status": "公开募集",
+      "sources": [
+        {
+          "label": "东京新卒职位",
+          "url": "https://herp.careers/v1/coosytokyo/0197877b-5754-7ffd-8512-ed3df990a2ba"
+        },
+        {
+          "label": "设计部职位与各据点入口",
+          "url": "https://coosy.co.jp/recruit/design-division/"
+        },
+        {
+          "label": "东京正式投递表",
+          "url": "https://herp.careers/v1/coosytokyo/0197877b-5754-7ffd-8512-ed3df990a2ba/apply"
+        }
+      ],
+      "milestones": [],
+      "nextAction": "申请表要求履历书，岗位要求作品集。通过「その他のファイル」上传PDF或填写作品URL，全部上传文件合计不超过50MB。",
+      "checkedAt": "2026-11-24"
     }
   ],
   "lastVerifiedAt": "2026-11-19T10:04:52+09:00",
