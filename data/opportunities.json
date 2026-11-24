@@ -136,7 +136,7 @@
           "label": "11/4 ReDesigner本人企业对话及该职位的応募済み状态"
         }
       ],
-      "notes": "原资料：报名开始 已开放；开始日未公布；截止 11/14场：11/07；12/05场：11/28（均未写钟点）；举办 2026-11-14或12-05 10:00–18:00；1天。",
+      "notes": "原资料：报名开始 已开放；开始日未公布；截止 11/14场：11/07；12/05场：11/28 23:59（日本时间）；举办 2026-11-14或12-05 10:00–18:00；1天。",
       "milestones": [
         {
           "type": "deadline",
@@ -145,8 +145,8 @@
         },
         {
           "type": "deadline",
-          "date": "2026-11-28",
-          "label": "12/5场申请截止"
+          "date": "2026-11-28T23:59",
+          "label": "12/5场公司募集截止（日本时间）"
         },
         {
           "type": "event",
@@ -189,8 +189,8 @@
           "reservationRequired": true,
           "registrationMethod": "ReDesigner応募＋企业确认参加办法",
           "opensAt": null,
-          "deadline": "2026-11-28",
-          "deadlineLabel": "按举办前一周推得；未公布钟点",
+          "deadline": "2026-11-28T23:59",
+          "deadlineLabel": "公司12/5场募集截止为11/28 23:59（日本时间）。",
           "firstComeFirstServed": false,
           "availabilityState": "selection_pending",
           "availabilityLabel": "每场约10人，超额可能抽签；本人具体席位未确认",
@@ -2324,7 +2324,7 @@
           "url": "https://hrmos.co/pages/concent/jobs/2301529019589464067"
         }
       ],
-      "notes": "原资料：报名开始 2026-10-26；截止 官网2026-11-30；RD导流11/27，时刻均需相应入口确认；举办 正式招聘。",
+      "notes": "原资料：报名开始 2026-10-26；截止 官网2026-11-30（钟点未公布）；RD导流11/27 23:59（日本时间）；举办 正式招聘。",
       "milestones": [
         {
           "type": "open",
@@ -2333,8 +2333,8 @@
         },
         {
           "type": "deadline",
-          "date": "2026-11-27",
-          "label": "RD导流截止，时刻待核"
+          "date": "2026-11-27T23:59",
+          "label": "ReDesigner导流截止（日本时间）"
         },
         {
           "type": "deadline",
