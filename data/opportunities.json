@@ -6696,8 +6696,8 @@
       "status": "候选／未申请",
       "statusDetail": "11/28东京现场：Mynavi列出预约按钮、先到先得，无选考；12/21仅公司募集页列日期，尚未核到独立可预约入口。",
       "description": "分析现有App使用问题，制作人物画像和用户旅程图，由设计师、工程师和导演等员工反馈。28卒，专业不限，接受设计初学者。",
-      "nextAction": "11/28场从Mynavi预约，11/20截止（钟点未知）。12/21场等公司确认报名方式。",
-      "checkedAt": "2026-11-14",
+      "nextAction": "11/28场从Mynavi预约，11/27截止（钟点未知）。12/21场等公司确认报名方式。",
+      "checkedAt": "2026-11-25",
       "sources": [
         {
           "label": "公司发布的28卒工作体验",
@@ -6732,8 +6732,8 @@
         },
         {
           "type": "deadline",
-          "date": "2026-11-20",
-          "label": "11/28 Mynavi场预约截止（钟点未公布）"
+          "date": "2026-11-27",
+          "label": "11/28场 Mynavi 课程报名截止（钟点未公布）"
         }
       ],
       "registrationSessions": [
@@ -6744,11 +6744,11 @@
           "reservationRequired": true,
           "registrationMethod": "Mynavi选择11/28，先到先得，未显示剩余人数。",
           "opensAt": null,
-          "deadline": "2026-11-20",
+          "deadline": "2026-11-27",
           "firstComeFirstServed": true,
           "availabilityState": "public_reservation_link",
           "availabilityLabel": "预约表显示申请按钮；剩余人数未公开。",
-          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilityCheckedAt": "2026-11-25T09:09:24+09:00",
           "availabilitySource": {
             "label": "Mynavi 11/28 实际预约页",
             "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?optNo=v6G6tC&corpId=266392"
@@ -9491,6 +9491,63 @@
       ],
       "nextAction": "参加者在活动页预约，随后从该页取得Zoom入口。",
       "checkedAt": "2026-11-24"
+    },
+    {
+      "id": "work-suteteko-ec-product-20270208",
+      "company": "すててこ株式会社",
+      "title": "商品部｜EC 商品摄影与商品页制作一日体验",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "候选／未申请",
+      "checkedAt": "2026-11-25",
+      "statusDetail": "2月8日福井本社场显示「申し込む」。先到先得，无筛选面试，满员即止。具体剩余人数和本场报名截止时间未公布。",
+      "description": "测量、检品服饰样品，拍摄商品照片，制作电商商品页，再听员工反馈。",
+      "intro": "福井的内衣服饰电商企业すててこ经营自有网店及大型平台店铺。商品部负责把商品特点落实到图片、文案和页面编排。",
+      "nextAction": "如考虑参加，在 Mynavi 的 2/8 场查看名额并预约。",
+      "notes": "福井县あわら市東善寺9-55，公司本社。08:50–15:30 线下，参加免费、无工资、无交通和住宿补贴。课程总览刊载至2/20，本场未公布独立截止日。",
+      "sources": [
+        {
+          "label": "公司招聘官网",
+          "url": "https://suteteko.jp/recruit/"
+        },
+        {
+          "label": "Mynavi 当届商品部工作体验",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=294966&optNo=2rEho"
+        },
+        {
+          "label": "Mynavi 2月8日场与预约",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?corpId=294966&optNo=EKYR2C"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2027-02-08T08:50",
+          "endDate": "2027-02-08T15:30",
+          "label": "福井あわら本社｜EC 商品摄影与商品页制作"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "work-suteteko-ec-product-20270208::2027-02-08T08:50",
+          "eventStart": "2027-02-08T08:50",
+          "eventEnd": "2027-02-08T15:30",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi 预约，先到先得。",
+          "opensAt": null,
+          "deadline": null,
+          "firstComeFirstServed": true,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "2月8日场显示「申し込む」，实际余位未知。",
+          "availabilityCheckedAt": "2026-11-25T09:09:24+09:00",
+          "availabilitySource": {
+            "label": "Mynavi 单场预约页",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?corpId=294966&optNo=EKYR2C"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "意向确定后查看2月8日场的实时名额。"
+        }
+      ]
     }
   ],
   "lastVerifiedAt": "2026-11-19T10:04:52+09:00",
