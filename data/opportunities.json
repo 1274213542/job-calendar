@@ -9548,6 +9548,123 @@
           "nextAction": "意向确定后查看2月8日场的实时名额。"
         }
       ]
+    },
+    {
+      "id": "selection-atrae-design-2028",
+      "company": "アトラエ",
+      "title": "28卒可｜自有产品设计师",
+      "category": "selection",
+      "subtype": "本选考",
+      "intro": "招聘平台 Green、组织改善服务 Wevox 和商业匹配 App Yenta 的运营公司。设计师从服务企划阶段参与产品体验和界面设计。",
+      "description": "公司通年直招，实际申请表可选择2028年毕业。东京港区麻布十番，可在宅，具体出社频率未公布。",
+      "statusDetail": "官方表单开放，申请期限未公布。书审后有多次个人面试，最终由代表面试。",
+      "nextAction": "查看学历、组织中的角色及关注的其他公司等必填栏；可附履历和作品集链接。",
+      "checkedAt": "2026-11-25",
+      "sources": [
+        {
+          "label": "官方设计师岗位",
+          "url": "https://open.talentio.com/r/1/c/atrae/pages/83960"
+        },
+        {
+          "label": "正式报名表",
+          "url": "https://open.talentio.com/r/1/c/atrae/pages/83960/apply"
+        },
+        {
+          "label": "产品与业务",
+          "url": "https://atrae.co.jp/business/"
+        }
+      ],
+      "milestones": [],
+      "status": "候选"
+    },
+    {
+      "id": "selection-hatena-design-2028",
+      "company": "はてな",
+      "title": "28卒｜Web与手机产品UI/UX设计师",
+      "category": "selection",
+      "subtype": "本选考",
+      "intro": "はてな运营博客和书签服务，并为出版社开发漫画阅读器GigaViewer。设计师参与用户访谈、交互与界面设计、页面实现和发布。",
+      "description": "东京南青山、京都，制度可选日本全国在宅。要求Illustrator、Photoshop及从零编写HTML/CSS的能力。",
+      "statusDetail": "28卒职位和收件表均已开放，未列截止日。后续面试轮数、课题和网测未公布。",
+      "nextAction": "备齐带照片的履历书、400日文字符以上志望动机和附实绩说明的作品集。",
+      "checkedAt": "2026-11-25",
+      "sources": [
+        {
+          "label": "官方28卒入口",
+          "url": "https://hatena.co.jp/recruit/fresh"
+        },
+        {
+          "label": "官方岗位",
+          "url": "https://hatena.co.jp/recruit/fresh/designer"
+        },
+        {
+          "label": "正式报名表",
+          "url": "https://open.talentio.com/r/1/c/hatena/pages/28800/apply"
+        },
+        {
+          "label": "工作制度",
+          "url": "https://hatena.co.jp/recruit/benefits"
+        }
+      ],
+      "milestones": [],
+      "status": "候选"
+    },
+    {
+      "id": "internship-canon-design-202703",
+      "company": "キヤノン",
+      "title": "春季设计实习｜UX设计、设计调研、可用性设计",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "intro": "佳能面向相机、办公、医疗等产品开展设计。三个方向分别做UX与界面提案、用户调研与概念设计、基于测试的软硬件改进。",
+      "description": "2027年3月东京大田区下丸子本社；②UX、⑤设计调研为3/15–19，⑥可用性为3/15–18。课题制作、设计师辅导、作品集交流和发表。",
+      "statusDetail": "申请至2027/1/20，截止时刻未公布。须能获主任教授或担当教员推荐，有就業経験者不在对象内，学生兼职和实习是否计入、各方向能否兼报均未说明。",
+      "nextAction": "在集团MyPage选「デザイン」、答问卷，交5MB以内履历；②⑤另交A3作品集（最多10页/20MB），⑥另交两题共2–5页的A4报告（20MB）。参加时带推荐书与成绩单。",
+      "notes": "书审通过者1/28起收网测通知，须2/14 21:00前完成，2月底前告知结果。按规定给交通费，必要时安排住宿、可前泊，未列日当。",
+      "checkedAt": "2026-11-25",
+      "sources": [
+        {
+          "label": "佳能当期六方向募集与费用",
+          "url": "https://global.canon/ja/employ/new/internship/internship-design.html"
+        },
+        {
+          "label": "28卒集团MyPage",
+          "url": "https://newgraduate.i-web.jpn.com/canon2028/"
+        },
+        {
+          "label": "下丸子本社地点",
+          "url": "https://global.canon/ja/corporate/location.html"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2027-01-20",
+          "label": "问卷及指定申请材料截止，时刻未公布"
+        },
+        {
+          "type": "reference",
+          "date": "2027-01-28",
+          "label": "仅书审通过者｜网测案内自此日起发送"
+        },
+        {
+          "type": "reference",
+          "date": "2027-02-14T21:00",
+          "label": "仅书审通过者｜网测截止"
+        },
+        {
+          "type": "reference",
+          "date": "2027-03-15",
+          "endDate": "2027-03-19",
+          "label": "录取后｜② UX设计、⑤ 设计调研（各5天）"
+        },
+        {
+          "type": "reference",
+          "date": "2027-03-15",
+          "endDate": "2027-03-18",
+          "label": "录取后｜⑥ 可用性设计（4天）"
+        }
+      ],
+      "status": "候选"
     }
   ],
   "lastVerifiedAt": "2026-11-19T10:04:52+09:00",

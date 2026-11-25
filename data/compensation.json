@@ -7066,6 +7066,171 @@
         "summary": "尚未核实可代表当届EC设计岗的员工评价。",
         "sources": []
       }
+    },
+    {
+      "name": "アトラエ",
+      "aliases": [
+        "株式会社アトラエ",
+        "Atrae"
+      ],
+      "roles": [
+        {
+          "role": "通年新卒｜产品设计师（2028年可报）",
+          "scope": "设计岗本选考要项，表单明列2028年。",
+          "monthly": "月薪350,000日元起。",
+          "annual": "月薪下限×12为4,200,000日元，股权报酬另计。",
+          "bonus": "无奖金；预计每期授予股权报酬。每年4月和10月调薪。",
+          "overtime": "本岗固定加班时数及金额未列。公司跨岗位员工自报月均22小时，分布样本5人，设计团队实际工时未知。",
+          "benefits": "东京麻布十番站直结；可远程，频率未列。无核心时段弹性工作制、通勤及按距办公室远近发给的住宅补助。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "设计师正式要项",
+              "url": "https://open.talentio.com/r/1/c/atrae/pages/83960"
+            },
+            {
+              "label": "员工自报工时及分布",
+              "url": "https://openmoney.jp/corporations/2620"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 350000,
+            "annualJPY": 4200000,
+            "monthlyLabel": "正式月薪下限",
+            "annualLabel": "月薪下限×12，未计股权报酬",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-25",
+        "status": "limited",
+        "rating": null,
+        "summary": "OpenMoney同公司5人自报工时分布为20–30小时；平均22小时/月。调查期与新卒设计岗口径未公布。",
+        "overtime": {
+          "hoursPerMonth": 22,
+          "sampleSize": 5,
+          "period": null,
+          "note": "OpenMoney同公司5人自报工时分布为20–30小时；平均22小时/月。调查期与新卒设计岗口径未公布。"
+        },
+        "sources": [
+          {
+            "label": "员工自报数据",
+            "url": "https://openmoney.jp/corporations/2620"
+          }
+        ]
+      }
+    },
+    {
+      "name": "はてな",
+      "aliases": [
+        "株式会社はてな",
+        "Hatena"
+      ],
+      "roles": [
+        {
+          "role": "28卒｜Web与手机产品设计师",
+          "scope": "官网28卒总览链接的新卒设计岗要项。",
+          "monthly": "月薪334,612日元，已含每月20,000日元在宅补助。",
+          "annual": "月额×12为4,015,344日元，另有条件性决算奖。",
+          "bonus": "每年一次决算奖，按业绩与个人评价决定；职位页称近五年有发放。每年2次评估加薪。",
+          "overtime": "本岗未披露固定加班小时或金额。転職会議跨职种员工自报月均22.2小时，工时样本及调查期未列。",
+          "benefits": "东京南青山及京都有办公室；公司制度可住日本全国并每周5日在宅，入社月另给在宅准备金120,000日元，新人OJT有无例外待核。",
+          "intern": null,
+          "sources": [
+            {
+              "label": "设计岗官方待遇",
+              "url": "https://open.talentio.com/r/1/c/hatena/pages/28800"
+            },
+            {
+              "label": "公司工作制度",
+              "url": "https://hatena.co.jp/recruit/benefits"
+            },
+            {
+              "label": "员工自报工时",
+              "url": "https://jobtalk.jp/companies/5086"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 334612,
+            "annualJPY": 4015344,
+            "monthlyLabel": "月额含在宅补助",
+            "annualLabel": "月额×12，决算奖金另计",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-25",
+        "status": "limited",
+        "rating": null,
+        "summary": "転職会議跨岗位工时月均22.2小时，工时样本及调查期未披露，不能代表新卒设计团队。",
+        "overtime": {
+          "hoursPerMonth": 22.2,
+          "sampleSize": null,
+          "period": null,
+          "note": "転職会議跨岗位工时月均22.2小时，工时样本及调查期未披露，不能代表新卒设计团队。"
+        },
+        "sources": [
+          {
+            "label": "员工自报数据",
+            "url": "https://jobtalk.jp/companies/5086"
+          }
+        ]
+      }
+    },
+    {
+      "name": "キヤノン",
+      "aliases": [
+        "キヤノン株式会社",
+        "Canon",
+        "Canon Inc.",
+        "佳能"
+      ],
+      "roles": [
+        {
+          "role": "春季设计实习｜UX、设计调研、可用性；修士新卒参考",
+          "scope": "2027年3月的实习面向2028卒；正式入社待遇参考公司2026年修订新卒标准，未公布28卒设计岗最终条件。",
+          "monthly": "2026年改定修士基准月薪309,000日元，限参考。",
+          "annual": "修士基准月薪×12为3,708,000日元，不含奖金。",
+          "bonus": "公司新卒FAQ列6月、12月两次奖金，金额未公布。",
+          "overtime": "27卒企业招聘记录列无固定加班制度；28设计岗未单列。公司单体2025年平均月加班16.0小时。",
+          "benefits": "实习在东京大田区下丸子本社。公司有远程制度，28卒设计新人适用和频率未披露。",
+          "intern": "学生工资及日当未公布。交通费按公司规定支付，必要时公司安排住宿，可前一晚入住。",
+          "sources": [
+            {
+              "label": "当期实习要项",
+              "url": "https://global.canon/ja/employ/new/internship/internship-design.html"
+            },
+            {
+              "label": "新卒FAQ",
+              "url": "https://global.canon/ja/employ/new/info/faq.html"
+            },
+            {
+              "label": "2025单体加班统计",
+              "url": "https://global.canon/ja/sustainability/data/society/"
+            },
+            {
+              "label": "27卒前届工时制度",
+              "url": "https://job.mynavi.jp/27/pc/search/corp52/recruiting_course27055609/recruiting_course.html?site_preference=smartphone"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 309000,
+            "annualJPY": 3708000,
+            "monthlyLabel": "修士2026年改定参考",
+            "annualLabel": "月薪参考×12，不含奖金",
+            "reference": true
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-25",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "此次未核到本届综合设计中心新人工时口碑。",
+        "sources": []
+      }
     }
   ],
   "updatedAt": "2026-11-25T15:11:36+09:00",
@@ -9780,6 +9945,78 @@
       "reason": "修士往届待遇明确，设计课题侧重实体座舱与CMF，实习线下。",
       "work": "汽车座舱产品与色彩、材料、表面处理",
       "source": "https://design.toyota-boshoku.com/designrecruit/"
+    },
+    "アトラエ": {
+      "tier": "consider",
+      "reason": "可参与自有数字产品上游设计，月薪35万起且允许远程。设计团队的固定加班和出社频率待核。",
+      "business": "招聘平台 Green、组织改善服务 Wevox 和商业匹配 App Yenta 的运营公司。设计师从服务企划阶段参与产品体验和界面设计。",
+      "targetRole": "通年新卒｜产品设计师（2028年可报）",
+      "pay": "月薪350,000日元起。",
+      "remote": "东京麻布十番站直结；可远程，频率未列。无核心时段弹性工作制、通勤及按距办公室远近发给的住宅补助。",
+      "actualOvertime": "本岗固定加班时数及金额未列。公司跨岗位员工自报月均22小时，分布样本5人，设计团队实际工时未知。",
+      "reviews": "OpenMoney同公司5人自报工时分布为20–30小时；平均22小时/月。调查期与新卒设计岗口径未公布。",
+      "sources": [
+        {
+          "label": "设计师正式要项",
+          "url": "https://open.talentio.com/r/1/c/atrae/pages/83960"
+        },
+        {
+          "label": "员工自报工时及分布",
+          "url": "https://openmoney.jp/corporations/2620"
+        }
+      ]
+    },
+    "はてな": {
+      "tier": "consider",
+      "reason": "28卒设计岗和每周五天在宅制度已核。须能从零编写HTML/CSS，设计新人固定加班待核。",
+      "business": "はてな运营博客和书签服务，并为出版社开发漫画阅读器GigaViewer。设计师参与用户访谈、交互与界面设计、页面实现和发布。",
+      "targetRole": "28卒｜Web与手机产品设计师",
+      "pay": "月薪334,612日元，已含每月20,000日元在宅补助。",
+      "remote": "东京南青山及京都有办公室；公司制度可住日本全国并每周5日在宅，入社月另给在宅准备金120,000日元，新人OJT有无例外待核。",
+      "actualOvertime": "本岗未披露固定加班小时或金额。転職会議跨职种员工自报月均22.2小时，工时样本及调查期未列。",
+      "reviews": "転職会議跨岗位工时月均22.2小时，工时样本及调查期未披露，不能代表新卒设计团队。",
+      "sources": [
+        {
+          "label": "设计岗官方待遇",
+          "url": "https://open.talentio.com/r/1/c/hatena/pages/28800"
+        },
+        {
+          "label": "公司工作制度",
+          "url": "https://hatena.co.jp/recruit/benefits"
+        },
+        {
+          "label": "员工自报工时",
+          "url": "https://jobtalk.jp/companies/5086"
+        }
+      ]
+    },
+    "キヤノン": {
+      "tier": "pending",
+      "reason": "课程及交通住宿已公开。正式入社薪资为往届基准，推荐书、就业经历与新卒初配另核。",
+      "business": "佳能面向相机、办公、医疗等产品开展设计。三个方向分别做UX与界面提案、用户调研与概念设计、基于测试的软硬件改进。",
+      "targetRole": "春季设计实习｜UX、设计调研、可用性；修士新卒参考",
+      "pay": "2026年改定修士基准月薪309,000日元，限参考。",
+      "remote": "实习在东京大田区下丸子本社。公司有远程制度，28卒设计新人适用和频率未披露。",
+      "actualOvertime": "27卒企业招聘记录列无固定加班制度；28设计岗未单列。公司单体2025年平均月加班16.0小时。",
+      "reviews": "此次未核到本届综合设计中心新人工时口碑。",
+      "sources": [
+        {
+          "label": "当期实习要项",
+          "url": "https://global.canon/ja/employ/new/internship/internship-design.html"
+        },
+        {
+          "label": "新卒FAQ",
+          "url": "https://global.canon/ja/employ/new/info/faq.html"
+        },
+        {
+          "label": "2025单体加班统计",
+          "url": "https://global.canon/ja/sustainability/data/society/"
+        },
+        {
+          "label": "27卒前届工时制度",
+          "url": "https://job.mynavi.jp/27/pc/search/corp52/recruiting_course27055609/recruiting_course.html?site_preference=smartphone"
+        }
+      ]
     }
   }
 }
