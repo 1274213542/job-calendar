@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-25",
   "companies": [
     {
       "name": "Goodpatch",
@@ -6956,9 +6956,119 @@
         "summary": "尚未核实可代表当期设计部的员工评价。",
         "sources": []
       }
+    },
+    {
+      "name": "PIVOT",
+      "aliases": [
+        "株式会社PIVOT",
+        "(株)PIVOT"
+      ],
+      "roles": [
+        {
+          "role": "UXUI设计师／线下1day UI/UX工作体验",
+          "scope": "28卒对象的1day活动费用已公布。正式薪资引用27卒UXUI设计岗前年度数据（2025年4月实绩，新卒学历一律），28卒正式待遇待公布。",
+          "monthly": "前届参考月薪246,000日元，其中基本工资213,460日元。",
+          "annual": "按前届月薪乘12为2,952,000日元，已含固定加班费，未含奖金和超额加班费。",
+          "bonus": "前届正式岗位列决算奖金，金额未公布。",
+          "overtime": "前届每月固定加班费32,540日元，覆盖20小时，超出另付。",
+          "benefits": "前届招聘列外苑前办公室与依公司规定的远程工作；新人可在宅频率未公布。弹性工时从入社第2年起适用。有在宅津贴、通勤补助（有上限）及助学贷款偿还支持。",
+          "intern": "东京外苑前线下1day UI/UX工作体验无报酬，交通及住宿费用均不补助，课程说明无需投保。",
+          "sources": [
+            {
+              "label": "PIVOT 28卒对象・线下1day课程及费用",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=266392&optNo=WYBQ6"
+            },
+            {
+              "label": "PIVOT 27卒正式岗位、工作方式与奖金",
+              "url": "https://pivot-recruit.snar.jp/jobboard/detail.aspx?id=fQZV-nIlntY"
+            },
+            {
+              "label": "PIVOT 前年度UXUI设计岗初任薪资明细",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayPrevEmployment/index/?corpId=266392&recruitingCourseId=27026228"
+            },
+            {
+              "label": "PIVOT 公司披露的2025年度工时",
+              "url": "https://job.mynavi.jp/28/pc/search/corp266392/outline.html"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 246000,
+            "annualJPY": 2952000,
+            "monthlyLabel": "27卒岗位所载往届实绩",
+            "annualLabel": "前届月薪×12，奖金另计",
+            "reference": true
+          }
+        }
+      ],
+      "officialWorkload": {
+        "hoursPerMonth": 19,
+        "period": "2025年度",
+        "scope": "全公司月均所定外劳动时间，设计部门未单列。",
+        "checkedAt": "2026-11-25",
+        "sources": [
+          {
+            "label": "PIVOT 公司披露的2025年度工时",
+            "url": "https://job.mynavi.jp/28/pc/search/corp266392/outline.html"
+          }
+        ]
+      },
+      "employeeReviews": {
+        "checkedAt": "2026-11-25",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "当届UXUI设计岗的员工评价暂无可核数据。",
+        "sources": []
+      }
+    },
+    {
+      "name": "すててこ株式会社",
+      "aliases": [
+        "すててこ",
+        "Suteteko"
+      ],
+      "roles": [
+        {
+          "role": "商品部 EC创意设计师（一般职）／商品部1day工作体验",
+          "scope": "正式待遇为27卒招聘页所载2026年4月大卒一般职实绩。28卒修士正式待遇未核实。",
+          "monthly": "大卒一般职年休105日方案月薪214,000日元，年休125日方案198,000日元。",
+          "annual": "前届月薪乘12，年休105日方案为2,568,000日元，年休125日方案为2,376,000日元，均不含奖金及加班费。",
+          "bonus": "前届正式岗位列每年两次奖金（6月、12月），金额未公布。",
+          "overtime": "一般职无固定加班费，加班另付。设计岗实际月均加班时数未核实。",
+          "benefits": "前届岗位在福井县芦原市总部工作，28卒新人在宅安排未核实。",
+          "intern": "商品部1day工作体验无报酬，不补助交通或住宿。",
+          "sources": [
+            {
+              "label": "28卒对象・商品部1day体验及费用",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=294966&optNo=2rEho"
+            },
+            {
+              "label": "27卒EC设计岗・年休105日",
+              "url": "https://job.mynavi.jp/27/pc/search/corp294966/recruiting_course27069055/recruiting_course.html?site_preference=pc"
+            },
+            {
+              "label": "27卒EC设计岗・年休125日",
+              "url": "https://job.mynavi.jp/27/pc/corpinfo/displayEmployment/index/?corpId=294966&recruitingCourseId=27069058"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 198000,
+            "annualJPY": 2376000,
+            "monthlyLabel": "27卒大卒一般职・年休125日方案",
+            "annualLabel": "前届较低方案月薪×12，奖金另计",
+            "reference": true
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-25",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "尚未核实可代表当届EC设计岗的员工评价。",
+        "sources": []
+      }
     }
   ],
-  "updatedAt": "2026-11-24T15:19:58+09:00",
+  "updatedAt": "2026-11-25T15:11:36+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
