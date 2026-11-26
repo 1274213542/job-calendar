@@ -9812,6 +9812,66 @@
           "label": "入选后参加大阪现场工作坊（5天）"
         }
       ]
+    },
+    {
+      "id": "intern-buyodo-meguro-map-fieldwork-2028",
+      "company": "株式会社武揚堂",
+      "title": "目黑实地调研与地图版式企划｜东京线下",
+      "category": "internship",
+      "subtype": "短期实习与工作坊",
+      "status": "公开募集",
+      "statusDetail": "12/4 14:00–18:30 东京目黑场已满员。",
+      "intro": "地图与地理空间信息制作公司，为官公厅和交通企业制作防灾、旅游和路线地图，并整备GIS数据。",
+      "description": "修士可参加。小组走访目黑区，筛选信息、提出地图方案、制作纸面版式草图并发表，接受员工反馈。先到先得，无选考。无工资及住宿费；交通费最高3,000日元。",
+      "nextAction": "如需复查空位，可查看マイナビ逐场预约表。",
+      "sources": [
+        {
+          "label": "雇主刊载的目黑地图企划课程",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=66026&optNo=844pv"
+        },
+        {
+          "label": "线下逐场预约表",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?optNo=QUVkvC&corpId=66026"
+        }
+      ],
+      "checkedAt": "2026-11-26",
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-30",
+          "label": "课程总览申请截止（未标时刻）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-04T14:00",
+          "endDate": "2026-12-04T18:30",
+          "label": "东京目黑区碑文谷1-3-25"
+        }
+      ],
+      "notes": "课程总览列出的11/30截止未标时刻。11/26逐场预约表显示12/4线下场「満員」。",
+      "attendanceMode": "in_person",
+      "registrationSessions": [
+        {
+          "id": "intern-buyodo-meguro-map-fieldwork-2028::2026-12-04",
+          "eventStart": "2026-12-04T14:00",
+          "eventEnd": "2026-12-04T18:30",
+          "format": "东京目黑区碑文谷1-3-25",
+          "reservationRequired": true,
+          "registrationMethod": "マイナビ逐场表，先到先得",
+          "opensAt": null,
+          "deadline": null,
+          "deadlineLabel": "课程总览列11/30，逐场截止未公布。",
+          "firstComeFirstServed": true,
+          "availabilityState": "full",
+          "availabilityLabel": "マイナビ逐场预约表标为「満員」。",
+          "availabilitySource": {
+            "label": "线下逐场预约表",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?optNo=QUVkvC&corpId=66026"
+          },
+          "availabilityCheckedAt": "2026-11-26T21:08+09:00",
+          "nextAction": "本场目前满员。"
+        }
+      ]
     }
   ],
   "lastVerifiedAt": "2026-11-19T10:04:52+09:00",

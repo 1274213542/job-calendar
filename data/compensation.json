@@ -7327,6 +7327,70 @@
         "summary": "未核到本岗位的员工评价。",
         "sources": []
       }
+    },
+    {
+      "name": "ニコン",
+      "aliases": [
+        "株式会社ニコン",
+        "Nikon",
+        "尼康"
+      ],
+      "roles": [
+        {
+          "role": "新卒设计职（产品、UX/UI、平面、品牌）",
+          "scope": "株式会社ニコン自2027年4月入社起采用的新卒起薪。27届技术系要项列有设计职。28届设计职的正式招聘条件仍待公布。",
+          "monthly": "修士月薪287,000日元，学士264,000日元。另列确定缴费养老金份额每月30,400日元。",
+          "annual": "修士起薪×12为3,444,000日元，另计奖金、加班费及养老金份额。",
+          "bonus": "27届要项为每年两次，6月、12月发放，金额未公开。",
+          "overtime": "企业刊载的27届技术系要项写明无固定加班制度。2025年度公司平均每月所定外劳动21.7小时。28届设计职的制度和团队实绩待核。",
+          "benefits": "公司有在宅工作和无核心时段的弹性工时制度。设计新人每周可在宅天数未公开。27届要项另列房租补助、年度假日128天、入社首年带薪休假20天。",
+          "intern": "本条为正式员工待遇。未核到28届设计实习的报酬或交通住宿补助。",
+          "sources": [
+            {
+              "label": "修士起薪改定及适用日期",
+              "url": "https://www.jp.nikon.com/company/news/2026/0423_01/"
+            },
+            {
+              "label": "技术系新卒招聘要项",
+              "url": "https://www.jp.nikon.com/company/recruitment/newgraduates/recruit/requirements_tec.html"
+            },
+            {
+              "label": "在宅及弹性工时制度",
+              "url": "https://www.jp.nikon.com/company/recruitment/workstyle/worklife-balance.html"
+            },
+            {
+              "label": "27届技术系固定加班制度",
+              "url": "https://job.mynavi.jp/27/pc/search/corp186/recruiting_course27006693/recruiting_course.html?site_preference=pc"
+            },
+            {
+              "label": "2025年度全公司实际加班",
+              "url": "https://job.mynavi.jp/28/pc/search/corp186/outline.html"
+            },
+            {
+              "label": "设计方向与岗位职责",
+              "url": "https://www.jp.nikon.com/company/recruitment/job/"
+            },
+            {
+              "label": "Z9 相机 UI 设计案例",
+              "url": "https://www.jp.nikon.com/company/design/interviews/04_solving_invisible_issues/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 287000,
+            "annualJPY": 3444000,
+            "monthlyLabel": "2027年4月起修士新卒起薪",
+            "annualLabel": "修士起薪×12，未计奖金",
+            "reference": true
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-26",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "尚无本次可核对的28届设计新人团队工时或员工评分。",
+        "sources": []
+      }
     }
   ],
   "updatedAt": "2026-11-25T15:11:36+09:00",
