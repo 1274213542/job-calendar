@@ -7279,6 +7279,54 @@
         "summary": "未核到新卒设计岗个人评价。",
         "sources": []
       }
+    },
+    {
+      "name": "シャープ",
+      "aliases": [
+        "シャープ株式会社",
+        "SHARP",
+        "夏普"
+      ],
+      "roles": [
+        {
+          "role": "设计工作坊与新卒正职待遇",
+          "scope": "正职薪资为公司公布的2026年度新卒起薪实绩。2028届设计岗薪资尚待公布。",
+          "monthly": "修士毕业月薪312,000日元，大学本科／高专专攻科毕业287,000日元。",
+          "annual": "按修士月薪×12估算为3,744,000日元，未计奖金及加班费。",
+          "bonus": "每年6月、12月发放奖金，金额未公开。每年4月调整工资。",
+          "overtime": "有时间外津贴。全公司2025年度实际平均超出规定工时的加班（所定外労働時間）为每月15.6小时。设计岗均值与固定加班时数未公布。",
+          "benefits": "正式员工为无固定期限合同，试用期原则3个月以内。工作地点为总部及日本各地事业所。设在宅和弹性工时制度，设计岗每周可在宅天数未公开。",
+          "intern": "本次工作坊为大阪现场5天，交通费、住宿费按公司规定支付。报酬或日当未公布。",
+          "sources": [
+            {
+              "label": "新卒薪资、合同及加班实绩",
+              "url": "https://corporate.jp.sharp/recruit/newgraduate/"
+            },
+            {
+              "label": "在宅与弹性工作制度",
+              "url": "https://corporate.jp.sharp/recruit/benefits/"
+            },
+            {
+              "label": "工作坊与交通住宿",
+              "url": "https://design.jp.sharp/workshop/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 312000,
+            "annualJPY": 3744000,
+            "monthlyLabel": "2026年度修士起薪实绩",
+            "annualLabel": "修士起薪×12，未计奖金",
+            "reference": true
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-26",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "未核到本岗位的员工评价。",
+        "sources": []
+      }
     }
   ],
   "updatedAt": "2026-11-25T15:11:36+09:00",
