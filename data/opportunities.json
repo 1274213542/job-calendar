@@ -2724,6 +2724,11 @@
           "type": "test_deadline",
           "date": "2026-12-10T23:59",
           "label": "测试截止：Creative岗位页"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-11-29T23:59",
+          "label": "ReDesigner募集刊登截止（日本时间）；正式ES另至12/1 10:00"
         }
       ],
       "intro": "Accenture 的新卒 Creative 职种招聘，面向创意与设计方向。"
@@ -9665,6 +9670,102 @@
         }
       ],
       "status": "候选"
+    },
+    {
+      "id": "internship-kayac-game-ui-2028",
+      "company": "株式会社カヤック",
+      "category": "internship",
+      "subtype": "学生设计实习",
+      "title": "学生实习｜游戏 UI",
+      "intro": "与策划和程序员共同设计游戏界面与传达信息的动效，兼顾可用性、反馈与表现。",
+      "description": "与策划和程序员共同设计游戏界面与传达信息的动效，兼顾可用性、反馈与表现。游戏 UI 课题为5天。 日期由公司与学生另行协调。",
+      "status": "候选",
+      "statusDetail": "官方为此部门提供独立报名入口，可选择2028年毕业。公开页未注明统一截止时间。",
+      "nextAction": "从相应部门的官方页面查看课题、条件和作品要求。",
+      "checkedAt": "2026-11-26",
+      "sources": [
+        {
+          "label": "岗位与申请入口",
+          "url": "https://www.kayac.com/recruit/intern/works/4"
+        },
+        {
+          "label": "公司新卒招聘",
+          "url": "https://www.kayac.com/recruit/fresh"
+        }
+      ],
+      "milestones": []
+    },
+    {
+      "id": "selection-kayac-game-ui-2028",
+      "company": "株式会社カヤック",
+      "category": "selection",
+      "subtype": "新卒设计师本选考",
+      "title": "28卒本选考｜游戏 UI",
+      "intro": "与策划和程序员共同设计游戏界面与传达信息的动效，兼顾可用性、反馈与表现。",
+      "description": "与策划和程序员共同设计游戏界面与传达信息的动效，兼顾可用性、反馈与表现。 采用通年招聘，常规申请需提交作品集。",
+      "status": "候选",
+      "statusDetail": "官方为此部门提供独立报名入口，可选择2028年毕业。公开页未注明统一截止时间。",
+      "nextAction": "从相应部门的官方页面查看课题、条件和作品要求。",
+      "checkedAt": "2026-11-26",
+      "sources": [
+        {
+          "label": "岗位与申请入口",
+          "url": "https://www.kayac.com/recruit/fresh/works/4"
+        },
+        {
+          "label": "公司新卒招聘",
+          "url": "https://www.kayac.com/recruit/fresh"
+        }
+      ],
+      "milestones": []
+    },
+    {
+      "id": "internship-kayac-web-visual-2028",
+      "company": "株式会社カヤック",
+      "category": "internship",
+      "subtype": "学生设计实习",
+      "title": "学生实习｜Web／广告视觉",
+      "intro": "为广告及互动体验制作视觉、建立内容的整体风格，涉及 Web 等多种媒介。",
+      "description": "为广告及互动体验制作视觉、建立内容的整体风格，涉及 Web 等多种媒介。时长参照公司一般安排1周至1个月，具体由部门协商。 日期由公司与学生另行协调。",
+      "status": "候选",
+      "statusDetail": "官方为此部门提供独立报名入口，可选择2028年毕业。公开页未注明统一截止时间。",
+      "nextAction": "从相应部门的官方页面查看课题、条件和作品要求。",
+      "checkedAt": "2026-11-26",
+      "sources": [
+        {
+          "label": "岗位与申请入口",
+          "url": "https://www.kayac.com/recruit/intern/works/4"
+        },
+        {
+          "label": "公司新卒招聘",
+          "url": "https://www.kayac.com/recruit/fresh"
+        }
+      ],
+      "milestones": []
+    },
+    {
+      "id": "selection-kayac-web-visual-2028",
+      "company": "株式会社カヤック",
+      "category": "selection",
+      "subtype": "新卒设计师本选考",
+      "title": "28卒本选考｜Web／广告视觉",
+      "intro": "为广告及互动体验制作视觉、建立内容的整体风格，涉及 Web 等多种媒介。",
+      "description": "为广告及互动体验制作视觉、建立内容的整体风格，涉及 Web 等多种媒介。 采用通年招聘，常规申请需提交作品集。",
+      "status": "候选",
+      "statusDetail": "官方为此部门提供独立报名入口，可选择2028年毕业。公开页未注明统一截止时间。",
+      "nextAction": "从相应部门的官方页面查看课题、条件和作品要求。",
+      "checkedAt": "2026-11-26",
+      "sources": [
+        {
+          "label": "岗位与申请入口",
+          "url": "https://www.kayac.com/recruit/fresh/works/4"
+        },
+        {
+          "label": "公司新卒招聘",
+          "url": "https://www.kayac.com/recruit/fresh"
+        }
+      ],
+      "milestones": []
     }
   ],
   "lastVerifiedAt": "2026-11-19T10:04:52+09:00",

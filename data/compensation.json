@@ -7231,6 +7231,54 @@
         "summary": "此次未核到本届综合设计中心新人工时口碑。",
         "sources": []
       }
+    },
+    {
+      "name": "カヤック",
+      "aliases": [
+        "株式会社カヤック",
+        "面白法人カヤック",
+        "KAYAC"
+      ],
+      "roles": [
+        {
+          "role": "28卒可応募｜游戏UI设计、Web／广告视觉；学生实习",
+          "scope": "新卒统一募集要项。未另列修士起薪。",
+          "monthly": "新卒每月290,000日元起。",
+          "annual": "起薪×12为3,480,000日元，不含奖金。",
+          "bonus": "每季度一次，金额未公布。每半年一次调薪。",
+          "overtime": "新卒要项未列固定加班费的金额、对应时数或设计岗实际平均加班时长。",
+          "benefits": "正职在镰仓或秋叶原，工作时间9:29–18:29。按公司规定支付通勤交通费，另有镰仓职住邻近补贴。新卒设计师在宅频率未公布。",
+          "intern": "实习原则在镰仓或线上，交通费在上限内全额报销。实习工资／日当未在通用要项列出。",
+          "sources": [
+            {
+              "label": "新卒薪资与福利",
+              "url": "https://www.kayac.com/recruit/fresh/"
+            },
+            {
+              "label": "两类设计岗职责与选考入口",
+              "url": "https://www.kayac.com/recruit/fresh/works/4"
+            },
+            {
+              "label": "实习地点及交通费",
+              "url": "https://www.kayac.com/recruit/intern/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 290000,
+            "annualJPY": 3480000,
+            "monthlyLabel": "新卒起薪",
+            "annualLabel": "起薪×12，不含季度奖金",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-26",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "未核到新卒设计岗个人评价。",
+        "sources": []
+      }
     }
   ],
   "updatedAt": "2026-11-25T15:11:36+09:00",
