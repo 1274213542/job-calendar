@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T12:22:07+09:00",
+  "updatedAt": "2026-11-27T15:03:14+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -10305,6 +10305,87 @@
       "checkedAt": "2026-11-27",
       "statusDetail": "11/30大阪场的预约栏已变为「-」。12/11、12/25、1/7、1/18四个场次仍显示「申し込む」，余位数量未知。",
       "nextAction": "11/30场当前无网上预约按钮。有意前往大阪可查看12/11起的后续场次。"
+    },
+    {
+      "id": "selection-weathernews-2028-design",
+      "company": "株式会社ウェザーニューズ",
+      "category": "selection",
+      "subtype": "28卒本选考｜非工程综合职的设计方向",
+      "title": "28卒 新卒採用｜Web 内容与 UI/UX 设计",
+      "intro": "设计师为气象服务制作 Web 内容及用户界面，属于综合职（工程师以外）的募集方向。",
+      "description": "2028 年毕业的学部生及修士等可报。先交 ES、完成适性检查及编程或信息素养测试，再参加线上一面和海滨幕张线下终面。入社地点为千叶市幕张总部，后续工作地点依配属而定。年薪 432 万日元，月薪 36 万，含交通、住房津贴及 30 小时固定加班费约 6 万，超出另付。公司公布全社实际月均加班约 17 小时，混合办公依部门而异。",
+      "status": "候选",
+      "statusDetail": "11 月 24 日起开放正式申请。各批次截止以当届 MyPage 公告为准。",
+      "nextAction": "从官网进入 28 卒 MyPage 查看本批次期限及材料要求。",
+      "checkedAt": "2026-11-27",
+      "sources": [
+        {
+          "label": "公司官网｜选考流程与待遇",
+          "url": "https://jp.weathernews.com/recruit/newgrads/selection/"
+        },
+        {
+          "label": "企业发布｜28卒综合职（工程师以外）岗位及面试",
+          "url": "https://compass.labbase.jp/company/1680/recruit/60987"
+        }
+      ],
+      "milestones": []
+    },
+    {
+      "id": "briefing-weathernews-labbase-design-20261222",
+      "company": "株式会社ウェザーニューズ",
+      "category": "briefing",
+      "subtype": "线上座谈会｜设计分组",
+      "title": "LabBase 少人数座談会｜デザイン・クリエイティブルーム",
+      "intro": "气象公司的跨职种座谈会，可选择「デザイン・クリエイティブルーム」与员工交流。",
+      "description": "12 月 22 日 Zoom 线上举行，17:30 可入室，17:45 集合，18:00 开场。18:45–19:15 为分组座谈，19:30 结束。不限专业，需开摄像头。公司只对 12 月 1 日的另一场实施参加筛选及本选考书审豁免。",
+      "status": "候选",
+      "statusDetail": "企业列出报名截止为 12 月 16 日，未写钟点。实际余位以预约页为准。",
+      "nextAction": "如有意参加，请先从 12 月 22 日场次页面确认余位并预约。",
+      "checkedAt": "2026-11-27",
+      "sources": [
+        {
+          "label": "LabBase｜12月22日议程与预约入口",
+          "url": "https://compass.labbase.jp/careerevent/ed6a660e-d06b-400a-ac2b-1877f4d744df"
+        },
+        {
+          "label": "企业发布｜报名窗口与两场规则",
+          "url": "https://compass.labbase.jp/company/1680/recruit/61069"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-16",
+          "label": "LabBase 预约截止（钟点未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-22T17:45",
+          "endDate": "2026-12-22T19:30",
+          "label": "Zoom 座谈会，18:45–19:15 可选设计分组"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-weathernews-labbase-design-20261222::2026-12-22T17:45",
+          "eventStart": "2026-12-22T17:45",
+          "eventEnd": "2026-12-22T19:30",
+          "format": "线上 Zoom",
+          "reservationRequired": true,
+          "registrationMethod": "从 LabBase 本场活动页预约。",
+          "opensAt": "2026-11-16",
+          "deadline": "2026-12-16",
+          "firstComeFirstServed": null,
+          "availabilityState": "unknown",
+          "availabilityLabel": "活动页有报名入口，实际余位未公布。",
+          "availabilityCheckedAt": "2026-11-27T15:03:14+09:00",
+          "availabilitySource": {
+            "label": "LabBase｜12月22日议程与预约入口",
+            "url": "https://compass.labbase.jp/careerevent/ed6a660e-d06b-400a-ac2b-1877f4d744df"
+          },
+          "nextAction": "如有意参加，请先从 12 月 22 日场次页面确认余位并预约。"
+        }
+      ]
     }
   ],
   "lastVerifiedAt": "2026-11-19T10:04:52+09:00",
