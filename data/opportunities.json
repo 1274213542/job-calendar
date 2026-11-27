@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T09:10:51+09:00",
+  "updatedAt": "2026-11-27T12:22:07+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -6789,31 +6789,35 @@
       "category": "internship",
       "subtype": "五天设计实习｜官方窗口与个人受理分开",
       "status": "候选／未申请",
-      "statusDetail": "官网申请窗口为11/19起至12/7上午，具体钟点未公布；个人MyPage当前实际受理待核。",
-      "description": "含产品、平面、GUI与易用性方向，通过小组研究和个人设计提案体验设计工作。",
-      "nextAction": "开放后从官方入口核对当期申请按钮与材料细则；已有No.68路线，先查本人是否可并报。",
-      "checkedAt": "2026-11-19",
+      "statusDetail": "官网正在募集，28卒申请人通过 MyPage 办理。公开募集期为11/19至12/7上午。",
+      "description": "在长野县盐尻市广丘事业所参观产品展示中心，经设计师指导，小组研究后个人完成设计提案并发表。产品、平面、GUI、UX、可用性、空间及推广设计等相关专业学生可申请。",
+      "nextAction": "从28卒 MyPage 按该设计项目的说明办理。大学或大学院代表作3件，做成A3横版3页PDF，合计不超过2 MB；官网标12/7上午截止。",
+      "checkedAt": "2026-11-27T12:22:07+09:00",
       "sources": [
         {
-          "label": "官方设计部门冬季实习",
+          "label": "官方设计实习期限、材料及筛选流程",
           "url": "https://www.recruit.epson.jp/newgraduate/internship.html"
         },
         {
-          "label": "官方Entry入口",
+          "label": "28卒实习 Entry／MyPage",
           "url": "https://www.recruit.epson.jp/entry/"
+        },
+        {
+          "label": "当期设计实习招募海报",
+          "url": "https://www.recruit.epson.jp/newgraduate/pdf/design-internship-2027winter.pdf"
         }
       ],
-      "notes": "本人大学或研究生代表作3件，A3横向3页PDF，合计不超过2MB；网测与作品评审通过后面试。无报酬，按规定支持交通和住宿；结果日期未公布。",
+      "notes": "约招10人。择优流程为网测和作品审查，通过后获邀面试。无报酬，交通及住宿按公司标准补助。",
       "milestones": [
         {
           "type": "open",
           "date": "2026-11-19",
-          "label": "官网预告开始受理（时刻未公布）"
+          "label": "官网列出的报名开始日"
         },
         {
           "type": "deadline",
           "date": "2026-12-07",
-          "label": "上午截止（具体时刻未公布）"
+          "label": "设计部申请截止｜官网标12/7上午，公开页未列具体钟点"
         },
         {
           "type": "event",
