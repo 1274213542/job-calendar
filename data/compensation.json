@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-27",
   "companies": [
     {
       "name": "Goodpatch",
@@ -7391,9 +7391,128 @@
         "summary": "尚无本次可核对的28届设计新人团队工时或员工评分。",
         "sources": []
       }
+    },
+    {
+      "name": "株式会社ウェザーニューズ",
+      "aliases": [
+        "ウェザーニューズ",
+        "Weathernews",
+        "Weather News"
+      ],
+      "roles": [
+        {
+          "role": "28卒 综合职｜设计岗位",
+          "scope": "非工程类综合职包含设计，薪酬按综合职口径。",
+          "monthly": "月36万日元，已含交通、住宅补贴及固定加班费。",
+          "annual": "年俸432万日元，分12次发放。",
+          "bonus": "按业绩发放，金额未公布。",
+          "overtime": "已含每月30小时固定加班费约6万日元，超时另付。公司公布全社实际加班月均约17小时。",
+          "benefits": "有在宅和弹性工时制度。设计新人在宅天数、初配地点未公开。正式工作地点包括千叶幕张本社及国内外据点。",
+          "intern": "本条待遇指入社后的正式岗位。",
+          "sources": [
+            {
+              "label": "28卒综合职招聘条件及选考",
+              "url": "https://jp.weathernews.com/recruit/newgrads/selection/"
+            },
+            {
+              "label": "28卒设计师座谈",
+              "url": "https://weathernews.jp/news/202611/200241/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": 360000,
+            "annualJPY": 4320000,
+            "reference": false,
+            "monthlyLabel": "28卒非工程综合职月薪（含补贴及固定加班）",
+            "annualLabel": "28卒非工程综合职年俸"
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-27",
+        "status": "public_summary",
+        "rating": 3.4,
+        "summary": "Yahoo!しごとカタログ公司整体3.4/5，页面列63条评价，跨岗月均加班22.5小时。具体工时样本数、调查期间未公开。",
+        "overtime": {
+          "hoursPerMonth": 22.5,
+          "sampleSize": null,
+          "period": null,
+          "note": "公司整体跨岗投稿；设计团队情况待核。"
+        },
+        "sources": [
+          {
+            "label": "员工综合评价与工时（Yahoo!しごとカタログ）",
+            "url": "https://jobcatalog.yahoo.co.jp/company/1000001467/"
+          }
+        ],
+        "limitations": "员工投稿口径与新卒设计组实际排班分开。"
+      }
+    },
+    {
+      "name": "株式会社viviON",
+      "aliases": [
+        "viviON",
+        "ヴィヴィオン"
+      ],
+      "roles": [
+        {
+          "role": "28卒 UI/UXデザイナー",
+          "scope": "公司拟于12月上旬发布28卒设计职细则。",
+          "monthly": "该届设计职起薪待公布。",
+          "annual": "该届设计职年收待公布。",
+          "bonus": "通用制度为每年1次调薪、2次奖金。",
+          "overtime": "固定加班费、包含时数及28卒设计组实际加班待公布。",
+          "benefits": "总部在东京千代田区神田練塀町300。新卒前半年每周5天出社，其后可与上司商量在宅。",
+          "intern": "本条待遇指入社后的正式岗位。",
+          "sources": [
+            {
+              "label": "公司新卒 FAQ",
+              "url": "https://vivion.jp/recruit_fresh/faq/"
+            },
+            {
+              "label": "28卒职种目录",
+              "url": "https://public.n-ats.hrmos.co/vivion-fresh/pages/2202331961214312448"
+            },
+            {
+              "label": "UI/UX设计师说明会",
+              "url": "https://public.n-ats.hrmos.co/vivion-fresh/events/2331621820979560449"
+            },
+            {
+              "label": "新卒通用流程",
+              "url": "https://vivion.jp/recruit_fresh/selection/process/"
+            }
+          ],
+          "sortValues": {
+            "monthlyJPY": null,
+            "annualJPY": null,
+            "monthlyLabel": "28卒设计职待公布",
+            "annualLabel": "28卒设计职待公布",
+            "reference": false
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-27",
+        "status": "public_summary",
+        "rating": 2.66,
+        "summary": "転職会議公司整体2.66/5，跨岗员工投稿月均加班23.8小时。具体工时样本数、调查期间未公开。",
+        "overtime": {
+          "hoursPerMonth": 23.8,
+          "sampleSize": null,
+          "period": null,
+          "note": "公司整体跨岗投稿；设计团队情况待核。"
+        },
+        "sources": [
+          {
+            "label": "员工综合评价与工时（転職会議）",
+            "url": "https://jobtalk.jp/companies/10430040"
+          }
+        ],
+        "limitations": "员工投稿口径与新卒设计组实际排班分开。"
+      }
     }
   ],
-  "updatedAt": "2026-11-25T15:11:36+09:00",
+  "updatedAt": "2026-11-27T12:24:00+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -10175,6 +10294,58 @@
         {
           "label": "27卒前届工时制度",
           "url": "https://job.mynavi.jp/27/pc/search/corp52/recruiting_course27055609/recruiting_course.html?site_preference=smartphone"
+        }
+      ]
+    },
+    "株式会社ウェザーニューズ": {
+      "tier": "priority",
+      "reason": "设计综合职薪资已公布，有在宅制度。初配地点及新人的在宅天数待核。",
+      "business": "提供天气预报、防灾及交通气象服务。设计方向包括 Web 内容和 UI/UX。",
+      "targetRole": "28卒 综合职｜设计岗位",
+      "pay": "年俸432万日元，分12次发放。月36万日元，已含交通、住宅补贴及固定加班费。",
+      "remote": "有在宅和弹性工时制度。设计新人在宅天数、初配地点未公开。正式工作地点包括千叶幕张本社及国内外据点。",
+      "actualOvertime": "已含每月30小时固定加班费约6万日元，超时另付。公司公布全社实际加班月均约17小时。",
+      "reviews": "Yahoo!しごとカタログ公司整体3.4/5，页面列63条评价，跨岗月均加班22.5小时。具体工时样本数、调查期间未公开。",
+      "sources": [
+        {
+          "label": "28卒综合职招聘条件及选考",
+          "url": "https://jp.weathernews.com/recruit/newgrads/selection/"
+        },
+        {
+          "label": "28卒设计师座谈",
+          "url": "https://weathernews.jp/news/202611/200241/"
+        },
+        {
+          "label": "员工综合评价与工时（Yahoo!しごとカタログ）",
+          "url": "https://jobcatalog.yahoo.co.jp/company/1000001467/"
+        }
+      ]
+    },
+    "株式会社viviON": {
+      "tier": "consider",
+      "reason": "数字内容产品 UI/UX 对口。新人半年需全勤出社，28卒设计职薪资待公布。",
+      "business": "运营数字内容服务DLsite及电子漫画comipo。设计师参与娱乐服务的界面、用户体验和产品改进。",
+      "targetRole": "28卒 UI/UXデザイナー",
+      "pay": "该届设计职起薪待公布。通用制度为每年1次调薪、2次奖金。",
+      "remote": "总部在东京千代田区神田練塀町300。新卒前半年每周5天出社，其后可与上司商量在宅。",
+      "actualOvertime": "固定加班费、包含时数及28卒设计组实际加班待公布。",
+      "reviews": "転職会議公司整体2.66/5，跨岗员工投稿月均加班23.8小时。具体工时样本数、调查期间未公开。",
+      "sources": [
+        {
+          "label": "公司新卒 FAQ",
+          "url": "https://vivion.jp/recruit_fresh/faq/"
+        },
+        {
+          "label": "28卒职种目录",
+          "url": "https://public.n-ats.hrmos.co/vivion-fresh/pages/2202331961214312448"
+        },
+        {
+          "label": "UI/UX设计师说明会",
+          "url": "https://public.n-ats.hrmos.co/vivion-fresh/events/2331621820979560449"
+        },
+        {
+          "label": "员工综合评价与工时（転職会議）",
+          "url": "https://jobtalk.jp/companies/10430040"
         }
       ]
     }
