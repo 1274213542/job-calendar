@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T15:03:14+09:00",
+  "updatedAt": "2026-11-27T21:10:56+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -10384,6 +10384,192 @@
             "url": "https://compass.labbase.jp/careerevent/ed6a660e-d06b-400a-ac2b-1877f4d744df"
           },
           "nextAction": "如有意参加，请先从 12 月 22 日场次页面确认余位并预约。"
+        }
+      ]
+    },
+    {
+      "id": "activity-nintendo-hardware-product-portfolio-202612",
+      "company": "任天堂株式会社",
+      "title": "硬件产品设计师座谈及作品集咨询",
+      "category": "activity",
+      "subtype": "设计岗位说明会或作品集反馈",
+      "status": "候选／未预约",
+      "description": "28卒修士可报，交ES和实体产品作品，超额书审。两场同内容，最后只参加一场，12/11前出结果，远方交通按规。",
+      "intro": "28卒修士可报，交ES和实体产品作品，超额书审。两场同内容，最后只参加一场，12/11前出结果，远方交通按规。",
+      "nextAction": "核对兴趣、地点及冲突后从官方入口办理。",
+      "checkedAt": "2026-11-27T21:10:56+09:00",
+      "sources": [
+        {
+          "label": "当期官方入口",
+          "url": "https://www.nintendo.co.jp/jobs/recruit/event/design_product.html"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-11-30T12:00",
+          "label": "当期正式申请截止"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-21T12:30",
+          "endDate": "2026-12-21T16:00",
+          "label": "候选｜京都本社开发栋"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-22T12:30",
+          "endDate": "2026-12-22T16:00",
+          "label": "候选｜京都本社开发栋"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "activity-nintendo-hardware-product-portfolio-202612::2026-12-21T12:30",
+          "eventStart": "2026-12-21T12:30",
+          "eventEnd": "2026-12-21T16:00",
+          "format": "京都本社开发栋",
+          "reservationRequired": true,
+          "registrationMethod": "按当期官方指引申请该场次",
+          "deadline": "2026-11-30T12:00",
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityCheckedAt": "2026-11-27T21:10:56+09:00",
+          "availabilitySource": {
+            "label": "当期官方入口",
+            "url": "https://www.nintendo.co.jp/jobs/recruit/event/design_product.html"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "按官网手续确认余位并申请。"
+        },
+        {
+          "id": "activity-nintendo-hardware-product-portfolio-202612::2026-12-22T12:30",
+          "eventStart": "2026-12-22T12:30",
+          "eventEnd": "2026-12-22T16:00",
+          "format": "京都本社开发栋",
+          "reservationRequired": true,
+          "registrationMethod": "按当期官方指引申请该场次",
+          "deadline": "2026-11-30T12:00",
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityCheckedAt": "2026-11-27T21:10:56+09:00",
+          "availabilitySource": {
+            "label": "当期官方入口",
+            "url": "https://www.nintendo.co.jp/jobs/recruit/event/design_product.html"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "按官网手续确认余位并申请。"
+        }
+      ]
+    },
+    {
+      "id": "briefing-colopl-designer-2028-202612",
+      "company": "株式会社コロプラ",
+      "title": "28卒游戏设计师线上说明会",
+      "category": "activity",
+      "subtype": "设计岗位说明会或作品集反馈",
+      "status": "候选／未预约",
+      "description": "设计职位、工作方式和问答，两场先到先得，无作品集要求。逐场截止和余位未公布。",
+      "intro": "设计职位、工作方式和问答，两场先到先得，无作品集要求。逐场截止和余位未公布。",
+      "nextAction": "核对兴趣、地点及冲突后从官方入口办理。",
+      "checkedAt": "2026-11-27T21:10:56+09:00",
+      "sources": [
+        {
+          "label": "当期官方入口",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=95459&optNo=6WEcaC"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-09T15:10",
+          "endDate": "2026-12-09T16:30",
+          "label": "候选｜线上"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-18T11:10",
+          "endDate": "2026-12-18T12:30",
+          "label": "候选｜线上"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-colopl-designer-2028-202612::2026-12-09T15:10",
+          "eventStart": "2026-12-09T15:10",
+          "eventEnd": "2026-12-09T16:30",
+          "format": "线上",
+          "reservationRequired": true,
+          "registrationMethod": "按当期官方指引申请该场次",
+          "deadline": null,
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityCheckedAt": "2026-11-27T21:10:56+09:00",
+          "availabilitySource": {
+            "label": "当期官方入口",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=95459&optNo=6WEcaC"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "按官网手续确认余位并申请。"
+        },
+        {
+          "id": "briefing-colopl-designer-2028-202612::2026-12-18T11:10",
+          "eventStart": "2026-12-18T11:10",
+          "eventEnd": "2026-12-18T12:30",
+          "format": "线上",
+          "reservationRequired": true,
+          "registrationMethod": "按当期官方指引申请该场次",
+          "deadline": null,
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityCheckedAt": "2026-11-27T21:10:56+09:00",
+          "availabilitySource": {
+            "label": "当期官方入口",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=95459&optNo=6WEcaC"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "按官网手续确认余位并申请。"
+        }
+      ]
+    },
+    {
+      "id": "briefing-sumaidia-creative-prerequisite-20261202",
+      "company": "株式会社スマイディア",
+      "title": "线上创意实作必参加前置说明会",
+      "category": "activity",
+      "subtype": "设计岗位说明会或作品集反馈",
+      "status": "候选／未预约",
+      "description": "先参加说明，再交ES及作品集；书审通过后在12/18或1/13线上实作。余位和前置截止未公布。",
+      "intro": "先参加说明，再交ES及作品集；书审通过后在12/18或1/13线上实作。余位和前置截止未公布。",
+      "nextAction": "核对兴趣、地点及冲突后从官方入口办理。",
+      "checkedAt": "2026-11-27T21:10:56+09:00",
+      "sources": [
+        {
+          "label": "当期官方入口",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=94836&optNo=pEwUYC"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2026-12-02T16:00",
+          "endDate": "2026-12-02T17:00",
+          "label": "候选｜线上"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "briefing-sumaidia-creative-prerequisite-20261202::2026-12-02T16:00",
+          "eventStart": "2026-12-02T16:00",
+          "eventEnd": "2026-12-02T17:00",
+          "format": "线上",
+          "reservationRequired": true,
+          "registrationMethod": "按当期官方指引申请该场次",
+          "deadline": null,
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityCheckedAt": "2026-11-27T21:10:56+09:00",
+          "availabilitySource": {
+            "label": "当期官方入口",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=94836&optNo=pEwUYC"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "按官网手续确认余位并申请。"
         }
       ]
     }
