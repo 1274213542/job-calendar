@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T21:10:56+09:00",
+  "updatedAt": "2026-11-28T10:01:34+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -6699,10 +6699,10 @@
       "category": "activity",
       "subtype": "UI/UX工作坊",
       "status": "候选／未申请",
-      "statusDetail": "11/28东京现场：Mynavi列出预约按钮、先到先得，无选考；12/21仅公司募集页列日期，尚未核到独立可预约入口。",
+      "statusDetail": "11/28场的实际预约栏已改为「-」。课程总览仍列11/28截止。12/21仅见公司公布日期，独立预约入口待核。",
       "description": "分析现有App使用问题，制作人物画像和用户旅程图，由设计师、工程师和导演等员工反馈。28卒，专业不限，接受设计初学者。",
-      "nextAction": "11/28东京北青山场从Mynavi预约。课程页截止已延至11/28，具体钟点和余位未知。12/21场等公司确认预约方式。",
-      "checkedAt": "2026-11-27",
+      "nextAction": "11/28场当前无可办理预约按钮。可查看12/21场的企业后续案内。",
+      "checkedAt": "2026-11-28T10:01:34+09:00",
       "sources": [
         {
           "label": "公司发布的28卒工作体验",
@@ -6726,7 +6726,7 @@
         {
           "type": "event",
           "date": "2026-11-28T13:00",
-          "label": "候选：东京北青山线下",
+          "label": "东京北青山｜预约栏无按钮",
           "endDate": "2026-11-28T17:00"
         },
         {
@@ -6751,15 +6751,15 @@
           "opensAt": null,
           "deadline": "2026-11-28",
           "firstComeFirstServed": true,
-          "availabilityState": "registration_link_visible_seats_unknown",
-          "availabilityLabel": "11/28场仍显示「申し込む」，未公布余位。",
-          "availabilityCheckedAt": "2026-11-27T09:00:19+09:00",
+          "availabilityState": "no_registration_action",
+          "availabilityLabel": "11/28 13:00场当前为「-」，关闭原因、确切关闭时间和剩余席数未知。",
+          "availabilityCheckedAt": "2026-11-28T10:01:34+09:00",
           "availabilitySource": {
-            "label": "Mynavi 11/28 实际预约页",
-            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?optNo=v6G6tC&corpId=266392"
+            "label": "11/28实际逐场页",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=266392&optNo=v6G6tC"
           },
           "bookingStage": "未申请／未预约",
-          "nextAction": "Mynavi选择11/28，先到先得，未显示剩余人数。"
+          "nextAction": "当前逐场页无预约按钮。"
         },
         {
           "id": "workshop-pivot-2028-uiux-1day::2026-12-21T13:00",
@@ -7194,11 +7194,11 @@
       "category": "activity",
       "subtype": "设计说明会",
       "status": "候选／未申请",
-      "statusDetail": "面向包含28卒修士的学生，需预约，满额关闭；每场提前3天截止，钟点未公开。",
+      "statusDetail": "面向28卒学生含修士，线上需逐场预约，满额可早关。",
       "intro": "做电视节目美术、布景、灯光、CG和电视图形，也做展会及企业宣传。",
       "description": "Teams讲解电视图形、布景、CG等职业及案例，非实习或正式选考。",
-      "nextAction": "最早仍显示报名入口的是11/21 14:00，按11/18日期截止；同内容可择另一场。",
-      "checkedAt": "2026-11-14",
+      "nextAction": "12/2、12/5上午或下午、12/11均有预约入口。按场提前3天，钟点和余位未公布。",
+      "checkedAt": "2026-11-28T10:01:34+09:00",
       "sources": [
         {
           "label": "公司官方说明会",
@@ -7358,15 +7358,15 @@
           "opensAt": null,
           "deadline": "2026-11-29",
           "firstComeFirstServed": true,
-          "availabilityState": "public_reservation_link",
-          "availabilityLabel": "预约表显示可申请，人数未公开。",
-          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityLabel": "逐场表显示「申し込む」，登录后实际余位未确认。",
+          "availabilityCheckedAt": "2026-11-28T10:01:34+09:00",
           "availabilitySource": {
-            "label": "Mynavi逐场预约",
-            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+            "label": "雇主11/28更新的逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=92606&optNo=7FPBhC"
           },
           "bookingStage": "未申请／未预约",
-          "nextAction": "Mynavi选一场，先到先得。"
+          "nextAction": "在Mynavi选择一场报名，按举办前3天截止，钟点未注明。"
         },
         {
           "id": "briefing-ntv-art-2028-online::2026-12-05T11:00",
@@ -7377,15 +7377,15 @@
           "opensAt": null,
           "deadline": "2026-12-02",
           "firstComeFirstServed": true,
-          "availabilityState": "public_reservation_link",
-          "availabilityLabel": "预约表显示可申请，人数未公开。",
-          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityLabel": "逐场表显示「申し込む」，登录后实际余位未确认。",
+          "availabilityCheckedAt": "2026-11-28T10:01:34+09:00",
           "availabilitySource": {
-            "label": "Mynavi逐场预约",
-            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+            "label": "雇主11/28更新的逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=92606&optNo=7FPBhC"
           },
           "bookingStage": "未申请／未预约",
-          "nextAction": "Mynavi选一场，先到先得。"
+          "nextAction": "在Mynavi选择一场报名，按举办前3天截止，钟点未注明。"
         },
         {
           "id": "briefing-ntv-art-2028-online::2026-12-05T14:00",
@@ -7396,15 +7396,15 @@
           "opensAt": null,
           "deadline": "2026-12-02",
           "firstComeFirstServed": true,
-          "availabilityState": "public_reservation_link",
-          "availabilityLabel": "预约表显示可申请，人数未公开。",
-          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityLabel": "逐场表显示「申し込む」，登录后实际余位未确认。",
+          "availabilityCheckedAt": "2026-11-28T10:01:34+09:00",
           "availabilitySource": {
-            "label": "Mynavi逐场预约",
-            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+            "label": "雇主11/28更新的逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=92606&optNo=7FPBhC"
           },
           "bookingStage": "未申请／未预约",
-          "nextAction": "Mynavi选一场，先到先得。"
+          "nextAction": "在Mynavi选择一场报名，按举办前3天截止，钟点未注明。"
         },
         {
           "id": "briefing-ntv-art-2028-online::2026-12-11T18:00",
@@ -7415,15 +7415,15 @@
           "opensAt": null,
           "deadline": "2026-12-08",
           "firstComeFirstServed": true,
-          "availabilityState": "public_reservation_link",
-          "availabilityLabel": "预约表显示可申请，人数未公开。",
-          "availabilityCheckedAt": "2026-11-14T09:18:15+09:00",
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityLabel": "逐场表显示「申し込む」，登录后实际余位未确认。",
+          "availabilityCheckedAt": "2026-11-28T10:01:34+09:00",
           "availabilitySource": {
-            "label": "Mynavi逐场预约",
-            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=7FPBhC&corpId=92606"
+            "label": "雇主11/28更新的逐场预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=92606&optNo=7FPBhC"
           },
           "bookingStage": "未申请／未预约",
-          "nextAction": "Mynavi选一场，先到先得。"
+          "nextAction": "在Mynavi选择一场报名，按举办前3天截止，钟点未注明。"
         }
       ],
       "attendanceMode": "online"
@@ -10570,6 +10570,129 @@
           },
           "bookingStage": "候选／未预约",
           "nextAction": "按官网手续确认余位并申请。"
+        }
+      ]
+    },
+    {
+      "id": "workshop-mc-craft-exhibition-design-2028-20270114",
+      "company": "株式会社MCクラフト",
+      "title": "28卒｜展会空间设计 1Day",
+      "category": "internship",
+      "subtype": "空间与体验设计实作（免作品集审查）",
+      "status": "候选／未申请",
+      "checkedAt": "2026-11-28T10:01:34+09:00",
+      "description": "面向2028卒学生含修士。小组访谈客户、提出展位设计方案、发表并听取反馈。",
+      "intro": "面向2028卒学生含修士。小组访谈客户、提出展位设计方案、发表并听取反馈。",
+      "statusDetail": "1/14场显示「申し込む」，余位数量未公开。",
+      "nextAction": "Mynavi选场，先到先得，无材料审核或面试。",
+      "notes": "新卒空间设计团队参与企业展位及展示制作。1Day无报酬，每日交通费最高3,000日元，住宿不补。",
+      "sources": [
+        {
+          "label": "雇主课程及参加要求",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=254531&optNo=ReinX"
+        },
+        {
+          "label": "雇主具体场次预约",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=254531&optNo=MI5PyC"
+        },
+        {
+          "label": "往届设计岗位待遇",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayPrevEmployment/index/?corpId=254531&recruitingCourseId=27020436"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2027-01-14T10:00",
+          "endDate": "2027-01-14T17:00",
+          "label": "东京中央区｜展位实作"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-01-12",
+          "label": "1Day申请截止（无公开钟点）"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-mc-craft-exhibition-design-2028-20270114::2027-01-14T10:00",
+          "eventStart": "2027-01-14T10:00",
+          "eventEnd": "2027-01-14T17:00",
+          "format": "东京中央区借用活动空间，具体地址待公司通知",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi选场，先到先得，无材料审核或面试。",
+          "opensAt": null,
+          "deadline": "2027-01-12",
+          "firstComeFirstServed": true,
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityLabel": "1/14场显示「申し込む」，余位数量未公开。",
+          "availabilityCheckedAt": "2026-11-28T10:01:34+09:00",
+          "availabilitySource": {
+            "label": "雇主具体场次预约",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=254531&optNo=MI5PyC"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "Mynavi选场，先到先得，无材料审核或面试。"
+        }
+      ]
+    },
+    {
+      "id": "workshop-f-next-furukawa-shiko-design-2days-2028",
+      "company": "F-NEXTホールディングス株式会社（古川紙工・EPIS）",
+      "title": "28卒｜纸品商品企划设计 2DAYS",
+      "category": "internship",
+      "subtype": "品牌与商品视觉实作",
+      "status": "候选／未申请",
+      "checkedAt": "2026-11-28T10:01:34+09:00",
+      "description": "28卒设计相关学生及修士。设计向小组做面向实际用户的纸品商品企划、设计和发表。",
+      "intro": "28卒设计相关学生及修士。设计向小组做面向实际用户的纸品商品企划、设计和发表。",
+      "statusDetail": "逐场页显示「申し込む」，只注明营业方向已满，设计余位及图文材料截止未公布。",
+      "nextAction": "从1/28–29逐场页选设计方向，收到ES后提交书审，入选后带作品集。",
+      "notes": "1/28 13–18及19–21交流晚餐；1/29 09–17。申请先交ES，公开流程未列面试，作品集在入选后携带。供餐宿，双程交通费按凭证处理，现金报酬未核。",
+      "sources": [
+        {
+          "label": "雇主1/28–29设计／营业分支登记",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=113081&optNo=QlOLtC"
+        },
+        {
+          "label": "雇主课程及参加要求",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=113081&optNo=bp6no"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "event",
+          "date": "2027-01-28T13:00",
+          "endDate": "2027-01-28T18:00",
+          "label": "岐阜美浓｜第一天（另有19:00交流）"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-29T09:00",
+          "endDate": "2027-01-29T17:00",
+          "label": "岐阜美浓｜第二天，须参加"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-f-next-furukawa-shiko-design-2days-2028::2027-01-28T13:00",
+          "eventStart": "2027-01-28T13:00",
+          "eventEnd": "2027-01-29T17:00",
+          "format": "岐阜美浓市御手洗23，集团总部",
+          "reservationRequired": true,
+          "registrationMethod": "从1/28–29逐场页选设计方向，收到ES后提交书审，入选后带作品集。",
+          "opensAt": null,
+          "deadline": null,
+          "firstComeFirstServed": false,
+          "availabilityState": "registration_link_visible_seats_unknown",
+          "availabilityLabel": "逐场页显示「申し込む」，只注明营业方向已满，设计余位及图文材料截止未公布。",
+          "availabilityCheckedAt": "2026-11-28T10:01:34+09:00",
+          "availabilitySource": {
+            "label": "雇主1/28–29设计／营业分支登记",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=113081&optNo=QlOLtC"
+          },
+          "bookingStage": "候选／未预约",
+          "nextAction": "从1/28–29逐场页选设计方向，收到ES后提交书审，入选后带作品集。"
         }
       ]
     }

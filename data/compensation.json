@@ -7510,9 +7510,52 @@
         ],
         "limitations": "员工投稿口径与新卒设计组实际排班分开。"
       }
+    },
+    {
+      "name": "株式会社MCクラフト",
+      "aliases": [
+        "MCクラフト"
+      ],
+      "roles": [
+        {
+          "role": "展会空间设计1Day及往届新卒设计职",
+          "scope": "28卒1Day与27卒设计岗位学部参考；28卒修士金额未公布。",
+          "monthly": "往届本科基本月薪230,000日元",
+          "annual": "往届本科月薪×12＝2,760,000日元，奖金另计",
+          "bonus": "往届年1次，2025年3月实绩3个月",
+          "overtime": "往届无固定加班费，超时另付；设计岗实际工时未核",
+          "benefits": "往届要项注明可在宅，新人频率未公布；东京总部，上岗前可在埼玉工厂短期研修",
+          "intern": "本次1Day无报酬，无住宿补助，交通费1天最高3,000日元",
+          "sources": [
+            {
+              "label": "雇主课程及参加要求",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=254531&optNo=ReinX"
+            },
+            {
+              "label": "往届设计岗位待遇",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayPrevEmployment/index/?corpId=254531&recruitingCourseId=27020436"
+            }
+          ],
+          "checkedAt": "2026-11-28T10:01:34+09:00",
+          "sortValues": {
+            "monthlyJPY": 230000,
+            "annualJPY": 2760000,
+            "monthlyLabel": "27卒往届本科",
+            "annualLabel": "往届本科月薪×12，不含奖金",
+            "reference": true
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-28T10:01:34+09:00",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "本次未查到适用当届设计岗的公开工时或评价。",
+        "sources": []
+      }
     }
   ],
-  "updatedAt": "2026-11-27T12:24:00+09:00",
+  "updatedAt": "2026-11-28T10:01:34+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
@@ -10348,6 +10391,10 @@
           "url": "https://jobtalk.jp/companies/10430040"
         }
       ]
+    },
+    "株式会社MCクラフト": {
+      "tier": "consider",
+      "reason": "可做客户访谈、展会空间方案和发表；28卒正职待遇与新人在宅频率待核。"
     }
   }
 }
