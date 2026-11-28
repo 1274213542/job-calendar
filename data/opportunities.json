@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T10:01:34+09:00",
+  "updatedAt": "2026-11-28T15:12:10+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -10693,6 +10693,489 @@
           },
           "bookingStage": "候选／未预约",
           "nextAction": "从1/28–29逐场页选设计方向，收到ES后提交书审，入选后带作品集。"
+        }
+      ]
+    },
+    {
+      "id": "workshop-wave-dtp-poster-2days-2028",
+      "company": "株式会社WAVE",
+      "title": "28卒｜DTP宣传海报企划制作 2Days",
+      "category": "activity",
+      "subtype": "平面设计工作体验",
+      "status": "候选／未申请",
+      "statusDetail": "东京场可从公开逐场页进入报名，超额抽选。",
+      "attendanceMode": "onsite",
+      "location": "东京港区虎ノ門2-2-1 住友不動産虎ノ門タワー20F",
+      "checkedAt": "2026-11-28T15:11:03+09:00",
+      "description": "在WAVE东京办公室做宣传海报，从概念、草稿推进到电脑设计成品，并获得口头和书面反馈。",
+      "intro": "在WAVE东京办公室做宣传海报，从概念、草稿推进到电脑设计成品，并获得口头和书面反馈。",
+      "nextAction": "确认两天都能出席后，在Mynavi选择东京场并登记。",
+      "notes": "四年制大学或大学院在读、学过设计并会用Illustrator，须连续参加两天。公开流程仅列Mynavi报名和超额抽选，未列作品集或面试。两天均预计10:00–17:00。无报酬、交通费及住宿补助。",
+      "sources": [
+        {
+          "label": "Mynavi 东京场实际报名",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=97598&optNo=mgY5UC"
+        },
+        {
+          "label": "Mynavi 28卒海报制作课程及条件",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=97598&optNo=Taw07"
+        },
+        {
+          "label": "公司招聘与实习入口",
+          "url": "https://www.waveltd.co.jp/recruit/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2027-02-09",
+          "label": "东京场报名截止（钟点未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-24T10:00",
+          "label": "宣传海报制作第1天（预计时刻／候选）",
+          "endDate": "2027-02-24T17:00"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-25T10:00",
+          "label": "宣传海报制作第2天（预计时刻／候选）",
+          "endDate": "2027-02-25T17:00"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-wave-dtp-poster-2days-2028::2027-02-24T10:00",
+          "eventStart": "2027-02-24T10:00",
+          "eventEnd": "2027-02-25T17:00",
+          "format": "onsite",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi东京场登记，超额抽选",
+          "opensAt": null,
+          "deadline": "2027-02-09",
+          "deadlineLabel": "2027-02-09（钟点未公布）",
+          "firstComeFirstServed": false,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "逐场页显示东京场「申し込む」。需连续参加24–25日，余位未公布。",
+          "availabilityCheckedAt": "2026-11-28T15:11:03+09:00",
+          "availabilitySource": {
+            "label": "Mynavi 东京场实际报名",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=97598&optNo=mgY5UC"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "确认两天都能出席后，在Mynavi选择东京场并登记。"
+        }
+      ],
+      "sessionModel": {
+        "mode": "project_schedule",
+        "note": "两天连续参加，报名按2/24首日场次登记。"
+      }
+    },
+    {
+      "id": "workshop-wave-michinoeki-brand-1day-2028",
+      "company": "株式会社WAVE",
+      "title": "28卒｜道の駅品牌企划与Logo 1Day",
+      "category": "activity",
+      "subtype": "品牌设计工作体验",
+      "status": "候选／未申请",
+      "statusDetail": "两场东京日期均有公开报名按钮，超额抽选。",
+      "attendanceMode": "onsite",
+      "location": "东京港区虎ノ門2-2-1 住友不動産虎ノ門タワー20F",
+      "checkedAt": "2026-11-28T15:11:03+09:00",
+      "description": "以实际存在的道の駅为题，从市场调研到品牌概念、命名、Logo及宣传语，最后向员工提案并获得反馈。",
+      "intro": "以实际存在的道の駅为题，从市场调研到品牌概念、命名、Logo及宣传语，最后向员工提案并获得反馈。",
+      "nextAction": "从Mynavi的两个东京日期中选一场登记。",
+      "notes": "2028年3月毕业的本科及大学院学生。可选12/22或1/22，内容相同。未列作品集或面试，无报酬、交通费及住宿补助。",
+      "sources": [
+        {
+          "label": "Mynavi 两场各自报名及截止",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=9Y2bHC&corpId=97598"
+        },
+        {
+          "label": "公司发布的道の駅课题",
+          "url": "https://job.rikunabi.com/job_descriptions/1b616113f4b8a820/"
+        },
+        {
+          "label": "公司招聘与实习入口",
+          "url": "https://www.waveltd.co.jp/recruit/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-12",
+          "label": "12/22场报名截止（钟点未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-22T10:00",
+          "label": "东京候选场①",
+          "endDate": "2026-12-22T17:40"
+        },
+        {
+          "type": "deadline",
+          "date": "2027-01-12",
+          "label": "1/22场报名截止（钟点未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2027-01-22T10:00",
+          "label": "东京候选场②",
+          "endDate": "2027-01-22T17:40"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-wave-michinoeki-brand-1day-2028::2026-12-22T10:00",
+          "eventStart": "2026-12-22T10:00",
+          "eventEnd": "2026-12-22T17:40",
+          "format": "onsite",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi逐场登记，超额抽选",
+          "opensAt": null,
+          "deadline": "2026-12-12",
+          "deadlineLabel": "2026-12-12（钟点未公布）",
+          "firstComeFirstServed": false,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "逐场页显示12/22东京场「申し込む」，余位未公布。",
+          "availabilityCheckedAt": "2026-11-28T15:11:03+09:00",
+          "availabilitySource": {
+            "label": "Mynavi 两场各自报名及截止",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=9Y2bHC&corpId=97598"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "从Mynavi的两个东京日期中选一场登记。"
+        },
+        {
+          "id": "workshop-wave-michinoeki-brand-1day-2028::2027-01-22T10:00",
+          "eventStart": "2027-01-22T10:00",
+          "eventEnd": "2027-01-22T17:40",
+          "format": "onsite",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi逐场登记，超额抽选",
+          "opensAt": null,
+          "deadline": "2027-01-12",
+          "deadlineLabel": "2027-01-12（钟点未公布）",
+          "firstComeFirstServed": false,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "逐场页显示1/22东京场「申し込む」，余位未公布。",
+          "availabilityCheckedAt": "2026-11-28T15:11:03+09:00",
+          "availabilitySource": {
+            "label": "Mynavi 两场各自报名及截止",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index?optNo=9Y2bHC&corpId=97598"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "从Mynavi的两个东京日期中选一场登记。"
+        }
+      ],
+      "sessionModel": {
+        "mode": "choose_one",
+        "note": "两场内容相同，各自有报名截止，选一个东京场次。"
+      }
+    },
+    {
+      "id": "internship-tv-asahi-create-set-design-2028-2029",
+      "company": "株式会社テレビ朝日クリエイト",
+      "title": "28／29卒｜电视布景设计 3Days",
+      "category": "internship",
+      "subtype": "三天电视美术实作",
+      "status": "候选／未申请",
+      "statusDetail": "公司公开表单可打开，名额2–6人，按书类筛选。",
+      "attendanceMode": "onsite",
+      "location": "东京港区，具体会场待公司公布",
+      "checkedAt": "2026-11-28T15:11:03+09:00",
+      "description": "在电视美术现场了解布景设计流程，做布景企划，向现职设计师发表并得到讲评。",
+      "intro": "在电视美术现场了解布景设计流程，做布景企划，向现职设计师发表并得到讲评。",
+      "nextAction": "用公开表单做初始Entry，并按公司指引在截止前递交一页视觉自我介绍。",
+      "notes": "面向2028或2029年3月毕业的设计、建筑相关专攻。A4一页视觉自我介绍，JPG或PNG，最高3MB，可放项目作品和学生时期成果。公开流程未列另交完整作品集或入选前面试。截止后五个工作日内通知，入选后交学校履历书。无薪，交通实报最高20,000日元。",
+      "sources": [
+        {
+          "label": "公司当期布景设计实习要项",
+          "url": "https://www.tv-asahi-create.co.jp/topics/internship_design.html"
+        },
+        {
+          "label": "公司指定公开报名表",
+          "url": "https://forms.gle/F5UckH58uZGzL3APA"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-11T10:00",
+          "label": "Entry及材料提交截止"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-02T10:30",
+          "label": "电视布景设计第1天（候选）",
+          "endDate": "2027-02-02T18:30"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-03T10:30",
+          "label": "电视布景设计第2天（候选）",
+          "endDate": "2027-02-03T18:30"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-04T10:30",
+          "label": "电视布景设计第3天（候选）",
+          "endDate": "2027-02-04T18:30"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "internship-tv-asahi-create-set-design-2028-2029::2027-02-02T10:30",
+          "eventStart": "2027-02-02T10:30",
+          "eventEnd": "2027-02-04T18:30",
+          "format": "onsite",
+          "reservationRequired": true,
+          "registrationMethod": "公司公开表单Entry与一页资料书类筛选",
+          "opensAt": null,
+          "deadline": "2026-12-11T10:00",
+          "deadlineLabel": "2026-12-11 10:00",
+          "firstComeFirstServed": false,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "公开表单加载成功，正式参加取决于公司书审。",
+          "availabilityCheckedAt": "2026-11-28T15:11:03+09:00",
+          "availabilitySource": {
+            "label": "公司指定公开报名表",
+            "url": "https://forms.gle/F5UckH58uZGzL3APA"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "用公开表单做初始Entry，并按公司指引在截止前递交一页视觉自我介绍。"
+        }
+      ],
+      "sessionModel": {
+        "mode": "project_schedule",
+        "note": "2/2–4为同一批实习，三天都要参加。"
+      }
+    },
+    {
+      "id": "internship-tv-tokyo-art-program-set-5days-2028",
+      "company": "株式会社テレビ東京アート",
+      "title": "28卒｜电视节目布景制作 5Days",
+      "category": "internship",
+      "subtype": "五天电视美术实务",
+      "status": "候选／未申请",
+      "statusDetail": "公司公布当期募集，并从官网链接到Mynavi课程。",
+      "attendanceMode": "onsite",
+      "location": "东京品川区東品川1-3-3 天王洲スタジオ，节目安排可能改在港区神谷町或六本木摄影棚",
+      "checkedAt": "2026-11-28T15:11:03+09:00",
+      "description": "进入电视节目制作现场，做布景设计，参与会议、看图、下单辅助、搭建和录制，接受个人反馈。",
+      "intro": "进入电视节目制作现场，做布景设计，参与会议、看图、下单辅助、搭建和录制，接受个人反馈。",
+      "nextAction": "从Mynavi做课程Entry，按回执指引提交作品集，再核具体批次。",
+      "notes": "面向2028年3月前毕业，含大学院。Mynavi Entry后提交作品集，公开流程未列入选前面试。每日钟点、确切配属会场与个人批次待公司通知。供午餐，交通实报，住宿实费最高14,000日元，未列现金报酬。",
+      "sources": [
+        {
+          "label": "公司在Mynavi公布的实际课题及Entry",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=225949&optNo=PTGCW"
+        },
+        {
+          "label": "公司实习公告",
+          "url": "https://www.tx-art.co.jp/recruit/"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-31",
+          "label": "公开课程报名截止（钟点未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-01",
+          "label": "五天实习批次①（时刻未公布）",
+          "endDate": "2027-02-05"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-15",
+          "label": "五天实习批次②（时刻未公布）",
+          "endDate": "2027-02-19"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "internship-tv-tokyo-art-program-set-5days-2028::2027-02-01",
+          "eventStart": "2027-02-01",
+          "eventEnd": "2027-02-05",
+          "format": "onsite",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi课程Entry及作品集书审",
+          "opensAt": null,
+          "deadline": "2026-12-31",
+          "deadlineLabel": "2026-12-31（钟点未公布）",
+          "firstComeFirstServed": false,
+          "availabilityState": "unknown",
+          "availabilityLabel": "公司公告已列该批，个人可选状态及席位待核。",
+          "availabilityCheckedAt": "2026-11-28T15:11:03+09:00",
+          "availabilitySource": {
+            "label": "公司在Mynavi公布的实际课题及Entry",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=225949&optNo=PTGCW"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "从Mynavi做课程Entry，按回执指引提交作品集，再核具体批次。"
+        },
+        {
+          "id": "internship-tv-tokyo-art-program-set-5days-2028::2027-02-15",
+          "eventStart": "2027-02-15",
+          "eventEnd": "2027-02-19",
+          "format": "onsite",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi课程Entry及作品集书审",
+          "opensAt": null,
+          "deadline": "2026-12-31",
+          "deadlineLabel": "2026-12-31（钟点未公布）",
+          "firstComeFirstServed": false,
+          "availabilityState": "unknown",
+          "availabilityLabel": "公司公告已列该批，个人可选状态及席位待核。",
+          "availabilityCheckedAt": "2026-11-28T15:11:03+09:00",
+          "availabilitySource": {
+            "label": "公司在Mynavi公布的实际课题及Entry",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=225949&optNo=PTGCW"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "从Mynavi做课程Entry，按回执指引提交作品集，再核具体批次。"
+        }
+      ],
+      "sessionModel": {
+        "mode": "project_schedule",
+        "note": "公司公布两个连续五天批次。具体批次安排以入选通知为准。"
+      }
+    },
+    {
+      "id": "workshop-odelic-lighting-space-design-2days-2028",
+      "company": "オーデリック株式会社",
+      "title": "28卒｜空间照明设计工作体验 2Days",
+      "category": "activity",
+      "subtype": "两天照明与空间设计工作体验",
+      "status": "候选／未申请",
+      "statusDetail": "2/16东京场有公开报名入口，入选需通过作品集审核。",
+      "attendanceMode": "onsite",
+      "location": "东京杉并区宮前1-17-5 オーデリック本社",
+      "checkedAt": "2026-11-28T15:11:03+09:00",
+      "description": "操作照明设备，从图纸和演出需求出发做空间照明规划小组作业并获得设计师个人反馈。",
+      "intro": "操作照明设备，从图纸和演出需求出发做空间照明规划小组作业并获得设计师个人反馈。",
+      "nextAction": "在Mynavi核2/16东京两天场，按报名后指引提交作品集。",
+      "notes": "文理本科及大学院学生可报。Mynavi课程列12/31 Entry截止，作品集另按报名后通知提交。公开流程未列入选前面试，第一天安排五分钟作品介绍及室内空间速写练习，未列报名必交素描。两天参加者可获正式选考第一轮面试免除。两天供餐和饮品，未列现金报酬，交通住宿不补。",
+      "sources": [
+        {
+          "label": "Mynavi 2/16–17东京场与每日流程",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=3847&optNo=VOZ-yC"
+        },
+        {
+          "label": "Mynavi 28卒空间照明设计课程",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=3847&optNo=oxoo0"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-31",
+          "label": "Mynavi公开课程Entry截止（钟点未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-16T10:00",
+          "label": "照明工作体验首日（预计时刻／候选）",
+          "endDate": "2027-02-16T17:00"
+        },
+        {
+          "type": "event",
+          "date": "2027-02-17T10:00",
+          "label": "照明工作体验次日（预计时刻／候选）",
+          "endDate": "2027-02-17T17:00"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-odelic-lighting-space-design-2days-2028::2027-02-16T10:00",
+          "eventStart": "2027-02-16T10:00",
+          "eventEnd": "2027-02-17T17:00",
+          "format": "onsite",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi逐场报名，事前作品集书审",
+          "opensAt": null,
+          "deadline": "2026-12-31",
+          "deadlineLabel": "2026-12-31（钟点未公布）",
+          "firstComeFirstServed": false,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "逐场页显示2/16东京场「申し込む」。须连续参加2/16–17，具体作品集截止未公开。",
+          "availabilityCheckedAt": "2026-11-28T15:11:03+09:00",
+          "availabilitySource": {
+            "label": "Mynavi 2/16–17东京场与每日流程",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=3847&optNo=VOZ-yC"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "在Mynavi核2/16东京两天场，按报名后指引提交作品集。"
+        }
+      ],
+      "sessionModel": {
+        "mode": "project_schedule",
+        "note": "2/16–17为同一批，按2/16起始场报名。12/31是课程总入口截止，作品集期限由公司另行通知。"
+      }
+    },
+    {
+      "id": "workshop-im-property-design-retail-renewal-2028",
+      "company": "株式会社三越伊勢丹プロパティ・デザイン",
+      "title": "28卒｜商业设施改造策略设计 1Day",
+      "category": "activity",
+      "subtype": "商业空间设计工作坊",
+      "status": "候选／未申请",
+      "statusDetail": "Mynavi逐场页列有12/17商业设施分支报名入口，超额抽选。",
+      "attendanceMode": "onsite",
+      "location": "东京新宿三丁目站附近 H&I ビル",
+      "checkedAt": "2026-11-28T15:11:03+09:00",
+      "description": "IMPD Experience商业空间分支，围绕现有商业设施做更新策略设计，与该方向的专业员工交流。",
+      "intro": "IMPD Experience商业空间分支，围绕现有商业设施做更新策略设计，与该方向的专业员工交流。",
+      "nextAction": "在Mynavi选择12/17商业设施更新主题东京场。",
+      "notes": "按公开场次要求携带笔具，未列作品集或面试。名额超出时抽选，预计截止次日发通知，工资与交通补助未公开。12/10是另一个酒店项目管理主题。",
+      "sources": [
+        {
+          "label": "Mynavi IMPD Experience 东京场逐场报名",
+          "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=92236&optNo=sFir4C"
+        },
+        {
+          "label": "公司新卒招聘与业务介绍",
+          "url": "https://www.impd.co.jp/recruit.html"
+        }
+      ],
+      "milestones": [
+        {
+          "type": "deadline",
+          "date": "2026-12-09",
+          "label": "商业设施设计工作坊报名截止（钟点未公布）"
+        },
+        {
+          "type": "event",
+          "date": "2026-12-17T13:00",
+          "label": "商业设施改造工作坊｜新宿三丁目（候选）",
+          "endDate": "2026-12-17T18:00"
+        }
+      ],
+      "registrationSessions": [
+        {
+          "id": "workshop-im-property-design-retail-renewal-2028::2026-12-17T13:00",
+          "eventStart": "2026-12-17T13:00",
+          "eventEnd": "2026-12-17T18:00",
+          "format": "onsite",
+          "reservationRequired": true,
+          "registrationMethod": "Mynavi逐场登记，超额抽选",
+          "opensAt": null,
+          "deadline": "2026-12-09",
+          "deadlineLabel": "2026-12-09（钟点未公布）",
+          "firstComeFirstServed": false,
+          "availabilityState": "public_reservation_link",
+          "availabilityLabel": "12/17商业设施主题行显示「申し込む」，余位未公布。",
+          "availabilityCheckedAt": "2026-11-28T15:11:03+09:00",
+          "availabilitySource": {
+            "label": "Mynavi IMPD Experience 东京场逐场报名",
+            "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=92236&optNo=sFir4C"
+          },
+          "bookingStage": "候选／未申请",
+          "nextAction": "在Mynavi选择12/17商业设施更新主题东京场。"
         }
       ]
     }

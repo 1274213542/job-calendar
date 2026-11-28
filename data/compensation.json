@@ -7553,9 +7553,263 @@
         "summary": "本次未查到适用当届设计岗的公开工时或评价。",
         "sources": []
       }
+    },
+    {
+      "name": "株式会社WAVE",
+      "aliases": [
+        "WAVE",
+        "ウェイヴ"
+      ],
+      "roles": [
+        {
+          "role": "平面／品牌／Web设计",
+          "scope": "27卒东京公司刊登计划，适用于含设计师的全职招聘条件。28卒单独待遇待核。",
+          "monthly": "27卒东京计划月薪 275,000日元",
+          "annual": "275,000日元×12＝3,300,000日元（参考年化，不含奖金）",
+          "bonus": "往届年2次（3月、9月）",
+          "overtime": "基本薪资221,000日元，东京津贴20,000日元，另含固定20小时34,000日元，超出另付。该公司公开概况未列实际月均工时。",
+          "benefits": "往届条件写第二年起可在宅，实际频率未知。正式岗位配属东京虎ノ門本社或大阪梅田本社，先听取本人意愿。",
+          "intern": "东京品牌企划1Day及DTP海报2Days均无工资、交通和住宿补助。",
+          "sources": [
+            {
+              "label": "27卒东京新卒待遇（包括设计师）",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayPrevEmployment/index?corpId=97598&recruitingCourseId=27043858"
+            },
+            {
+              "label": "公司发布的道の駅课题",
+              "url": "https://job.rikunabi.com/job_descriptions/1b616113f4b8a820/"
+            },
+            {
+              "label": "Mynavi 28卒海报制作课程及条件",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=97598&optNo=Taw07"
+            },
+            {
+              "label": "公司招聘与实习入口",
+              "url": "https://www.waveltd.co.jp/recruit/"
+            }
+          ],
+          "checkedAt": "2026-11-28T15:11:03+09:00",
+          "sortValues": {
+            "monthlyJPY": 275000,
+            "annualJPY": 3300000,
+            "monthlyLabel": "27卒东京计划月薪",
+            "annualLabel": "往届月薪×12，不含奖金",
+            "reference": true
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-28T15:11:03+09:00",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "同一法人设计岗员工评分和实际工时未核。",
+        "sources": []
+      }
+    },
+    {
+      "name": "株式会社テレビ朝日クリエイト",
+      "aliases": [
+        "テレビ朝日クリエイト",
+        "TV Asahi Create"
+      ],
+      "roles": [
+        {
+          "role": "电视布景设计师",
+          "scope": "27卒同岗位要项所列2026年4月研究生及本科实绩。28卒同岗未核。",
+          "monthly": "往届修士／本科月薪 258,800日元",
+          "annual": "258,800日元×12＝3,105,600日元（参考年化，不含奖金）",
+          "bonus": "往届年2次（6月、12月）",
+          "overtime": "基本薪资185,000日元，固定45小时73,800日元，超出另付。同岗实际月均工时未核。",
+          "benefits": "正式岗位往届为东京港区电视朝日本社或EXタワー本社。在宅条件未披露。",
+          "intern": "本次3天实习无薪，往返交通按规实报，最高20,000日元。",
+          "sources": [
+            {
+              "label": "公司当期布景设计实习要项",
+              "url": "https://www.tv-asahi-create.co.jp/topics/internship_design.html"
+            },
+            {
+              "label": "27卒布景设计岗待遇与工作地点",
+              "url": "https://job.mynavi.jp/27/pc/search/corp99897/recruiting_course27039892/recruiting_course.html"
+            }
+          ],
+          "checkedAt": "2026-11-28T15:11:03+09:00",
+          "sortValues": {
+            "monthlyJPY": 258800,
+            "annualJPY": 3105600,
+            "monthlyLabel": "往届修士／本科月薪",
+            "annualLabel": "往届月薪×12，不含奖金",
+            "reference": true
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-28T15:11:03+09:00",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "同岗实际月均工时和员工评分未核。",
+        "sources": []
+      }
+    },
+    {
+      "name": "株式会社テレビ東京アート",
+      "aliases": [
+        "テレビ東京アート",
+        "TV Tokyo Art"
+      ],
+      "roles": [
+        {
+          "role": "电视节目美术／布景制作",
+          "scope": "2025四美大合同说明会的雇主资料，本科综合岗旧额，覆盖美术、照明、CG等。28卒同岗及修士工资未公布。",
+          "monthly": "旧资料本科月薪 235,300日元",
+          "annual": "235,300日元×12＝2,823,600日元（参考年化，不含奖金）",
+          "bonus": "28卒奖金未核",
+          "overtime": "旧资料含固定残业费35,300日元，覆盖小时数未列。2025年度全社所定外劳动公开月均40.0小时，美术组数据未披露。",
+          "benefits": "旧资料正式岗位在东京品川区或港区。新卒在宅与各岗配属细节未核。",
+          "intern": "本次5日实习供午餐、交通实报，住宿实费最高14,000日元，现金报酬未公布。",
+          "sources": [
+            {
+              "label": "公司在Mynavi公布的实际课题及Entry",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=225949&optNo=PTGCW"
+            },
+            {
+              "label": "四美大合同说明会公司资料 2025，往届本科综合岗",
+              "url": "https://www2.gakujo.ne.jp/4bidai/2025/kigyoinfo.pdf"
+            },
+            {
+              "label": "雇主公司概况，2025年度全社工时",
+              "url": "https://job.mynavi.jp/28/pc/search/corp225949/outline.html"
+            }
+          ],
+          "checkedAt": "2026-11-28T15:11:03+09:00",
+          "sortValues": {
+            "monthlyJPY": 235300,
+            "annualJPY": 2823600,
+            "monthlyLabel": "旧资料本科月薪",
+            "annualLabel": "往届月薪×12，不含奖金",
+            "reference": true
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-28T15:11:03+09:00",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "雇主披露2025年度全社所定外工时月均40.0小时，具体布景岗位和员工评分未核。",
+        "sources": [
+          {
+            "label": "雇主公司概况，2025年度全社工时",
+            "url": "https://job.mynavi.jp/28/pc/search/corp225949/outline.html"
+          }
+        ]
+      }
+    },
+    {
+      "name": "オーデリック株式会社",
+      "aliases": [
+        "オーデリック",
+        "ODELIC"
+      ],
+      "roles": [
+        {
+          "role": "空间照明设计师",
+          "scope": "27卒同岗位要项所列2026年4月大卒实绩。28卒及修士待遇待核。",
+          "monthly": "往届同岗本科基本月薪 260,500日元",
+          "annual": "260,500日元×12＝3,126,000日元（参考年化，不含奖金）",
+          "bonus": "2025年3月期实绩年3次（4月、7月、12月）",
+          "overtime": "往届无固定加班费，超时另付。公司概况中全社月均所定外劳动14.0小时（页面标注2026年度），设计组数据未知。",
+          "benefits": "往届同岗在东京杉并区宮前1-17-5本社。新卒在宅制度适用与频率未核。",
+          "intern": "本次2天工作体验提供午餐、饮品，交通住宿不补，现金报酬未公布。",
+          "sources": [
+            {
+              "label": "Mynavi 28卒空间照明设计课程",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=3847&optNo=oxoo0"
+            },
+            {
+              "label": "Mynavi 2/16–17东京场与每日流程",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=3847&optNo=VOZ-yC"
+            },
+            {
+              "label": "27卒空间设计岗待遇与地点，2026年4月实绩",
+              "url": "https://job.mynavi.jp/27/pc/search/corp3847/recruiting_course27033961/recruiting_course.html"
+            },
+            {
+              "label": "雇主公司概况，全社工时",
+              "url": "https://job.mynavi.jp/28/pc/search/corp3847/outline.html"
+            }
+          ],
+          "checkedAt": "2026-11-28T15:11:03+09:00",
+          "sortValues": {
+            "monthlyJPY": 260500,
+            "annualJPY": 3126000,
+            "monthlyLabel": "往届同岗本科基本月薪",
+            "annualLabel": "往届月薪×12，不含奖金",
+            "reference": true
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-28T15:11:03+09:00",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "雇主自报全社所定外劳动月均14.0小时（页面标注2026年度），设计岗单独工时与员工评分未核。",
+        "sources": [
+          {
+            "label": "雇主公司概况，全社工时",
+            "url": "https://job.mynavi.jp/28/pc/search/corp3847/outline.html"
+          }
+        ]
+      }
+    },
+    {
+      "name": "株式会社三越伊勢丹プロパティ・デザイン",
+      "aliases": [
+        "三越伊勢丹プロパティ・デザイン",
+        "IMPD"
+      ],
+      "roles": [
+        {
+          "role": "商业空间设计・项目配属",
+          "scope": "27卒综合招聘要项所列2026年4月实绩，适用口径为含设计配属的综合岗位。28卒设计专属薪资未公布。",
+          "monthly": "往届综合岗修士／本科基本月薪 241,000日元",
+          "annual": "241,000日元×12＝2,892,000日元（参考年化，不含奖金）",
+          "bonus": "往届年2次（6月、12月）",
+          "overtime": "往届无固定残业制度。设计岗位实际工时未核。",
+          "benefits": "往届综合岗位地点范围为东京、北海道、新潟、爱知、大阪、福冈。东京本社为西新宿3-2-5。设计岗配属、在宅适用和频率未核。",
+          "intern": "本次商业设施工作坊的工资、交通与住宿补助未公布。",
+          "sources": [
+            {
+              "label": "Mynavi IMPD Experience 东京场逐场报名",
+              "url": "https://job.mynavi.jp/28/pc/corpinfo/displaySeminar/index/?corpId=92236&optNo=sFir4C"
+            },
+            {
+              "label": "27卒综合岗与初任地范围，2026年4月实绩",
+              "url": "https://job.mynavi.jp/27/pc/corpinfo/displayEmployment/index?corpId=92236&recruitingCourseId=27026489"
+            },
+            {
+              "label": "公司新卒招聘与业务介绍",
+              "url": "https://www.impd.co.jp/recruit.html"
+            }
+          ],
+          "checkedAt": "2026-11-28T15:11:03+09:00",
+          "sortValues": {
+            "monthlyJPY": 241000,
+            "annualJPY": 2892000,
+            "monthlyLabel": "往届综合岗修士／本科基本月薪",
+            "annualLabel": "往届月薪×12，不含奖金",
+            "reference": true
+          }
+        }
+      ],
+      "employeeReviews": {
+        "checkedAt": "2026-11-28T15:11:03+09:00",
+        "status": "not_verified_for_role",
+        "rating": null,
+        "summary": "同一法人设计岗实际工时及可靠员工评分未核。",
+        "sources": []
+      }
     }
   ],
-  "updatedAt": "2026-11-28T10:01:34+09:00",
+  "updatedAt": "2026-11-28T15:12:10+09:00",
   "recruitingTiers": {
     "Goodpatch": {
       "tier": "priority",
