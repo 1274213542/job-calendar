@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T15:12:10+09:00",
+  "updatedAt": "2026-11-28T21:12:31+09:00",
   "timezone": "Asia/Tokyo",
   "opportunities": [
     {
@@ -5239,7 +5239,7 @@
       "category": "selection",
       "subtype": "本选考",
       "description": "エムシーディースリー株式会社（三菱商事集团）。设计数字产品的用户研究、旅程、线框和设计系统，含品牌相关工作。2028届大学及大学院生可。",
-      "notes": "官方流程：Entry→公司说明会→作品集书类选考。已完成OneCareer预Entry，本次未要求上传附件；后续公司向注册邮箱发MyPage与活动案内。具体说明会日期和形式尚未核到。平台窗口分别为OneCareer 11/30 00:00、外資就活11/30 23:59；官方ATS未列统一截止。",
+      "notes": "官方流程：Entry→公司说明会→作品集书类选考。已完成OneCareer预Entry，本次未要求上传附件；后续公司向注册邮箱发MyPage与活动案内。具体说明会日期和形式尚未核到。平台窗口分别为OneCareer 12/7 00:00、外資就活11/30 23:59；官方ATS未列统一截止。",
       "sources": [
         {
           "label": "当届UI/UX岗位",
@@ -5267,6 +5267,11 @@
           "type": "deadline",
           "date": "2026-11-30T23:59",
           "label": "外資就活刊登截止／官方ATS期限待确认"
+        },
+        {
+          "type": "deadline",
+          "date": "2026-12-07T00:00",
+          "label": "OneCareer 平台预登记窗口"
         }
       ],
       "checkedAt": "2026-11-08",
